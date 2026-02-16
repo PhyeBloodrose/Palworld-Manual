@@ -1,0 +1,443 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {
+        "_commented_out_option": {
+            "type": "Toggle",
+            "default": true
+        },
+        "Journey_Missions": {
+            "description": [
+                "Include all Main Missions as checks.",
+                "Also called 'The Journey'."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Extra Options"
+        },
+        "Sub_Missions": {
+            "description": [
+                "Include all Sub Missions as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "Research_Tasks": {
+            "description": [
+                "Include all Research in the Pal Research Laboratory as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "Capture_Pals": {
+            "description": [
+                "Capture every pal 12 times for the capture bonus is a check."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "Predator_Pals": {
+            "description": [
+                "Includes all Predator Pals as locations."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "Diamond_Passives": {
+            "description": [
+                "Includes all Diamond Passives as locations.",
+                "Requires a lot of luck early to obtain them."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "All_Schematics": {
+            "description": [
+                "Adds all schematics into the item pool.",
+                "Useful for those who are capable of generating items into the game on their own. Either way, they're treated as filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Skill_Fruits": {
+            "description": [
+                "Adds all skill fruits into the item pool.",
+                "Useful for those who are capable of generating items into the game on their own. Skill Fruits are treated as Useful items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Potions": {
+            "description": [
+                "Adds all of the Remedies and Elixirs into the item pool. Those potions which increases a player's stat.",
+                "Useful for those who are capable of generating items into the game on their own. Remedies and Elixirs are treated as Filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Misc_Consumables": {
+            "description": [
+                "Adds various miscellenous consumables into the pool. Such as medicine and technology books.",
+                "Useful for those who are capable of generating items into the game on their own. Remedies and Elixirs are treated as Filler items.",
+                "All these items are considered fillers."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Stat_Fruits": {
+            "description": [
+                "Adds all of the Stat Fruits into the item pool. Those fruits which increases a pal's hidden stat values.",
+                "This also includes the Starfruits which increases the potential of Pals.",
+                "This also includes the Kinship fruits which increases the trust of Pals",
+                "Useful for those who are capable of generating items into the game on their own. Stat Fruits are treated as Useful items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Tech_Books": {
+            "description": [
+                "Adds all of the Work Suitability Technique Books into the item pool.",
+                "Useful for those who are capable of generating items into the game on their own. Technique Books are treated as Useful items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Implants": {
+            "description": [
+                "Adds all of the various Implants into the item pool.",
+                "When obtained through the multiworld, allow yourself to use said Implant with the Pal Surgery Table or purchase the needed one from the Bounty/Arena Merchant.",
+                "Implants are treated as Useful items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Passives": {
+            "description": [
+                "Adds all of the various Passives into the item pool as items.",
+                "This is not the same as the implants which already exists in the game.",
+                "When obtained through the multiworld, allow yourself to use said Passive on Pals you capture or Breed.",
+                "Diamond, Golden and White Passives are treated as Useful items.",
+                "Red Passives are treated as Filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Include_Levelups": {
+            "description": [
+                "Includes Level-Up Stats in the pool.",
+                "Only allow yourself to gain stats through level up if you obtain the level up item.",
+                "If enabled, will add a level requirement to regions and bosses besides their normal requirement."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Start_With_Palbox": {
+            "description": [
+                "If you wish to start with the palbox or not."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "Random_Spawn": {
+            "description": [
+                "This will give you one of the spawn locations as your starting location.",
+                "If disabled, will always give you 'Windswept Pass' which will allow you to start in Windswept Hills as usual.",
+                "To enable spawn locations in the game, make sure your world is set on Multiplayer, click respawn and then you'll be able to pick where to spawn!"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Extra Options"
+        },
+        "Journey_Goal": {
+            "description": [
+                "Journey: Complete all Main Missions.",
+                "Requires 'Journey Missions' to be enabled to generate properly."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Tower_Goal": {
+            "description": [
+                "Tower Rush: Defeat all 7 Tower Bosses. In any order you want."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Legendary_Goal": {
+            "description": [
+                "Legendary Hunt: Defeat or Capture all Legendary Pals, those being; Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon and Neptilius."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Predator_Goal": {
+            "description": [
+                "Predator Hunter: Defeat all the different Predator Pals.",
+                "Requires 'Predator Pals' to be enabled to generate properly."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Raid_Goal": {
+            "description": [
+                "Raid Boss: Defeat all the Raid Bosses. Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Veteran_Goal": {
+            "description": [
+                "Veteran Hunter: Defeat all 100 Overworld Bosses!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Chef_Goal": {
+            "description": [
+                "Master Chef: Cook all the various dishes within Palworld to goal!",
+                "Requires 'Chefsanity' to be enabled to generate properly."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options - ONLY ACTIVATE ONE"
+        },
+        "Pal_Merchants": {
+            "description": [
+                "Enables all of the merchants which sells pals as checks.",
+                "Wears a blue coat."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Item_Merchants": {
+            "description": [
+                "Enables all of the merchants which sells common items as checks.",
+                "Wears a red coat."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Ammo_Merchants": {
+            "description": [
+                "Enables all of the merchants which sells ammo as checks.",
+                "Wears a green coat."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Arena_Merchant": {
+            "description": [
+                "Enables the arena merchant which sells items for tickets as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Bounty_Merchants": {
+            "description": [
+                "Enables all of the bounty merchants which sells items for bounty tokens as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Medal_Merchant": {
+            "description": [
+                "Enables the Medal Merchant which sells items for Dog Coins as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Black_Marketeers": {
+            "description": [
+                "Enables all of the Black Marketeers scattered around the world as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Limit_Black_Marketeer": {
+            "description": [
+                "This will add a 'Secret Membership Card' item into the pool which will then be required to shop from the Black Marketeers."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Limit_Wandering_Merchant": {
+            "description": [
+                "This will add a 'Membership Card' item into the pool which will then be required to shop from the Wandering Merchants. Both Green and Red."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Limit_Pal_Merchant": {
+            "description": [
+                "This will add a 'Pal Membership Card' item into the pool which will then be required to shop from the Pal Merchants."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Limit_Medal_Merchant": {
+            "description": [
+                "This will add a 'Strange Membership Card' item into the pool which will then be required to shop from the Medal Merchants."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Limit_Bounty_Merchant": {
+            "description": [
+                "This will add a 'Bounty Hunter Card' item into the pool which will then be required to shop from the Bounty Hunter Shops."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Limit_Arena_Merchant": {
+            "description": [
+                "This will add a 'Arena Membership Card' item into the pool which will then be required to shop from the Arena Merchant."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Cooking_Recipes": {
+            "description": [
+                "This will add recipes for all dishes you can cook into the item pool which will then be required to cook said recipe.",
+                "They'll be treated as progression items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Elemental_Orbs": {
+            "description": [
+                "This will add orbs of each Element into the pool, restricting the capture of pals if you do not have enough of said element.",
+                "They'll be treated as progression items.",
+                "The orbs will match the rarity number each pal has, excluding those with a rarity of 20, they'll require 11 orbs instead.",
+                "Dual-element Pals requires both of its elements to have enough orbs for them to be in logic."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Ingredients": {
+            "description": [
+                "This will add all the various ingredients into the item pool. Such as Eggs, Milk and Tomatoes.",
+                "They'll be treated as filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Food": {
+            "description": [
+                "This will add all the various food dishes into the item pool. Such as Baked Berries, Bread and Omelette.",
+                "They'll be treated as filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Chefsanity": {
+            "description": [
+                "Includes all dishes you can cook as checks.",
+                "Work really well with the 'Cooking Recipes' option!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Options"
+        },
+        "_Example_Toggle": {
+            "description": [
+                "This is a Toggle",
+                "A simple boolean, aka True or False set the initial value with \"default\""
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Example Options"
+        },
+        "_Example_Choice": {
+            "type": "Choice",
+            "description": [
+                "This is a Choice",
+                "Let the user pick from a list of values",
+                "allow_custom_value let a player define their own text value",
+                "Currently the only use for Choice in Manual outside of hooks is the goal"
+            ],
+            "values": {
+                "start": 0,
+                "test": 1
+            },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Example Options"
+        },
+        "_Example_Range": {
+            "type": "Range",
+            "description": [
+                "This is a Range",
+                "Allow the player to specify a value between 'start' and 'end'",
+                "if you include a \"values\" you can define the label for certain values",
+                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
+            ],
+            "range_start": 0,
+            "default": 1,
+            "range_end": 10,
+            "values": { "example": 2 },
+            "group": "Example Options"
+        },
+
+        "_DLC_enabled": {
+            "display_name": "DLC Enabled",
+            "description": "Is the Dlc enabled?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": true
+        }
+    }
+
+}

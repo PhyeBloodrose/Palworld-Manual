@@ -1,0 +1,261 @@
+{
+    "Sub Missions": {
+        "yaml_option": [ "Sub_Missions" ],
+        "hidden": false
+    },
+    "Research Tasks": {
+        "yaml_option": [ "Research_Tasks" ],
+        "hidden": false
+    },
+    "Raid Boss": {
+        "hidden": true
+    },
+    "Capture Challenges": {
+        "hidden": false
+    },
+    "Capture Pals": {
+        "yaml_option": [ "Capture_Pals" ],
+        "hidden": true
+    },
+    "Diamond Passives": {
+        "yaml_option": [ "Diamond_Passives" ],
+        "hidden": true
+    },
+    "Passives Unlocked": {
+        "yaml_option": [ "Passives" ],
+        "hidden": false
+    },
+    "Predator Hunts": {
+        "yaml_option": [ "Predator_Pals" ],
+        "hidden": false
+    },
+    "Schematics": {
+        "yaml_option": [ "All_Schematics" ],
+        "hidden": false
+    },
+    "Skill Fruits": {
+        "yaml_option": [ "Skill_Fruits" ],
+        "hidden": false
+    },
+    "Elixirs": {
+        "yaml_option": [ "Potions" ],
+        "hidden": false
+    },
+    "Stat Fruits": {
+        "yaml_option": [ "Stat_Fruits" ],
+        "hidden": false
+    },
+    "Technique Books": {
+        "yaml_option": [ "Tech_Books" ],
+        "hidden": false
+    },
+    "Key Items - Implants": {
+        "yaml_option": [ "Implants" ],
+        "hidden": false
+    },
+    "Player Levels": {
+        "yaml_option": [ "Include_Levelups" ],
+        "hidden": true
+    },
+    "Power Source": {
+        "hidden": true
+    },
+    "Legendary": {
+        "hidden": true
+    },
+    "Spawn Keys": {
+        "hidden": true
+    },
+    "EZ_Mounts": {
+        "hidden": true
+    },
+    "EZ_HotArmor": {
+        "hidden": true
+    },
+    "EZ_ColdArmor": {
+        "hidden": true
+    },
+    "Cloth Armor": {
+        "hidden": true
+    },
+    "Leather Armor": {
+        "hidden": true
+    },
+    "Metal Armor": {
+        "hidden": true
+    },
+    "Bosses": {
+        "hidden": true
+    },
+    "Base Foundations": {
+        "hidden": true
+    },
+    "Fishing Bait": {
+        "hidden": true
+    },
+    "Starting Bonus": {
+        "yaml_option": [ "Start_With_Palbox" ],
+        "hidden": true
+    },
+    "Random Start": {
+        "yaml_option": [ "Random_Spawn" ],
+        "hidden": true
+    },
+    "Not Random Start": {
+        "yaml_option": [ "!Random_Spawn" ],
+        "hidden": true
+    },
+    "Journey Goal": {
+        "yaml_option": [ "Journey_Goal" ],
+        "hidden": true
+    },
+    "Tower Bosses": {
+        "yaml_option": [ "Tower_Goal" ],
+        "hidden": true
+    },
+    "Tower Rush": {
+        "yaml_option": [ "Tower_Goal" ],
+        "hidden": false
+    },
+    "Tower Rush Goal": {
+        "yaml_option": [ "Tower_Goal" ],
+        "hidden": true
+    },
+    "Legendary Hunt Goal": {
+        "yaml_option": [ "Legendary_Goal" ],
+        "hidden": false
+    },
+    "Predators": {
+        "hidden": true
+    },
+    "Predator Hunter Goal": {
+        "yaml_option": [ "Predator_Goal" ],
+        "hidden": true
+    },
+    "Raid Bosses": {
+        "yaml_option": [ "Raid_Goal" ],
+        "hidden": false
+    },
+    "Raid Boss Goal": {
+        "yaml_option": [ "Raid_Goal" ],
+        "hidden": true
+    },
+    "Veteran Hunter": {
+        "yaml_option": [ "Veteran_Goal" ],
+        "hidden": false
+    },
+    "Pal Merchants": {
+        "yaml_option": [ "Pal_Merchants" ],
+        "hidden": true
+    },
+    "Item Merchants": {
+        "yaml_option": [ "Item_Merchants" ],
+        "hidden": true
+    },
+    "Ammo Merchants": {
+        "yaml_option": [ "Ammo_Merchants" ],
+        "hidden": true
+    },
+    "Arena Merchant": {
+        "yaml_option": [ "Arena_Merchant" ],
+        "hidden": true
+    },
+    "Bounty Merchants": {
+        "yaml_option": [ "Bounty_Merchants" ],
+        "hidden": true
+    },
+    "Medal Merchant": {
+        "yaml_option": [ "Medal_Merchant" ],
+        "hidden": true
+    },
+    "Black Marketeer": {
+        "yaml_option": [ "Black_Marketeers" ],
+        "hidden": true
+    },
+    "Black Limit": {
+        "yaml_option": [ "Limit_Black_Marketeer" ],
+        "hidden": true
+    },
+    "Merchant Limit": {
+        "yaml_option": [ "Limit_Wandering_Merchant" ],
+        "hidden": true
+    },
+    "Pal Limit": {
+        "yaml_option": [ "Limit_Pal_Merchant" ],
+        "hidden": true
+    },
+    "Bounty Limit": {
+        "yaml_option": [ "Limit_Bounty_Merchant" ],
+        "hidden": true
+    },
+    "Arena Limit": {
+        "yaml_option": [ "Limit_Arena_Merchant" ],
+        "hidden": true
+    },
+    "Medal Limit": {
+        "yaml_option": [ "Limit_Medal_Merchant" ],
+        "hidden": true
+    },
+    "MiscConsume": {
+        "yaml_option": [ "Misc_Consumables" ],
+        "hidden": true
+    },
+    "Cooking Recipes": {
+        "yaml_option": [ "Cooking_Recipes" ],
+        "hidden": false
+    },
+    "Ingredients": {
+        "yaml_option": [ "Ingredients" ],
+        "hidden": false
+    },
+    "Consumables - Food": {
+        "yaml_option": [ "Food" ],
+        "hidden": false
+    },
+    "Cook Stuff": {
+        "yaml_option": [ "Chefsanity" ],
+        "hidden": true
+    },
+    "Chef Goal": {
+        "yaml_option": [ "Chef_Goal" ],
+        "hidden": true
+    },
+    "Merchant Location": {
+        "hidden": true
+    },
+    "Coal Place": {
+        "hidden": true
+    },
+    "Lettuce Drop": {
+        "hidden": true
+    },
+    "Tomato Drop": {
+        "hidden": true
+    },
+    "Onion Drop": {
+        "hidden": true
+    },
+    "Potato Drop": {
+        "hidden": true
+    },
+    "Honey Drop": {
+        "hidden": true
+    },
+    "Cement Junk": {
+        "hidden": true
+    },
+    "DUMMY": {
+        "hidden": true
+    },
+    "Raiding": {
+        "hidden": true
+    },
+    "The Journey": {
+        "yaml_option": [ "Journey_Missions" ],
+        "hidden": false
+    },
+    "Key Items - Elemental Orbs": {
+        "yaml_option": [ "Elemental_Orbs" ],
+        "hidden": false
+    }
+}

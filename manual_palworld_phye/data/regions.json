@@ -1,0 +1,4529 @@
+{
+    "Base Level 1": {
+        "starting": true,
+        "connects_to": [
+            "Base Level 2"
+        ],
+        "requires": "|Tech - Wooden Chest| & |Tech - Palbox|"
+    },
+    "Base Level 2": {
+        "connects_to": [
+            "Base Level 3"
+        ],
+        "requires": "|Tech - Progressive Workbench:1| & |Tech - Shoddy Bed| & |@Base Foundations|"
+    },
+    "Base Level 3": {
+        "connects_to": [
+            "Base Level 4"
+        ],
+        "requires": "|Tech - Feed Box| & |Tech - Straw Pal Bed|"
+    },
+    "Base Level 4": {
+        "connects_to": [
+            "Base Level 5"
+        ],
+        "requires": "|Tech - Campfire| & |Tech - Berry Plantation|"
+    },
+    "Base Level 5": {
+        "connects_to": [
+            "Base Level 6"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| & |Tech - Statue of Power|"
+    },
+    "Base Level 6": {
+        "connects_to": [
+            "Base Level 7"
+        ],
+        "requires": "|Tech - Crusher| & |Tech - Stone Pit| & |Tech - Logging Site|"
+    },
+    "Base Level 7": {
+        "connects_to": [
+            "Base Level 8"
+        ],
+        "requires": "|Tech - Hot Spring| & |Tech - Progressive Furnace:1| & |Tech - Berry Plantation|"
+    },
+    "Base Level 8": {
+        "connects_to": [
+            "Base Level 9"
+        ],
+        "requires": "|Tech - Progressive Workbench:2| & |Tech - Medieval Medicine Workbench|"
+    },
+    "Base Level 9": {
+        "connects_to": [
+            "Base Level 10"
+        ],
+        "requires": "|Tech - Cooler Box| & |Tech - Sphere Workbench| & |Tech - Pal Expedition Station|"
+    },
+    "Base Level 10": {
+        "connects_to": [
+            "Base Level 11"
+        ],
+        "requires": "|Tech - Cooking Pot| & |Tech - Wheat Plantation| & |Tech - Mill|"
+    },
+    "Base Level 11": {
+        "connects_to": [
+            "Base Level 12"
+        ],
+        "requires": "|Tech - Weapon Workbench| & |Tech - Pal Labor Research Laboratory|"
+    },
+    "Base Level 12": {
+        "connects_to": [
+            "Base Level 13"
+        ],
+        "requires": "|Tech - Fluffy Pal Bed|"
+    },
+    "Base Level 13": {
+        "connects_to": [
+            "Base Level 14"
+        ],
+        "requires": "|Tech - Sphere Assembly Line| & |Tech - Power Generator|"
+    },
+    "Base Level 14": {
+        "connects_to": [
+            "Base Level 15"
+        ],
+        "requires": "|Tech - Weapon Assembly Line| & |Tech - High Quality Hot Spring|"
+    },
+    "Base Level 15": {
+        "connects_to": [
+            "Base Level 16"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Base Level 16": {
+        "connects_to": [
+            "Base Level 17"
+        ],
+        "requires": "|Tech - Large Pal Bed|"
+    },
+    "Base Level 17": {
+        "connects_to": [
+            "Base Level 18"
+        ],
+        "requires": "|Tech - Refined Metal Chest|"
+    },
+    "Base Level 18": {
+        "connects_to": [
+            "Base Level 19"
+        ],
+        "requires": "|Tech - Progressive Workbench:4|"
+    },
+    "Base Level 19": {
+        "connects_to": [
+            "Base Level 20"
+        ],
+        "requires": "|Tech - Electric Medicine Workbench|"
+    },
+    "Base Level 20": {
+        "connects_to": [
+            "Base Level 21"
+        ],
+        "requires": "|Tech - Progressive Furnace:3|"
+    },
+    "Base Level 21": {
+        "connects_to": [
+            "Base Level 22"
+        ],
+        "requires": "|Tech - Weapon Assembly Line II|"
+    },
+    "Base Level 22": {
+        "connects_to": [
+            "Base Level 23"
+        ],
+        "requires": "|Tech - Crude Oil Extractor| & ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Sunlit Isle)})"
+    },
+    "Base Level 23": {
+        "connects_to": [
+            "Base Level 24"
+        ],
+        "requires": "|Tech - Cold Food Box|"
+    },
+    "Base Level 24": {
+        "connects_to": [
+            "Base Level 25"
+        ],
+        "requires": "|Tech - Refrigerated Crusher|"
+    },
+    "Base Level 25": {
+        "connects_to": [
+            "Base Level 26"
+        ],
+        "requires": "|Tech - Progressive Furnace:4| & |Tech - Advanced Sphere Assembly Line|"
+    },
+    "Base Level 26": {
+        "connects_to": [
+            "Base Level 27"
+        ],
+        "requires": "|Tech - Pal Pod|"
+    },
+    "Base Level 27": {
+        "connects_to": [
+            "Base Level 28"
+        ],
+        "requires": "|Tech - Advanced Chest|"
+    },
+    "Base Level 28": {
+        "connects_to": [
+            "Base Level 29"
+        ],
+        "requires": "|Tech - Advanced Medicine Workbench|"
+    },
+    "Base Level 29": {
+        "connects_to": [],
+        "requires": "|A.Tech - Progressive Egg Incubator:4|"
+    },
+    "Mission 1": {
+        "starting": true,
+        "connects_to": [
+            "Mission 2"
+        ],
+        "requires": []
+    },
+    "Mission 2": {
+        "connects_to": [
+            "Mission 3"
+        ],
+        "requires": []
+    },
+    "Mission 3": {
+        "connects_to": [
+            "Mission 4"
+        ],
+        "requires": []
+    },
+    "Mission 4": {
+        "connects_to": [
+            "Mission 5"
+        ],
+        "requires": "|Tech - Progressive Workbench:1|"
+    },
+    "Mission 5": {
+        "connects_to": [
+            "Mission 6"
+        ],
+        "requires": "|Tech - Progressive Pal Sphere:1|"
+    },
+    "Mission 6": {
+        "connects_to": [
+            "Mission 7"
+        ],
+        "requires": []
+    },
+    "Mission 7": {
+        "connects_to": [
+            "Mission 8"
+        ],
+        "requires": []
+    },
+    "Mission 8": {
+        "connects_to": [
+            "Mission 9"
+        ],
+        "requires": []
+    },
+    "Mission 9": {
+        "connects_to": [
+            "Mission 10"
+        ],
+        "requires": "|Tech - Palbox|"
+    },
+    "Mission 10": {
+        "connects_to": [
+            "Mission 11"
+        ],
+        "requires": []
+    },
+    "Mission 11": {
+        "connects_to": [
+            "Mission 12"
+        ],
+        "requires": []
+    },
+    "Mission 12": {
+        "connects_to": [
+            "Mission 13"
+        ],
+        "requires": []
+    },
+    "Mission 13": {
+        "connects_to": [
+            "Mission 14"
+        ],
+        "requires": "|@Cloth Armor| or (|Tech - Progressive Workbench:2| & (|@Leather Armor| or (|@Metal Armor| & |Tech - Progressive Furnace|)))"
+    },
+    "Mission 14": {
+        "connects_to": [
+            "Mission 15"
+        ],
+        "requires": []
+    },
+    "Mission 15": {
+        "connects_to": [
+            "Mission 16"
+        ],
+        "requires": "|Tech - Progressive Shield:1|"
+    },
+    "Mission 16": {
+        "connects_to": [
+            "Mission 17"
+        ],
+        "requires": "|Tech - Progressive Glider:1|"
+    },
+    "Mission 17": {
+        "connects_to": [
+            "Mission 18"
+        ],
+        "requires": []
+    },
+    "Mission 18": {
+        "connects_to": [
+            "Mission 19"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| & |Tech - Foxsparks's Harness|"
+    },
+    "Mission 19": {
+        "connects_to": [
+            "Mission 20"
+        ],
+        "requires": "|Windswept Pass| AND {canReachLocation(Boss - Chillet)}"
+    },
+    "Mission 20": {
+        "connects_to": [
+            "Mission 21"
+        ],
+        "requires": "|Tech - Progressive Feed Bag:1|"
+    },
+    "Mission 21": {
+        "connects_to": [
+            "Mission 22"
+        ],
+        "requires": "{canReachLocation(Boss - Penking)}"
+    },
+    "Mission 22": {
+        "connects_to": [
+            "Mission 23"
+        ],
+        "requires": "|A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Mission 23": {
+        "connects_to": [
+            "Mission 24"
+        ],
+        "requires": "{canReachLocation(Base Level 7 Task)}"
+    },
+    "Mission 24": {
+        "connects_to": [
+            "Mission 25"
+        ],
+        "requires": "|Zoe's Key| AND {OptOne(|Level Up!:9|)}"
+    },
+    "Mission 25": {
+        "connects_to": [
+            "Mission 26"
+        ],
+        "requires": "|Wildlife Sanctuary 1 Tracker|"
+    },
+    "Mission 26": {
+        "connects_to": [
+            "Mission 27"
+        ],
+        "requires": "|Lily's Key| & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} AND {OptOne(|Level Up!:24|)}"
+    },
+    "Mission 27": {
+        "connects_to": [
+            "Mission 28"
+        ],
+        "requires": "|Alex's Key| & {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} AND {OptOne(|Level Up!:39|)}"
+    },
+    "Mission 28": {
+        "connects_to": [
+            "Mission 29"
+        ],
+        "requires": "|Marcus's Key| & {canReachLocation(Travel Point - PIDF Tower Entrance)} AND {OptOne(|Level Up!:44|)}"
+    },
+    "Mission 29": {
+        "connects_to": [
+            "Mission 30"
+        ],
+        "requires": "|Victor's Key| & {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} AND {OptOne(|Level Up!:49|)}"
+    },
+    "Mission 30": {
+        "connects_to": [
+            "Mission 31"
+        ],
+        "requires": "|Saya's Key| & {canReachLocation(Travel Point - Moonflower Tower Entrance)} AND {OptOne(|Level Up!:54|)}"
+    },
+    "Mission 31": {
+        "connects_to": [
+            "Mission 32"
+        ],
+        "requires": "|Bjorn's Key| & {canReachLocation(Travel Point - Feybreak Tower Entrance)} AND {OptOne(|Level Up!:59|)}"
+    },
+    "Mission 32": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Windswept Hills": {
+        "starting": true,
+        "connects_to": [
+            "Marsh Island",
+            "Crescent Moon Shore",
+            "Sea Breeze Archipelago",
+            "Bamboo Groves",
+            "Mixed Region - Azurobe",
+            "Mixed Region - Katress",
+            "Wildlife Sanctuary 1",
+            "Grass Egg 1",
+            "Fishing_Windswept",
+            "Hillside Cavern",
+            "Incident_Grass",
+            "Cage_Grass",
+            "Pal Merchant",
+            "Black Marketeer",
+            "Windswept_WanderingMerchant",
+            "Windswept_PalMerchant",
+            "Windswept_BlackMarket",
+            "Bounty Merchant",
+            "Lamball",
+            "Cattiva",
+            "Chikipi",
+            "Lifmunk",
+            "Foxparks",
+            "Fuack",
+            "Sparkit",
+            "Tanzee",
+            "Pengullet",
+            "Jolthog",
+            "Gumoss",
+            "Vixy",
+            "Hoocrates",
+            "Teafant",
+            "Depresso",
+            "Cremis",
+            "Daedream",
+            "Rushoar",
+            "Nox",
+            "Celaray",
+            "Direhowl",
+            "Caprity",
+            "Melpaca",
+            "Eikthyrdeer",
+            "Nitewing",
+            "Dinossom",
+            "Tombat",
+            "Mammorest",
+            "Croajiro",
+            "Penking",
+            "Chillet",
+            "Kingpaca"
+        ],
+        "requires": "|Windswept Pass|"
+    },
+    "Crescent Moon Shore": {
+        "connects_to": [
+            "Bamboo Groves",
+            "Windswept Hills",
+            "Verdant Brook",
+            "Twilight Dunes",
+            "Foot of the Astral Mountains",
+            "Mixed Region - Azurobe",
+            "Grass Egg 2",
+            "Fishing_Crescent",
+            "Mountain Stream Grotto",
+            "Forest Meteor",
+            "Incident_Forest",
+            "Cage_Forest",
+            "Black Marketeer",
+            "Crescent_BlackMarket",
+            "Lamball",
+            "Tanzee",
+            "Jolthog",
+            "Hoocrates",
+            "Depresso",
+            "Daedream",
+            "Rushoar",
+            "Nox",
+            "Flopie",
+            "Bristla",
+            "Mossanda",
+            "Cinnamoth",
+            "Loupmoon",
+            "Galeclaw",
+            "Robinquill",
+            "Beegarde",
+            "Elizabee",
+            "Grintale",
+            "Tombat",
+            "Katress",
+            "Mammorest",
+            "Helzephyr",
+            "Mimog",
+            "Elphidran",
+            "Petallia"
+        ],
+        "requires": "|Crescent Pass| AND {OptOne(|Level Up!:14|)}"
+    },
+    "Sea Breeze Archipelago": {
+        "starting": true,
+        "connects_to": [
+            "Windswept Hills",
+            "Mount Obsidian",
+            "Bamboo Groves",
+            "Wildlife Sanctuary 1",
+            "Grass Egg 1",
+            "Fishing_SeaBreeze",
+            "Hillside Cavern",
+            "Incident_Grass",
+            "Cage_Grass",
+            "Pal Merchant",
+            "SeaBreeze_PalMerchant",
+            "SeaBreeze_WanderingMerchant",
+            "Medal_Merchant",
+            "Lamball",
+            "Cattiva",
+            "Chikipi",
+            "Lifmunk",
+            "Foxparks",
+            "Fuack",
+            "Tanzee",
+            "Rooby",
+            "Pengullet",
+            "Gumoss",
+            "Hoocrates",
+            "Teafant",
+            "Depresso",
+            "Cremis",
+            "Daedream",
+            "Rushoar",
+            "Nox",
+            "Celaray",
+            "Direhowl",
+            "Caprity",
+            "Melpaca",
+            "Eikthyrdeer",
+            "Nitewing",
+            "Ribbuny",
+            "Dinossom",
+            "Tombat",
+            "Mammorest",
+            "Croajiro",
+            "Univolt",
+            "Swee",
+            "Sweepa",
+            "Broncherry",
+            "Lunaris"
+        ],
+        "requires": "|Sea Breeze Pass|"
+    },
+    "Mount Obsidian": {
+        "connects_to": [
+            "Sea Breeze Archipelago",
+            "Bamboo Groves",
+            "Phantom Isle",
+            "Eternal Summer Isle",
+            "Feybreak",
+            "Wildlife Sanctuary 2",
+            "Volcano Egg 1",
+            "Volcano Egg 2",
+            "Fishing_Obsidian",
+            "Volcanic Cavern",
+            "Volcano Meteor",
+            "Incident_Volcano",
+            "Cage_Volcano",
+            "Black Marketeer",
+            "Obsidian_BlackMarket",
+            "Obsidian_WanderingMerchant",
+            "Obsidian_PalMerchant",
+            "Pal Merchant_Volcano",
+            "Gobfin Ignis",
+            "Incineram",
+            "Dumud",
+            "Leezpunk",
+            "Leezpunk Ignis",
+            "Pyrin",
+            "Pyrin Noct",
+            "Flambelle",
+            "Vanwyrm",
+            "Bushi",
+            "Ragnahawk",
+            "Wixen",
+            "Kelpsea Ignis",
+            "Blazehowl",
+            "Blazehowl Noct",
+            "Reptyro",
+            "Fenglope",
+            "Mimog",
+            "Blazamut",
+            "Astegon",
+            "Jetragon",
+            "Whalaska Ignis Boss"
+        ],
+        "requires": "|Obsidian Pass| AND {OptOne(|Level Up!:29|)}"
+    },
+    "Feybreak": {
+        "connects_to": [
+            "Feybreak Egg 1",
+            "Feybreak Egg 2",
+            "Fishing_Feybreak",
+            "Feybreak Cavern",
+            "Feybreak Meteor",
+            "Incident_Feybreak_Red",
+            "Incident_Feybreak_Desert",
+            "Incident_Feybreak_Yellow",
+            "Incident_Feybreak_Dark",
+            "Cage_Viking",
+            "Foxparks Cryst",
+            "Caprity Noct",
+            "Ribbuny Botan",
+            "Loupmoon Cryst",
+            "Rayhound",
+            "Dazzi Noct",
+            "Surfent Terra",
+            "Maraith",
+            "Vanwyrm",
+            "Vanwyrm Cryst",
+            "Ragnahawk",
+            "Verdash",
+            "Cryolinx",
+            "Blazehowl",
+            "Blazehowl Noct",
+            "Warsect Terra",
+            "Jormuntide Ignis",
+            "Faleris Aqua",
+            "Shroomer Noct",
+            "Mimog",
+            "Nitemary",
+            "Starryon",
+            "Smokie",
+            "Celesdir",
+            "Omascul",
+            "Splatterina",
+            "Tarantriss",
+            "Azurmane",
+            "Prunelia",
+            "Nyafia",
+            "Gildane",
+            "Fenglope Lux",
+            "Kitsun Noct",
+            "Frostallion Noct"
+        ],
+        "requires": "|Feybreak Pass| & |Tech - Pal Gear Workbench| & |@EZ_Mounts| AND (|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}) AND {OptOne(|Level Up!:54|)}"
+    },
+    "Sakurajima": {
+        "connects_to": [
+            "Forgotten Island",
+            "Ice Wind Island",
+            "Astral Mountains",
+            "Foot of the Astral Mountains",
+            "Wildlife Sanctuary 2",
+            "Sakurajima Egg 1",
+            "Fishing_Sakurajima",
+            "Cherry Blossom Cave",
+            "Sakurajima Meteor",
+            "Incident_Sakurajima",
+            "Incident_Sakurajima_B",
+            "Cage_Sakurajima",
+            "Cattiva",
+            "Depresso",
+            "Tocotoco",
+            "Flopie",
+            "Ribbuny",
+            "Cawgnito",
+            "Gorirat Terra",
+            "Grintale",
+            "Chillet Ignis",
+            "Dinossom",
+            "Bushi",
+            "Bushi Noct",
+            "Beakon",
+            "Wixen Noct",
+            "Verdash",
+            "Relaxaurus",
+            "Quivern",
+            "Quivern Botan",
+            "Helzephyr Lux",
+            "Menasting",
+            "Croajiro",
+            "Lullu",
+            "Shroomer",
+            "Shroomer Noct",
+            "Kikit",
+            "Sootseer",
+            "Prixter",
+            "Yakumo",
+            "Dogen",
+            "Dazemu",
+            "Mimog",
+            "Knocklem",
+            "Menasting Terra"
+        ],
+        "requires": "|Sakurajima Pass| AND {OptOne(|Level Up!:49|)}"
+    },
+    "Astral Mountains": {
+        "connects_to": [
+            "Sakurajima",
+            "Ice Wind Island",
+            "Dessicated Dunes",
+            "Foot of the Astral Mountains",
+            "Glacier Egg 2",
+            "Fishing_Astral",
+            "Astral Mountains Cavern",
+            "Snow Meteor",
+            "Incident_Snow",
+            "Cage_Snow",
+            "Black Marketeer",
+            "Astral_BlackMarket",
+            "Mau Cryst",
+            "Hangyu Cryst",
+            "Maraith",
+            "Vanwyrm Cryst",
+            "Sibelyx",
+            "Cryolinx",
+            "Mammorest Cryst",
+            "Wumpo",
+            "Mimog",
+            "Lyleen Noct",
+            "Kingpaca Cryst",
+            "Frostallion"
+        ],
+        "requires": "|Astral Pass| AND {OptOne(|Level Up!:29|)}"
+    },
+    "Foot of the Astral Mountains": {
+        "connects_to": [
+            "Sakurajima",
+            "Ice Wind Island",
+            "Twilight Dunes",
+            "Crescent Moon Shore",
+            "Verdant Brook",
+            "Dessicated Dunes",
+            "Glacier Egg 1",
+            "Fishing_AstralFoot",
+            "Astral Mountains Cavern",
+            "Snow Meteor",
+            "Black Marketeer",
+            "AstralFoot_BlackMarket",
+            "Pengullet",
+            "Mau Cryst",
+            "Hangyu Cryst",
+            "Caprity",
+            "Arsox",
+            "Chillet",
+            "Reindrix",
+            "Vanwyrm Cryst",
+            "Mammorest",
+            "Mimog",
+            "Mossanda",
+            "Gorirat",
+            "Loupmoon",
+            "Beegarde",
+            "Elizabee",
+            "Grintale",
+            "Katress"
+        ],
+        "requires": "|Astral Foot Pass| AND {OptOne(|Level Up!:29|)}"
+    },
+    "Verdant Brook": {
+        "connects_to": [
+            "Scars of War",
+            "Frostbound Mountains",
+            "Crescent Moon Shore",
+            "Foot of the Astral Mountains",
+            "Marsh Island",
+            "Grass Egg 3",
+            "Grass Egg 4",
+            "Fishing_Verdant",
+            "Mountain Stream Grotto",
+            "Forest Meteor",
+            "Incident_Forest_B",
+            "Cage_Forest",
+            "Black Marketeer",
+            "Verdant_BlackMarket",
+            "Gobfin",
+            "Mossanda",
+            "Loupmoon",
+            "Gorirat",
+            "Beegarde",
+            "Elizabee",
+            "Grintale",
+            "Katress",
+            "Helzephyr",
+            "Mimog",
+            "Warsect",
+            "Vaelet",
+            "Verdash"
+        ],
+        "requires": "|Verdant Pass| AND {OptOne(|Level Up!:19|)}"
+    },
+    "Frostbound Mountains": {
+        "connects_to": [
+            "Verdant Brook",
+            "Grass Egg 4",
+            "Fishing_Frostbound",
+            "Forest Meteor",
+            "Incident_Forest_Frost",
+            "Swee",
+            "Sweepa",
+            "Chillet",
+            "Foxcicle",
+            "Reindrix",
+            "Kitsun",
+            "Vanwyrm Cryst",
+            "Mimog",
+            "Sibelyx"
+        ],
+        "requires": "|Frostbound Pass| AND {OptOne(|Level Up!:19|)}"
+    },
+    "Scars of War": {
+        "connects_to": [
+            "Verdant Brook",
+            "Dessicated Dunes",
+            "Eastern Wild Island",
+            "Mixed Region - Jormuntide",
+            "Grass Egg 3",
+            "Fishing_Scar",
+            "Forest Meteor",
+            "Incident_Forest_B",
+            "Foxparks",
+            "Rooby",
+            "Mossanda",
+            "Arsox",
+            "Leezpunk Ignis",
+            "Loupmoon",
+            "Gorirat",
+            "Beegarde",
+            "Elizabee",
+            "Grintale",
+            "Flambelle",
+            "Katress",
+            "Wixen",
+            "Kelpsea Ignis",
+            "Helzephyr",
+            "Mimog"
+        ],
+        "requires": "|Scars of War Pass| AND {OptOne(|Level Up!:9|)}"
+    },
+    "Eastern Wild Island": {
+        "starting": true,
+        "connects_to": [
+            "Scars of War",
+            "Dessicated Dunes",
+            "Marsh Island",
+            "Isle of Decayed Treasures",
+            "Mixed Region - Jormuntide",
+            "Mixed Region - Natural Bridge",
+            "Grass Egg 1",
+            "Fishing_EasternWild",
+            "Hillside Cavern",
+            "Incident_Grass",
+            "Black Marketeer",
+            "EasternWild_BlackMarket",
+            "Lamball",
+            "Cattiva",
+            "Foxparks",
+            "Tanzee",
+            "Pengullet",
+            "Hoocrates",
+            "Teafant",
+            "Depresso",
+            "Daedream",
+            "Rushoar",
+            "Nox",
+            "Celaray",
+            "Direhowl",
+            "Mossanda",
+            "Caprity",
+            "Eikthyrdeer",
+            "Nitewing",
+            "Ribbuny",
+            "Loupmoon",
+            "Gorirat",
+            "Beegarde",
+            "Elizabee",
+            "Grintale",
+            "Dinossom",
+            "Tombat",
+            "Helzephyr",
+            "Croajiro",
+            "Mimog",
+            "Wumpo Botan",
+            "Mossanda Lux"
+        ],
+        "requires": "|Eastern Wild Pass|"
+    },
+    "Ice Wind Island": {
+        "starting": true,
+        "connects_to": [
+            "Forgotten Island",
+            "Sakurajima",
+            "Foot of the Astral Mountains",
+            "Twilight Dunes",
+            "Bamboo Groves",
+            "Grass Egg 1",
+            "Fishing_IceWind",
+            "Hillside Cavern",
+            "Lamball",
+            "Cattiva",
+            "Chikipi",
+            "Foxparks",
+            "Tanzee",
+            "Pengullet",
+            "Hoocrates",
+            "Teafant",
+            "Depresso",
+            "Daedream",
+            "Rushoar",
+            "Nox",
+            "Celaray",
+            "Direhowl",
+            "Caprity",
+            "Eikthyrdeer",
+            "Nitewing",
+            "Ribbuny",
+            "Dinossom",
+            "Tombat",
+            "Croajiro",
+            "Dumud"
+        ],
+        "requires": "|Ice Wind Pass|"
+    },
+    "Forgotten Island": {
+        "starting": true,
+        "connects_to": [
+            "Sakurajima",
+            "Bamboo Groves",
+            "Ice Wind Island",
+            "Grass Egg 1",
+            "Fishing_Forgotten",
+            "Hillside Cavern",
+            "Incident_Grass",
+            "Cage_Grass",
+            "Pal Merchant",
+            "Forgotten_PalMerchant",
+            "Forgotten_WanderingMerchant",
+            "Lamball",
+            "Cattiva",
+            "Chikipi",
+            "Lifmunk",
+            "Fuack",
+            "Rooby",
+            "Pengullet",
+            "Gumoss",
+            "Hoocrates",
+            "Teafant",
+            "Depresso",
+            "Cremis",
+            "Rushoar",
+            "Nox",
+            "Celaray",
+            "Direhowl",
+            "Melpaca",
+            "Eikthyrdeer",
+            "Nitewing",
+            "Tombat",
+            "Mammorest",
+            "Croajiro",
+            "Felbat"
+        ],
+        "requires": "|Forgotten Pass|"
+    },
+    "Dessicated Dunes": {
+        "connects_to": [
+            "Isle of the Glacial Core",
+            "Astral Mountains",
+            "Foot of the Astral Mountains",
+            "Verdant Brook",
+            "Scars of War",
+            "Eastern Wild Island",
+            "Pal Arena",
+            "Oasis Isle",
+            "Wildlife Sanctuary 3",
+            "Desert Egg 1",
+            "Fishing_Desert",
+            "Cavern of the Dunes",
+            "Desert Meteor",
+            "Incident_Desert",
+            "Cage_Desert",
+            "Pal Merchant_Desert",
+            "Black Marketeer",
+            "Desert_WanderingMerchant",
+            "Desert_PalMerchant",
+            "Desert_BlackMarket",
+            "Bounty Merchant",
+            "Fuddler",
+            "Tocotoco",
+            "Hangyu",
+            "Nitewing",
+            "Cawgnito",
+            "Leezpunk",
+            "Robinquill Terra",
+            "Rayhound",
+            "Dazzi",
+            "Dinossom Lux",
+            "Surfent Terra",
+            "Digtoise",
+            "Lovander",
+            "Beakon",
+            "Suzaku",
+            "Mimog",
+            "Tarantriss",
+            "Menasting",
+            "Paladius",
+            "Necromus"
+        ],
+        "requires": "|Dessicated Pass| AND {OptOne(|Level Up!:39|)}"
+    },
+    "Marsh Island": {
+        "starting": true,
+        "connects_to": [
+            "Windswept Hills",
+            "Verdant Brook",
+            "Eastern Wild Island",
+            "Sunlit Isle",
+            "Mixed Region - Katress",
+            "Mixed Region - Natural Bridge",
+            "Grass Egg 1",
+            "Fishing_Marsh",
+            "Hillside Cavern",
+            "Incident_Grass",
+            "Cage_Grass",
+            "Pal Merchant",
+            "Marsh_PalMerchant",
+            "Marsh_WanderingMerchant",
+            "Lamball",
+            "Cattiva",
+            "Lifmunk",
+            "Fuack",
+            "Rooby",
+            "Pengullet",
+            "Gumoss",
+            "Hoocrates",
+            "Teafant",
+            "Depresso",
+            "Cremis",
+            "Rushoar",
+            "Nox",
+            "Celaray",
+            "Direhowl",
+            "Melpaca",
+            "Eikthyrdeer",
+            "Nitewing",
+            "Tombat",
+            "Mammorest",
+            "Croajiro",
+            "Grintale"
+        ],
+        "requires": "|Marsh Pass|"
+    },
+    "Isle of Decayed Treasures": {
+        "connects_to": [
+            "Fishing_Decayed",
+            "Turtacle",
+            "Gloopie"
+        ],
+        "requires": "|Decayed Pass|"
+    },
+    "Sunlit Isle": {
+        "connects_to": [
+            "Fishing_Sunlit",
+            "Herbil",
+            "Finsider"
+        ],
+        "requires": "|Sunlit Pass|"
+    },
+    "Oasis Isle": {
+        "connects_to": [
+            "Fishing_Oasis",
+            "Herbil",
+            "Palumba",
+            "Braloha",
+            "Finsider"
+        ],
+        "requires": "|Oasis Pass|"
+    },
+    "Isle of the Glacial Core": {
+        "connects_to": [
+            "Dessicated Dunes",
+            "Fishing_Glacial",
+            "Polapup",
+            "Whalaska",
+            "Neptilius"
+        ],
+        "requires": "|Glacial Pass|"
+    },
+    "Phantom Isle": {
+        "connects_to": [
+            "Fishing_Phantom",
+            "Jellroy",
+            "Ghangler"
+        ],
+        "requires": "|Phantom Pass|"
+    },
+    "Twilight Dunes": {
+        "connects_to": [
+            "Bamboo Groves",
+            "Ice Wind Island",
+            "Crescent Moon Shore",
+            "Foot of the Astral Mountains",
+            "Grass Egg 2",
+            "Fishing_Twilight",
+            "Forest Meteor",
+            "Incident_Grass_Desert",
+            "Cage_Desert",
+            "Sparkit",
+            "Fuddler",
+            "Tocotoco",
+            "Hangyu",
+            "Dumud",
+            "Digtoise",
+            "Lovander",
+            "Dazemu",
+            "Mimog",
+            "Anubis"
+        ],
+        "requires": "|Twilight Pass| AND {OptOne(|Level Up!:9|)}"
+    },
+    "Bamboo Groves": {
+        "connects_to": [
+            "Twilight Dunes",
+            "Forgotten Island",
+            "Ice Wind Island",
+            "Mount Obsidian",
+            "Sea Breeze Archipelago",
+            "Crescent Moon Shore",
+            "Windswept Hills",
+            "Mixed Region - Azurobe",
+            "Mixed Region - Jormuntide",
+            "Grass Egg 2",
+            "Fishing_Bamboo",
+            "Hillside Cavern",
+            "Grass Meteor",
+            "Incident_Grass_B",
+            "Cage_Grass2",
+            "Black Marketeer",
+            "Bamboo_BlackMarket",
+            "Lamball",
+            "Lifmunk",
+            "Fuack",
+            "Gumoss",
+            "Hoocrates",
+            "Depresso",
+            "Cremis",
+            "Celaray",
+            "Direhowl",
+            "Mozzarina",
+            "Woolipop",
+            "Melpaca",
+            "Ribbuny",
+            "Arsox",
+            "Cawgnito",
+            "Loupmoon",
+            "Galeclaw",
+            "Swee",
+            "Sweepa",
+            "Univolt",
+            "Surfent",
+            "Vanwyrm",
+            "Relaxaurus",
+            "Broncherry",
+            "Mammorest",
+            "Mimog",
+            "Beakon",
+            "Quivern",
+            "Jormuntide",
+            "Fenglope",
+            "Broncherry Aqua",
+            "Relaxaurus Lux",
+            "Bushi"
+        ],
+        "requires": "|Bamboo Pass| AND {OptOne(|Level Up!:9|)}"
+    },
+    "Pal Arena": {
+        "connects_to": [
+            "Fishing_Arena",
+            "Arena_Merchant"
+        ],
+        "requires": "|Arena Pass|"
+    },
+    "Eternal Summer Isle": {
+        "connects_to": [
+            "Fishing_EternalSummer",
+            "Terraria Cavern",
+            "Herbil",
+            "Palumba"
+        ],
+        "requires": "|Eternal Summer Pass|"
+    },
+    "Frostbitten Isle": {
+        "connects_to": [
+            "Fishing_Frostbitten",
+            "Icelyn",
+            "Frostplume",
+            "Munchill",
+            "Jelliette"
+        ],
+        "requires": "|Frostbitten Pass|"
+    },
+    "Mixed Region - Azurobe": {
+        "connects_to": [
+            "Kelpsea",
+            "Azurobe"
+        ],
+        "requires": []
+    },
+    "Mixed Region - Katress": {
+        "connects_to": [
+            "Katress"
+        ],
+        "requires": []
+    },
+    "Mixed Region - Jormuntide": {
+        "connects_to": [
+            "Jormuntide"
+        ],
+        "requires": []
+    },
+    "Mixed Region - Natural Bridge": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Wildlife Sanctuary 1": {
+        "connects_to": [
+            "Frostbitten Isle",
+            "Fishing_WS_1",
+            "Penking",
+            "Eikthyrdeer Terra",
+            "Vaelet",
+            "Elphidran",
+            "Azurobe",
+            "Petallia",
+            "Grizzbolt"
+        ],
+        "requires": "|Wildlife Sanctuary 1 Tracker| AND {OptOne(|Level Up!:19|)}"
+    },
+    "Wildlife Sanctuary 2": {
+        "connects_to": [
+            "Sakurajima",
+            "Mount Obsidian",
+            "Fishing_WS_2",
+            "Incineram Noct",
+            "Verdash",
+            "Kingpaca",
+            "Wumpo Botan",
+            "Warsect",
+            "Quivern",
+            "Menasting",
+            "Jormuntide Ignis"
+        ],
+        "requires": "|Wildlife Sanctuary 2 Tracker| AND {OptOne(|Level Up!:39|)}"
+    },
+    "Wildlife Sanctuary 3": {
+        "connects_to": [
+            "Fishing_WS_3",
+            "Incineram Noct",
+            "Bushi",
+            "Fenglope",
+            "Blazamut",
+            "Astegon",
+            "Lyleen",
+            "Faleris",
+            "Orserk",
+            "Shadowbeak"
+        ],
+        "requires": "|Wildlife Sanctuary 3 Tracker| AND {OptOne(|Level Up!:39|)}"
+    },
+    "Lamball": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb|)}"
+    },
+    "Cattiva": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb|)}"
+    },
+    "Chikipi": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb|)}"
+    },
+    "Lifmunk": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb|)}"
+    },
+    "Foxparks": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb|)}"
+    },
+    "Foxparks Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb|)}"
+    },
+    "Fuack": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb|)}"
+    },
+    "Fuack Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Fire Orb:2|)}"
+    },
+    "Sparkit": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb|)}"
+    },
+    "Tanzee": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb|)}"
+    },
+    "Rooby": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:2|)}"
+    },
+    "Pengullet": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Ice Orb|)}"
+    },
+    "Pengullet Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Electric Orb:2|)}"
+    },
+    "Penking": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Ice Orb:6|)}"
+    },
+    "Penking Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Electric Orb:7|)}"
+    },
+    "Jolthog": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb|)}"
+    },
+    "Jolthog Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:2|)}"
+    },
+    "Gumoss": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ground Orb|)}"
+    },
+    "Vixy": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:2|)}"
+    },
+    "Hoocrates": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb|)}"
+    },
+    "Teafant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb|)}"
+    },
+    "Depresso": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb|)}"
+    },
+    "Cremis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb|)}"
+    },
+    "Daedream": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb|)}"
+    },
+    "Rushoar": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb|)}"
+    },
+    "Nox": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:6|)}"
+    },
+    "Fuddler": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb|)}"
+    },
+    "Killamari": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Water Orb|)}"
+    },
+    "Killamari Primo": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Water Orb:2|)}"
+    },
+    "Mau": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb|)}"
+    },
+    "Mau Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:2|)}"
+    },
+    "Celaray": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:3|)}"
+    },
+    "Celaray Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Electric Orb:4|)}"
+    },
+    "Direhowl": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:2|)}"
+    },
+    "Tocotoco": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb|)}"
+    },
+    "Flopie": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb|)}"
+    },
+    "Mozzarina": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:2|)}"
+    },
+    "Bristla": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb|)}"
+    },
+    "Gobfin": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:2|)}"
+    },
+    "Gobfin Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:3|)}"
+    },
+    "Hangyu": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb|)}"
+    },
+    "Hangyu Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:2|)}"
+    },
+    "Mossanda": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:6|)}"
+    },
+    "Mossanda Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:7|)}"
+    },
+    "Woolipop": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:3|)}"
+    },
+    "Caprity": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:3|)}"
+    },
+    "Caprity Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:3|)}"
+    },
+    "Melpaca": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:3|)}"
+    },
+    "Eikthyrdeer": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:4|)}"
+    },
+    "Eikthyrdeer Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:6|)}"
+    },
+    "Nitewing": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:3|)}"
+    },
+    "Ribbuny": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb|)}"
+    },
+    "Ribbuny Botan": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb|)}"
+    },
+    "Incineram": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)}"
+    },
+    "Incineram Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:5|)}"
+    },
+    "Cinnamoth": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:4|)}"
+    },
+    "Arsox": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:4|)}"
+    },
+    "Dumud": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)}"
+    },
+    "Dumud Gild": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+    },
+    "Cawgnito": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:3|)}"
+    },
+    "Leezpunk": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:2|)}"
+    },
+    "Leezpunk Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:3|)}"
+    },
+    "Loupmoon": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:3|)}"
+    },
+    "Loupmoon Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:3|)}"
+    },
+    "Galeclaw": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:2|)}"
+    },
+    "Robinquill": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:5|)}"
+    },
+    "Robinquill Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Grass Orb:6|)}"
+    },
+    "Gorirat": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:5|)}"
+    },
+    "Gorirat Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:5|)}"
+    },
+    "Beegarde": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:4|)}"
+    },
+    "Elizabee": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)}"
+    },
+    "Grintale": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:6|)}"
+    },
+    "Swee": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb|)}"
+    },
+    "Sweepa": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:6|)}"
+    },
+    "Chillet": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Dragon Orb:4|)}"
+    },
+    "Chillet Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dragon Orb:5|)}"
+    },
+    "Univolt": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:5|)}"
+    },
+    "Foxcicle": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:5|)}"
+    },
+    "Pyrin": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)}"
+    },
+    "Pyrin Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)}"
+    },
+    "Reindrix": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:4|)}"
+    },
+    "Rayhound": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:5|)}"
+    },
+    "Kitsun": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)}"
+    },
+    "Kitsun Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:6|)}"
+    },
+    "Dazzi": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:2|)}"
+    },
+    "Dazzi Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dark Orb:2|)}"
+    },
+    "Lunaris": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:6|)}"
+    },
+    "Dinossom": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Dragon Orb:6|)}"
+    },
+    "Dinossom Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Dragon Orb:7|)}"
+    },
+    "Surfent": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:4|)}"
+    },
+    "Surfent Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:5|)}"
+    },
+    "Maraith": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:6|)}"
+    },
+    "Digtoise": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:5|)}"
+    },
+    "Tombat": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:5|)}"
+    },
+    "Lovander": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:5|)}"
+    },
+    "Flambelle": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb|)}"
+    },
+    "Vanwyrm": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)}"
+    },
+    "Vanwyrm Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Dark Orb:5|)}"
+    },
+    "Bushi": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:7|)}"
+    },
+    "Bushi Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)}"
+    },
+    "Beakon": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:6|)}"
+    },
+    "Ragnahawk": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:7|)}"
+    },
+    "Katress": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:6|)}"
+    },
+    "Katress Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)}"
+    },
+    "Wixen": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)}"
+    },
+    "Wixen Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)}"
+    },
+    "Verdash": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)}"
+    },
+    "Vaelet": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)}"
+    },
+    "Sibelyx": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:7|)}"
+    },
+    "Elphidran": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:7|)}"
+    },
+    "Elphidran Aqua": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+    },
+    "Kelpsea": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb|)}"
+    },
+    "Kelpsea Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb|)}"
+    },
+    "Azurobe": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Water Orb:7|)}"
+    },
+    "Azurobe Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Ice Orb:8|)}"
+    },
+    "Cryolinx": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:7|)}"
+    },
+    "Cryolinx Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:7|)}"
+    },
+    "Blazehowl": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:7|)}"
+    },
+    "Blazehowl Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Dark Orb:8|)}"
+    },
+    "Relaxaurus": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+    },
+    "Relaxaurus Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)}"
+    },
+    "Broncherry": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:7|)}"
+    },
+    "Broncherry Aqua": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+    },
+    "Petallia": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)}"
+    },
+    "Reptyro": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Ground Orb:6|)}"
+    },
+    "Reptyro Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)}"
+    },
+    "Kingpaca": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:8|)}"
+    },
+    "Kingpaca Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:9|)}"
+    },
+    "Mammorest": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)}"
+    },
+    "Mammorest Cryst": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Ground Orb:9|)}"
+    },
+    "Wumpo": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:7|)}"
+    },
+    "Wumpo Botan": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:8|)}"
+    },
+    "Warsect": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)}"
+    },
+    "Warsect Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:9|)}"
+    },
+    "Fenglope": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:3|)}"
+    },
+    "Fenglope Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:3|)}"
+    },
+    "Felbat": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:6|)}"
+    },
+    "Quivern": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:7|)}"
+    },
+    "Quivern Botan": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Grass Orb:8|)}"
+    },
+    "Blazamut": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:9|)}"
+    },
+    "Blazamut Ryu": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)})"
+    },
+    "Helzephyr": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:7|)}"
+    },
+    "Helzephyr Lux": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)}"
+    },
+    "Astegon": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Dark Orb:9|)}"
+    },
+    "Menasting": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Ground Orb:9|)}"
+    },
+    "Menasting Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:10|)}"
+    },
+    "Anubis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:10|)}"
+    },
+    "Jormuntide": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+    },
+    "Jormuntide Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Fire Orb:9|)}"
+    },
+    "Suzaku": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:8|)}"
+    },
+    "Suzaku Aqua": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:9|)}"
+    },
+    "Grizzbolt": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:8|)}"
+    },
+    "Lyleen": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:9|)}"
+    },
+    "Lyleen Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:10|)}"
+    },
+    "Faleris": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:9|)}"
+    },
+    "Faleris Aqua": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:9|)}"
+    },
+    "Orserk": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Electric Orb:8|)}"
+    },
+    "Shadowbeak": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:10|)}"
+    },
+    "Paladius": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:11|)}"
+    },
+    "Necromus": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:11|)}"
+    },
+    "Frostallion": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:11|)}"
+    },
+    "Frostallion Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:11|)}"
+    },
+    "Jetragon": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:11|)}"
+    },
+    "Bellanoir": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Ancient Ritual Site)} or {canReachLocation(Travel Point - Mossanda Forest)})"
+    },
+    "Bellanoir Libero": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)})"
+    },
+    "Selyne": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Neutral Orb:9|)}"
+    },
+    "Croajiro": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:4|)}"
+    },
+    "Croajiro Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+    },
+    "Lullu": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:4|)}"
+    },
+    "Shroomer": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:4|)}"
+    },
+    "Shroomer Noct": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)}"
+    },
+    "Kikit": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:4|)}"
+    },
+    "Sootseer": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)}"
+    },
+    "Prixter": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)}"
+    },
+    "Knocklem": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:9|)}"
+    },
+    "Yakumo": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:4|)}"
+    },
+    "Dogen": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:6|)}"
+    },
+    "Dazemu": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:5|)}"
+    },
+    "Mimog": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:7|)}"
+    },
+    "Xenovader": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:7|)}"
+    },
+    "Xenogard": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:9|)}"
+    },
+    "Xenolord": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)})"
+    },
+    "Nitemary": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:6|)}"
+    },
+    "Starryon": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:7|)}"
+    },
+    "Silvegis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dragon Orb:8|)}"
+    },
+    "Smokie": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:2|)}"
+    },
+    "Celesdir": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:6|)}"
+    },
+    "Omascul": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:4|)}"
+    },
+    "Splatterina": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:4|)}"
+    },
+    "Tarantriss": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:3|)}"
+    },
+    "Azurmane": {
+        "connects_to": [],
+        "requires": "{OptOne(|Electric Orb:7|)}"
+    },
+    "Bastigor": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:11|)} AND {OptOne(|Ground Orb:10|)} AND {canReachLocation(Boss - Anubis)} AND {canReachLocation(Boss - Frostallion)}"
+    },
+    "Prunelia": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)}"
+    },
+    "Nyafia": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:4|)}"
+    },
+    "Gildane": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:8|)}"
+    },
+    "Herbil": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Neutral Orb:3|)}"
+    },
+    "Icelyn": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:4|)}"
+    },
+    "Frostplume": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:4|)}"
+    },
+    "Palumba": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:4|)}"
+    },
+    "Braloha": {
+        "connects_to": [],
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Ground Orb:6|)}"
+    },
+    "Munchill": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Water Orb:3|)}"
+    },
+    "Polapup": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+    },
+    "Turtacle": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:3|)}"
+    },
+    "Turtacle Terra": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)}"
+    },
+    "Jellroy": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Water Orb:3|)}"
+    },
+    "Jelliette": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:3|)}"
+    },
+    "Gloopie": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+    },
+    "Finsider": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:3|)}"
+    },
+    "Finsider Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Water Orb:4|)}"
+    },
+    "Ghangler": {
+        "connects_to": [],
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+    },
+    "Ghangler Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Water Orb:6|)}"
+    },
+    "Whalaska": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Water Orb:7|)}"
+    },
+    "Whalaska Ignis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Fire Orb:8|)}"
+    },
+    "Neptilius": {
+        "connects_to": [],
+        "requires": "{OptOne(|Water Orb:11|)}"
+    },
+    "Hartalis": {
+        "connects_to": [],
+        "requires": "{OptOne(|Neutral Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)})"
+    },
+    "Grass Egg 1": {
+        "connects_to": [
+            "Ribbuny",
+            "Arsox",
+            "Galeclaw",
+            "Fuddler",
+            "Dazzi",
+            "Surfent",
+            "Flopie",
+            "Cinnamoth",
+            "Dinossom",
+            "Dumud",
+            "Hangyu",
+            "Tocotoco",
+            "Daedream",
+            "Nox",
+            "Grintale",
+            "Chillet",
+            "Flambelle",
+            "Penking",
+            "Tombat",
+            "Celaray",
+            "Eikthyrdeer",
+            "Melpaca",
+            "Direhowl",
+            "Herbil"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Grass Egg 2": {
+        "connects_to": [
+            "Swee",
+            "Celaray",
+            "Lunaris",
+            "Felbat",
+            "Mau",
+            "Nitewing",
+            "Caprity",
+            "Sweepa",
+            "Rayhound",
+            "Relaxaurus",
+            "Maraith",
+            "Beakon",
+            "Bushi",
+            "Foxparks",
+            "Univolt",
+            "Katress",
+            "Herbil"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Grass Egg 3": {
+        "connects_to": [
+            "Lifmunk",
+            "Gumoss",
+            "Tanzee",
+            "Loupmoon",
+            "Gorirat",
+            "Verdash",
+            "Broncherry",
+            "Elizabee",
+            "Robinquill",
+            "Mossanda",
+            "Warsect",
+            "Bristla",
+            "Rooby",
+            "Beegarde",
+            "Herbil"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Grass Egg 4": {
+        "connects_to": [
+            "Lifmunk",
+            "Gumoss",
+            "Tanzee",
+            "Loupmoon",
+            "Gorirat",
+            "Verdash",
+            "Broncherry",
+            "Elizabee",
+            "Robinquill",
+            "Mossanda",
+            "Warsect",
+            "Bristla",
+            "Rooby",
+            "Beegarde",
+            "Herbil"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Volcano Egg 1": {
+        "connects_to": [
+            "Kelpsea Ignis",
+            "Leezpunk Ignis",
+            "Vanwyrm",
+            "Pyrin",
+            "Reptyro",
+            "Pyrin Noct",
+            "Blazehowl Noct",
+            "Ragnahawk",
+            "Wixen",
+            "Jormuntide Ignis"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Volcano Egg 2": {
+        "connects_to": [
+            "Kelpsea Ignis",
+            "Leezpunk Ignis",
+            "Vanwyrm",
+            "Pyrin",
+            "Reptyro",
+            "Pyrin Noct",
+            "Blazehowl Noct",
+            "Ragnahawk",
+            "Wixen",
+            "Jormuntide Ignis"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Desert Egg 1": {
+        "connects_to": [
+            "Sparkit",
+            "Jolthog",
+            "Cawgnito",
+            "Fuddler",
+            "Rayhound",
+            "Lovander",
+            "Robinquill Terra",
+            "Dinossom Lux",
+            "Surfent Terra",
+            "Suzaku",
+            "Digtoise",
+            "Palumba",
+            "Braloha"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Glacier Egg 1": {
+        "connects_to": [
+            "Pengullet",
+            "Chillet",
+            "Mau Cryst",
+            "Vanwyrm Cryst",
+            "Reindrix",
+            "Foxcicle",
+            "Kitsun",
+            "Sibelyx",
+            "Cryolinx",
+            "Wumpo",
+            "Reptyro Cryst",
+            "Kingpaca Cryst",
+            "Mammorest Cryst",
+            "Suzaku Aqua",
+            "Frostplume",
+            "Icelyn"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Glacier Egg 2": {
+        "connects_to": [
+            "Pengullet",
+            "Chillet",
+            "Mau Cryst",
+            "Vanwyrm Cryst",
+            "Reindrix",
+            "Foxcicle",
+            "Kitsun",
+            "Sibelyx",
+            "Cryolinx",
+            "Wumpo",
+            "Reptyro Cryst",
+            "Kingpaca Cryst",
+            "Mammorest Cryst",
+            "Suzaku Aqua",
+            "Frostplume",
+            "Icelyn"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Sakurajima Egg 1": {
+        "connects_to": [
+            "Kikit",
+            "Dumud",
+            "Beakon",
+            "Flopie",
+            "Cattiva",
+            "Ribbuny",
+            "Yakumo",
+            "Quivern",
+            "Verdash",
+            "Depresso",
+            "Cawgnito",
+            "Dazemu",
+            "Tocotoco",
+            "Shroomer",
+            "Croajiro",
+            "Relaxaurus",
+            "Grintale",
+            "Helzephyr Lux",
+            "Wixen Noct",
+            "Chillet Ignis",
+            "Dinossom",
+            "Dogen",
+            "Bushi Noct",
+            "Quivern Botan",
+            "Lullu",
+            "Bushi",
+            "Sootseer",
+            "Gorirat Terra",
+            "Shroomer Noct",
+            "Petallia",
+            "Maraith",
+            "Katress Ignis",
+            "Menasting",
+            "Lyleen"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Feybreak Egg 1": {
+        "connects_to": [
+            "Dazzi Noct",
+            "Cryolinx Terra",
+            "Fenglope Lux",
+            "Caprity Noct",
+            "Loupmoon Cryst",
+            "Faleris Aqua",
+            "Warsect Terra",
+            "Kitsun Noct",
+            "Ribbuny Botan",
+            "Starryon",
+            "Gildane",
+            "Nitemary",
+            "Prunelia",
+            "Nyafia",
+            "Silvegis",
+            "Tarantriss",
+            "Omascul",
+            "Splatterina",
+            "Smokie",
+            "Celesdir",
+            "Foxparks Cryst",
+            "Azurmane"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Feybreak Egg 2": {
+        "connects_to": [
+            "Dazzi Noct",
+            "Cryolinx Terra",
+            "Fenglope Lux",
+            "Caprity Noct",
+            "Loupmoon Cryst",
+            "Faleris Aqua",
+            "Warsect Terra",
+            "Kitsun Noct",
+            "Ribbuny Botan",
+            "Starryon",
+            "Gildane",
+            "Nitemary",
+            "Prunelia",
+            "Nyafia",
+            "Silvegis",
+            "Tarantriss",
+            "Omascul",
+            "Splatterina",
+            "Smokie",
+            "Celesdir",
+            "Foxparks Cryst",
+            "Azurmane"
+        ],
+        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+    },
+    "Fishing Ponds": {
+        "starting": true,
+        "connects_to": [
+            "Common Bait",
+            "High Quality Bait",
+            "Deluxe Bait"
+        ],
+        "requires": "|Tech - Palbox| & (|Tech - Fishing Pond| or |Tech - Large Fishing Pond|) & |Tech - Mill| & |Tech - Progressive Workbench|"
+    },
+    "Common Bait": {
+        "connects_to": [
+            "Penking",
+            "Killamari",
+            "Azurobe",
+            "Jelliette",
+            "Turtacle",
+            "Jellroy",
+            "Celaray",
+            "Pengullet",
+            "Kelpsea",
+            "Croajiro",
+            "Fuack"
+        ],
+        "requires": "|Tech - Beginner Fishing Set|"
+    },
+    "High Quality Bait": {
+        "connects_to": [
+            "Munchill",
+            "Finsider",
+            "Surfent Terra",
+            "Kelpsea Ignis",
+            "Fuack Ignis",
+            "Killamari Primo",
+            "Pengullet Lux",
+            "Polapup",
+            "Celaray Lux",
+            "Surfent"
+        ],
+        "requires": "|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)"
+    },
+    "Deluxe Bait": {
+        "connects_to": [
+            "Finsider Ignis",
+            "Ghangler",
+            "Ghangler Ignis",
+            "Croajiro Noct",
+            "Penking Lux",
+            "Whalaska Ignis",
+            "Dumud",
+            "Dumud Gild",
+            "Gloopie",
+            "Turtacle Terra",
+            "Azurobe Cryst"
+        ],
+        "requires": "|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|"
+    },
+    "Fishing_Windswept": {
+        "connects_to": [
+            "Fuack",
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Croajiro",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Crescent": {
+        "connects_to": [
+            "Fuack",
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Croajiro",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_SeaBreeze": {
+        "connects_to": [
+            "Fuack",
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Croajiro",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Obsidian": {
+        "connects_to": [
+            "Fuack Ignis",
+            "Pengullet Lux",
+            "Killamari Primo",
+            "Kelpsea Ignis",
+            "Turtacle Terra",
+            "Gloopie",
+            "Finsider"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Feybreak": {
+        "connects_to": [
+            "Kelpsea Ignis",
+            "Azurobe Cryst",
+            "Finsider Ignis",
+            "Ghangler Ignis",
+            "Whalaska",
+            "Whalaska Ignis"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Sakurajima": {
+        "connects_to": [
+            "Penking Lux",
+            "Croajiro Noct",
+            "Gloopie",
+            "Ghangler"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Astral": {
+        "connects_to": [
+            "Penking",
+            "Killamari",
+            "Celaray Lux"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_AstralFoot": {
+        "connects_to": [
+            "Penking",
+            "Killamari",
+            "Celaray Lux",
+            "Surfent",
+            "Azurobe",
+            "Turtacle"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Verdant": {
+        "connects_to": [
+            "Fuack",
+            "Pengullet",
+            "Penking",
+            "Killamari",
+            "Celaray",
+            "Celaray Lux",
+            "Surfent",
+            "Kelpsea",
+            "Azurobe",
+            "Croajiro",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Frostbound": {
+        "connects_to": [
+            "Azurobe Cryst",
+            "Munchill",
+            "Polapup"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Scar": {
+        "connects_to": [
+            "Penking",
+            "Killamari",
+            "Celaray Lux",
+            "Surfent",
+            "Azurobe",
+            "Turtacle"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_IceWind": {
+        "connects_to": [
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Forgotten": {
+        "connects_to": [
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Desert": {
+        "connects_to": [
+            "Pengullet Lux",
+            "Dumud Gild",
+            "Surfent Terra",
+            "Turtacle Terra",
+            "Finsider"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_EasternWild": {
+        "connects_to": [
+            "Fuack",
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Marsh": {
+        "connects_to": [
+            "Celaray",
+            "Kelpsea",
+            "Croajiro",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Arena": {
+        "connects_to": [
+            "Pengullet Lux",
+            "Turtacle Terra",
+            "Finsider"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Decayed": {
+        "connects_to": [
+            "Pengullet",
+            "Pengullet Lux",
+            "Kelpsea",
+            "Azurobe",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette",
+            "Gloopie"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Sunlit": {
+        "connects_to": [
+            "Pengullet",
+            "Celaray",
+            "Kelpsea",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Oasis": {
+        "connects_to": [
+            "Celaray Lux",
+            "Dumud Gild",
+            "Turtacle Terra"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Glacial": {
+        "connects_to": [
+            "Azurobe Cryst",
+            "Munchill",
+            "Polapup",
+            "Whalaska"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Phantom": {
+        "connects_to": [
+            "Pengullet Lux",
+            "Penking Lux",
+            "Finsider Ignis",
+            "Ghangler"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Twilight": {
+        "connects_to": [
+            "Pengullet",
+            "Kelpsea",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Bamboo": {
+        "connects_to": [
+            "Fuack",
+            "Pengullet",
+            "Kelpsea",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_EternalSummer": {
+        "connects_to": [
+            "Celaray Lux",
+            "Dumud Gild",
+            "Surfent Terra",
+            "Turtacle Terra"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_Frostbitten": {
+        "connects_to": [
+            "Kelpsea",
+            "Munchill",
+            "Turtacle",
+            "Jellroy",
+            "Jelliette"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_WS_1": {
+        "connects_to": [
+            "Penking",
+            "Turtacle"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_WS_2": {
+        "connects_to": [
+            "Gloopie",
+            "Ghangler Ignis",
+            "Whalaska Ignis"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Fishing_WS_3": {
+        "connects_to": [
+            "Penking Lux",
+            "Dumud Gild"
+        ],
+        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+    },
+    "Hillside Cavern": {
+        "connects_to": [
+            "Lifmunk",
+            "Tanzee",
+            "Foxparks",
+            "Teafant",
+            "Direhowl",
+            "Cattiva",
+            "Lamball",
+            "Chikipi",
+            "Jolthog",
+            "Rushoar",
+            "Daedream",
+            "Vixy",
+            "Cremis",
+            "Gumoss",
+            "Rooby",
+            "Pengullet",
+            "Fuack",
+            "Celaray",
+            "Melpaca",
+            "Caprity",
+            "Hoocrates",
+            "Depresso",
+            "Killamari",
+            "Tombat",
+            "Fuddler",
+            "Mau",
+            "Dinossom",
+            "Jelliette",
+            "Turtacle"
+        ],
+        "requires": []
+    },
+    "Mountain Stream Grotto": {
+        "connects_to": [
+            "Galeclaw",
+            "Flopie",
+            "Bristla",
+            "Cinnamoth",
+            "Robinquill",
+            "Mossanda",
+            "Gorirat",
+            "Gobfin",
+            "Loupmoon",
+            "Katress",
+            "Felbat",
+            "Grintale",
+            "Turtacle",
+            "Herbil",
+            "Beegarde",
+            "Tarantriss",
+            "Jelliette"
+        ],
+        "requires": []
+    },
+    "Cavern of the Dunes": {
+        "connects_to": [
+            "Dazzi",
+            "Rayhound",
+            "Tocotoco",
+            "Dinossom Lux",
+            "Robinquill Terra",
+            "Nitewing",
+            "Fuddler",
+            "Hangyu",
+            "Surfent Terra",
+            "Digtoise",
+            "Beakon",
+            "Lovander",
+            "Cawgnito",
+            "Leezpunk",
+            "Finsider",
+            "Mossanda Lux",
+            "Pyrin Noct",
+            "Blazehowl Noct",
+            "Leezpunk Ignis",
+            "Incineram"
+        ],
+        "requires": []
+    },
+    "Volcanic Cavern": {
+        "connects_to": [
+            "Flambelle",
+            "Kelpsea Ignis",
+            "Wixen",
+            "Pyrin",
+            "Vanwyrm",
+            "Reptyro",
+            "Gobfin Ignis",
+            "Leezpunk Ignis",
+            "Incineram",
+            "Blazehowl",
+            "Ragnahawk",
+            "Bushi",
+            "Fenglope",
+            "Leezpunk",
+            "Dumud",
+            "Blazehowl Noct",
+            "Pyrin Noct",
+            "Gloopie",
+            "Ghangler",
+            "Mossanda Lux",
+            "Lovander",
+            "Cawgnito",
+            "Fuddler",
+            "Tocotoco"
+        ],
+        "requires": []
+    },
+    "Astral Mountains Cavern": {
+        "connects_to": [
+            "Pengullet",
+            "Mau Cryst",
+            "Chillet",
+            "Sibelyx",
+            "Cryolinx",
+            "Vanwyrm Cryst",
+            "Elphidran",
+            "Wumpo",
+            "Mammorest Cryst",
+            "Reindrix",
+            "Quivern",
+            "Reptyro Cryst",
+            "Suzaku Aqua",
+            "Maraith",
+            "Lunaris",
+            "Tombat",
+            "Polapup",
+            "Munchill",
+            "Icelyn",
+            "Frostplume",
+            "Whalaska"
+        ],
+        "requires": []
+    },
+    "Cherry Blossom Cave": {
+        "connects_to": [
+            "Lullu",
+            "Kikit",
+            "Dazemu",
+            "Sootseer",
+            "Gorirat Terra",
+            "Quivern Botan",
+            "Chillet Ignis",
+            "Dogen",
+            "Shroomer",
+            "Shroomer Noct",
+            "Croajiro",
+            "Wixen Noct",
+            "Katress Ignis",
+            "Bushi Noct",
+            "Helzephyr Lux",
+            "Yakumo",
+            "Ghangler",
+            "Palumba",
+            "Braloha",
+            "Maraith"
+        ],
+        "requires": []
+    },
+    "Feybreak Cavern": {
+        "connects_to": [
+            "Warsect Terra",
+            "Omascul",
+            "Nitemary",
+            "Foxparks Cryst",
+            "Loupmoon Cryst",
+            "Ribbuny Botan",
+            "Dazzi Noct",
+            "Gildane",
+            "Faleris Aqua",
+            "Cryolinx Terra",
+            "Prunelia",
+            "Smokie",
+            "Nyafia",
+            "Starryon",
+            "Splatterina",
+            "Tarantriss",
+            "Caprity Noct",
+            "Kitsun Noct"
+        ],
+        "requires": []
+    },
+    "Terraria Cavern": {
+        "connects_to": [
+            "Herbil",
+            "Dazzi",
+            "Dumud Gild",
+            "Tombat",
+            "Jellroy",
+            "Shroomer",
+            "Shroomer Noct",
+            "Killamari Primo",
+            "Starryon",
+            "Icelyn"
+        ],
+        "requires": []
+    },
+    "Grass Meteor": {
+        "connects_to": [
+            "Xenovader"
+        ],
+        "requires": []
+    },
+    "Forest Meteor": {
+        "connects_to": [
+            "Xenovader"
+        ],
+        "requires": []
+    },
+    "Snow Meteor": {
+        "connects_to": [
+            "Xenovader",
+            "Xenogard"
+        ],
+        "requires": []
+    },
+    "Desert Meteor": {
+        "connects_to": [
+            "Xenovader",
+            "Xenogard"
+        ],
+        "requires": []
+    },
+    "Volcano Meteor": {
+        "connects_to": [
+            "Xenovader",
+            "Xenogard"
+        ],
+        "requires": []
+    },
+    "Sakurajima Meteor": {
+        "connects_to": [
+            "Selyne"
+        ],
+        "requires": []
+    },
+    "Feybreak Meteor": {
+        "connects_to": [
+            "Xenovader",
+            "Xenogard"
+        ],
+        "requires": []
+    },
+    "Incident_Grass": {
+        "connects_to": [
+            "Mammorest",
+            "Flopie",
+            "Direhowl",
+            "Sweepa",
+            "Swee",
+            "Caprity",
+            "Jolthog Cryst",
+            "Tocotoco",
+            "Relaxaurus",
+            "Gobfin",
+            "Bristla",
+            "Ribbuny",
+            "Mozzarina",
+            "Depresso"
+        ],
+        "requires": []
+    },
+    "Incident_Grass_B": {
+        "connects_to": [
+            "Mammorest",
+            "Flopie",
+            "Direhowl",
+            "Swee",
+            "Sweepa",
+            "Caprity",
+            "Jolthog Cryst",
+            "Tocotoco",
+            "Univolt",
+            "Surfent Terra",
+            "Mozzarina",
+            "Relaxaurus",
+            "Arsox"
+        ],
+        "requires": []
+    },
+    "Incident_Grass_Desert": {
+        "connects_to": [
+            "Mammorest",
+            "Flopie",
+            "Direhowl",
+            "Swee",
+            "Sweepa",
+            "Digtoise",
+            "Tocotoco"
+        ],
+        "requires": []
+    },
+    "Incident_Forest": {
+        "connects_to": [
+            "Mammorest",
+            "Flopie",
+            "Galeclaw",
+            "Elizabee",
+            "Beegarde",
+            "Robinquill",
+            "Bristla",
+            "Jolthog Cryst",
+            "Direhowl",
+            "Gorirat",
+            "Tocotoco",
+            "Helzephyr",
+            "Maraith",
+            "Dumud",
+            "Hangyu Cryst"
+        ],
+        "requires": []
+    },
+    "Incident_Forest_B": {
+        "connects_to": [
+            "Mammorest",
+            "Flopie",
+            "Galeclaw",
+            "Elizabee",
+            "Beegarde",
+            "Robinquill",
+            "Bristla",
+            "Jolthog Cryst",
+            "Direhowl",
+            "Gorirat",
+            "Tocotoco",
+            "Helzephyr",
+            "Maraith",
+            "Hangyu Cryst",
+            "Dumud",
+            "Mossanda"
+        ],
+        "requires": []
+    },
+    "Incident_Forest_Frost": {
+        "connects_to": [
+            "Jolthog Cryst",
+            "Direhowl",
+            "Tocotoco"
+        ],
+        "requires": []
+    },
+    "Incident_Volcano": {
+        "connects_to": [
+            "Flambelle",
+            "Vanwyrm",
+            "Reptyro",
+            "Gobfin Ignis",
+            "Gobfin",
+            "Tocotoco",
+            "Cryolinx",
+            "Woolipop",
+            "Nox",
+            "Pyrin"
+        ],
+        "requires": []
+    },
+    "Incident_Desert": {
+        "connects_to": [
+            "Dazzi",
+            "Rayhound",
+            "Robinquill Terra",
+            "Dinossom Lux",
+            "Dinossom",
+            "Tocotoco",
+            "Kitsun",
+            "Ragnahawk",
+            "Elphidran Aqua",
+            "Nox"
+        ],
+        "requires": []
+    },
+    "Incident_Snow": {
+        "connects_to": [
+            "Wumpo",
+            "Wumpo Botan",
+            "Sibelyx",
+            "Mau Cryst",
+            "Cryolinx",
+            "Tocotoco",
+            "Vanwyrm Cryst",
+            "Vanwyrm",
+            "Felbat",
+            "Relaxaurus Lux",
+            "Lyleen Noct",
+            "Nox"
+        ],
+        "requires": []
+    },
+    "Incident_Sakurajima": {
+        "connects_to": [
+            "Dogen",
+            "Yakumo",
+            "Croajiro",
+            "Chillet",
+            "Chillet Ignis",
+            "Shroomer",
+            "Tocotoco",
+            "Felbat",
+            "Relaxaurus Lux",
+            "Lyleen Noct",
+            "Nox",
+            "Prixter"
+        ],
+        "requires": []
+    },
+    "Incident_Sakurajima_B": {
+        "connects_to": [
+            "Dogen",
+            "Yakumo",
+            "Croajiro",
+            "Chillet",
+            "Chillet Ignis",
+            "Shroomer",
+            "Tocotoco",
+            "Felbat",
+            "Relaxaurus Lux",
+            "Lyleen Noct",
+            "Nox",
+            "Prixter"
+        ],
+        "requires": []
+    },
+    "Incident_Feybreak_Red": {
+        "connects_to": [
+            "Smokie",
+            "Prunelia",
+            "Nyafia",
+            "Felbat",
+            "Relaxaurus Lux",
+            "Lyleen Noct",
+            "Nox"
+        ],
+        "requires": []
+    },
+    "Incident_Feybreak_Desert": {
+        "connects_to": [
+            "Cryolinx Terra",
+            "Gildane",
+            "Faleris",
+            "Faleris Aqua",
+            "Relaxaurus Lux",
+            "Lyleen Noct",
+            "Nox"
+        ],
+        "requires": []
+    },
+    "Incident_Feybreak_Dark": {
+        "connects_to": [
+            "Omascul",
+            "Nitemary",
+            "Foxparks",
+            "Foxparks Cryst",
+            "Loupmoon",
+            "Loupmoon Cryst",
+            "Splatterina"
+        ],
+        "requires": []
+    },
+    "Incident_Feybreak_Yellow": {
+        "connects_to": [
+            "Warsect Terra",
+            "Warsect",
+            "Ribbuny",
+            "Ribbuny Botan",
+            "Rayhound",
+            "Relaxaurus Lux",
+            "Lyleen Noct",
+            "Nox"
+        ],
+        "requires": []
+    },
+    "Raid Battles": {
+        "starting": true,
+        "connects_to": [
+            "Bellanoir",
+            "Bellanoir Libero",
+            "Blazamut Ryu",
+            "Xenolord",
+            "Hartalis"
+        ],
+        "requires": "|A.Tech - Summoning Altar| & |Tech - Palbox| & |Tech - Progressive Workbench:1| & {canReachLocation(Base Level 15 Task)}"
+    },
+    "Breeding Only": {
+        "starting": true,
+        "connects_to": [
+            "Bastigor"
+        ],
+        "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ({canReachLocation(Palpedia - Lovander)} OR (|Tech - Mill| AND |Tech - Cooking Pot| AND |Tech - Progressive Furnace:1| AND ({canReachLocation(Travel Point - Gobfin's Turf)} OR {canReachLocation(Travel Point - Eastern Wild Island)} OR {canReachLocation(Travel Point - Mount Flopie Summit)} OR {canReachLocation(Lily Everhart's Diary - 4)})))"
+    },
+    "Pal Merchant": {
+        "connects_to": [
+            "Rushoar",
+            "Chikipi",
+            "Tocotoco",
+            "Mozzarina",
+            "Eikthyrdeer",
+            "Direhowl",
+            "Jolthog",
+            "Univolt",
+            "Foxparks",
+            "Pengullet",
+            "Cattiva",
+            "Gobfin",
+            "Lamball",
+            "Loupmoon"
+        ],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Pal Merchant_Desert": {
+        "connects_to": [
+            "Fuddler",
+            "Digtoise",
+            "Dinossom Lux",
+            "Nitewing",
+            "Lovander",
+            "Dazzi",
+            "Robinquill Terra",
+            "Broncherry",
+            "Surfent Terra",
+            "Rayhound",
+            "Hangyu"
+        ],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Pal Merchant_Volcano": {
+        "connects_to": [
+            "Incineram",
+            "Vanwyrm",
+            "Pyrin",
+            "Wixen",
+            "Kelpsea Ignis",
+            "Flambelle",
+            "Leezpunk Ignis",
+            "Gobfin Ignis",
+            "Reptyro"
+        ],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Black Marketeer": {
+        "connects_to": [
+            "Melpaca",
+            "Incineram",
+            "Incineram Noct",
+            "Mau",
+            "Mau Cryst",
+            "Penking",
+            "Tombat",
+            "Katress",
+            "Felbat",
+            "Tocotoco",
+            "Vixy",
+            "Fuddler",
+            "Cawgnito",
+            "Galeclaw",
+            "Elphidran",
+            "Dinossom",
+            "Petallia",
+            "Flopie",
+            "Maraith",
+            "Nitewing",
+            "Jolthog Cryst",
+            "Warsect",
+            "Kingpaca",
+            "Foxparks Cryst",
+            "Flambelle",
+            "Dumud",
+            "Relaxaurus",
+            "Bristla",
+            "Leezpunk",
+            "Swee",
+            "Sweepa",
+            "Lunaris",
+            "Killamari",
+            "Nox",
+            "Ribbuny",
+            "Dazzi",
+            "Robinquill",
+            "Surfent",
+            "Beegarde",
+            "Woolipop",
+            "Vaelet",
+            "Chillet",
+            "Loupmoon",
+            "Cryolinx",
+            "Hangyu",
+            "Cremis"
+        ],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Cage_Desert": {
+        "connects_to": [
+            "Fuddler",
+            "Tocotoco",
+            "Hangyu",
+            "Mossanda Lux",
+            "Dumud",
+            "Rayhound",
+            "Dazzi",
+            "Dinossom Lux",
+            "Surfent Terra",
+            "Digtoise",
+            "Beakon",
+            "Tarantriss"
+        ],
+        "requires": []
+    },
+    "Cage_Forest": {
+        "connects_to": [
+            "Chikipi",
+            "Vixy",
+            "Teafant",
+            "Rushoar",
+            "Nox",
+            "Mau",
+            "Tocotoco",
+            "Flopie",
+            "Bristla",
+            "Mossanda Lux",
+            "Ribbuny",
+            "Arsox",
+            "Dumud",
+            "Dazzi",
+            "Dinossom Lux",
+            "Flambelle",
+            "Vanwyrm"
+        ],
+        "requires": []
+    },
+    "Cage_Grass": {
+        "connects_to": [
+            "Lifmunk",
+            "Sparkit",
+            "Pengullet",
+            "Jolthog Cryst",
+            "Vixy",
+            "Nox",
+            "Fuddler",
+            "Mau Cryst",
+            "Tocotoco",
+            "Flopie",
+            "Bristla",
+            "Ribbuny",
+            "Arsox",
+            "Dumud",
+            "Swee",
+            "Dazzi",
+            "Flambelle"
+        ],
+        "requires": []
+    },
+    "Cage_Grass2": {
+        "connects_to": [
+            "Lamball",
+            "Cattiva",
+            "Fuack",
+            "Tanzee",
+            "Jolthog Cryst",
+            "Nox",
+            "Mau Cryst",
+            "Tocotoco",
+            "Flopie",
+            "Bristla",
+            "Ribbuny",
+            "Arsox",
+            "Dumud",
+            "Dazzi",
+            "Surfent",
+            "Flambelle"
+        ],
+        "requires": []
+    },
+    "Cage_Sakurajima": {
+        "connects_to": [
+            "Depresso",
+            "Tocotoco",
+            "Flopie",
+            "Ribbuny",
+            "Chillet Ignis",
+            "Dinossom",
+            "Katress Ignis",
+            "Wixen Noct",
+            "Petallia",
+            "Croajiro",
+            "Lullu",
+            "Shroomer",
+            "Kikit",
+            "Yakumo"
+        ],
+        "requires": []
+    },
+    "Cage_Snow": {
+        "connects_to": [
+            "Pengullet",
+            "Mau Cryst",
+            "Hangyu Cryst",
+            "Caprity",
+            "Chillet",
+            "Lunaris",
+            "Sibelyx",
+            "Xenovader"
+        ],
+        "requires": []
+    },
+    "Cage_Viking": {
+        "connects_to": [
+            "Foxparks Cryst",
+            "Mossanda Lux",
+            "Caprity Noct",
+            "Ribbuny Botan",
+            "Leezpunk Ignis",
+            "Loupmoon Cryst",
+            "Robinquill Terra",
+            "Gorirat Terra",
+            "Chillet Ignis",
+            "Dazzi Noct",
+            "Warsect Terra",
+            "Lullu",
+            "Smokie",
+            "Prunelia",
+            "Nyafia"
+        ],
+        "requires": []
+    },
+    "Cage_Volcano": {
+        "connects_to": [
+            "Rooby",
+            "Tocotoco",
+            "Gobfin Ignis",
+            "Dumud",
+            "Dazzi",
+            "Dazzi Noct",
+            "Flambelle",
+            "Wixen",
+            "Kelpsea Ignis"
+        ],
+        "requires": []
+    },
+    "Zoe Mission": {
+        "starting": true,
+        "connects_to": [
+            "Zoe Mission 2"
+        ],
+        "requires": "|Zoe's Key| AND |Windswept Pass| AND |Wildlife Sanctuary 1 Tracker|"
+    },
+    "Zoe Mission 2": {
+        "connects_to": [
+            "Zoe Mission 3"
+        ],
+        "requires": "({canReachLocation(Travel Point - Mossanda Forest)} or {canReachLocation(Travel Point - Ancient Ritual Site)})"
+    },
+    "Zoe Mission 3": {
+        "connects_to": [
+            "Zoe Mission 4"
+        ],
+        "requires": []
+    },
+    "Zoe Mission 4": {
+        "connects_to": [
+            "Zoe Mission 5"
+        ],
+        "requires": []
+    },
+    "Zoe Mission 5": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Workbench|"
+    },
+    "Pal Research": {
+        "starting": true,
+        "connects_to": [
+            "Handiwork T1",
+            "Kindling T1",
+            "Watering T1",
+            "Planting T1",
+            "Gen_Elec T1",
+            "Lumbering T1",
+            "Mining T1",
+            "Cooling T1",
+            "Med_Prod T1"
+        ],
+        "requires": "|Tech - Palbox| & |Tech - Pal Labor Research Laboratory|"
+    },
+    "Handiwork T1": {
+        "connects_to": [
+            "Handiwork T1-1",
+            "Handiwork T1-2",
+            "Handiwork T1-3"
+        ],
+        "requires": "(|Tech - Cloth| & |Tech - Progressive Workbench:1|) or {canReachLocation(Palpedia - Azurobe)} or {canReachLocation(Palpedia - Felbat)} or {canReachLocation(Palpedia - Croajiro)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Palpedia - Croajiro Noct)} or {canReachLocation(Palpedia - Azurobe Cryst)}"
+    },
+    "Handiwork T1-1": {
+        "connects_to": [
+            "Handiwork T1-4",
+            "Handiwork T1-5"
+        ],
+        "requires": "(|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})"
+    },
+    "Handiwork T1-2": {
+        "connects_to": [
+            "Handiwork T1-6"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Handiwork T1-3": {
+        "connects_to": [
+            "Handiwork T2-4"
+        ],
+        "requires": "(|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})"
+    },
+    "Handiwork T1-4": {
+        "connects_to": [
+            "Handiwork T2-1"
+        ],
+        "requires": "|Tech - Progressive Furnace:1| & |Tech - Pal Expedition Station|"
+    },
+    "Handiwork T1-5": {
+        "connects_to": [
+            "Handiwork T2-2"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Handiwork T1-6": {
+        "connects_to": [
+            "Handiwork T2-3"
+        ],
+        "requires": []
+    },
+    "Handiwork T2-1": {
+        "connects_to": [
+            "Handiwork T3-1"
+        ],
+        "requires": []
+    },
+    "Handiwork T2-2": {
+        "connects_to": [
+            "Handiwork T3-2"
+        ],
+        "requires": "(|Tech - Polymer| & |Tech - Palbox| & |@Power Source| & |Tech - Progressive Workbench:3|) or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)}"
+    },
+    "Handiwork T2-3": {
+        "connects_to": [
+            "Handiwork T3-3"
+        ],
+        "requires": []
+    },
+    "Handiwork T2-4": {
+        "connects_to": [
+            "Handiwork T3-4"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Handiwork T3-1": {
+        "connects_to": [
+            "Handiwork T4-1"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Handiwork T3-2": {
+        "connects_to": [
+            "Handiwork T4-2"
+        ],
+        "requires": []
+    },
+    "Handiwork T3-3": {
+        "connects_to": [
+            "Handiwork T3-5"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Handiwork T3-4": {
+        "connects_to": [
+            "Handiwork T4-4"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Handiwork T3-5": {
+        "connects_to": [
+            "Handiwork T4-3"
+        ],
+        "requires": []
+    },
+    "Handiwork T4-1": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Handiwork T4-2": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Handiwork T4-3": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Handiwork T4-4": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Kindling T1": {
+        "connects_to": [
+            "Kindling T1-1",
+            "Kindling T1-2",
+            "Kindling T1-3"
+        ],
+        "requires": "|Tech - Progressive Furnace:1|"
+    },
+    "Kindling T1-1": {
+        "connects_to": [
+            "Kindling T1-4",
+            "Kindling T1-5"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Kindling T1-2": {
+        "connects_to": [
+            "Kindling T2-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Kindling T1-3": {
+        "connects_to": [
+            "Kindling T2-4"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Kindling T1-4": {
+        "connects_to": [
+            "Kindling T2-1"
+        ],
+        "requires": []
+    },
+    "Kindling T1-5": {
+        "connects_to": [
+            "Kindling T2-2"
+        ],
+        "requires": "|Tech - Campfire| or |Tech - Cooking Pot| or |Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|)"
+    },
+    "Kindling T2-1": {
+        "connects_to": [
+            "Kindling T3-1"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Kindling T2-2": {
+        "connects_to": [
+            "Kindling T3-2"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Kindling T2-3": {
+        "connects_to": [
+            "Kindling T3-3"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Kindling T2-4": {
+        "connects_to": [
+            "Kindling T3-4"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Kindling T3-1": {
+        "connects_to": [
+            "Kindling T4-1"
+        ],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+    },
+    "Kindling T3-2": {
+        "connects_to": [
+            "Kindling T4-2"
+        ],
+        "requires": []
+    },
+    "Kindling T3-3": {
+        "connects_to": [
+            "Kindling T4-3"
+        ],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+    },
+    "Kindling T3-4": {
+        "connects_to": [
+            "Kindling T4-4"
+        ],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+    },
+    "Kindling T4-1": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:4| & |@Power Source|"
+    },
+    "Kindling T4-2": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:4| & {canReachLocation(Palpedia - Bellanoir)} & |@Power Source|"
+    },
+    "Kindling T4-3": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:4|"
+    },
+    "Kindling T4-4": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:4| & {canReachLocation(Palpedia - Bellanoir)} & |@Power Source|"
+    },
+    "Watering T1": {
+        "connects_to": [
+            "Watering T1-1",
+            "Watering T1-2",
+            "Watering T1-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Watering T1-1": {
+        "connects_to": [
+            "Watering T1-4",
+            "Watering T2-2"
+        ],
+        "requires": []
+    },
+    "Watering T1-2": {
+        "connects_to": [
+            "Watering T2-3"
+        ],
+        "requires": []
+    },
+    "Watering T1-3": {
+        "connects_to": [
+            "Watering T2-4"
+        ],
+        "requires": []
+    },
+    "Watering T1-4": {
+        "connects_to": [
+            "Watering T2-1"
+        ],
+        "requires": []
+    },
+    "Watering T2-1": {
+        "connects_to": [
+            "Watering T3-1"
+        ],
+        "requires": []
+    },
+    "Watering T2-2": {
+        "connects_to": [
+            "Watering T4-2"
+        ],
+        "requires": []
+    },
+    "Watering T2-3": {
+        "connects_to": [
+            "Watering T3-2"
+        ],
+        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+    },
+    "Watering T2-4": {
+        "connects_to": [
+            "Watering T3-3"
+        ],
+        "requires": []
+    },
+    "Watering T3-1": {
+        "connects_to": [
+            "Watering T4-1"
+        ],
+        "requires": []
+    },
+    "Watering T3-2": {
+        "connects_to": [
+            "Watering T4-3"
+        ],
+        "requires": "|Tech - Potato Plantation| & |Tech - Carrot Plantation|"
+    },
+    "Watering T3-3": {
+        "connects_to": [
+            "Watering T4-4"
+        ],
+        "requires": "|Tech - Onion Plantation|"
+    },
+    "Watering T4-1": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Watering T4-2": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Watering T4-3": {
+        "connects_to": [],
+        "requires": "|Tech - Onion Plantation|"
+    },
+    "Watering T4-4": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Planting T1": {
+        "connects_to": [
+            "Planting T1-1",
+            "Planting T1-2",
+            "Planting T1-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Planting T1-1": {
+        "connects_to": [
+            "Planting T1-4"
+        ],
+        "requires": "|Tech - Mill| & {canReachLocation(Palpedia - Gumoss)}"
+    },
+    "Planting T1-2": {
+        "connects_to": [
+            "Planting T2-2",
+            "Planting T3-3"
+        ],
+        "requires": []
+    },
+    "Planting T1-3": {
+        "connects_to": [
+            "Planting T2-3"
+        ],
+        "requires": []
+    },
+    "Planting T1-4": {
+        "connects_to": [
+            "Planting T2-1"
+        ],
+        "requires": "((|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})) & |@Wildlife Sanctuary Trackers|"
+    },
+    "Planting T2-1": {
+        "connects_to": [
+            "Planting T2-4"
+        ],
+        "requires": []
+    },
+    "Planting T2-2": {
+        "connects_to": [
+            "Planting T3-2"
+        ],
+        "requires": "{canReachLocation(Palpedia - Gumoss)}"
+    },
+    "Planting T2-3": {
+        "connects_to": [
+            "Planting T3-4"
+        ],
+        "requires": "|Tech - Mill| & {canReachLocation(Palpedia - Gumoss)}"
+    },
+    "Planting T2-4": {
+        "connects_to": [
+            "Planting T3-1"
+        ],
+        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+    },
+    "Planting T3-1": {
+        "connects_to": [
+            "Planting T4-1"
+        ],
+        "requires": "|Tech - Potato Plantation| & |Tech - Carrot Plantation|"
+    },
+    "Planting T3-2": {
+        "connects_to": [
+            "Planting T4-2"
+        ],
+        "requires": "|Tech - Potato Plantation| & |Tech - Carrot Plantation|"
+    },
+    "Planting T3-3": {
+        "connects_to": [
+            "Planting T4-3"
+        ],
+        "requires": "((|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})) & |Tech - Mill|"
+    },
+    "Planting T3-4": {
+        "connects_to": [
+            "Planting T4-4"
+        ],
+        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+    },
+    "Planting T4-1": {
+        "connects_to": [],
+        "requires": "|Tech - Onion Plantation| & {canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Planting T4-2": {
+        "connects_to": [],
+        "requires": "|Tech - Onion Plantation| & {canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Planting T4-3": {
+        "connects_to": [],
+        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+    },
+    "Planting T4-4": {
+        "connects_to": [],
+        "requires": "|Tech - Onion Plantation| & {canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Gen_Elec T1": {
+        "connects_to": [
+            "Gen_Elec T1-1",
+            "Gen_Elec T1-2",
+            "Gen_Elec T1-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station| & (|Tech - Progressive Furnace:1| or {canReachLocation(Palpedia - Bushi)} or {canReachLocation(Palpedia - Bushi Noct)})"
+    },
+    "Gen_Elec T1-1": {
+        "connects_to": [
+            "Gen_Elec T2-1",
+            "Gen_Elec T2-2"
+        ],
+        "requires": "{canReachLocation(Palpedia - Dazzi)} or {canReachLocation(Palpedia - Dazzi Noct)}"
+    },
+    "Gen_Elec T1-2": {
+        "connects_to": [
+            "Gen_Elec T2-3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Dazzi)} or {canReachLocation(Palpedia - Dazzi Noct)}"
+    },
+    "Gen_Elec T1-3": {
+        "connects_to": [
+            "Gen_Elec T2-4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Dazzi)} or {canReachLocation(Palpedia - Dazzi Noct)}"
+    },
+    "Gen_Elec T2-1": {
+        "connects_to": [
+            "Gen_Elec T3-1"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Gen_Elec T2-2": {
+        "connects_to": [
+            "Gen_Elec T3-2"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Gen_Elec T2-3": {
+        "connects_to": [
+            "Gen_Elec T3-3"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Gen_Elec T2-4": {
+        "connects_to": [
+            "Gen_Elec T3-4"
+        ],
+        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+    },
+    "Gen_Elec T3-1": {
+        "connects_to": [
+            "Gen_Elec T3-5"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Gen_Elec T3-2": {
+        "connects_to": [
+            "Gen_Elec T4-2"
+        ],
+        "requires": []
+    },
+    "Gen_Elec T3-3": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Gen_Elec T3-4": {
+        "connects_to": [
+            "Gen_Elec T4-3"
+        ],
+        "requires": []
+    },
+    "Gen_Elec T3-5": {
+        "connects_to": [
+            "Gen_Elec T4-1"
+        ],
+        "requires": []
+    },
+    "Gen_Elec T4-1": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Gen_Elec T4-2": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Gen_Elec T4-3": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Lumbering T1": {
+        "connects_to": [
+            "Lumbering T1-1",
+            "Lumbering T1-2",
+            "Lumbering T1-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Lumbering T1-1": {
+        "connects_to": [
+            "Lumbering T2-1"
+        ],
+        "requires": []
+    },
+    "Lumbering T1-2": {
+        "connects_to": [
+            "Lumbering T2-2",
+            "Lumbering T2-3"
+        ],
+        "requires": []
+    },
+    "Lumbering T1-3": {
+        "connects_to": [
+            "Lumbering T2-4"
+        ],
+        "requires": []
+    },
+    "Lumbering T2-1": {
+        "connects_to": [
+            "Lumbering T2-5"
+        ],
+        "requires": "|Tech - Progressive Furnace:1| or {canReachLocation(Palpedia - Bushi)} or {canReachLocation(Palpedia - Bushi Noct)}"
+    },
+    "Lumbering T2-2": {
+        "connects_to": [
+            "Lumbering T3-2"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+    },
+    "Lumbering T2-3": {
+        "connects_to": [
+            "Lumbering T3-3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+    },
+    "Lumbering T2-4": {
+        "connects_to": [
+            "Lumbering T3-4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+    },
+    "Lumbering T2-5": {
+        "connects_to": [
+            "Lumbering T3-1"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+    },
+    "Lumbering T3-1": {
+        "connects_to": [
+            "Lumbering T4-1"
+        ],
+        "requires": []
+    },
+    "Lumbering T3-2": {
+        "connects_to": [
+            "Lumbering T4-2"
+        ],
+        "requires": []
+    },
+    "Lumbering T3-3": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Lumbering T3-4": {
+        "connects_to": [
+            "Lumbering T4-3"
+        ],
+        "requires": []
+    },
+    "Lumbering T4-1": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Lumbering T4-2": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Lumbering T4-3": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Mining T1": {
+        "connects_to": [
+            "Mining T1-1",
+            "Mining T1-2",
+            "Mining T1-3"
+        ],
+        "requires": []
+    },
+    "Mining T1-1": {
+        "connects_to": [
+            "Mining T2-1"
+        ],
+        "requires": "{canReachLocation(Travel Point - Kelpsea Hill)} or {canReachLocation(Boss - Anubis)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Lake Center)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - PIDF Tower Entrance)}"
+    },
+    "Mining T1-2": {
+        "connects_to": [
+            "Mining T2-2"
+        ],
+        "requires": "{canReachLocation(Travel Point - Kelpsea Hill)} or {canReachLocation(Boss - Anubis)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Lake Center)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - PIDF Tower Entrance)}"
+    },
+    "Mining T1-3": {
+        "connects_to": [
+            "Mining T2-3"
+        ],
+        "requires": "{canReachLocation(Travel Point - Kelpsea Hill)} or {canReachLocation(Boss - Anubis)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Lake Center)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - PIDF Tower Entrance)}"
+    },
+    "Mining T2-1": {
+        "connects_to": [
+            "Mining T2-4"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Mining T2-2": {
+        "connects_to": [
+            "Mining T3-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Mining T2-3": {
+        "connects_to": [
+            "Mining T3-4"
+        ],
+        "requires": "|Tech - Pal Expedition Station| & |Tech - Progressive Furnace:2|"
+    },
+    "Mining T2-4": {
+        "connects_to": [
+            "Mining T3-1",
+            "Mining T3-2"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Mining T3-1": {
+        "connects_to": [
+            "Mining T4-1"
+        ],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+    },
+    "Mining T3-2": {
+        "connects_to": [
+            "Mining T3-5"
+        ],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+    },
+    "Mining T3-3": {
+        "connects_to": [
+            "Mining T4-3"
+        ],
+        "requires": "|Tech - Progressive Furnace:2|"
+    },
+    "Mining T3-4": {
+        "connects_to": [
+            "Mining T4-4"
+        ],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & ({canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)})"
+    },
+    "Mining T3-5": {
+        "connects_to": [
+            "Mining T4-2"
+        ],
+        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)}"
+    },
+    "Mining T4-1": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & ({canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)})"
+    },
+    "Mining T4-2": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & {canReachLocation(Palpedia - Bellanoir)}"
+
+    },
+    "Mining T4-3": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & ({canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)})"
+    },
+    "Mining T4-4": {
+        "connects_to": [],
+        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & {canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Cooling T1": {
+        "connects_to": [
+            "Cooling T1-1",
+            "Cooling T1-2",
+            "Cooling T1-3"
+        ],
+        "requires": "|Tech - Pal Expedition Station|"
+    },
+    "Cooling T1-1": {
+        "connects_to": [
+            "Cooling T1-4",
+            "Cooling T1-5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Swee)}"
+    },
+    "Cooling T1-2": {
+        "connects_to": [
+            "Cooling T2-3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Swee)} & (|Tech - Progressive Furnace:1| or {canReachLocation(Palpedia - Bushi)} or {canReachLocation(Palpedia - Bushi Noct)})"
+    },
+    "Cooling T1-3": {
+        "connects_to": [
+            "Cooling T2-4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Swee)}"
+    },
+    "Cooling T1-4": {
+        "connects_to": [
+            "Cooling T2-1"
+        ],
+        "requires": []
+    },
+    "Cooling T1-5": {
+        "connects_to": [
+            "Cooling T2-2"
+        ],
+        "requires": []
+    },
+    "Cooling T2-1": {
+        "connects_to": [
+            "Cooling T3-1"
+        ],
+        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+    },
+    "Cooling T2-2": {
+        "connects_to": [
+            "Cooling T3-2"
+        ],
+        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+    },
+    "Cooling T2-3": {
+        "connects_to": [
+            "Cooling T3-3"
+        ],
+        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+    },
+    "Cooling T2-4": {
+        "connects_to": [
+            "Cooling T3-4"
+        ],
+        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+    },
+    "Cooling T3-1": {
+        "connects_to": [
+            "Cooling T4-1"
+        ],
+        "requires": []
+    },
+    "Cooling T3-2": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Cooling T3-3": {
+        "connects_to": [
+            "Cooling T4-2"
+        ],
+        "requires": []
+    },
+    "Cooling T3-4": {
+        "connects_to": [
+            "Cooling T4-3"
+        ],
+        "requires": []
+    },
+    "Cooling T4-1": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Cooling T4-2": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Cooling T4-3": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Med_Prod T1": {
+        "connects_to": [
+            "Med_Prod T1-1",
+            "Med_Prod T1-2"
+        ],
+        "requires": "|Tech - Medieval Medicine Workbench| & ((|Wildlife Sanctuary 1 Tracker| & {canReachLocation(Travel Point - Small Cove)}) or (|Wildlife Sanctuary 2 Tracker| & ({canReachLocation(Travel Point - Secluded Cemetary)} or {canReachLocation(Travel Point - Ruined Fortress City)})) or (|Wildlife Sanctuary 3 Tracker| & {canReachLocation(Travel Point - Duneshelter)}))"
+    },
+    "Med_Prod T1-1": {
+        "connects_to": [
+            "Med_Prod T2-1",
+            "Med_Prod T2-2"
+        ],
+        "requires": []
+    },
+    "Med_Prod T1-2": {
+        "connects_to": [
+            "Med_Prod T2-3"
+        ],
+        "requires": []
+    },
+    "Med_Prod T2-1": {
+        "connects_to": [
+            "Med_Prod T2-4"
+        ],
+        "requires": []
+    },
+    "Med_Prod T2-2": {
+        "connects_to": [
+            "Med_Prod T3-2"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shroomer Noct)}"
+    },
+    "Med_Prod T2-3": {
+        "connects_to": [
+            "Med_Prod T3-3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shroomer Noct)}"
+    },
+    "Med_Prod T2-4": {
+        "connects_to": [
+            "Med_Prod T3-1"
+        ],
+        "requires": "{canReachLocation(Palpedia - Shroomer Noct)}"
+    },
+    "Med_Prod T3-1": {
+        "connects_to": [
+            "Med_Prod T4-1"
+        ],
+        "requires": []
+    },
+    "Med_Prod T3-2": {
+        "connects_to": [
+            "Med_Prod T4-2"
+        ],
+        "requires": []
+    },
+    "Med_Prod T3-3": {
+        "connects_to": [
+            "Med_Prod T4-3"
+        ],
+        "requires": []
+    },
+    "Med_Prod T4-1": {
+        "connects_to": [],
+        "requires": "|Tech - Electric Medicine Workbench| & |@Power Source|"
+    },
+    "Med_Prod T4-2": {
+        "connects_to": [],
+        "requires": "|Tech - Electric Medicine Workbench| & |@Power Source|"
+    },
+    "Med_Prod T4-3": {
+        "connects_to": [],
+        "requires": "|Tech - Electric Medicine Workbench| & |@Power Source| & {canReachLocation(Palpedia - Bellanoir)}"
+    },
+    "Bounty Merchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Bounty Hunter Card|)}"
+    },
+    "Windswept_WanderingMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Membership Card|)}"
+    },
+    "Windswept_PalMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Windswept_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Crescent_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "SeaBreeze_WanderingMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Membership Card|)}"
+    },
+    "SeaBreeze_PalMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Bamboo_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Forgotten_WanderingMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Membership Card|)}"
+    },
+    "Forgotten_PalMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "AstralFoot_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Astral_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Desert_WanderingMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Membership Card|)}"
+    },
+    "Desert_PalMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Desert_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Arena_Merchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Arena Membership Card|)}"
+    },
+    "EasternWild_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Marsh_WanderingMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Membership Card|)}"
+    },
+    "Marsh_PalMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Obsidian_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Obsidian_WanderingMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Membership Card|)}"
+    },
+    "Obsidian_PalMerchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Pal Membership Card|)}"
+    },
+    "Verdant_BlackMarket": {
+        "connects_to": [],
+        "requires": "{OptOne(|Secret Membership Card|)}"
+    },
+    "Medal_Merchant": {
+        "connects_to": [],
+        "requires": "{OptOne(|Strange Membership Card|)}"
+    },
+    "Whalaska Ignis Boss": {
+        "connects_to": [
+            "Whalaska Ignis"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| & |@EZ_Mounts|"
+    },
+    "Cooking": {
+        "starting": true,
+        "connects_to": [
+            "Fire",
+            "Pot",
+            "Kitchen",
+            "Oven"
+        ],
+        "requires": []
+    },
+    "Fire": {
+        "connects_to": [
+            "Campfire"
+        ],
+        "requires": "|Tech - Campfire|"
+    },
+    "Pot": {
+        "connects_to": [
+            "Campfire",
+            "Cooking Pot"
+        ],
+        "requires": "|Tech - Cooking Pot| AND ({canReachLocation(Palpedia - Bushi)} OR {canReachLocation(Palpedia - Bushi Noct)} OR |Tech - Progressive Furnace|)"
+    },
+    "Kitchen": {
+        "connects_to": [
+            "Campfire",
+            "Cooking Pot",
+            "Electric Kitchen"
+        ],
+        "requires": "|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR {canReachLocation(Travel Point - Fisherman's Point)})) OR ({canReachLocation(Travel Point - Land of Absolute Zero)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Travel Point - Moonflower Tower Entrance)} OR {canReachLocation(Travel Point - Feybreak Tower Entrance)})) AND |Tech - Palbox|"
+    },
+    "Oven": {
+        "connects_to": [
+            "Campfire",
+            "Cooking Pot",
+            "Electric Kitchen",
+            "Large-Scale Stone Oven"
+        ],
+        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})"
+    },
+    "Campfire": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Cooking Pot": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Electric Kitchen": {
+        "connects_to": [],
+        "requires": []
+    },
+    "Large-Scale Stone Oven": {
+        "connects_to": [],
+        "requires": []
+    },
+    "General_Region": {
+        "starting": true,
+        "connects_to": [],
+        "requires": []
+    }
+}

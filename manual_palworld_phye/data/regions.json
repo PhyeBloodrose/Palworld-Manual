@@ -291,7 +291,7 @@
         "connects_to": [
             "Mission 21"
         ],
-        "requires": "|Tech - Progressive Feed Bag:1|"
+        "requires": "|A.Tech - Progressive Feed Bag:1|"
     },
     "Mission 21": {
         "connects_to": [

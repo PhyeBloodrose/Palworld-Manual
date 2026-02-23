@@ -482,11 +482,11 @@
     {
         "name": "Journey Completed",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (The Journey)"
         ],
         "region": "Mission 32",
         "category": [
-            "The Journey",
+            "Victory Conditions",
             "Journey Goal"
         ],
         "requires": []
@@ -1470,7 +1470,8 @@
         "name": "Travel Point - Rayne Syndicate Tower Entrance",
         "region": "Windswept Hills",
         "category": [
-            "Fast Travel Locations"
+            "Fast Travel Locations",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -1623,7 +1624,8 @@
         "name": "Travel Point - Free Pal Alliance Tower Entrance",
         "region": "Frostbound Mountains",
         "category": [
-            "Fast Travel Locations"
+            "Fast Travel Locations",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -1795,7 +1797,8 @@
         "category": [
             "Fast Travel Locations",
             "Coal Place",
-            "Cement Junk"
+            "Cement Junk",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -1836,7 +1839,8 @@
         "name": "Travel Point - PAL Genetic Research Unit Tower Entrance",
         "region": "Astral Mountains",
         "category": [
-            "Fast Travel Locations"
+            "Fast Travel Locations",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -1924,7 +1928,8 @@
         "name": "Travel Point - PIDF Tower Entrance",
         "region": "Dessicated Dunes",
         "category": [
-            "Fast Travel Locations"
+            "Fast Travel Locations",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -1964,7 +1969,8 @@
         "name": "Travel Point - Eternal Pyre Tower Entrance",
         "region": "Mount Obsidian",
         "category": [
-            "Fast Travel Locations"
+            "Fast Travel Locations",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -2044,6 +2050,14 @@
         "requires": []
     },
     {
+        "name": "Travel Point - Frostbitten Isle",
+        "region": "Frostbitten Isle",
+        "category": [
+            "Fast Travel Locations"
+        ],
+        "requires": []
+    },
+    {
         "name": "Travel Point - Deserted Ash Plateau",
         "region": "Feybreak",
         "category": [
@@ -2063,7 +2077,8 @@
         "name": "Travel Point - Feybreak Tower Entrance",
         "region": "Feybreak",
         "category": [
-            "Fast Travel Locations"
+            "Fast Travel Locations",
+            "Tower Boss Location"
         ],
         "requires": []
     },
@@ -2385,9 +2400,7 @@
         "name": "Lily Everhart's Diary - 4",
         "region": "Wildlife Sanctuary 2",
         "category": [
-            "Journals",
-            "Lettuce Drop",
-            "Tomato Drop"
+            "Journals"
         ],
         "requires": []
     },
@@ -6263,7 +6276,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachLocation(Palpedia - Lovander)} or (|Tech - Mill| & |Tech - Cooking Pot| & |Tech - Progressive Furnace| & ({canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - Eastern Wild Island)} or {canReachLocation(Travel Point - Mount Flopie Summit)} or {canReachLocation(Lily Everhart's Diary - 4)}))"
+        "requires": "{canReachLocation(Palpedia - Lovander)} OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND {canReachCategory(Honey Drop,1)})"
     },
     {
         "name": "Sub Mission - Farewell Under the Sakura Tree",
@@ -6387,395 +6400,435 @@
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Lifmunk",
-        "region": "Windswept Hills",
+        "region": "Pal_Critic_SmallSettlement",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Direhowl",
-        "region": "Windswept Hills",
+        "region": "Pal_Critic_SmallSettlement2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Tombat",
-        "region": "Windswept Hills",
+        "region": "Pal_Critic_SmallSettlement3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Penking",
-        "region": "Windswept Hills",
+        "region": "Pal_Critic_SmallSettlement4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Kingpaca",
-        "region": "Windswept Hills",
+        "region": "Pal_Critic_SmallSettlement5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Mammorest",
-        "region": "Windswept Hills",
+        "region": "Pal_Critic_SmallSettlement6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Cold Shore) - Show Reptyro Cryst",
-        "region": "Foot of the Astral Mountains",
+        "region": "Pal_Critic_ColdShore",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Cold Shore) - Show Hangyu Cryst",
-        "region": "Foot of the Astral Mountains",
+        "region": "Pal_Critic_ColdShore2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Cold Shore) - Show Suzaku Aqua",
-        "region": "Foot of the Astral Mountains",
+        "region": "Pal_Critic_ColdShore3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Cold Shore) - Show Lyleen Noct",
-        "region": "Foot of the Astral Mountains",
+        "region": "Pal_Critic_ColdShore4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & |Astral Pass|"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Cold Shore) - Show Kingpaca Cryst",
-        "region": "Foot of the Astral Mountains",
+        "region": "Pal_Critic_ColdShore5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & |Astral Pass|"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Gorirat",
-        "region": "Crescent Moon Shore",
+        "region": "Pal_Critic_HypocriteHill",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Galeclaw",
-        "region": "Crescent Moon Shore",
+        "region": "Pal_Critic_HypocriteHill2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Loupmoon",
-        "region": "Crescent Moon Shore",
+        "region": "Pal_Critic_HypocriteHill3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Petallia",
-        "region": "Crescent Moon Shore",
+        "region": "Pal_Critic_HypocriteHill4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Elphidran",
-        "region": "Crescent Moon Shore",
+        "region": "Pal_Critic_HypocriteHill5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Elizabee",
-        "region": "Crescent Moon Shore",
+        "region": "Pal_Critic_HypocriteHill6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
-        "name": "Sub Mission - Arrogant Pal Critic (Gobfin Turf) - Show Warsect",
-        "region": "Verdant Brook",
+        "name": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Warsect",
+        "region": "Pal_Critic_GobfinTurf",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
-        "name": "Sub Mission - Arrogant Pal Critic (Gobfin Turf) - Show Flambelle",
-        "region": "Verdant Brook",
+        "name": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Flambelle",
+        "region": "Pal_Critic_GobfinTurf2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
-        "name": "Sub Mission - Arrogant Pal Critic (Gobfin Turf) - Show Felbat",
-        "region": "Verdant Brook",
+        "name": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Felbat",
+        "region": "Pal_Critic_GobfinTurf3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
-        "name": "Sub Mission - Arrogant Pal Critic (Gobfin Turf) - Show Foxcicle",
-        "region": "Verdant Brook",
+        "name": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Foxcicle",
+        "region": "Pal_Critic_GobfinTurf4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)}"
+        "requires": []
     },
     {
-        "name": "Sub Mission - Arrogant Pal Critic (Gobfin Turf) - Show Kitsun",
-        "region": "Verdant Brook",
+        "name": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Kitsun",
+        "region": "Pal_Critic_GobfinTurf5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)}"
+        "requires": []
     },
     {
-        "name": "Sub Mission - Arrogant Pal Critic (Gobfin Turf) - Show Verdash",
-        "region": "Verdant Brook",
+        "name": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Verdash",
+        "region": "Pal_Critic_GobfinTurf6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Surfent",
-        "region": "Bamboo Groves",
+        "region": "Pal_Critic_RavineEntrance",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Relaxaurus",
-        "region": "Bamboo Groves",
+        "region": "Pal_Critic_RavineEntrance2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Sweepa",
-        "region": "Bamboo Groves",
+        "region": "Pal_Critic_RavineEntrance3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Digtoise",
-        "region": "Bamboo Groves",
+        "region": "Pal_Critic_RavineEntrance4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Quivern",
-        "region": "Bamboo Groves",
+        "region": "Pal_Critic_RavineEntrance5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Fenglope",
-        "region": "Bamboo Groves",
+        "region": "Pal_Critic_RavineEntrance6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Duneshelter) - Show Surfent Terra",
-        "region": "Dessicated Dunes",
+        "region": "Pal_Critic_Duneshelter",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Duneshelter) - Show Mossanda Lux",
-        "region": "Dessicated Dunes",
+        "region": "Pal_Critic_Duneshelter2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Duneshelter) - Show Menasting",
-        "region": "Dessicated Dunes",
+        "region": "Pal_Critic_Duneshelter3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Duneshelter) - Show Orserk",
-        "region": "Dessicated Dunes",
+        "region": "Pal_Critic_Duneshelter4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & |Wildlife Sanctuary 3 Tracker|"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Duneshelter) - Show Faleris",
-        "region": "Dessicated Dunes",
+        "region": "Pal_Critic_Duneshelter5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) & |Wildlife Sanctuary 3 Tracker|"
+        "requires": []
+    },
+    {
+        "name": "Sub Mission - Arrogant Pal Critic (Anubis Statue) - Show Blazehowl",
+        "region": "Pal_Critic_AnubisStatue",
+        "category": [
+            "Sub Missions"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Sub Mission - Arrogant Pal Critic (Anubis Statue) - Show Pyrin Noct",
+        "region": "Pal_Critic_AnubisStatue2",
+        "category": [
+            "Sub Missions"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Sub Mission - Arrogant Pal Critic (Anubis Statue) - Show Jormuntide Ignis",
+        "region": "Pal_Critic_AnubisStatue3",
+        "category": [
+            "Sub Missions"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Sub Mission - Arrogant Pal Critic (Anubis Statue) - Show Blazamut",
+        "region": "Pal_Critic_AnubisStatue4",
+        "category": [
+            "Sub Missions"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Sub Mission - Arrogant Pal Critic (Anubis Statue) - Show Astegon",
+        "region": "Pal_Critic_AnubisStatue5",
+        "category": [
+            "Sub Missions"
+        ],
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Helzephyr Lux",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands",
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)})"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Gorirat Terra",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Katress Ignis",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Sootseer",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Selyne",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Menasting Terra",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Knocklem",
-        "region": "Sakurajima",
+        "region": "Pal_Critic_MushroomWetlands7",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Gildane",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Smokie",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Tarantriss",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Dazzi Noct",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Warsect Terra",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Omascul",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Celesdir",
-        "region": "Feybreak",
+        "region": "Pal_Critic_StonePillarCaveEntrance7",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Bastigor",
-        "region": "Bastigor",
+        "region": "Pal_Critic_StonePillarCaveEntrance8",
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": []
     },
     {
         "name": "Sub Mission - Request from a Wise Hunter",
@@ -6784,6 +6837,14 @@
             "Sub Missions"
         ],
         "requires": []
+    },
+    {
+        "name": "Sub Mission - Request from a Veteran Hunter - 5 Bosses Defeated",
+        "region": "Windswept Hills",
+        "category": [
+            "Sub Missions"
+        ],
+        "requires": "{canReachCategory(Bosses,5)}"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 10 Bosses Defeated",
@@ -12529,11 +12590,11 @@
     {
         "name": "Cooked all the Dishes!",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (Master Chef)"
         ],
         "region": "General_Region",
         "category": [
-            "Cooking Challenges",
+            "Victory Conditions",
             "Chef Goal"
         ],
         "requires": "{canReachCategory(Cook Stuff,55)}"
@@ -12545,7 +12606,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Zoe's Key|"
+        "requires": "(|Zoe's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeat Lily and Lyleen",
@@ -12554,7 +12615,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Lily's Key|"
+        "requires": "(|Lily's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeat Alex and Orserk",
@@ -12563,7 +12624,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Alex's Key|"
+        "requires": "(|Alex's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeat Marcus and Faleris",
@@ -12572,7 +12633,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Marcus's Key|"
+        "requires": "(|Marcus's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeat Victor and Shadowbeak",
@@ -12581,7 +12642,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Victor's Key|"
+        "requires": "(|Victor's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeat Saya and Selyne",
@@ -12590,7 +12651,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Saya's Key|"
+        "requires": "(|Saya's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeat Bjorn and Bastigor",
@@ -12599,40 +12660,42 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "|Bjorn's Key|"
+        "requires": "(|Bjorn's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
     },
     {
         "name": "Defeated all the Tower Bosses!",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (Tower Rush)"
         ],
         "region": "General_Region",
         "category": [
             "Tower Rush",
-            "Tower Rush Goal"
+            "Tower Rush Goal",
+            "Victory Conditions"
         ],
         "requires": "{canReachCategory(Tower Bosses,7)}"
     },
     {
         "name": "Defeated all the Predators!",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (Predator Hunter)"
         ],
         "region": "General_Region",
         "category": [
-            "Predator Hunts",
-            "Predator Hunter Goal"
+            "Predator Hunter Goal",
+            "Victory Conditions"
         ],
         "requires": "{canReachCategory(Predators,33)}"
     },
     {
         "name": "Defeated or Captured all Legendary Pals",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (Legendary Hunter)"
         ],
         "region": "General_Region",
         "category": [
-            "Legendary Hunt Goal"
+            "Legendary Hunt Goal",
+            "Victory Conditions"
         ],
         "requires": "{canReachCategory(Legendary,6)}"
     },
@@ -12684,25 +12747,86 @@
     {
         "name": "Defeated all Raid Bosses",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (Raid Boss)"
         ],
         "region": "General_Region",
         "category": [
-            "Raid Bosses",
-            "Raid Boss Goal"
+            "Raid Boss Goal",
+            "Victory Conditions"
         ],
         "requires": "{canReachCategory(Raiding,5)}"
     },
     {
         "name": "Defeated all Overworld Bosses",
         "place_item": [
-            "VICTORY"
+            "Proof of Victory (Veteran Hunter)"
         ],
         "region": "General_Region",
         "category": [
-            "Veteran Hunter"
+            "Veteran Hunter",
+            "Victory Conditions"
         ],
         "requires": "{canReachCategory(Bosses,100)}"
+    },
+    {
+        "name": "Completed all Sub Missions",
+        "place_item": [
+            "Proof of Victory (Sub Missions)"
+        ],
+        "region": "General_Region",
+        "category": [
+            "Sub Missions Goal",
+            "Victory Conditions"
+        ],
+        "requires": "{canReachCategory(Sub Missions,114)}"
+    },
+    {
+        "name": "Completed all Research Tasks",
+        "place_item": [
+            "Proof of Victory (Pal Researcher)"
+        ],
+        "region": "General_Region",
+        "category": [
+            "Research Goal",
+            "Victory Conditions"
+        ],
+        "requires": "{canReachCategory(Research Tasks,150)}"
+    },
+    {
+        "name": "Filled the whole Palpedia",
+        "place_item": [
+            "Proof of Victory (Full Palpedia)"
+        ],
+        "region": "General_Region",
+        "category": [
+            "Catchem Goal",
+            "Victory Conditions"
+        ],
+        "requires": "{canReachCategory(Palpedia,215)}"
+    },
+    {
+        "name": "Traveled to all Travel Points",
+        "place_item": [
+            "Proof of Victory (Palpagos Traveler)"
+        ],
+        "region": "General_Region",
+        "category": [
+            "Traveler Goal",
+            "Victory Conditions"
+        ],
+        "requires": "{canReachCategory(Fast Travel Locations,82)}"
+    },
+    {
+        "name": "Read all the Journals",
+        "place_item": [
+            "Proof of Victory (Journalist)"
+        ],
+        "region": "General_Region",
+        "category": [
+            "Journalist Goal",
+            "Victory Conditions"
+        ],
+        "requires": "{canReachCategory(Journals,49)}"
     },
     {
         "name": "Twilight Dunes",
@@ -12716,12 +12840,25 @@
         "requires": []
     },
     {
+        "name": "Wildlife Sanctury 2",
+        "place_item": [
+            "DUMMY_Wildlife"
+        ],
+        "region": "Wildlife Sanctuary 2",
+        "category": [
+            "DUMMY",
+            "Lettuce Drop",
+            "Tomato Drop"
+        ],
+        "requires": []
+    },
+    {
         "name": "You Win!",
         "victory": true,
         "region": "General_Region",
         "category": [
             "Goal Completed"
         ],
-        "requires": "|VICTORY|"
+        "requires": "({YamlEnabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:all|) OR ({YamlDisabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:1|)"
     }
 ]

@@ -10,9 +10,6 @@
     "Raid Boss": {
         "hidden": true
     },
-    "Capture Challenges": {
-        "hidden": false
-    },
     "Capture Pals": {
         "yaml_option": [ "Capture_Pals" ],
         "hidden": true
@@ -41,8 +38,8 @@
         "yaml_option": [ "Potions" ],
         "hidden": false
     },
-    "Stat Fruits": {
-        "yaml_option": [ "Stat_Fruits" ],
+    "Pal Fruits": {
+        "yaml_option": [ "Pal_Fruits" ],
         "hidden": false
     },
     "Technique Books": {
@@ -106,7 +103,19 @@
         "hidden": true
     },
     "Journey Goal": {
-        "yaml_option": [ "Journey_Goal" ],
+        "yaml_option": [ "Journey_Goal", "Journey_Missions" ],
+        "hidden": true
+    },
+    "Journals": {
+        "yaml_option": [ "Journals" ],
+        "hidden": false
+    },
+    "Journalist Goal": {
+        "yaml_option": [ "Journalist_Goal", "Journals" ],
+        "hidden": true
+    },
+    "Traveler Goal": {
+        "yaml_option": [ "Traveler_Goal" ],
         "hidden": true
     },
     "Tower Bosses": {
@@ -117,19 +126,22 @@
         "yaml_option": [ "Tower_Goal" ],
         "hidden": false
     },
+    "Tower Boss Location": {
+        "hidden": true
+    },
     "Tower Rush Goal": {
         "yaml_option": [ "Tower_Goal" ],
         "hidden": true
     },
     "Legendary Hunt Goal": {
         "yaml_option": [ "Legendary_Goal" ],
-        "hidden": false
+        "hidden": true
     },
     "Predators": {
         "hidden": true
     },
     "Predator Hunter Goal": {
-        "yaml_option": [ "Predator_Goal" ],
+        "yaml_option": [ "Predator_Goal", "Predator_Pals" ],
         "hidden": true
     },
     "Raid Bosses": {
@@ -142,7 +154,15 @@
     },
     "Veteran Hunter": {
         "yaml_option": [ "Veteran_Goal" ],
-        "hidden": false
+        "hidden": true
+    },
+    "Research Goal": {
+        "yaml_option": [ "Researcher_Goal", "Research_Tasks" ],
+        "hidden": true
+    },
+    "Catchem Goal": {
+        "yaml_option": [ "CatchThemAll_Goal" ],
+        "hidden": true
     },
     "Pal Merchants": {
         "yaml_option": [ "Pal_Merchants" ],
@@ -257,5 +277,9 @@
     "Key Items - Elemental Orbs": {
         "yaml_option": [ "Elemental_Orbs" ],
         "hidden": false
+    },
+    "Sub Missions Goal": {
+        "yaml_option": [ "SubMissions_Goal", "Sub_Missions" ],
+        "hidden": true
     }
 }

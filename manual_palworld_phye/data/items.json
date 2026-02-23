@@ -7495,7 +7495,7 @@
         "count": 1,
         "name": "Life Fruit",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7503,7 +7503,7 @@
         "count": 1,
         "name": "Power Fruit",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7511,7 +7511,7 @@
         "count": 1,
         "name": "Stout Fruit",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7519,7 +7519,7 @@
         "count": 1,
         "name": "Awakening Starfruit ☆1",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7527,7 +7527,7 @@
         "count": 1,
         "name": "Awakening Starfruit ☆2",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7535,7 +7535,7 @@
         "count": 1,
         "name": "Ripe Awakening Starfruit",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7543,7 +7543,7 @@
         "count": 1,
         "name": "Little Kinship Peach",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -7551,7 +7551,7 @@
         "count": 1,
         "name": "Kinship Peach",
         "category": [
-            "Stat Fruits"
+            "Pal Fruits"
         ],
         "useful": true
     },
@@ -10050,6 +10050,14 @@
         "progression_skip_balancing": true
     },
     {
+        "count": 1,
+        "name": "DUMMY_Wildlife",
+        "category": [
+            "DUMMY"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
         "count": 64,
         "name": "Level Up!",
         "category": [
@@ -10059,9 +10067,109 @@
     },
     {
         "count": 1,
-        "name": "VICTORY",
+        "name": "Proof of Victory (The Journey)",
         "category": [
-            "Key Items"
+            "Key Items - Proof of Victory",
+            "Journey Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Tower Rush)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Tower Rush Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Legendary Hunter)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Legendary Hunt Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Predator Hunter)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Predator Hunter Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Raid Boss)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Raid Boss Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Veteran Hunter)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Veteran Hunter"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Master Chef)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Chef Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Sub Missions)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Sub Missions Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Pal Researcher)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Research Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Full Palpedia)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Catchem Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Palpagos Traveler)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Traveler Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Journalist)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Journalist Goal"
         ],
         "progression_skip_balancing": true
     }

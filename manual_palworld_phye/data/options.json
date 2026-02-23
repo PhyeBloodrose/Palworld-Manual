@@ -26,6 +26,14 @@
             "default": true,
             "group": "Extra Options"
         },
+        "Journals": {
+            "description": [
+                "Includes all Journals as checks."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Extra Options"
+        },
         "Sub_Missions": {
             "description": [
                 "Include all Sub Missions as checks."
@@ -104,12 +112,13 @@
             "default": false,
             "group": "Additional Items"
         },
-        "Stat_Fruits": {
+        "Pal_Fruits": {
             "description": [
-                "Adds all of the Stat Fruits into the item pool. Those fruits which increases a pal's hidden stat values.",
-                "This also includes the Starfruits which increases the potential of Pals.",
-                "This also includes the Kinship fruits which increases the trust of Pals",
-                "Useful for those who are capable of generating items into the game on their own. Stat Fruits are treated as Useful items."
+                "Adds one of each Pal Fruit into the item pool.",
+                "Fruits which increases a Pal's hidden stat values.",
+                "Starfruits which increases the potential of Pals.",
+                "Kinship fruits which increases the trust of Pals",
+                "Pal Fruits are treated as Useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -177,61 +186,118 @@
         "Journey_Goal": {
             "description": [
                 "Journey: Complete all Main Missions.",
-                "Requires 'Journey Missions' to be enabled to generate properly."
+                "Requires 'Journey Missions' to be enabled or it won't generate properly."
             ],
             "type": "Toggle",
             "default": true,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
         },
         "Tower_Goal": {
             "description": [
-                "Tower Rush: Defeat all 7 Tower Bosses. In any order you want."
+                "Tower Rush: Defeat all 7 Tower Bosses. In any order you want.",
+                "If 'All of the Above goal' is activated, this requires you to defeat the hard mode bosses instead. As such the logic will be different."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
         },
         "Legendary_Goal": {
             "description": [
-                "Legendary Hunt: Defeat or Capture all Legendary Pals, those being; Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon and Neptilius."
+                "Legendary Hunt: Defeat or Capture all Legendary Pals",
+                "Those being: Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon and Neptilius."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
         },
         "Predator_Goal": {
             "description": [
                 "Predator Hunter: Defeat all the different Predator Pals.",
-                "Requires 'Predator Pals' to be enabled to generate properly."
+                "Requires 'Predator Pals' to be enabled or this goal will not generate."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
         },
         "Raid_Goal": {
             "description": [
-                "Raid Boss: Defeat all the Raid Bosses. Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis."
+                "Raid Boss: Defeat all the Raid Bosses.",
+                "Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
         },
         "Veteran_Goal": {
             "description": [
-                "Veteran Hunter: Defeat all 100 Overworld Bosses!"
+                "Veteran Hunter: Defeat all 100 Overworld Bosses!",
+                "Overworld bosses are all the Bosses you can find in the Overworld with a mugshot. Those being Bounties and Alpha Pals."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
         },
         "Chef_Goal": {
             "description": [
                 "Master Chef: Cook all the various dishes within Palworld to goal!",
-                "Requires 'Chefsanity' to be enabled to generate properly."
+                "Requires 'Chefsanity' enabled or this goal won't appear."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options - ONLY ACTIVATE ONE"
+            "group": "Goal Options"
+        },
+        "SubMissions_Goal": {
+            "description": [
+                "Sub Missions: Require you to complete all the sub missions in the game to goal.",
+                "Requires 'Sub Missions checks' enabled or this goal won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Researcher_Goal": {
+            "description": [
+                "Pal Researcher: Require you to complete all of the Pal Labor Research Laboratory Tasks to goal.",
+                "Requires 'Research Task checks' enabled or this goal won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "CatchThemAll_Goal": {
+            "description": [
+                "Catch Them All: Require you to capture and breed* all of the Pals available to goal.",
+                "Breeding is only required for Bastigor as they don't spawn anywhere."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Journalist_Goal": {
+            "description": [
+                "Journalist: Requires you to read all the Journals spread out throughout Palpagos Isles to goal.",
+                "This goal will not generate if 'Journals' are not enabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Traveler_Goal": {
+            "description": [
+                "Palpagos Traveler: Require you to travel to all the Travel Points within Palpagos Isles to goal."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "AllofAbove_Goal": {
+            "description": [
+                "All of the Above: Any goals picked above will be required to goal in this all inclusive goal option!",
+                "If this option is not enabled, you just require any of the above enabled goals to be completed to win."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
         },
         "Pal_Merchants": {
             "description": [

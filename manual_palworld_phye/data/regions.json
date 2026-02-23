@@ -415,7 +415,8 @@
             "Croajiro",
             "Penking",
             "Chillet",
-            "Kingpaca"
+            "Kingpaca",
+            "Pal_Critic_SmallSettlement"
         ],
         "requires": "|Windswept Pass|"
     },
@@ -459,7 +460,8 @@
             "Helzephyr",
             "Mimog",
             "Elphidran",
-            "Petallia"
+            "Petallia",
+            "Pal_Critic_HypocriteHill"
         ],
         "requires": "|Crescent Pass| AND {OptOne(|Level Up!:14|)}"
     },
@@ -556,7 +558,8 @@
             "Blazamut",
             "Astegon",
             "Jetragon",
-            "Whalaska Ignis Boss"
+            "Whalaska Ignis Boss",
+            "Pal_Critic_AnubisStatue"
         ],
         "requires": "|Obsidian Pass| AND {OptOne(|Level Up!:29|)}"
     },
@@ -605,7 +608,8 @@
             "Gildane",
             "Fenglope Lux",
             "Kitsun Noct",
-            "Frostallion Noct"
+            "Frostallion Noct",
+            "Pal_Critic_StonePillarCaveEntrance"
         ],
         "requires": "|Feybreak Pass| & |Tech - Pal Gear Workbench| & |@EZ_Mounts| AND (|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}) AND {OptOne(|Level Up!:54|)}"
     },
@@ -655,7 +659,8 @@
             "Dazemu",
             "Mimog",
             "Knocklem",
-            "Menasting Terra"
+            "Menasting Terra",
+            "Pal_Critic_MushroomWetlands"
         ],
         "requires": "|Sakurajima Pass| AND {OptOne(|Level Up!:49|)}"
     },
@@ -718,7 +723,8 @@
             "Beegarde",
             "Elizabee",
             "Grintale",
-            "Katress"
+            "Katress",
+            "Pal_Critic_ColdShore"
         ],
         "requires": "|Astral Foot Pass| AND {OptOne(|Level Up!:29|)}"
     },
@@ -750,7 +756,8 @@
             "Mimog",
             "Warsect",
             "Vaelet",
-            "Verdash"
+            "Verdash",
+            "Pal_Critic_GobfinTurf"
         ],
         "requires": "|Verdant Pass| AND {OptOne(|Level Up!:19|)}"
     },
@@ -968,7 +975,8 @@
             "Tarantriss",
             "Menasting",
             "Paladius",
-            "Necromus"
+            "Necromus",
+            "Pal_Critic_Duneshelter"
         ],
         "requires": "|Dessicated Pass| AND {OptOne(|Level Up!:39|)}"
     },
@@ -1133,7 +1141,8 @@
             "Fenglope",
             "Broncherry Aqua",
             "Relaxaurus Lux",
-            "Bushi"
+            "Bushi",
+            "Pal_Critic_RavineEntrance"
         ],
         "requires": "|Bamboo Pass| AND {OptOne(|Level Up!:9|)}"
     },
@@ -3212,7 +3221,7 @@
         "connects_to": [
             "Bastigor"
         ],
-        "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ({canReachLocation(Palpedia - Lovander)} OR (|Tech - Mill| AND |Tech - Cooking Pot| AND |Tech - Progressive Furnace:1| AND ({canReachLocation(Travel Point - Gobfin's Turf)} OR {canReachLocation(Travel Point - Eastern Wild Island)} OR {canReachLocation(Travel Point - Mount Flopie Summit)} OR {canReachLocation(Lily Everhart's Diary - 4)})))"
+        "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ({canReachLocation(Palpedia - Lovander)} OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR {canReachLocation(Travel Point - Kelpsea Hill)}) AND {canReachCategory(Honey Drop,1)})"
     },
     "Pal Merchant": {
         "connects_to": [
@@ -4520,6 +4529,312 @@
     "Large-Scale Stone Oven": {
         "connects_to": [],
         "requires": []
+    },
+    "Pal_Critic_SmallSettlement": {
+        "connects_to": [
+            "Pal_Critic_SmallSettlement2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Lifmunk)}"
+    },
+    "Pal_Critic_SmallSettlement2": {
+        "connects_to": [
+            "Pal_Critic_SmallSettlement3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Direhowl)}"
+    },
+    "Pal_Critic_SmallSettlement3": {
+        "connects_to": [
+            "Pal_Critic_SmallSettlement4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Tombat)}"
+    },
+    "Pal_Critic_SmallSettlement4": {
+        "connects_to": [
+            "Pal_Critic_SmallSettlement5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Penking)}"
+    },
+    "Pal_Critic_SmallSettlement5": {
+        "connects_to": [
+            "Pal_Critic_SmallSettlement6"
+        ],
+        "requires": "{canReachLocation(Palpedia - Kingpaca)}"
+    },
+    "Pal_Critic_SmallSettlement6": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Mammorest)}"
+    },
+    "Pal_Critic_ColdShore": {
+        "connects_to": [
+            "Pal_Critic_ColdShore2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Reptyro Cryst)}"
+    },
+    "Pal_Critic_ColdShore2": {
+        "connects_to": [
+            "Pal_Critic_ColdShore3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Hangyu Cryst)}"
+    },
+    "Pal_Critic_ColdShore3": {
+        "connects_to": [
+            "Pal_Critic_ColdShore4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Suzaku Aqua)}"
+    },
+    "Pal_Critic_ColdShore4": {
+        "connects_to": [
+            "Pal_Critic_ColdShore5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Lyleen Noct)}"
+    },
+    "Pal_Critic_ColdShore5": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Kingpaca Cryst)}"
+    },
+    "Pal_Critic_HypocriteHill": {
+        "connects_to": [
+            "Pal_Critic_HypocriteHill2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Gorirat)}"
+    },
+    "Pal_Critic_HypocriteHill2": {
+        "connects_to": [
+            "Pal_Critic_HypocriteHill3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Galeclaw)}"
+    },
+    "Pal_Critic_HypocriteHill3": {
+        "connects_to": [
+            "Pal_Critic_HypocriteHill4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Loupmoon)}"
+    },
+    "Pal_Critic_HypocriteHill4": {
+        "connects_to": [
+            "Pal_Critic_HypocriteHill5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Petallia)}"
+    },
+    "Pal_Critic_HypocriteHill5": {
+        "connects_to": [
+            "Pal_Critic_HypocriteHill6"
+        ],
+        "requires": "{canReachLocation(Palpedia - Elphidran)}"
+    },
+    "Pal_Critic_HypocriteHill6": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Elizabee)}"
+    },
+    "Pal_Critic_GobfinTurf": {
+        "connects_to": [
+            "Pal_Critic_GobfinTurf2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Warsect)}"
+    },
+    "Pal_Critic_GobfinTurf2": {
+        "connects_to": [
+            "Pal_Critic_GobfinTurf3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Flambelle)}"
+    },
+    "Pal_Critic_GobfinTurf3": {
+        "connects_to": [
+            "Pal_Critic_GobfinTurf4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Felbat)}"
+    },
+    "Pal_Critic_GobfinTurf4": {
+        "connects_to": [
+            "Pal_Critic_GobfinTurf5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Foxcicle)}"
+    },
+    "Pal_Critic_GobfinTurf5": {
+        "connects_to": [
+            "Pal_Critic_GobfinTurf6"
+        ],
+        "requires": "{canReachLocation(Palpedia - Kitsun)}"
+    },
+    "Pal_Critic_GobfinTurf6": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Verdash)}"
+    },
+    "Pal_Critic_RavineEntrance": {
+        "connects_to": [
+            "Pal_Critic_RavineEntrance2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Surfent)}"
+    },
+    "Pal_Critic_RavineEntrance2": {
+        "connects_to": [
+            "Pal_Critic_RavineEntrance3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Relaxaurus)}"
+    },
+    "Pal_Critic_RavineEntrance3": {
+        "connects_to": [
+            "Pal_Critic_RavineEntrance4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Sweepa)}"
+    },
+    "Pal_Critic_RavineEntrance4": {
+        "connects_to": [
+            "Pal_Critic_RavineEntrance5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Digtoise)}"
+    },
+    "Pal_Critic_RavineEntrance5": {
+        "connects_to": [
+            "Pal_Critic_RavineEntrance6"
+        ],
+        "requires": "{canReachLocation(Palpedia - Quivern)}"
+    },
+    "Pal_Critic_RavineEntrance6": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Fenglope)}"
+    },
+    "Pal_Critic_Duneshelter": {
+        "connects_to": [
+            "Pal_Critic_Duneshelter2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Surfent Terra)}"
+    },
+    "Pal_Critic_Duneshelter2": {
+        "connects_to": [
+            "Pal_Critic_Duneshelter3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Mossanda Lux)}"
+    },
+    "Pal_Critic_Duneshelter3": {
+        "connects_to": [
+            "Pal_Critic_Duneshelter4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Menasting)}"
+    },
+    "Pal_Critic_Duneshelter4": {
+        "connects_to": [
+            "Pal_Critic_Duneshelter5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Orserk)}"
+    },
+    "Pal_Critic_Duneshelter5": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Faleris)}"
+    },
+    "Pal_Critic_AnubisStatue": {
+        "connects_to": [
+            "Pal_Critic_AnubisStatue2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Blazehowl)}"
+    },
+    "Pal_Critic_AnubisStatue2": {
+        "connects_to": [
+            "Pal_Critic_AnubisStatue3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Pyrin Noct)}"
+    },
+    "Pal_Critic_AnubisStatue3": {
+        "connects_to": [
+            "Pal_Critic_AnubisStatue4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Jormuntide Ignis)}"
+    },
+    "Pal_Critic_AnubisStatue4": {
+        "connects_to": [
+            "Pal_Critic_AnubisStatue5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Blazamut)}"
+    },
+    "Pal_Critic_AnubisStatue5": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Astegon)}"
+    },
+    "Pal_Critic_MushroomWetlands": {
+        "connects_to": [
+            "Pal_Critic_MushroomWetlands2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Helzephyr Lux)}"
+    },
+    "Pal_Critic_MushroomWetlands2": {
+        "connects_to": [
+            "Pal_Critic_MushroomWetlands3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Gorirat Terra)}"
+    },
+    "Pal_Critic_MushroomWetlands3": {
+        "connects_to": [
+            "Pal_Critic_MushroomWetlands4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Katress Ignis)}"
+    },
+    "Pal_Critic_MushroomWetlands4": {
+        "connects_to": [
+            "Pal_Critic_MushroomWetlands5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Sootseer)}"
+    },
+    "Pal_Critic_MushroomWetlands5": {
+        "connects_to": [
+            "Pal_Critic_MushroomWetlands6"
+        ],
+        "requires": "{canReachLocation(Palpedia - Selyne)}"
+    },
+    "Pal_Critic_MushroomWetlands6": {
+        "connects_to": [
+            "Pal_Critic_MushroomWetlands7"
+        ],
+        "requires": "{canReachLocation(Palpedia - Menasting Terra)}"
+    },
+    "Pal_Critic_MushroomWetlands7": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Knocklem)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance2"
+        ],
+        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Gildane)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance2": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance3"
+        ],
+        "requires": "{canReachLocation(Palpedia - Smokie)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance3": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance4"
+        ],
+        "requires": "{canReachLocation(Palpedia - Tarantriss)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance4": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance5"
+        ],
+        "requires": "{canReachLocation(Palpedia - Dazzi Noct)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance5": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance6"
+        ],
+        "requires": "{canReachLocation(Palpedia - Warsect Terra)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance6": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance7"
+        ],
+        "requires": "{canReachLocation(Palpedia - Omascul)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance7": {
+        "connects_to": [
+            "Pal_Critic_StonePillarCaveEntrance8"
+        ],
+        "requires": "{canReachLocation(Palpedia - Celesdir)}"
+    },
+    "Pal_Critic_StonePillarCaveEntrance8": {
+        "connects_to": [],
+        "requires": "{canReachLocation(Palpedia - Bastigor)}"
     },
     "General_Region": {
         "starting": true,

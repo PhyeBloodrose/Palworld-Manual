@@ -976,7 +976,8 @@
             "Menasting",
             "Paladius",
             "Necromus",
-            "Pal_Critic_Duneshelter"
+            "Pal_Critic_Duneshelter",
+            "Arrogant_Foodie"
         ],
         "requires": "|Dessicated Pass| AND {OptOne(|Level Up!:39|)}"
     },
@@ -4835,6 +4836,70 @@
     "Pal_Critic_StonePillarCaveEntrance8": {
         "connects_to": [],
         "requires": "{canReachLocation(Palpedia - Bastigor)}"
+    },
+    "Arrogant_Foodie": {
+        "connects_to": [
+            "Arrogant_Foodie2"
+        ],
+        "requires": "|Tech - Campfire| OR (|Tech - Cooking Pot| AND ({canReachLocation(Palpedia - Bushi)} OR {canReachLocation(Palpedia - Bushi Noct)} OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR {canReachLocation(Travel Point - Fisherman's Point)})) OR ({canReachLocation(Travel Point - Land of Absolute Zero)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Travel Point - Moonflower Tower Entrance)} OR {canReachLocation(Travel Point - Feybreak Tower Entrance)})) AND |Tech - Palbox|) AND ({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Boss - Anubis)} OR {canReachLocation(Boss - Dumud)}) AND {OptOne(|Broiled Dumud Recipe|)}"
+    },
+    "Arrogant_Foodie2": {
+        "connects_to": [
+            "Arrogant_Foodie3"
+        ],
+        "requires": "(|Tech - Cooking Pot| AND ({canReachLocation(Palpedia - Bushi)} OR {canReachLocation(Palpedia - Bushi Noct)} OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR {canReachLocation(Travel Point - Fisherman's Point)})) OR ({canReachLocation(Travel Point - Land of Absolute Zero)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Travel Point - Moonflower Tower Entrance)} OR {canReachLocation(Travel Point - Feybreak Tower Entrance)})) AND |Tech - Palbox|) AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR {canReachLocation(Travel Point - Kelpsea Hill)}) AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+    },
+    "Arrogant_Foodie3": {
+        "connects_to": [
+            "Arrogant_Foodie4"
+        ],
+        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND ({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)})"
+    },
+    "Arrogant_Foodie4": {
+        "connects_to": [
+            "Arrogant_Foodie5"
+        ],
+        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND {canReachLocation(Palpedia - Gloopie)}"
+    },
+    "Arrogant_Foodie5": {
+        "connects_to": [
+            "Arrogant_Foodie6"
+        ],
+        "requires": "({canReachLocation(Travel Point - Kelpsea Hill)} OR {canReachLocation(Boss - Broncherry)}) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
+    },
+    "Arrogant_Foodie6": {
+        "connects_to": [
+            "Arrogant_Foodie7"
+        ],
+        "requires": "((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)}) AND {OptOne(|Omelet Recipe|)}"
+    },
+    "Arrogant_Foodie7": {
+        "connects_to": [
+            "Arrogant_Foodie8"
+        ],
+        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND {canReachLocation(Palpedia - Reindrix)} AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)})"
+    },
+    "Arrogant_Foodie8": {
+        "connects_to": [
+            "Arrogant_Foodie9"
+        ],
+        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND ((|Tech - Lettuce Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)})"
+    },
+    "Arrogant_Foodie9": {
+        "connects_to": [
+            "Arrogant_Foodie10"
+        ],
+        "requires": "((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)}) AND {OptOne(|Salad Recipe|)}"
+    },
+    "Arrogant_Foodie10": {
+        "connects_to": [
+            "Arrogant_Foodie11"
+        ],
+        "requires": "{canReachLocation(Palpedia - Mammorest)} AND {OptOne(|Mammorest Steak Recipe|)}"
+    },
+    "Arrogant_Foodie11": {
+        "connects_to": [],
+        "requires": "{OptOne(|Baked Berries Recipe|)}"
     },
     "General_Region": {
         "starting": true,

@@ -7008,91 +7008,91 @@
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Broiled Dumud",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Campfire| or |Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Pancake",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie2",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Rushoar Gyoza",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie3",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Fried Gloopie Balls",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie4",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Broncherry Rib Roast",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie5",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Campfire| or |Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Omelet",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie6",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Reindrix Stew",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie7",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Grilled Lamball",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie8",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Salad",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie9",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Mammorest Steak",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie10",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Campfire| or |Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Baked Berries",
-        "region": "Dessicated Dunes",
+        "region": "Arrogant_Foodie11",
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Campfire| or |Tech - Cooking Pot| or (|Tech - Palbox| & (|Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|))"
+        "requires": ""
     },
     {
         "name": "Sub Mission - That's That Me, Depresso!",
@@ -12396,7 +12396,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Bacon 'n' Eggs Recipe|)} AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)})"
+        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)})"
     },
     {
         "name": "Cook Stir-Fried Vegetables",

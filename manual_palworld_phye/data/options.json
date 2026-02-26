@@ -266,8 +266,7 @@
         },
         "CatchThemAll_Goal": {
             "description": [
-                "Catch Them All: Require you to capture and breed* all of the Pals available to goal.",
-                "Breeding is only required for Bastigor as they don't spawn anywhere."
+                "Catch Them All: Require you to obtain all of the Pals available in the Palpedia to goal."
             ],
             "type": "Toggle",
             "default": false,

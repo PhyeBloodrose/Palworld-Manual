@@ -2007,7 +2007,7 @@
     },
     "Bastigor": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:11|)} AND {OptOne(|Ground Orb:10|)} AND {canReachLocation(Boss - Anubis)} AND {canReachLocation(Boss - Frostallion)}"
+        "requires": "{OptOne(|Ice Orb:8|)}"
     },
     "Prunelia": {
         "connects_to": [],
@@ -2371,7 +2371,8 @@
             "Smokie",
             "Celesdir",
             "Foxparks Cryst",
-            "Azurmane"
+            "Azurmane",
+            "Bastigor"
         ],
         "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
     },
@@ -3219,9 +3220,7 @@
     },
     "Breeding Only": {
         "starting": true,
-        "connects_to": [
-            "Bastigor"
-        ],
+        "connects_to": [],
         "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ({canReachLocation(Palpedia - Lovander)} OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR {canReachLocation(Travel Point - Kelpsea Hill)}) AND {canReachCategory(Honey Drop,1)})"
     },
     "Pal Merchant": {

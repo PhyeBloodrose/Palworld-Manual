@@ -363,8 +363,55 @@
         "connects_to": [],
         "requires": []
     },
-    "Windswept Hills": {
+    "Spawn": {
         "starting": true,
+        "connects_to": [
+            "Windswept Gate",
+            "Sea Breeze Gate",
+            "Forgotten Gate",
+            "Ice Wind Gate",
+            "Marsh Gate",
+            "Eastern Wild Gate"
+        ],
+        "requires": []
+    },
+    "Windswept Gate": {
+        "connects_to": [
+            "Windswept Hills"
+        ],
+        "requires": "{OptOne(|Windswept Spawn|)} or {YamlDisabled(Random_Spawn)}"
+    },
+    "Sea Breeze Gate": {
+        "connects_to": [
+            "Sea Breeze Archipelago"
+        ],
+        "requires": "{OptOne(|Sea Breeze Spawn|)} and {YamlEnabled(Random_Spawn)}"
+    },
+    "Forgotten Gate": {
+        "connects_to": [
+            "Forgotten Island"
+        ],
+        "requires": "{OptOne(|Forgotten Spawn|)} and {YamlEnabled(Random_Spawn)}"
+    },
+    "Ice Wind Gate": {
+        "connects_to": [
+            "Ice Wind Island"
+        ],
+        "requires": "{OptOne(|Ice Wind Spawn|)} and {YamlEnabled(Random_Spawn)}"
+    },
+    "Marsh Gate": {
+        "connects_to": [
+            "Marsh Island"
+        ],
+        "requires": "{OptOne(|Marsh Spawn|)} and {YamlEnabled(Random_Spawn)}"
+    },
+    "Eastern Wild Gate": {
+        "connects_to": [
+            "Eastern Wild Island"
+        ],
+        "requires": "{OptOne(|Eastern Wild Spawn|)} and {YamlEnabled(Random_Spawn)}"
+    },
+    "Windswept Hills": {
         "connects_to": [
             "Marsh Island",
             "Crescent Moon Shore",
@@ -418,7 +465,7 @@
             "Kingpaca",
             "Pal_Critic_SmallSettlement"
         ],
-        "requires": "|Windswept Pass|"
+        "requires": "|Windswept Pass| OR {OptOne(|Windswept Spawn|)}"
     },
     "Crescent Moon Shore": {
         "connects_to": [
@@ -466,7 +513,6 @@
         "requires": "|Crescent Pass| AND {OptOne(|Level Up!:14|)}"
     },
     "Sea Breeze Archipelago": {
-        "starting": true,
         "connects_to": [
             "Windswept Hills",
             "Mount Obsidian",
@@ -515,7 +561,7 @@
             "Broncherry",
             "Lunaris"
         ],
-        "requires": "|Sea Breeze Pass|"
+        "requires": "|Sea Breeze Pass| OR {OptOne(|Sea Breeze Spawn|)}"
     },
     "Mount Obsidian": {
         "connects_to": [
@@ -810,7 +856,6 @@
         "requires": "|Scars of War Pass| AND {OptOne(|Level Up!:9|)}"
     },
     "Eastern Wild Island": {
-        "starting": true,
         "connects_to": [
             "Scars of War",
             "Dessicated Dunes",
@@ -855,10 +900,9 @@
             "Wumpo Botan",
             "Mossanda Lux"
         ],
-        "requires": "|Eastern Wild Pass|"
+        "requires": "|Eastern Wild Pass| OR {OptOne(|Eastern Wild Spawn|)}"
     },
     "Ice Wind Island": {
-        "starting": true,
         "connects_to": [
             "Forgotten Island",
             "Sakurajima",
@@ -891,10 +935,9 @@
             "Croajiro",
             "Dumud"
         ],
-        "requires": "|Ice Wind Pass|"
+        "requires": "|Ice Wind Pass| OR {OptOne(|Ice Wind Spawn|)}"
     },
     "Forgotten Island": {
-        "starting": true,
         "connects_to": [
             "Sakurajima",
             "Bamboo Groves",
@@ -931,7 +974,7 @@
             "Croajiro",
             "Felbat"
         ],
-        "requires": "|Forgotten Pass|"
+        "requires": "|Forgotten Pass| OR {OptOne(|Forgotten Spawn|)}"
     },
     "Dessicated Dunes": {
         "connects_to": [
@@ -982,7 +1025,6 @@
         "requires": "|Dessicated Pass| AND {OptOne(|Level Up!:39|)}"
     },
     "Marsh Island": {
-        "starting": true,
         "connects_to": [
             "Windswept Hills",
             "Verdant Brook",
@@ -1021,7 +1063,7 @@
             "Croajiro",
             "Grintale"
         ],
-        "requires": "|Marsh Pass|"
+        "requires": "|Marsh Pass| OR {OptOne(|Marsh Spawn|)}"
     },
     "Isle of Decayed Treasures": {
         "connects_to": [
@@ -3476,7 +3518,7 @@
         "connects_to": [
             "Zoe Mission 2"
         ],
-        "requires": "|Zoe's Key| AND |Windswept Pass| AND |Wildlife Sanctuary 1 Tracker|"
+        "requires": "|Zoe's Key| AND {canReachLocation(Travel Point - Desolate Church)} AND |Wildlife Sanctuary 1 Tracker|"
     },
     "Zoe Mission 2": {
         "connects_to": [

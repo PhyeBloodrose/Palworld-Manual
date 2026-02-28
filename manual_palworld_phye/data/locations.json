@@ -12853,6 +12853,66 @@
         "requires": []
     },
     {
+        "region": "Feybreak",
+        "name": "Extra Spawn 1",
+        "category": [
+            "DUMMY",
+            "Random Start"
+        ],
+        "requires": "|@Key Items - Proof of Victory:all|",
+        "place_item_category": [
+            "Spawn Keys"
+        ]
+    },
+    {
+        "region": "Feybreak",
+        "name": "Extra Spawn 2",
+        "category": [
+            "DUMMY",
+            "Random Start"
+        ],
+        "requires": "|@Key Items - Proof of Victory:all|",
+        "place_item_category": [
+            "Spawn Keys"
+        ]
+    },
+    {
+        "region": "Feybreak",
+        "name": "Extra Spawn 3",
+        "category": [
+            "DUMMY",
+            "Random Start"
+        ],
+        "requires": "|@Key Items - Proof of Victory:all|",
+        "place_item_category": [
+            "Spawn Keys"
+        ]
+    },
+    {
+        "region": "Feybreak",
+        "name": "Extra Spawn 4",
+        "category": [
+            "DUMMY",
+            "Random Start"
+        ],
+        "requires": "|@Key Items - Proof of Victory:all|",
+        "place_item_category": [
+            "Spawn Keys"
+        ]
+    },
+    {
+        "region": "Feybreak",
+        "name": "Extra Spawn 5",
+        "category": [
+            "DUMMY",
+            "Random Start"
+        ],
+        "requires": "|@Key Items - Proof of Victory:all|",
+        "place_item_category": [
+            "Spawn Keys"
+        ]
+    },
+    {
         "name": "You Win!",
         "victory": true,
         "region": "General_Region",

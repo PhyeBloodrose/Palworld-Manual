@@ -61,6 +61,7 @@
         "hidden": true
     },
     "Spawn Keys": {
+        "yaml_option": [ "Random_Spawn" ],
         "hidden": true
     },
     "EZ_Mounts": {

@@ -1406,10 +1406,63 @@
     },
     {
         "count": 1,
+        "name": "Windswept Spawn",
+        "category": [
+            "Spawn Point",
+            "Spawn Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Sea Breeze Spawn",
+        "category": [
+            "Spawn Point",
+            "Spawn Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Forgotten Spawn",
+        "category": [
+            "Spawn Point",
+            "Spawn Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Ice Wind Spawn",
+        "category": [
+            "Spawn Point",
+            "Spawn Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Eastern Wild Spawn",
+        "category": [
+            "Spawn Point",
+            "Spawn Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Marsh Spawn",
+        "category": [
+            "Spawn Point",
+            "Spawn Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
         "name": "Windswept Pass",
         "category": [
-            "Island Passes",
-            "Spawn Keys"
+            "Island Passes"
         ],
         "progression": true
     },
@@ -1417,8 +1470,7 @@
         "count": 1,
         "name": "Sea Breeze Pass",
         "category": [
-            "Island Passes",
-            "Spawn Keys"
+            "Island Passes"
         ],
         "progression": true
     },
@@ -1426,8 +1478,7 @@
         "count": 1,
         "name": "Forgotten Pass",
         "category": [
-            "Island Passes",
-            "Spawn Keys"
+            "Island Passes"
         ],
         "progression": true
     },
@@ -1435,8 +1486,7 @@
         "count": 1,
         "name": "Ice Wind Pass",
         "category": [
-            "Island Passes",
-            "Spawn Keys"
+            "Island Passes"
         ],
         "progression": true
     },
@@ -1444,8 +1494,7 @@
         "count": 1,
         "name": "Eastern Wild Pass",
         "category": [
-            "Island Passes",
-            "Spawn Keys"
+            "Island Passes"
         ],
         "progression": true
     },
@@ -1453,8 +1502,7 @@
         "count": 1,
         "name": "Marsh Pass",
         "category": [
-            "Island Passes",
-            "Spawn Keys"
+            "Island Passes"
         ],
         "progression": true
     },
@@ -8586,7 +8634,7 @@
             "Key Items - Membership Cards",
             "Black Limit"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -8595,7 +8643,7 @@
             "Key Items - Membership Cards",
             "Merchant Limit"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -8604,7 +8652,7 @@
             "Key Items - Membership Cards",
             "Pal Limit"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -8613,7 +8661,7 @@
             "Key Items - Membership Cards",
             "Bounty Limit"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -8622,7 +8670,7 @@
             "Key Items - Membership Cards",
             "Arena Limit"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -8631,7 +8679,7 @@
             "Key Items - Membership Cards",
             "Medal Limit"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,

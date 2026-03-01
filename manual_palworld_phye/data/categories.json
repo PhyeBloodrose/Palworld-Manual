@@ -52,6 +52,10 @@
     },
     "Player Levels": {
         "yaml_option": [ "Include_Levelups" ],
+        "hidden": false
+    },
+    "Player Level Location": {
+        "yaml_option": [ "Include_Levelups" ],
         "hidden": true
     },
     "Power Source": {

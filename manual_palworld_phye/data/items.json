@@ -10106,8 +10106,8 @@
         "progression_skip_balancing": true
     },
     {
-        "count": 64,
-        "name": "Level Up!",
+        "count": 65,
+        "name": "Player Level",
         "category": [
             "Player Levels"
         ],

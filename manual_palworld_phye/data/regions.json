@@ -315,7 +315,7 @@
         "connects_to": [
             "Mission 25"
         ],
-        "requires": "|Zoe's Key| AND {OptOne(|Level Up!:9|)}"
+        "requires": "|Zoe's Key| AND {OptOne(|Player Level:10|)}"
     },
     "Mission 25": {
         "connects_to": [
@@ -327,37 +327,37 @@
         "connects_to": [
             "Mission 27"
         ],
-        "requires": "|Lily's Key| & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} AND {OptOne(|Level Up!:24|)}"
+        "requires": "|Lily's Key| & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} AND {OptOne(|Player Level:25|)}"
     },
     "Mission 27": {
         "connects_to": [
             "Mission 28"
         ],
-        "requires": "|Alex's Key| & {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} AND {OptOne(|Level Up!:39|)}"
+        "requires": "|Alex's Key| & {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} AND {OptOne(|Player Level:40|)}"
     },
     "Mission 28": {
         "connects_to": [
             "Mission 29"
         ],
-        "requires": "|Marcus's Key| & {canReachLocation(Travel Point - PIDF Tower Entrance)} AND {OptOne(|Level Up!:44|)}"
+        "requires": "|Marcus's Key| & {canReachLocation(Travel Point - PIDF Tower Entrance)} AND {OptOne(|Player Level:45|)}"
     },
     "Mission 29": {
         "connects_to": [
             "Mission 30"
         ],
-        "requires": "|Victor's Key| & {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} AND {OptOne(|Level Up!:49|)}"
+        "requires": "|Victor's Key| & {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} AND {OptOne(|Player Level:50|)}"
     },
     "Mission 30": {
         "connects_to": [
             "Mission 31"
         ],
-        "requires": "|Saya's Key| & {canReachLocation(Travel Point - Moonflower Tower Entrance)} AND {OptOne(|Level Up!:54|)}"
+        "requires": "|Saya's Key| & {canReachLocation(Travel Point - Moonflower Tower Entrance)} AND {OptOne(|Player Level:55|)}"
     },
     "Mission 31": {
         "connects_to": [
             "Mission 32"
         ],
-        "requires": "|Bjorn's Key| & {canReachLocation(Travel Point - Feybreak Tower Entrance)} AND {OptOne(|Level Up!:59|)}"
+        "requires": "|Bjorn's Key| & {canReachLocation(Travel Point - Feybreak Tower Entrance)} AND {OptOne(|Player Level:60|)}"
     },
     "Mission 32": {
         "connects_to": [],
@@ -510,7 +510,7 @@
             "Petallia",
             "Pal_Critic_HypocriteHill"
         ],
-        "requires": "|Crescent Pass| AND {OptOne(|Level Up!:14|)}"
+        "requires": "|Crescent Pass| AND {OptOne(|Player Level:15|)}"
     },
     "Sea Breeze Archipelago": {
         "connects_to": [
@@ -607,7 +607,7 @@
             "Whalaska Ignis Boss",
             "Pal_Critic_AnubisStatue"
         ],
-        "requires": "|Obsidian Pass| AND {OptOne(|Level Up!:29|)}"
+        "requires": "|Obsidian Pass| AND {OptOne(|Player Level:30|)}"
     },
     "Feybreak": {
         "connects_to": [
@@ -657,7 +657,7 @@
             "Frostallion Noct",
             "Pal_Critic_StonePillarCaveEntrance"
         ],
-        "requires": "|Feybreak Pass| & |Tech - Pal Gear Workbench| & |@EZ_Mounts| AND (|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}) AND {OptOne(|Level Up!:54|)}"
+        "requires": "|Feybreak Pass| & |Tech - Pal Gear Workbench| & |@EZ_Mounts| AND (|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}) AND {OptOne(|Player Level:55|)}"
     },
     "Sakurajima": {
         "connects_to": [
@@ -708,7 +708,7 @@
             "Menasting Terra",
             "Pal_Critic_MushroomWetlands"
         ],
-        "requires": "|Sakurajima Pass| AND {OptOne(|Level Up!:49|)}"
+        "requires": "|Sakurajima Pass| AND {OptOne(|Player Level:50|)}"
     },
     "Astral Mountains": {
         "connects_to": [
@@ -737,7 +737,7 @@
             "Kingpaca Cryst",
             "Frostallion"
         ],
-        "requires": "|Astral Pass| AND {OptOne(|Level Up!:29|)}"
+        "requires": "|Astral Pass| AND {OptOne(|Player Level:30|)}"
     },
     "Foot of the Astral Mountains": {
         "connects_to": [
@@ -772,7 +772,7 @@
             "Katress",
             "Pal_Critic_ColdShore"
         ],
-        "requires": "|Astral Foot Pass| AND {OptOne(|Level Up!:29|)}"
+        "requires": "|Astral Foot Pass| AND {OptOne(|Player Level:30|)}"
     },
     "Verdant Brook": {
         "connects_to": [
@@ -805,7 +805,7 @@
             "Verdash",
             "Pal_Critic_GobfinTurf"
         ],
-        "requires": "|Verdant Pass| AND {OptOne(|Level Up!:19|)}"
+        "requires": "|Verdant Pass| AND {OptOne(|Player Level:20|)}"
     },
     "Frostbound Mountains": {
         "connects_to": [
@@ -824,7 +824,7 @@
             "Mimog",
             "Sibelyx"
         ],
-        "requires": "|Frostbound Pass| AND {OptOne(|Level Up!:19|)}"
+        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)}"
     },
     "Scars of War": {
         "connects_to": [
@@ -853,7 +853,7 @@
             "Helzephyr",
             "Mimog"
         ],
-        "requires": "|Scars of War Pass| AND {OptOne(|Level Up!:9|)}"
+        "requires": "|Scars of War Pass| AND {OptOne(|Player Level:10|)}"
     },
     "Eastern Wild Island": {
         "connects_to": [
@@ -1022,7 +1022,7 @@
             "Pal_Critic_Duneshelter",
             "Arrogant_Foodie"
         ],
-        "requires": "|Dessicated Pass| AND {OptOne(|Level Up!:39|)}"
+        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)}"
     },
     "Marsh Island": {
         "connects_to": [
@@ -1131,7 +1131,7 @@
             "Mimog",
             "Anubis"
         ],
-        "requires": "|Twilight Pass| AND {OptOne(|Level Up!:9|)}"
+        "requires": "|Twilight Pass| AND {OptOne(|Player Level:10|)}"
     },
     "Bamboo Groves": {
         "connects_to": [
@@ -1187,7 +1187,7 @@
             "Bushi",
             "Pal_Critic_RavineEntrance"
         ],
-        "requires": "|Bamboo Pass| AND {OptOne(|Level Up!:9|)}"
+        "requires": "|Bamboo Pass| AND {OptOne(|Player Level:10|)}"
     },
     "Pal Arena": {
         "connects_to": [
@@ -1250,7 +1250,7 @@
             "Petallia",
             "Grizzbolt"
         ],
-        "requires": "|Wildlife Sanctuary 1 Tracker| AND {OptOne(|Level Up!:19|)}"
+        "requires": "|Wildlife Sanctuary 1 Tracker| AND {OptOne(|Player Level:20|)}"
     },
     "Wildlife Sanctuary 2": {
         "connects_to": [
@@ -1266,7 +1266,7 @@
             "Menasting",
             "Jormuntide Ignis"
         ],
-        "requires": "|Wildlife Sanctuary 2 Tracker| AND {OptOne(|Level Up!:39|)}"
+        "requires": "|Wildlife Sanctuary 2 Tracker| AND {OptOne(|Player Level:40|)}"
     },
     "Wildlife Sanctuary 3": {
         "connects_to": [
@@ -1281,7 +1281,7 @@
             "Orserk",
             "Shadowbeak"
         ],
-        "requires": "|Wildlife Sanctuary 3 Tracker| AND {OptOne(|Level Up!:39|)}"
+        "requires": "|Wildlife Sanctuary 3 Tracker| AND {OptOne(|Player Level:40|)}"
     },
     "Lamball": {
         "connects_to": [],
@@ -1845,7 +1845,7 @@
     },
     "Blazamut Ryu": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)})"
+        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)}) AND {OptOne(|Player Level:55|)}"
     },
     "Helzephyr": {
         "connects_to": [],
@@ -1937,11 +1937,11 @@
     },
     "Bellanoir": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Ancient Ritual Site)} or {canReachLocation(Travel Point - Mossanda Forest)})"
+        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Ancient Ritual Site)} or {canReachLocation(Travel Point - Mossanda Forest)}) AND {OptOne(|Player Level:30|)}"
     },
     "Bellanoir Libero": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)})"
+        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)}) AND {OptOne(|Player Level:50|)}"
     },
     "Selyne": {
         "connects_to": [],
@@ -2009,7 +2009,7 @@
     },
     "Xenolord": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)})"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}) AND {OptOne(|Player Level:60|)}"
     },
     "Nitemary": {
         "connects_to": [],
@@ -2141,7 +2141,7 @@
     },
     "Hartalis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)})"
+        "requires": "{OptOne(|Neutral Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}) AND {OptOne(|Player Level:65|)}"
     },
     "Grass Egg 1": {
         "connects_to": [

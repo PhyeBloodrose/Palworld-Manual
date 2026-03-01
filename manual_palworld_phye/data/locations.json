@@ -492,7 +492,7 @@
         "requires": []
     },
     {
-        "region": "Mission 1",
+        "region": "General",
         "name": "Starting Spawn (Random)",
         "category": [
             "Start",
@@ -504,7 +504,7 @@
         ]
     },
     {
-        "region": "Mission 1",
+        "region": "General",
         "name": "Starting Spawn",
         "category": [
             "Start",
@@ -516,7 +516,7 @@
         ]
     },
     {
-        "region": "Mission 1",
+        "region": "General",
         "name": "Starting Palbox",
         "category": [
             "Start",
@@ -525,6 +525,18 @@
         "requires": [],
         "place_item": [
             "Tech - Palbox"
+        ]
+    },
+    {
+        "region": "General",
+        "name": "Starting as Player Level 1",
+        "category": [
+            "Start",
+            "Player Level Location"
+        ],
+        "requires": [],
+        "place_item": [
+            "Player Level"
         ]
     },
     {

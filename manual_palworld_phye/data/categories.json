@@ -1,11 +1,9 @@
 {
     "Sub Missions": {
-        "yaml_option": [ "Sub_Missions" ],
-        "hidden": false
+        "yaml_option": [ "Sub_Missions" ]
     },
     "Research Tasks": {
-        "yaml_option": [ "Research_Tasks" ],
-        "hidden": false
+        "yaml_option": [ "Research_Tasks" ]
     },
     "Raid Boss": {
         "hidden": true
@@ -19,40 +17,31 @@
         "hidden": true
     },
     "Passives Unlocked": {
-        "yaml_option": [ "Passives" ],
-        "hidden": false
+        "yaml_option": [ "Passives" ]
     },
     "Predator Hunts": {
-        "yaml_option": [ "Predator_Pals" ],
-        "hidden": false
+        "yaml_option": [ "Predator_Pals" ]
     },
     "Schematics": {
-        "yaml_option": [ "All_Schematics" ],
-        "hidden": false
+        "yaml_option": [ "All_Schematics" ]
     },
     "Skill Fruits": {
-        "yaml_option": [ "Skill_Fruits" ],
-        "hidden": false
+        "yaml_option": [ "Skill_Fruits" ]
     },
     "Elixirs": {
-        "yaml_option": [ "Potions" ],
-        "hidden": false
+        "yaml_option": [ "Potions" ]
     },
     "Pal Fruits": {
-        "yaml_option": [ "Pal_Fruits" ],
-        "hidden": false
+        "yaml_option": [ "Pal_Fruits" ]
     },
     "Technique Books": {
-        "yaml_option": [ "Tech_Books" ],
-        "hidden": false
+        "yaml_option": [ "Tech_Books" ]
     },
     "Key Items - Implants": {
-        "yaml_option": [ "Implants" ],
-        "hidden": false
+        "yaml_option": [ "Implants" ]
     },
     "Player Levels": {
-        "yaml_option": [ "Include_Levelups" ],
-        "hidden": false
+        "yaml_option": [ "Include_Levelups" ]
     },
     "Player Level Location": {
         "yaml_option": [ "Include_Levelups" ],
@@ -112,8 +101,7 @@
         "hidden": true
     },
     "Journals": {
-        "yaml_option": [ "Journals" ],
-        "hidden": false
+        "yaml_option": [ "Journals" ]
     },
     "Journalist Goal": {
         "yaml_option": [ "Journalist_Goal", "Journals" ],
@@ -226,16 +214,13 @@
         "hidden": true
     },
     "Cooking Recipes": {
-        "yaml_option": [ "Cooking_Recipes" ],
-        "hidden": false
+        "yaml_option": [ "Cooking_Recipes" ]
     },
     "Ingredients": {
-        "yaml_option": [ "Ingredients" ],
-        "hidden": false
+        "yaml_option": [ "Ingredients" ]
     },
     "Consumables - Food": {
-        "yaml_option": [ "Food" ],
-        "hidden": false
+        "yaml_option": [ "Food" ]
     },
     "Cook Stuff": {
         "yaml_option": [ "Chefsanity" ],
@@ -276,15 +261,26 @@
         "hidden": true
     },
     "The Journey": {
-        "yaml_option": [ "Journey_Missions" ],
-        "hidden": false
+        "yaml_option": [ "Journey_Missions" ]
     },
     "Key Items - Elemental Orbs": {
-        "yaml_option": [ "Elemental_Orbs" ],
-        "hidden": false
+        "yaml_option": [ "Elemental_Orbs" ]
     },
     "Sub Missions Goal": {
         "yaml_option": [ "SubMissions_Goal", "Sub_Missions" ],
         "hidden": true
+    },
+    "Key Items - Dungeon Keys": {
+        "yaml_option": [ "Dungeon_Keys" ]
+    },
+    "Key Items - Seals": {
+        "yaml_option": [ "Sealed_Realms" ]
+    },
+    "Access": {
+        "yaml_option": [ "Accessories" ],
+        "hidden": true
+    },
+    "Key Items - Egg Vouchers": {
+        "yaml_option": [ "Egg_Vouchers" ]
     }
 }

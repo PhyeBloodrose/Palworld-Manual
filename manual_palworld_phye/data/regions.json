@@ -460,10 +460,11 @@
             "Tombat",
             "Mammorest",
             "Croajiro",
-            "Penking",
             "Chillet",
             "Kingpaca",
-            "Pal_Critic_SmallSettlement"
+            "Pal_Critic_SmallSettlement",
+            "Frozen Wings",
+            "Zoe Mission"
         ],
         "requires": "|Windswept Pass| OR {OptOne(|Windswept Spawn|)}"
     },
@@ -507,7 +508,7 @@
             "Helzephyr",
             "Mimog",
             "Elphidran",
-            "Petallia",
+            "Spirits",
             "Pal_Critic_HypocriteHill"
         ],
         "requires": "|Crescent Pass| AND {OptOne(|Player Level:15|)}"
@@ -559,7 +560,7 @@
             "Swee",
             "Sweepa",
             "Broncherry",
-            "Lunaris"
+            "Esoteric"
         ],
         "requires": "|Sea Breeze Pass| OR {OptOne(|Sea Breeze Spawn|)}"
     },
@@ -634,6 +635,7 @@
             "Ragnahawk",
             "Verdash",
             "Cryolinx",
+            "Cryolinx Terra",
             "Blazehowl",
             "Blazehowl Noct",
             "Warsect Terra",
@@ -655,6 +657,7 @@
             "Fenglope Lux",
             "Kitsun Noct",
             "Frostallion Noct",
+            "Silvegis",
             "Pal_Critic_StonePillarCaveEntrance"
         ],
         "requires": "|Feybreak Pass| & |Tech - Pal Gear Workbench| & |@EZ_Mounts| AND (|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}) AND {OptOne(|Player Level:55|)}"
@@ -800,9 +803,9 @@
             "Katress",
             "Helzephyr",
             "Mimog",
-            "Warsect",
-            "Vaelet",
-            "Verdash",
+            "Swift",
+            "Stalwart",
+            "Guardian",
             "Pal_Critic_GobfinTurf"
         ],
         "requires": "|Verdant Pass| AND {OptOne(|Player Level:20|)}"
@@ -822,7 +825,7 @@
             "Kitsun",
             "Vanwyrm Cryst",
             "Mimog",
-            "Sibelyx"
+            "Pristine"
         ],
         "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)}"
     },
@@ -861,7 +864,6 @@
             "Dessicated Dunes",
             "Marsh Island",
             "Isle of Decayed Treasures",
-            "Mixed Region - Jormuntide",
             "Mixed Region - Natural Bridge",
             "Grass Egg 1",
             "Fishing_EasternWild",
@@ -972,7 +974,7 @@
             "Tombat",
             "Mammorest",
             "Croajiro",
-            "Felbat"
+            "Abyssal Nights"
         ],
         "requires": "|Forgotten Pass| OR {OptOne(|Forgotten Spawn|)}"
     },
@@ -1179,12 +1181,12 @@
             "Mammorest",
             "Mimog",
             "Beakon",
-            "Quivern",
+            "Winged Tyrant",
             "Jormuntide",
             "Fenglope",
             "Broncherry Aqua",
-            "Relaxaurus Lux",
-            "Bushi",
+            "Thunder Dragon",
+            "Swordmaster",
             "Pal_Critic_RavineEntrance"
         ],
         "requires": "|Bamboo Pass| AND {OptOne(|Player Level:10|)}"
@@ -1226,7 +1228,7 @@
         "connects_to": [
             "Katress"
         ],
-        "requires": []
+        "requires": "{OptOne(|Seal of the Invincible|)} AND {OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     "Mixed Region - Jormuntide": {
         "connects_to": [
@@ -2137,7 +2139,7 @@
     },
     "Neptilius": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:11|)}"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Water Orb:11|)}"
     },
     "Hartalis": {
         "connects_to": [],
@@ -2145,278 +2147,920 @@
     },
     "Grass Egg 1": {
         "connects_to": [
+            "Grass Egg 1 - Common",
+            "Grass Egg 1 - Large Common",
+            "Grass Egg 1 - Scorching",
+            "Grass Egg 1 - Rocky",
+            "Grass Egg 1 - Electric",
+            "Grass Egg 1 - Damp",
+            "Grass Egg 1 - Large Damp",
+            "Grass Egg 1 - Verdant",
+            "Grass Egg 1 - Large Verdant",
+            "Grass Egg 1 - Dark",
+            "Grass Egg 1 - Large Dark",
+            "Grass Egg 1 - Frozen"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Grass Egg 1 - Common": {
+        "connects_to": [
             "Ribbuny",
-            "Arsox",
             "Galeclaw",
-            "Fuddler",
-            "Dazzi",
-            "Surfent",
-            "Flopie",
-            "Cinnamoth",
-            "Dinossom",
-            "Dumud",
-            "Hangyu",
             "Tocotoco",
-            "Daedream",
-            "Nox",
-            "Grintale",
-            "Chillet",
-            "Flambelle",
-            "Penking",
-            "Tombat",
-            "Celaray",
             "Eikthyrdeer",
             "Melpaca",
-            "Direhowl",
+            "Direhowl"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Large Common": {
+        "connects_to": [
+            "Grintale"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Grass Egg 1 - Damp": {
+        "connects_to": [
+            "Surfent",
+            "Celaray"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Large Damp": {
+        "connects_to": [
+            "Penking"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher:2|)}"
+    },
+    "Grass Egg 1 - Dark": {
+        "connects_to": [
+            "Daedream"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Large Dark": {
+        "connects_to": [
+            "Nox",
+            "Tombat"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Grass Egg 1 - Electric": {
+        "connects_to": [
+            "Dazzi"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Frozen": {
+        "connects_to": [
+            "Chillet"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Rocky": {
+        "connects_to": [
+            "Fuddler",
+            "Dumud",
+            "Hangyu"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Scorching": {
+        "connects_to": [
+            "Arsox",
+            "Flambelle"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Verdant": {
+        "connects_to": [
+            "Flopie",
+            "Cinnamoth",
             "Herbil"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
+    },
+    "Grass Egg 1 - Large Verdant": {
+        "connects_to": [
+            "Dinossom"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
     },
     "Grass Egg 2": {
         "connects_to": [
-            "Swee",
-            "Celaray",
-            "Lunaris",
+            "Grass Egg 2 - Common",
+            "Grass Egg 2 - Large Common",
+            "Grass Egg 2 - Damp",
+            "Grass Egg 2 - Dark",
+            "Grass Egg 2 - Large Dark",
+            "Grass Egg 2 - Large Electric",
+            "Grass Egg 2 - Huge Dragon",
+            "Grass Egg 2 - Frozen",
+            "Grass Egg 2 - Large Frozen",
+            "Grass Egg 2 - Scorching",
+            "Grass Egg 2 - Large Scorching",
+            "Grass Egg 2 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Grass Egg 2 - Common": {
+        "connects_to": [
+            "Nitewing"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher|)}"
+    },
+    "Grass Egg 2 - Large Common": {
+        "connects_to": [
+            "Lunaris"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Grass Egg 2 - Damp": {
+        "connects_to": [
+            "Celaray"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher|)}"
+    },
+    "Grass Egg 2 - Dark": {
+        "connects_to": [
+            "Mau"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Grass Egg 2 - Large Dark": {
+        "connects_to": [
             "Felbat",
-            "Mau",
-            "Nitewing",
-            "Caprity",
-            "Sweepa",
-            "Rayhound",
-            "Relaxaurus",
             "Maraith",
+            "Katress"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Grass Egg 2 - Huge Dragon": {
+        "connects_to": [
+            "Relaxaurus"
+        ],
+        "requires": "{OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Grass Egg 2 - Large Electric": {
+        "connects_to": [
+            "Rayhound",
             "Beakon",
-            "Bushi",
-            "Foxparks",
-            "Univolt",
-            "Katress",
+            "Univolt"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Grass Egg 2 - Frozen": {
+        "connects_to": [
+            "Swee"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Grass Egg 2 - Large Frozen": {
+        "connects_to": [
+            "Sweepa"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher:2|)}"
+    },
+    "Grass Egg 2 - Scorching": {
+        "connects_to": [
+            "Foxparks"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Grass Egg 2 - Large Scorching": {
+        "connects_to": [
+            "Bushi"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Grass Egg 2 - Verdant": {
+        "connects_to": [
+            "Caprity",
             "Herbil"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Grass Egg 3": {
         "connects_to": [
+            "Grass Egg 3 - Dark",
+            "Grass Egg 3 - Huge Rocky",
+            "Grass Egg 3 - Huge Verdant",
+            "Grass Egg 3 - Large Common",
+            "Grass Egg 3 - Large Verdant",
+            "Grass Egg 3 - Scorching",
+            "Grass Egg 3 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Grass Egg 3 - Dark": {
+        "connects_to": [
+            "Loupmoon"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Grass Egg 3 - Huge Rocky": {
+        "connects_to": [
+            "Warsect"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:3|)}"
+    },
+    "Grass Egg 3 - Huge Verdant": {
+        "connects_to": [
+            "Verdash",
+            "Elizabee"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:3|)}"
+    },
+    "Grass Egg 3 - Large Common": {
+        "connects_to": [
+            "Gorirat"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Grass Egg 3 - Large Verdant": {
+        "connects_to": [
+            "Broncherry",
+            "Robinquill",
+            "Mossanda"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Grass Egg 3 - Scorching": {
+        "connects_to": [
+            "Rooby"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Grass Egg 3 - Verdant": {
+        "connects_to": [
             "Lifmunk",
             "Gumoss",
             "Tanzee",
-            "Loupmoon",
-            "Gorirat",
-            "Verdash",
-            "Broncherry",
-            "Elizabee",
-            "Robinquill",
-            "Mossanda",
-            "Warsect",
             "Bristla",
-            "Rooby",
             "Beegarde",
             "Herbil"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Grass Egg 4": {
         "connects_to": [
+            "Grass Egg 4 - Dark",
+            "Grass Egg 4 - Huge Rocky",
+            "Grass Egg 4 - Huge Verdant",
+            "Grass Egg 4 - Large Common",
+            "Grass Egg 4 - Large Verdant",
+            "Grass Egg 4 - Scorching",
+            "Grass Egg 4 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Grass Egg 4 - Dark": {
+        "connects_to": [
+            "Loupmoon"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Grass Egg 4 - Huge Rocky": {
+        "connects_to": [
+            "Warsect"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:3|)}"
+    },
+    "Grass Egg 4 - Huge Verdant": {
+        "connects_to": [
+            "Verdash",
+            "Elizabee"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:3|)}"
+    },
+    "Grass Egg 4 - Large Common": {
+        "connects_to": [
+            "Gorirat"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Grass Egg 4 - Large Verdant": {
+        "connects_to": [
+            "Broncherry",
+            "Robinquill",
+            "Mossanda"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Grass Egg 4 - Scorching": {
+        "connects_to": [
+            "Rooby"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Grass Egg 4 - Verdant": {
+        "connects_to": [
             "Lifmunk",
             "Gumoss",
             "Tanzee",
-            "Loupmoon",
-            "Gorirat",
-            "Verdash",
-            "Broncherry",
-            "Elizabee",
-            "Robinquill",
-            "Mossanda",
-            "Warsect",
             "Bristla",
-            "Rooby",
             "Beegarde",
             "Herbil"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Volcano Egg 1": {
         "connects_to": [
+            "Volcano Egg 1 - Huge Dragon",
+            "Volcano Egg 1 - Huge Scorching",
+            "Volcano Egg 1 - Large Scorching",
+            "Volcano Egg 1 - Scorching"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Volcano Egg 1 - Scorching": {
+        "connects_to": [
             "Kelpsea Ignis",
             "Leezpunk Ignis",
-            "Vanwyrm",
+            "Vanwyrm"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Volcano Egg 1 - Large Scorching": {
+        "connects_to": [
             "Pyrin",
-            "Reptyro",
             "Pyrin Noct",
-            "Blazehowl Noct",
+            "Reptyro",
             "Ragnahawk",
-            "Wixen",
+            "Wixen"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Volcano Egg 1 - Huge Scorching": {
+        "connects_to": [
+            "Blazehowl Noct"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:3|)}"
+    },
+    "Volcano Egg 1 - Huge Dragon": {
+        "connects_to": [
             "Jormuntide Ignis"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Dragon Egg Voucher:3|)}"
     },
     "Volcano Egg 2": {
         "connects_to": [
+            "Volcano Egg 2 - Huge Dragon",
+            "Volcano Egg 2 - Huge Scorching",
+            "Volcano Egg 2 - Large Scorching",
+            "Volcano Egg 2 - Scorching"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Volcano Egg 2 - Scorching": {
+        "connects_to": [
             "Kelpsea Ignis",
             "Leezpunk Ignis",
-            "Vanwyrm",
+            "Vanwyrm"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Volcano Egg 2 - Large Scorching": {
+        "connects_to": [
             "Pyrin",
-            "Reptyro",
             "Pyrin Noct",
-            "Blazehowl Noct",
+            "Reptyro",
             "Ragnahawk",
-            "Wixen",
+            "Wixen"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Volcano Egg 2 - Huge Scorching": {
+        "connects_to": [
+            "Blazehowl Noct"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:3|)}"
+    },
+    "Volcano Egg 2 - Huge Dragon": {
+        "connects_to": [
             "Jormuntide Ignis"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Dragon Egg Voucher:3|)}"
     },
     "Desert Egg 1": {
         "connects_to": [
+            "Desert Egg 1 - Dark",
+            "Desert Egg 1 - Electric",
+            "Desert Egg 1 - Huge Scorching",
+            "Desert Egg 1 - Large Common",
+            "Desert Egg 1 - Large Electric",
+            "Desert Egg 1 - Large Rocky",
+            "Desert Egg 1 - Large Verdant",
+            "Desert Egg 1 - Rocky",
+            "Desert Egg 1 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Desert Egg 1 - Dark": {
+        "connects_to": [
+            "Cawgnito"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Desert Egg 1 - Electric": {
+        "connects_to": [
             "Sparkit",
-            "Jolthog",
-            "Cawgnito",
-            "Fuddler",
+            "Jolthog"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher|)}"
+    },
+    "Desert Egg 1 - Huge Scorching": {
+        "connects_to": [
+            "Suzaku"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:3|)}"
+    },
+    "Desert Egg 1 - Large Common": {
+        "connects_to": [
+            "Lovander"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Desert Egg 1 - Large Electric": {
+        "connects_to": [
             "Rayhound",
-            "Lovander",
-            "Robinquill Terra",
-            "Dinossom Lux",
+            "Dinossom Lux"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Desert Egg 1 - Large Rocky": {
+        "connects_to": [
             "Surfent Terra",
-            "Suzaku",
-            "Digtoise",
-            "Palumba",
+            "Digtoise"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Desert Egg 1 - Large Verdant": {
+        "connects_to": [
+            "Robinquill Terra",
             "Braloha"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Desert Egg 1 - Rocky": {
+        "connects_to": [
+            "Fuddler"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher|)}"
+    },
+    "Desert Egg 1 - Verdant": {
+        "connects_to": [
+            "Palumba"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Glacier Egg 1": {
         "connects_to": [
-            "Pengullet",
+            "Glacier Egg 1 - Damp",
+            "Glacier Egg 1 - Frozen",
+            "Glacier Egg 1 - Huge Damp",
+            "Glacier Egg 1 - Huge Frozen",
+            "Glacier Egg 1 - Large Frozen",
+            "Glacier Egg 1 - Large Scorching"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Glacier Egg 1 - Damp": {
+        "connects_to": [
+            "Pengullet"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher|)}"
+    },
+    "Glacier Egg 1 - Frozen": {
+        "connects_to": [
             "Chillet",
             "Mau Cryst",
-            "Vanwyrm Cryst",
             "Reindrix",
-            "Foxcicle",
-            "Kitsun",
-            "Sibelyx",
-            "Cryolinx",
-            "Wumpo",
-            "Reptyro Cryst",
-            "Kingpaca Cryst",
-            "Mammorest Cryst",
-            "Suzaku Aqua",
             "Frostplume",
             "Icelyn"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Glacier Egg 1 - Huge Damp": {
+        "connects_to": [
+            "Suzaku Aqua"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher:3|)}"
+    },
+    "Glacier Egg 1 - Huge Frozen": {
+        "connects_to": [
+            "Kingpaca Cryst",
+            "Mammorest Cryst"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Glacier Egg 1 - Large Frozen": {
+        "connects_to": [
+            "Vanwyrm Cryst",
+            "Foxcicle",
+            "Sibelyx",
+            "Cryolinx",
+            "Wumpo",
+            "Reptyro Cryst"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher:2|)}"
+    },
+    "Glacier Egg 1 - Large Scorching": {
+        "connects_to": [
+            "Kitsun"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:2|)}"
     },
     "Glacier Egg 2": {
         "connects_to": [
-            "Pengullet",
+            "Glacier Egg 2 - Damp",
+            "Glacier Egg 2 - Frozen",
+            "Glacier Egg 2 - Huge Damp",
+            "Glacier Egg 2 - Huge Frozen",
+            "Glacier Egg 2 - Large Frozen",
+            "Glacier Egg 2 - Large Scorching"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Glacier Egg 2 - Damp": {
+        "connects_to": [
+            "Pengullet"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher|)}"
+    },
+    "Glacier Egg 2 - Frozen": {
+        "connects_to": [
             "Chillet",
             "Mau Cryst",
-            "Vanwyrm Cryst",
             "Reindrix",
-            "Foxcicle",
-            "Kitsun",
-            "Sibelyx",
-            "Cryolinx",
-            "Wumpo",
-            "Reptyro Cryst",
-            "Kingpaca Cryst",
-            "Mammorest Cryst",
-            "Suzaku Aqua",
             "Frostplume",
             "Icelyn"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Glacier Egg 2 - Huge Damp": {
+        "connects_to": [
+            "Suzaku Aqua"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher:3|)}"
+    },
+    "Glacier Egg 2 - Huge Frozen": {
+        "connects_to": [
+            "Kingpaca Cryst",
+            "Mammorest Cryst"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Glacier Egg 2 - Large Frozen": {
+        "connects_to": [
+            "Vanwyrm Cryst",
+            "Foxcicle",
+            "Sibelyx",
+            "Cryolinx",
+            "Wumpo",
+            "Reptyro Cryst"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher:2|)}"
+    },
+    "Glacier Egg 2 - Large Scorching": {
+        "connects_to": [
+            "Kitsun"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:2|)}"
     },
     "Sakurajima Egg 1": {
         "connects_to": [
-            "Kikit",
-            "Dumud",
-            "Beakon",
-            "Flopie",
+            "Sakurajima Egg 1 - Common",
+            "Sakurajima Egg 1 - Damp",
+            "Sakurajima Egg 1 - Dark",
+            "Sakurajima Egg 1 - Huge Dark",
+            "Sakurajima Egg 1 - Huge Dragon",
+            "Sakurajima Egg 1 - Huge Verdant",
+            "Sakurajima Egg 1 - Large Common",
+            "Sakurajima Egg 1 - Large Dark",
+            "Sakurajima Egg 1 - Large Dragon",
+            "Sakurajima Egg 1 - Large Electric",
+            "Sakurajima Egg 1 - Large Rocky",
+            "Sakurajima Egg 1 - Large Scorching",
+            "Sakurajima Egg 1 - Large Verdant",
+            "Sakurajima Egg 1 - Rocky",
+            "Sakurajima Egg 1 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Sakurajima Egg 1 - Common": {
+        "connects_to": [
             "Cattiva",
             "Ribbuny",
             "Yakumo",
-            "Quivern",
-            "Verdash",
+            "Tocotoco"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher|)}"
+    },
+    "Sakurajima Egg 1 - Damp": {
+        "connects_to": [
+            "Croajiro"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher|)}"
+    },
+    "Sakurajima Egg 1 - Dark": {
+        "connects_to": [
             "Depresso",
-            "Cawgnito",
-            "Dazemu",
-            "Tocotoco",
-            "Shroomer",
-            "Croajiro",
-            "Relaxaurus",
-            "Grintale",
+            "Cawgnito"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Sakurajima Egg 1 - Huge Dark": {
+        "connects_to": [
             "Helzephyr Lux",
-            "Wixen Noct",
-            "Chillet Ignis",
-            "Dinossom",
-            "Dogen",
-            "Bushi Noct",
-            "Quivern Botan",
-            "Lullu",
-            "Bushi",
-            "Sootseer",
-            "Gorirat Terra",
-            "Shroomer Noct",
+            "Menasting"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher:3|)}"
+    },
+    "Sakurajima Egg 1 - Huge Dragon": {
+        "connects_to": [
+            "Relaxaurus",
+            "Quivern Botan"
+        ],
+        "requires": "{OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Sakurajima Egg 1 - Huge Verdant": {
+        "connects_to": [
+            "Verdash",
             "Petallia",
-            "Maraith",
-            "Katress Ignis",
-            "Menasting",
             "Lyleen"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Verdant Egg Voucher:3|)}"
+    },
+    "Sakurajima Egg 1 - Large Common": {
+        "connects_to": [
+            "Grintale",
+            "Dogen"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher|)}"
+    },
+    "Sakurajima Egg 1 - Large Dark": {
+        "connects_to": [
+            "Sootseer",
+            "Maraith",
+            "Katress Ignis"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Sakurajima Egg 1 - Large Dragon": {
+        "connects_to": [
+            "Quivern"
+        ],
+        "requires": "{OptOne(|Dragon Egg Voucher:2|)}"
+    },
+    "Sakurajima Egg 1 - Large Electric": {
+        "connects_to": [
+            "Beakon"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Sakurajima Egg 1 - Large Rocky": {
+        "connects_to": [
+            "Dazemu",
+            "Gorirat Terra"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Sakurajima Egg 1 - Large Scorching": {
+        "connects_to": [
+            "Wixen Noct",
+            "Chillet Ignis",
+            "Bushi Noct",
+            "Bushi"
+        ],
+        "requires": "{OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Sakurajima Egg 1 - Large Verdant": {
+        "connects_to": [
+            "Dinossom",
+            "Shroomer Noct"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Sakurajima Egg 1 - Rocky": {
+        "connects_to": [
+            "Kikit",
+            "Dumud"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher|)}"
+    },
+    "Sakurajima Egg 1 - Verdant": {
+        "connects_to": [
+            "Flopie",
+            "Shroomer",
+            "Lullu"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Feybreak Egg 1": {
         "connects_to": [
+            "Feybreak Egg 1 - Dark",
+            "Feybreak Egg 1 - Electric",
+            "Feybreak Egg 1 - Frozen",
+            "Feybreak Egg 1 - Huge Damp",
+            "Feybreak Egg 1 - Huge Dragon",
+            "Feybreak Egg 1 - Huge Rocky",
+            "Feybreak Egg 1 - Large Common",
+            "Feybreak Egg 1 - Large Dark",
+            "Feybreak Egg 1 - Large Electric",
+            "Feybreak Egg 1 - Large Rocky",
+            "Feybreak Egg 1 - Large Verdant",
+            "Feybreak Egg 1 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Feybreak Egg 1 - Dark": {
+        "connects_to": [
             "Dazzi Noct",
-            "Cryolinx Terra",
-            "Fenglope Lux",
             "Caprity Noct",
-            "Loupmoon Cryst",
-            "Faleris Aqua",
-            "Warsect Terra",
-            "Kitsun Noct",
-            "Ribbuny Botan",
-            "Starryon",
-            "Gildane",
-            "Nitemary",
-            "Prunelia",
             "Nyafia",
-            "Silvegis",
             "Tarantriss",
             "Omascul",
             "Splatterina",
-            "Smokie",
-            "Celesdir",
-            "Foxparks Cryst",
+            "Smokie"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Feybreak Egg 1 - Electric": {
+        "connects_to": [
+            "Fenglope Lux"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher|)}"
+    },
+    "Feybreak Egg 1 - Frozen": {
+        "connects_to": [
+            "Loupmoon Cryst",
+            "Foxparks Cryst"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Feybreak Egg 1 - Huge Damp": {
+        "connects_to": [
+            "Faleris Aqua"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 1 - Huge Dragon": {
+        "connects_to": [
+            "Silvegis"
+        ],
+        "requires": "{OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 1 - Huge Rocky": {
+        "connects_to": [
+            "Warsect Terra",
+            "Gildane"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 1 - Large Common": {
+        "connects_to": [
+            "Celesdir"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 1 - Large Dark": {
+        "connects_to": [
+            "Kitsun Noct",
+            "Starryon",
+            "Nitemary"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 1 - Large Electric": {
+        "connects_to": [
             "Azurmane"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 1 - Large Rocky": {
+        "connects_to": [
+            "Cryolinx Terra"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 1 - Large Verdant": {
+        "connects_to": [
+            "Prunelia"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 1 - Verdant": {
+        "connects_to": [
+            "Ribbuny Botan"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Feybreak Egg 2": {
         "connects_to": [
+            "Feybreak Egg 2 - Dark",
+            "Feybreak Egg 2 - Electric",
+            "Feybreak Egg 2 - Frozen",
+            "Feybreak Egg 2 - Huge Damp",
+            "Feybreak Egg 2 - Huge Dragon",
+            "Feybreak Egg 2 - Huge Frozen",
+            "Feybreak Egg 2 - Huge Rocky",
+            "Feybreak Egg 2 - Large Common",
+            "Feybreak Egg 2 - Large Dark",
+            "Feybreak Egg 2 - Large Electric",
+            "Feybreak Egg 2 - Large Rocky",
+            "Feybreak Egg 2 - Large Verdant",
+            "Feybreak Egg 2 - Verdant"
+        ],
+        "requires": "|Tech - Palbox| AND |A.Tech - Progressive Egg Incubator:1| AND {YamlEnabled(Enable_Wild_Eggs)}"
+    },
+    "Feybreak Egg 2 - Dark": {
+        "connects_to": [
             "Dazzi Noct",
-            "Cryolinx Terra",
-            "Fenglope Lux",
             "Caprity Noct",
-            "Loupmoon Cryst",
-            "Faleris Aqua",
-            "Warsect Terra",
-            "Kitsun Noct",
-            "Ribbuny Botan",
-            "Starryon",
-            "Gildane",
-            "Nitemary",
-            "Prunelia",
             "Nyafia",
-            "Silvegis",
             "Tarantriss",
             "Omascul",
             "Splatterina",
-            "Smokie",
-            "Celesdir",
-            "Foxparks Cryst",
-            "Azurmane",
+            "Smokie"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher|)}"
+    },
+    "Feybreak Egg 2 - Electric": {
+        "connects_to": [
+            "Fenglope Lux"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher|)}"
+    },
+    "Feybreak Egg 2 - Frozen": {
+        "connects_to": [
+            "Loupmoon Cryst",
+            "Foxparks Cryst"
+        ],
+        "requires": "{OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Feybreak Egg 2 - Huge Damp": {
+        "connects_to": [
+            "Faleris Aqua"
+        ],
+        "requires": "{OptOne(|Damp Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 2 - Huge Dragon": {
+        "connects_to": [
+            "Silvegis"
+        ],
+        "requires": "{OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 2 - Huge Frozen": {
+        "connects_to": [
             "Bastigor"
         ],
-        "requires": "|Tech - Palbox| & |A.Tech - Progressive Egg Incubator:1|"
+        "requires": "{OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 2 - Huge Rocky": {
+        "connects_to": [
+            "Warsect Terra",
+            "Gildane"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:3|)}"
+    },
+    "Feybreak Egg 2 - Large Common": {
+        "connects_to": [
+            "Celesdir"
+        ],
+        "requires": "{OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 2 - Large Dark": {
+        "connects_to": [
+            "Kitsun Noct",
+            "Starryon",
+            "Nitemary"
+        ],
+        "requires": "{OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 2 - Large Electric": {
+        "connects_to": [
+            "Azurmane"
+        ],
+        "requires": "{OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 2 - Large Rocky": {
+        "connects_to": [
+            "Cryolinx Terra"
+        ],
+        "requires": "{OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 2 - Large Verdant": {
+        "connects_to": [
+            "Prunelia"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Feybreak Egg 2 - Verdant": {
+        "connects_to": [
+            "Ribbuny Botan"
+        ],
+        "requires": "{OptOne(|Verdant Egg Voucher|)}"
     },
     "Fishing Ponds": {
         "starting": true,
@@ -2425,7 +3069,7 @@
             "High Quality Bait",
             "Deluxe Bait"
         ],
-        "requires": "|Tech - Palbox| & (|Tech - Fishing Pond| or |Tech - Large Fishing Pond|) & |Tech - Mill| & |Tech - Progressive Workbench|"
+        "requires": "|Tech - Palbox| & (|Tech - Fishing Pond| or |Tech - Large Fishing Pond|) & |Tech - Mill| & |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
     },
     "Common Bait": {
         "connects_to": [
@@ -2808,7 +3452,7 @@
             "Jelliette",
             "Turtacle"
         ],
-        "requires": []
+        "requires": "{OptOne(|Grasslands Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:13|)}"
     },
     "Mountain Stream Grotto": {
         "connects_to": [
@@ -2830,7 +3474,7 @@
             "Tarantriss",
             "Jelliette"
         ],
-        "requires": []
+        "requires": "{OptOne(|Forest Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:29|)}"
     },
     "Cavern of the Dunes": {
         "connects_to": [
@@ -2855,7 +3499,7 @@
             "Leezpunk Ignis",
             "Incineram"
         ],
-        "requires": []
+        "requires": "{OptOne(|Dunes Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:38|)}"
     },
     "Volcanic Cavern": {
         "connects_to": [
@@ -2884,7 +3528,7 @@
             "Fuddler",
             "Tocotoco"
         ],
-        "requires": []
+        "requires": "{OptOne(|Volcanic Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:40|)}"
     },
     "Astral Mountains Cavern": {
         "connects_to": [
@@ -2910,7 +3554,7 @@
             "Frostplume",
             "Whalaska"
         ],
-        "requires": []
+        "requires": "{OptOne(|Astral Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)}"
     },
     "Cherry Blossom Cave": {
         "connects_to": [
@@ -2935,7 +3579,7 @@
             "Braloha",
             "Maraith"
         ],
-        "requires": []
+        "requires": "{OptOne(|Sakura Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:52|)}"
     },
     "Feybreak Cavern": {
         "connects_to": [
@@ -2958,7 +3602,7 @@
             "Caprity Noct",
             "Kitsun Noct"
         ],
-        "requires": []
+        "requires": "{OptOne(|Feybreak Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:58|)}"
     },
     "Terraria Cavern": {
         "connects_to": [
@@ -2973,7 +3617,7 @@
             "Starryon",
             "Icelyn"
         ],
-        "requires": []
+        "requires": "{OptOne(|Terraria Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)}"
     },
     "Grass Meteor": {
         "connects_to": [
@@ -3038,7 +3682,7 @@
             "Mozzarina",
             "Depresso"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Grass_B": {
         "connects_to": [
@@ -3056,7 +3700,7 @@
             "Relaxaurus",
             "Arsox"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Grass_Desert": {
         "connects_to": [
@@ -3068,7 +3712,7 @@
             "Digtoise",
             "Tocotoco"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Forest": {
         "connects_to": [
@@ -3088,7 +3732,7 @@
             "Dumud",
             "Hangyu Cryst"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Forest_B": {
         "connects_to": [
@@ -3109,7 +3753,7 @@
             "Dumud",
             "Mossanda"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Forest_Frost": {
         "connects_to": [
@@ -3117,7 +3761,7 @@
             "Direhowl",
             "Tocotoco"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Volcano": {
         "connects_to": [
@@ -3132,7 +3776,7 @@
             "Nox",
             "Pyrin"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Desert": {
         "connects_to": [
@@ -3147,7 +3791,7 @@
             "Elphidran Aqua",
             "Nox"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Snow": {
         "connects_to": [
@@ -3164,7 +3808,7 @@
             "Lyleen Noct",
             "Nox"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Sakurajima": {
         "connects_to": [
@@ -3181,7 +3825,7 @@
             "Nox",
             "Prixter"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Sakurajima_B": {
         "connects_to": [
@@ -3198,7 +3842,7 @@
             "Nox",
             "Prixter"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Feybreak_Red": {
         "connects_to": [
@@ -3210,7 +3854,7 @@
             "Lyleen Noct",
             "Nox"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Feybreak_Desert": {
         "connects_to": [
@@ -3222,7 +3866,7 @@
             "Lyleen Noct",
             "Nox"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Feybreak_Dark": {
         "connects_to": [
@@ -3234,7 +3878,7 @@
             "Loupmoon Cryst",
             "Splatterina"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Incident_Feybreak_Yellow": {
         "connects_to": [
@@ -3247,7 +3891,7 @@
             "Lyleen Noct",
             "Nox"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Incidents)}"
     },
     "Raid Battles": {
         "starting": true,
@@ -3260,10 +3904,60 @@
         ],
         "requires": "|A.Tech - Summoning Altar| & |Tech - Palbox| & |Tech - Progressive Workbench:1| & {canReachLocation(Base Level 15 Task)}"
     },
-    "Breeding Only": {
+    "Breeding": {
         "starting": true,
-        "connects_to": [],
+        "connects_to": [
+            "Breeding - Jolthog Cryst",
+            "Breeding - Mau",
+            "Breeding - Katress Ignis",
+            "Breeding - Elphidran Aqua",
+            "Breeding - Reptyro Cryst",
+            "Breeding - Suzaku Aqua",
+            "Breeding - Bastigor"
+        ],
         "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ({canReachLocation(Palpedia - Lovander)} OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR {canReachLocation(Travel Point - Kelpsea Hill)}) AND {canReachCategory(Honey Drop,1)})"
+    },
+    "Breeding - Jolthog Cryst": {
+        "connects_to": [
+            "Jolthog Cryst"
+        ],
+        "requires": "{canReachLocation(Palpedia - Jolthog)} AND {canReachLocation(Palpedia - Pengullet)} AND {YamlDisabled(Enable_Cages)} AND {YamlDisabled(Enable_Incidents)}"
+    },
+    "Breeding - Mau": {
+        "connects_to": [
+            "Mau"
+        ],
+        "requires": "{OptOne(|Neutral Orb|)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+    },
+    "Breeding - Katress Ignis": {
+        "connects_to": [
+            "Katress Ignis"
+        ],
+        "requires": "{canReachLocation(Palpedia - Katress)} AND {canReachLocation(Palpedia - Wixen)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+    },
+    "Breeding - Elphidran Aqua": {
+        "connects_to": [
+            "Elphidran Aqua"
+        ],
+        "requires": "{canReachLocation(Palpedia - Elphidran)} AND {canReachLocation(Palpedia - Surfent)} AND {YamlDisabled(Enable_Incidents)}"
+    },
+    "Breeding - Reptyro Cryst": {
+        "connects_to": [
+            "Reptyro Cryst"
+        ],
+        "requires": "{canReachLocation(Palpedia - Reptyro)} AND {canReachLocation(Palpedia - Foxcicle)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+    },
+    "Breeding - Suzaku Aqua": {
+        "connects_to": [
+            "Suzaku Aqua"
+        ],
+        "requires": "{canReachLocation(Palpedia - Suzaku)} AND {canReachLocation(Palpedia - Jormuntide)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+    },
+    "Breeding - Bastigor": {
+        "connects_to": [
+            "Bastigor"
+        ],
+        "requires": "{canReachLocation(Palpedia - Anubis)} AND {canReachLocation(Palpedia - Frostallion)} AND {YamlDisabled(Enable_Wild_Eggs)}"
     },
     "Pal Merchant": {
         "connects_to": [
@@ -3282,7 +3976,7 @@
             "Lamball",
             "Loupmoon"
         ],
-        "requires": "{OptOne(|Pal Membership Card|)}"
+        "requires": "{OptOne(|Pal Membership Card|)} AND {YamlEnabled(Enable_Pal_Merchants)}"
     },
     "Pal Merchant_Desert": {
         "connects_to": [
@@ -3298,7 +3992,7 @@
             "Rayhound",
             "Hangyu"
         ],
-        "requires": "{OptOne(|Pal Membership Card|)}"
+        "requires": "{OptOne(|Pal Membership Card|)} AND {YamlEnabled(Enable_Pal_Merchants)}"
     },
     "Pal Merchant_Volcano": {
         "connects_to": [
@@ -3312,7 +4006,7 @@
             "Gobfin Ignis",
             "Reptyro"
         ],
-        "requires": "{OptOne(|Pal Membership Card|)}"
+        "requires": "{OptOne(|Pal Membership Card|)} AND {YamlEnabled(Enable_Pal_Merchants)}"
     },
     "Black Marketeer": {
         "connects_to": [
@@ -3363,7 +4057,7 @@
             "Hangyu",
             "Cremis"
         ],
-        "requires": "{OptOne(|Secret Membership Card|)}"
+        "requires": "{OptOne(|Secret Membership Card|)} AND {YamlEnabled(Enable_Black_Marketeers)}"
     },
     "Cage_Desert": {
         "connects_to": [
@@ -3380,7 +4074,7 @@
             "Beakon",
             "Tarantriss"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Forest": {
         "connects_to": [
@@ -3402,7 +4096,7 @@
             "Flambelle",
             "Vanwyrm"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Grass": {
         "connects_to": [
@@ -3424,7 +4118,7 @@
             "Dazzi",
             "Flambelle"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Grass2": {
         "connects_to": [
@@ -3445,7 +4139,7 @@
             "Surfent",
             "Flambelle"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Sakurajima": {
         "connects_to": [
@@ -3464,7 +4158,7 @@
             "Kikit",
             "Yakumo"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Snow": {
         "connects_to": [
@@ -3477,7 +4171,7 @@
             "Sibelyx",
             "Xenovader"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Viking": {
         "connects_to": [
@@ -3497,7 +4191,7 @@
             "Prunelia",
             "Nyafia"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Cage_Volcano": {
         "connects_to": [
@@ -3511,20 +4205,19 @@
             "Wixen",
             "Kelpsea Ignis"
         ],
-        "requires": []
+        "requires": "{YamlEnabled(Enable_Cages)}"
     },
     "Zoe Mission": {
-        "starting": true,
         "connects_to": [
             "Zoe Mission 2"
         ],
-        "requires": "|Zoe's Key| AND {canReachLocation(Travel Point - Desolate Church)} AND |Wildlife Sanctuary 1 Tracker|"
+        "requires": "|Zoe's Key| AND |Wildlife Sanctuary 1 Tracker|"
     },
     "Zoe Mission 2": {
         "connects_to": [
             "Zoe Mission 3"
         ],
-        "requires": "({canReachLocation(Travel Point - Mossanda Forest)} or {canReachLocation(Travel Point - Ancient Ritual Site)})"
+        "requires": "{canReachLocation(Travel Point - Mossanda Forest)} OR {canReachLocation(Travel Point - Ancient Ritual Site)}"
     },
     "Zoe Mission 3": {
         "connects_to": [
@@ -4942,7 +5635,73 @@
         "connects_to": [],
         "requires": "{OptOne(|Baked Berries Recipe|)}"
     },
-    "General_Region": {
+    "Frozen Wings": {
+        "connects_to": [
+            "Penking"
+        ],
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Frozen Wings|)}"
+    },
+    "Swift": {
+        "connects_to": [
+            "Verdash"
+        ],
+        "requires": "{OptOne(|Player Level:35|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swift|)}"
+    },
+    "Guardian": {
+        "connects_to": [
+            "Vaelet"
+        ],
+        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Guardian|)}"
+    },
+    "Stalwart": {
+        "connects_to": [
+            "Warsect"
+        ],
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Stalwart|)}"
+    },
+    "Pristine": {
+        "connects_to": [
+            "Sibelyx"
+        ],
+        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Pristine|)}"
+    },
+    "Abyssal Nights": {
+        "connects_to": [
+            "Felbat"
+        ],
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Abyssal Nights|)}"
+    },
+    "Spirits": {
+        "connects_to": [
+            "Petallia"
+        ],
+        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of Spirits|)}"
+    },
+    "Winged Tyrant": {
+        "connects_to": [
+            "Quivern"
+        ],
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Winged Tyrant|)}"
+    },
+    "Thunder Dragon": {
+        "connects_to": [
+            "Relaxaurus Lux"
+        ],
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Thunder Dragon|)}"
+    },
+    "Swordmaster": {
+        "connects_to": [
+            "Bushi"
+        ],
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swordmaster|)}"
+    },
+    "Esoteric": {
+        "connects_to": [
+            "Lunaris"
+        ],
+        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Esoteric|)}"
+    },
+    "General": {
         "starting": true,
         "connects_to": [],
         "requires": []

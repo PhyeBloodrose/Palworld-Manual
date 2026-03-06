@@ -78,7 +78,9 @@
         "All_Schematics": {
             "description": [
                 "Adds all schematics into the item pool.",
-                "Useful for those who are capable of generating items into the game on their own. Either way, they're treated as filler items."
+                "Rank 1-2 of a Schematic Tier will be treated as filler items.",
+                "Rank 3 of a Schematic Tier will be treated as useful items.",
+                "Rank 4 of a Schematic Tier will be treated as progression items."
             ],
             "type": "Toggle",
             "default": false,
@@ -127,7 +129,8 @@
         "Tech_Books": {
             "description": [
                 "Adds all of the Work Suitability Technique Books into the item pool.",
-                "Useful for those who are capable of generating items into the game on their own. Technique Books are treated as Useful items."
+                "Useful for those who are capable of generating items into the game on their own.",
+                "Technique Books are treated as progression items."
             ],
             "type": "Toggle",
             "default": false,
@@ -148,7 +151,8 @@
                 "Adds all of the various Passives into the item pool as items.",
                 "This is not the same as the implants which already exists in the game.",
                 "When obtained through the multiworld, allow yourself to use said Passive on Pals you capture or Breed.",
-                "Diamond, Golden and White Passives are treated as Useful items.",
+                "Diamond Passives are treated as progression items.",
+                "Golden and White Passives are treated as Useful items.",
                 "Red Passives are treated as Filler items."
             ],
             "type": "Toggle",
@@ -157,9 +161,10 @@
         },
         "Include_Levelups": {
             "description": [
-                "Includes Level-Up Stats in the pool.",
-                "Only allow yourself to gain stats through level up if you obtain the level up item.",
-                "If enabled, will add a level requirement to regions and bosses besides their normal requirement."
+                "Includes a 'Player Level' item in the pool which restricts your player level.",
+                "Only allow yourself to level up if you obtain the player level item.",
+                "You'll get one Player Level item for free at start, as you start off as level 1.",
+                "If enabled, will add a level requirement to dungeons, regions and bosses besides their normal requirement."
             ],
             "type": "Toggle",
             "default": false,
@@ -451,6 +456,101 @@
             "type": "Toggle",
             "default": false,
             "group": "Extra Options"
+        },
+        "Enable_Cages": {
+            "description": [
+                "When this is enabled, Pals found in Cages will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Enable_Dungeons": {
+            "description": [
+                "When this is enabled, Pals found in Dungeons will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Enable_Incidents": {
+            "description": [
+                "When this is enabled, Pals found during random incidents will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Enable_Wild_Eggs": {
+            "description": [
+                "When this is enabled, Pals obtained from wild Pal Eggs will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Enable_Fishing_Pond": {
+            "description": [
+                "When this is enabled, Pals obtained from the Fishing Pond will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Enable_Pal_Merchants": {
+            "description": [
+                "When this is enabled, Pals obtained from the Pal Merchant will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Enable_Black_Marketeers": {
+            "description": [
+                "When this is enabled, Pals obtained from the Black Marketeer will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Dungeon_Keys": {
+            "description": [
+                "When this is enabled, you'll require a dungeon's specific key to access it.",
+                "Only exception is that the Sealed Realm of Terraria has a dungeon key of its own."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Sealed_Realms": {
+            "description": [
+                "When this is enabled, you'll require the Seal of the Sealed Realm to access said Sealed Realm encounter.",
+                "Only exception is that the Sealed Realm of Terraria is considered a Dungeon and not a Sealed Realm for logic reasons."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Accessories": {
+            "description": [
+                "This will add all the Misc Accessories into the item pool. Such as Pendants, Rings, Whistles, Flutes, Undershirts and the Growth Acceleration Bell.",
+                "Their base Tiers will be treated as filler items.",
+                "Their mid Tiers will be treated as useful items.",
+                "Their highest tier will be treated as progression items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Egg_Vouchers": {
+            "description": [
+                "This will add vouchers of each Element into the pool, restricting the hatching of pals if you do not have the voucher of said element and size.",
+                "They'll be treated as progression items.",
+                "The vouchers are Progressive, going from Normal > Large > Huge."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
         },
         "_Example_Toggle": {
             "description": [

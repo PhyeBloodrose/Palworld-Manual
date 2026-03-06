@@ -546,7 +546,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:10|)}"
+        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Mammorest",
@@ -555,7 +555,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:37|)}"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Kingpaca",
@@ -564,7 +564,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Azurobe",
@@ -573,16 +573,16 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:16|)}"
+        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Penking",
-        "region": "Windswept Hills",
+        "region": "Frozen Wings",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:14|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Katress",
@@ -591,7 +591,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Jormuntide",
@@ -600,7 +600,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:44|)}"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Grintale",
@@ -609,7 +609,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:16|)}"
+        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Wumpo Botan",
@@ -619,7 +619,7 @@
             "Bosses",
             "Lettuce Drop"
         ],
-        "requires": "{OptOne(|Level Up!:37|)}"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Mossanda Lux",
@@ -628,43 +628,43 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:30|)}"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Verdash",
-        "region": "Verdant Brook",
+        "region": "Swift",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:34|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Sibelyx",
-        "region": "Frostbound Mountains",
+        "region": "Pristine",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:39|)}"
+        "requires": ""
     },
     {
-        "name": "Boss- Vaelet",
-        "region": "Verdant Brook",
+        "name": "Boss - Vaelet",
+        "region": "Guardian",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:37|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Warsect",
-        "region": "Verdant Brook",
+        "region": "Stalwart",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:29|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Menasting",
@@ -673,7 +673,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:43|)}"
+        "requires": "{OptOne(|Player Level:44|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Suzaku",
@@ -682,7 +682,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:44|)}"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Dinossom Lux",
@@ -691,7 +691,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:46|)}"
+        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Paladius or Necromus",
@@ -700,7 +700,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:59|)}"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Neptilius",
@@ -709,7 +709,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:59|)}"
+        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Lyleen Noct",
@@ -718,7 +718,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:48|)}"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Kingpaca Cryst",
@@ -727,7 +727,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:45|)}"
+        "requires": "{OptOne(|Player Level:46|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Frostallion",
@@ -736,7 +736,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:59|)}"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Menasting Terra",
@@ -745,7 +745,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:53|)}"
+        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Knocklem",
@@ -754,16 +754,16 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:54|)}"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Felbat",
-        "region": "Forgotten Island",
+        "region": "Abyssal Nights",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Dumud",
@@ -772,7 +772,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:13|)}"
+        "requires": "{OptOne(|Player Level:14|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Nitewing",
@@ -781,7 +781,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:17|)}"
+        "requires": "{OptOne(|Player Level:18|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Elizabee",
@@ -790,16 +790,16 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:30|)}"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Petallia",
-        "region": "Crescent Moon Shore",
+        "region": "Spirits",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:28|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Elphidran",
@@ -808,7 +808,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:29|)}"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Anubis",
@@ -817,16 +817,16 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:46|)}"
+        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Quivern",
-        "region": "Bamboo Groves",
+        "region": "Winged Tyrant",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Beakon",
@@ -835,16 +835,16 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:28|)}"
+        "requires": "{OptOne(|Player Level:29|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Relaxaurus Lux",
-        "region": "Bamboo Groves",
+        "region": "Thunder Dragon",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:30|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Fenglope",
@@ -853,7 +853,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:24|)}"
+        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Broncherry Aqua",
@@ -863,16 +863,16 @@
             "Bosses",
             "Lettuce Drop"
         ],
-        "requires": "{OptOne(|Level Up!:29|)}"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Bushi",
-        "region": "Bamboo Groves",
+        "region": "Swordmaster",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Sweepa",
@@ -881,7 +881,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:10|)}"
+        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Univolt",
@@ -890,7 +890,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:30|)}"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Gumoss",
@@ -899,7 +899,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:10|)}"
+        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Broncherry",
@@ -910,16 +910,16 @@
             "Tomato Drop",
             "Potato Drop"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Lunaris",
-        "region": "Sea Breeze Archipelago",
+        "region": "Esoteric",
         "category": [
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:31|)}"
+        "requires": ""
     },
     {
         "name": "Boss - Blazamut",
@@ -928,7 +928,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:48|)}"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Astegon",
@@ -937,7 +937,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:47|)}"
+        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Jetragon",
@@ -946,7 +946,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:59|)}"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Whalaska Ignis",
@@ -955,7 +955,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:57|)}"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Loupmoon Cryst",
@@ -964,7 +964,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:54|)}"
+        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Nyafia",
@@ -973,7 +973,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Silvegis",
@@ -982,7 +982,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:58|)}"
+        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Nitemary",
@@ -991,7 +991,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:55|)}"
+        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Starryon",
@@ -1000,7 +1000,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Fenglope Lux",
@@ -1009,7 +1009,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Faleris Aqua",
@@ -1018,7 +1018,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:55|)}"
+        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Gildane",
@@ -1027,7 +1027,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:57|)}"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Kitsun Noct",
@@ -1036,7 +1036,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Celesdir",
@@ -1045,7 +1045,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:59|)}"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Prunelia",
@@ -1054,7 +1054,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:54|)}"
+        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Foxparks Cryst",
@@ -1063,7 +1063,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:51|)}"
+        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Splatterina",
@@ -1072,7 +1072,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:57|)}"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Ribbuny Botan",
@@ -1081,7 +1081,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:52|)}"
+        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Azurmane",
@@ -1090,7 +1090,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Warsect Terra",
@@ -1099,7 +1099,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:58|)}"
+        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Frostallion Noct",
@@ -1108,7 +1108,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:59|)}"
+        "requires": "{OptOne(|Seal of the Black Pegasus|)} AND {OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Smokie",
@@ -1117,7 +1117,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:54|)}"
+        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Tarantriss",
@@ -1126,7 +1126,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Omascul",
@@ -1135,7 +1135,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:54|)}"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Cryolinx Terra",
@@ -1144,7 +1144,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:57|)}"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Dazzi Noct",
@@ -1153,7 +1153,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:52|)}"
+        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Boss - Caprity Noct",
@@ -1162,7 +1162,7 @@
             "Boss Alpha Pals",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:54|)}"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Hawk",
@@ -1171,7 +1171,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:11|)}"
+        "requires": "{OptOne(|Player Level:12|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Scoot",
@@ -1180,7 +1180,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:9|)}"
+        "requires": "{OptOne(|Player Level:10|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Turncoat",
@@ -1189,7 +1189,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:14|)}"
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Crash",
@@ -1198,7 +1198,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:14|)}"
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Dart",
@@ -1207,7 +1207,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Fumble",
@@ -1216,7 +1216,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:27|)}"
+        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Brick",
@@ -1225,7 +1225,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:29|)}"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Dyna",
@@ -1235,7 +1235,7 @@
             "Bosses",
             "Coal Place"
         ],
-        "requires": "{OptOne(|Level Up!:25|)}"
+        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Mite",
@@ -1244,7 +1244,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:25|)}"
+        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Lasso",
@@ -1253,7 +1253,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:20|)}"
+        "requires": "{OptOne(|Player Level:21|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Ego",
@@ -1262,7 +1262,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:22|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Jade",
@@ -1271,7 +1271,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:18|)}"
+        "requires": "{OptOne(|Player Level:19|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Grill",
@@ -1280,7 +1280,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:19|)}"
+        "requires": "{OptOne(|Player Level:20|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Siren",
@@ -1289,7 +1289,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:15|)}"
+        "requires": "{OptOne(|Player Level:16|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Whip",
@@ -1298,7 +1298,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:39|)}"
+        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Whisper",
@@ -1307,7 +1307,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:36|)}"
+        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Phantom",
@@ -1316,7 +1316,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:35|)}"
+        "requires": "{OptOne(|Player Level:36|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Clint",
@@ -1325,7 +1325,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:48|)}"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Skim",
@@ -1334,7 +1334,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:41|)}"
+        "requires": "{OptOne(|Player Level:42|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Whisk",
@@ -1343,7 +1343,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:44|)}"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Quill",
@@ -1352,7 +1352,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:42|)}"
+        "requires": "{OptOne(|Player Level:43|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Urchin",
@@ -1361,7 +1361,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:52|)}"
+        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Nimble",
@@ -1370,7 +1370,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:51|)}"
+        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Aloha",
@@ -1379,7 +1379,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:38|)}"
+        "requires": "{OptOne(|Player Level:39|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Shadow",
@@ -1388,7 +1388,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:40|)}"
+        "requires": "{OptOne(|Player Level:41|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Flare",
@@ -1397,7 +1397,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:37|)}"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Billy",
@@ -1406,7 +1406,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Gnaw",
@@ -1415,7 +1415,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Ram",
@@ -1424,7 +1424,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:58|)}"
+        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Pinch",
@@ -1433,7 +1433,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Dazzle",
@@ -1442,7 +1442,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:55|)}"
+        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Cache",
@@ -1451,7 +1451,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:57|)}"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Bounty - Mimic",
@@ -1460,7 +1460,7 @@
             "Bounties",
             "Bosses"
         ],
-        "requires": "{OptOne(|Level Up!:56|)}"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
     },
     {
         "name": "Travel Point - Plateau of Beginnings",
@@ -6224,7 +6224,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Water Orb|)}"
     },
     {
         "name": "Sub Mission - Hungry for Recruits",
@@ -6232,7 +6232,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}"
     },
     {
         "name": "Sub Mission - A Special Dish",
@@ -6272,7 +6272,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{canReachLocation(Palpedia - Fuack)}"
     },
     {
         "name": "Sub Mission - Metal on Your Mind",
@@ -11773,7 +11773,7 @@
     },
     {
         "name": "Diamond Passive - Remarkable Craftmanship",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11782,7 +11782,7 @@
     },
     {
         "name": "Diamond Passive - Diamond Body",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11791,7 +11791,7 @@
     },
     {
         "name": "Diamond Passive - Lucky",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11800,7 +11800,7 @@
     },
     {
         "name": "Diamond Passive - Legend",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11836,7 +11836,7 @@
     },
     {
         "name": "Diamond Passive - Demon God",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11845,7 +11845,7 @@
     },
     {
         "name": "Diamond Passive - Mastery of Fasting",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11854,7 +11854,7 @@
     },
     {
         "name": "Diamond Passive - Heart of the Immovable King",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11863,7 +11863,7 @@
     },
     {
         "name": "Diamond Passive - Swift",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11872,7 +11872,7 @@
     },
     {
         "name": "Diamond Passive - Eternal Engine",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11881,7 +11881,7 @@
     },
     {
         "name": "Diamond Passive - Vampiric",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11890,7 +11890,7 @@
     },
     {
         "name": "Diamond Passive - Lunker",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11899,7 +11899,7 @@
     },
     {
         "name": "Diamond Passive - King of the Waves",
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -12604,7 +12604,7 @@
         "place_item": [
             "Proof of Victory (Master Chef)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Victory Conditions",
             "Chef Goal"
@@ -12679,7 +12679,7 @@
         "place_item": [
             "Proof of Victory (Tower Rush)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Tower Rush",
             "Tower Rush Goal",
@@ -12692,7 +12692,7 @@
         "place_item": [
             "Proof of Victory (Predator Hunter)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Predator Hunter Goal",
             "Victory Conditions"
@@ -12704,7 +12704,7 @@
         "place_item": [
             "Proof of Victory (Legendary Hunter)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Legendary Hunt Goal",
             "Victory Conditions"
@@ -12761,7 +12761,7 @@
         "place_item": [
             "Proof of Victory (Raid Boss)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Raid Boss Goal",
             "Victory Conditions"
@@ -12773,7 +12773,7 @@
         "place_item": [
             "Proof of Victory (Veteran Hunter)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Veteran Hunter",
             "Victory Conditions"
@@ -12785,7 +12785,7 @@
         "place_item": [
             "Proof of Victory (Sub Missions)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Sub Missions Goal",
             "Victory Conditions"
@@ -12797,7 +12797,7 @@
         "place_item": [
             "Proof of Victory (Pal Researcher)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Research Goal",
             "Victory Conditions"
@@ -12809,7 +12809,7 @@
         "place_item": [
             "Proof of Victory (Full Palpedia)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Catchem Goal",
             "Victory Conditions"
@@ -12821,7 +12821,7 @@
         "place_item": [
             "Proof of Victory (Palpagos Traveler)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Traveler Goal",
             "Victory Conditions"
@@ -12833,7 +12833,7 @@
         "place_item": [
             "Proof of Victory (Journalist)"
         ],
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Journalist Goal",
             "Victory Conditions"
@@ -12927,7 +12927,7 @@
     {
         "name": "You Win!",
         "victory": true,
-        "region": "General_Region",
+        "region": "General",
         "category": [
             "Goal Completed"
         ],

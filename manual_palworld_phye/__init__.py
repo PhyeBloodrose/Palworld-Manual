@@ -71,6 +71,8 @@ class ManualWorld(World):
     # UT (the universal-est of trackers) can now generate without a YAML
     ut_can_gen_without_yaml = False  # Temporary disable until we fix the bugs with it
 
+    explicit_indirect_conditions = False
+
     def get_filler_item_name(self) -> str:
         return hook_get_filler_item_name(self, self.multiworld, self.player) or self.filler_item_name
 

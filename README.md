@@ -1,7 +1,7 @@
 # How to Play this Manual
 First of, when creating your world in Palworld make sure to allow for multiplayer if you decide to begin with a random starting spawn. If you do not get the Windswept Pass as your starting pass, click on respawn and pick the spawn location you obtained.
 
-A reference picture of Palpagos Isles has been made by Weilyra and have been added to this github named 'Palworld_Areas.png' where you can see all the areas that are locked behind an item of sorts.
+A reference picture of Palpagos Isles has been made by WeiLyra and have been added to this github named 'Palworld_Areas.png' where you can see all the areas that are locked behind an item of sorts.
 
 ## Islands and the Passes Required
 Each Pass allows access to each level restricted area in Palpagos Isles.

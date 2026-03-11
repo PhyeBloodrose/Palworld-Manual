@@ -408,7 +408,7 @@
     },
     {
         "count": 1,
-        "name": "Tech - Foxsparks's Harness",
+        "name": "Tech - Foxparks's Harness",
         "category": [
             "Pal Gear"
         ],
@@ -416,7 +416,7 @@
     },
     {
         "count": 1,
-        "name": "Tech - Rushour Saddle",
+        "name": "Tech - Rushoar Saddle",
         "category": [
             "Pal Gear",
             "EZ_Mounts"
@@ -477,8 +477,7 @@
         "count": 1,
         "name": "Tech - Surfent Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -527,8 +526,7 @@
         "count": 1,
         "name": "Tech - Chillet Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -536,8 +534,7 @@
         "count": 1,
         "name": "Tech - Sweepa Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -627,8 +624,7 @@
         "count": 1,
         "name": "Tech - Elphidran Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -636,8 +632,7 @@
         "count": 1,
         "name": "Tech - Vanwyrm Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -645,8 +640,7 @@
         "count": 1,
         "name": "Tech - Kingpaca Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -670,8 +664,7 @@
         "count": 1,
         "name": "Tech - Maraith Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -727,8 +720,7 @@
         "count": 1,
         "name": "Tech - Fenglope Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -736,8 +728,7 @@
         "count": 1,
         "name": "Tech - Mossanda Lux's Grenade Launcher",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -833,8 +824,7 @@
         "count": 1,
         "name": "Tech - Pyrin Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -850,8 +840,7 @@
         "count": 1,
         "name": "Tech - Reptyro Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -867,8 +856,7 @@
         "count": 1,
         "name": "Tech - Blazehowl Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -884,8 +872,7 @@
         "count": 1,
         "name": "Tech - Pyrin Noct Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -909,8 +896,7 @@
         "count": 1,
         "name": "Tech - Blazehowl Noct Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -926,8 +912,7 @@
         "count": 1,
         "name": "Tech - Ragnahawk Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -1287,8 +1272,7 @@
         "count": 1,
         "name": "Tech - Ghangler Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -1358,7 +1342,7 @@
     },
     {
         "count": 1,
-        "name": "Alex's Key",
+        "name": "Axel's Key",
         "category": [
             "Tower Keys"
         ],
@@ -2328,7 +2312,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2376,7 +2360,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2441,7 +2425,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2465,7 +2449,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2515,7 +2499,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2653,7 +2637,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2725,7 +2709,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -2773,7 +2757,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -3272,7 +3256,7 @@
         "category": [
             "Build - Other"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -6751,15 +6735,15 @@
         "count": 1,
         "name": "Skill Fruit: Power Shot",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Skill Fruit: Power Bomb",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6767,23 +6751,23 @@
         "count": 1,
         "name": "Skill Fruit: Pal Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Skill Fruit: Air Cannon",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Skill Fruit: Implode",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6791,15 +6775,15 @@
         "count": 1,
         "name": "Grass Skill Fruit: Wind Cutter",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Grass Skill Fruit: Grass Tornado",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6807,23 +6791,23 @@
         "count": 1,
         "name": "Grass Skill Fruit: Solar Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Grass Skill Fruit: Seed Machine Gun",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Grass Skill Fruit: Spine Vine",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6831,7 +6815,7 @@
         "count": 1,
         "name": "Grass Skill Fruit: Seed Mine",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6839,15 +6823,15 @@
         "count": 1,
         "name": "Water Skill Fruit: Aqua Gun",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Water Skill Fruit: Aqua Burst",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6855,23 +6839,23 @@
         "count": 1,
         "name": "Water Skill Fruit: Hydro Laser",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Water Skill Fruit: Hydro Jet",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Water Skill Fruit: Bubble Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6879,7 +6863,7 @@
         "count": 1,
         "name": "Water Skill Fruit: Acid Rain",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6887,15 +6871,15 @@
         "count": 1,
         "name": "Fire Skill Fruit: Ignis Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Ignis Breath",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6903,39 +6887,39 @@
         "count": 1,
         "name": "Fire Skill Fruit: Fire Ball",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Flare Arrow",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Spirit Fire",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Ignis Rage",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Flare Storm",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6943,23 +6927,23 @@
         "count": 1,
         "name": "Electric Skill Fruit: Shockwave",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Lightning Bolt",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Lightning Streak",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6967,23 +6951,23 @@
         "count": 1,
         "name": "Electric Skill Fruit: Plasma Funnel",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Spark Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Lock-on Laser",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -6991,15 +6975,15 @@
         "count": 1,
         "name": "Electric Skill Fruit: Electric Ball",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Tri-Lightning",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7007,23 +6991,23 @@
         "count": 1,
         "name": "Electric Skill Fruit: Lightning Strike",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Stone Cannon",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Sand Tornado",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7031,39 +7015,39 @@
         "count": 1,
         "name": "Earth Skill Fruit: Rock Lance",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Bog Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Stone Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Ice Missile",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Iceberg",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7071,23 +7055,23 @@
         "count": 1,
         "name": "Ice Skill Fruit: Blizzard Spike",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Icicle Cutter",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Crystal Breath",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7095,15 +7079,15 @@
         "count": 1,
         "name": "Dark Skill Fruit: Shadow Burst",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Nightmare Ball",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7111,31 +7095,31 @@
         "count": 1,
         "name": "Dark Skill Fruit: Poison Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Spirit Flame",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Dark Laser",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Dragon Skill Fruit: Draconic Breath",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7143,31 +7127,31 @@
         "count": 1,
         "name": "Dragon Skill Fruit: Dragon Cannon",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dragon Skill Fruit: Dragon Burst",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dragon Skill Fruit: Dragon Meteor",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Skill Fruit: Air Blade",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7175,15 +7159,15 @@
         "count": 1,
         "name": "Grass Skill Fruit: Circle Vine",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Grass Skill Fruit: Multicutter",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7191,7 +7175,7 @@
         "count": 1,
         "name": "Water Skill Fruit: Splash",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7199,15 +7183,15 @@
         "count": 1,
         "name": "Water Skill Fruit: Curtain Splash",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Flame Wall",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7215,15 +7199,15 @@
         "count": 1,
         "name": "Fire Skill Fruit: Volcanic Rain",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: TriSpark",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7231,63 +7215,63 @@
         "count": 1,
         "name": "Electric Skill Fruit: Thunder Rain",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Thunderstorm",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Rockburst",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Sand Twister",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Icicle Line",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Diamond Rain",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Dark Cannon",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Dark Arrow",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7295,31 +7279,31 @@
         "count": 1,
         "name": "Dark Skill Fruit: Umbral Surge",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Apocalypse",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Dragon Skill Fruit: Beam Slicer",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Dragon Skill Fruit: Comet",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7327,7 +7311,7 @@
         "count": 1,
         "name": "Dragon Skill Fruit: Blast Cannon",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7335,23 +7319,23 @@
         "count": 1,
         "name": "Skill Fruit: Holy Burst",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Fire Skill Fruit: Flame Funnel",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Freeze Wall",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7359,15 +7343,15 @@
         "count": 1,
         "name": "Grass Skill Fruit: Reflect Leaf",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Water Skill Fruit: Torrential Blast",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7375,55 +7359,55 @@
         "count": 1,
         "name": "Water Skill Fruit: Hydro Slicer",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Earth Skill Fruit: Stone Beat",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Electric Skill Fruit: Thunder Spear",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Dark Shot",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "filler": true
     },
     {
         "count": 1,
         "name": "Dark Skill Fruit: Dark Whisp",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Dragon Skill Fruit: Charge Cannon",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Icicle Bullet",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
         "useful": true
     },
@@ -7431,33 +7415,33 @@
         "count": 1,
         "name": "Electric Skill Fruit: All Range Thunder",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Water Skill Fruit: Aqua Surge",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Grass Skill Fruit: Crosswind",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Ice Skill Fruit: Absolute Frost",
         "category": [
-            "Skill Fruits"
+            "Consumables - Skill Fruits"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -10023,7 +10007,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10031,7 +10015,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10039,7 +10023,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10047,7 +10031,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10055,7 +10039,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10063,7 +10047,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10071,7 +10055,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10079,7 +10063,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 11,
@@ -10087,7 +10071,7 @@
         "category": [
             "Key Items - Elemental Orbs"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10171,7 +10155,7 @@
     },
     {
         "count": 1,
-        "name": "Seal of the Invincible",
+        "name": "Seal of the Sorcerer",
         "category": [
             "Key Items - Seals"
         ],
@@ -11146,17 +11130,306 @@
     },
     {
         "count": 1,
-        "name": "DUMMY_Twilight",
+        "name": "Eastern Wild Beacon",
         "category": [
-            "DUMMY"
+            "Beacons",
+            "Honey Drop",
+            "Tomato Drop"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "DUMMY_Wildlife",
+        "name": "Dunes Beacon",
         "category": [
-            "DUMMY"
+            "Beacons",
+            "Tomato Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Sakurajima Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Feybreak Beacon",
+        "category": [
+            "Beacons",
+            "Honey Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Feybreak Frost Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Astral Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Cold Shore Beacon",
+        "category": [
+            "Beacons",
+            "Honey Drop",
+            "Tomato Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Forest Beacon",
+        "category": [
+            "Beacons",
+            "Honey Drop",
+            "Tomato Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Crescent Beacon",
+        "category": [
+            "Beacons",
+            "Honey Drop",
+            "Lettuce Drop",
+            "Tomato Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Frostbound Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Glacial Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Volcano Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Hot Volcano Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Grasslands Beacon",
+        "category": [
+            "Beacons",
+            "Merchant Location"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Arena Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Home Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bamboo Beacon",
+        "category": [
+            "Beacons",
+            "Tomato Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Twilight Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Sea Breeze Beacon",
+        "category": [
+            "Beacons",
+            "Merchant Location"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Forgotten Beacon",
+        "category": [
+            "Beacons",
+            "Merchant Location"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Marsh Beacon",
+        "category": [
+            "Beacons",
+            "Merchant Location"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wildlife 1 Beacon",
+        "category": [
+            "Beacons",
+            "Wildlife Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wildlife 2 Beacon",
+        "category": [
+            "Beacons",
+            "Wildlife Beacons",
+            "Lettuce Drop"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wildlife 3 Beacon",
+        "category": [
+            "Beacons",
+            "Wildlife Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 6,
+        "name": "Player Beacon",
+        "category": [
+            "Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Surfent Beacon",
+        "category": [
+            "Pal Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Elphidran Beacon",
+        "category": [
+            "Pal Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Warsect Beacon",
+        "category": [
+            "Pal Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Foxcicle Beacon",
+        "category": [
+            "Pal Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jormuntide Beacon",
+        "category": [
+            "Pal Beacons"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bellanoir Beacon",
+        "category": [
+            "Pal Beacons",
+            "Raid Beacon"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bellanoir Libero Beacon",
+        "category": [
+            "Pal Beacons",
+            "Raid Beacon"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Blazamut Ryu Beacon",
+        "category": [
+            "Pal Beacons",
+            "Raid Beacon"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Xenolord Beacon",
+        "category": [
+            "Pal Beacons",
+            "Raid Beacon"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Hartalis Beacon",
+        "category": [
+            "Pal Beacons",
+            "Raid Beacon"
         ],
         "progression_skip_balancing": true
     },
@@ -11273,6 +11546,24 @@
         "category": [
             "Key Items - Proof of Victory",
             "Journalist Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Dungeon Dweller)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Dungeoneer Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Feeling Lucky)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Lucky Goal"
         ],
         "progression_skip_balancing": true
     }

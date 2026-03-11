@@ -24,7 +24,7 @@
             ],
             "type": "Toggle",
             "default": true,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Journals": {
             "description": [
@@ -32,7 +32,7 @@
             ],
             "type": "Toggle",
             "default": true,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Sub_Missions": {
             "description": [
@@ -40,7 +40,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Research_Tasks": {
             "description": [
@@ -48,7 +48,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Capture_Pals": {
             "description": [
@@ -56,7 +56,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Predator_Pals": {
             "description": [
@@ -64,7 +64,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Diamond_Passives": {
             "description": [
@@ -73,7 +73,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "All_Schematics": {
             "description": [
@@ -89,7 +89,9 @@
         "Skill_Fruits": {
             "description": [
                 "Adds all skill fruits into the item pool.",
-                "Useful for those who are capable of generating items into the game on their own. Skill Fruits are treated as Useful items."
+                "Uncommon Skill Fruits are considered as filler items.",
+                "Rare Skill Fruits are considered as useful items.",
+                "Epic Skill Fruits are considered as progression items."
             ],
             "type": "Toggle",
             "default": false,
@@ -98,7 +100,7 @@
         "Potions": {
             "description": [
                 "Adds all of the Remedies and Elixirs into the item pool. Those potions which increases a player's stat.",
-                "Useful for those who are capable of generating items into the game on their own. Remedies and Elixirs are treated as Filler items."
+                "Remedies and Elixirs are treated as Filler items."
             ],
             "type": "Toggle",
             "default": false,
@@ -106,9 +108,8 @@
         },
         "Misc_Consumables": {
             "description": [
-                "Adds various miscellenous consumables into the pool. Such as medicine and technology books.",
-                "Useful for those who are capable of generating items into the game on their own. Remedies and Elixirs are treated as Filler items.",
-                "All these items are considered fillers."
+                "Adds various miscellenous consumables into the pool. Such as medicine and technology point books.",
+                "All of these items are considered fillers."
             ],
             "type": "Toggle",
             "default": false,
@@ -157,7 +158,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Additional Items"
+            "group": "Limit Options"
         },
         "Include_Levelups": {
             "description": [
@@ -168,7 +169,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Additional Items"
+            "group": "Limit Options"
         },
         "Start_With_Palbox": {
             "description": [
@@ -289,6 +290,25 @@
         "Traveler_Goal": {
             "description": [
                 "Palpagos Traveler: Require you to travel to all the Travel Points within Palpagos Isles to goal."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Dungeoneer_Goal": {
+            "description": [
+                "Dungeon Dweller: Require you to enter all of the Dungeons to goal.",
+                "Requires Dungeons as checks or it won't generate."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Lucky_Goal": {
+            "description": [
+                "Feeling Lucky: Require you to find and capture a Lucky Pal in each Major Region to goal!",
+                "The Major Regions are as following; Windswept Hills, Sea-Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains(Not the Foot), Mount Obsidian, Desiccated Dunes, Sakurajima and Feybreak.",
+                "Requires 'Lucky Pals' locations to be enabled or the goal won't generate."
             ],
             "type": "Toggle",
             "default": false,
@@ -417,7 +437,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Additional Items"
+            "group": "Limit Options"
         },
         "Elemental_Orbs": {
             "description": [
@@ -428,7 +448,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Additional Items"
+            "group": "Limit Options"
         },
         "Ingredients": {
             "description": [
@@ -455,7 +475,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Options"
+            "group": "Extra Locations"
         },
         "Enable_Cages": {
             "description": [
@@ -467,7 +487,7 @@
         },
         "Enable_Dungeons": {
             "description": [
-                "When this is enabled, Pals found in Dungeons will be considered for logic."
+                "When this is enabled, Pals found as Dungeon Bosses will be considered for logic."
             ],
             "type": "Toggle",
             "default": true,
@@ -550,7 +570,32 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Additional Items"
+            "group": "Limit Options"
+        },
+        "Dungeons": {
+            "description": [
+                "Includes all of the dungeons as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Locations"
+        },
+        "Lovander_Cake": {
+            "description": [
+                "When this is enabled, Lovander will be in logic for obtaining cakes for Breeding and Sub-Missions."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Lucky_Pals": {
+            "description": [
+                "Includes finding a Lucky Pal in each Major Region as checks.",
+                "The Major Regions are as following; Windswept Hills, Sea-Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains(Not the Foot), Mount Obsidian, Desiccated Dunes, Sakurajima and Feybreak."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Locations"
         },
         "_Example_Toggle": {
             "description": [

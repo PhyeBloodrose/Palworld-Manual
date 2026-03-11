@@ -4,67 +4,67 @@
         "connects_to": [
             "Base Level 2"
         ],
-        "requires": "|Tech - Wooden Chest| & |Tech - Palbox|"
+        "requires": "|Tech - Wooden Chest| AND |Tech - Palbox|"
     },
     "Base Level 2": {
         "connects_to": [
             "Base Level 3"
         ],
-        "requires": "|Tech - Progressive Workbench:1| & |Tech - Shoddy Bed| & |@Base Foundations|"
+        "requires": "|Tech - Progressive Workbench:1| AND |Tech - Shoddy Bed| & |@Base Foundations|"
     },
     "Base Level 3": {
         "connects_to": [
             "Base Level 4"
         ],
-        "requires": "|Tech - Feed Box| & |Tech - Straw Pal Bed|"
+        "requires": "|Tech - Feed Box| AND |Tech - Straw Pal Bed|"
     },
     "Base Level 4": {
         "connects_to": [
             "Base Level 5"
         ],
-        "requires": "|Tech - Campfire| & |Tech - Berry Plantation|"
+        "requires": "|Tech - Campfire| AND |Tech - Berry Plantation|"
     },
     "Base Level 5": {
         "connects_to": [
             "Base Level 6"
         ],
-        "requires": "|Tech - Pal Gear Workbench| & |Tech - Statue of Power|"
+        "requires": "|Tech - Pal Gear Workbench| AND |Tech - Statue of Power|"
     },
     "Base Level 6": {
         "connects_to": [
             "Base Level 7"
         ],
-        "requires": "|Tech - Crusher| & |Tech - Stone Pit| & |Tech - Logging Site|"
+        "requires": "|Tech - Crusher| AND |Tech - Stone Pit| AND |Tech - Logging Site|"
     },
     "Base Level 7": {
         "connects_to": [
             "Base Level 8"
         ],
-        "requires": "|Tech - Hot Spring| & |Tech - Progressive Furnace:1| & |Tech - Berry Plantation|"
+        "requires": "|Tech - Hot Spring| AND |Tech - Progressive Furnace:1| AND |Tech - Berry Plantation| AND |Player Beacon|"
     },
     "Base Level 8": {
         "connects_to": [
             "Base Level 9"
         ],
-        "requires": "|Tech - Progressive Workbench:2| & |Tech - Medieval Medicine Workbench|"
+        "requires": "|Tech - Progressive Workbench:2| AND |Tech - Medieval Medicine Workbench|"
     },
     "Base Level 9": {
         "connects_to": [
             "Base Level 10"
         ],
-        "requires": "|Tech - Cooler Box| & |Tech - Sphere Workbench| & |Tech - Pal Expedition Station|"
+        "requires": "|Tech - Cooler Box| AND |Tech - Sphere Workbench| AND |Tech - Pal Expedition Station|"
     },
     "Base Level 10": {
         "connects_to": [
             "Base Level 11"
         ],
-        "requires": "|Tech - Cooking Pot| & |Tech - Wheat Plantation| & |Tech - Mill|"
+        "requires": "|Tech - Cooking Pot| AND |Tech - Wheat Plantation| AND |Tech - Mill|"
     },
     "Base Level 11": {
         "connects_to": [
             "Base Level 12"
         ],
-        "requires": "|Tech - Weapon Workbench| & |Tech - Pal Labor Research Laboratory|"
+        "requires": "|Tech - Weapon Workbench| AND |Tech - Pal Labor Research Laboratory| AND |Player Beacon:2|"
     },
     "Base Level 12": {
         "connects_to": [
@@ -76,13 +76,13 @@
         "connects_to": [
             "Base Level 14"
         ],
-        "requires": "|Tech - Sphere Assembly Line| & |Tech - Power Generator|"
+        "requires": "|Tech - Sphere Assembly Line| AND |Tech - Power Generator|"
     },
     "Base Level 14": {
         "connects_to": [
             "Base Level 15"
         ],
-        "requires": "|Tech - Weapon Assembly Line| & |Tech - High Quality Hot Spring|"
+        "requires": "|Tech - Weapon Assembly Line| AND |Tech - High Quality Hot Spring| AND |Player Beacon:3|"
     },
     "Base Level 15": {
         "connects_to": [
@@ -106,7 +106,7 @@
         "connects_to": [
             "Base Level 19"
         ],
-        "requires": "|Tech - Progressive Workbench:4|"
+        "requires": "|Tech - Progressive Workbench:4| AND |Player Beacon:4|"
     },
     "Base Level 19": {
         "connects_to": [
@@ -130,7 +130,7 @@
         "connects_to": [
             "Base Level 23"
         ],
-        "requires": "|Tech - Crude Oil Extractor| & ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Sunlit Isle)})"
+        "requires": "|Tech - Crude Oil Extractor| AND (|Sakurajima Beacon| OR |Astral Beacon| OR |Hot Volcano Beacon| OR |Dunes Beacon| OR {canReachLocation(Travel Point - Sunlit Isle)}) AND |Player Beacon:5|"
     },
     "Base Level 23": {
         "connects_to": [
@@ -148,7 +148,7 @@
         "connects_to": [
             "Base Level 26"
         ],
-        "requires": "|Tech - Progressive Furnace:4| & |Tech - Advanced Sphere Assembly Line|"
+        "requires": "|Tech - Progressive Furnace:4| AND |Tech - Advanced Sphere Assembly Line|"
     },
     "Base Level 26": {
         "connects_to": [
@@ -170,7 +170,7 @@
     },
     "Base Level 29": {
         "connects_to": [],
-        "requires": "|A.Tech - Progressive Egg Incubator:4|"
+        "requires": "|A.Tech - Progressive Egg Incubator:4| AND |Player Beacon:6|"
     },
     "Mission 1": {
         "starting": true,
@@ -249,7 +249,7 @@
         "connects_to": [
             "Mission 14"
         ],
-        "requires": "|@Cloth Armor| or (|Tech - Progressive Workbench:2| & (|@Leather Armor| or (|@Metal Armor| & |Tech - Progressive Furnace|)))"
+        "requires": "|@Cloth Armor| OR (|Tech - Progressive Workbench:2| AND (|@Leather Armor| OR (|@Metal Armor| AND |Tech - Progressive Furnace|)))"
     },
     "Mission 14": {
         "connects_to": [
@@ -279,13 +279,13 @@
         "connects_to": [
             "Mission 19"
         ],
-        "requires": "|Tech - Pal Gear Workbench| & |Tech - Foxsparks's Harness|"
+        "requires": "|Tech - Pal Gear Workbench| AND |Tech - Foxparks's Harness|"
     },
     "Mission 19": {
         "connects_to": [
             "Mission 20"
         ],
-        "requires": "|Windswept Pass| AND {canReachLocation(Boss - Chillet)}"
+        "requires": "|Grasslands Beacon| AND {OptOne(|Player Level:11|)} AND |Player Beacon:1|"
     },
     "Mission 20": {
         "connects_to": [
@@ -297,7 +297,7 @@
         "connects_to": [
             "Mission 22"
         ],
-        "requires": "{canReachLocation(Boss - Penking)}"
+        "requires": "{OptOne(|Seal of the Frozen Wings|)} AND {OptOne(|Player Level:15|)} AND |Player Beacon:2|"
     },
     "Mission 22": {
         "connects_to": [
@@ -315,7 +315,7 @@
         "connects_to": [
             "Mission 25"
         ],
-        "requires": "|Zoe's Key| AND {OptOne(|Player Level:10|)}"
+        "requires": "|Zoe's Key|"
     },
     "Mission 25": {
         "connects_to": [
@@ -327,37 +327,37 @@
         "connects_to": [
             "Mission 27"
         ],
-        "requires": "|Lily's Key| & {canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} AND {OptOne(|Player Level:25|)}"
+        "requires": "|Lily's Key| AND |Frostbound Beacon| AND {OptOne(|Player Level:25|)} AND |Player Beacon:3|"
     },
     "Mission 27": {
         "connects_to": [
             "Mission 28"
         ],
-        "requires": "|Alex's Key| & {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} AND {OptOne(|Player Level:40|)}"
+        "requires": "|Axel's Key| AND |Hot Volcano Beacon| AND {OptOne(|Player Level:40|)} AND |Player Beacon:4|"
     },
     "Mission 28": {
         "connects_to": [
             "Mission 29"
         ],
-        "requires": "|Marcus's Key| & {canReachLocation(Travel Point - PIDF Tower Entrance)} AND {OptOne(|Player Level:45|)}"
+        "requires": "|Marcus's Key| AND |Dunes Beacon| AND {OptOne(|Player Level:45|)} AND |Player Beacon:5|"
     },
     "Mission 29": {
         "connects_to": [
             "Mission 30"
         ],
-        "requires": "|Victor's Key| & {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} AND {OptOne(|Player Level:50|)}"
+        "requires": "|Victor's Key| AND |Astral Beacon| AND {OptOne(|Player Level:50|)} AND |Player Beacon:5|"
     },
     "Mission 30": {
         "connects_to": [
             "Mission 31"
         ],
-        "requires": "|Saya's Key| & {canReachLocation(Travel Point - Moonflower Tower Entrance)} AND {OptOne(|Player Level:55|)}"
+        "requires": "|Saya's Key| AND |Sakurajima Beacon| AND {OptOne(|Player Level:55|)} AND |Player Beacon:6|"
     },
     "Mission 31": {
         "connects_to": [
             "Mission 32"
         ],
-        "requires": "|Bjorn's Key| & {canReachLocation(Travel Point - Feybreak Tower Entrance)} AND {OptOne(|Player Level:60|)}"
+        "requires": "|Bjorn's Key| AND |Feybreak Frost Beacon| AND {OptOne(|Player Level:60|)}"
     },
     "Mission 32": {
         "connects_to": [],
@@ -464,7 +464,8 @@
             "Kingpaca",
             "Pal_Critic_SmallSettlement",
             "Frozen Wings",
-            "Zoe Mission"
+            "Zoe Mission",
+            "Sunlit Highway"
         ],
         "requires": "|Windswept Pass| OR {OptOne(|Windswept Spawn|)}"
     },
@@ -560,12 +561,14 @@
             "Swee",
             "Sweepa",
             "Broncherry",
-            "Esoteric"
+            "Esoteric",
+            "Frostbitten Highway"
         ],
         "requires": "|Sea Breeze Pass| OR {OptOne(|Sea Breeze Spawn|)}"
     },
     "Mount Obsidian": {
         "connects_to": [
+            "Hot Volcano",
             "Sea Breeze Archipelago",
             "Bamboo Groves",
             "Phantom Isle",
@@ -573,7 +576,6 @@
             "Feybreak",
             "Wildlife Sanctuary 2",
             "Volcano Egg 1",
-            "Volcano Egg 2",
             "Fishing_Obsidian",
             "Volcanic Cavern",
             "Volcano Meteor",
@@ -602,18 +604,28 @@
             "Reptyro",
             "Fenglope",
             "Mimog",
-            "Blazamut",
-            "Astegon",
-            "Jetragon",
             "Whalaska Ignis Boss",
-            "Pal_Critic_AnubisStatue"
+            "Pal_Critic_AnubisStatue",
+            "Forgotten Highway"
         ],
         "requires": "|Obsidian Pass| AND {OptOne(|Player Level:30|)}"
     },
+    "Hot Volcano": {
+        "connects_to": [
+            "Volcano Egg 2",
+            "Blazamut",
+            "Astegon",
+            "Jetragon"
+        ],
+        "requires": "|Tech - Progressive Workbench| AND |@Hot Temperature Clothes|"
+    },
     "Feybreak": {
         "connects_to": [
+            "Feybreak Red",
+            "Feybreak Yellow",
+            "Feybreak Blue",
+            "Feybreak Desert",
             "Feybreak Egg 1",
-            "Feybreak Egg 2",
             "Fishing_Feybreak",
             "Feybreak Cavern",
             "Feybreak Meteor",
@@ -634,7 +646,6 @@
             "Vanwyrm Cryst",
             "Ragnahawk",
             "Verdash",
-            "Cryolinx",
             "Cryolinx Terra",
             "Blazehowl",
             "Blazehowl Noct",
@@ -660,7 +671,25 @@
             "Silvegis",
             "Pal_Critic_StonePillarCaveEntrance"
         ],
-        "requires": "|Feybreak Pass| & |Tech - Pal Gear Workbench| & |@EZ_Mounts| AND (|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}) AND {OptOne(|Player Level:55|)}"
+        "requires": "|Feybreak Pass| AND |Tech - Pal Gear Workbench| AND |@EZ_Mounts| AND (|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Player Level:55|)}"
+    },
+    "Feybreak Red": {
+        "connects_to": [],
+        "requires": ""
+    },
+    "Feybreak Yellow": {
+        "connects_to": [],
+        "requires": ""
+    },
+    "Feybreak Blue": {
+        "connects_to": [
+            "Feybreak Egg 2"
+        ],
+        "requires": "|Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+    },
+    "Feybreak Desert": {
+        "connects_to": [],
+        "requires": ""
     },
     "Sakurajima": {
         "connects_to": [
@@ -738,9 +767,10 @@
             "Mimog",
             "Lyleen Noct",
             "Kingpaca Cryst",
-            "Frostallion"
+            "Frostallion",
+            "Glacial Core Highway"
         ],
-        "requires": "|Astral Pass| AND {OptOne(|Player Level:30|)}"
+        "requires": "|Astral Pass| AND {OptOne(|Player Level:30|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
     },
     "Foot of the Astral Mountains": {
         "connects_to": [
@@ -827,7 +857,7 @@
             "Mimog",
             "Pristine"
         ],
-        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)}"
+        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
     },
     "Scars of War": {
         "connects_to": [
@@ -900,7 +930,8 @@
             "Croajiro",
             "Mimog",
             "Wumpo Botan",
-            "Mossanda Lux"
+            "Mossanda Lux",
+            "Arena Highway"
         ],
         "requires": "|Eastern Wild Pass| OR {OptOne(|Eastern Wild Spawn|)}"
     },
@@ -974,9 +1005,18 @@
             "Tombat",
             "Mammorest",
             "Croajiro",
-            "Abyssal Nights"
+            "Abyssal Nights",
+            "Forgotten Highway"
         ],
         "requires": "|Forgotten Pass| OR {OptOne(|Forgotten Spawn|)}"
+    },
+    "Forgotten Highway": {
+        "connects_to": [
+            "Wildlife Sanctuary 2",
+            "Mount Obsidian",
+            "Forgotten Island"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
     },
     "Dessicated Dunes": {
         "connects_to": [
@@ -1024,7 +1064,7 @@
             "Pal_Critic_Duneshelter",
             "Arrogant_Foodie"
         ],
-        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)}"
+        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)} AND |Tech - Progressive Workbench| AND (|@Cold Temperature Clothes| OR |@Hot Temperature Clothes|)"
     },
     "Marsh Island": {
         "connects_to": [
@@ -1083,6 +1123,12 @@
         ],
         "requires": "|Sunlit Pass|"
     },
+    "Sunlit Highway": {
+        "connects_to": [
+            "Sunlit Isle"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+    },
     "Oasis Isle": {
         "connects_to": [
             "Fishing_Oasis",
@@ -1102,6 +1148,12 @@
             "Neptilius"
         ],
         "requires": "|Glacial Pass|"
+    },
+    "Glacial Core Highway": {
+        "connects_to": [
+            "Isle of the Glacial Core"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
     },
     "Phantom Isle": {
         "connects_to": [
@@ -1198,6 +1250,12 @@
         ],
         "requires": "|Arena Pass|"
     },
+    "Arena Highway": {
+        "connects_to": [
+            "Pal Arena"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+    },
     "Eternal Summer Isle": {
         "connects_to": [
             "Fishing_EternalSummer",
@@ -1217,6 +1275,12 @@
         ],
         "requires": "|Frostbitten Pass|"
     },
+    "Frostbitten Highway": {
+        "connects_to": [
+            "Frostbitten Isle"
+        ],
+        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+    },
     "Mixed Region - Azurobe": {
         "connects_to": [
             "Kelpsea",
@@ -1226,9 +1290,15 @@
     },
     "Mixed Region - Katress": {
         "connects_to": [
+            "Katress Realm"
+        ],
+        "requires": []
+    },
+    "Katress Realm": {
+        "connects_to": [
             "Katress"
         ],
-        "requires": "{OptOne(|Seal of the Invincible|)} AND {OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)}"
+        "requires": "{OptOne(|Seal of the Sorcerer|)} AND {OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
     },
     "Mixed Region - Jormuntide": {
         "connects_to": [
@@ -1847,7 +1917,7 @@
     },
     "Blazamut Ryu": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)}) AND {OptOne(|Player Level:55|)}"
+        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND ((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)}) OR ((|Astral Beacon| OR |Cold Shore Beacon|) AND {OptOne(|Astral Dungeon Key|)})) AND {OptOne(|Player Level:55|)} AND |Player Beacon:6|"
     },
     "Helzephyr": {
         "connects_to": [],
@@ -1939,11 +2009,11 @@
     },
     "Bellanoir": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Ancient Ritual Site)} or {canReachLocation(Travel Point - Mossanda Forest)}) AND {OptOne(|Player Level:30|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND ((|Dunes Beacon| AND {OptOne(|Dunes Dungeon Key|)}) OR (|Volcano Beacon| AND {OptOne(|Volcanic Dungeon Key|)}) OR ((|Crescent Beacon| OR |Forest Beacon|) AND {OptOne(|Forest Dungeon Key|)})) AND {OptOne(|Player Level:30|)} AND |Player Beacon:3|"
     },
     "Bellanoir Libero": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND ({canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Land of Absolute Zero)}) AND {OptOne(|Player Level:50|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND ((|Dunes Beacon| AND {OptOne(|Dunes Dungeon Key|)}) OR (|Volcano Beacon| AND {OptOne(|Volcanic Dungeon Key|)}) OR ((|Astral Beacon| OR |Cold Shore Beacon|) AND {OptOne(|Astral Dungeon Key|)})) AND {OptOne(|Player Level:50|)} AND |Player Beacon:5|"
     },
     "Selyne": {
         "connects_to": [],
@@ -2011,7 +2081,7 @@
     },
     "Xenolord": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}) AND {OptOne(|Player Level:60|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ((|Sakurajima Beacon| AND |Sakura Dungeon Key|) OR (|Feybreak Beacon| AND |Feybreak Dungeon Key|)) AND {OptOne(|Player Level:60|)} AND |Player Beacon:6|"
     },
     "Nitemary": {
         "connects_to": [],
@@ -2139,11 +2209,11 @@
     },
     "Neptilius": {
         "connects_to": [],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Water Orb:11|)}"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Water Orb:11|)} AND |Player Beacon:6|"
     },
     "Hartalis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:10|)} AND ({canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}) AND {OptOne(|Player Level:65|)}"
+        "requires": "{OptOne(|Neutral Orb:10|)} AND ((|Sakurajima Beacon| AND |Sakura Dungeon Key|) OR (|Feybreak Beacon| AND |Feybreak Dungeon Key|)) AND {OptOne(|Player Level:65|)} AND |Player Beacon:6|"
     },
     "Grass Egg 1": {
         "connects_to": [
@@ -3422,6 +3492,17 @@
     },
     "Hillside Cavern": {
         "connects_to": [
+            "Daedream",
+            "Killamari",
+            "Fuddler",
+            "Mau",
+            "Turtacle",
+            "Hillside Boss"
+        ],
+        "requires": "{OptOne(|Grasslands Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |Player Beacon|"
+    },
+    "Hillside Boss": {
+        "connects_to": [
             "Lifmunk",
             "Tanzee",
             "Foxparks",
@@ -3432,7 +3513,6 @@
             "Chikipi",
             "Jolthog",
             "Rushoar",
-            "Daedream",
             "Vixy",
             "Cremis",
             "Gumoss",
@@ -3444,17 +3524,26 @@
             "Caprity",
             "Hoocrates",
             "Depresso",
-            "Killamari",
             "Tombat",
-            "Fuddler",
-            "Mau",
             "Dinossom",
-            "Jelliette",
-            "Turtacle"
+            "Jelliette"
         ],
-        "requires": "{OptOne(|Grasslands Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:13|)}"
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
     },
     "Mountain Stream Grotto": {
+        "connects_to": [
+            "Loupmoon",
+            "Katress",
+            "Felbat",
+            "Grintale",
+            "Beegarde",
+            "Tarantriss",
+            "Jelliette",
+            "Mountain Boss"
+        ],
+        "requires": "{OptOne(|Forest Dungeon Key|)} AND {OptOne(|Player Level:29|)} AND |Player Beacon:3|"
+    },
+    "Mountain Boss": {
         "connects_to": [
             "Galeclaw",
             "Flopie",
@@ -3469,14 +3558,24 @@
             "Felbat",
             "Grintale",
             "Turtacle",
-            "Herbil",
-            "Beegarde",
-            "Tarantriss",
-            "Jelliette"
+            "Herbil"
         ],
-        "requires": "{OptOne(|Forest Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:29|)}"
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
     },
     "Cavern of the Dunes": {
+        "connects_to": [
+            "Mossanda Lux",
+            "Lovander",
+            "Cawgnito",
+            "Leezpunk",
+            "Fuddler",
+            "Tocotoco",
+            "Finsider",
+            "Dunes Boss"
+        ],
+        "requires": "{OptOne(|Dunes Dungeon Key|)} AND {OptOne(|Player Level:38|)} AND |Player Beacon:4|"
+    },
+    "Dunes Boss": {
         "connects_to": [
             "Dazzi",
             "Rayhound",
@@ -3492,16 +3591,23 @@
             "Lovander",
             "Cawgnito",
             "Leezpunk",
-            "Finsider",
-            "Mossanda Lux",
+            "Finsider"
+        ],
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
+    },
+    "Volcanic Cavern": {
+        "connects_to": [
             "Pyrin Noct",
             "Blazehowl Noct",
             "Leezpunk Ignis",
-            "Incineram"
+            "Incineram",
+            "Gloopie",
+            "Ghangler",
+            "Volcano Boss"
         ],
-        "requires": "{OptOne(|Dunes Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:38|)}"
+        "requires": "{OptOne(|Volcanic Dungeon Key|)} AND {OptOne(|Player Level:40|)} AND |Player Beacon:4|"
     },
-    "Volcanic Cavern": {
+    "Volcano Boss": {
         "connects_to": [
             "Flambelle",
             "Kelpsea Ignis",
@@ -3520,17 +3626,24 @@
             "Dumud",
             "Blazehowl Noct",
             "Pyrin Noct",
-            "Gloopie",
-            "Ghangler",
-            "Mossanda Lux",
-            "Lovander",
-            "Cawgnito",
-            "Fuddler",
-            "Tocotoco"
+            "Gloopie"
         ],
-        "requires": "{OptOne(|Volcanic Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:40|)}"
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
     },
     "Astral Mountains Cavern": {
+        "connects_to": [
+            "Lunaris",
+            "Maraith",
+            "Tombat",
+            "Sibelyx",
+            "Reptyro Cryst",
+            "Whalaska",
+            "Polapup",
+            "Astral Boss"
+        ],
+        "requires": "{OptOne(|Astral Dungeon Key|)} AND {OptOne(|Player Level:45|)} AND |Player Beacon:5|"
+    },
+    "Astral Boss": {
         "connects_to": [
             "Pengullet",
             "Mau Cryst",
@@ -3552,11 +3665,22 @@
             "Munchill",
             "Icelyn",
             "Frostplume",
-            "Whalaska"
+            "Astral Boss"
         ],
-        "requires": "{OptOne(|Astral Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)}"
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
     },
     "Cherry Blossom Cave": {
+        "connects_to": [
+            "Maraith",
+            "Bushi Noct",
+            "Katress Ignis",
+            "Wixen Noct",
+            "Kikit",
+            "Cherry Boss"
+        ],
+        "requires": "{OptOne(|Sakura Dungeon Key|)} AND {OptOne(|Player Level:52|)} AND |Player Beacon:5|"
+    },
+    "Cherry Boss": {
         "connects_to": [
             "Lullu",
             "Kikit",
@@ -3576,12 +3700,22 @@
             "Yakumo",
             "Ghangler",
             "Palumba",
-            "Braloha",
-            "Maraith"
+            "Braloha"
         ],
-        "requires": "{OptOne(|Sakura Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:52|)}"
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
     },
     "Feybreak Cavern": {
+        "connects_to": [
+            "Starryon",
+            "Splatterina",
+            "Tarantriss",
+            "Smokie",
+            "Nyafia",
+            "Feybreak Boss"
+        ],
+        "requires": "{OptOne(|Feybreak Dungeon Key|)} AND {OptOne(|Player Level:58|)} AND |Player Beacon:6|"
+    },
+    "Feybreak Boss": {
         "connects_to": [
             "Warsect Terra",
             "Omascul",
@@ -3602,7 +3736,7 @@
             "Caprity Noct",
             "Kitsun Noct"
         ],
-        "requires": "{OptOne(|Feybreak Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:58|)}"
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
     },
     "Terraria Cavern": {
         "connects_to": [
@@ -3617,7 +3751,7 @@
             "Starryon",
             "Icelyn"
         ],
-        "requires": "{OptOne(|Terraria Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)}"
+        "requires": "{OptOne(|Terraria Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)} AND |Player Beacon:5|"
     },
     "Grass Meteor": {
         "connects_to": [
@@ -3902,20 +4036,17 @@
             "Xenolord",
             "Hartalis"
         ],
-        "requires": "|A.Tech - Summoning Altar| & |Tech - Palbox| & |Tech - Progressive Workbench:1| & {canReachLocation(Base Level 15 Task)}"
+        "requires": "|A.Tech - Summoning Altar| AND |Tech - Palbox| AND |Tech - Progressive Workbench:1| AND |Home Beacon|"
     },
     "Breeding": {
         "starting": true,
         "connects_to": [
             "Breeding - Jolthog Cryst",
-            "Breeding - Mau",
-            "Breeding - Katress Ignis",
             "Breeding - Elphidran Aqua",
-            "Breeding - Reptyro Cryst",
             "Breeding - Suzaku Aqua",
             "Breeding - Bastigor"
         ],
-        "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ({canReachLocation(Palpedia - Lovander)} OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR {canReachLocation(Travel Point - Kelpsea Hill)}) AND {canReachCategory(Honey Drop,1)})"
+        "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND (({canReachLocation(Palpedia - Lovander)} AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|)"
     },
     "Breeding - Jolthog Cryst": {
         "connects_to": [
@@ -3923,41 +4054,23 @@
         ],
         "requires": "{canReachLocation(Palpedia - Jolthog)} AND {canReachLocation(Palpedia - Pengullet)} AND {YamlDisabled(Enable_Cages)} AND {YamlDisabled(Enable_Incidents)}"
     },
-    "Breeding - Mau": {
-        "connects_to": [
-            "Mau"
-        ],
-        "requires": "{OptOne(|Neutral Orb|)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
-    },
-    "Breeding - Katress Ignis": {
-        "connects_to": [
-            "Katress Ignis"
-        ],
-        "requires": "{canReachLocation(Palpedia - Katress)} AND {canReachLocation(Palpedia - Wixen)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
-    },
     "Breeding - Elphidran Aqua": {
         "connects_to": [
             "Elphidran Aqua"
         ],
-        "requires": "{canReachLocation(Palpedia - Elphidran)} AND {canReachLocation(Palpedia - Surfent)} AND {YamlDisabled(Enable_Incidents)}"
-    },
-    "Breeding - Reptyro Cryst": {
-        "connects_to": [
-            "Reptyro Cryst"
-        ],
-        "requires": "{canReachLocation(Palpedia - Reptyro)} AND {canReachLocation(Palpedia - Foxcicle)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+        "requires": "|Elphidran Beacon| AND |Surfent Beacon| AND {YamlDisabled(Enable_Incidents)}"
     },
     "Breeding - Suzaku Aqua": {
         "connects_to": [
             "Suzaku Aqua"
         ],
-        "requires": "{canReachLocation(Palpedia - Suzaku)} AND {canReachLocation(Palpedia - Jormuntide)} AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+        "requires": "|Dunes Beacon| AND |Jormuntide Beacon| AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
     },
     "Breeding - Bastigor": {
         "connects_to": [
             "Bastigor"
         ],
-        "requires": "{canReachLocation(Palpedia - Anubis)} AND {canReachLocation(Palpedia - Frostallion)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+        "requires": "{OptOne(|Ice Orb:11|)} AND {OptOne(|Ground Orb:10|)} AND |Twilight Beacon| AND |Astral Beacon| AND {YamlDisabled(Enable_Wild_Eggs)}"
     },
     "Pal Merchant": {
         "connects_to": [
@@ -4248,7 +4361,7 @@
             "Cooling T1",
             "Med_Prod T1"
         ],
-        "requires": "|Tech - Palbox| & |Tech - Pal Labor Research Laboratory|"
+        "requires": "|Tech - Palbox| AND |Tech - Pal Labor Research Laboratory| AND |Player Beacon:2|"
     },
     "Handiwork T1": {
         "connects_to": [
@@ -4256,38 +4369,38 @@
             "Handiwork T1-2",
             "Handiwork T1-3"
         ],
-        "requires": "(|Tech - Cloth| & |Tech - Progressive Workbench:1|) or {canReachLocation(Palpedia - Azurobe)} or {canReachLocation(Palpedia - Felbat)} or {canReachLocation(Palpedia - Croajiro)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Palpedia - Croajiro Noct)} or {canReachLocation(Palpedia - Azurobe Cryst)}"
+        "requires": "|Tech - Cloth| AND |Tech - Progressive Workbench:1|"
     },
     "Handiwork T1-1": {
         "connects_to": [
             "Handiwork T1-4",
             "Handiwork T1-5"
         ],
-        "requires": "(|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})"
+        "requires": "(|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR |Volcano Beacon| OR |Dunes Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|"
     },
     "Handiwork T1-2": {
         "connects_to": [
             "Handiwork T1-6"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Handiwork T1-3": {
         "connects_to": [
             "Handiwork T2-4"
         ],
-        "requires": "(|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})"
+        "requires": "(|Tech - Cement| & |Tech - Progressive Workbench:2|) OR |Volcano Beacon| OR |Dunes Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|"
     },
     "Handiwork T1-4": {
         "connects_to": [
             "Handiwork T2-1"
         ],
-        "requires": "|Tech - Progressive Furnace:1| & |Tech - Pal Expedition Station|"
+        "requires": "|Tech - Progressive Furnace:1| AND |Tech - Pal Expedition Station|"
     },
     "Handiwork T1-5": {
         "connects_to": [
             "Handiwork T2-2"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Handiwork T1-6": {
         "connects_to": [
@@ -4305,7 +4418,7 @@
         "connects_to": [
             "Handiwork T3-2"
         ],
-        "requires": "(|Tech - Polymer| & |Tech - Palbox| & |@Power Source| & |Tech - Progressive Workbench:3|) or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)}"
+        "requires": "(|Tech - Polymer| AND |Tech - Palbox| AND |@Power Source| AND |Tech - Progressive Workbench:3| AND |Player Beacon:3|) OR |Volcano Beacon|"
     },
     "Handiwork T2-3": {
         "connects_to": [
@@ -4317,13 +4430,13 @@
         "connects_to": [
             "Handiwork T3-4"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Handiwork T3-1": {
         "connects_to": [
             "Handiwork T4-1"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Handiwork T3-2": {
         "connects_to": [
@@ -4335,13 +4448,13 @@
         "connects_to": [
             "Handiwork T3-5"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Handiwork T3-4": {
         "connects_to": [
             "Handiwork T4-4"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Handiwork T3-5": {
         "connects_to": [
@@ -4363,7 +4476,7 @@
     },
     "Handiwork T4-4": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Kindling T1": {
         "connects_to": [
@@ -4378,19 +4491,19 @@
             "Kindling T1-4",
             "Kindling T1-5"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Kindling T1-2": {
         "connects_to": [
             "Kindling T2-3"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Kindling T1-3": {
         "connects_to": [
             "Kindling T2-4"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Kindling T1-4": {
         "connects_to": [
@@ -4402,37 +4515,37 @@
         "connects_to": [
             "Kindling T2-2"
         ],
-        "requires": "|Tech - Campfire| or |Tech - Cooking Pot| or |Tech - Large-Scale Stone Oven| or (|Tech - Electric Kitchen| & |@Power Source|)"
+        "requires": "|Tech - Campfire| OR |Tech - Cooking Pot| OR (|Tech - Large-Scale Stone Oven| AND |Player Beacon:4|) OR (|Tech - Electric Kitchen| AND |@Power Source| AND |Player Beacon:4|)"
     },
     "Kindling T2-1": {
         "connects_to": [
             "Kindling T3-1"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Kindling T2-2": {
         "connects_to": [
             "Kindling T3-2"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Kindling T2-3": {
         "connects_to": [
             "Kindling T3-3"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Kindling T2-4": {
         "connects_to": [
             "Kindling T3-4"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Kindling T3-1": {
         "connects_to": [
             "Kindling T4-1"
         ],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Kindling T3-2": {
         "connects_to": [
@@ -4444,29 +4557,29 @@
         "connects_to": [
             "Kindling T4-3"
         ],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Kindling T3-4": {
         "connects_to": [
             "Kindling T4-4"
         ],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Kindling T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:4| AND |@Power Source| AND |Player Beacon:5|"
     },
     "Kindling T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| & {canReachLocation(Palpedia - Bellanoir)} & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:4| AND |@Raid Beacon| AND |@Power Source| AND |Player Beacon:5|"
     },
     "Kindling T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4|"
+        "requires": "|Tech - Progressive Furnace:4| AND |Player Beacon:5|"
     },
     "Kindling T4-4": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| & {canReachLocation(Palpedia - Bellanoir)} & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:4| AND |@Raid Beacon| AND |@Power Source| AND |Player Beacon:5|"
     },
     "Watering T1": {
         "connects_to": [
@@ -4474,7 +4587,7 @@
             "Watering T1-2",
             "Watering T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Watering T1-1": {
         "connects_to": [
@@ -4517,7 +4630,7 @@
         "connects_to": [
             "Watering T3-2"
         ],
-        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+        "requires": "(|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Player Beacon:2|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)})"
     },
     "Watering T2-4": {
         "connects_to": [
@@ -4535,13 +4648,13 @@
         "connects_to": [
             "Watering T4-3"
         ],
-        "requires": "|Tech - Potato Plantation| & |Tech - Carrot Plantation|"
+        "requires": "|Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |Player Beacon:3|"
     },
     "Watering T3-3": {
         "connects_to": [
             "Watering T4-4"
         ],
-        "requires": "|Tech - Onion Plantation|"
+        "requires": "|Tech - Onion Plantation| AND |Player Beacon:3|"
     },
     "Watering T4-1": {
         "connects_to": [],
@@ -4549,15 +4662,15 @@
     },
     "Watering T4-2": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Watering T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation|"
+        "requires": "|Tech - Onion Plantation| AND |Player Beacon:3|"
     },
     "Watering T4-4": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Planting T1": {
         "connects_to": [
@@ -4565,13 +4678,13 @@
             "Planting T1-2",
             "Planting T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Planting T1-1": {
         "connects_to": [
             "Planting T1-4"
         ],
-        "requires": "|Tech - Mill| & {canReachLocation(Palpedia - Gumoss)}"
+        "requires": "|Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T1-2": {
         "connects_to": [
@@ -4590,7 +4703,7 @@
         "connects_to": [
             "Planting T2-1"
         ],
-        "requires": "((|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})) & |@Wildlife Sanctuary Trackers|"
+        "requires": "((|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR |Volcano Beacon| OR |Dunes Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|) AND |@Wildlife Beacons|"
     },
     "Planting T2-1": {
         "connects_to": [
@@ -4602,59 +4715,59 @@
         "connects_to": [
             "Planting T3-2"
         ],
-        "requires": "{canReachLocation(Palpedia - Gumoss)}"
+        "requires": "|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|"
     },
     "Planting T2-3": {
         "connects_to": [
             "Planting T3-4"
         ],
-        "requires": "|Tech - Mill| & {canReachLocation(Palpedia - Gumoss)}"
+        "requires": "|Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T2-4": {
         "connects_to": [
             "Planting T3-1"
         ],
-        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+        "requires": "(|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)})"
     },
     "Planting T3-1": {
         "connects_to": [
             "Planting T4-1"
         ],
-        "requires": "|Tech - Potato Plantation| & |Tech - Carrot Plantation|"
+        "requires": "|Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |Player Beacon:3|"
     },
     "Planting T3-2": {
         "connects_to": [
             "Planting T4-2"
         ],
-        "requires": "|Tech - Potato Plantation| & |Tech - Carrot Plantation|"
+        "requires": "|Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |Player Beacon:3|"
     },
     "Planting T3-3": {
         "connects_to": [
             "Planting T4-3"
         ],
-        "requires": "((|Tech - Cement| & |Tech - Progressive Workbench:2|) or ({canReachLocation(Travel Point - PIDF Tower Entrance)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Palpedia - Selyne)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)})) & |Tech - Mill|"
+        "requires": "((|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR (|Dunes Beacon| OR |Volcano Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|)) AND |Tech - Mill|"
     },
     "Planting T3-4": {
         "connects_to": [
             "Planting T4-4"
         ],
-        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+        "requires": "(|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)})"
     },
     "Planting T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| & {canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|Tech - Onion Plantation| AND |@Raid Beacon|"
     },
     "Planting T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| & {canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|Tech - Onion Plantation| AND |@Raid Beacon|"
     },
     "Planting T4-3": {
         "connects_to": [],
-        "requires": "(|Tech - Tomato Plantation| & |Tech - Lettuce Plantation|) or {canReachLocation(Travel Point - Duneshelter)} or {canReachLocation(Travel Point - Fisherman's Point)}"
+        "requires": "(|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation| AND |Player Beacon:2|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)})"
     },
     "Planting T4-4": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| & {canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|Tech - Onion Plantation| AND |@Raid Beacon|"
     },
     "Gen_Elec T1": {
         "connects_to": [
@@ -4662,56 +4775,56 @@
             "Gen_Elec T1-2",
             "Gen_Elec T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| & (|Tech - Progressive Furnace:1| or {canReachLocation(Palpedia - Bushi)} or {canReachLocation(Palpedia - Bushi Noct)})"
+        "requires": "|Tech - Pal Expedition Station| AND (|Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|) AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Gen_Elec T1-1": {
         "connects_to": [
             "Gen_Elec T2-1",
             "Gen_Elec T2-2"
         ],
-        "requires": "{canReachLocation(Palpedia - Dazzi)} or {canReachLocation(Palpedia - Dazzi Noct)}"
+        "requires": "|Dunes Beacon| OR |Feybreak Frost Beacon|"
     },
     "Gen_Elec T1-2": {
         "connects_to": [
             "Gen_Elec T2-3"
         ],
-        "requires": "{canReachLocation(Palpedia - Dazzi)} or {canReachLocation(Palpedia - Dazzi Noct)}"
+        "requires": "|Dunes Beacon| OR |Feybreak Frost Beacon|"
     },
     "Gen_Elec T1-3": {
         "connects_to": [
             "Gen_Elec T2-4"
         ],
-        "requires": "{canReachLocation(Palpedia - Dazzi)} or {canReachLocation(Palpedia - Dazzi Noct)}"
+        "requires": "|Dunes Beacon| OR |Feybreak Frost Beacon|"
     },
     "Gen_Elec T2-1": {
         "connects_to": [
             "Gen_Elec T3-1"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Gen_Elec T2-2": {
         "connects_to": [
             "Gen_Elec T3-2"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Gen_Elec T2-3": {
         "connects_to": [
             "Gen_Elec T3-3"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Gen_Elec T2-4": {
         "connects_to": [
             "Gen_Elec T3-4"
         ],
-        "requires": "{canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Feybreak Tower Entrance)}"
+        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
     },
     "Gen_Elec T3-1": {
         "connects_to": [
             "Gen_Elec T3-5"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Gen_Elec T3-2": {
         "connects_to": [
@@ -4741,11 +4854,11 @@
     },
     "Gen_Elec T4-2": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Gen_Elec T4-3": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Lumbering T1": {
         "connects_to": [
@@ -4753,7 +4866,7 @@
             "Lumbering T1-2",
             "Lumbering T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Lumbering T1-1": {
         "connects_to": [
@@ -4778,31 +4891,31 @@
         "connects_to": [
             "Lumbering T2-5"
         ],
-        "requires": "|Tech - Progressive Furnace:1| or {canReachLocation(Palpedia - Bushi)} or {canReachLocation(Palpedia - Bushi Noct)}"
+        "requires": "|Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|"
     },
     "Lumbering T2-2": {
         "connects_to": [
             "Lumbering T3-2"
         ],
-        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
     },
     "Lumbering T2-3": {
         "connects_to": [
             "Lumbering T3-3"
         ],
-        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
     },
     "Lumbering T2-4": {
         "connects_to": [
             "Lumbering T3-4"
         ],
-        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
     },
     "Lumbering T2-5": {
         "connects_to": [
             "Lumbering T3-1"
         ],
-        "requires": "{canReachLocation(Palpedia - Shadowbeak)} or {canReachLocation(Palpedia - Jetragon)} or {canReachLocation(Palpedia - Neptilius)} or (|Tech - Carbon Fiber| & |Tech - Progressive Workbench:3| & |@Power Source|)"
+        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
     },
     "Lumbering T3-1": {
         "connects_to": [
@@ -4828,7 +4941,7 @@
     },
     "Lumbering T4-1": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Lumbering T4-2": {
         "connects_to": [],
@@ -4836,7 +4949,7 @@
     },
     "Lumbering T4-3": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Mining T1": {
         "connects_to": [
@@ -4850,91 +4963,91 @@
         "connects_to": [
             "Mining T2-1"
         ],
-        "requires": "{canReachLocation(Travel Point - Kelpsea Hill)} or {canReachLocation(Boss - Anubis)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Lake Center)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - PIDF Tower Entrance)}"
+        "requires": "|Bamboo Beacon| OR |Twilight Beacon| OR |Sakurajima Beacon| OR |Crescent Beacon| OR |Volcano Beacon| OR |Forest Beacon| OR |Dunes Beacon|"
     },
     "Mining T1-2": {
         "connects_to": [
             "Mining T2-2"
         ],
-        "requires": "{canReachLocation(Travel Point - Kelpsea Hill)} or {canReachLocation(Boss - Anubis)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Lake Center)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - PIDF Tower Entrance)}"
+        "requires": "|Bamboo Beacon| OR |Twilight Beacon| OR |Sakurajima Beacon| OR |Crescent Beacon| OR |Volcano Beacon| OR |Forest Beacon| OR |Dunes Beacon|"
     },
     "Mining T1-3": {
         "connects_to": [
             "Mining T2-3"
         ],
-        "requires": "{canReachLocation(Travel Point - Kelpsea Hill)} or {canReachLocation(Boss - Anubis)} or {canReachLocation(Travel Point - Moonflower Tower Entrance)} or {canReachLocation(Travel Point - Lake Center)} or {canReachLocation(Travel Point - Eternal Pyre Tower Entrance)} or {canReachLocation(Travel Point - Gobfin's Turf)} or {canReachLocation(Travel Point - PIDF Tower Entrance)}"
+        "requires": "|Bamboo Beacon| OR |Twilight Beacon| OR |Sakurajima Beacon| OR |Crescent Beacon| OR |Volcano Beacon| OR |Forest Beacon| OR |Dunes Beacon|"
     },
     "Mining T2-1": {
         "connects_to": [
             "Mining T2-4"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-2": {
         "connects_to": [
             "Mining T3-3"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-3": {
         "connects_to": [
             "Mining T3-4"
         ],
-        "requires": "|Tech - Pal Expedition Station| & |Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Pal Expedition Station| AND |Tech - Progressive Furnace:2| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-4": {
         "connects_to": [
             "Mining T3-1",
             "Mining T3-2"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Mining T3-1": {
         "connects_to": [
             "Mining T4-1"
         ],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Mining T3-2": {
         "connects_to": [
             "Mining T3-5"
         ],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source|"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Mining T3-3": {
         "connects_to": [
             "Mining T4-3"
         ],
-        "requires": "|Tech - Progressive Furnace:2|"
+        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
     },
     "Mining T3-4": {
         "connects_to": [
             "Mining T4-4"
         ],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & ({canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)})"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |Player Beacon:3|"
     },
     "Mining T3-5": {
         "connects_to": [
             "Mining T4-2"
         ],
-        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)}"
+        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|"
     },
     "Mining T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & ({canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)})"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |Player Beacon:4|"
     },
     "Mining T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & {canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |@Raid Beacon|"
 
     },
     "Mining T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & ({canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)} or {canReachLocation(Palpedia - Astegon)} or {canReachLocation(Palpedia - Jetragon)})"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |Player Beacon:4|"
     },
     "Mining T4-4": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| & |@Power Source| & {canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |@Raid Beacon|"
     },
     "Cooling T1": {
         "connects_to": [
@@ -4942,26 +5055,26 @@
             "Cooling T1-2",
             "Cooling T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station|"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Cooling T1-1": {
         "connects_to": [
             "Cooling T1-4",
             "Cooling T1-5"
         ],
-        "requires": "{canReachLocation(Palpedia - Swee)}"
+        "requires": "|Bamboo Beacon| OR |Frostbound Beacon| OR |Sea Breeze Beacon|"
     },
     "Cooling T1-2": {
         "connects_to": [
             "Cooling T2-3"
         ],
-        "requires": "{canReachLocation(Palpedia - Swee)} & (|Tech - Progressive Furnace:1| or {canReachLocation(Palpedia - Bushi)} or {canReachLocation(Palpedia - Bushi Noct)})"
+        "requires": "(|Bamboo Beacon| OR |Frostbound Beacon| OR |Sea Breeze Beacon|) AND (|Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|)"
     },
     "Cooling T1-3": {
         "connects_to": [
             "Cooling T2-4"
         ],
-        "requires": "{canReachLocation(Palpedia - Swee)}"
+        "requires": "|Bamboo Beacon| OR |Frostbound Beacon| OR |Sea Breeze Beacon|"
     },
     "Cooling T1-4": {
         "connects_to": [
@@ -4979,25 +5092,25 @@
         "connects_to": [
             "Cooling T3-1"
         ],
-        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
     },
     "Cooling T2-2": {
         "connects_to": [
             "Cooling T3-2"
         ],
-        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
     },
     "Cooling T2-3": {
         "connects_to": [
             "Cooling T3-3"
         ],
-        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
     },
     "Cooling T2-4": {
         "connects_to": [
             "Cooling T3-4"
         ],
-        "requires": "{canReachLocation(Travel Point - Free Pal Alliance Tower Entrance)} or {canReachLocation(Travel Point - Cold Shore)} or {canReachLocation(Travel Point - PAL Genetic Research Unit Tower Entrance)} or {canReachLocation(Travel Point - Isle of the Glacial Core)}"
+        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
     },
     "Cooling T3-1": {
         "connects_to": [
@@ -5031,14 +5144,14 @@
     },
     "Cooling T4-3": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|@Raid Beacon|"
     },
     "Med_Prod T1": {
         "connects_to": [
             "Med_Prod T1-1",
             "Med_Prod T1-2"
         ],
-        "requires": "|Tech - Medieval Medicine Workbench| & ((|Wildlife Sanctuary 1 Tracker| & {canReachLocation(Travel Point - Small Cove)}) or (|Wildlife Sanctuary 2 Tracker| & ({canReachLocation(Travel Point - Secluded Cemetary)} or {canReachLocation(Travel Point - Ruined Fortress City)})) or (|Wildlife Sanctuary 3 Tracker| & {canReachLocation(Travel Point - Duneshelter)}))"
+        "requires": "|Tech - Medieval Medicine Workbench| AND (|Wildlife 1 Beacon| OR |Wildlife 2 Beacon| OR |Wildlife 3 Beacon|)"
     },
     "Med_Prod T1-1": {
         "connects_to": [
@@ -5063,19 +5176,19 @@
         "connects_to": [
             "Med_Prod T3-2"
         ],
-        "requires": "{canReachLocation(Palpedia - Shroomer Noct)}"
+        "requires": "|Sakurajima Beacon| OR |Feybreak Frost Beacon|"
     },
     "Med_Prod T2-3": {
         "connects_to": [
             "Med_Prod T3-3"
         ],
-        "requires": "{canReachLocation(Palpedia - Shroomer Noct)}"
+        "requires": "|Sakurajima Beacon| OR |Feybreak Frost Beacon|"
     },
     "Med_Prod T2-4": {
         "connects_to": [
             "Med_Prod T3-1"
         ],
-        "requires": "{canReachLocation(Palpedia - Shroomer Noct)}"
+        "requires": "|Sakurajima Beacon| OR |Feybreak Frost Beacon|"
     },
     "Med_Prod T3-1": {
         "connects_to": [
@@ -5097,15 +5210,15 @@
     },
     "Med_Prod T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Electric Medicine Workbench| & |@Power Source|"
+        "requires": "|Tech - Electric Medicine Workbench| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Med_Prod T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Electric Medicine Workbench| & |@Power Source|"
+        "requires": "|Tech - Electric Medicine Workbench| AND |@Power Source| AND |Player Beacon:4|"
     },
     "Med_Prod T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Electric Medicine Workbench| & |@Power Source| & {canReachLocation(Palpedia - Bellanoir)}"
+        "requires": "|Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Raid Beacon|"
     },
     "Bounty Merchant": {
         "connects_to": [],
@@ -5207,7 +5320,7 @@
         "connects_to": [
             "Whalaska Ignis"
         ],
-        "requires": "|Tech - Pal Gear Workbench| & |@EZ_Mounts|"
+        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
     },
     "Cooking": {
         "starting": true,
@@ -5230,7 +5343,7 @@
             "Campfire",
             "Cooking Pot"
         ],
-        "requires": "|Tech - Cooking Pot| AND ({canReachLocation(Palpedia - Bushi)} OR {canReachLocation(Palpedia - Bushi Noct)} OR |Tech - Progressive Furnace|)"
+        "requires": "|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR |Tech - Progressive Furnace|)"
     },
     "Kitchen": {
         "connects_to": [
@@ -5238,7 +5351,7 @@
             "Cooking Pot",
             "Electric Kitchen"
         ],
-        "requires": "|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR {canReachLocation(Travel Point - Fisherman's Point)})) OR ({canReachLocation(Travel Point - Land of Absolute Zero)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Travel Point - Moonflower Tower Entrance)} OR {canReachLocation(Travel Point - Feybreak Tower Entrance)})) AND |Tech - Palbox|"
+        "requires": "|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox| AND |Player Beacon:4|"
     },
     "Oven": {
         "connects_to": [
@@ -5247,7 +5360,7 @@
             "Electric Kitchen",
             "Large-Scale Stone Oven"
         ],
-        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})"
+        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)}) AND |Player Beacon:4|"
     },
     "Campfire": {
         "connects_to": [],
@@ -5269,19 +5382,19 @@
         "connects_to": [
             "Pal_Critic_SmallSettlement2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Lifmunk)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Grass Orb|)}"
     },
     "Pal_Critic_SmallSettlement2": {
         "connects_to": [
             "Pal_Critic_SmallSettlement3"
         ],
-        "requires": "{canReachLocation(Palpedia - Direhowl)}"
+        "requires": "{OptOne(|Neutral Orb:2|)}"
     },
     "Pal_Critic_SmallSettlement3": {
         "connects_to": [
             "Pal_Critic_SmallSettlement4"
         ],
-        "requires": "{canReachLocation(Palpedia - Tombat)}"
+        "requires": "{OptOne(|Dark Orb:5|)}"
     },
     "Pal_Critic_SmallSettlement4": {
         "connects_to": [
@@ -5293,23 +5406,23 @@
         "connects_to": [
             "Pal_Critic_SmallSettlement6"
         ],
-        "requires": "{canReachLocation(Palpedia - Kingpaca)}"
+        "requires": "{OptOne(|Neutral Orb:8|)}"
     },
     "Pal_Critic_SmallSettlement6": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Mammorest)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)}"
     },
     "Pal_Critic_ColdShore": {
         "connects_to": [
             "Pal_Critic_ColdShore2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Reptyro Cryst)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Astral Dungeon Key|)}"
     },
     "Pal_Critic_ColdShore2": {
         "connects_to": [
             "Pal_Critic_ColdShore3"
         ],
-        "requires": "{canReachLocation(Palpedia - Hangyu Cryst)}"
+        "requires": []
     },
     "Pal_Critic_ColdShore3": {
         "connects_to": [
@@ -5321,29 +5434,29 @@
         "connects_to": [
             "Pal_Critic_ColdShore5"
         ],
-        "requires": "{canReachLocation(Palpedia - Lyleen Noct)}"
+        "requires": "|Astral Beacon| AND {OptOne(|Dark Orb:10|)}"
     },
     "Pal_Critic_ColdShore5": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Kingpaca Cryst)}"
+        "requires": "{OptOne(|Ice Orb:9|)}"
     },
     "Pal_Critic_HypocriteHill": {
         "connects_to": [
             "Pal_Critic_HypocriteHill2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Gorirat)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Neutral Orb:5|)}"
     },
     "Pal_Critic_HypocriteHill2": {
         "connects_to": [
             "Pal_Critic_HypocriteHill3"
         ],
-        "requires": "{canReachLocation(Palpedia - Galeclaw)}"
+        "requires": ""
     },
     "Pal_Critic_HypocriteHill3": {
         "connects_to": [
             "Pal_Critic_HypocriteHill4"
         ],
-        "requires": "{canReachLocation(Palpedia - Loupmoon)}"
+        "requires": "{OptOne(|Dark Orb:3|)}"
     },
     "Pal_Critic_HypocriteHill4": {
         "connects_to": [
@@ -5355,17 +5468,17 @@
         "connects_to": [
             "Pal_Critic_HypocriteHill6"
         ],
-        "requires": "{canReachLocation(Palpedia - Elphidran)}"
+        "requires": "{OptOne(|Dragon Orb:7|)}"
     },
     "Pal_Critic_HypocriteHill6": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Elizabee)}"
+        "requires": ""
     },
     "Pal_Critic_GobfinTurf": {
         "connects_to": [
             "Pal_Critic_GobfinTurf2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Warsect)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Warsect Beacon|"
     },
     "Pal_Critic_GobfinTurf2": {
         "connects_to": [
@@ -5383,7 +5496,7 @@
         "connects_to": [
             "Pal_Critic_GobfinTurf5"
         ],
-        "requires": "{canReachLocation(Palpedia - Foxcicle)}"
+        "requires": "|Foxcicle Beacon|"
     },
     "Pal_Critic_GobfinTurf5": {
         "connects_to": [
@@ -5399,19 +5512,19 @@
         "connects_to": [
             "Pal_Critic_RavineEntrance2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Surfent)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {canReachLocation(Palpedia - Surfent)}"
     },
     "Pal_Critic_RavineEntrance2": {
         "connects_to": [
             "Pal_Critic_RavineEntrance3"
         ],
-        "requires": "{canReachLocation(Palpedia - Relaxaurus)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
     },
     "Pal_Critic_RavineEntrance3": {
         "connects_to": [
             "Pal_Critic_RavineEntrance4"
         ],
-        "requires": "{canReachLocation(Palpedia - Sweepa)}"
+        "requires": "{OptOne(|Ice Orb:6|)}"
     },
     "Pal_Critic_RavineEntrance4": {
         "connects_to": [
@@ -5433,7 +5546,7 @@
         "connects_to": [
             "Pal_Critic_Duneshelter2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Surfent Terra)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Ground Orb:4|)}"
     },
     "Pal_Critic_Duneshelter2": {
         "connects_to": [
@@ -5445,13 +5558,13 @@
         "connects_to": [
             "Pal_Critic_Duneshelter4"
         ],
-        "requires": "{canReachLocation(Palpedia - Menasting)}"
+        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Dark Orb:9|)}"
     },
     "Pal_Critic_Duneshelter4": {
         "connects_to": [
             "Pal_Critic_Duneshelter5"
         ],
-        "requires": "{canReachLocation(Palpedia - Orserk)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)} AND |Wildlife Sanctuary 3 Tracker|"
     },
     "Pal_Critic_Duneshelter5": {
         "connects_to": [],
@@ -5461,7 +5574,7 @@
         "connects_to": [
             "Pal_Critic_AnubisStatue2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Blazehowl)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {canReachLocation(Palpedia - Blazehowl)}"
     },
     "Pal_Critic_AnubisStatue2": {
         "connects_to": [
@@ -5483,19 +5596,19 @@
     },
     "Pal_Critic_AnubisStatue5": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Astegon)}"
+        "requires": "|Hot Volcano Beacon| AND {OptOne(|Dark Orb:9|)} AND {OptOne(|Dragon Orb:9|)}"
     },
     "Pal_Critic_MushroomWetlands": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Helzephyr Lux)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)}"
     },
     "Pal_Critic_MushroomWetlands2": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands3"
         ],
-        "requires": "{canReachLocation(Palpedia - Gorirat Terra)}"
+        "requires": "{OptOne(|Ground Orb:5|)}"
     },
     "Pal_Critic_MushroomWetlands3": {
         "connects_to": [
@@ -5507,41 +5620,41 @@
         "connects_to": [
             "Pal_Critic_MushroomWetlands5"
         ],
-        "requires": "{canReachLocation(Palpedia - Sootseer)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)}"
     },
     "Pal_Critic_MushroomWetlands5": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands6"
         ],
-        "requires": "{canReachLocation(Palpedia - Selyne)}"
+        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Neutral Orb:9|)}"
     },
     "Pal_Critic_MushroomWetlands6": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands7"
         ],
-        "requires": "{canReachLocation(Palpedia - Menasting Terra)}"
+        "requires": "{OptOne(|Ground Orb:10|)}"
     },
     "Pal_Critic_MushroomWetlands7": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Knocklem)}"
+        "requires": ""
     },
     "Pal_Critic_StonePillarCaveEntrance": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance2"
         ],
-        "requires": "(|Tech - Palbox| or {canReachLocation(Travel Point - Arena Entrance)}) AND {canReachLocation(Palpedia - Gildane)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Ground Orb:9|)}"
     },
     "Pal_Critic_StonePillarCaveEntrance2": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance3"
         ],
-        "requires": "{canReachLocation(Palpedia - Smokie)}"
+        "requires": "{OptOne(|Dark Orb:2|)}"
     },
     "Pal_Critic_StonePillarCaveEntrance3": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance4"
         ],
-        "requires": "{canReachLocation(Palpedia - Tarantriss)}"
+        "requires": "{OptOne(|Dark Orb:3|)}"
     },
     "Pal_Critic_StonePillarCaveEntrance4": {
         "connects_to": [
@@ -5553,7 +5666,7 @@
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance6"
         ],
-        "requires": "{canReachLocation(Palpedia - Warsect Terra)}"
+        "requires": ""
     },
     "Pal_Critic_StonePillarCaveEntrance6": {
         "connects_to": [
@@ -5565,7 +5678,7 @@
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance8"
         ],
-        "requires": "{canReachLocation(Palpedia - Celesdir)}"
+        "requires": "{OptOne(|Neutral Orb:9|)}"
     },
     "Pal_Critic_StonePillarCaveEntrance8": {
         "connects_to": [],
@@ -5575,19 +5688,19 @@
         "connects_to": [
             "Arrogant_Foodie2"
         ],
-        "requires": "|Tech - Campfire| OR (|Tech - Cooking Pot| AND ({canReachLocation(Palpedia - Bushi)} OR {canReachLocation(Palpedia - Bushi Noct)} OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR {canReachLocation(Travel Point - Fisherman's Point)})) OR ({canReachLocation(Travel Point - Land of Absolute Zero)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Travel Point - Moonflower Tower Entrance)} OR {canReachLocation(Travel Point - Feybreak Tower Entrance)})) AND |Tech - Palbox|) AND ({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Boss - Anubis)} OR {canReachLocation(Boss - Dumud)}) AND {OptOne(|Broiled Dumud Recipe|)}"
+        "requires": "|Tech - Campfire| OR (|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox|) AND (|Volcano Beacon| OR |Twilight Beacon| OR {canReachLocation(Boss - Dumud (Level 14))}) AND {OptOne(|Broiled Dumud Recipe|)}"
     },
     "Arrogant_Foodie2": {
         "connects_to": [
             "Arrogant_Foodie3"
         ],
-        "requires": "(|Tech - Cooking Pot| AND ({canReachLocation(Palpedia - Bushi)} OR {canReachLocation(Palpedia - Bushi Noct)} OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR {canReachLocation(Travel Point - Fisherman's Point)})) OR ({canReachLocation(Travel Point - Land of Absolute Zero)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Travel Point - Moonflower Tower Entrance)} OR {canReachLocation(Travel Point - Feybreak Tower Entrance)})) AND |Tech - Palbox|) AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR {canReachLocation(Travel Point - Kelpsea Hill)}) AND (({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)}) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "(|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox|) AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     "Arrogant_Foodie3": {
         "connects_to": [
             "Arrogant_Foodie4"
         ],
-        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND ({OptOne(|Membership Card|)} AND {canReachCategory(Merchant Location,1)})"
+        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND ({OptOne(|Membership Card|)} AND |@Merchant Location|)"
     },
     "Arrogant_Foodie4": {
         "connects_to": [
@@ -5599,7 +5712,7 @@
         "connects_to": [
             "Arrogant_Foodie6"
         ],
-        "requires": "({canReachLocation(Travel Point - Kelpsea Hill)} OR {canReachLocation(Boss - Broncherry)}) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
+        "requires": "({canReachLocation(Travel Point - Kelpsea Hill)} OR {canReachLocation(Boss - Broncherry (Level 23))}) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
     },
     "Arrogant_Foodie6": {
         "connects_to": [
@@ -5639,67 +5752,108 @@
         "connects_to": [
             "Penking"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Frozen Wings|)}"
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Frozen Wings|)} AND |Player Beacon:2|"
     },
     "Swift": {
         "connects_to": [
             "Verdash"
         ],
-        "requires": "{OptOne(|Player Level:35|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swift|)}"
+        "requires": "{OptOne(|Player Level:35|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swift|)} AND |Player Beacon:4|"
     },
     "Guardian": {
         "connects_to": [
             "Vaelet"
         ],
-        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Guardian|)}"
+        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Guardian|)} AND |Player Beacon:4|"
     },
     "Stalwart": {
         "connects_to": [
             "Warsect"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Stalwart|)}"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Stalwart|)} AND |Player Beacon:3|"
     },
     "Pristine": {
         "connects_to": [
             "Sibelyx"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Pristine|)}"
+        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Pristine|)} AND |Player Beacon:4|"
     },
     "Abyssal Nights": {
         "connects_to": [
             "Felbat"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Abyssal Nights|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Abyssal Nights|)} AND |Player Beacon:2|"
     },
     "Spirits": {
         "connects_to": [
             "Petallia"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of Spirits|)}"
+        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of Spirits|)} AND |Player Beacon:3|"
     },
     "Winged Tyrant": {
         "connects_to": [
             "Quivern"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Winged Tyrant|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Winged Tyrant|)} AND |Player Beacon:2|"
     },
     "Thunder Dragon": {
         "connects_to": [
             "Relaxaurus Lux"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Thunder Dragon|)}"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Thunder Dragon|)} AND |Player Beacon:3|"
     },
     "Swordmaster": {
         "connects_to": [
             "Bushi"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swordmaster|)}"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swordmaster|)} AND |Player Beacon:2|"
     },
     "Esoteric": {
         "connects_to": [
             "Lunaris"
         ],
-        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Esoteric|)}"
+        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Esoteric|)} AND |Player Beacon:3|"
+    },
+    "Player Progression": {
+        "starting": true,
+        "connects_to": [
+            "Player Progression 15"
+        ],
+        "requires": []
+    },
+    "Player Progression 15": {
+        "connects_to": [
+            "Player Progression 20"
+        ],
+        "requires": "{OptOne(Player Level:15)} AND |Player Beacon| AND (|Bamboo Beacon| OR |Grasslands Beacon|)"
+    },
+    "Player Progression 20": {
+        "connects_to": [
+            "Player Progression 30"
+        ],
+        "requires": "{OptOne(Player Level:20)} AND |Player Beacon| AND (|Crescent Beacon| OR |Forest Beacon|)"
+    },
+    "Player Progression 30": {
+        "connects_to": [
+            "Player Progression 40"
+        ],
+        "requires": "{OptOne(Player Level:30)} AND |Player Beacon:2| AND (|Volcano Beacon| OR |Cold Shore Beacon|)"
+    },
+    "Player Progression 40": {
+        "connects_to": [
+            "Player Progression 50"
+        ],
+        "requires": "{OptOne(Player Level:40)} AND |Player Beacon:3| AND (|Astral Beacon| OR |Dunes Beacon|)"
+    },
+    "Player Progression 50": {
+        "connects_to": [
+            "Player Progression 60"
+        ],
+        "requires": "{OptOne(Player Level:50)} AND |Player Beacon:4| AND |Sakurajima Beacon|"
+    },
+    "Player Progression 60": {
+        "connects_to": [],
+        "requires": "{OptOne(Player Level:60)} AND |Player Beacon:5| AND |Feybreak Beacon|"
     },
     "General": {
         "starting": true,

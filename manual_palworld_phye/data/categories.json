@@ -25,7 +25,7 @@
     "Schematics": {
         "yaml_option": [ "All_Schematics" ]
     },
-    "Skill Fruits": {
+    "Consumables - Skill Fruits": {
         "yaml_option": [ "Skill_Fruits" ]
     },
     "Elixirs": {
@@ -137,12 +137,14 @@
         "yaml_option": [ "Predator_Goal", "Predator_Pals" ],
         "hidden": true
     },
-    "Raid Bosses": {
-        "yaml_option": [ "Raid_Goal" ],
-        "hidden": false
-    },
     "Raid Boss Goal": {
         "yaml_option": [ "Raid_Goal" ],
+        "hidden": true
+    },
+    "Raid Beacon": {
+        "hidden": true
+    },
+    "Wildlife Beacons": {
         "hidden": true
     },
     "Veteran Hunter": {
@@ -155,6 +157,13 @@
     },
     "Catchem Goal": {
         "yaml_option": [ "CatchThemAll_Goal" ],
+        "hidden": true
+    },
+    "Lucky Hunt": {
+        "yaml_option": [ "Lucky_Pals" ]
+    },
+    "Lucky Goal": {
+        "yaml_option": [ "Lucky_Goal", "Lucky_Pals" ],
         "hidden": true
     },
     "Pal Merchants": {
@@ -228,6 +237,13 @@
     },
     "Chef Goal": {
         "yaml_option": [ "Chef_Goal" ],
+        "hidden": true
+    },
+    "Dungeons": {
+        "yaml_option": [ "Dungeons" ]
+    },
+    "Dungeoneer Goal": {
+        "yaml_option": [ "Dungeoneer_Goal", "Dungeons" ],
         "hidden": true
     },
     "Merchant Location": {

@@ -3914,7 +3914,7 @@
         "name": "Palpedia - Foxcicle (Beacon)",
         "region": "Foxcicle",
         "category": [
-            "Palpedia"
+            "Palpedia Beacons"
         ],
         "requires": [],
         "place_item": [ "Foxcicle Beacon" ]
@@ -4127,7 +4127,7 @@
         "name": "Palpedia - Surfent (Beacon)",
         "region": "Surfent",
         "category": [
-            "Palpedia"
+            "Palpedia Beacons"
         ],
         "requires": [],
         "place_item": [ "Surfent Beacon" ]
@@ -4476,7 +4476,7 @@
         "name": "Palpedia - Elphidran (Beacon)",
         "region": "Elphidran",
         "category": [
-            "Palpedia"
+            "Palpedia Beacons"
         ],
         "requires": [],
         "place_item": [ "Elphidran Beacon" ]
@@ -4876,7 +4876,7 @@
         "name": "Palpedia - Warsect (Beacon)",
         "region": "Warsect",
         "category": [
-            "Palpedia"
+            "Palpedia Beacons"
         ],
         "requires": [],
         "place_item": [ "Warsect Beacon" ]

@@ -461,13 +461,19 @@
             "Mammorest",
             "Croajiro",
             "Chillet",
-            "Kingpaca",
+            "Kingpaca Alpha",
             "Pal_Critic_SmallSettlement",
             "Frozen Wings",
             "Zoe Mission",
             "Sunlit Highway"
         ],
         "requires": "|Windswept Pass| OR {OptOne(|Windswept Spawn|)}"
+    },
+    "Kingpaca Alpha": {
+        "connects_to": [
+            "Kingpaca"
+        ],
+        "requires": "|Player Beacon:2|"
     },
     "Crescent Moon Shore": {
         "connects_to": [
@@ -508,11 +514,17 @@
             "Mammorest",
             "Helzephyr",
             "Mimog",
-            "Elphidran",
+            "Elphidran Alpha",
             "Spirits",
             "Pal_Critic_HypocriteHill"
         ],
         "requires": "|Crescent Pass| AND {OptOne(|Player Level:15|)}"
+    },
+    "Elphidran Alpha": {
+        "connects_to": [
+            "Elphidran"
+        ],
+        "requires": "|Player Beacon:3|"
     },
     "Sea Breeze Archipelago": {
         "connects_to": [
@@ -557,14 +569,26 @@
             "Tombat",
             "Mammorest",
             "Croajiro",
-            "Univolt",
+            "Univolt Alpha",
             "Swee",
             "Sweepa",
-            "Broncherry",
+            "Broncherry Alpha",
             "Esoteric",
             "Frostbitten Highway"
         ],
         "requires": "|Sea Breeze Pass| OR {OptOne(|Sea Breeze Spawn|)}"
+    },
+    "Univolt Alpha": {
+        "connects_to": [
+            "Univolt"
+        ],
+        "requires": "|Player Beacon:3|"
+    },
+    "Broncherry Alpha": {
+        "connects_to": [
+            "Broncherry"
+        ],
+        "requires": "|Player Beacon:2|"
     },
     "Mount Obsidian": {
         "connects_to": [
@@ -613,11 +637,23 @@
     "Hot Volcano": {
         "connects_to": [
             "Volcano Egg 2",
-            "Blazamut",
-            "Astegon",
+            "Blazamut Alpha",
+            "Astegon Alpha",
             "Jetragon"
         ],
         "requires": "|Tech - Progressive Workbench| AND |@Hot Temperature Clothes|"
+    },
+    "Blazamut Alpha": {
+        "connects_to": [
+            "Blazamut"
+        ],
+        "requires": "|Player Beacon:5|"
+    },
+    "Astegon Alpha": {
+        "connects_to": [
+            "Astegon"
+        ],
+        "requires": "|Player Beacon:5|"
     },
     "Feybreak": {
         "connects_to": [
@@ -657,7 +693,7 @@
             "Nitemary",
             "Starryon",
             "Smokie",
-            "Celesdir",
+            "Celesdir Alpha",
             "Omascul",
             "Splatterina",
             "Tarantriss",
@@ -665,13 +701,37 @@
             "Prunelia",
             "Nyafia",
             "Gildane",
-            "Fenglope Lux",
-            "Kitsun Noct",
+            "Fenglope Lux Alpha",
+            "Kitsun Noct Alpha",
             "Frostallion Noct",
-            "Silvegis",
+            "Silvegis Alpha",
             "Pal_Critic_StonePillarCaveEntrance"
         ],
         "requires": "|Feybreak Pass| AND |Tech - Pal Gear Workbench| AND |@EZ_Mounts| AND (|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Player Level:55|)}"
+    },
+    "Fenglope Lux Alpha": {
+        "connects_to": [
+            "Broncherry"
+        ],
+        "requires": "|Player Beacon:6|"
+    },
+    "Kitsun Noct Alpha": {
+        "connects_to": [
+            "Kitsun Noct"
+        ],
+        "requires": "|Player Beacon:6|"
+    },
+    "Silvegis Alpha": {
+        "connects_to": [
+            "Silvegis"
+        ],
+        "requires": "|Player Beacon:6|"
+    },
+    "Celesdir Alpha": {
+        "connects_to": [
+            "Celesdir"
+        ],
+        "requires": "|Player Beacon:6|"
     },
     "Feybreak Red": {
         "connects_to": [],
@@ -765,12 +825,24 @@
             "Mammorest Cryst",
             "Wumpo",
             "Mimog",
-            "Lyleen Noct",
-            "Kingpaca Cryst",
+            "Lyleen Noct Alpha",
+            "Kingpaca Cryst Alpha",
             "Frostallion",
             "Glacial Core Highway"
         ],
         "requires": "|Astral Pass| AND {OptOne(|Player Level:30|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+    },
+    "Lyleen Noct Alpha": {
+        "connects_to": [
+            "Lyleen Noct"
+        ],
+        "requires": "|Player Beacon:5|"
+    },
+    "Kingpaca Cryst Alpha": {
+        "connects_to": [
+            "Kingpaca Cryst"
+        ],
+        "requires": "|Player Beacon:5|"
     },
     "Foot of the Astral Mountains": {
         "connects_to": [
@@ -929,11 +1001,23 @@
             "Helzephyr",
             "Croajiro",
             "Mimog",
-            "Wumpo Botan",
-            "Mossanda Lux",
+            "Wumpo Botan Alpha",
+            "Mossanda Lux Alpha",
             "Arena Highway"
         ],
         "requires": "|Eastern Wild Pass| OR {OptOne(|Eastern Wild Spawn|)}"
+    },
+    "Wumpo Botan Alpha": {
+        "connects_to": [
+            "Wumpo Botan"
+        ],
+        "requires": "|Player Beacon:4|"
+    },
+    "Mossanda Lux Alpha": {
+        "connects_to": [
+            "Mossanda Lux"
+        ],
+        "requires": "|Player Beacon:3|"
     },
     "Ice Wind Island": {
         "connects_to": [
@@ -1058,13 +1142,19 @@
             "Suzaku",
             "Mimog",
             "Tarantriss",
-            "Menasting",
+            "Menasting Alpha",
             "Paladius",
             "Necromus",
             "Pal_Critic_Duneshelter",
             "Arrogant_Foodie"
         ],
         "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)} AND |Tech - Progressive Workbench| AND (|@Cold Temperature Clothes| OR |@Hot Temperature Clothes|)"
+    },
+    "Menasting Alpha": {
+        "connects_to": [
+            "Menasting"
+        ],
+        "requires": "|Player Beacon:4|"
     },
     "Marsh Island": {
         "connects_to": [
@@ -1304,7 +1394,7 @@
         "connects_to": [
             "Jormuntide"
         ],
-        "requires": []
+        "requires": "|Player Beacon:5|"
     },
     "Mixed Region - Natural Bridge": {
         "connects_to": [],
@@ -1845,7 +1935,7 @@
     },
     "Broncherry Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)} AND |Player Beacon:3|"
     },
     "Petallia": {
         "connects_to": [],
@@ -1937,11 +2027,11 @@
     },
     "Menasting Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:10|)}"
+        "requires": "{OptOne(|Ground Orb:10|)} AND |Player Beacon:5|"
     },
     "Anubis": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:10|)}"
+        "requires": "{OptOne(|Ground Orb:10|)} AND |Player Beacon:5|"
     },
     "Jormuntide": {
         "connects_to": [],
@@ -1989,23 +2079,23 @@
     },
     "Paladius": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:11|)}"
+        "requires": "{OptOne(|Neutral Orb:11|)} AND |Player Beacon:6|"
     },
     "Necromus": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND |Player Beacon:6|"
     },
     "Frostallion": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:11|)}"
+        "requires": "{OptOne(|Ice Orb:11|)} AND |Player Beacon:6|"
     },
     "Frostallion Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND |Player Beacon:6|"
     },
     "Jetragon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:11|)}"
+        "requires": "{OptOne(|Dragon Orb:11|)} AND |Player Beacon:6|"
     },
     "Bellanoir": {
         "connects_to": [],
@@ -2053,7 +2143,7 @@
     },
     "Knocklem": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:9|)}"
+        "requires": "{OptOne(|Ground Orb:9|)} AND |Player Beacon:6|"
     },
     "Yakumo": {
         "connects_to": [],
@@ -3139,7 +3229,7 @@
             "High Quality Bait",
             "Deluxe Bait"
         ],
-        "requires": "|Tech - Palbox| & (|Tech - Fishing Pond| or |Tech - Large Fishing Pond|) & |Tech - Mill| & |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
+        "requires": "|Tech - Palbox| AND ((|Tech - Fishing Pond| AND |Player Beacon:3|) OR (|Tech - Large Fishing Pond| AND |Player Beacon:5|)) AND |Tech - Mill| AND |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
     },
     "Common Bait": {
         "connects_to": [
@@ -3170,7 +3260,7 @@
             "Celaray Lux",
             "Surfent"
         ],
-        "requires": "|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)"
+        "requires": "|Tech - High Quality Bait| AND (|Volcano Beacon| OR |Dunes Beacon| OR (|Tech - Tomato Plantation| AND |@Tomato Drop|))"
     },
     "Deluxe Bait": {
         "connects_to": [
@@ -3186,7 +3276,7 @@
             "Turtacle Terra",
             "Azurobe Cryst"
         ],
-        "requires": "|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|"
+        "requires": "|Tech - Deluxe Bait| AND |Tech - Carrot Plantation| AND |Tech - Onion Plantation|"
     },
     "Fishing_Windswept": {
         "connects_to": [
@@ -3199,7 +3289,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Crescent": {
         "connects_to": [
@@ -3212,7 +3302,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_SeaBreeze": {
         "connects_to": [
@@ -3225,7 +3315,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Obsidian": {
         "connects_to": [
@@ -3237,7 +3327,7 @@
             "Gloopie",
             "Finsider"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Feybreak": {
         "connects_to": [
@@ -3248,7 +3338,7 @@
             "Whalaska",
             "Whalaska Ignis"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Sakurajima": {
         "connects_to": [
@@ -3257,7 +3347,7 @@
             "Gloopie",
             "Ghangler"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Astral": {
         "connects_to": [
@@ -3265,7 +3355,7 @@
             "Killamari",
             "Celaray Lux"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_AstralFoot": {
         "connects_to": [
@@ -3276,7 +3366,7 @@
             "Azurobe",
             "Turtacle"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Verdant": {
         "connects_to": [
@@ -3294,7 +3384,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Frostbound": {
         "connects_to": [
@@ -3302,7 +3392,7 @@
             "Munchill",
             "Polapup"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Scar": {
         "connects_to": [
@@ -3313,7 +3403,7 @@
             "Azurobe",
             "Turtacle"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_IceWind": {
         "connects_to": [
@@ -3324,7 +3414,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Forgotten": {
         "connects_to": [
@@ -3335,7 +3425,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Desert": {
         "connects_to": [
@@ -3345,7 +3435,7 @@
             "Turtacle Terra",
             "Finsider"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_EasternWild": {
         "connects_to": [
@@ -3357,7 +3447,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Marsh": {
         "connects_to": [
@@ -3368,7 +3458,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Arena": {
         "connects_to": [
@@ -3376,7 +3466,7 @@
             "Turtacle Terra",
             "Finsider"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Decayed": {
         "connects_to": [
@@ -3389,7 +3479,7 @@
             "Jelliette",
             "Gloopie"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Sunlit": {
         "connects_to": [
@@ -3400,7 +3490,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Oasis": {
         "connects_to": [
@@ -3408,7 +3498,7 @@
             "Dumud Gild",
             "Turtacle Terra"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Glacial": {
         "connects_to": [
@@ -3417,7 +3507,7 @@
             "Polapup",
             "Whalaska"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Phantom": {
         "connects_to": [
@@ -3426,7 +3516,7 @@
             "Finsider Ignis",
             "Ghangler"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Twilight": {
         "connects_to": [
@@ -3436,7 +3526,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Bamboo": {
         "connects_to": [
@@ -3447,7 +3537,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_EternalSummer": {
         "connects_to": [
@@ -3456,7 +3546,7 @@
             "Surfent Terra",
             "Turtacle Terra"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Frostbitten": {
         "connects_to": [
@@ -3466,14 +3556,14 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_WS_1": {
         "connects_to": [
             "Penking",
             "Turtacle"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_WS_2": {
         "connects_to": [
@@ -3481,14 +3571,14 @@
             "Ghangler Ignis",
             "Whalaska Ignis"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_WS_3": {
         "connects_to": [
             "Penking Lux",
             "Dumud Gild"
         ],
-        "requires": "|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|)"
+        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Hillside Cavern": {
         "connects_to": [

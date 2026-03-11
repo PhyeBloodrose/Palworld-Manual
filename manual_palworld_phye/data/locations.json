@@ -2426,7 +2426,7 @@
         "requires": []
     },
     {
-        "name": "Lily Everhart's Diary - 1'",
+        "name": "Lily Everhart's Diary - 1",
         "region": "Crescent Moon Shore",
         "category": [
             "Journals"
@@ -6309,7 +6309,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Palbox| OR {canReachLocation(Travel Point - Arena Entrance)}"
+        "requires": "|Tech - Palbox| OR |Arena Beacon|"
     },
     {
         "name": "Sub Mission - A Special Dish",
@@ -6341,7 +6341,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{canReachLocation(Palpedia - Cryolinx)}"
     },
     {
         "name": "Sub Mission - Give a Fuack",
@@ -6349,7 +6349,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachLocation(Palpedia - Fuack)}"
+        "requires": "{OptOne(|Water Orb|)}"
     },
     {
         "name": "Sub Mission - Metal on Your Mind",
@@ -6389,7 +6389,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Dark Orb:5|)}"
     },
     {
         "name": "Sub Mission - Hunting Essentials",
@@ -6397,7 +6397,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Ground Orb:5|)}"
     },
     {
         "name": "Sub Mission - The Fugitive",
@@ -6413,7 +6413,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
     },
     {
         "name": "Sub Mission - A Sweet Deal",
@@ -6421,7 +6421,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Grass Orb:4|)}"
     },
     {
         "name": "Sub Mission - A True Ascent Ends in Descent",
@@ -6429,7 +6429,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Ice Orb:7|)}"
     },
     {
         "name": "Sub Mission - Sparkly and Smooth",
@@ -6445,7 +6445,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Dark Orb:2|)} OR {OptOne(|Fire Orb:3|)}"
     },
     {
         "name": "Sub Mission - Easygoing Adventures",
@@ -6453,7 +6453,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "{OptOne(|Neutral Orb:4|)}"
     },
     {
         "name": "Sub Mission - Don't Get Cocky",

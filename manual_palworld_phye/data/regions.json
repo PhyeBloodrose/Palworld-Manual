@@ -4324,13 +4324,13 @@
         "connects_to": [
             "Zoe Mission 2"
         ],
-        "requires": "|Zoe's Key| AND |Wildlife Sanctuary 1 Tracker|"
+        "requires": "|Zoe's Key| AND |Wildlife 1 Beacon| AND {OptOne(|Electric Orb:9|)}"
     },
     "Zoe Mission 2": {
         "connects_to": [
             "Zoe Mission 3"
         ],
-        "requires": "{canReachLocation(Travel Point - Mossanda Forest)} OR {canReachLocation(Travel Point - Ancient Ritual Site)}"
+        "requires": "|Forest Beacon| OR |Crescent Beacon|"
     },
     "Zoe Mission 3": {
         "connects_to": [

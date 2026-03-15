@@ -2171,7 +2171,7 @@
     },
     "Xenolord": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ((|Sakurajima Beacon| AND |Sakura Dungeon Key|) OR (|Feybreak Beacon| AND |Feybreak Dungeon Key|)) AND {OptOne(|Player Level:60|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)})) AND {OptOne(|Player Level:60|)} AND |Player Beacon:6|"
     },
     "Nitemary": {
         "connects_to": [],
@@ -2303,7 +2303,7 @@
     },
     "Hartalis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:10|)} AND ((|Sakurajima Beacon| AND |Sakura Dungeon Key|) OR (|Feybreak Beacon| AND |Feybreak Dungeon Key|)) AND {OptOne(|Player Level:65|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Neutral Orb:10|)} AND ((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)})) AND {OptOne(|Player Level:65|)} AND |Player Beacon:6|"
     },
     "Grass Egg 1": {
         "connects_to": [

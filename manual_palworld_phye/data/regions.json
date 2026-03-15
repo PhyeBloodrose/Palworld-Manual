@@ -711,7 +711,7 @@
     },
     "Fenglope Lux Alpha": {
         "connects_to": [
-            "Broncherry"
+            "Fenglope Lux"
         ],
         "requires": "|Player Beacon:6|"
     },

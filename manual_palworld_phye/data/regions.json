@@ -534,7 +534,7 @@
             "Wildlife Sanctuary 1",
             "Grass Egg 1",
             "Fishing_SeaBreeze",
-            "Hillside Cavern",
+            "Isolated Island Cavern",
             "Incident_Grass",
             "Cage_Grass",
             "Pal Merchant",
@@ -969,7 +969,7 @@
             "Mixed Region - Natural Bridge",
             "Grass Egg 1",
             "Fishing_EasternWild",
-            "Hillside Cavern",
+            "Isolated Island Cavern",
             "Incident_Grass",
             "Black Marketeer",
             "EasternWild_BlackMarket",
@@ -1028,7 +1028,7 @@
             "Bamboo Groves",
             "Grass Egg 1",
             "Fishing_IceWind",
-            "Hillside Cavern",
+            "Isolated Island Cavern",
             "Lamball",
             "Cattiva",
             "Chikipi",
@@ -1061,7 +1061,7 @@
             "Ice Wind Island",
             "Grass Egg 1",
             "Fishing_Forgotten",
-            "Hillside Cavern",
+            "Isolated Island Cavern",
             "Incident_Grass",
             "Cage_Grass",
             "Pal Merchant",
@@ -1166,7 +1166,7 @@
             "Mixed Region - Natural Bridge",
             "Grass Egg 1",
             "Fishing_Marsh",
-            "Hillside Cavern",
+            "Isolated Island Cavern",
             "Incident_Grass",
             "Cage_Grass",
             "Pal Merchant",
@@ -1290,7 +1290,7 @@
             "Mixed Region - Jormuntide",
             "Grass Egg 2",
             "Fishing_Bamboo",
-            "Hillside Cavern",
+            "Ravine Grotto",
             "Grass Meteor",
             "Incident_Grass_B",
             "Cage_Grass2",
@@ -3589,7 +3589,27 @@
             "Turtacle",
             "Hillside Boss"
         ],
-        "requires": "{OptOne(|Grasslands Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Hillside Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |Player Beacon|"
+    },
+    "Isolated Island Cavern": {
+        "connects_to": [
+            "Daedream",
+            "Killamari",
+            "Fuddler",
+            "Mau",
+            "Hillside Boss"
+        ],
+        "requires": "{OptOne(|Isolated Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |Player Beacon|"
+    },
+    "Ravine Grotto": {
+        "connects_to": [
+            "Daedream",
+            "Nox",
+            "Fuddler",
+            "Mau",
+            "Ravine Boss"
+        ],
+        "requires": "{OptOne(|Ravine Dungeon Key|)} AND {OptOne(|Player Level:19|)} AND |Player Beacon:2|"
     },
     "Hillside Boss": {
         "connects_to": [
@@ -3617,6 +3637,27 @@
             "Tombat",
             "Dinossom",
             "Jelliette"
+        ],
+        "requires": "{YamlEnabled(Enable_Dungeons)}"
+    },
+    "Ravine Boss": {
+        "connects_to": [
+            "Cawgnito",
+            "Swee",
+            "Sweepa",
+            "Ribbuny",
+            "Woolipop",
+            "Mozzarina",
+            "Arsox",
+            "Galeclaw",
+            "Kelpsea",
+            "Surfent",
+            "Univolt",
+            "Dumud",
+            "Hangyu",
+            "Tocotoco",
+            "Digtoise",
+            "Jellroy"
         ],
         "requires": "{YamlEnabled(Enable_Dungeons)}"
     },

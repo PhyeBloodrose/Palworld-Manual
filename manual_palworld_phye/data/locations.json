@@ -12848,7 +12848,7 @@
     },
     {
         "name": "Finished the Ravine Grotto",
-        "region": "Hillside Cavern",
+        "region": "Ravine Grotto",
         "category": [
             "Dungeons"
         ],
@@ -12856,7 +12856,7 @@
     },
     {
         "name": "Finished the Isolated Island Cavern",
-        "region": "Hillside Cavern",
+        "region": "Isolated Island Cavern",
         "category": [
             "Dungeons"
         ],

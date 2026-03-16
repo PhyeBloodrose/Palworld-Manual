@@ -10075,7 +10075,23 @@
     },
     {
         "count": 1,
-        "name": "Grasslands Dungeon Key",
+        "name": "Hillside Dungeon Key",
+        "category": [
+            "Key Items - Dungeon Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Isolated Dungeon Key",
+        "category": [
+            "Key Items - Dungeon Keys"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Ravine Dungeon Key",
         "category": [
             "Key Items - Dungeon Keys"
         ],

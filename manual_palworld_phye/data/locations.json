@@ -2507,7 +2507,7 @@
     },
     {
         "name": "Axel Travers's Diary - 1",
-        "region": "Mount Obsidian",
+        "region": "Hot Volcano",
         "category": [
             "Journals"
         ],
@@ -13779,7 +13779,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": [],
+        "requires": "{OptOne(Player Level:20)}",
         "place_item": [ "Player Beacon" ]
     },
     {
@@ -13796,7 +13796,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "",
+        "requires": "{OptOne(Player Level:30)}",
         "place_item": [ "Player Beacon" ]
     },
     {
@@ -13813,7 +13813,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "",
+        "requires": "{OptOne(Player Level:40)}",
         "place_item": [ "Player Beacon" ]
     },
     {
@@ -13830,7 +13830,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "",
+        "requires": "{OptOne(Player Level:50)}",
         "place_item": [ "Player Beacon" ]
     },
     {
@@ -13847,7 +13847,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "",
+        "requires": "{OptOne(Player Level:60)}",
         "place_item": [ "Player Beacon" ]
     },
     {

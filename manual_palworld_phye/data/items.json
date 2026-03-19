@@ -418,8 +418,7 @@
         "count": 1,
         "name": "Tech - Rushoar Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -427,8 +426,7 @@
         "count": 1,
         "name": "Tech - Melpaca Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -460,8 +458,7 @@
         "count": 1,
         "name": "Tech - Direhowl's Saddled Harness",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -509,8 +506,7 @@
         "count": 1,
         "name": "Tech - Eikthyrdeer Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -550,8 +546,7 @@
         "count": 1,
         "name": "Tech - Nitewing Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -591,8 +586,7 @@
         "count": 1,
         "name": "Tech - Dinossom Saddle",
         "category": [
-            "Pal Gear",
-            "EZ_Mounts"
+            "Pal Gear"
         ],
         "progression": true
     },
@@ -3765,7 +3759,7 @@
         "category": [
             "Build - Pal"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 2,
@@ -7593,7 +7587,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7601,7 +7595,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7609,7 +7603,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7617,7 +7611,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7625,7 +7619,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7641,7 +7635,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7649,7 +7643,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7657,7 +7651,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -7665,7 +7659,7 @@
         "category": [
             "Technique Books"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11146,306 +11140,1820 @@
     },
     {
         "count": 1,
-        "name": "Eastern Wild Beacon",
+        "name": "Small Pal Soul",
         "category": [
-            "Beacons",
-            "Honey Drop",
-            "Tomato Drop"
+            "Materials",
+            "Pal Souls"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Medium Pal Soul",
+        "category": [
+            "Materials",
+            "Pal Souls"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Large Pal Soul",
+        "category": [
+            "Materials",
+            "Pal Souls"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Giant Pal Soul",
+        "category": [
+            "Materials",
+            "Pal Souls"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Berry Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Tomato Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Lettuce Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Wheat Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Potato Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Carrot Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Onion Seeds",
+        "category": [
+            "Materials",
+            "Seeds"
+        ],
+        "filler": true
+    },
+    {
+        "count": 1,
+        "name": "Lamball's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Cattiva's Bond",
+        "category": [
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Dunes Beacon",
+        "name": "Chikipi's Bond",
         "category": [
-            "Beacons",
-            "Tomato Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Sakurajima Beacon",
+        "name": "Lifmunk's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Feybreak Beacon",
+        "name": "Foxparks's Bond",
         "category": [
-            "Beacons",
-            "Honey Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Feybreak Frost Beacon",
+        "name": "Foxparks Cryst's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Astral Beacon",
+        "name": "Fuack's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Cold Shore Beacon",
+        "name": "Fuack Ignis's Bond",
         "category": [
-            "Beacons",
-            "Honey Drop",
-            "Tomato Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Forest Beacon",
+        "name": "Sparkit's Bond",
         "category": [
-            "Beacons",
-            "Honey Drop",
-            "Tomato Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Crescent Beacon",
+        "name": "Tanzee's Bond",
         "category": [
-            "Beacons",
-            "Honey Drop",
-            "Lettuce Drop",
-            "Tomato Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Frostbound Beacon",
+        "name": "Rooby's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Glacial Beacon",
+        "name": "Pengullet's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Volcano Beacon",
+        "name": "Pengullet Lux's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Hot Volcano Beacon",
+        "name": "Penking's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Grasslands Beacon",
+        "name": "Penking Lux's Bond",
         "category": [
-            "Beacons",
-            "Merchant Location"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Arena Beacon",
+        "name": "Jolthog's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Home Beacon",
+        "name": "Jolthog Cryst's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Bamboo Beacon",
+        "name": "Gumoss's Bond",
         "category": [
-            "Beacons",
-            "Tomato Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Twilight Beacon",
+        "name": "Vixy's Bond",
         "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Sea Breeze Beacon",
+        "name": "Hoocrates's Bond",
         "category": [
-            "Beacons",
-            "Merchant Location"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Forgotten Beacon",
+        "name": "Teafant's Bond",
         "category": [
-            "Beacons",
-            "Merchant Location"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Marsh Beacon",
+        "name": "Depresso's Bond",
         "category": [
-            "Beacons",
-            "Merchant Location"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Wildlife 1 Beacon",
+        "name": "Cremis's Bond",
         "category": [
-            "Beacons",
-            "Wildlife Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Wildlife 2 Beacon",
+        "name": "Daedream's Bond",
         "category": [
-            "Beacons",
-            "Wildlife Beacons",
-            "Lettuce Drop"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Wildlife 3 Beacon",
+        "name": "Rushoar's Bond",
         "category": [
-            "Beacons",
-            "Wildlife Beacons"
-        ],
-        "progression_skip_balancing": true
-    },
-    {
-        "count": 6,
-        "name": "Player Beacon",
-        "category": [
-            "Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Surfent Beacon",
+        "name": "Nox's Bond",
         "category": [
-            "Pal Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Elphidran Beacon",
+        "name": "Fuddler's Bond",
         "category": [
-            "Pal Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Warsect Beacon",
+        "name": "Killamari's Bond",
         "category": [
-            "Pal Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Foxcicle Beacon",
+        "name": "Killamari Primo's Bond",
         "category": [
-            "Pal Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Jormuntide Beacon",
+        "name": "Mau's Bond",
         "category": [
-            "Pal Beacons"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Bellanoir Beacon",
+        "name": "Mau Cryst's Bond",
         "category": [
-            "Pal Beacons",
-            "Raid Beacon"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Bellanoir Libero Beacon",
+        "name": "Celaray's Bond",
         "category": [
-            "Pal Beacons",
-            "Raid Beacon"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Blazamut Ryu Beacon",
+        "name": "Celaray Lux's Bond",
         "category": [
-            "Pal Beacons",
-            "Raid Beacon"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Xenolord Beacon",
+        "name": "Direhowl's Bond",
         "category": [
-            "Pal Beacons",
-            "Raid Beacon"
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
     {
         "count": 1,
-        "name": "Hartalis Beacon",
+        "name": "Tocotoco's Bond",
         "category": [
-            "Pal Beacons",
-            "Raid Beacon"
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Flopie's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Mozzarina's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bristla's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Gobfin's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Gobfin Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Hangyu's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Hangyu Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Mossanda's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Mossanda Lux's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Woolipop's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Caprity's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Caprity Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Melpaca's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Eikthyrdeer's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Eikthyrdeer Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Nitewing's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Ribbuny's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Ribbuny Botan's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Incineram's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Incineram Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Cinnamoth's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Arsox's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dumud's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dumud Gild's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Cawgnito's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Leezpunk's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Leezpunk Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Loupmoon's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Loupmoon Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Galeclaw's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Robinquill's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Robinquill Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Gorirat's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Gorirat Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Beegarde's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Elizabee's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Grintale's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Swee's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Sweepa's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Chillet's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Chillet Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Univolt's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Foxcicle's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Pyrin's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Pyrin Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Reindrix's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Rayhound's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kitsun's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kitsun Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dazzi's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dazzi Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Lunaris's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dinossom's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dinossom Lux's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Surfent's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Surfent Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Maraith's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Digtoise's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Tombat's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Lovander's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Flambelle's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Vanwyrm's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Vanwyrm Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bushi's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bushi Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Beakon's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Ragnahawk's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Katress's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Katress Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wixen's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wixen Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Verdash's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Vaelet's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Sibelyx's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Elphidran's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Elphidran Aqua's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kelpsea's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kelpsea Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Azurobe's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Azurobe Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Cryolinx's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Cryolinx Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Blazehowl's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Blazehowl Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Relaxaurus's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Relaxaurus Lux's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Broncherry's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Broncherry Aqua's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Petallia's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Reptyro's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Reptyro Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kingpaca's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kingpaca Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Mammorest's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Mammorest Cryst's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wumpo's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Wumpo Botan's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Warsect's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Warsect Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Fenglope's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Fenglope Lux's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Felbat's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Quivern's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Quivern Botan's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Blazamut's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Blazamut Ryu's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Helzephyr's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Helzephyr Lux's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Astegon's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Menasting's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Menasting Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Anubis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jormuntide's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jormuntide Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Suzaku's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Suzaku Aqua's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Grizzbolt's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Lyleen's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Lyleen Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Faleris's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Faleris Aqua's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Orserk's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Shadowbeak's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Paladius's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Necromus's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Frostallion's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Frostallion Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jetragon's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bellanoir's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bellanoir Libero's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Selyne's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Croajiro's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Croajiro Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Lullu's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Shroomer's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Shroomer Noct's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Kikit's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Sootseer's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Prixter's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Knocklem's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Yakumo's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dogen's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Dazemu's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Mimog's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Xenovader's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Xenogard's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Xenolord's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Nitemary's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Starryon's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Silvegis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Smokie's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Celesdir's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Omascul's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Splatterina's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Tarantriss's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Azurmane's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Bastigor's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Prunelia's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Nyafia's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Gildane's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Herbil's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Icelyn's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Frostplume's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Palumba's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Braloha's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Munchill's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Polapup's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Turtacle's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Turtacle Terra's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jellroy's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jelliette's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Gloopie's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Finsider's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Finsider Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Ghangler's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Ghangler Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Whalaska's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Whalaska Ignis's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Neptilius's Bond",
+        "category": [
+            "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Hartalis's Bond",
+        "category": [
+            "Pal Bonds"
         ],
         "progression_skip_balancing": true
     },
@@ -11580,6 +13088,15 @@
         "category": [
             "Key Items - Proof of Victory",
             "Lucky Goal"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (Base Builder)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Base Builder Goal"
         ],
         "progression_skip_balancing": true
     }

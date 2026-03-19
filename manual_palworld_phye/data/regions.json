@@ -40,7 +40,7 @@
         "connects_to": [
             "Base Level 8"
         ],
-        "requires": "|Tech - Hot Spring| AND |Tech - Progressive Furnace:1| AND |Tech - Berry Plantation| AND |Player Beacon|"
+        "requires": "|Tech - Hot Spring| AND |Tech - Progressive Furnace:1| AND |Tech - Berry Plantation| AND |@Player Beacon|"
     },
     "Base Level 8": {
         "connects_to": [
@@ -64,7 +64,7 @@
         "connects_to": [
             "Base Level 12"
         ],
-        "requires": "|Tech - Weapon Workbench| AND |Tech - Pal Labor Research Laboratory| AND |Player Beacon:2|"
+        "requires": "|Tech - Weapon Workbench| AND |Tech - Pal Labor Research Laboratory| AND |@Player Beacon:2|"
     },
     "Base Level 12": {
         "connects_to": [
@@ -82,7 +82,7 @@
         "connects_to": [
             "Base Level 15"
         ],
-        "requires": "|Tech - Weapon Assembly Line| AND |Tech - High Quality Hot Spring| AND |Player Beacon:3|"
+        "requires": "|Tech - Weapon Assembly Line| AND |Tech - High Quality Hot Spring| AND |@Player Beacon:3|"
     },
     "Base Level 15": {
         "connects_to": [
@@ -106,7 +106,7 @@
         "connects_to": [
             "Base Level 19"
         ],
-        "requires": "|Tech - Progressive Workbench:4| AND |Player Beacon:4|"
+        "requires": "|Tech - Progressive Workbench:4| AND |@Player Beacon:4|"
     },
     "Base Level 19": {
         "connects_to": [
@@ -130,7 +130,7 @@
         "connects_to": [
             "Base Level 23"
         ],
-        "requires": "|Tech - Crude Oil Extractor| AND (|Sakurajima Beacon| OR |Astral Beacon| OR |Hot Volcano Beacon| OR |Dunes Beacon| OR {canReachLocation(Travel Point - Sunlit Isle)}) AND |Player Beacon:5|"
+        "requires": "|Tech - Crude Oil Extractor| AND |@Crude Oil| AND |@Player Beacon:5|"
     },
     "Base Level 23": {
         "connects_to": [
@@ -170,7 +170,7 @@
     },
     "Base Level 29": {
         "connects_to": [],
-        "requires": "|A.Tech - Progressive Egg Incubator:4| AND |Player Beacon:6|"
+        "requires": "|A.Tech - Progressive Egg Incubator:4| AND |@Player Beacon:6|"
     },
     "Mission 1": {
         "starting": true,
@@ -249,13 +249,13 @@
         "connects_to": [
             "Mission 14"
         ],
-        "requires": "|@Cloth Armor| OR (|Tech - Progressive Workbench:2| AND (|@Leather Armor| OR (|@Metal Armor| AND |Tech - Progressive Furnace|)))"
+        "requires": "|@Cloth Armor| OR (|Tech - Progressive Workbench:2| AND (|@Leather Armor| OR (|@Metal Armor| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace|)))"
     },
     "Mission 14": {
         "connects_to": [
             "Mission 15"
         ],
-        "requires": []
+        "requires": "|Lamball Beacon|"
     },
     "Mission 15": {
         "connects_to": [
@@ -285,7 +285,7 @@
         "connects_to": [
             "Mission 20"
         ],
-        "requires": "|Grasslands Beacon| AND {OptOne(|Player Level:11|)} AND |Player Beacon:1|"
+        "requires": "|Grasslands Beacon| AND {OptOne(|Player Level:11|)} AND |@Player Beacon:1|"
     },
     "Mission 20": {
         "connects_to": [
@@ -297,7 +297,7 @@
         "connects_to": [
             "Mission 22"
         ],
-        "requires": "{OptOne(|Seal of the Frozen Wings|)} AND {OptOne(|Player Level:15|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Seal of the Frozen Wings|)} AND {OptOne(|Player Level:15|)} AND |@Player Beacon:2|"
     },
     "Mission 22": {
         "connects_to": [
@@ -309,7 +309,7 @@
         "connects_to": [
             "Mission 24"
         ],
-        "requires": "{canReachLocation(Base Level 7 Task)}"
+        "requires": "|Home Beacon 1|"
     },
     "Mission 24": {
         "connects_to": [
@@ -327,31 +327,31 @@
         "connects_to": [
             "Mission 27"
         ],
-        "requires": "|Lily's Key| AND |Frostbound Beacon| AND {OptOne(|Player Level:25|)} AND |Player Beacon:3|"
+        "requires": "|Lily's Key| AND |Frostbound Beacon| AND {OptOne(|Player Level:25|)} AND |@Player Beacon:3|"
     },
     "Mission 27": {
         "connects_to": [
             "Mission 28"
         ],
-        "requires": "|Axel's Key| AND |Hot Volcano Beacon| AND {OptOne(|Player Level:40|)} AND |Player Beacon:4|"
+        "requires": "|Axel's Key| AND |Hot Volcano Beacon| AND {OptOne(|Player Level:40|)} AND |@Player Beacon:4|"
     },
     "Mission 28": {
         "connects_to": [
             "Mission 29"
         ],
-        "requires": "|Marcus's Key| AND |Dunes Beacon| AND {OptOne(|Player Level:45|)} AND |Player Beacon:5|"
+        "requires": "|Marcus's Key| AND |Dunes Beacon| AND {OptOne(|Player Level:45|)} AND |@Player Beacon:5|"
     },
     "Mission 29": {
         "connects_to": [
             "Mission 30"
         ],
-        "requires": "|Victor's Key| AND |Astral Beacon| AND {OptOne(|Player Level:50|)} AND |Player Beacon:5|"
+        "requires": "|Victor's Key| AND |Astral Beacon| AND {OptOne(|Player Level:50|)} AND |@Player Beacon:5|"
     },
     "Mission 30": {
         "connects_to": [
             "Mission 31"
         ],
-        "requires": "|Saya's Key| AND |Sakurajima Beacon| AND {OptOne(|Player Level:55|)} AND |Player Beacon:6|"
+        "requires": "|Saya's Key| AND |Sakurajima Beacon| AND {OptOne(|Player Level:55|)} AND |@Player Beacon:6|"
     },
     "Mission 31": {
         "connects_to": [
@@ -379,37 +379,37 @@
         "connects_to": [
             "Windswept Hills"
         ],
-        "requires": "{OptOne(|Windswept Spawn|)} or {YamlDisabled(Random_Spawn)}"
+        "requires": "{OptOne(|Windswept Spawn|)} OR {YamlDisabled(Random_Spawn)}"
     },
     "Sea Breeze Gate": {
         "connects_to": [
             "Sea Breeze Archipelago"
         ],
-        "requires": "{OptOne(|Sea Breeze Spawn|)} and {YamlEnabled(Random_Spawn)}"
+        "requires": "{OptOne(|Sea Breeze Spawn|)} AND {YamlEnabled(Random_Spawn)}"
     },
     "Forgotten Gate": {
         "connects_to": [
             "Forgotten Island"
         ],
-        "requires": "{OptOne(|Forgotten Spawn|)} and {YamlEnabled(Random_Spawn)}"
+        "requires": "{OptOne(|Forgotten Spawn|)} AND {YamlEnabled(Random_Spawn)}"
     },
     "Ice Wind Gate": {
         "connects_to": [
             "Ice Wind Island"
         ],
-        "requires": "{OptOne(|Ice Wind Spawn|)} and {YamlEnabled(Random_Spawn)}"
+        "requires": "{OptOne(|Ice Wind Spawn|)} AND {YamlEnabled(Random_Spawn)}"
     },
     "Marsh Gate": {
         "connects_to": [
             "Marsh Island"
         ],
-        "requires": "{OptOne(|Marsh Spawn|)} and {YamlEnabled(Random_Spawn)}"
+        "requires": "{OptOne(|Marsh Spawn|)} AND {YamlEnabled(Random_Spawn)}"
     },
     "Eastern Wild Gate": {
         "connects_to": [
             "Eastern Wild Island"
         ],
-        "requires": "{OptOne(|Eastern Wild Spawn|)} and {YamlEnabled(Random_Spawn)}"
+        "requires": "{OptOne(|Eastern Wild Spawn|)} AND {YamlEnabled(Random_Spawn)}"
     },
     "Windswept Hills": {
         "connects_to": [
@@ -468,13 +468,13 @@
             "Zoe Mission",
             "Sunlit Highway"
         ],
-        "requires": "|Windswept Pass| OR {OptOne(|Windswept Spawn|)}"
+        "requires": "|Windswept Pass| OR ({OptOne(|Windswept Spawn|)} AND {YamlEnabled(Random_Spawn)})"
     },
     "Kingpaca Alpha": {
         "connects_to": [
             "Kingpaca"
         ],
-        "requires": "|Player Beacon:2|"
+        "requires": "|@Player Beacon:2|"
     },
     "Crescent Moon Shore": {
         "connects_to": [
@@ -525,7 +525,7 @@
         "connects_to": [
             "Elphidran"
         ],
-        "requires": "|Player Beacon:3|"
+        "requires": "|@Player Beacon:3|"
     },
     "Sea Breeze Archipelago": {
         "connects_to": [
@@ -577,19 +577,19 @@
             "Esoteric",
             "Frostbitten Highway"
         ],
-        "requires": "|Sea Breeze Pass| OR {OptOne(|Sea Breeze Spawn|)}"
+        "requires": "|Sea Breeze Pass| OR ({OptOne(|Sea Breeze Spawn|)} AND {YamlEnabled(Random_Spawn)})"
     },
     "Univolt Alpha": {
         "connects_to": [
             "Univolt"
         ],
-        "requires": "|Player Beacon:3|"
+        "requires": "|@Player Beacon:3|"
     },
     "Broncherry Alpha": {
         "connects_to": [
             "Broncherry"
         ],
-        "requires": "|Player Beacon:2|"
+        "requires": "|@Player Beacon:2|"
     },
     "Mount Obsidian": {
         "connects_to": [
@@ -648,13 +648,13 @@
         "connects_to": [
             "Blazamut"
         ],
-        "requires": "|Player Beacon:5|"
+        "requires": "|@Player Beacon:5|"
     },
     "Astegon Alpha": {
         "connects_to": [
             "Astegon"
         ],
-        "requires": "|Player Beacon:5|"
+        "requires": "|@Player Beacon:5|"
     },
     "Feybreak": {
         "connects_to": [
@@ -708,31 +708,31 @@
             "Silvegis Alpha",
             "Pal_Critic_StonePillarCaveEntrance"
         ],
-        "requires": "|Feybreak Pass| AND |Tech - Pal Gear Workbench| AND |@EZ_Mounts| AND (|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Player Level:55|)}"
+        "requires": "|Feybreak Pass| AND |EZ Mount| AND {OptOne(|Player Level:55|)}"
     },
     "Fenglope Lux Alpha": {
         "connects_to": [
             "Fenglope Lux"
         ],
-        "requires": "|Player Beacon:6|"
+        "requires": "|@Player Beacon:6|"
     },
     "Kitsun Noct Alpha": {
         "connects_to": [
             "Kitsun Noct"
         ],
-        "requires": "|Player Beacon:6|"
+        "requires": "|@Player Beacon:6|"
     },
     "Silvegis Alpha": {
         "connects_to": [
             "Silvegis"
         ],
-        "requires": "|Player Beacon:6|"
+        "requires": "|@Player Beacon:6|"
     },
     "Celesdir Alpha": {
         "connects_to": [
             "Celesdir"
         ],
-        "requires": "|Player Beacon:6|"
+        "requires": "|@Player Beacon:6|"
     },
     "Feybreak Red": {
         "connects_to": [],
@@ -837,13 +837,13 @@
         "connects_to": [
             "Lyleen Noct"
         ],
-        "requires": "|Player Beacon:5|"
+        "requires": "|@Player Beacon:5|"
     },
     "Kingpaca Cryst Alpha": {
         "connects_to": [
             "Kingpaca Cryst"
         ],
-        "requires": "|Player Beacon:5|"
+        "requires": "|@Player Beacon:5|"
     },
     "Foot of the Astral Mountains": {
         "connects_to": [
@@ -1006,19 +1006,19 @@
             "Mossanda Lux Alpha",
             "Arena Highway"
         ],
-        "requires": "|Eastern Wild Pass| OR {OptOne(|Eastern Wild Spawn|)}"
+        "requires": "|Eastern Wild Pass| OR ({OptOne(|Eastern Wild Spawn|)} AND {YamlEnabled(Random_Spawn)})"
     },
     "Wumpo Botan Alpha": {
         "connects_to": [
             "Wumpo Botan"
         ],
-        "requires": "|Player Beacon:4|"
+        "requires": "|@Player Beacon:4|"
     },
     "Mossanda Lux Alpha": {
         "connects_to": [
             "Mossanda Lux"
         ],
-        "requires": "|Player Beacon:3|"
+        "requires": "|@Player Beacon:3|"
     },
     "Ice Wind Island": {
         "connects_to": [
@@ -1053,7 +1053,7 @@
             "Croajiro",
             "Dumud"
         ],
-        "requires": "|Ice Wind Pass| OR {OptOne(|Ice Wind Spawn|)}"
+        "requires": "|Ice Wind Pass| OR ({OptOne(|Ice Wind Spawn|)} AND {YamlEnabled(Random_Spawn)})"
     },
     "Forgotten Island": {
         "connects_to": [
@@ -1094,7 +1094,7 @@
             "Abyssal Nights",
             "Forgotten Highway"
         ],
-        "requires": "|Forgotten Pass| OR {OptOne(|Forgotten Spawn|)}"
+        "requires": "|Forgotten Pass| OR ({OptOne(|Forgotten Spawn|)} AND {YamlEnabled(Random_Spawn)})"
     },
     "Forgotten Highway": {
         "connects_to": [
@@ -1102,7 +1102,7 @@
             "Mount Obsidian",
             "Forgotten Island"
         ],
-        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+        "requires": "|EZ Mount|"
     },
     "Dessicated Dunes": {
         "connects_to": [
@@ -1156,7 +1156,7 @@
         "connects_to": [
             "Menasting"
         ],
-        "requires": "|Player Beacon:4|"
+        "requires": "|@Player Beacon:4|"
     },
     "Marsh Island": {
         "connects_to": [
@@ -1198,7 +1198,7 @@
             "Croajiro",
             "Grintale"
         ],
-        "requires": "|Marsh Pass| OR {OptOne(|Marsh Spawn|)}"
+        "requires": "|Marsh Pass| OR ({OptOne(|Marsh Spawn|)} AND {YamlEnabled(Random_Spawn)})"
     },
     "Isle of Decayed Treasures": {
         "connects_to": [
@@ -1220,7 +1220,7 @@
         "connects_to": [
             "Sunlit Isle"
         ],
-        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+        "requires": "|EZ Mount|"
     },
     "Oasis Isle": {
         "connects_to": [
@@ -1246,7 +1246,7 @@
         "connects_to": [
             "Isle of the Glacial Core"
         ],
-        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+        "requires": "|EZ Mount|"
     },
     "Phantom Isle": {
         "connects_to": [
@@ -1347,7 +1347,7 @@
         "connects_to": [
             "Pal Arena"
         ],
-        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+        "requires": "|EZ Mount|"
     },
     "Eternal Summer Isle": {
         "connects_to": [
@@ -1372,7 +1372,7 @@
         "connects_to": [
             "Frostbitten Isle"
         ],
-        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+        "requires": "|EZ Mount|"
     },
     "Mixed Region - Azurobe": {
         "connects_to": [
@@ -1391,13 +1391,13 @@
         "connects_to": [
             "Katress"
         ],
-        "requires": "{OptOne(|Seal of the Sorcerer|)} AND {OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Seal of the Sorcerer|)} AND {OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     "Mixed Region - Jormuntide": {
         "connects_to": [
             "Jormuntide"
         ],
-        "requires": "|Player Beacon:5|"
+        "requires": "|@Player Beacon:5|"
     },
     "Mixed Region - Natural Bridge": {
         "connects_to": [],
@@ -1450,863 +1450,863 @@
     },
     "Lamball": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Lamball's Bond|)}"
     },
     "Cattiva": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Cattiva's Bond|)}"
     },
     "Chikipi": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Chikipi's Bond|)}"
     },
     "Lifmunk": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Lifmunk's Bond|)}"
     },
     "Foxparks": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)}"
+        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Foxparks's Bond|)}"
     },
     "Foxparks Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb|)}"
+        "requires": "{OptOne(|Ice Orb|)} AND {OptOne(|Foxparks Cryst's Bond|)}"
     },
     "Fuack": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Fuack's Bond|)}"
     },
     "Fuack Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Fire Orb:2|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Fire Orb:2|)} AND {OptOne(|Fuack Ignis's Bond|)}"
     },
     "Sparkit": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb|)}"
+        "requires": "{OptOne(|Electric Orb|)} AND {OptOne(|Sparkit's Bond|)}"
     },
     "Tanzee": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Tanzee's Bond|)}"
     },
     "Rooby": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:2|)}"
+        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Rooby's Bond|)}"
     },
     "Pengullet": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Ice Orb|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Ice Orb|)} AND {OptOne(|Pengullet's Bond|)}"
     },
     "Pengullet Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Electric Orb:2|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Electric Orb:2|)} AND {OptOne(|Pengullet Lux's Bond|)}"
     },
     "Penking": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Ice Orb:6|)}"
+        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Ice Orb:6|)} AND {OptOne(|Penking's Bond|)}"
     },
     "Penking Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Electric Orb:7|)}"
+        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Electric Orb:7|)} AND {OptOne(|Penking Lux's Bond|)}"
     },
     "Jolthog": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb|)}"
+        "requires": "{OptOne(|Electric Orb|)} AND {OptOne(|Jolthog's Bond|)}"
     },
     "Jolthog Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Jolthog Cryst's Bond|)}"
     },
     "Gumoss": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ground Orb|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ground Orb|)} AND {OptOne(|Gumoss's Bond|)}"
     },
     "Vixy": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Vixy's Bond|)}"
     },
     "Hoocrates": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Hoocrates's Bond|)}"
     },
     "Teafant": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Teafant's Bond|)}"
     },
     "Depresso": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Depresso's Bond|)}"
     },
     "Cremis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Cremis's Bond|)}"
     },
     "Daedream": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Daedream's Bond|)}"
     },
     "Rushoar": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb|)}"
+        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Rushoar's Bond|)}"
     },
     "Nox": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Nox's Bond|)}"
     },
     "Fuddler": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb|)}"
+        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Fuddler's Bond|)}"
     },
     "Killamari": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Water Orb|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Water Orb|)} AND {OptOne(|Killamari's Bond|)}"
     },
     "Killamari Primo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Water Orb:2|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Water Orb:2|)} AND {OptOne(|Killamari Primo's Bond|)}"
     },
     "Mau": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Mau's Bond|)}"
     },
     "Mau Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Mau Cryst's Bond|)}"
     },
     "Celaray": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Celaray's Bond|)}"
     },
     "Celaray Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Electric Orb:4|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Electric Orb:4|)} AND {OptOne(|Celaray Lux's Bond|)}"
     },
     "Direhowl": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Direhowl's Bond|)}"
     },
     "Tocotoco": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Tocotoco's Bond|)}"
     },
     "Flopie": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Flopie's Bond|)}"
     },
     "Mozzarina": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Mozzarina's Bond|)}"
     },
     "Bristla": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Bristla's Bond|)}"
     },
     "Gobfin": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Gobfin's Bond|)}"
     },
     "Gobfin Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:3|)}"
+        "requires": "{OptOne(|Fire Orb:3|)} AND {OptOne(|Gobfin Ignis's Bond|)}"
     },
     "Hangyu": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb|)}"
+        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Hangyu's Bond|)}"
     },
     "Hangyu Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Hangyu Cryst's Bond|)}"
     },
     "Mossanda": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Mossanda's Bond|)}"
     },
     "Mossanda Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:7|)}"
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Mossanda Lux's Bond|)}"
     },
     "Woolipop": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Woolipop's Bond|)}"
     },
     "Caprity": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:3|)}"
+        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Caprity's Bond|)}"
     },
     "Caprity Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Caprity Noct's Bond|)}"
     },
     "Melpaca": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Melpaca's Bond|)}"
     },
     "Eikthyrdeer": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:4|)}"
+        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Eikthyrdeer's Bond|)}"
     },
     "Eikthyrdeer Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:6|)}"
+        "requires": "{OptOne(|Ground Orb:6|)} AND {OptOne(|Eikthyrdeer Terra's Bond|)}"
     },
     "Nitewing": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Nitewing's Bond|)}"
     },
     "Ribbuny": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Ribbuny's Bond|)}"
     },
     "Ribbuny Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ribbuny Botan's Bond|)}"
     },
     "Incineram": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)}"
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)} AND {OptOne(|Incineram's Bond|)}"
     },
     "Incineram Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Incineram Noct's Bond|)}"
     },
     "Cinnamoth": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Cinnamoth's Bond|)}"
     },
     "Arsox": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:4|)}"
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Arsox's Bond|)}"
     },
     "Dumud": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)} AND {OptOne(|Dumud's Bond|)}"
     },
     "Dumud Gild": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Dumud Gild's Bond|)}"
     },
     "Cawgnito": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Cawgnito's Bond|)}"
     },
     "Leezpunk": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:2|)}"
+        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Leezpunk's Bond|)}"
     },
     "Leezpunk Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:3|)}"
+        "requires": "{OptOne(|Fire Orb:3|)} AND {OptOne(|Leezpunk Ignis's Bond|)}"
     },
     "Loupmoon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Loupmoon's Bond|)}"
     },
     "Loupmoon Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:3|)}"
+        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Loupmoon Cryst's Bond|)}"
     },
     "Galeclaw": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Galeclaw's Bond|)}"
     },
     "Robinquill": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Robinquill's Bond|)}"
     },
     "Robinquill Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Grass Orb:6|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Grass Orb:6|)} AND {OptOne(|Robinquill Terra's Bond|)}"
     },
     "Gorirat": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:5|)}"
+        "requires": "{OptOne(|Neutral Orb:5|)} AND {OptOne(|Gorirat's Bond|)}"
     },
     "Gorirat Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Gorirat Terra's Bond|)}"
     },
     "Beegarde": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Beegarde's Bond|)}"
     },
     "Elizabee": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Elizabee's Bond|)}"
     },
     "Grintale": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Grintale's Bond|)}"
     },
     "Swee": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb|)}"
+        "requires": "{OptOne(|Ice Orb|)} AND {OptOne(|Swee's Bond|)}"
     },
     "Sweepa": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:6|)}"
+        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Sweepa's Bond|)}"
     },
     "Chillet": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Dragon Orb:4|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Dragon Orb:4|)} AND {OptOne(|Chillet's Bond|)}"
     },
     "Chillet Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dragon Orb:5|)}"
+        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dragon Orb:5|)} AND {OptOne(|Chillet Ignis's Bond|)}"
     },
     "Univolt": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:5|)}"
+        "requires": "{OptOne(|Electric Orb:5|)} AND {OptOne(|Univolt's Bond|)}"
     },
     "Foxcicle": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:5|)}"
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Foxcicle's Bond|)}"
     },
     "Pyrin": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Pyrin's Bond|)}"
     },
     "Pyrin Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Pyrin Noct's Bond|)}"
     },
     "Reindrix": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Reindrix's Bond|)}"
     },
     "Rayhound": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:5|)}"
+        "requires": "{OptOne(|Electric Orb:5|)} AND {OptOne(|Rayhound's Bond|)}"
     },
     "Kitsun": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Kitsun's Bond|)}"
     },
     "Kitsun Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Kitsun Noct's Bond|)}"
     },
     "Dazzi": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:2|)}"
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dazzi's Bond|)}"
     },
     "Dazzi Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dark Orb:2|)}"
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dark Orb:2|)} AND {OptOne(|Dazzi Noct's Bond|)}"
     },
     "Lunaris": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Lunaris's Bond|)}"
     },
     "Dinossom": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Dragon Orb:6|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Dragon Orb:6|)} AND {OptOne(|Dinossom's Bond|)}"
     },
     "Dinossom Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Dragon Orb:7|)}"
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Dragon Orb:7|)} AND {OptOne(|Dinossom Lux's Bond|)}"
     },
     "Surfent": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Surfent's Bond|)}"
     },
     "Surfent Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Surfent Terra's Bond|)}"
     },
     "Maraith": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Maraith's Bond|)}"
     },
     "Digtoise": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Digtoise's Bond|)}"
     },
     "Tombat": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Tombat's Bond|)}"
     },
     "Lovander": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:5|)}"
+        "requires": "{OptOne(|Neutral Orb:5|)} AND {OptOne(|Lovander's Bond|)}"
     },
     "Flambelle": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)}"
+        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Flambelle's Bond|)}"
     },
     "Vanwyrm": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)}"
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)} AND {OptOne(|Vanwyrm's Bond|)}"
     },
     "Vanwyrm Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Dark Orb:5|)}"
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Vanwyrm Cryst's Bond|)}"
     },
     "Bushi": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Bushi's Bond|)}"
     },
     "Bushi Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Bushi Noct's Bond|)}"
     },
     "Beakon": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:6|)}"
+        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Beakon's Bond|)}"
     },
     "Ragnahawk": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Ragnahawk's Bond|)}"
     },
     "Katress": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Katress's Bond|)}"
     },
     "Katress Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)} AND {OptOne(|Katress Ignis's Bond|)}"
     },
     "Wixen": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Wixen's Bond|)}"
     },
     "Wixen Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)} AND {OptOne(|Wixen Noct's Bond|)}"
     },
     "Verdash": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Verdash's Bond|)}"
     },
     "Vaelet": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Vaelet's Bond|)}"
     },
     "Sibelyx": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Sibelyx's Bond|)}"
     },
     "Elphidran": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:7|)}"
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Elphidran's Bond|)}"
     },
     "Elphidran Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Elphidran Aqua's Bond|)}"
     },
     "Kelpsea": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Kelpsea's Bond|)}"
     },
     "Kelpsea Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)}"
+        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Kelpsea Ignis's Bond|)}"
     },
     "Azurobe": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Water Orb:7|)}"
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Water Orb:7|)} AND {OptOne(|Azurobe's Bond|)}"
     },
     "Azurobe Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Ice Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Ice Orb:8|)} AND {OptOne(|Azurobe Cryst's Bond|)}"
     },
     "Cryolinx": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Cryolinx's Bond|)}"
     },
     "Cryolinx Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:7|)}"
+        "requires": "{OptOne(|Ground Orb:7|)} AND {OptOne(|Cryolinx Terra's Bond|)}"
     },
     "Blazehowl": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Blazehowl's Bond|)}"
     },
     "Blazehowl Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Dark Orb:8|)}"
+        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Blazehowl Noct's Bond|)}"
     },
     "Relaxaurus": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Relaxaurus's Bond|)}"
     },
     "Relaxaurus Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)} AND {OptOne(|Relaxaurus Lux's Bond|)}"
     },
     "Broncherry": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:7|)}"
+        "requires": "{OptOne(|Grass Orb:7|)} AND {OptOne(|Broncherry's Bond|)}"
     },
     "Broncherry Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)} AND |@Player Beacon:3| AND {OptOne(|Broncherry Aqua's Bond|)}"
     },
     "Petallia": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Petallia's Bond|)}"
     },
     "Reptyro": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Ground Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Reptyro's Bond|)}"
     },
     "Reptyro Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Reptyro Cryst's Bond|)}"
     },
     "Kingpaca": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:8|)}"
+        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Kingpaca's Bond|)}"
     },
     "Kingpaca Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:9|)}"
+        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Kingpaca Cryst's Bond|)}"
     },
     "Mammorest": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Mammorest's Bond|)}"
     },
     "Mammorest Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Ground Orb:9|)}"
+        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Ground Orb:9|)} AND {OptOne(|Mammorest Cryst's Bond|)}"
     },
     "Wumpo": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Wumpo's Bond|)}"
     },
     "Wumpo Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Wumpo Botan's Bond|)}"
     },
     "Warsect": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Warsect's Bond|)}"
     },
     "Warsect Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:9|)}"
+        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Warsect Terra's Bond|)}"
     },
     "Fenglope": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Fenglope's Bond|)}"
     },
     "Fenglope Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:3|)}"
+        "requires": "{OptOne(|Electric Orb:3|)} AND {OptOne(|Fenglope Lux's Bond|)}"
     },
     "Felbat": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Felbat's Bond|)}"
     },
     "Quivern": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:7|)}"
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Quivern's Bond|)}"
     },
     "Quivern Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Grass Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Quivern Botan's Bond|)}"
     },
     "Blazamut": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:9|)}"
+        "requires": "{OptOne(|Fire Orb:9|)} AND {OptOne(|Blazamut's Bond|)}"
     },
     "Blazamut Ryu": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND ((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)}) OR ((|Astral Beacon| OR |Cold Shore Beacon|) AND {OptOne(|Astral Dungeon Key|)})) AND {OptOne(|Player Level:55|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND {OptOne(|Dragon Egg Voucher:3|)} AND {OptOne(|Blazamut Ryu's Bond|)} AND |A.Tech - Progressive Egg Incubator|"
     },
     "Helzephyr": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Helzephyr's Bond|)}"
     },
     "Helzephyr Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)}"
+        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)} AND {OptOne(|Helzephyr Lux's Bond|)}"
     },
     "Astegon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Dark Orb:9|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Dark Orb:9|)} AND {OptOne(|Astegon's Bond|)}"
     },
     "Menasting": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Ground Orb:9|)}"
+        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Ground Orb:9|)} AND {OptOne(|Menasting's Bond|)}"
     },
     "Menasting Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:10|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Ground Orb:10|)} AND |@Player Beacon:5| AND {OptOne(|Menasting Terra's Bond|)}"
     },
     "Anubis": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:10|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Ground Orb:10|)} AND |@Player Beacon:5| AND {OptOne(|Anubis's Bond|)}"
     },
     "Jormuntide": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Jormuntide's Bond|)}"
     },
     "Jormuntide Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Fire Orb:9|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Fire Orb:9|)} AND {OptOne(|Jormuntide Ignis's Bond|)}"
     },
     "Suzaku": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:8|)}"
+        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Suzaku's Bond|)}"
     },
     "Suzaku Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:9|)}"
+        "requires": "{OptOne(|Water Orb:9|)} AND {OptOne(|Suzaku Aqua's Bond|)}"
     },
     "Grizzbolt": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:8|)}"
+        "requires": "{OptOne(|Electric Orb:8|)} AND {OptOne(|Grizzbolt's Bond|)}"
     },
     "Lyleen": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:9|)}"
+        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Lyleen's Bond|)}"
     },
     "Lyleen Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:10|)}"
+        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Lyleen Noct's Bond|)}"
     },
     "Faleris": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:9|)}"
+        "requires": "{OptOne(|Fire Orb:9|)} AND {OptOne(|Faleris's Bond|)}"
     },
     "Faleris Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:9|)}"
+        "requires": "{OptOne(|Water Orb:9|)} AND {OptOne(|Faleris Aqua's Bond|)}"
     },
     "Orserk": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Electric Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Electric Orb:8|)} AND {OptOne(|Orserk's Bond|)}"
     },
     "Shadowbeak": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:10|)}"
+        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Shadowbeak's Bond|)}"
     },
     "Paladius": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Neutral Orb:11|)} AND |@Player Beacon:6| AND {OptOne(|Paladius's Bond|)}"
     },
     "Necromus": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Dark Orb:11|)} AND |@Player Beacon:6| AND {OptOne(|Necromus's Bond|)}"
     },
     "Frostallion": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Ice Orb:11|)} AND |@Player Beacon:6| AND {OptOne(|Frostallion's Bond|)}"
     },
     "Frostallion Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Dark Orb:11|)} AND |@Player Beacon:6| AND {OptOne(|Frostallion Noct's Bond|)}"
     },
     "Jetragon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Dragon Orb:11|)} AND |@Player Beacon:6| AND {OptOne(|Jetragon's Bond|)}"
     },
     "Bellanoir": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND ((|Dunes Beacon| AND {OptOne(|Dunes Dungeon Key|)}) OR (|Volcano Beacon| AND {OptOne(|Volcanic Dungeon Key|)}) OR ((|Crescent Beacon| OR |Forest Beacon|) AND {OptOne(|Forest Dungeon Key|)})) AND {OptOne(|Player Level:30|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Dark Egg Voucher:3|)} AND {OptOne(|Bellanoir's Bond|)} AND |A.Tech - Progressive Egg Incubator|"
     },
     "Bellanoir Libero": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND ((|Dunes Beacon| AND {OptOne(|Dunes Dungeon Key|)}) OR (|Volcano Beacon| AND {OptOne(|Volcanic Dungeon Key|)}) OR ((|Astral Beacon| OR |Cold Shore Beacon|) AND {OptOne(|Astral Dungeon Key|)})) AND {OptOne(|Player Level:50|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Dark Egg Voucher:3|)} AND {OptOne(|Bellanoir Libero's Bond|)} AND |A.Tech - Progressive Egg Incubator|"
     },
     "Selyne": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Neutral Orb:9|)}"
+        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Neutral Orb:9|)} AND {OptOne(|Selyne's Bond|)}"
     },
     "Croajiro": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Croajiro's Bond|)}"
     },
     "Croajiro Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Croajiro Noct's Bond|)}"
     },
     "Lullu": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Lullu's Bond|)}"
     },
     "Shroomer": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Shroomer's Bond|)}"
     },
     "Shroomer Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Shroomer Noct's Bond|)}"
     },
     "Kikit": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Kikit's Bond|)}"
     },
     "Sootseer": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)} AND {OptOne(|Sootseer's Bond|)}"
     },
     "Prixter": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)} AND {OptOne(|Prixter's Bond|)}"
     },
     "Knocklem": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:9|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Ground Orb:9|)} AND |@Player Beacon:6| AND {OptOne(|Knocklem's Bond|)}"
     },
     "Yakumo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:4|)}"
+        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Yakumo's Bond|)}"
     },
     "Dogen": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Dogen's Bond|)}"
     },
     "Dazemu": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Dazemu's Bond|)}"
     },
     "Mimog": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:7|)}"
+        "requires": "{OptOne(|Neutral Orb:7|)} AND {OptOne(|Mimog's Bond|)}"
     },
     "Xenovader": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Xenovader's Bond|)}"
     },
     "Xenogard": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Xenogard's Bond|)}"
     },
     "Xenolord": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND ((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)})) AND {OptOne(|Player Level:60|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Dark Egg Voucher:3|)} AND {OptOne(|Xenolord's Bond|)} AND |A.Tech - Progressive Egg Incubator|"
     },
     "Nitemary": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Nitemary's Bond|)}"
     },
     "Starryon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Starryon's Bond|)}"
     },
     "Silvegis": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Silvegis's Bond|)}"
     },
     "Smokie": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:2|)}"
+        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Smokie's Bond|)}"
     },
     "Celesdir": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Celesdir's Bond|)}"
     },
     "Omascul": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:4|)}"
+        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Omascul's Bond|)}"
     },
     "Splatterina": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:4|)}"
+        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Splatterina's Bond|)}"
     },
     "Tarantriss": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Tarantriss's Bond|)}"
     },
     "Azurmane": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:7|)}"
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Azurmane's Bond|)}"
     },
     "Bastigor": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Bastigor's Bond|)}"
     },
     "Prunelia": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Prunelia's Bond|)}"
     },
     "Nyafia": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:4|)}"
+        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Nyafia's Bond|)}"
     },
     "Gildane": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Gildane's Bond|)}"
     },
     "Herbil": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Neutral Orb:3|)}"
+        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Neutral Orb:3|)} AND {OptOne(|Herbil's Bond|)}"
     },
     "Icelyn": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Icelyn's Bond|)}"
     },
     "Frostplume": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Frostplume's Bond|)}"
     },
     "Palumba": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Palumba's Bond|)}"
     },
     "Braloha": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Ground Orb:6|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Braloha's Bond|)}"
     },
     "Munchill": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Water Orb:3|)}"
+        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Water Orb:3|)} AND {OptOne(|Munchill's Bond|)}"
     },
     "Polapup": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Polapup's Bond|)}"
     },
     "Turtacle": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Turtacle's Bond|)}"
     },
     "Turtacle Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)} AND {OptOne(|Turtacle Terra's Bond|)}"
     },
     "Jellroy": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Water Orb:3|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Water Orb:3|)} AND {OptOne(|Jellroy's Bond|)}"
     },
     "Jelliette": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Jelliette's Bond|)}"
     },
     "Gloopie": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Gloopie's Bond|)}"
     },
     "Finsider": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Finsider's Bond|)}"
     },
     "Finsider Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Water Orb:4|)}"
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Water Orb:4|)} AND {OptOne(|Finsider Ignis's Bond|)}"
     },
     "Ghangler": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Ghangler's Bond|)}"
     },
     "Ghangler Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Water Orb:6|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Water Orb:6|)} AND {OptOne(|Ghangler Ignis's Bond|)}"
     },
     "Whalaska": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Water Orb:7|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Water Orb:7|)} AND {OptOne(|Whalaska's Bond|)}"
     },
     "Whalaska Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Fire Orb:8|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Fire Orb:8|)} AND {OptOne(|Whalaska Ignis's Bond|)}"
     },
     "Neptilius": {
         "connects_to": [],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Water Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Water Orb:11|)} AND |@Player Beacon:6| AND {OptOne(|Neptilius's Bond|)}"
     },
     "Hartalis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:10|)} AND ((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)})) AND {OptOne(|Player Level:65|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Neutral Orb:10|)} AND {OptOne(|Common Egg Voucher:3|)} AND {OptOne(|Hartalis's Bond|)} AND |A.Tech - Progressive Egg Incubator|"
     },
     "Grass Egg 1": {
         "connects_to": [
@@ -3232,7 +3232,7 @@
             "High Quality Bait",
             "Deluxe Bait"
         ],
-        "requires": "|Tech - Palbox| AND ((|Tech - Fishing Pond| AND |Player Beacon:3|) OR (|Tech - Large Fishing Pond| AND |Player Beacon:5|)) AND |Tech - Mill| AND |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
+        "requires": "|Tech - Palbox| AND ((|Tech - Fishing Pond| AND |@Player Beacon:3|) OR (|Tech - Large Fishing Pond| AND |@Player Beacon:5|)) AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
     },
     "Common Bait": {
         "connects_to": [
@@ -3292,7 +3292,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Crescent": {
         "connects_to": [
@@ -3305,7 +3305,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_SeaBreeze": {
         "connects_to": [
@@ -3318,7 +3318,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Obsidian": {
         "connects_to": [
@@ -3330,7 +3330,7 @@
             "Gloopie",
             "Finsider"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Feybreak": {
         "connects_to": [
@@ -3341,7 +3341,7 @@
             "Whalaska",
             "Whalaska Ignis"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Sakurajima": {
         "connects_to": [
@@ -3350,7 +3350,7 @@
             "Gloopie",
             "Ghangler"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Astral": {
         "connects_to": [
@@ -3358,7 +3358,7 @@
             "Killamari",
             "Celaray Lux"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_AstralFoot": {
         "connects_to": [
@@ -3369,7 +3369,7 @@
             "Azurobe",
             "Turtacle"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Verdant": {
         "connects_to": [
@@ -3387,7 +3387,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Frostbound": {
         "connects_to": [
@@ -3395,7 +3395,7 @@
             "Munchill",
             "Polapup"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Scar": {
         "connects_to": [
@@ -3406,7 +3406,7 @@
             "Azurobe",
             "Turtacle"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_IceWind": {
         "connects_to": [
@@ -3417,7 +3417,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Forgotten": {
         "connects_to": [
@@ -3428,7 +3428,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Desert": {
         "connects_to": [
@@ -3438,7 +3438,7 @@
             "Turtacle Terra",
             "Finsider"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_EasternWild": {
         "connects_to": [
@@ -3450,7 +3450,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Marsh": {
         "connects_to": [
@@ -3461,7 +3461,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Arena": {
         "connects_to": [
@@ -3469,7 +3469,7 @@
             "Turtacle Terra",
             "Finsider"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Decayed": {
         "connects_to": [
@@ -3482,7 +3482,7 @@
             "Jelliette",
             "Gloopie"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Sunlit": {
         "connects_to": [
@@ -3493,7 +3493,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Oasis": {
         "connects_to": [
@@ -3501,7 +3501,7 @@
             "Dumud Gild",
             "Turtacle Terra"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Glacial": {
         "connects_to": [
@@ -3510,7 +3510,7 @@
             "Polapup",
             "Whalaska"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Phantom": {
         "connects_to": [
@@ -3519,7 +3519,7 @@
             "Finsider Ignis",
             "Ghangler"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Twilight": {
         "connects_to": [
@@ -3529,7 +3529,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Bamboo": {
         "connects_to": [
@@ -3540,7 +3540,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_EternalSummer": {
         "connects_to": [
@@ -3549,7 +3549,7 @@
             "Surfent Terra",
             "Turtacle Terra"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_Frostbitten": {
         "connects_to": [
@@ -3559,14 +3559,14 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_WS_1": {
         "connects_to": [
             "Penking",
             "Turtacle"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_WS_2": {
         "connects_to": [
@@ -3574,14 +3574,14 @@
             "Ghangler Ignis",
             "Whalaska Ignis"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Fishing_WS_3": {
         "connects_to": [
             "Penking Lux",
             "Dumud Gild"
         ],
-        "requires": "|Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
     },
     "Hillside Cavern": {
         "connects_to": [
@@ -3592,7 +3592,7 @@
             "Turtacle",
             "Hillside Boss"
         ],
-        "requires": "{OptOne(|Hillside Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Hillside Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |@Player Beacon|"
     },
     "Isolated Island Cavern": {
         "connects_to": [
@@ -3602,7 +3602,7 @@
             "Mau",
             "Hillside Boss"
         ],
-        "requires": "{OptOne(|Isolated Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Isolated Dungeon Key|)} AND {OptOne(|Player Level:13|)} AND |@Player Beacon|"
     },
     "Ravine Grotto": {
         "connects_to": [
@@ -3612,7 +3612,7 @@
             "Mau",
             "Ravine Boss"
         ],
-        "requires": "{OptOne(|Ravine Dungeon Key|)} AND {OptOne(|Player Level:19|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Ravine Dungeon Key|)} AND {OptOne(|Player Level:19|)} AND |@Player Beacon:2|"
     },
     "Hillside Boss": {
         "connects_to": [
@@ -3675,7 +3675,7 @@
             "Jelliette",
             "Mountain Boss"
         ],
-        "requires": "{OptOne(|Forest Dungeon Key|)} AND {OptOne(|Player Level:29|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Forest Dungeon Key|)} AND {OptOne(|Player Level:29|)} AND |@Player Beacon:3|"
     },
     "Mountain Boss": {
         "connects_to": [
@@ -3707,7 +3707,7 @@
             "Finsider",
             "Dunes Boss"
         ],
-        "requires": "{OptOne(|Dunes Dungeon Key|)} AND {OptOne(|Player Level:38|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Dunes Dungeon Key|)} AND {OptOne(|Player Level:38|)} AND |@Player Beacon:4|"
     },
     "Dunes Boss": {
         "connects_to": [
@@ -3739,7 +3739,7 @@
             "Ghangler",
             "Volcano Boss"
         ],
-        "requires": "{OptOne(|Volcanic Dungeon Key|)} AND {OptOne(|Player Level:40|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Volcanic Dungeon Key|)} AND {OptOne(|Player Level:40|)} AND |@Player Beacon:4|"
     },
     "Volcano Boss": {
         "connects_to": [
@@ -3775,7 +3775,7 @@
             "Polapup",
             "Astral Boss"
         ],
-        "requires": "{OptOne(|Astral Dungeon Key|)} AND {OptOne(|Player Level:45|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Astral Dungeon Key|)} AND {OptOne(|Player Level:45|)} AND |@Player Beacon:5|"
     },
     "Astral Boss": {
         "connects_to": [
@@ -3812,7 +3812,7 @@
             "Kikit",
             "Cherry Boss"
         ],
-        "requires": "{OptOne(|Sakura Dungeon Key|)} AND {OptOne(|Player Level:52|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Sakura Dungeon Key|)} AND {OptOne(|Player Level:52|)} AND |@Player Beacon:5|"
     },
     "Cherry Boss": {
         "connects_to": [
@@ -3847,7 +3847,7 @@
             "Nyafia",
             "Feybreak Boss"
         ],
-        "requires": "{OptOne(|Feybreak Dungeon Key|)} AND {OptOne(|Player Level:58|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Feybreak Dungeon Key|)} AND {OptOne(|Player Level:58|)} AND |@Player Beacon:6|"
     },
     "Feybreak Boss": {
         "connects_to": [
@@ -3885,7 +3885,7 @@
             "Starryon",
             "Icelyn"
         ],
-        "requires": "{OptOne(|Terraria Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Terraria Dungeon Key|)} AND {YamlEnabled(Enable_Dungeons)} AND {OptOne(|Player Level:45|)} AND |@Player Beacon:5|"
     },
     "Grass Meteor": {
         "connects_to": [
@@ -4164,13 +4164,43 @@
     "Raid Battles": {
         "starting": true,
         "connects_to": [
-            "Bellanoir",
-            "Bellanoir Libero",
-            "Blazamut Ryu",
-            "Xenolord",
+            "Bellanoir Raid",
+            "Bellanoir Libero Raid",
+            "Blazamut Ryu Raid",
+            "Xenolord Raid",
+            "Hartalis Raid"
+        ],
+        "requires": "|A.Tech - Summoning Altar| AND |Tech - Palbox| AND |Tech - Progressive Workbench:1| AND |Home Beacon 2|"
+    },
+    "Bellanoir Raid": {
+        "connects_to": [
+            "Bellanoir"
+        ],
+        "requires": "((|Dunes Beacon| AND {OptOne(|Dunes Dungeon Key|)}) OR (|Volcano Beacon| AND {OptOne(|Volcanic Dungeon Key|)}) OR ((|Crescent Beacon| OR |Forest Beacon|) AND {OptOne(|Forest Dungeon Key|)})) AND {OptOne(|Player Level:30|)} AND |@Player Beacon:3|"
+    },
+    "Bellanoir Libero Raid": {
+        "connects_to": [
+            "Bellanoir Libero"
+        ],
+        "requires": "((|Dunes Beacon| AND {OptOne(|Dunes Dungeon Key|)}) OR (|Volcano Beacon| AND {OptOne(|Volcanic Dungeon Key|)}) OR ((|Astral Beacon| OR |Cold Shore Beacon|) AND {OptOne(|Astral Dungeon Key|)})) AND {OptOne(|Player Level:50|)} AND |@Player Beacon:5|"
+    },
+    "Blazamut Ryu Raid": {
+        "connects_to": [
+            "Blazamut Ryu"
+        ],
+        "requires": "((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)}) OR ((|Astral Beacon| OR |Cold Shore Beacon|) AND {OptOne(|Astral Dungeon Key|)})) AND {OptOne(|Player Level:55|)} AND |@Player Beacon:6|"
+    },
+    "Xenolord Raid": {
+        "connects_to": [
+            "Xenolord"
+        ],
+        "requires": "((|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)})) AND {OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
+    },
+    "Hartalis Raid": {
+        "connects_to": [
             "Hartalis"
         ],
-        "requires": "|A.Tech - Summoning Altar| AND |Tech - Palbox| AND |Tech - Progressive Workbench:1| AND |Home Beacon|"
+        "requires": "(|Sakurajima Beacon| AND {OptOne(|Sakura Dungeon Key|)}) OR (|Feybreak Beacon| AND {OptOne(|Feybreak Dungeon Key|)}) AND {OptOne(|Player Level:65|)} AND |@Player Beacon:6|"
     },
     "Breeding": {
         "starting": true,
@@ -4178,33 +4208,445 @@
             "Breeding - Jolthog Cryst",
             "Breeding - Elphidran Aqua",
             "Breeding - Suzaku Aqua",
-            "Breeding - Bastigor"
+            "Breeding - Bastigor",
+            "Breeding - SoloPair"
         ],
-        "requires": "|Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND (({canReachLocation(Palpedia - Lovander)} AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|)"
+        "requires": "|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Breeding Farm| AND |A.Tech - Progressive Egg Incubator:1| AND ((|Lovander Beacon| AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|)"
     },
     "Breeding - Jolthog Cryst": {
         "connects_to": [
             "Jolthog Cryst"
         ],
-        "requires": "{canReachLocation(Palpedia - Jolthog)} AND {canReachLocation(Palpedia - Pengullet)} AND {YamlDisabled(Enable_Cages)} AND {YamlDisabled(Enable_Incidents)}"
+        "requires": "|Jolthog Beacon| AND |Pengullet Beacon| AND (({YamlDisabled(Enable_Cages)} AND {YamlDisabled(Enable_Incidents)}) OR {YamlEnabled(Allow_Breeding)}) AND {OptOne(|Frozen Egg Voucher|)}"
     },
     "Breeding - Elphidran Aqua": {
         "connects_to": [
             "Elphidran Aqua"
         ],
-        "requires": "|Elphidran Beacon| AND |Surfent Beacon| AND {YamlDisabled(Enable_Incidents)}"
+        "requires": "|Elphidran Beacon| AND |Surfent Beacon| AND ({YamlDisabled(Enable_Incidents)} OR {YamlEnabled(Allow_Breeding)}) AND {OptOne(|Dragon Egg Voucher:3|)}"
     },
     "Breeding - Suzaku Aqua": {
         "connects_to": [
             "Suzaku Aqua"
         ],
-        "requires": "|Dunes Beacon| AND |Jormuntide Beacon| AND {YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}"
+        "requires": "|Suzaku Beacon| AND |Jormuntide Beacon| AND (({YamlDisabled(Enable_Dungeons)} AND {YamlDisabled(Enable_Wild_Eggs)}) OR {YamlEnabled(Allow_Breeding)}) AND {OptOne(|Damp Egg Voucher:3|)}"
     },
     "Breeding - Bastigor": {
         "connects_to": [
             "Bastigor"
         ],
-        "requires": "{OptOne(|Ice Orb:11|)} AND {OptOne(|Ground Orb:10|)} AND |Twilight Beacon| AND |Astral Beacon| AND {YamlDisabled(Enable_Wild_Eggs)}"
+        "requires": "|Anubis Beacon| AND |Frostallion Beacon| AND ({YamlDisabled(Enable_Wild_Eggs)} OR {YamlEnabled(Allow_Breeding)}) AND {OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Breeding - SoloPair": {
+        "connects_to": [
+            "Breeding - Foxparks Cryst",
+            "Breeding - Fuack Ignis",
+            "Breeding - Pengullet Lux",
+            "Breeding - Penking Lux",
+            "Breeding - Killamari Primo",
+            "Breeding - Mau Cryst",
+            "Breeding - Celaray Lux",
+            "Breeding - Gobfin Ignis",
+            "Breeding - Hangyu Cryst",
+            "Breeding - Mossanda Lux",
+            "Breeding - Caprity Noct",
+            "Breeding - Eikthyrdeer Terra",
+            "Breeding - Ribbuny Botan",
+            "Breeding - Incineram Noct",
+            "Breeding - Dumud Gild",
+            "Breeding - Leezpunk Ignis",
+            "Breeding - Loupmoon Cryst",
+            "Breeding - Robinquill Terra",
+            "Breeding - Gorirat Terra",
+            "Breeding - Chillet Ignis",
+            "Breeding - Pyrin Noct",
+            "Breeding - Kitsun Noct",
+            "Breeding - Dazzi Noct",
+            "Breeding - Dinossom Lux",
+            "Breeding - Surfent Terra",
+            "Breeding - Vanwyrm Cryst",
+            "Breeding - Bushi Noct",
+            "Breeding - Katress Ignis",
+            "Breeding - Wixen Noct",
+            "Breeding - Azurobe Cryst",
+            "Breeding - Cryolinx Terra",
+            "Breeding - Blazehowl Noct",
+            "Breeding - Relaxaurus Lux",
+            "Breeding - Broncherry Aqua",
+            "Breeding - Reptyro Cryst",
+            "Breeding - Kingpaca Cryst",
+            "Breeding - Mammorest Cryst",
+            "Breeding - Warsect Terra",
+            "Breeding - Fenglope Lux",
+            "Breeding - Quivern Botan",
+            "Breeding - Helzephyr Lux",
+            "Breeding - Menasting Terra",
+            "Breeding - Jormuntide Ignis",
+            "Breeding - Grizzbolt",
+            "Breeding - Lyleen",
+            "Breeding - Lyleen Noct",
+            "Breeding - Faleris",
+            "Breeding - Faleris Aqua",
+            "Breeding - Orserk",
+            "Breeding - Shadowbeak",
+            "Breeding - Frostallion Noct",
+            "Breeding - Selyne",
+            "Breeding - Croajiro Noct",
+            "Breeding - Celesdir",
+            "Breeding - Turtacle Terra",
+            "Breeding - Finsider Ignis",
+            "Breeding - Ghangler Ignis",
+            "Breeding - Whalaska Ignis"
+        ],
+        "requires": "{YamlEnabled(Allow_Breeding)}"
+    },
+    "Breeding - Foxparks Cryst": {
+        "connects_to": [
+            "Foxparks Cryst"
+        ],
+        "requires": "|Foxparks Beacon| AND |Foxcicle Beacon| AND {OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Breeding - Fuack Ignis": {
+        "connects_to": [
+            "Fuack Ignis"
+        ],
+        "requires": "|Flambelle Beacon| AND |Fuack Beacon| AND {OptOne(|Damp Egg Voucher|)}"
+    },
+    "Breeding - Pengullet Lux": {
+        "connects_to": [
+            "Pengullet Lux"
+        ],
+        "requires": "|Pengullet Beacon| AND |Sparkit Beacon| AND {OptOne(|Damp Egg Voucher|)}"
+    },
+    "Breeding - Penking Lux": {
+        "connects_to": [
+            "Penking Lux"
+        ],
+        "requires": "|Penking Beacon| AND |Rayhound Beacon| AND {OptOne(|Damp Egg Voucher:2|)}"
+    },
+    "Breeding - Killamari Primo": {
+        "connects_to": [
+            "Killamari Primo"
+        ],
+        "requires": "|Killamari Beacon| AND |Ribbuny Beacon| AND {OptOne(|Common Egg Voucher|)}"
+    },
+    "Breeding - Mau Cryst": {
+        "connects_to": [
+            "Mau Cryst"
+        ],
+        "requires": "|Pengullet Beacon| AND |Mau Beacon| AND {OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Breeding - Celaray Lux": {
+        "connects_to": [
+            "Celaray Lux"
+        ],
+        "requires": "|Celaray Beacon| AND |Univolt Beacon| AND {OptOne(|Damp Egg Voucher|)}"
+    },
+    "Breeding - Gobfin Ignis": {
+        "connects_to": [
+            "Gobfin Ignis"
+        ],
+        "requires": "|Gobfin Beacon| AND |Rooby Beacon| AND {OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Breeding - Hangyu Cryst": {
+        "connects_to": [
+            "Hangyu Cryst"
+        ],
+        "requires": "|Hangyu Beacon| AND |Swee Beacon| AND {OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Breeding - Mossanda Lux": {
+        "connects_to": [
+            "Mossanda Lux"
+        ],
+        "requires": "|Mossanda Beacon| AND |Grizzbolt Beacon| AND {OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Breeding - Caprity Noct": {
+        "connects_to": [
+            "Caprity Noct"
+        ],
+        "requires": "|Caprity Beacon| AND |Tarantriss Beacon| AND {OptOne(|Dark Egg Voucher|)}"
+    },
+    "Breeding - Eikthyrdeer Terra": {
+        "connects_to": [
+            "Eikthyrdeer Terra"
+        ],
+        "requires": "|Eikthyrdeer Beacon| AND |Hangyu Beacon| AND {OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Breeding - Ribbuny Botan": {
+        "connects_to": [
+            "Ribbuny Botan"
+        ],
+        "requires": "|Ribbuny Beacon| AND |Bristla Beacon| AND {OptOne(|Verdant Egg Voucher|)}"
+    },
+    "Breeding - Incineram Noct": {
+        "connects_to": [
+            "Incineram Noct"
+        ],
+        "requires": "|Incineram Beacon| AND |Maraith Beacon| AND {OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Breeding - Dumud Gild": {
+        "connects_to": [
+            "Dumud Gild"
+        ],
+        "requires": "|Dumud Beacon| AND |Eikthyrdeer Terra Beacon| AND {OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Breeding - Leezpunk Ignis": {
+        "connects_to": [
+            "Leezpunk Ignis"
+        ],
+        "requires": "|Leezpunk Beacon| AND |Flambelle Beacon| AND {OptOne(|Scorching Egg Voucher|)}"
+    },
+    "Breeding - Loupmoon Cryst": {
+        "connects_to": [
+            "Loupmoon Cryst"
+        ],
+        "requires": "|Loupmoon Beacon| AND |Sweepa Beacon| AND {OptOne(|Frozen Egg Voucher|)}"
+    },
+    "Breeding - Robinquill Terra": {
+        "connects_to": [
+            "Robinquill Terra"
+        ],
+        "requires": "|Robinquill Beacon| AND |Fuddler Beacon| AND {OptOne(|Verdant Egg Voucher:2|)}"
+    },
+    "Breeding - Gorirat Terra": {
+        "connects_to": [
+            "Gorirat Terra"
+        ],
+        "requires": "|Kikit Beacon| AND |Gorirat Beacon| AND {OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Breeding - Chillet Ignis": {
+        "connects_to": [
+            "Chillet Ignis"
+        ],
+        "requires": "|Chillet Beacon| AND |Arsox Beacon| AND {OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Breeding - Pyrin Noct": {
+        "connects_to": [
+            "Pyrin Noct"
+        ],
+        "requires": "|Pyrin Beacon| AND |Katress Beacon| AND {OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Breeding - Kitsun Noct": {
+        "connects_to": [
+            "Kitsun Noct"
+        ],
+        "requires": "|Kitsun Beacon| AND |Nyafia Beacon| AND {OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Breeding - Dazzi Noct": {
+        "connects_to": [
+            "Dazzi Noct"
+        ],
+        "requires": "|Dazzi Beacon| AND |Omascul Beacon| AND {OptOne(|Dark Egg Voucher|)}"
+    },
+    "Breeding - Dinossom Lux": {
+        "connects_to": [
+            "Dinossom Lux"
+        ],
+        "requires": "|Dinossom Beacon| AND |Rayhound Beacon| AND {OptOne(|Electric Egg Voucher:2|)}"
+    },
+    "Breeding - Surfent Terra": {
+        "connects_to": [
+            "Surfent Terra"
+        ],
+        "requires": "|Surfent Beacon| AND |Dumud Beacon| AND {OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Breeding - Vanwyrm Cryst": {
+        "connects_to": [
+            "Vanwyrm Cryst"
+        ],
+        "requires": "|Vanwyrm Beacon| AND |Foxcicle Beacon| AND {OptOne(|Frozen Egg Voucher:2|)}"
+    },
+    "Breeding - Bushi Noct": {
+        "connects_to": [
+            "Bushi Noct"
+        ],
+        "requires": "|Bushi Beacon| AND |Sootseer Beacon| AND {OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Breeding - Katress Ignis": {
+        "connects_to": [
+            "Katress Ignis"
+        ],
+        "requires": "|Katress Beacon| AND |Wixen Beacon| AND {OptOne(|Dark Egg Voucher:2|)}"
+    },
+    "Breeding - Wixen Noct": {
+        "connects_to": [
+            "Wixen Noct"
+        ],
+        "requires": "|Katress Beacon| AND |Wixen Beacon| AND {OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Breeding - Azurobe Cryst": {
+        "connects_to": [
+            "Azurobe Cryst"
+        ],
+        "requires": "|Frostplume Beacon| AND |Azurobe Beacon| AND {OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Breeding - Cryolinx Terra": {
+        "connects_to": [
+            "Cryolinx Terra"
+        ],
+        "requires": "|Cryolinx Beacon| AND |Dazemu Beacon| AND {OptOne(|Rocky Egg Voucher:2|)}"
+    },
+    "Breeding - Blazehowl Noct": {
+        "connects_to": [
+            "Blazehowl Noct"
+        ],
+        "requires": "|Felbat Beacon| AND |Blazehowl Beacon| AND {OptOne(|Scorching Egg Voucher:3|)}"
+    },
+    "Breeding - Relaxaurus Lux": {
+        "connects_to": [
+            "Relaxaurus Lux"
+        ],
+        "requires": "|Sparkit Beacon| AND |Relaxaurus Beacon| AND {OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Breeding - Broncherry Aqua": {
+        "connects_to": [
+            "Broncherry Aqua"
+        ],
+        "requires": "|Broncherry Beacon| AND |Fuack Beacon| AND {OptOne(|Verdant Egg Voucher:3|)}"
+    },
+    "Breeding - Reptyro Cryst": {
+        "connects_to": [
+            "Reptyro Cryst"
+        ],
+        "requires": "|Reptyro Beacon| AND |Foxcicle Beacon| AND {OptOne(|Frozen Egg Voucher:2|)}"
+    },
+    "Breeding - Kingpaca Cryst": {
+        "connects_to": [
+            "Kingpaca Cryst"
+        ],
+        "requires": "|Kingpaca Beacon| AND |Reindrix Beacon| AND {OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Breeding - Mammorest Cryst": {
+        "connects_to": [
+            "Mammorest Cryst"
+        ],
+        "requires": "|Mammorest Beacon| AND |Wumpo Beacon| AND {OptOne(|Frozen Egg Voucher:3|)}"
+    },
+    "Breeding - Warsect Terra": {
+        "connects_to": [
+            "Warsect Terra"
+        ],
+        "requires": "|Warsect Beacon| AND |Digtoise Beacon| AND {OptOne(|Rocky Egg Voucher:3|)}"
+    },
+    "Breeding - Fenglope Lux": {
+        "connects_to": [
+            "Fenglope Lux"
+        ],
+        "requires": "|Fenglope Beacon| AND |Azurmane Beacon| AND {OptOne(|Electric Egg Voucher|)}"
+    },
+    "Breeding - Quivern Botan": {
+        "connects_to": [
+            "Quivern Botan"
+        ],
+        "requires": "|Quivern Beacon| AND |Lullu Beacon| AND {OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Breeding - Helzephyr Lux": {
+        "connects_to": [
+            "Helzephyr Lux"
+        ],
+        "requires": "|Helzephyr Beacon| AND |Beakon Beacon| AND {OptOne(|Dark Egg Voucher:3|)}"
+    },
+    "Breeding - Menasting Terra": {
+        "connects_to": [
+            "Menasting Terra"
+        ],
+        "requires": "|Menasting Beacon| AND |Knocklem Beacon| AND {OptOne(|Rocky Egg Voucher:3|)}"
+    },
+    "Breeding - Jormuntide Ignis": {
+        "connects_to": [
+            "Jormuntide Ignis"
+        ],
+        "requires": "|Jormuntide Beacon| AND |Blazehowl Beacon| AND {OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Breeding - Grizzbolt": {
+        "connects_to": [
+            "Grizzbolt"
+        ],
+        "requires": "|Rayhound Beacon| AND |Mossanda Beacon| AND {OptOne(|Electric Egg Voucher:3|)}"
+    },
+    "Breeding - Lyleen": {
+        "connects_to": [
+            "Lyleen"
+        ],
+        "requires": "|Petallia Beacon| AND |Mossanda Beacon| AND {OptOne(|Verdant Egg Voucher:3|)}"
+    },
+    "Breeding - Lyleen Noct": {
+        "connects_to": [
+            "Lyleen Noct"
+        ],
+        "requires": "|Lyleen Beacon| AND |Menasting Beacon| AND {OptOne(|Dark Egg Voucher:3|)}"
+    },
+    "Breeding - Faleris": {
+        "connects_to": [
+            "Faleris"
+        ],
+        "requires": "|Vanwyrm Beacon| AND |Anubis Beacon| AND {OptOne(|Scorching Egg Voucher:3|)}"
+    },
+    "Breeding - Faleris Aqua": {
+        "connects_to": [
+            "Faleris Aqua"
+        ],
+        "requires": "|Faleris Beacon| AND |Jormuntide Beacon| AND {OptOne(|Damp Egg Voucher:3|)}"
+    },
+    "Breeding - Orserk": {
+        "connects_to": [
+            "Orserk"
+        ],
+        "requires": "|Relaxaurus Beacon| AND |Grizzbolt Beacon| AND {OptOne(|Dragon Egg Voucher:3|)}"
+    },
+    "Breeding - Shadowbeak": {
+        "connects_to": [
+            "Shadowbeak"
+        ],
+        "requires": "|Kitsun Beacon| AND |Astegon Beacon| AND {OptOne(|Dark Egg Voucher:3|)}"
+    },
+    "Breeding - Frostallion Noct": {
+        "connects_to": [
+            "Frostallion Noct"
+        ],
+        "requires": "|Helzephyr Beacon| AND |Frostallion Beacon| AND {OptOne(|Dark Egg Voucher:3|)}"
+    },
+    "Breeding - Selyne": {
+        "connects_to": [
+            "Selyne"
+        ],
+        "requires": "|Lunaris Beacon| AND |Paladius Beacon| AND {OptOne(|Dark Egg Voucher:3|)}"
+    },
+    "Breeding - Croajiro Noct": {
+        "connects_to": [
+            "Croajiro Noct"
+        ],
+        "requires": "|Croajiro Beacon| AND |Bushi Noct Beacon| AND {OptOne(|Damp Egg Voucher:2|)}"
+    },
+    "Breeding - Celesdir": {
+        "connects_to": [
+            "Celesdir"
+        ],
+        "requires": "|Gildane Beacon| AND |Eikthyrdeer Terra Beacon| AND {OptOne(|Common Egg Voucher:2|)}"
+    },
+    "Breeding - Turtacle Terra": {
+        "connects_to": [
+            "Turtacle Terra"
+        ],
+        "requires": "|Turtacle Beacon| AND |Digtoise Beacon| AND {OptOne(|Damp Egg Voucher|)}"
+    },
+    "Breeding - Finsider Ignis": {
+        "connects_to": [
+            "Finsider Ignis"
+        ],
+        "requires": "|Finsider Beacon| AND |Gobfin Ignis Beacon| AND {OptOne(|Damp Egg Voucher|)}"
+    },
+    "Breeding - Ghangler Ignis": {
+        "connects_to": [
+            "Ghangler Ignis"
+        ],
+        "requires": "|Ghangler Beacon| AND |Sootseer Beacon| AND {OptOne(|Scorching Egg Voucher:2|)}"
+    },
+    "Breeding - Whalaska Ignis": {
+        "connects_to": [
+            "Whalaska Ignis"
+        ],
+        "requires": "|Whalaska Beacon| AND |Chillet Ignis Beacon| AND {OptOne(|Frozen Egg Voucher:3|)}"
     },
     "Pal Merchant": {
         "connects_to": [
@@ -4495,7 +4937,7 @@
             "Cooling T1",
             "Med_Prod T1"
         ],
-        "requires": "|Tech - Palbox| AND |Tech - Pal Labor Research Laboratory| AND |Player Beacon:2|"
+        "requires": "|Tech - Palbox| AND |Tech - Pal Labor Research Laboratory| AND |@Player Beacon:2|"
     },
     "Handiwork T1": {
         "connects_to": [
@@ -4503,7 +4945,7 @@
             "Handiwork T1-2",
             "Handiwork T1-3"
         ],
-        "requires": "|Tech - Cloth| AND |Tech - Progressive Workbench:1|"
+        "requires": "|Tech - Cloth| AND |Tech - Progressive Workbench:1| AND |@Handiwork|"
     },
     "Handiwork T1-1": {
         "connects_to": [
@@ -4528,7 +4970,7 @@
         "connects_to": [
             "Handiwork T2-1"
         ],
-        "requires": "|Tech - Progressive Furnace:1| AND |Tech - Pal Expedition Station|"
+        "requires": "{OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Pal Expedition Station|"
     },
     "Handiwork T1-5": {
         "connects_to": [
@@ -4546,49 +4988,49 @@
         "connects_to": [
             "Handiwork T3-1"
         ],
-        "requires": []
+        "requires": "|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
     },
     "Handiwork T2-2": {
         "connects_to": [
             "Handiwork T3-2"
         ],
-        "requires": "(|Tech - Polymer| AND |Tech - Palbox| AND |@Power Source| AND |Tech - Progressive Workbench:3| AND |Player Beacon:3|) OR |Volcano Beacon|"
+        "requires": "((|Tech - Polymer| AND |Tech - Palbox| AND |@Power Source| AND |Tech - Progressive Workbench:3| AND |@Player Beacon:3|) OR |Volcano Beacon|) AND (|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
     },
     "Handiwork T2-3": {
         "connects_to": [
             "Handiwork T3-3"
         ],
-        "requires": []
+        "requires": "|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
     },
     "Handiwork T2-4": {
         "connects_to": [
             "Handiwork T3-4"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND (|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
     },
     "Handiwork T3-1": {
         "connects_to": [
             "Handiwork T4-1"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
     },
     "Handiwork T3-2": {
         "connects_to": [
             "Handiwork T4-2"
         ],
-        "requires": []
+        "requires": "|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(Applied Handiwork Technique I)}"
     },
     "Handiwork T3-3": {
         "connects_to": [
             "Handiwork T3-5"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(Applied Handiwork Technique I)})"
     },
     "Handiwork T3-4": {
         "connects_to": [
             "Handiwork T4-4"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(Applied Handiwork Technique I)})"
     },
     "Handiwork T3-5": {
         "connects_to": [
@@ -4598,19 +5040,19 @@
     },
     "Handiwork T4-1": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
     },
     "Handiwork T4-2": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
     },
     "Handiwork T4-3": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
     },
     "Handiwork T4-4": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "{OptOne(|@Raid Boss|)} AND (|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
     },
     "Kindling T1": {
         "connects_to": [
@@ -4618,7 +5060,7 @@
             "Kindling T1-2",
             "Kindling T1-3"
         ],
-        "requires": "|Tech - Progressive Furnace:1|"
+        "requires": "{OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |@Kindling|"
     },
     "Kindling T1-1": {
         "connects_to": [
@@ -4649,71 +5091,71 @@
         "connects_to": [
             "Kindling T2-2"
         ],
-        "requires": "|Tech - Campfire| OR |Tech - Cooking Pot| OR (|Tech - Large-Scale Stone Oven| AND |Player Beacon:4|) OR (|Tech - Electric Kitchen| AND |@Power Source| AND |Player Beacon:4|)"
+        "requires": "|Tech - Campfire| OR |Tech - Cooking Pot| OR (|Tech - Large-Scale Stone Oven| AND |@Player Beacon:4|) OR (|Tech - Electric Kitchen| AND |@Power Source| AND |@Player Beacon:4|)"
     },
     "Kindling T2-1": {
         "connects_to": [
             "Kindling T3-1"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T2-2": {
         "connects_to": [
             "Kindling T3-2"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T2-3": {
         "connects_to": [
             "Kindling T3-3"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T2-4": {
         "connects_to": [
             "Kindling T3-4"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T3-1": {
         "connects_to": [
             "Kindling T4-1"
         ],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Kindling T3-2": {
         "connects_to": [
             "Kindling T4-2"
         ],
-        "requires": []
+        "requires": "|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}"
     },
     "Kindling T3-3": {
         "connects_to": [
             "Kindling T4-3"
         ],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Kindling T3-4": {
         "connects_to": [
             "Kindling T4-4"
         ],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Kindling T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| AND |@Power Source| AND |Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND |@Power Source| AND |@Player Beacon:5|"
     },
     "Kindling T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| AND |@Raid Beacon| AND |@Power Source| AND |Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND {OptOne(|@Raid Boss|)} AND |@Power Source| AND |@Player Beacon:5|"
     },
     "Kindling T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| AND |Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND |@Player Beacon:5|"
     },
     "Kindling T4-4": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:4| AND |@Raid Beacon| AND |@Power Source| AND |Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND {OptOne(|@Raid Boss|)} AND |@Power Source| AND |@Player Beacon:5|"
     },
     "Watering T1": {
         "connects_to": [
@@ -4721,7 +5163,7 @@
             "Watering T1-2",
             "Watering T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND |@Watering|"
     },
     "Watering T1-1": {
         "connects_to": [
@@ -4752,59 +5194,59 @@
         "connects_to": [
             "Watering T3-1"
         ],
-        "requires": []
+        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
     },
     "Watering T2-2": {
         "connects_to": [
             "Watering T4-2"
         ],
-        "requires": []
+        "requires": "(|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)})"
     },
     "Watering T2-3": {
         "connects_to": [
             "Watering T3-2"
         ],
-        "requires": "(|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Player Beacon:2|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)})"
+        "requires": "(|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND ((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |@Player Beacon:2|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Watering T2-4": {
         "connects_to": [
             "Watering T3-3"
         ],
-        "requires": []
+        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
     },
     "Watering T3-1": {
         "connects_to": [
             "Watering T4-1"
         ],
-        "requires": []
+        "requires": "|@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
     },
     "Watering T3-2": {
         "connects_to": [
             "Watering T4-3"
         ],
-        "requires": "|Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |Player Beacon:3|"
+        "requires": "(|@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
     },
     "Watering T3-3": {
         "connects_to": [
             "Watering T4-4"
         ],
-        "requires": "|Tech - Onion Plantation| AND |Player Beacon:3|"
+        "requires": "(|@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND |Tech - Onion Plantation| AND |@Player Beacon:3|"
     },
     "Watering T4-1": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
     },
     "Watering T4-2": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Watering T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| AND |Player Beacon:3|"
+        "requires": "(|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND |Tech - Onion Plantation| AND |@Player Beacon:3|"
     },
     "Watering T4-4": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Planting T1": {
         "connects_to": [
@@ -4812,13 +5254,13 @@
             "Planting T1-2",
             "Planting T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND |@Planting|"
     },
     "Planting T1-1": {
         "connects_to": [
             "Planting T1-4"
         ],
-        "requires": "|Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
+        "requires": "|@Watering| AND |Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T1-2": {
         "connects_to": [
@@ -4843,65 +5285,65 @@
         "connects_to": [
             "Planting T2-4"
         ],
-        "requires": []
+        "requires": "|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}"
     },
     "Planting T2-2": {
         "connects_to": [
             "Planting T3-2"
         ],
-        "requires": "|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|"
+        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T2-3": {
         "connects_to": [
             "Planting T3-4"
         ],
-        "requires": "|Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
+        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |@Watering| AND |Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T2-4": {
         "connects_to": [
             "Planting T3-1"
         ],
-        "requires": "(|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)})"
+        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Planting T3-1": {
         "connects_to": [
             "Planting T4-1"
         ],
-        "requires": "|Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |Player Beacon:3|"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
     },
     "Planting T3-2": {
         "connects_to": [
             "Planting T4-2"
         ],
-        "requires": "|Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |Player Beacon:3|"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
     },
     "Planting T3-3": {
         "connects_to": [
             "Planting T4-3"
         ],
-        "requires": "((|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR (|Dunes Beacon| OR |Volcano Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|)) AND |Tech - Mill|"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR (|Dunes Beacon| OR |Volcano Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|)) AND |@Watering| AND |Tech - Mill|"
     },
     "Planting T3-4": {
         "connects_to": [
             "Planting T4-4"
         ],
-        "requires": "(|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)})"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Planting T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| AND |@Raid Beacon|"
+        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
     },
     "Planting T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| AND |@Raid Beacon|"
+        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
     },
     "Planting T4-3": {
         "connects_to": [],
-        "requires": "(|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation| AND |Player Beacon:2|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)})"
+        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation| AND |@Player Beacon:2|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Planting T4-4": {
         "connects_to": [],
-        "requires": "|Tech - Onion Plantation| AND |@Raid Beacon|"
+        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
     },
     "Gen_Elec T1": {
         "connects_to": [
@@ -4909,7 +5351,7 @@
             "Gen_Elec T1-2",
             "Gen_Elec T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND (|Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|) AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "|Tech - Pal Expedition Station| AND (|@Kindling| AND |Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|) AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND |@Electricity|"
     },
     "Gen_Elec T1-1": {
         "connects_to": [
@@ -4934,47 +5376,47 @@
         "connects_to": [
             "Gen_Elec T3-1"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T2-2": {
         "connects_to": [
             "Gen_Elec T3-2"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T2-3": {
         "connects_to": [
             "Gen_Elec T3-3"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T2-4": {
         "connects_to": [
             "Gen_Elec T3-4"
         ],
-        "requires": "|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T3-1": {
         "connects_to": [
             "Gen_Elec T3-5"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Gen_Elec T3-2": {
         "connects_to": [
             "Gen_Elec T4-2"
         ],
-        "requires": []
+        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
     },
     "Gen_Elec T3-3": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
     },
     "Gen_Elec T3-4": {
         "connects_to": [
             "Gen_Elec T4-3"
         ],
-        "requires": []
+        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
     },
     "Gen_Elec T3-5": {
         "connects_to": [
@@ -4984,15 +5426,15 @@
     },
     "Gen_Elec T4-1": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
     },
     "Gen_Elec T4-2": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Gen_Elec T4-3": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Lumbering T1": {
         "connects_to": [
@@ -5000,7 +5442,7 @@
             "Lumbering T1-2",
             "Lumbering T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND |@Lumbering|"
     },
     "Lumbering T1-1": {
         "connects_to": [
@@ -5025,25 +5467,25 @@
         "connects_to": [
             "Lumbering T2-5"
         ],
-        "requires": "|Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND ((|@Kindling| AND |Tech - Progressive Furnace:1|) OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|)"
     },
     "Lumbering T2-2": {
         "connects_to": [
             "Lumbering T3-2"
         ],
-        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
     },
     "Lumbering T2-3": {
         "connects_to": [
             "Lumbering T3-3"
         ],
-        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
     },
     "Lumbering T2-4": {
         "connects_to": [
             "Lumbering T3-4"
         ],
-        "requires": "|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|)"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
     },
     "Lumbering T2-5": {
         "connects_to": [
@@ -5055,35 +5497,35 @@
         "connects_to": [
             "Lumbering T4-1"
         ],
-        "requires": []
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
     },
     "Lumbering T3-2": {
         "connects_to": [
             "Lumbering T4-2"
         ],
-        "requires": []
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
     },
     "Lumbering T3-3": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
     },
     "Lumbering T3-4": {
         "connects_to": [
             "Lumbering T4-3"
         ],
-        "requires": []
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
     },
     "Lumbering T4-1": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Lumbering T4-2": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
     },
     "Lumbering T4-3": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Mining T1": {
         "connects_to": [
@@ -5091,7 +5533,7 @@
             "Mining T1-2",
             "Mining T1-3"
         ],
-        "requires": []
+        "requires": "|@Mining|"
     },
     "Mining T1-1": {
         "connects_to": [
@@ -5115,50 +5557,50 @@
         "connects_to": [
             "Mining T2-4"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-2": {
         "connects_to": [
             "Mining T3-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-3": {
         "connects_to": [
             "Mining T3-4"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND |Tech - Progressive Furnace:2| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Pal Expedition Station| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:2| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-4": {
         "connects_to": [
             "Mining T3-1",
             "Mining T3-2"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Mining T3-1": {
         "connects_to": [
             "Mining T4-1"
         ],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Mining T3-2": {
         "connects_to": [
             "Mining T3-5"
         ],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Mining T3-3": {
         "connects_to": [
             "Mining T4-3"
         ],
-        "requires": "|Tech - Progressive Furnace:2| AND |Player Beacon:3|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Mining T3-4": {
         "connects_to": [
             "Mining T4-4"
         ],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |Player Beacon:3|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:3|"
     },
     "Mining T3-5": {
         "connects_to": [
@@ -5168,20 +5610,20 @@
     },
     "Mining T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |Player Beacon:4|"
+        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:4|"
     },
     "Mining T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |@Raid Beacon|"
+        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
 
     },
     "Mining T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |Player Beacon:4|"
+        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:4|"
     },
     "Mining T4-4": {
         "connects_to": [],
-        "requires": "|Tech - Progressive Furnace:3| AND |@Power Source| AND |@Raid Beacon|"
+        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
     },
     "Cooling T1": {
         "connects_to": [
@@ -5189,7 +5631,7 @@
             "Cooling T1-2",
             "Cooling T1-3"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND |@Cooling|"
     },
     "Cooling T1-1": {
         "connects_to": [
@@ -5202,7 +5644,7 @@
         "connects_to": [
             "Cooling T2-3"
         ],
-        "requires": "(|Bamboo Beacon| OR |Frostbound Beacon| OR |Sea Breeze Beacon|) AND (|Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|)"
+        "requires": "(|Bamboo Beacon| OR |Frostbound Beacon| OR |Sea Breeze Beacon|) AND (|@Kindling| AND |Tech - Progressive Furnace:1| OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|)"
     },
     "Cooling T1-3": {
         "connects_to": [
@@ -5226,66 +5668,66 @@
         "connects_to": [
             "Cooling T3-1"
         ],
-        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T2-2": {
         "connects_to": [
             "Cooling T3-2"
         ],
-        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T2-3": {
         "connects_to": [
             "Cooling T3-3"
         ],
-        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T2-4": {
         "connects_to": [
             "Cooling T3-4"
         ],
-        "requires": "|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T3-1": {
         "connects_to": [
             "Cooling T4-1"
         ],
-        "requires": []
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
     },
     "Cooling T3-2": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
     },
     "Cooling T3-3": {
         "connects_to": [
             "Cooling T4-2"
         ],
-        "requires": []
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
     },
     "Cooling T3-4": {
         "connects_to": [
             "Cooling T4-3"
         ],
-        "requires": []
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
     },
     "Cooling T4-1": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
     },
     "Cooling T4-2": {
         "connects_to": [],
-        "requires": []
+        "requires": "|@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
     },
     "Cooling T4-3": {
         "connects_to": [],
-        "requires": "|@Raid Beacon|"
+        "requires": "(|@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND {OptOne(|@Raid Boss|)}"
     },
     "Med_Prod T1": {
         "connects_to": [
             "Med_Prod T1-1",
             "Med_Prod T1-2"
         ],
-        "requires": "|Tech - Medieval Medicine Workbench| AND (|Wildlife 1 Beacon| OR |Wildlife 2 Beacon| OR |Wildlife 3 Beacon|)"
+        "requires": "|Tech - Medieval Medicine Workbench| AND (|Wildlife 1 Beacon| OR |Wildlife 2 Beacon| OR |Wildlife 3 Beacon|) AND |@Medicine|"
     },
     "Med_Prod T1-1": {
         "connects_to": [
@@ -5304,55 +5746,55 @@
         "connects_to": [
             "Med_Prod T2-4"
         ],
-        "requires": []
+        "requires": "|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
     },
     "Med_Prod T2-2": {
         "connects_to": [
             "Med_Prod T3-2"
         ],
-        "requires": "|Sakurajima Beacon| OR |Feybreak Frost Beacon|"
+        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
     },
     "Med_Prod T2-3": {
         "connects_to": [
             "Med_Prod T3-3"
         ],
-        "requires": "|Sakurajima Beacon| OR |Feybreak Frost Beacon|"
+        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
     },
     "Med_Prod T2-4": {
         "connects_to": [
             "Med_Prod T3-1"
         ],
-        "requires": "|Sakurajima Beacon| OR |Feybreak Frost Beacon|"
+        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
     },
     "Med_Prod T3-1": {
         "connects_to": [
             "Med_Prod T4-1"
         ],
-        "requires": []
+        "requires": "|@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
     },
     "Med_Prod T3-2": {
         "connects_to": [
             "Med_Prod T4-2"
         ],
-        "requires": []
+        "requires": "|@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
     },
     "Med_Prod T3-3": {
         "connects_to": [
             "Med_Prod T4-3"
         ],
-        "requires": []
+        "requires": "|@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
     },
     "Med_Prod T4-1": {
         "connects_to": [],
-        "requires": "|Tech - Electric Medicine Workbench| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Med_Prod T4-2": {
         "connects_to": [],
-        "requires": "|Tech - Electric Medicine Workbench| AND |@Power Source| AND |Player Beacon:4|"
+        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Med_Prod T4-3": {
         "connects_to": [],
-        "requires": "|Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Raid Beacon|"
+        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
     },
     "Bounty Merchant": {
         "connects_to": [],
@@ -5454,7 +5896,7 @@
         "connects_to": [
             "Whalaska Ignis"
         ],
-        "requires": "|Tech - Pal Gear Workbench| AND |@EZ_Mounts|"
+        "requires": "|EZ Mount|"
     },
     "Cooking": {
         "starting": true,
@@ -5477,7 +5919,7 @@
             "Campfire",
             "Cooking Pot"
         ],
-        "requires": "|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR |Tech - Progressive Furnace|)"
+        "requires": "|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace|)"
     },
     "Kitchen": {
         "connects_to": [
@@ -5485,7 +5927,7 @@
             "Cooking Pot",
             "Electric Kitchen"
         ],
-        "requires": "|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox| AND |Player Beacon:4|"
+        "requires": "|Tech - Electric Kitchen| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:2| AND |@Coal Place| AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox| AND |@Player Beacon:4|"
     },
     "Oven": {
         "connects_to": [
@@ -5494,7 +5936,7 @@
             "Electric Kitchen",
             "Large-Scale Stone Oven"
         ],
-        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)}) AND |Player Beacon:4|"
+        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR |@Cement Junk|) AND |@Player Beacon:4|"
     },
     "Campfire": {
         "connects_to": [],
@@ -5502,111 +5944,111 @@
     },
     "Cooking Pot": {
         "connects_to": [],
-        "requires": []
+        "requires": "{OptOne(|Fire Orb|)}"
     },
     "Electric Kitchen": {
         "connects_to": [],
-        "requires": []
+        "requires": "{OptOne(|Fire Orb|)}"
     },
     "Large-Scale Stone Oven": {
         "connects_to": [],
-        "requires": []
+        "requires": "{OptOne(|Fire Orb|)}"
     },
     "Pal_Critic_SmallSettlement": {
         "connects_to": [
             "Pal_Critic_SmallSettlement2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Grass Orb|)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Lifmunk Beacon|"
     },
     "Pal_Critic_SmallSettlement2": {
         "connects_to": [
             "Pal_Critic_SmallSettlement3"
         ],
-        "requires": "{OptOne(|Neutral Orb:2|)}"
+        "requires": "|Direhowl Beacon|"
     },
     "Pal_Critic_SmallSettlement3": {
         "connects_to": [
             "Pal_Critic_SmallSettlement4"
         ],
-        "requires": "{OptOne(|Dark Orb:5|)}"
+        "requires": "|Tombat Beacon|"
     },
     "Pal_Critic_SmallSettlement4": {
         "connects_to": [
             "Pal_Critic_SmallSettlement5"
         ],
-        "requires": "{canReachLocation(Palpedia - Penking)}"
+        "requires": "|Penking Beacon|"
     },
     "Pal_Critic_SmallSettlement5": {
         "connects_to": [
             "Pal_Critic_SmallSettlement6"
         ],
-        "requires": "{OptOne(|Neutral Orb:8|)}"
+        "requires": "|Kingpaca Beacon|"
     },
     "Pal_Critic_SmallSettlement6": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)}"
+        "requires": "|Mammorest Beacon|"
     },
     "Pal_Critic_ColdShore": {
         "connects_to": [
             "Pal_Critic_ColdShore2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Astral Dungeon Key|)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Reptyro Cryst Beacon|"
     },
     "Pal_Critic_ColdShore2": {
         "connects_to": [
             "Pal_Critic_ColdShore3"
         ],
-        "requires": []
+        "requires": "|Hangyu Cryst Beacon|"
     },
     "Pal_Critic_ColdShore3": {
         "connects_to": [
             "Pal_Critic_ColdShore4"
         ],
-        "requires": "{canReachLocation(Palpedia - Suzaku Aqua)}"
+        "requires": "|Suzaku Aqua Beacon|"
     },
     "Pal_Critic_ColdShore4": {
         "connects_to": [
             "Pal_Critic_ColdShore5"
         ],
-        "requires": "|Astral Beacon| AND {OptOne(|Dark Orb:10|)}"
+        "requires": "|Lyleen Noct Beacon|"
     },
     "Pal_Critic_ColdShore5": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:9|)}"
+        "requires": "|Kingpaca Cryst Beacon|"
     },
     "Pal_Critic_HypocriteHill": {
         "connects_to": [
             "Pal_Critic_HypocriteHill2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Neutral Orb:5|)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Gorirat Beacon|"
     },
     "Pal_Critic_HypocriteHill2": {
         "connects_to": [
             "Pal_Critic_HypocriteHill3"
         ],
-        "requires": ""
+        "requires": "|Galeclaw Beacon|"
     },
     "Pal_Critic_HypocriteHill3": {
         "connects_to": [
             "Pal_Critic_HypocriteHill4"
         ],
-        "requires": "{OptOne(|Dark Orb:3|)}"
+        "requires": "|Loupmoon Beacon|"
     },
     "Pal_Critic_HypocriteHill4": {
         "connects_to": [
             "Pal_Critic_HypocriteHill5"
         ],
-        "requires": "{canReachLocation(Palpedia - Petallia)}"
+        "requires": "|Petallia Beacon|"
     },
     "Pal_Critic_HypocriteHill5": {
         "connects_to": [
             "Pal_Critic_HypocriteHill6"
         ],
-        "requires": "{OptOne(|Dragon Orb:7|)}"
+        "requires": "|Elphidran Beacon|"
     },
     "Pal_Critic_HypocriteHill6": {
         "connects_to": [],
-        "requires": ""
+        "requires": "|Elizabee Beacon|"
     },
     "Pal_Critic_GobfinTurf": {
         "connects_to": [
@@ -5618,13 +6060,13 @@
         "connects_to": [
             "Pal_Critic_GobfinTurf3"
         ],
-        "requires": "{canReachLocation(Palpedia - Flambelle)}"
+        "requires": "|Flambelle Beacon|"
     },
     "Pal_Critic_GobfinTurf3": {
         "connects_to": [
             "Pal_Critic_GobfinTurf4"
         ],
-        "requires": "{canReachLocation(Palpedia - Felbat)}"
+        "requires": "|Felbat Beacon|"
     },
     "Pal_Critic_GobfinTurf4": {
         "connects_to": [
@@ -5636,199 +6078,199 @@
         "connects_to": [
             "Pal_Critic_GobfinTurf6"
         ],
-        "requires": "{canReachLocation(Palpedia - Kitsun)}"
+        "requires": "|Kitsun Beacon|"
     },
     "Pal_Critic_GobfinTurf6": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Verdash)}"
+        "requires": "|Verdash Beacon|"
     },
     "Pal_Critic_RavineEntrance": {
         "connects_to": [
             "Pal_Critic_RavineEntrance2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {canReachLocation(Palpedia - Surfent)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Surfent Beacon|"
     },
     "Pal_Critic_RavineEntrance2": {
         "connects_to": [
             "Pal_Critic_RavineEntrance3"
         ],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)}"
+        "requires": "|Relaxaurus Beacon|"
     },
     "Pal_Critic_RavineEntrance3": {
         "connects_to": [
             "Pal_Critic_RavineEntrance4"
         ],
-        "requires": "{OptOne(|Ice Orb:6|)}"
+        "requires": "|Sweepa Beacon|"
     },
     "Pal_Critic_RavineEntrance4": {
         "connects_to": [
             "Pal_Critic_RavineEntrance5"
         ],
-        "requires": "{canReachLocation(Palpedia - Digtoise)}"
+        "requires": "|Digtoise Beacon|"
     },
     "Pal_Critic_RavineEntrance5": {
         "connects_to": [
             "Pal_Critic_RavineEntrance6"
         ],
-        "requires": "{canReachLocation(Palpedia - Quivern)}"
+        "requires": "|Quivern Beacon|"
     },
     "Pal_Critic_RavineEntrance6": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Fenglope)}"
+        "requires": "|Fenglope Beacon|"
     },
     "Pal_Critic_Duneshelter": {
         "connects_to": [
             "Pal_Critic_Duneshelter2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Ground Orb:4|)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Surfent Terra Beacon|"
     },
     "Pal_Critic_Duneshelter2": {
         "connects_to": [
             "Pal_Critic_Duneshelter3"
         ],
-        "requires": "{canReachLocation(Palpedia - Mossanda Lux)}"
+        "requires": "|Mossanda Lux Beacon|"
     },
     "Pal_Critic_Duneshelter3": {
         "connects_to": [
             "Pal_Critic_Duneshelter4"
         ],
-        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Dark Orb:9|)}"
+        "requires": "|Menasting Beacon|"
     },
     "Pal_Critic_Duneshelter4": {
         "connects_to": [
             "Pal_Critic_Duneshelter5"
         ],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)} AND |Wildlife Sanctuary 3 Tracker|"
+        "requires": "|Orserk Beacon|"
     },
     "Pal_Critic_Duneshelter5": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Faleris)}"
+        "requires": "|Faleris Beacon|"
     },
     "Pal_Critic_AnubisStatue": {
         "connects_to": [
             "Pal_Critic_AnubisStatue2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {canReachLocation(Palpedia - Blazehowl)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Blazehowl Beacon|"
     },
     "Pal_Critic_AnubisStatue2": {
         "connects_to": [
             "Pal_Critic_AnubisStatue3"
         ],
-        "requires": "{canReachLocation(Palpedia - Pyrin Noct)}"
+        "requires": "|Pyrin Noct Beacon|"
     },
     "Pal_Critic_AnubisStatue3": {
         "connects_to": [
             "Pal_Critic_AnubisStatue4"
         ],
-        "requires": "{canReachLocation(Palpedia - Jormuntide Ignis)}"
+        "requires": "|Jormuntide Ignis Beacon|"
     },
     "Pal_Critic_AnubisStatue4": {
         "connects_to": [
             "Pal_Critic_AnubisStatue5"
         ],
-        "requires": "{canReachLocation(Palpedia - Blazamut)}"
+        "requires": "|Blazamut Beacon|"
     },
     "Pal_Critic_AnubisStatue5": {
         "connects_to": [],
-        "requires": "|Hot Volcano Beacon| AND {OptOne(|Dark Orb:9|)} AND {OptOne(|Dragon Orb:9|)}"
+        "requires": "|Astegon Beacon|"
     },
     "Pal_Critic_MushroomWetlands": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Helzephyr Lux Beacon|"
     },
     "Pal_Critic_MushroomWetlands2": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands3"
         ],
-        "requires": "{OptOne(|Ground Orb:5|)}"
+        "requires": "|Gorirat Terra Beacon|"
     },
     "Pal_Critic_MushroomWetlands3": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands4"
         ],
-        "requires": "{canReachLocation(Palpedia - Katress Ignis)}"
+        "requires": "|Katress Ignis Beacon|"
     },
     "Pal_Critic_MushroomWetlands4": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands5"
         ],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)}"
+        "requires": "|Sootseer Beacon|"
     },
     "Pal_Critic_MushroomWetlands5": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands6"
         ],
-        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Neutral Orb:9|)}"
+        "requires": "|Selyne Beacon|"
     },
     "Pal_Critic_MushroomWetlands6": {
         "connects_to": [
             "Pal_Critic_MushroomWetlands7"
         ],
-        "requires": "{OptOne(|Ground Orb:10|)}"
+        "requires": "|Menasting Terra Beacon|"
     },
     "Pal_Critic_MushroomWetlands7": {
         "connects_to": [],
-        "requires": ""
+        "requires": "|Knocklem Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance2"
         ],
-        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND {OptOne(|Ground Orb:9|)}"
+        "requires": "(|Tech - Palbox| OR |Arena Beacon|) AND |Gildane Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance2": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance3"
         ],
-        "requires": "{OptOne(|Dark Orb:2|)}"
+        "requires": "|Smokie Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance3": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance4"
         ],
-        "requires": "{OptOne(|Dark Orb:3|)}"
+        "requires": "|Tarantriss Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance4": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance5"
         ],
-        "requires": "{canReachLocation(Palpedia - Dazzi Noct)}"
+        "requires": "|Dazzi Noct Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance5": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance6"
         ],
-        "requires": ""
+        "requires": "|Warsect Terra Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance6": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance7"
         ],
-        "requires": "{canReachLocation(Palpedia - Omascul)}"
+        "requires": "|Omascul Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance7": {
         "connects_to": [
             "Pal_Critic_StonePillarCaveEntrance8"
         ],
-        "requires": "{OptOne(|Neutral Orb:9|)}"
+        "requires": "|Celesdir Beacon|"
     },
     "Pal_Critic_StonePillarCaveEntrance8": {
         "connects_to": [],
-        "requires": "{canReachLocation(Palpedia - Bastigor)}"
+        "requires": "|Bastigor Beacon|"
     },
     "Arrogant_Foodie": {
         "connects_to": [
             "Arrogant_Foodie2"
         ],
-        "requires": "|Tech - Campfire| OR (|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox|) AND (|Volcano Beacon| OR |Twilight Beacon| OR {canReachLocation(Boss - Dumud (Level 14))}) AND {OptOne(|Broiled Dumud Recipe|)}"
+        "requires": "|Tech - Campfire| OR (|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR |@Cement Junk|)) OR (|Tech - Electric Kitchen| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:2| AND |@Coal Place| AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox|) AND (|Volcano Beacon| OR |Twilight Beacon| OR |Dumud Beacon|) AND {OptOne(|Broiled Dumud Recipe|)}"
     },
     "Arrogant_Foodie2": {
         "connects_to": [
             "Arrogant_Foodie3"
         ],
-        "requires": "(|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR {canReachCategory(Cement Junk,1)})) OR (|Tech - Electric Kitchen| AND |Tech - Progressive Furnace:2| AND {canReachCategory(Coal Place,1)} AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox|) AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "(|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace|)) OR (|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR |@Cement Junk|)) OR (|Tech - Electric Kitchen| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:2| AND |@Coal Place| AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox|) AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     "Arrogant_Foodie3": {
         "connects_to": [
@@ -5840,13 +6282,13 @@
         "connects_to": [
             "Arrogant_Foodie5"
         ],
-        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND {canReachLocation(Palpedia - Gloopie)}"
+        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND |Gloopie Beacon|"
     },
     "Arrogant_Foodie5": {
         "connects_to": [
             "Arrogant_Foodie6"
         ],
-        "requires": "({canReachLocation(Travel Point - Kelpsea Hill)} OR {canReachLocation(Boss - Broncherry (Level 23))}) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
+        "requires": "(|Bamboo Beacon| OR (|Sea Breeze Beacon| AND |@Player Beacon:2|)) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
     },
     "Arrogant_Foodie6": {
         "connects_to": [
@@ -5858,7 +6300,7 @@
         "connects_to": [
             "Arrogant_Foodie8"
         ],
-        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND {canReachLocation(Palpedia - Reindrix)} AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)})"
+        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND |Reindrix Beacon| AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)})"
     },
     "Arrogant_Foodie8": {
         "connects_to": [
@@ -5876,7 +6318,7 @@
         "connects_to": [
             "Arrogant_Foodie11"
         ],
-        "requires": "{canReachLocation(Palpedia - Mammorest)} AND {OptOne(|Mammorest Steak Recipe|)}"
+        "requires": "|Mammorest Beacon| AND {OptOne(|Mammorest Steak Recipe|)}"
     },
     "Arrogant_Foodie11": {
         "connects_to": [],
@@ -5886,67 +6328,67 @@
         "connects_to": [
             "Penking"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Frozen Wings|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Frozen Wings|)} AND |@Player Beacon:2|"
     },
     "Swift": {
         "connects_to": [
             "Verdash"
         ],
-        "requires": "{OptOne(|Player Level:35|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swift|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:35|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swift|)} AND |@Player Beacon:4|"
     },
     "Guardian": {
         "connects_to": [
             "Vaelet"
         ],
-        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Guardian|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Guardian|)} AND |@Player Beacon:4|"
     },
     "Stalwart": {
         "connects_to": [
             "Warsect"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Stalwart|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Stalwart|)} AND |@Player Beacon:3|"
     },
     "Pristine": {
         "connects_to": [
             "Sibelyx"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Pristine|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Pristine|)} AND |@Player Beacon:4|"
     },
     "Abyssal Nights": {
         "connects_to": [
             "Felbat"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Abyssal Nights|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Abyssal Nights|)} AND |@Player Beacon:2|"
     },
     "Spirits": {
         "connects_to": [
             "Petallia"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of Spirits|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of Spirits|)} AND |@Player Beacon:3|"
     },
     "Winged Tyrant": {
         "connects_to": [
             "Quivern"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Winged Tyrant|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Winged Tyrant|)} AND |@Player Beacon:2|"
     },
     "Thunder Dragon": {
         "connects_to": [
             "Relaxaurus Lux"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Thunder Dragon|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Thunder Dragon|)} AND |@Player Beacon:3|"
     },
     "Swordmaster": {
         "connects_to": [
             "Bushi"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swordmaster|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swordmaster|)} AND |@Player Beacon:2|"
     },
     "Esoteric": {
         "connects_to": [
             "Lunaris"
         ],
-        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Esoteric|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Esoteric|)} AND |@Player Beacon:3|"
     },
     "Player Progression": {
         "starting": true,
@@ -5959,35 +6401,35 @@
         "connects_to": [
             "Player Progression 20"
         ],
-        "requires": "{OptOne(Player Level:15)} AND |Player Beacon| AND (|Bamboo Beacon| OR |Grasslands Beacon|)"
+        "requires": "{OptOne(Player Level:15)} AND |@Player Beacon| AND (|Bamboo Beacon| OR |Grasslands Beacon|)"
     },
     "Player Progression 20": {
         "connects_to": [
             "Player Progression 30"
         ],
-        "requires": "{OptOne(Player Level:20)} AND |Player Beacon| AND (|Crescent Beacon| OR |Forest Beacon|)"
+        "requires": "{OptOne(Player Level:20)} AND |@Player Beacon| AND (|Crescent Beacon| OR |Forest Beacon|)"
     },
     "Player Progression 30": {
         "connects_to": [
             "Player Progression 40"
         ],
-        "requires": "{OptOne(Player Level:30)} AND |Player Beacon:2| AND (|Volcano Beacon| OR |Cold Shore Beacon|)"
+        "requires": "{OptOne(Player Level:30)} AND |@Player Beacon:2| AND (|Volcano Beacon| OR |Cold Shore Beacon|)"
     },
     "Player Progression 40": {
         "connects_to": [
             "Player Progression 50"
         ],
-        "requires": "{OptOne(Player Level:40)} AND |Player Beacon:3| AND (|Astral Beacon| OR |Dunes Beacon|)"
+        "requires": "{OptOne(Player Level:40)} AND |@Player Beacon:3| AND (|Astral Beacon| OR |Dunes Beacon|)"
     },
     "Player Progression 50": {
         "connects_to": [
             "Player Progression 60"
         ],
-        "requires": "{OptOne(Player Level:50)} AND |Player Beacon:4| AND |Sakurajima Beacon|"
+        "requires": "{OptOne(Player Level:50)} AND |@Player Beacon:4| AND |Sakurajima Beacon|"
     },
     "Player Progression 60": {
         "connects_to": [],
-        "requires": "{OptOne(Player Level:60)} AND |Player Beacon:5| AND |Feybreak Beacon|"
+        "requires": "{OptOne(Player Level:60)} AND |@Player Beacon:5| AND |Feybreak Beacon|"
     },
     "General": {
         "starting": true,

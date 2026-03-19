@@ -1,0 +1,4400 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+    "data": [
+        {
+            "name": "Eastern Wild Beacon",
+            "region": "Eastern Wild Island",
+            "category": [
+                "Honey Drop",
+                "Tomato Drop",
+                "Island Dungeon Location",
+                "Travel Point",
+                "Onion Drop"
+            ]
+        },
+        {
+            "name": "Dunes Beacon",
+            "region": "Dessicated Dunes",
+            "category": [
+                "Location Beacons",
+                "Tomato Drop",
+                "Crude Oil",
+                "Coal Place",
+                "Cement Junk",
+                "Tower Boss Location",
+                "Dungeon Location",
+                "Potato Drop",
+                "Journal Location",
+                "Travel Point",
+                "Lucky Hunts"
+            ]
+        },
+        {
+            "name": "Sakurajima Beacon",
+            "region": "Sakurajima",
+            "category": [
+                "Location Beacons",
+                "Crude Oil",
+                "Coal Place",
+                "Cement Junk",
+                "Tower Boss Location",
+                "Lucky Hunts",
+                "Dungeon Location",
+                "Potato Drop",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Feybreak Beacon",
+            "region": "Feybreak",
+            "category": [
+                "Location Beacons",
+                "Honey Drop",
+                "Crude Oil",
+                "Cement Junk",
+                "Lucky Hunts",
+                "Dungeon Location",
+                "Potato Drop",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Feybreak Frost Beacon",
+            "region": "Feybreak Blue",
+            "category": [
+                "Location Beacons",
+                "Tower Boss Location",
+                "Journal Location"
+            ]
+        },
+        {
+            "name": "Astral Beacon",
+            "region": "Astral Mountains",
+            "category": [
+                "Location Beacons",
+                "Crude Oil",
+                "Cement Junk",
+                "Tower Boss Location",
+                "Lucky Hunts",
+                "Astral Dungeon Location",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Cold Shore Beacon",
+            "region": "Foot of the Astral Mountains",
+            "category": [
+                "Location Beacons",
+                "Honey Drop",
+                "Tomato Drop",
+                "Cement Junk",
+                "Astral Dungeon Location",
+                "Onion Drop",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Forest Beacon",
+            "region": "Verdant Brook",
+            "category": [
+                "Location Beacons",
+                "Honey Drop",
+                "Tomato Drop",
+                "Coal Place",
+                "Lucky Hunts",
+                "Forest Dungeon Location",
+                "Onion Drop",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Crescent Beacon",
+            "region": "Crescent Moon Shore",
+            "category": [
+                "Location Beacons",
+                "Honey Drop",
+                "Lettuce Drop",
+                "Tomato Drop",
+                "Coal Place",
+                "Lucky Hunts",
+                "Onion Drop",
+                "Forest Dungeon Location",
+                "Potato Drop",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Frostbound Beacon",
+            "region": "Frostbound Mountains",
+            "category": [
+                "Location Beacons",
+                "Tower Boss Location",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Glacial Beacon",
+            "region": "Isle of the Glacial Core",
+            "category": [
+                "Location Beacons",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Volcano Beacon",
+            "region": "Mount Obsidian",
+            "category": [
+                "Location Beacons",
+                "Coal Place",
+                "Cement Junk",
+                "Lucky Hunts",
+                "Dungeon Location",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Hot Volcano Beacon",
+            "region": "Hot Volcano",
+            "category": [
+                "Location Beacons",
+                "Crude Oil",
+                "Tower Boss Location",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Grasslands Beacon",
+            "region": "Windswept Hills",
+            "category": [
+                "Location Beacons",
+                "Merchant Location",
+                "Tower Boss Location",
+                "Lucky Hunts",
+                "Dungeon Location",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Arena Beacon",
+            "region": "Pal Arena",
+            "category": [
+                "Location Beacons",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Home Beacon 1",
+            "region": "Base Level 6",
+            "category": [
+                "General Beacons"
+            ]
+        },
+        {
+            "name": "Home Beacon 2",
+            "region": "Base Level 14",
+            "category": [
+                "General Beacons"
+            ]
+        },
+        {
+            "name": "Bamboo Beacon",
+            "region": "Bamboo Groves",
+            "category": [
+                "Location Beacons",
+                "Tomato Drop",
+                "Coal Place",
+                "Lucky Hunts",
+                "Dungeon Location",
+                "Potato Drop",
+                "Journal Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Twilight Beacon",
+            "region": "Twilight Dunes",
+            "category": [
+                "Location Beacons",
+                "Coal Place"
+            ]
+        },
+        {
+            "name": "Sea Breeze Beacon",
+            "region": "Sea Breeze Archipelago",
+            "category": [
+                "Location Beacons",
+                "Merchant Location",
+                "Lucky Hunts",
+                "Island Dungeon Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Forgotten Beacon",
+            "region": "Forgotten Island",
+            "category": [
+                "Location Beacons",
+                "Merchant Location",
+                "Island Dungeon Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Marsh Beacon",
+            "region": "Marsh Island",
+            "category": [
+                "Location Beacons",
+                "Merchant Location",
+                "Island Dungeon Location",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Sunlit Beacon",
+            "region": "Sunlit Isle",
+            "category": [
+                "Location Beacons",
+                "Crude Oil",
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Ice Wind Beacon",
+            "region": "Ice Wind Island",
+            "category": [
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Phantom Beacon",
+            "region": "Phantom Isle",
+            "category": [
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Eternal Summer Beacon",
+            "region": "Eternal Summer Isle",
+            "category": [
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Frostbitten Beacon",
+            "region": "Frostbitten Isle",
+            "category": [
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Decayed Beacon",
+            "region": "Isle of Decayed Treasures",
+            "category": [
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Oasis Beacon",
+            "region": "Oasis Isle",
+            "category": [
+                "Travel Point"
+            ]
+        },
+        {
+            "name": "Wildlife 1 Beacon",
+            "region": "Wildlife Sanctuary 1",
+            "category": [
+                "Wildlife Beacons",
+                "Onion Drop"
+            ]
+        },
+        {
+            "name": "Wildlife 2 Beacon",
+            "region": "Wildlife Sanctuary 2",
+            "category": [
+                "Wildlife Beacons",
+                "Lettuce Drop",
+                "Journal Location"
+            ]
+        },
+        {
+            "name": "Wildlife 3 Beacon",
+            "region": "Wildlife Sanctuary 3",
+            "category": [
+                "Wildlife Beacons"
+            ]
+        },
+        {
+            "name": "Player 10 Beacon",
+            "region": "Player Progression",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player 20 Beacon",
+            "region": "Player Progression 20",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player 30 Beacon",
+            "region": "Player Progression 30",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player 40 Beacon",
+            "region": "Player Progression 40",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player 50 Beacon",
+            "region": "Player Progression 50",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player 60 Beacon",
+            "region": "Player Progression 60",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Handiwork Column 1",
+            "region": "Handiwork T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Handiwork Column 2",
+            "region": "Handiwork T4-2",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Handiwork Column 3",
+            "region": "Handiwork T4-3",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Handiwork Column 4",
+            "region": "Handiwork T4-4",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Kindling Column 1",
+            "region": "Kindling T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Kindling Column 2",
+            "region": "Kindling T4-2",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Kindling Column 3",
+            "region": "Kindling T4-3",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Kindling Column 4",
+            "region": "Kindling T4-4",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Watering Column 1",
+            "region": "Watering T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Watering Column 2",
+            "region": "Watering T4-2",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Watering Column 3",
+            "region": "Watering T4-3",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Watering Column 4",
+            "region": "Watering T4-4",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Planting Column 1",
+            "region": "Planting T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Planting Column 2",
+            "region": "Planting T4-2",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Planting Column 3",
+            "region": "Planting T4-3",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Planting Column 4",
+            "region": "Planting T4-4",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Electricity Column 1",
+            "region": "Gen_Elec T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Electricity Column 2",
+            "region": "Gen_Elec T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Electricity Column 3",
+            "region": "Gen_Elec T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Lumbering Column 1",
+            "region": "Lumbering T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Lumbering Column 2",
+            "region": "Lumbering T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Lumbering Column 3",
+            "region": "Lumbering T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Mining Column 1",
+            "region": "Mining T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Mining Column 2",
+            "region": "Mining T4-2",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Mining Column 3",
+            "region": "Mining T4-3",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Mining Column 4",
+            "region": "Mining T4-4",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Cooling Column 1",
+            "region": "Cooling T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Cooling Column 2",
+            "region": "Cooling T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Cooling Column 3",
+            "region": "Cooling T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Medicine Column 1",
+            "region": "Med_Prod T4-1",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Medicine Column 2",
+            "region": "Med_Prod T4-2",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Medicine Column 3",
+            "region": "Med_Prod T4-3",
+            "category": [
+                "Research Token",
+                "Research Tasks"
+            ]
+        },
+        {
+            "name": "Lamball Beacon",
+            "region": "Lamball",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Rank 1"
+            ]
+        },
+        {
+            "name": "Cattiva Beacon",
+            "region": "Cattiva",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 1",
+                "Mining",
+                "Mining Level 1"
+            ]
+        },
+        {
+            "name": "Chikipi Beacon",
+            "region": "Chikipi",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Lifmunk Beacon",
+            "region": "Lifmunk",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Lumbering",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Foxparks Beacon",
+            "region": "Foxparks",
+            "category": [
+                "Pal Beacons",
+                "Kindling"
+            ]
+        },
+        {
+            "name": "Foxparks Cryst Beacon",
+            "region": "Foxparks Cryst",
+            "category": [
+                "Pal Beacons",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Fuack Beacon",
+            "region": "Fuack",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Fuack Ignis Beacon",
+            "region": "Fuack Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Watering",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Sparkit Beacon",
+            "region": "Sparkit",
+            "category": [
+                "Pal Beacons",
+                "Electricity"
+            ]
+        },
+        {
+            "name": "Tanzee Beacon",
+            "region": "Tanzee",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Lumbering"
+            ]
+        },
+        {
+            "name": "Rooby Beacon",
+            "region": "Rooby",
+            "category": [
+                "Pal Beacons",
+                "Kindling"
+            ]
+        },
+        {
+            "name": "Pengullet Beacon",
+            "region": "Pengullet",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Handiwork",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Pengullet Lux Beacon",
+            "region": "Pengullet Lux",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Electricity",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Penking Beacon",
+            "region": "Penking",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Mining",
+                "Mining Level 2",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Penking Lux Beacon",
+            "region": "Penking Lux",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Electricity",
+                "Electricity Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Jolthog Beacon",
+            "region": "Jolthog",
+            "category": [
+                "Pal Beacons",
+                "Electricity"
+            ]
+        },
+        {
+            "name": "Jolthog Cryst Beacon",
+            "region": "Jolthog Cryst",
+            "category": [
+                "Pal Beacons",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Gumoss Beacon",
+            "region": "Gumoss",
+            "category": [
+                "Pal Beacons",
+                "Planting"
+            ]
+        },
+        {
+            "name": "Vixy Beacon",
+            "region": "Vixy",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Hoocrates Beacon",
+            "region": "Hoocrates",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Teafant Beacon",
+            "region": "Teafant",
+            "category": [
+                "Pal Beacons",
+                "Watering"
+            ]
+        },
+        {
+            "name": "Depresso Beacon",
+            "region": "Depresso",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Cremis Beacon",
+            "region": "Cremis",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Daedream Beacon",
+            "region": "Daedream",
+            "category": [
+                "Pal Beacons",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Rushoar Beacon",
+            "region": "Rushoar",
+            "category": [
+                "Pal Beacons",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Nox Beacon",
+            "region": "Nox",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Fuddler Beacon",
+            "region": "Fuddler",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Killamari Beacon",
+            "region": "Killamari",
+            "category": [
+                "Pal Beacons",
+                "Watering"
+            ]
+        },
+        {
+            "name": "Killamari Primo Beacon",
+            "region": "Killamari Primo",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2"
+            ]
+        },
+        {
+            "name": "Mau Beacon",
+            "region": "Mau",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Mau Cryst Beacon",
+            "region": "Mau Cryst",
+            "category": [
+                "Pal Beacons",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Celaray Beacon",
+            "region": "Celaray",
+            "category": [
+                "Pal Beacons",
+                "Watering"
+            ]
+        },
+        {
+            "name": "Celaray Lux Beacon",
+            "region": "Celaray Lux",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Electricity"
+            ]
+        },
+        {
+            "name": "Direhowl Beacon",
+            "region": "Direhowl",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Tocotoco Beacon",
+            "region": "Tocotoco",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Flopie Beacon",
+            "region": "Flopie",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Mozzarina Beacon",
+            "region": "Mozzarina",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Bristla Beacon",
+            "region": "Bristla",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Gobfin Beacon",
+            "region": "Gobfin",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Gobfin Ignis Beacon",
+            "region": "Gobfin Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Hangyu Beacon",
+            "region": "Hangyu",
+            "category": [
+                "Pal Beacons",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Hangyu Cryst Beacon",
+            "region": "Hangyu Cryst",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Mossanda Beacon",
+            "region": "Mossanda",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Mossanda Lux Beacon",
+            "region": "Mossanda Lux",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Woolipop Beacon",
+            "region": "Woolipop",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Caprity Beacon",
+            "region": "Caprity",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2"
+            ]
+        },
+        {
+            "name": "Caprity Noct Beacon",
+            "region": "Caprity Noct",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2"
+            ]
+        },
+        {
+            "name": "Melpaca Beacon",
+            "region": "Melpaca",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Eikthyrdeer Beacon",
+            "region": "Eikthyrdeer",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Eikthyrdeer Terra Beacon",
+            "region": "Eikthyrdeer Terra",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Nitewing Beacon",
+            "region": "Nitewing",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Ribbuny Beacon",
+            "region": "Ribbuny",
+            "category": [
+                "Pal Beacons",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Ribbuny Botan Beacon",
+            "region": "Ribbuny Botan",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Incineram Beacon",
+            "region": "Incineram",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Incineram Noct Beacon",
+            "region": "Incineram Noct",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Cinnamoth Beacon",
+            "region": "Cinnamoth",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2"
+            ]
+        },
+        {
+            "name": "Arsox Beacon",
+            "region": "Arsox",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Lumbering"
+            ]
+        },
+        {
+            "name": "Dumud Beacon",
+            "region": "Dumud",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Dumud Gild Beacon",
+            "region": "Dumud Gild",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Cawgnito Beacon",
+            "region": "Cawgnito",
+            "category": [
+                "Pal Beacons",
+                "Lumbering"
+            ]
+        },
+        {
+            "name": "Leezpunk Beacon",
+            "region": "Leezpunk",
+            "category": [
+                "Pal Beacons",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Leezpunk Ignis Beacon",
+            "region": "Leezpunk Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Loupmoon Beacon",
+            "region": "Loupmoon",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2"
+            ]
+        },
+        {
+            "name": "Loupmoon Cryst Beacon",
+            "region": "Loupmoon Cryst",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Galeclaw Beacon",
+            "region": "Galeclaw",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Robinquill Beacon",
+            "region": "Robinquill",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Robinquill Terra Beacon",
+            "region": "Robinquill Terra",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Gorirat Beacon",
+            "region": "Gorirat",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Gorirat Terra Beacon",
+            "region": "Gorirat Terra",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Beegarde Beacon",
+            "region": "Beegarde",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Lumbering",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Elizabee Beacon",
+            "region": "Elizabee",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Grintale Beacon",
+            "region": "Grintale",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Swee Beacon",
+            "region": "Swee",
+            "category": [
+                "Pal Beacons",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Sweepa Beacon",
+            "region": "Sweepa",
+            "category": [
+                "Pal Beacons",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Chillet Beacon",
+            "region": "Chillet",
+            "category": [
+                "Pal Beacons",
+                "Cooling"
+            ]
+        },
+        {
+            "name": "Chillet Ignis Beacon",
+            "region": "Chillet Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2"
+            ]
+        },
+        {
+            "name": "Univolt Beacon",
+            "region": "Univolt",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 2",
+                "Lumbering"
+            ]
+        },
+        {
+            "name": "Foxcicle Beacon",
+            "region": "Foxcicle",
+            "category": [
+                "Pal Beacons",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Pyrin Beacon",
+            "region": "Pyrin",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Lumbering"
+            ]
+        },
+        {
+            "name": "Pyrin Noct Beacon",
+            "region": "Pyrin Noct",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Lumbering"
+            ]
+        },
+        {
+            "name": "Reindrix Beacon",
+            "region": "Reindrix",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Rayhound Beacon",
+            "region": "Rayhound",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 2"
+            ]
+        },
+        {
+            "name": "Kitsun Beacon",
+            "region": "Kitsun",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2"
+            ]
+        },
+        {
+            "name": "Kitsun Noct Beacon",
+            "region": "Kitsun Noct",
+            "category": [
+                "Pal Beacons",
+                "Kindling Level 2"
+            ]
+        },
+        {
+            "name": "Dazzi Beacon",
+            "region": "Dazzi",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Dazzi Noct Beacon",
+            "region": "Dazzi Noct",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Handiwork",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Lunaris Beacon",
+            "region": "Lunaris",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 3"
+            ]
+        },
+        {
+            "name": "Dinossom Beacon",
+            "region": "Dinossom",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Dinossom Lux Beacon",
+            "region": "Dinossom Lux",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 2",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Surfent Beacon",
+            "region": "Surfent",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2"
+            ]
+        },
+        {
+            "name": "Surfent Terra Beacon",
+            "region": "Surfent Terra",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Maraith Beacon",
+            "region": "Maraith",
+            "category": [
+                "Pal Beacons",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Digtoise Beacon",
+            "region": "Digtoise",
+            "category": [
+                "Pal Beacons",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Tombat Beacon",
+            "region": "Tombat",
+            "category": [
+                "Pal Beacons",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Lovander Beacon",
+            "region": "Lovander",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Mining",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Flambelle Beacon",
+            "region": "Flambelle",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Vanwyrm Beacon",
+            "region": "Vanwyrm",
+            "category": [
+                "Pal Beacons",
+                "Kindling"
+            ]
+        },
+        {
+            "name": "Vanwyrm Cryst Beacon",
+            "region": "Vanwyrm Cryst",
+            "category": [
+                "Pal Beacons",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Bushi Beacon",
+            "region": "Bushi",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 3"
+            ]
+        },
+        {
+            "name": "Bushi Noct Beacon",
+            "region": "Bushi Noct",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 3"
+            ]
+        },
+        {
+            "name": "Beakon Beacon",
+            "region": "Beakon",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 2"
+            ]
+        },
+        {
+            "name": "Ragnahawk Beacon",
+            "region": "Ragnahawk",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3"
+            ]
+        },
+        {
+            "name": "Katress Beacon",
+            "region": "Katress",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Katress Ignis Beacon",
+            "region": "Katress Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Wixen Beacon",
+            "region": "Wixen",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Handiwork",
+                "Handiwork Level 3"
+            ]
+        },
+        {
+            "name": "Wixen Noct Beacon",
+            "region": "Wixen Noct",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Handiwork",
+                "Handiwork Level 3"
+            ]
+        },
+        {
+            "name": "Verdash Beacon",
+            "region": "Verdash",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Handiwork Level 3",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Vaelet Beacon",
+            "region": "Vaelet",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Sibelyx Beacon",
+            "region": "Sibelyx",
+            "category": [
+                "Pal Beacons",
+                "Medicine",
+                "Medicine Level 2",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Elphidran Beacon",
+            "region": "Elphidran",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Elphidran Aqua Beacon",
+            "region": "Elphidran Aqua",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 3",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Kelpsea Beacon",
+            "region": "Kelpsea",
+            "category": [
+                "Pal Beacons",
+                "Watering"
+            ]
+        },
+        {
+            "name": "Kelpsea Ignis Beacon",
+            "region": "Kelpsea Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling"
+            ]
+        },
+        {
+            "name": "Azurobe Beacon",
+            "region": "Azurobe",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 3"
+            ]
+        },
+        {
+            "name": "Azurobe Cryst Beacon",
+            "region": "Azurobe Cryst",
+            "category": [
+                "Pal Beacons",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Cryolinx Beacon",
+            "region": "Cryolinx",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Cryolinx Terra Beacon",
+            "region": "Cryolinx Terra",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Blazehowl Beacon",
+            "region": "Blazehowl",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Blazehowl Noct Beacon",
+            "region": "Blazehowl Noct",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Relaxaurus Beacon",
+            "region": "Relaxaurus",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2"
+            ]
+        },
+        {
+            "name": "Relaxaurus Lux Beacon",
+            "region": "Relaxaurus Lux",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 3"
+            ]
+        },
+        {
+            "name": "Broncherry Beacon",
+            "region": "Broncherry",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 3"
+            ]
+        },
+        {
+            "name": "Broncherry Aqua Beacon",
+            "region": "Broncherry Aqua",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 3"
+            ]
+        },
+        {
+            "name": "Petallia Beacon",
+            "region": "Petallia",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 3",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Reptyro Beacon",
+            "region": "Reptyro",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Reptyro Cryst Beacon",
+            "region": "Reptyro Cryst",
+            "category": [
+                "Pal Beacons",
+                "Mining",
+                "Mining Level 3",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Kingpaca Beacon",
+            "region": "Kingpaca",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Kingpaca Cryst Beacon",
+            "region": "Kingpaca Cryst",
+            "category": [
+                "Pal Beacons",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Mammorest Beacon",
+            "region": "Mammorest",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Mammorest Cryst Beacon",
+            "region": "Mammorest Cryst",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 2",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Wumpo Beacon",
+            "region": "Wumpo",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Lumbering Level 3",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Wumpo Botan Beacon",
+            "region": "Wumpo Botan",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Lumbering",
+                "Lumbering Level 3"
+            ]
+        },
+        {
+            "name": "Warsect Beacon",
+            "region": "Warsect",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 3"
+            ]
+        },
+        {
+            "name": "Warsect Terra Beacon",
+            "region": "Warsect Terra",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Fenglope Beacon",
+            "region": "Fenglope",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Fenglope Lux Beacon",
+            "region": "Fenglope Lux",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 2",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Felbat Beacon",
+            "region": "Felbat",
+            "category": [
+                "Pal Beacons",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Quivern Beacon",
+            "region": "Quivern",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Quivern Botan Beacon",
+            "region": "Quivern Botan",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Blazamut Beacon",
+            "region": "Blazamut",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Mining",
+                "Mining Level 4"
+            ]
+        },
+        {
+            "name": "Blazamut Ryu Beacon",
+            "region": "Blazamut Ryu",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 4",
+                "Mining",
+                "Mining Level 4"
+            ]
+        },
+        {
+            "name": "Helzephyr Beacon",
+            "region": "Helzephyr",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Helzephyr Lux Beacon",
+            "region": "Helzephyr Lux",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electicity Level 3"
+            ]
+        },
+        {
+            "name": "Astegon Beacon",
+            "region": "Astegon",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Mining",
+                "Mining Level 4"
+            ]
+        },
+        {
+            "name": "Menasting Beacon",
+            "region": "Menasting",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Menasting Terra Beacon",
+            "region": "Menasting Terra",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Anubis Beacon",
+            "region": "Anubis",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 4",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Jormuntide Beacon",
+            "region": "Jormuntide",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 4"
+            ]
+        },
+        {
+            "name": "Jormuntide Ignis Beacon",
+            "region": "Jormuntide Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 4"
+            ]
+        },
+        {
+            "name": "Suzaku Beacon",
+            "region": "Suzaku",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3"
+            ]
+        },
+        {
+            "name": "Suzaku Aqua Beacon",
+            "region": "Suzaku Aqua",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 3"
+            ]
+        },
+        {
+            "name": "Grizzbolt Beacon",
+            "region": "Grizzbolt",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 3",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Lyleen Beacon",
+            "region": "Lyleen",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 4",
+                "Handiwork",
+                "Handiwork Level 3",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Lyleen Noct Beacon",
+            "region": "Lyleen Noct",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 3",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Faleris Beacon",
+            "region": "Faleris",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3"
+            ]
+        },
+        {
+            "name": "Faleris Aqua Beacon",
+            "region": "Faleris Aqua",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 4"
+            ]
+        },
+        {
+            "name": "Orserk Beacon",
+            "region": "Orserk",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 4",
+                "Handiwork",
+                "Handiwork Level 2"
+            ]
+        },
+        {
+            "name": "Shadowbeak Beacon",
+            "region": "Shadowbeak",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Paladius Beacon",
+            "region": "Paladius",
+            "category": [
+                "Pal Beacons",
+                "Legendary",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Necromus Beacon",
+            "region": "Necromus",
+            "category": [
+                "Pal Beacons",
+                "Legendary",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Frostallion Beacon",
+            "region": "Frostallion",
+            "category": [
+                "Pal Beacons",
+                "Legendary",
+                "Cooling",
+                "Cooling Level 4"
+            ]
+        },
+        {
+            "name": "Frostallion Noct Beacon",
+            "region": "Frostallion Noct",
+            "category": [
+                "Pal Beacons",
+                "Legendary"
+            ]
+        },
+        {
+            "name": "Jetragon Beacon",
+            "region": "Jetragon",
+            "category": [
+                "Pal Beacons",
+                "Legendary"
+            ]
+        },
+        {
+            "name": "Bellanoir Beacon",
+            "region": "Bellanoir",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 4"
+            ]
+        },
+        {
+            "name": "Bellanoir Libero Beacon",
+            "region": "Bellanoir Libero",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 4"
+            ]
+        },
+        {
+            "name": "Selyne Beacon",
+            "region": "Selyne",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 4",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Croajiro Beacon",
+            "region": "Croajiro",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Croajiro Noct Beacon",
+            "region": "Croajiro Noct",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Lullu Beacon",
+            "region": "Lullu",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Shroomer Beacon",
+            "region": "Shroomer",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Shroomer Noct Beacon",
+            "region": "Shroomer Noct",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Handiwork",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Kikit Beacon",
+            "region": "Kikit",
+            "category": [
+                "Pal Beacons",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Sootseer Beacon",
+            "region": "Sootseer",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Handiwork",
+                "Handiwork Level 3",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Prixter Beacon",
+            "region": "Prixter",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 3",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Knocklem Beacon",
+            "region": "Knocklem",
+            "category": [
+                "Pal Beacons",
+                "Mining",
+                "Mining Level 4"
+            ]
+        },
+        {
+            "name": "Yakumo Beacon",
+            "region": "Yakumo",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Dogen Beacon",
+            "region": "Dogen",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 3",
+                "Lumbering",
+                "Lumbering Level 2",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Dazemu Beacon",
+            "region": "Dazemu",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Mimog Beacon",
+            "region": "Mimog",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Xenovader Beacon",
+            "region": "Xenovader",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Xenogard Beacon",
+            "region": "Xenogard",
+            "category": [
+                "Pal Beacons",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Xenolord Beacon",
+            "region": "Xenolord",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Nitemary Beacon",
+            "region": "Nitemary",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 3"
+            ]
+        },
+        {
+            "name": "Starryon Beacon",
+            "region": "Starryon",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Silvegis Beacon",
+            "region": "Silvegis",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 3"
+            ]
+        },
+        {
+            "name": "Smokie Beacon",
+            "region": "Smokie",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Celesdir Beacon",
+            "region": "Celesdir",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 4"
+            ]
+        },
+        {
+            "name": "Omascul Beacon",
+            "region": "Omascul",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Splatterina Beacon",
+            "region": "Splatterina",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 4",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Tarantriss Beacon",
+            "region": "Tarantriss",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 2"
+            ]
+        },
+        {
+            "name": "Azurmane Beacon",
+            "region": "Azurmane",
+            "category": [
+                "Pal Beacons",
+                "Electricity",
+                "Electricity Level 4"
+            ]
+        },
+        {
+            "name": "Bastigor Beacon",
+            "region": "Bastigor",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 3",
+                "Mining",
+                "Mining Level 3",
+                "Cooling",
+                "Cooling Level 4"
+            ]
+        },
+        {
+            "name": "Prunelia Beacon",
+            "region": "Prunelia",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 3",
+                "Handiwork",
+                "Medicine",
+                "Medicine Level 3"
+            ]
+        },
+        {
+            "name": "Nyafia Beacon",
+            "region": "Nyafia",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 3",
+                "Lumbering",
+                "Lumbering Level 2"
+            ]
+        },
+        {
+            "name": "Gildane Beacon",
+            "region": "Gildane",
+            "category": [
+                "Pal Beacons"
+            ]
+        },
+        {
+            "name": "Herbil Beacon",
+            "region": "Herbil",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2"
+            ]
+        },
+        {
+            "name": "Icelyn Beacon",
+            "region": "Icelyn",
+            "category": [
+                "Pal Beacons",
+                "Handiwork",
+                "Handiwork Level 2",
+                "Medicine",
+                "Medicine Level 2",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Frostplume Beacon",
+            "region": "Frostplume",
+            "category": [
+                "Pal Beacons",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Palumba Beacon",
+            "region": "Palumba",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 2",
+                "Mining",
+                "Mining Level 3"
+            ]
+        },
+        {
+            "name": "Braloha Beacon",
+            "region": "Braloha",
+            "category": [
+                "Pal Beacons",
+                "Planting",
+                "Planting Level 4",
+                "Mining",
+                "Mining Level 2"
+            ]
+        },
+        {
+            "name": "Munchill Beacon",
+            "region": "Munchill",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Cooling",
+                "Cooling Level 2"
+            ]
+        },
+        {
+            "name": "Polapup Beacon",
+            "region": "Polapup",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Cooling",
+                "Cooling Level 3"
+            ]
+        },
+        {
+            "name": "Turtacle Beacon",
+            "region": "Turtacle",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Turtacle Terra Beacon",
+            "region": "Turtacle Terra",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Mining"
+            ]
+        },
+        {
+            "name": "Jellroy Beacon",
+            "region": "Jellroy",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Handiwork",
+                "Medicine"
+            ]
+        },
+        {
+            "name": "Jelliette Beacon",
+            "region": "Jelliette",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Handiwork"
+            ]
+        },
+        {
+            "name": "Gloopie Beacon",
+            "region": "Gloopie",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2",
+                "Handiwork",
+                "Handiwork Level 2"
+            ]
+        },
+        {
+            "name": "Finsider Beacon",
+            "region": "Finsider",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 2"
+            ]
+        },
+        {
+            "name": "Finsider Ignis Beacon",
+            "region": "Finsider Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 2",
+                "Watering",
+                "Watering Level 2"
+            ]
+        },
+        {
+            "name": "Ghangler Beacon",
+            "region": "Ghangler",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 4"
+            ]
+        },
+        {
+            "name": "Ghangler Ignis Beacon",
+            "region": "Ghangler Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Watering",
+                "Watering Level 4"
+            ]
+        },
+        {
+            "name": "Whalaska Beacon",
+            "region": "Whalaska",
+            "category": [
+                "Pal Beacons",
+                "Watering",
+                "Watering Level 3",
+                "Cooling",
+                "Cooling Level 4"
+            ]
+        },
+        {
+            "name": "Whalaska Ignis Beacon",
+            "region": "Whalaska Ignis",
+            "category": [
+                "Pal Beacons",
+                "Kindling",
+                "Kindling Level 3",
+                "Cooling",
+                "Cooling Level 4"
+            ]
+        },
+        {
+            "name": "Neptilius Beacon",
+            "region": "Neptilius",
+            "category": [
+                "Pal Beacons",
+                "Legendary",
+                "Watering",
+                "Watering Level 4"
+            ]
+        },
+        {
+            "name": "Hartalis Beacon",
+            "region": "Hartalis",
+            "category": [
+                "Pal Beacons",
+                "Lumbering",
+                "Lumbering Level 4"
+            ]
+        },
+        {
+            "name": "Blazamut Ryu Raid",
+            "region": "Blazamut Ryu Raid",
+            "category": [
+                "Raid Boss"
+            ]
+        },
+        {
+            "name": "Bellanoir Raid",
+            "region": "Bellanoir Raid",
+            "category": [
+                "Raid Boss"
+            ]
+        },
+        {
+            "name": "Bellanoir Libero Raid",
+            "region": "Bellanoir Libero Raid",
+            "category": [
+                "Raid Boss"
+            ]
+        },
+        {
+            "name": "Xenolord Raid",
+            "region": "Xenolord Raid",
+            "category": [
+                "Raid Boss"
+            ]
+        },
+        {
+            "name": "Hartalis Raid",
+            "region": "Hartalis Raid",
+            "category": [
+                "Raid Boss"
+            ]
+        },
+        {
+            "name": "EZ Mount",
+            "category": [
+                "EZ_Mounts"
+            ],
+            "requires": "|Tech - Pal Gear Workbench| AND (|Tech - Palbox| OR |Arena Beacon|) AND ((|Tech - Rushoar Saddle| AND |Rushoar Beacon|) OR (|Tech - Melpaca Saddle| AND |Melpaca Beacon|) OR (|Tech - Direhowl's Saddled Harness| AND |Direhowl Beacon|) OR (|Tech - Eikthyrdeer Saddle| AND |Eikthyrdeer Beacon|) OR (|Tech - Nitewing Saddle| AND |Nitewing Beacon|) OR (|Tech - Dinossom Saddle| AND |Dinossom Beacon|))"
+        },
+        {
+            "name": "Hillside Beacon",
+            "region": "Hillside Cavern",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Isolated Beacon",
+            "region": "Isolated Island Cavern",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Ravine Beacon",
+            "region": "Ravine Grotto",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Stream Beacon",
+            "region": "Mountain Stream Grotto",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Dune Cave Beacon",
+            "region": "Cavern of the Dunes",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Volcanic Beacon",
+            "region": "Volcanic Cavern",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Astral Cavern Beacon",
+            "region": "Astral Mountains Cavern",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Feybreak Cavern Beacon",
+            "region": "Feybreak Cavern",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Cherry Beacon",
+            "region": "Cherry Blossom Cave",
+            "category": [
+                "Dungeon Beacons"
+            ]
+        },
+        {
+            "name": "Boss - Chillet",
+            "copy_location": "Boss - Chillet (Level 11)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Mammorest",
+            "copy_location": "Boss - Mammorest (Level 38)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Kingpaca",
+            "copy_location": "Boss - Kingpaca (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Azurobe",
+            "copy_location": "Boss - Azurobe (Level 17)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Penking",
+            "copy_location": "Boss - Penking (Level 15)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Katress",
+            "copy_location": "Boss - Katress (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Jormuntide",
+            "copy_location": "Boss - Jormuntide (Level 45)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Grintale",
+            "copy_location": "Boss - Grintale (Level 17)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Wumpo Botan",
+            "copy_location": "Boss - Wumpo Botan (Level 38)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Mossanda Lux",
+            "copy_location": "Boss - Mossanda Lux (Level 31)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Verdash",
+            "copy_location": "Boss - Verdash (Level 35)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Sibelyx",
+            "copy_location": "Boss - Sibelyx (Level 40)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Vaelet",
+            "copy_location": "Boss - Vaelet (Level 38)",
+            "category": [
+                "Overworld Boss",
+                "Onion Drop"
+            ]
+        },
+        {
+            "name": "Boss - Warsect",
+            "copy_location": "Boss - Warsect (Level 30)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Menasting",
+            "copy_location": "Boss - Menasting (Level 44)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Suzaku",
+            "copy_location": "Boss - Suzaku (Level 45)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Dinossom Lux",
+            "copy_location": "Boss - Dinossom Lux (Level 47)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Paladius",
+            "copy_location": "Boss - Paladius or Necromus (Level 60)",
+            "category": [
+                "Overworld Boss",
+                "LegendaryBattle"
+            ]
+        },
+        {
+            "name": "Boss - Neptilius",
+            "copy_location": "Boss - Neptilius (Level 60)",
+            "category": [
+                "Overworld Boss",
+                "LegendaryBattle"
+            ]
+        },
+        {
+            "name": "Boss - Lyleen Noct",
+            "copy_location": "Boss - Lyleen Noct (Level 49)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Kingpaca Cryst",
+            "copy_location": "Boss - Kingpaca Cryst (Level 46)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Frostallion",
+            "copy_location": "Boss - Frostallion (Level 60)",
+            "category": [
+                "Overworld Boss",
+                "LegendaryBattle"
+            ]
+        },
+        {
+            "name": "Boss - Menasting Terra",
+            "copy_location": "Boss - Menasting Terra (Level 54)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Knocklem",
+            "copy_location": "Boss - Knocklem (Level 55)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Felbat",
+            "copy_location": "Boss - Felbat (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Dumud",
+            "copy_location": "Boss - Dumud (Level 14)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Nitewing",
+            "copy_location": "Boss - Nitewing (Level 18)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Elizabee",
+            "copy_location": "Boss - Elizabee (Level 31)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Petallia",
+            "copy_location": "Boss - Petallia (Level 28)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Elphidran",
+            "copy_location": "Boss - Elphidran (Level 30)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Anubis",
+            "copy_location": "Boss - Anubis (Level 47)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Quivern",
+            "copy_location": "Boss - Quivern (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Beakon",
+            "copy_location": "Boss - Beakon (Level 29)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Relaxaurus Lux",
+            "copy_location": "Boss - Relaxaurus Lux (Level 31)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Fenglope",
+            "copy_location": "Boss - Fenglope (Level 25)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Broncherry Aqua",
+            "copy_location": "Boss - Broncherry Aqua (Level 30)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Bushi",
+            "copy_location": "Boss - Bushi (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Sweepa",
+            "copy_location": "Boss - Sweepa (Level 11)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Univolt",
+            "copy_location": "Boss - Univolt (Level 31)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Gumoss",
+            "copy_location": "Boss - Gumoss (Level 11)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Broncherry",
+            "copy_location": "Boss - Broncherry (Level 23)",
+            "category": [
+                "Overworld Boss",
+                "Potato Drop"
+            ]
+        },
+        {
+            "name": "Boss - Lunaris",
+            "copy_location": "Boss - Lunaris (Level 32)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Blazamut",
+            "copy_location": "Boss - Blazamut (Level 49)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Astegon",
+            "copy_location": "Boss - Astegon (Level 48)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Jetragon",
+            "copy_location": "Boss - Jetragon (Level 60)",
+            "category": [
+                "Overworld Boss",
+                "LegendaryBattle"
+            ]
+        },
+        {
+            "name": "Boss - Whalaska Ignis",
+            "copy_location": "Boss - Whalaska Ignis (Level 58)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Loupmoon Cryst",
+            "copy_location": "Boss - Loupmoon Cryst (Level 54)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Nyafia",
+            "copy_location": "Boss - Nyafia (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Silvegis",
+            "copy_location": "Boss - Silvegis (Level 59)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Nitemary",
+            "copy_location": "Boss - Nitemary (Level 56)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Starryon",
+            "copy_location": "Boss - Starryon (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Fenglope Lux",
+            "copy_location": "Boss - Fenglope Lux (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Faleris Aqua",
+            "copy_location": "Boss - Faleris Aqua (Level 56)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Gildane",
+            "copy_location": "Boss - Gildane (Level 58)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Kitsun Noct",
+            "copy_location": "Boss - Kitsun Noct (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Celesdir",
+            "copy_location": "Boss - Celesdir (Level 60)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Prunelia",
+            "copy_location": "Boss - Prunelia (Level 55)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Foxparks Cryst",
+            "copy_location": "Boss - Foxparks Cryst (Level 52)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Splatterina",
+            "copy_location": "Boss - Splatterina (Level 58)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Ribbuny Botan",
+            "copy_location": "Boss - Ribbuny Botan (Level 53)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Azurmane",
+            "copy_location": "Boss - Azurmane (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Warsect Terra",
+            "copy_location": "Boss - Warsect Terra (Level 59)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Frostallion Noct",
+            "copy_location": "Boss - Frostallion Noct (Level 60)",
+            "category": [
+                "Overworld Boss",
+                "LegendaryBattle"
+            ]
+        },
+        {
+            "name": "Boss - Smokie",
+            "copy_location": "Boss - Smokie (Level 55)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Tarantriss",
+            "copy_location": "Boss - Tarantriss (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Omascul",
+            "copy_location": "Boss - Omascul (Level 55)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Cryolinx Terra",
+            "copy_location": "Boss - Cryolinx Terra (Level 58)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Dazzi Noct",
+            "copy_location": "Boss - Dazzi Noct (Level 53)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Boss - Caprity Noct",
+            "copy_location": "Boss - Caprity Noct (Level 55)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Hawk",
+            "copy_location": "Bounty - Hawk (Level 12)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Scoot",
+            "copy_location": "Bounty - Scoot (Level 10)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Turncoat",
+            "copy_location": "Bounty - Turncoat (Level 15)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Crash",
+            "copy_location": "Bounty - Crash (Level 15)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Dart",
+            "copy_location": "Bounty - Dart (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Fumble",
+            "copy_location": "Bounty - Fumble (Level 28)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Brick",
+            "copy_location": "Bounty - Brick (Level 30)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Dyna",
+            "copy_location": "Bounty - Dyna (Level 26)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Mite",
+            "copy_location": "Bounty - Mite (Level 26)"
+        },
+        {
+            "name": "Bounty - Lasso",
+            "copy_location": "Bounty - Lasso (Level 21)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Ego",
+            "copy_location": "Bounty - Ego (Level 23)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Jade",
+            "copy_location": "Bounty - Jade (Level 19)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Grill",
+            "copy_location": "Bounty - Grill (Level 20)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Siren",
+            "copy_location": "Bounty - Siren (Level 16)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Whip",
+            "copy_location": "Bounty - Whip (Level 40)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Whisper",
+            "copy_location": "Bounty - Whisper (Level 37)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Phantom",
+            "copy_location": "Bounty - Phantom (Level 36)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Skim",
+            "copy_location": "Bounty - Skim (Level 42)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Whisk",
+            "copy_location": "Bounty - Whisk (Level 45)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Quill",
+            "copy_location": "Bounty - Quill (Level 43)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Urchin",
+            "copy_location": "Bounty - Urchin (Level 53)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Nimble",
+            "copy_location": "Bounty - Nimble (Level 52)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Aloha",
+            "copy_location": "Bounty - Aloha (Level 39)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Shadow",
+            "copy_location": "Bounty - Shadow (Level 41)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Flare",
+            "copy_location": "Bounty - Flare (Level 38)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Billy",
+            "copy_location": "Bounty - Billy (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Gnaw",
+            "copy_location": "Bounty - Gnaw (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Ram",
+            "copy_location": "Bounty - Ram (Level 59)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Pinch",
+            "copy_location": "Bounty - Pinch (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Dazzle",
+            "copy_location": "Bounty - Dazzle (Level 56)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Cache",
+            "copy_location": "Bounty - Cache (Level 58)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Bounty - Mimic",
+            "copy_location": "Bounty - Mimic (Level 57)",
+            "category": [
+                "Overworld Boss"
+            ]
+        },
+        {
+            "name": "Baked Berries Dish",
+            "copy_location": "Cook Baked Berries",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Baked Mushrooms Dish",
+            "copy_location": "Cook Baked Mushrooms",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Bread Dish",
+            "copy_location": "Cook Bread",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Fried Egg Dish",
+            "copy_location": "Cook Fried Egg",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Hot Milk Dish",
+            "copy_location": "Cook Hot Milk",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Jam-Filled Bun Dish",
+            "copy_location": "Cook Jam-Filled Bun",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Salad Dish",
+            "copy_location": "Cook Salad",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Omelet Dish",
+            "copy_location": "Cook Omelet",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Marinated Mushrooms Dish",
+            "copy_location": "Cook Marinated Mushrooms",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mushroom Soup Dish",
+            "copy_location": "Cook Mushroom Soup",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Pizza Dish",
+            "copy_location": "Cook Pizza",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Carbonara Dish",
+            "copy_location": "Cook Carbonara",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Cake Dish",
+            "copy_location": "Cook Cake",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Grilled Chikipi Dish",
+            "copy_location": "Cook Grilled Chikipi",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Lamball Kebab Dish",
+            "copy_location": "Cook Lamball Kebab",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Grilled Kelpsea Dish",
+            "copy_location": "Cook Grilled Kelpsea",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Grilled Galeclaw Dish",
+            "copy_location": "Cook Grilled Galeclaw",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Roast Rushoar Dish",
+            "copy_location": "Cook Roast Rushoar",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Broiled Dumud Dish",
+            "copy_location": "Cook Broiled Dumud",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Roast Eikthyrdeer Dish",
+            "copy_location": "Cook Roast Eikthyrdeer",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Roast Reindrix Dish",
+            "copy_location": "Cook Roast Reindrix",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Herb Roasted Caprity Dish",
+            "copy_location": "Cook Herb Roasted Caprity",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mozzarina Steak Dish",
+            "copy_location": "Cook Mozzarina Steak",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Broncherry Rib Roast Dish",
+            "copy_location": "Cook Broncherry Rib Roast",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mammorest Steak Dish",
+            "copy_location": "Cook Mammorest Steak",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Munchill Steak Dish",
+            "copy_location": "Cook Munchill Steak",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Chikipi Sauté Dish",
+            "copy_location": "Cook Chikipi Sauté",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Herb Roasted Lamball Dish",
+            "copy_location": "Cook Herb Roasted Lamball",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Grilled Lamball Dish",
+            "copy_location": "Cook Grilled Lamball",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Stewed Galeclaw Dish",
+            "copy_location": "Cook Stewed Galeclaw",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Rushoar Bacon 'n' Eggs Dish",
+            "copy_location": "Cook Rushoar Bacon 'n' Eggs",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Reindrix Stew Dish",
+            "copy_location": "Cook Reindrix Stew",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Rushoar Gyoza Dish",
+            "copy_location": "Cook Rushoar Gyoza",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Stir-Fried Vegetables Dish",
+            "copy_location": "Cook Stir-Fried Vegetables",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "French Fries Dish",
+            "copy_location": "Cook French Fries",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Fried Gloopie Balls Dish",
+            "copy_location": "Cook Fried Gloopie Balls",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Jelliette's Jiggly Jelly Dish",
+            "copy_location": "Cook Jelliette's Jiggly Jelly",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Jellroy's Jolly Jelly Dish",
+            "copy_location": "Cook Jellroy's Jolly Jelly",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Fried Chikipi Dish",
+            "copy_location": "Cook Fried Chikipi",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Rushoar Hot Dog Dish",
+            "copy_location": "Cook Rushoar Hot Dog",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Eikthyrdeer Loco Moco Dish",
+            "copy_location": "Cook Eikthyrdeer Loco Moco",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Eikthyrdeer Stew Dish",
+            "copy_location": "Cook Eikthyrdeer Stew",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mozzarina Hamburger Dish",
+            "copy_location": "Cook Mozzarina Hamburger",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mozzarina Cheeseburger Dish",
+            "copy_location": "Cook Mozzarina Cheeseburger",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Fried Kelpsea Dish",
+            "copy_location": "Cook Fried Kelpsea",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Dumud Chowder Dish",
+            "copy_location": "Cook Dumud Chowder",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Broncherry Fried Noodles Dish",
+            "copy_location": "Cook Broncherry Fried Noodles",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Spring Rolls Dish",
+            "copy_location": "Cook Spring Rolls",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Gratin Dish",
+            "copy_location": "Cook Gratin",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Minestrone Dish",
+            "copy_location": "Cook Minestrone",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Seafood Salad Dish",
+            "copy_location": "Cook Seafood Salad",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mammorest Curry Dish",
+            "copy_location": "Cook Mammorest Curry",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Galeclaw Nikujaga Dish",
+            "copy_location": "Cook Galeclaw Nikujaga",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Mushroom Quiche Dish",
+            "copy_location": "Cook Mushroom Quiche",
+            "category": [
+                "Cook Stuff"
+            ]
+        },
+        {
+            "name": "Predator - Relaxaurus",
+            "copy_location": "Predator - Relaxaurus (Level 30)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Tarantris",
+            "copy_location": "Predator - Tarantris (Level 30)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Omascul",
+            "copy_location": "Predator - Omascul (Level 31)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Starryon",
+            "copy_location": "Predator - Starryon (Level 34)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Dinossom",
+            "copy_location": "Predator - Dinossom (Level 31)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Maraith",
+            "copy_location": "Predator - Maraith (Level 38)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Rayhound",
+            "copy_location": "Predator - Rayhound (Level 30)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Reptyro Cryst",
+            "copy_location": "Predator - Reptyro Cryst (Level 40)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Ragnahawk",
+            "copy_location": "Predator - Ragnahawk (Level 32)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Vanwyrm",
+            "copy_location": "Predator - Vanwyrm (Level 25)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Cryolinx Terra",
+            "copy_location": "Predator - Cryolinx Terra (Level 48)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Dazemu",
+            "copy_location": "Predator - Dazemu (Level 47)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Prixter",
+            "copy_location": "Predator - Prixter (Level 45)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Faleris Aqua",
+            "copy_location": "Predator - Faleris Aqua (Level 50)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Kitsun",
+            "copy_location": "Predator - Kitsun (Level 47)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Loupmoon Cryst",
+            "copy_location": "Predator - Loupmoon Cryst (Level 49)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Wumpo",
+            "copy_location": "Predator - Wumpo (Level 50)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Blazehowl Noct",
+            "copy_location": "Predator - Blazehowl Noct (Level 50)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Elphidran",
+            "copy_location": "Predator - Elphidran (Level 55)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Splatterina",
+            "copy_location": "Predator - Splatterina (Level 55)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Shroomer",
+            "copy_location": "Predator - Shroomer (Level 55)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Direhowl",
+            "copy_location": "Predator - Direhowl (Level 25)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Mossanda",
+            "copy_location": "Predator - Mossanda (Level 30)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Dogen",
+            "copy_location": "Predator - Dogen (Level 28)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Lovander",
+            "copy_location": "Predator - Lovander (Level 26)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Gorirat",
+            "copy_location": "Predator - Gorirat (Level 30)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Gildane",
+            "copy_location": "Predator - Gildane (Level 48)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Jormuntide Ignis",
+            "copy_location": "Predator - Jormuntide Ignis (Level 48)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Digtoise",
+            "copy_location": "Predator - Digtoise (Level 45)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Helzephyr Lux",
+            "copy_location": "Predator - Helzephyr Lux (Level 60)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Incineram Noct",
+            "copy_location": "Predator - Incineram Noct (Level 60)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Sootseer",
+            "copy_location": "Predator - Sootseer (Level 60)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Predator - Bushi Noct",
+            "copy_location": "Predator - Bushi Noct (Level 60)",
+            "category": [
+                "Predator Hunts"
+            ]
+        },
+        {
+            "name": "Sub Mission 01",
+            "copy_location": "Sub Mission - Pal's Blessing",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 02",
+            "copy_location": "Sub Mission - Hungry for Recruits",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 03",
+            "copy_location": "Sub Mission - A Special Dish",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 04",
+            "copy_location": "Sub Mission - Medical Bills",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 05",
+            "copy_location": "Sub Mission - Prove The Legend",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 06",
+            "copy_location": "Sub Mission - Lock In",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 07",
+            "copy_location": "Sub Mission - Give a Fuack",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 08",
+            "copy_location": "Sub Mission - Metal on Your Mind",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 09",
+            "copy_location": "Sub Mission - Breeding Basics",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 10",
+            "copy_location": "Sub Mission - Farewell Under the Sakura Tree",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 11",
+            "copy_location": "Sub Mission - No Mercy for Pal Thieves",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 12",
+            "copy_location": "Sub Mission - Operation: Splatterina Spree",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 13",
+            "copy_location": "Sub Mission - Hunting Essentials",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 14",
+            "copy_location": "Sub Mission - The Fugitive",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 15",
+            "copy_location": "Sub Mission - Gargantuan Tarantriss",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 16",
+            "copy_location": "Sub Mission - A Sweet Deal",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 17",
+            "copy_location": "Sub Mission - A True Ascent Ends in Descent",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 18",
+            "copy_location": "Sub Mission - Sparkly and Smooth",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 19",
+            "copy_location": "Sub Mission - Dungeon Hunt",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 20",
+            "copy_location": "Sub Mission - Easygoing Adventures",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 21",
+            "copy_location": "Sub Mission - A Fine Day for Fishing",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 22",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Small Settlement) - Show Mammorest",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 23",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Cold Shore) - Show Kingpaca Cryst",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 24",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Hypocrite Hill) - Show Elizabee",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 25",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Gobfin's Turf) - Show Verdash",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 26",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Ravine Entrance) - Show Fenglope",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 27",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Duneshelter) - Show Faleris",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 28",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Anubis Statue) - Show Astegon",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 29",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Sakurajima) - Show Knocklem",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 30",
+            "copy_location": "Sub Mission - Arrogant Pal Critic (Stone Pillar Cave Entrance) - Show Bastigor",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 31",
+            "copy_location": "Sub Mission - Request from a Wise Hunter",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 32",
+            "copy_location": "Sub Mission - Request from a Veteran Hunter - 100 Bosses Defeated",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 33",
+            "copy_location": "Sub Mission - Request from a Pal Ecological Researcher - 100 Unique Registered Pals",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 34",
+            "copy_location": "Sub Mission - Request from an Arrogant Foodie - Give Baked Berries",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 35",
+            "copy_location": "Sub Mission - That's That Me, Depresso!",
+            "category": [
+                "Sub Missions"
+            ]
+        },
+        {
+            "name": "Sub Mission 36",
+            "copy_location": "Sub Mission - Happy Halloween!",
+            "category": [
+                "Sub Missions"
+            ]
+        }
+    ]
+}
+

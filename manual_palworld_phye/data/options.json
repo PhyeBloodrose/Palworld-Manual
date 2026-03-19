@@ -66,6 +66,14 @@
             "default": false,
             "group": "Extra Locations"
         },
+        "Enable_Raid_Pals": {
+            "description": [
+                "Includes all of the Raid Pals as Palpedia locations."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Extra Locations"
+        },
         "Diamond_Passives": {
             "description": [
                 "Includes all Diamond Passives as locations.",
@@ -122,6 +130,15 @@
                 "Starfruits which increases the potential of Pals.",
                 "Kinship fruits which increases the trust of Pals",
                 "Pal Fruits are treated as Useful items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Pal_Souls": {
+            "description": [
+                "Adds one of each Pal Soul into the item pool.",
+                "Pal Souls are treated as Useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -314,6 +331,14 @@
             "default": false,
             "group": "Goal Options"
         },
+        "BaseBuilder_Goal": {
+            "description": [
+                "Base Builder: Require you to max out your base in order to goal!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
         "AllofAbove_Goal": {
             "description": [
                 "All of the Above: Any goals picked above will be required to goal in this all inclusive goal option!",
@@ -459,6 +484,16 @@
             "default": false,
             "group": "Additional Items"
         },
+        "Seeds": {
+            "description": [
+                "This will add one of each type of seeds item pool. Such as Tomato Seeds, Potato Seeds and Tomato Seeds.",
+                "These seeds will not be considered for logic",
+                "They'll be treated as filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
         "Food": {
             "description": [
                 "This will add all the various food dishes into the item pool. Such as Baked Berries, Bread and Omelette.",
@@ -596,6 +631,32 @@
             "type": "Toggle",
             "default": false,
             "group": "Extra Locations"
+        },
+        "Allow_Breeding": {
+            "description": [
+                "When this is enabled, Pals that only have one parent pair while breeding will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Exploration": {
+            "description": [
+                "Includes discovering various locations as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Extra Locations"
+        },
+        "Pal_Bonds": {
+            "description": [
+                "This will add an item for each Pal into the pool, restricting the capturing of said Pal until you receive it.",
+                "They'll be treated as progression items.",
+                "The items are called 'Lamball's Bond', 'Cattiva's Bond' and so forth."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
         },
         "_Example_Toggle": {
             "description": [

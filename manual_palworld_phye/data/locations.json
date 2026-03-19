@@ -109,8 +109,7 @@
         "category": [
             "Base Progression"
         ],
-        "requires": [],
-        "place_item": [ "Home Beacon" ]
+        "requires": []
     },
     {
         "name": "Base Level 15 Task",
@@ -482,15 +481,15 @@
     },
     {
         "name": "Journey Completed",
-        "place_item": [
-            "Proof of Victory (The Journey)"
-        ],
         "region": "Mission 32",
         "category": [
             "Victory Conditions",
             "Journey Goal"
         ],
-        "requires": []
+        "requires": [],
+        "place_item": [
+            "Proof of Victory (The Journey)"
+        ]
     },
     {
         "region": "General",
@@ -544,44 +543,39 @@
         "name": "Boss - Chillet (Level 11)",
         "region": "Windswept Hills",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
     },
     {
         "name": "Boss - Mammorest (Level 38)",
         "region": "Windswept Hills",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Boss - Kingpaca (Level 23)",
         "region": "Windswept Hills",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Azurobe (Level 17)",
         "region": "Mixed Region - Azurobe",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Penking (Level 15)",
         "region": "Frozen Wings",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -589,8 +583,7 @@
         "name": "Boss - Katress (Level 23)",
         "region": "Katress Realm",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -598,45 +591,39 @@
         "name": "Boss - Jormuntide (Level 45)",
         "region": "Mixed Region - Jormuntide",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND |Player Beacon:5|",
-        "place_item": [ "Jormuntide Beacon" ]
+        "requires": "{OptOne(|Player Level:45|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Grintale (Level 17)",
         "region": "Marsh Island",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Wumpo Botan (Level 38)",
         "region": "Eastern Wild Island",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Boss - Mossanda Lux (Level 31)",
         "region": "Eastern Wild Island",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Verdash (Level 35)",
         "region": "Swift",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -644,8 +631,7 @@
         "name": "Boss - Sibelyx (Level 40)",
         "region": "Pristine",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -653,8 +639,7 @@
         "name": "Boss - Vaelet (Level 38)",
         "region": "Guardian",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -662,8 +647,7 @@
         "name": "Boss - Warsect (Level 30)",
         "region": "Stalwart",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -671,98 +655,87 @@
         "name": "Boss - Menasting (Level 44)",
         "region": "Dessicated Dunes",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:44|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:44|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Boss - Suzaku (Level 45)",
         "region": "Dessicated Dunes",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Dinossom Lux (Level 47)",
         "region": "Dessicated Dunes",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Paladius or Necromus (Level 60)",
         "region": "Dessicated Dunes",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Neptilius (Level 60)",
         "region": "Isle of the Glacial Core",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Lyleen Noct (Level 49)",
         "region": "Astral Mountains",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Kingpaca Cryst (Level 46)",
         "region": "Astral Mountains",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:46|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:46|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Frostallion (Level 60)",
         "region": "Astral Mountains",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Ice Orb:11|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Ice Orb:11|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Menasting Terra (Level 54)",
         "region": "Sakurajima",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Knocklem (Level 55)",
         "region": "Sakurajima",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Felbat (Level 23)",
         "region": "Abyssal Nights",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -770,35 +743,31 @@
         "name": "Boss - Dumud (Level 14)",
         "region": "Ice Wind Island",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:14|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:1|"
+        "requires": "{OptOne(|Player Level:14|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:1|"
     },
     {
         "name": "Boss - Nitewing (Level 18)",
         "region": "Ice Wind Island",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:18|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:18|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Elizabee (Level 31)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Petallia (Level 28)",
         "region": "Spirits",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -806,26 +775,23 @@
         "name": "Boss - Elphidran (Level 30)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Anubis (Level 47)",
         "region": "Twilight Dunes",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Quivern (Level 23)",
         "region": "Winged Tyrant",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -833,17 +799,15 @@
         "name": "Boss - Beakon (Level 29)",
         "region": "Bamboo Groves",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:29|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:29|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Relaxaurus Lux (Level 31)",
         "region": "Thunder Dragon",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -851,26 +815,23 @@
         "name": "Boss - Fenglope (Level 25)",
         "region": "Bamboo Groves",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Broncherry Aqua (Level 30)",
         "region": "Bamboo Groves",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Bushi (Level 23)",
         "region": "Swordmaster",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -878,45 +839,39 @@
         "name": "Boss - Sweepa (Level 11)",
         "region": "Sea Breeze Archipelago",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
     },
     {
         "name": "Boss - Univolt (Level 31)",
         "region": "Sea Breeze Archipelago",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Gumoss (Level 11)",
         "region": "Sea Breeze Archipelago",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
     },
     {
         "name": "Boss - Broncherry (Level 23)",
         "region": "Sea Breeze Archipelago",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses",
-            "Potato Drop"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Lunaris (Level 32)",
         "region": "Esoteric",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
         "requires": ""
     },
@@ -924,542 +879,481 @@
         "name": "Boss - Blazamut (Level 49)",
         "region": "Hot Volcano",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Astegon (Level 48)",
         "region": "Hot Volcano",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Jetragon (Level 60)",
         "region": "Hot Volcano",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Whalaska Ignis (Level 58)",
         "region": "Whalaska Ignis Boss",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Loupmoon Cryst (Level 54)",
         "region": "Feybreak Desert",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Nyafia (Level 57)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Silvegis (Level 59)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Nitemary (Level 56)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Starryon (Level 57)",
         "region": "Feybreak Desert",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Fenglope Lux (Level 57)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Faleris Aqua (Level 56)",
         "region": "Feybreak Desert",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Gildane (Level 58)",
         "region": "Feybreak Desert",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Kitsun Noct (Level 57)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Celesdir (Level 60)",
         "region": "Feybreak Yellow",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Prunelia (Level 55)",
         "region": "Feybreak Desert",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Foxparks Cryst (Level 52)",
         "region": "Feybreak Desert",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Splatterina (Level 58)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Ribbuny Botan (Level 53)",
         "region": "Feybreak Red",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Azurmane (Level 57)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Warsect Terra (Level 59)",
         "region": "Feybreak Yellow",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Frostallion Noct (Level 60)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Black Pegasus|)} AND {OptOne(|Player Level:60|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Black Pegasus|)} AND {OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Smokie (Level 55)",
         "region": "Feybreak Yellow",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Tarantriss (Level 57)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Omascul (Level 55)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Cryolinx Terra (Level 58)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Dazzi Noct (Level 53)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Caprity Noct (Level 55)",
         "region": "Feybreak Blue",
         "category": [
-            "Boss Alpha Pals",
-            "Bosses"
+            "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Hawk (Level 12)",
         "region": "Windswept Hills",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:12|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Player Level:12|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
     },
     {
         "name": "Bounty - Scoot (Level 10)",
         "region": "Windswept Hills",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:10|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon|"
+        "requires": "{OptOne(|Player Level:10|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
     },
     {
         "name": "Bounty - Turncoat (Level 15)",
         "region": "Windswept Hills",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Crash (Level 15)",
         "region": "Sea Breeze Archipelago",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Dart (Level 23)",
         "region": "Verdant Brook",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Fumble (Level 28)",
         "region": "Verdant Brook",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Brick (Level 30)",
         "region": "Verdant Brook",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Dyna (Level 26)",
         "region": "Scars of War",
         "category": [
-            "Bounties",
-            "Bosses",
-            "Coal Place"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Mite (Level 26)",
         "region": "Scars of War",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Lasso (Level 21)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:21|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:21|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Ego (Level 23)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Jade (Level 19)",
         "region": "Bamboo Groves",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:19|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:19|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Grill (Level 20)",
         "region": "Bamboo Groves",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:20|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:20|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Siren (Level 16)",
         "region": "Bamboo Groves",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:16|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:16|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Whip (Level 40)",
         "region": "Dessicated Dunes",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Whisper (Level 37)",
         "region": "Dessicated Dunes",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Phantom (Level 36)",
         "region": "Dessicated Dunes",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:36|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:36|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Clint (Level 49)",
         "region": "Astral Mountains",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Bounty - Skim (Level 42)",
         "region": "Foot of the Astral Mountains",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:42|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:42|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Whisk (Level 45)",
         "region": "Astral Mountains",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Quill (Level 43)",
         "region": "Astral Mountains",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:43|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:43|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Urchin (Level 53)",
         "region": "Sakurajima",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Bounty - Nimble (Level 52)",
         "region": "Sakurajima",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Bounty - Aloha (Level 39)",
         "region": "Mount Obsidian",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:39|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:39|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Shadow (Level 41)",
         "region": "Mount Obsidian",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:41|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:41|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Flare (Level 38)",
         "region": "Mount Obsidian",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Billy (Level 57)",
         "region": "Feybreak Red",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Gnaw (Level 57)",
         "region": "Feybreak Red",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Ram (Level 59)",
         "region": "Feybreak Red",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Pinch (Level 57)",
         "region": "Feybreak Red",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Dazzle (Level 56)",
         "region": "Feybreak Red",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Cache (Level 58)",
         "region": "Feybreak Blue",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Mimic (Level 57)",
         "region": "Feybreak Blue",
         "category": [
-            "Bounties",
-            "Bosses"
+            "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Travel Point - Plateau of Beginnings",
@@ -1603,9 +1497,7 @@
         "name": "Travel Point - Mossanda Forest",
         "region": "Verdant Brook",
         "category": [
-            "Fast Travel Locations",
-            "Coal Place",
-            "Onion Drop"
+            "Fast Travel Locations"
         ],
         "requires": []
     },
@@ -1662,10 +1554,7 @@
         "name": "Travel Point - Lake Center",
         "region": "Crescent Moon Shore",
         "category": [
-            "Fast Travel Locations",
-            "Coal Place",
-            "Onion Drop",
-            "Potato Drop"
+            "Fast Travel Locations"
         ],
         "requires": []
     },
@@ -1697,9 +1586,7 @@
         "name": "Travel Point - Kelpsea Hill",
         "region": "Bamboo Groves",
         "category": [
-            "Fast Travel Locations",
-            "Coal Place",
-            "Potato Drop"
+            "Fast Travel Locations"
         ],
         "requires": []
     },
@@ -1811,10 +1698,7 @@
         "name": "Travel Point - Moonflower Tower Entrance",
         "region": "Sakurajima",
         "category": [
-            "Fast Travel Locations",
-            "Coal Place",
-            "Cement Junk",
-            "Tower Boss Location"
+            "Fast Travel Locations"
         ],
         "requires": []
     },
@@ -1946,10 +1830,7 @@
         "name": "Travel Point - Duneshelter",
         "region": "Dessicated Dunes",
         "category": [
-            "Fast Travel Locations",
-            "Coal Place",
-            "Potato Drop",
-            "Cement Junk"
+            "Fast Travel Locations"
         ],
         "requires": []
     },
@@ -2032,9 +1913,7 @@
         "name": "Travel Point - Fisherman's Point",
         "region": "Mount Obsidian",
         "category": [
-            "Fast Travel Locations",
-            "Coal Place",
-            "Cement Junk"
+            "Fast Travel Locations"
         ],
         "requires": []
     },
@@ -3911,15 +3790,6 @@
         "requires": []
     },
     {
-        "name": "Palpedia - Foxcicle (Beacon)",
-        "region": "Foxcicle",
-        "category": [
-            "Palpedia Beacons"
-        ],
-        "requires": [],
-        "place_item": [ "Foxcicle Beacon" ]
-    },
-    {
         "name": "Capture 12 Foxcicle",
         "region": "Foxcicle",
         "category": [
@@ -4122,15 +3992,6 @@
             "Palpedia"
         ],
         "requires": []
-    },
-    {
-        "name": "Palpedia - Surfent (Beacon)",
-        "region": "Surfent",
-        "category": [
-            "Palpedia Beacons"
-        ],
-        "requires": [],
-        "place_item": [ "Surfent Beacon" ]
     },
     {
         "name": "Capture 12 Surfent",
@@ -4471,15 +4332,6 @@
             "Palpedia"
         ],
         "requires": []
-    },
-    {
-        "name": "Palpedia - Elphidran (Beacon)",
-        "region": "Elphidran",
-        "category": [
-            "Palpedia Beacons"
-        ],
-        "requires": [],
-        "place_item": [ "Elphidran Beacon" ]
     },
     {
         "name": "Capture 12 Elphidran",
@@ -4873,15 +4725,6 @@
         "requires": []
     },
     {
-        "name": "Palpedia - Warsect (Beacon)",
-        "region": "Warsect",
-        "category": [
-            "Palpedia Beacons"
-        ],
-        "requires": [],
-        "place_item": [ "Warsect Beacon" ]
-    },
-    {
         "name": "Capture 12 Warsect",
         "region": "Warsect",
         "category": [
@@ -5016,16 +4859,17 @@
             "Palpedia",
             "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Capture 12 Blazamut Ryu",
         "region": "Blazamut Ryu",
         "category": [
             "Capture Challenges",
-            "Capture Pals"
+            "Capture Pals",
+            "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Palpedia - Helzephyr",
@@ -5413,16 +5257,17 @@
             "Palpedia",
             "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Capture 12 Bellanoir",
         "region": "Bellanoir",
         "category": [
             "Capture Challenges",
-            "Capture Pals"
+            "Capture Pals",
+            "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Palpedia - Bellanoir Libero",
@@ -5431,16 +5276,17 @@
             "Palpedia",
             "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Capture 12 Bellanoir Libero",
         "region": "Bellanoir Libero",
         "category": [
             "Capture Challenges",
-            "Capture Pals"
+            "Capture Pals",
+            "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Palpedia - Selyne",
@@ -5721,16 +5567,17 @@
             "Palpedia",
             "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Capture 12 Xenolord",
         "region": "Xenolord",
         "category": [
             "Capture Challenges",
-            "Capture Pals"
+            "Capture Pals",
+            "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Palpedia - Nitemary",
@@ -6284,16 +6131,17 @@
             "Palpedia",
             "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Capture 12 Hartalis",
         "region": "Hartalis",
         "category": [
             "Capture Challenges",
-            "Capture Pals"
+            "Capture Pals",
+            "Raid Boss"
         ],
-        "requires": "|A.Tech - Progressive Egg Incubator|"
+        "requires": ""
     },
     {
         "name": "Sub Mission - Pal's Blessing",
@@ -6333,7 +6181,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Legendary,1)}"
+        "requires": "|@Legendary|"
     },
     {
         "name": "Sub Mission - Lock In",
@@ -6341,7 +6189,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachLocation(Palpedia - Cryolinx)}"
+        "requires": "|Cryolinx Beacon|"
     },
     {
         "name": "Sub Mission - Give a Fuack",
@@ -6349,7 +6197,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Water Orb|)}"
+        "requires": "|Fuack Beacon|"
     },
     {
         "name": "Sub Mission - Metal on Your Mind",
@@ -6365,7 +6213,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "({canReachLocation(Palpedia - Lovander)} AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND |@Honey Drop|)"
+        "requires": "(|Lovander Beacon| AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND |@Honey Drop|)"
     },
     {
         "name": "Sub Mission - Farewell Under the Sakura Tree",
@@ -6373,7 +6221,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Advanced Recovery Meds| AND |Tech - Palbox| AND |Tech - Advanced Medicine Workbench| AND |Tech - Progressive Furnace:4| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Hot Volcano Beacon| OR {canReachLocation(Palpedia - Neptilius)}) AND (|Tech - Carbon Fiber| OR |Hot Volcano Beacon| OR {canReachLocation(Palpedia - Neptilius)} OR |Wildlife 3 Beacon|) AND |Feybreak Beacon|"
+        "requires": "|Tech - Advanced Recovery Meds| AND |Tech - Palbox| AND |Tech - Advanced Medicine Workbench| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:4| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Hot Volcano Beacon| OR |Neptilius Beacon|) AND (|Tech - Carbon Fiber| OR |Hot Volcano Beacon| OR |Neptilius Beacon| OR |Wildlife 3 Beacon|) AND |Feybreak Beacon|"
     },
     {
         "name": "Sub Mission - No Mercy for Pal Thieves",
@@ -6389,7 +6237,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Dark Orb:5|)}"
+        "requires": "|Splatterina Beacon|"
     },
     {
         "name": "Sub Mission - Hunting Essentials",
@@ -6397,11 +6245,11 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Ground Orb:5|)}"
+        "requires": "|Surfent Terra Beacon|"
     },
     {
         "name": "Sub Mission - The Fugitive",
-        "region": "Mount Obsidian",
+        "region": "Hot Volcano",
         "category": [
             "Sub Missions"
         ],
@@ -6413,7 +6261,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "|Boss - Tarantriss|"
     },
     {
         "name": "Sub Mission - A Sweet Deal",
@@ -6421,7 +6269,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Grass Orb:4|)}"
+        "requires": "|Beegarde Beacon| OR |Elizabee Beacon|"
     },
     {
         "name": "Sub Mission - A True Ascent Ends in Descent",
@@ -6429,7 +6277,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Ice Orb:7|)}"
+        "requires": "|Wumpo Beacon|"
     },
     {
         "name": "Sub Mission - Sparkly and Smooth",
@@ -6445,7 +6293,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Dark Orb:2|)} OR {OptOne(|Fire Orb:3|)}"
+        "requires": "|Leezpunk Beacon| OR |Leezpunk Ignis Beacon|"
     },
     {
         "name": "Sub Mission - Easygoing Adventures",
@@ -6453,7 +6301,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Neutral Orb:4|)}"
+        "requires": "|Yakumo Beacon|"
     },
     {
         "name": "Sub Mission - Don't Get Cocky",
@@ -6933,7 +6781,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,5)}"
+        "requires": "|@Overworld Boss:5|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 10 Bosses Defeated",
@@ -6941,7 +6789,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,10)}"
+        "requires": "|@Overworld Boss:10|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 20 Bosses Defeated",
@@ -6949,7 +6797,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,20)}"
+        "requires": "|@Overworld Boss:20|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 30 Bosses Defeated",
@@ -6957,7 +6805,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,30)}"
+        "requires": "|@Overworld Boss:30|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 40 Bosses Defeated",
@@ -6965,7 +6813,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,40)}"
+        "requires": "|@Overworld Boss:40|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 50 Bosses Defeated",
@@ -6973,7 +6821,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,50)}"
+        "requires": "|@Overworld Boss:50|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 60 Bosses Defeated",
@@ -6981,7 +6829,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,60)}"
+        "requires": "|@Overworld Boss:60|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 70 Bosses Defeated",
@@ -6989,7 +6837,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,70)}"
+        "requires": "|@Overworld Boss:70|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 80 Bosses Defeated",
@@ -6997,7 +6845,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,80)}"
+        "requires": "|@Overworld Boss:80|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 90 Bosses Defeated",
@@ -7005,7 +6853,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,90)}"
+        "requires": "|@Overworld Boss:90|"
     },
     {
         "name": "Sub Mission - Request from a Veteran Hunter - 100 Bosses Defeated",
@@ -7013,7 +6861,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Bosses,100)}"
+        "requires": "|@Overworld Boss:100|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 10 Unique Registered Pals",
@@ -7021,7 +6869,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,10)}"
+        "requires": "|@Pal Beacons:10|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 20 Unique Registered Pals",
@@ -7029,7 +6877,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,20)}"
+        "requires": "|@Pal Beacons:20|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 30 Unique Registered Pals",
@@ -7037,7 +6885,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,30)}"
+        "requires": "|@Pal Beacons:30|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 40 Unique Registered Pals",
@@ -7045,7 +6893,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,40)}"
+        "requires": "|@Pal Beacons:40|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 50 Unique Registered Pals",
@@ -7053,7 +6901,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,50)}"
+        "requires": "|@Pal Beacons:50|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 60 Unique Registered Pals",
@@ -7061,7 +6909,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,60)}"
+        "requires": "|@Pal Beacons:60|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 70 Unique Registered Pals",
@@ -7069,7 +6917,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,70)}"
+        "requires": "|@Pal Beacons:70|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 80 Unique Registered Pals",
@@ -7077,7 +6925,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,80)}"
+        "requires": "|@Pal Beacons:80|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 90 Unique Registered Pals",
@@ -7085,7 +6933,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,90)}"
+        "requires": "|@Pal Beacons:90|"
     },
     {
         "name": "Sub Mission - Request from a Pal Ecological Researcher - 100 Unique Registered Pals",
@@ -7093,7 +6941,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{canReachCategory(Palpedia,100)}"
+        "requires": "|@Pal Beacons:100|"
     },
     {
         "name": "Sub Mission - Request from an Arrogant Foodie - Give Broiled Dumud",
@@ -8441,298 +8289,265 @@
         "name": "Predator - Relaxaurus (Level 30)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Tarantris (Level 30)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Omascul (Level 31)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Starryon (Level 34)",
         "region": "Crescent Moon Shore",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:34|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:34|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Dinossom (Level 31)",
         "region": "Verdant Brook",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Maraith (Level 38)",
         "region": "Verdant Brook",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
-        "name": "Predator - Rayhound",
+        "name": "Predator - Rayhound (Level 30)",
         "region": "Verdant Brook",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Reptyro Cryst (Level 40)",
         "region": "Frostbound Mountains",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
     },
     {
         "name": "Predator - Ragnahawk (Level 32)",
         "region": "Scars of War",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Vanwyrm (Level 25)",
         "region": "Eastern Wild Island",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Cryolinx Terra (Level 48)",
         "region": "Dessicated Dunes",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Dazemu (Level 47)",
         "region": "Dessicated Dunes",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Prixter (Level 45)",
         "region": "Dessicated Dunes",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Faleris Aqua (Level 50)",
         "region": "Foot of the Astral Mountains",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Kitsun (Level 47)",
         "region": "Foot of the Astral Mountains",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Loupmoon Cryst (Level 49)",
         "region": "Astral Mountains",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Wumpo (Level 50)",
         "region": "Astral Mountains",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Blazehowl Noct (Level 50)",
         "region": "Astral Mountains",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Elphidran (Level 55)",
         "region": "Sakurajima",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Splatterina (Level 55)",
         "region": "Sakurajima",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Shroomer (Level 55)",
         "region": "Sakurajima",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Direhowl (Level 25)",
         "region": "Ice Wind Island",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Mossanda (Level 30)",
         "region": "Bamboo Groves",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Dogen (Level 28)",
         "region": "Bamboo Groves",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Lovander (Level 26)",
         "region": "Bamboo Groves",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Gorirat (Level 30)",
         "region": "Sea Breeze Archipelago",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Gildane (Level 48)",
         "region": "Mount Obsidian",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Jormuntide Ignis (Level 48)",
         "region": "Mount Obsidian",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Digtoise (Level 45)",
         "region": "Mount Obsidian",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Helzephyr Lux (Level 60)",
         "region": "Feybreak Red",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Incineram Noct (Level 60)",
         "region": "Feybreak Red",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Sootseer (Level 60)",
         "region": "Feybreak Yellow",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Bushi Noct (Level 60)",
         "region": "Feybreak Blue",
         "category": [
-            "Predator Hunts",
-            "Predators"
+            "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
     },
     {
         "name": "Pal Merchant (Small Settlement) - Slot 1",
@@ -11882,14 +11697,15 @@
             "Capture Challenges",
             "Diamond Passives"
         ],
-        "requires": "{canReachCategory(Legendary,1)}"
+        "requires": "|@Legendary|"
     },
     {
         "name": "Diamond Passive - Siren of the Void",
         "region": "Bellanoir Libero",
         "category": [
             "Capture Challenges",
-            "Diamond Passives"
+            "Diamond Passives",
+            "Raid Boss"
         ],
         "requires": []
     },
@@ -11898,7 +11714,8 @@
         "region": "Blazamut Ryu",
         "category": [
             "Capture Challenges",
-            "Diamond Passives"
+            "Diamond Passives",
+            "Raid Boss"
         ],
         "requires": []
     },
@@ -11907,7 +11724,8 @@
         "region": "Xenolord",
         "category": [
             "Capture Challenges",
-            "Diamond Passives"
+            "Diamond Passives",
+            "Raid Boss"
         ],
         "requires": []
     },
@@ -11972,7 +11790,7 @@
             "Capture Challenges",
             "Diamond Passives"
         ],
-        "requires": "{canReachLocation(Palpedia - Neptilius)} OR (|Tech - Mill| & (|Tech - Progressive Workbench:2| & |Tech - Beginner Fishing Set|) or ((|Tech - High Quality Bait| & ({canReachLocation(Travel Point - Fisherman's Point)} or {canReachLocation(Travel Point - Duneshelter)} or |Tech - Tomato Plantation|)) or (|Tech - Deluxe Bait| & |Tech - Carrot Plantation| & |Tech - Onion Plantation|) & (|Tech - Intermediate Fishing Rod| & |Tech - Progressive Workbench:3|) or (|Tech - Advanced Fishing Rod| & |Tech - Progressive Workbench:4|) & |@Power Source| & |Tech - Palbox|))"
+        "requires": "|Neptilius Beacon| OR ({OptOne(|Water Orb|)} AND |Tech - Mill| AND (|Tech - Progressive Workbench:2| AND |Tech - Beginner Fishing Set|)"
     },
     {
         "name": "Diamond Passive - King of the Waves",
@@ -11988,7 +11806,8 @@
         "region": "Hartalis",
         "category": [
             "Capture Challenges",
-            "Diamond Passives"
+            "Diamond Passives",
+            "Raid Boss"
         ],
         "requires": []
     },
@@ -12206,7 +12025,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Tech - Mill| AND {OptOne(|Bread Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Bread Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Fried Egg",
@@ -12233,7 +12052,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Tech - Mill| AND {OptOne(|Jam-Filled Bun Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Jam-Filled Bun Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Pancake",
@@ -12242,7 +12061,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Salad",
@@ -12251,7 +12070,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Tech - Palbox|) OR (({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Travel Point - Duneshelter)}) AND {OptOne(|Membership Card|)}) AND {OptOne(|Salad Recipe|)}"
+        "requires": "((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}) AND {OptOne(|Salad Recipe|)}"
     },
     {
         "name": "Cook Omelet",
@@ -12260,7 +12079,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR (({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Travel Point - Duneshelter)}) AND {OptOne(|Membership Card|)}) AND {OptOne(|Omelet Recipe|)}"
+        "requires": "((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}) AND {OptOne(|Omelet Recipe|)}"
     },
     {
         "name": "Cook Marinated Mushrooms",
@@ -12287,7 +12106,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Pizza Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND ({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Travel Point - Duneshelter)})) OR (|Tech - Tomato Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Pizza Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND (|Volcano Beacon| OR |Dunes Beacon|)) OR (|Tech - Tomato Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
     },
     {
         "name": "Cook Carbonara",
@@ -12296,7 +12115,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Carbonara Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Bamboo Beacon| AND |Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Carbonara Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Bamboo Beacon| AND |Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Cake",
@@ -12305,7 +12124,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Cake Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|"
+        "requires": "{OptOne(|Cake Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|"
     },
     {
         "name": "Cook Grilled Chikipi",
@@ -12332,7 +12151,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{canReachLocation(Palpedia - Kelpsea)} AND {OptOne(|Grilled Kelpsea Recipe|)}"
+        "requires": "|Kelpsea Beacon| AND {OptOne(|Grilled Kelpsea Recipe|)}"
     },
     {
         "name": "Cook Grilled Galeclaw",
@@ -12341,7 +12160,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "({canReachLocation(Travel Point - Lake Center)} OR |Bamboo Beacon|) AND {OptOne(|Grilled Galeclaw Recipe|)}"
+        "requires": "(|Crescent Beacon| OR |Bamboo Beacon|) AND {OptOne(|Grilled Galeclaw Recipe|)}"
     },
     {
         "name": "Cook Roast Rushoar",
@@ -12359,7 +12178,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "(|Volcano Beacon| OR |Twilight Beacon| OR {canReachLocation(Boss - Dumud (Level 14))}) AND {OptOne(|Broiled Dumud Recipe|)}"
+        "requires": "(|Volcano Beacon| OR |Twilight Beacon| OR |Boss - Dumud|) AND {OptOne(|Broiled Dumud Recipe|)}"
     },
     {
         "name": "Cook Roast Eikthyrdeer",
@@ -12377,7 +12196,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{canReachLocation(Palpedia - Reindrix)} AND {OptOne(|Roast Reindrix Recipe|)}"
+        "requires": "|Reindrix Beacon| AND {OptOne(|Roast Reindrix Recipe|)}"
     },
     {
         "name": "Cook Herb Roasted Caprity",
@@ -12386,7 +12205,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{canReachLocation(Palpedia - Caprity)} AND {OptOne(|Herb Roasted Caprity Recipe|)}"
+        "requires": "|Caprity Beacon| AND {OptOne(|Herb Roasted Caprity Recipe|)}"
     },
     {
         "name": "Cook Mozzarina Steak",
@@ -12404,7 +12223,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "(|Bamboo Beacon| OR {canReachLocation(Boss - Broncherry (Level 23))}) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
+        "requires": "(|Bamboo Beacon| OR (|Sea Breeze Beacon| AND |@Player Beacon:2|)) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
     },
     {
         "name": "Cook Mammorest Steak",
@@ -12413,7 +12232,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{canReachLocation(Palpedia - Mammorest)} AND {OptOne(|Mammorest Steak Recipe|)}"
+        "requires": "|Mammorest Beacon| AND {OptOne(|Mammorest Steak Recipe|)}"
     },
     {
         "name": "Cook Munchill Steak",
@@ -12422,7 +12241,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{canReachLocation(Palpedia - Munchill)} AND {OptOne(|Munchill Steak Recipe|)}"
+        "requires": "|Munchill Beacon| AND {OptOne(|Munchill Steak Recipe|)}"
     },
     {
         "name": "Cook Chikipi Sauté",
@@ -12449,7 +12268,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND ((|Tech - Lettuce Plantation| AND |Tech - Palbox|) OR (({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Travel Point - Duneshelter)}) AND {OptOne(|Membership Card|)})"
+        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND ((|Tech - Lettuce Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)})"
     },
     {
         "name": "Cook Stewed Galeclaw",
@@ -12476,7 +12295,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND {canReachLocation(Palpedia - Reindrix)} AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR (({canReachLocation(Travel Point - Fisherman's Point)} OR {canReachLocation(Travel Point - Duneshelter)}) AND {OptOne(|Membership Card|)})"
+        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND |Reindrix Beacon| AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)})"
     },
     {
         "name": "Cook Rushoar Gyoza",
@@ -12485,7 +12304,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND |@Merchant Location|)"
+        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND |@Merchant Location|)"
     },
     {
         "name": "Cook Stir-Fried Vegetables",
@@ -12494,7 +12313,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Stir-Fried Vegetables Recipe|)} AND |Tech - Onion Plantation| AND |Tech - Carrot Plantation| AND |Tech - Palbox| AND ({canReachLocation(Travel Point - Lake Center)} OR {canReachLocation(Travel Point - Mossanda Forest)} OR {canReachLocation(Travel Point - Eastern Wild Island)} OR {canReachLocation(Travel Point - Icy Weasel Hill)} OR {canReachLocation(Palpedia - Eikthyrdeer Terra)})"
+        "requires": "{OptOne(|Stir-Fried Vegetables Recipe|)} AND |Tech - Onion Plantation| AND |Tech - Carrot Plantation| AND |Tech - Palbox| AND (|Crescent Beacon| OR |Forest Beacon| OR |Eastern Wild Beacon| OR |Cold Shore Beacon| OR |Wildlife 1 Beacon|)"
     },
     {
         "name": "Cook French Fries",
@@ -12503,7 +12322,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|French Fries Recipe|)} AND |Tech - Potato Plantation| AND |Tech - Palbox| AND ({canReachLocation(Travel Point - Lake Center)} OR {canReachLocation(Travel Point - Duneshelter)} OR |Bamboo Beacon| OR {canReachLocation(Boss - Broncherry (Level 23))} OR {canReachLocation(Travel Point - Loess Plains)})"
+        "requires": "{OptOne(|French Fries Recipe|)} AND |Tech - Potato Plantation| AND |Tech - Palbox| AND (|Crescent Beacon| OR |Dunes Beacon| OR |Bamboo Beacon| OR (|Sea Breeze Beacon| AND |@Player Beacon:2|) OR |Feybreak Beacon|)"
     },
     {
         "name": "Cook Fried Gloopie Balls",
@@ -12512,7 +12331,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND {canReachLocation(Palpedia - Gloopie)}"
+        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND |Gloopie Beacon|"
     },
     {
         "name": "Cook Jelliette's Jiggly Jelly",
@@ -12521,7 +12340,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Jelliette's Jiggly Jelly Recipe|)} AND {canReachLocation(Palpedia - Jelliette)}"
+        "requires": "{OptOne(|Jelliette's Jiggly Jelly Recipe|)} AND |Jelliette Beacon|"
     },
     {
         "name": "Cook Jellroy's Jolly Jelly",
@@ -12530,7 +12349,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Jellroy's Jolly Jelly Recipe|)} AND {canReachLocation(Palpedia - Jellroy)}"
+        "requires": "{OptOne(|Jellroy's Jolly Jelly Recipe|)} AND |Jellroy Beacon|"
     },
     {
         "name": "Cook Fried Chikipi",
@@ -12539,16 +12358,16 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Chikipi Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Fried Chikipi Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
-        "name": "Rushoar Hot Dog",
+        "name": "Cook Rushoar Hot Dog",
         "region": "Electric Kitchen",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Hot Dog Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
+        "requires": "{OptOne(|Rushoar Hot Dog Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
     },
     {
         "name": "Cook Eikthyrdeer Loco Moco",
@@ -12575,7 +12394,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mozzarina Hamburger Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
+        "requires": "{OptOne(|Mozzarina Hamburger Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
     },
     {
         "name": "Cook Mozzarina Cheeseburger",
@@ -12584,7 +12403,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mozzarina Cheeseburger Recipe|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
+        "requires": "{OptOne(|Mozzarina Cheeseburger Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
     },
     {
         "name": "Cook Fried Kelpsea",
@@ -12593,7 +12412,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Kelpsea Recipe|)} AND {canReachLocation(Palpedia - Kelpsea)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Fried Kelpsea Recipe|)} AND |Kelpsea Beacon| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Dumud Chowder",
@@ -12602,7 +12421,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Dumud Chowder Recipe|)} AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND ({canReachLocation(Palpedia - Dumud Gild)} OR |Volcano Beacon| OR |Twilight Beacon| OR {canReachLocation(Boss - Dumud (Level 14))})"
+        "requires": "{OptOne(|Dumud Chowder Recipe|)} AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND (|Dumud Gild Beacon| OR |Volcano Beacon| OR |Twilight Beacon| OR |Boss - Dumud|)"
     },
     {
         "name": "Cook Broncherry Fried Noodles",
@@ -12611,7 +12430,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Broncherry Fried Noodles Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND {canReachCategory(Onion Drop,1)} AND |Tech - Carrot Plantation| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND ({canReachLocation(Boss - Broncherry (Level 23))} OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Broncherry Fried Noodles Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND ((|Sea Breeze Beacon| AND |@Player Beacon:2|) OR |Bamboo Beacon|)"
     },
     {
         "name": "Cook Spring Rolls",
@@ -12620,7 +12439,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Spring Rolls Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND {canReachCategory(Onion Drop,1)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
+        "requires": "{OptOne(|Spring Rolls Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
     },
     {
         "name": "Cook Gratin",
@@ -12629,7 +12448,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Gratin Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |Tech - Palbox| AND |Tech - Potato Plantation| AND {canReachCategory(Potato Drop,1)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
+        "requires": "{OptOne(|Gratin Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |Tech - Palbox| AND |Tech - Potato Plantation| AND |@Potato Drop| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
     },
     {
         "name": "Cook Minestrone",
@@ -12638,7 +12457,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Minestrone Recipe|)} AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Tech - Palbox| AND |Tech - Carrot Plantation| AND |Tech - Onion Plantation| AND {canReachCategory(Onion Drop,1)} AND |Tech - Potato Plantation| AND {canReachCategory(Potato Drop,1)}"
+        "requires": "{OptOne(|Minestrone Recipe|)} AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Tech - Palbox| AND |Tech - Carrot Plantation| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Potato Plantation| AND |@Potato Drop|"
     },
     {
         "name": "Cook Seafood Salad",
@@ -12647,7 +12466,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Seafood Salad Recipe|)} AND {canReachLocation(Palpedia - Gloopie)} AND ((|Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
+        "requires": "{OptOne(|Seafood Salad Recipe|)} AND |Gloopie Beacon| AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
     },
     {
         "name": "Cook Mammorest Curry",
@@ -12656,7 +12475,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mammorest Curry Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND {canReachCategory(Onion Drop,1)} AND |Tech - Carrot Plantation| AND |Tech - Potato Plantation| AND {canReachCategory(Potato Drop,1)}"
+        "requires": "{OptOne(|Mammorest Curry Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND |Tech - Potato Plantation| AND |@Potato Drop|"
     },
     {
         "name": "Cook Galeclaw Nikujaga",
@@ -12665,7 +12484,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Galeclaw Nikujaga Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND {canReachCategory(Onion Drop,1)} AND |Tech - Carrot Plantation| AND |Tech - Potato Plantation| AND {canReachCategory(Potato Drop,1)} AND (|Bamboo Beacon| OR {canReachLocation(Travel Point - Lake Center)})"
+        "requires": "{OptOne(|Galeclaw Nikujaga Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND |Tech - Potato Plantation| AND |@Potato Drop| AND (|Bamboo Beacon| OR |Crescent Beacon|)"
     },
     {
         "name": "Cook Mushroom Quiche",
@@ -12674,19 +12493,19 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mushroom Quiche Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND {canReachCategory(Onion Drop,1)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Mushroom Quiche Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
     },
     {
         "name": "Cooked all the Dishes!",
-        "place_item": [
-            "Proof of Victory (Master Chef)"
-        ],
         "region": "General",
         "category": [
             "Victory Conditions",
             "Chef Goal"
         ],
-        "requires": "{canReachCategory(Cook Stuff,55)}"
+        "requires": "|@Cook Stuff:54|",
+        "place_item": [
+            "Proof of Victory (Master Chef)"
+        ]
     },
     {
         "name": "Defeat Zoe and Grizzbolt",
@@ -12695,7 +12514,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Zoe's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Zoe's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeat Lily and Lyleen",
@@ -12704,7 +12523,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Lily's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Lily's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeat Axel and Orserk",
@@ -12713,7 +12532,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Axel's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Axel's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeat Marcus and Faleris",
@@ -12722,7 +12541,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Marcus's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Marcus's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeat Victor and Shadowbeak",
@@ -12731,7 +12550,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Victor's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Victor's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeat Saya and Selyne",
@@ -12740,7 +12559,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Saya's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Saya's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeat Bjorn and Bastigor",
@@ -12749,94 +12568,89 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Bjorn's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND {canReachCategory(Tower Boss Location, 7)})"
+        "requires": "(|Bjorn's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
     },
     {
         "name": "Defeated all the Tower Bosses!",
-        "place_item": [
-            "Proof of Victory (Tower Rush)"
-        ],
         "region": "General",
         "category": [
             "Tower Rush",
             "Tower Rush Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Tower Bosses,7)}"
+        "requires": "|@Tower Keys:all| AND |@Tower Boss Location:7|",
+        "place_item": [
+            "Proof of Victory (Tower Rush)"
+        ]
     },
     {
         "name": "Defeated all the Predators!",
-        "place_item": [
-            "Proof of Victory (Predator Hunter)"
-        ],
         "region": "General",
         "category": [
             "Predator Hunter Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Predators,33)}"
+        "requires": "|@Predator Hunts:33|",
+        "place_item": [
+            "Proof of Victory (Predator Hunter)"
+        ]
     },
     {
-        "name": "Defeated or Captured all Legendary Pals",
-        "place_item": [
-            "Proof of Victory (Legendary Hunter)"
-        ],
+        "name": "Defeated all Legendary Pals",
         "region": "General",
         "category": [
             "Legendary Hunt Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Legendary,6)}"
+        "requires": "|@LegendaryBattle:5|",
+        "place_item": [
+            "Proof of Victory (Legendary Hunter)"
+        ]
     },
     {
         "name": "Defeat Bellanoir (Lv 30)",
-        "region": "Bellanoir",
+        "region": "Bellanoir Raid",
         "category": [
             "Raid Bosses",
             "Raiding"
         ],
-        "requires": [],
-        "place_item": [ "Bellanoir Beacon" ]
+        "requires": []
     },
     {
         "name": "Defeat Bellanoir Libero (Lv 50)",
-        "region": "Bellanoir Libero",
+        "region": "Bellanoir Libero Raid",
         "category": [
             "Raid Bosses",
             "Raiding"
         ],
-        "requires": [],
-        "place_item": [ "Bellanoir Libero Beacon" ]
+        "requires": []
     },
     {
         "name": "Defeat Blazamut Ryu (Lv 55)",
-        "region": "Blazamut Ryu",
+        "region": "Blazamut Ryu Raid",
         "category": [
             "Raid Bosses",
             "Raiding"
         ],
-        "requires": [],
-        "place_item": [ "Blazamut Ryu Beacon" ]
+        "requires": []
     },
     {
         "name": "Defeat Xenolord (Lv 60)",
-        "region": "Xenolord",
+        "region": "Xenolord Raid",
         "category": [
             "Raid Bosses",
             "Raiding"
         ],
-        "requires": [],
-        "place_item": [ "Xenolord Beacon" ]
+        "requires": []
     },
     {
         "name": "Defeat Hartalis (Lv 65)",
-        "region": "Hartalis",
+        "region": "Hartalis Raid",
         "category": [
             "Raid Bosses",
             "Raiding"
         ],
-        "requires": [],
-        "place_item": [ "Hartalis Beacon" ]
+        "requires": []
     },
     {
         "name": "Finished the Hillside Cavern",
@@ -12916,8 +12730,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Grasslands Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Rayne Syndicate Tower",
@@ -13005,8 +12818,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Marsh Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover Marsh Island Church Ruins",
@@ -13030,8 +12842,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Eastern Wild Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Isle of Decayed Treasures",
@@ -13055,8 +12866,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Forest Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover Gobfin's Turf",
@@ -13096,8 +12906,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Frostbound Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Pal Alliance Tower",
@@ -13121,8 +12930,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Dunes Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover Duneshelter",
@@ -13170,8 +12978,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Arena Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Oasis Isle",
@@ -13187,8 +12994,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Glacial Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Sealed Realm of the Glacial Core",
@@ -13204,8 +13010,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Crescent Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Ancient Ritual Site",
@@ -13253,8 +13058,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Astral Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Iceberg Mineshaft",
@@ -13294,8 +13098,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Sakurajima Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Moonflower Tower",
@@ -13327,8 +13130,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Forgotten Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Forgotten Island Church Ruins",
@@ -13352,8 +13154,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Bamboo Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Sealed Realm of the Swordmaster",
@@ -13417,8 +13218,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Twilight Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Sea Breeze Archipelago",
@@ -13426,8 +13226,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Sea Breeze Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover the Sea Breeze Archipelago Church",
@@ -13451,8 +13250,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Hot Volcano Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Foot of the Volcano",
@@ -13476,8 +13274,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Volcano Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Brothers of Eternal Pyre Tower",
@@ -13541,8 +13338,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Wildlife 1 Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Wildlife Sanctuary 2",
@@ -13550,8 +13346,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Wildlife 2 Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Wildlife Sanctuary 3",
@@ -13559,8 +13354,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Wildlife 3 Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Scorched Ashland",
@@ -13568,8 +13362,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Feybreak Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Withered Seaside",
@@ -13649,8 +13442,7 @@
         "category": [
             "Exploration"
         ],
-        "requires": [],
-        "place_item": [ "Feybreak Frost Beacon" ]
+        "requires": []
     },
     {
         "name": "Discover The Sealed Realm of the Black Pegasus",
@@ -13762,8 +13554,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:10)}",
-        "place_item": [ "Player Beacon" ]
+        "requires": "{OptOne(Player Level:10)}"
     },
     {
         "name": "Reached Player Level 15",
@@ -13779,8 +13570,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:20)}",
-        "place_item": [ "Player Beacon" ]
+        "requires": "{OptOne(Player Level:20)}"
     },
     {
         "name": "Reached Player Level 25",
@@ -13796,8 +13586,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:30)}",
-        "place_item": [ "Player Beacon" ]
+        "requires": "{OptOne(Player Level:30)}"
     },
     {
         "name": "Reached Player Level 35",
@@ -13813,8 +13602,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:40)}",
-        "place_item": [ "Player Beacon" ]
+        "requires": "{OptOne(Player Level:40)}"
     },
     {
         "name": "Reached Player Level 45",
@@ -13830,8 +13618,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:50)}",
-        "place_item": [ "Player Beacon" ]
+        "requires": "{OptOne(Player Level:50)}"
     },
     {
         "name": "Reached Player Level 55",
@@ -13847,8 +13634,7 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:60)}",
-        "place_item": [ "Player Beacon" ]
+        "requires": "{OptOne(Player Level:60)}"
     },
     {
         "name": "Reach Player Level 65",
@@ -13860,111 +13646,123 @@
     },
     {
         "name": "Defeated all Raid Bosses",
-        "place_item": [
-            "Proof of Victory (Raid Boss)"
-        ],
         "region": "General",
         "category": [
             "Raid Boss Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Raiding,5)}"
+        "requires": "|@Raid Boss:5|",
+        "place_item": [
+            "Proof of Victory (Raid Boss)"
+        ]
     },
     {
         "name": "Defeated all Overworld Bosses",
-        "place_item": [
-            "Proof of Victory (Veteran Hunter)"
-        ],
         "region": "General",
         "category": [
             "Veteran Hunter",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Bosses,100)}"
+        "requires": "|@Overworld Boss:100|",
+        "place_item": [
+            "Proof of Victory (Veteran Hunter)"
+        ]
     },
     {
         "name": "Completed all Sub Missions",
-        "place_item": [
-            "Proof of Victory (Sub Missions)"
-        ],
         "region": "General",
         "category": [
             "Sub Missions Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Sub Missions,114)}"
+        "requires": "|@Sub Missions:36|",
+        "place_item": [
+            "Proof of Victory (Sub Missions)"
+        ]
     },
     {
         "name": "Completed all Research Tasks",
-        "place_item": [
-            "Proof of Victory (Pal Researcher)"
-        ],
         "region": "General",
         "category": [
             "Research Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Research Tasks,150)}"
+        "requires": "|@Research Token:32|",
+        "place_item": [
+            "Proof of Victory (Pal Researcher)"
+        ]
     },
     {
         "name": "Filled the whole Palpedia",
-        "place_item": [
-            "Proof of Victory (Full Palpedia)"
-        ],
         "region": "General",
         "category": [
             "Catchem Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Palpedia,215)}"
+        "requires": "|@Pal Beacons:215|",
+        "place_item": [
+            "Proof of Victory (Full Palpedia)"
+        ]
     },
     {
         "name": "Traveled to all Travel Points",
-        "place_item": [
-            "Proof of Victory (Palpagos Traveler)"
-        ],
         "region": "General",
         "category": [
             "Traveler Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Fast Travel Locations,89)}"
+        "requires": "|@Travel Point:25|",
+        "place_item": [
+            "Proof of Victory (Palpagos Traveler)"
+        ]
     },
     {
         "name": "Read all the Journals",
-        "place_item": [
-            "Proof of Victory (Journalist)"
-        ],
         "region": "General",
         "category": [
             "Journalist Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Journals,49)}"
+        "requires": "|@Journal Location:14|",
+        "place_item": [
+            "Proof of Victory (Journalist)"
+        ]
     },
     {
         "name": "Explored every Dungeon",
-        "place_item": [
-            "Proof of Victory (Dungeon Dweller)"
-        ],
         "region": "General",
         "category": [
             "Dungeoneer Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Dungeons,9)}"
+        "requires": "|@Dungeon Beacons:9|",
+        "place_item": [
+            "Proof of Victory (Dungeon Dweller)"
+        ]
     },
     {
         "name": "Captured a Lucky Pal in every Major Region",
-        "place_item": [
-            "Proof of Victory (Feeling Lucky)"
-        ],
         "region": "General",
         "category": [
             "Lucky Goal",
             "Victory Conditions"
         ],
-        "requires": "{canReachCategory(Lucky Hunt,10)}"
+        "requires": "|@Lucky Hunts:10|",
+        "place_item": [
+            "Proof of Victory (Feeling Lucky)"
+        ]
+    },
+    {
+        "name": "Maxed out your Base!",
+        "region": "Base Level 29",
+        "category": [
+            "Base Builder Goal",
+            "Victory Conditions"
+        ],
+        "requires": "",
+        "place_item": [
+            "Proof of Victory (Base Builder)"
+        ]
     },
     {
         "region": "Feybreak Blue",
@@ -14033,6 +13831,6 @@
         "category": [
             "Goal Completed"
         ],
-        "requires": "({YamlEnabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:all|) OR ({YamlDisabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:1|)"
+        "requires": "({YamlEnabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:all|) OR ({YamlDisabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory|)"
     }
 ]

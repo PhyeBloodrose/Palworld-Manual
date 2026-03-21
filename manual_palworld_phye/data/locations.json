@@ -545,7 +545,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |@Player Beacon|"
     },
     {
         "name": "Boss - Mammorest (Level 38)",
@@ -553,7 +553,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Boss - Kingpaca (Level 23)",
@@ -561,7 +561,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Azurobe (Level 17)",
@@ -569,7 +569,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:17|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Penking (Level 15)",
@@ -601,7 +601,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:17|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:17|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Wumpo Botan (Level 38)",
@@ -609,7 +609,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Boss - Mossanda Lux (Level 31)",
@@ -617,7 +617,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Verdash (Level 35)",
@@ -657,7 +657,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:44|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:44|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Boss - Suzaku (Level 45)",
@@ -665,7 +665,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Dinossom Lux (Level 47)",
@@ -673,7 +673,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Paladius or Necromus (Level 60)",
@@ -689,7 +689,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Lyleen Noct (Level 49)",
@@ -697,7 +697,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Kingpaca Cryst (Level 46)",
@@ -705,7 +705,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:46|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:46|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Frostallion (Level 60)",
@@ -721,7 +721,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:54|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Knocklem (Level 55)",
@@ -729,7 +729,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Felbat (Level 23)",
@@ -745,7 +745,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:14|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:1|"
+        "requires": "{OptOne(|Player Level:14|)} AND |@Pal Beacons| AND |@Player Beacon:1|"
     },
     {
         "name": "Boss - Nitewing (Level 18)",
@@ -753,7 +753,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:18|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:18|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Elizabee (Level 31)",
@@ -761,7 +761,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Petallia (Level 28)",
@@ -777,7 +777,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Anubis (Level 47)",
@@ -801,7 +801,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:29|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:29|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Relaxaurus Lux (Level 31)",
@@ -817,7 +817,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Broncherry Aqua (Level 30)",
@@ -825,7 +825,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Bushi (Level 23)",
@@ -841,7 +841,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |@Player Beacon|"
     },
     {
         "name": "Boss - Univolt (Level 31)",
@@ -849,7 +849,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Boss - Gumoss (Level 11)",
@@ -857,7 +857,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |@Player Beacon|"
     },
     {
         "name": "Boss - Broncherry (Level 23)",
@@ -865,7 +865,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Boss - Lunaris (Level 32)",
@@ -881,7 +881,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Astegon (Level 48)",
@@ -889,7 +889,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Jetragon (Level 60)",
@@ -905,7 +905,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Loupmoon Cryst (Level 54)",
@@ -913,7 +913,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:54|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:54|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Nyafia (Level 57)",
@@ -921,7 +921,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Silvegis (Level 59)",
@@ -929,7 +929,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Nitemary (Level 56)",
@@ -937,7 +937,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Starryon (Level 57)",
@@ -945,7 +945,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Fenglope Lux (Level 57)",
@@ -953,7 +953,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Faleris Aqua (Level 56)",
@@ -961,7 +961,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Gildane (Level 58)",
@@ -969,7 +969,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Kitsun Noct (Level 57)",
@@ -977,7 +977,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Celesdir (Level 60)",
@@ -985,7 +985,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Prunelia (Level 55)",
@@ -993,7 +993,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Foxparks Cryst (Level 52)",
@@ -1001,7 +1001,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:52|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Splatterina (Level 58)",
@@ -1009,7 +1009,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Ribbuny Botan (Level 53)",
@@ -1017,7 +1017,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Azurmane (Level 57)",
@@ -1025,7 +1025,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Warsect Terra (Level 59)",
@@ -1033,7 +1033,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Frostallion Noct (Level 60)",
@@ -1049,7 +1049,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Tarantriss (Level 57)",
@@ -1057,7 +1057,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Omascul (Level 55)",
@@ -1065,7 +1065,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Cryolinx Terra (Level 58)",
@@ -1073,7 +1073,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Boss - Dazzi Noct (Level 53)",
@@ -1081,7 +1081,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Boss - Caprity Noct (Level 55)",
@@ -1089,7 +1089,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Hawk (Level 12)",
@@ -1097,7 +1097,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:12|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:12|)} AND |@Pal Beacons| AND |@Player Beacon|"
     },
     {
         "name": "Bounty - Scoot (Level 10)",
@@ -1105,7 +1105,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:10|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:10|)} AND |@Pal Beacons| AND |@Player Beacon|"
     },
     {
         "name": "Bounty - Turncoat (Level 15)",
@@ -1113,7 +1113,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Crash (Level 15)",
@@ -1121,7 +1121,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Dart (Level 23)",
@@ -1129,7 +1129,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Fumble (Level 28)",
@@ -1137,7 +1137,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Brick (Level 30)",
@@ -1145,7 +1145,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Dyna (Level 26)",
@@ -1153,7 +1153,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Mite (Level 26)",
@@ -1161,7 +1161,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Bounty - Lasso (Level 21)",
@@ -1169,7 +1169,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:21|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:21|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Ego (Level 23)",
@@ -1177,7 +1177,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Jade (Level 19)",
@@ -1185,7 +1185,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:19|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:19|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Grill (Level 20)",
@@ -1193,7 +1193,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:20|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:20|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Siren (Level 16)",
@@ -1201,7 +1201,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:16|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:16|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     {
         "name": "Bounty - Whip (Level 40)",
@@ -1209,7 +1209,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Whisper (Level 37)",
@@ -1217,7 +1217,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:37|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Phantom (Level 36)",
@@ -1225,7 +1225,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:36|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:36|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Clint (Level 49)",
@@ -1233,7 +1233,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Bounty - Skim (Level 42)",
@@ -1241,7 +1241,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:42|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:42|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Whisk (Level 45)",
@@ -1249,7 +1249,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Quill (Level 43)",
@@ -1257,7 +1257,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:43|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:43|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Urchin (Level 53)",
@@ -1265,7 +1265,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Bounty - Nimble (Level 52)",
@@ -1273,7 +1273,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:52|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:52|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Bounty - Aloha (Level 39)",
@@ -1281,7 +1281,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:39|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:39|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Shadow (Level 41)",
@@ -1289,7 +1289,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:41|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:41|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Flare (Level 38)",
@@ -1297,7 +1297,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Bounty - Billy (Level 57)",
@@ -1305,7 +1305,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Gnaw (Level 57)",
@@ -1313,7 +1313,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Ram (Level 59)",
@@ -1321,7 +1321,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Pinch (Level 57)",
@@ -1329,7 +1329,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Dazzle (Level 56)",
@@ -1337,7 +1337,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:56|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Cache (Level 58)",
@@ -1345,7 +1345,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Bounty - Mimic (Level 57)",
@@ -1353,7 +1353,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Travel Point - Plateau of Beginnings",
@@ -6149,7 +6149,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "{OptOne(|Water Orb|)}"
+        "requires": "|@Watering|"
     },
     {
         "name": "Sub Mission - Hungry for Recruits",
@@ -6213,7 +6213,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Lovander Beacon| AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND |@Honey Drop|)"
+        "requires": "(|Lovander Beacon| AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND |@Honey Drop|)"
     },
     {
         "name": "Sub Mission - Farewell Under the Sakura Tree",
@@ -6221,7 +6221,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Advanced Recovery Meds| AND |Tech - Palbox| AND |Tech - Advanced Medicine Workbench| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:4| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Hot Volcano Beacon| OR |Neptilius Beacon|) AND (|Tech - Carbon Fiber| OR |Hot Volcano Beacon| OR |Neptilius Beacon| OR |Wildlife 3 Beacon|) AND |Feybreak Beacon|"
+        "requires": "|Tech - Advanced Recovery Meds| AND |Tech - Palbox| AND |Tech - Advanced Medicine Workbench| AND |@Kindling| AND |Tech - Progressive Furnace:4| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Hot Volcano Beacon| OR |Neptilius Beacon|) AND (|Tech - Carbon Fiber| OR |Hot Volcano Beacon| OR |Neptilius Beacon| OR |Wildlife 3 Beacon|) AND |Feybreak Beacon|"
     },
     {
         "name": "Sub Mission - No Mercy for Pal Thieves",
@@ -8291,7 +8291,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Tarantris (Level 30)",
@@ -8299,7 +8299,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Omascul (Level 31)",
@@ -8307,7 +8307,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Starryon (Level 34)",
@@ -8315,7 +8315,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:34|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:34|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Dinossom (Level 31)",
@@ -8323,7 +8323,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Maraith (Level 38)",
@@ -8331,7 +8331,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Predator - Rayhound (Level 30)",
@@ -8339,7 +8339,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Reptyro Cryst (Level 40)",
@@ -8347,7 +8347,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
     },
     {
         "name": "Predator - Ragnahawk (Level 32)",
@@ -8355,7 +8355,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:32|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Vanwyrm (Level 25)",
@@ -8363,7 +8363,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Cryolinx Terra (Level 48)",
@@ -8371,7 +8371,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Dazemu (Level 47)",
@@ -8379,7 +8379,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Prixter (Level 45)",
@@ -8387,7 +8387,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Faleris Aqua (Level 50)",
@@ -8395,7 +8395,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Kitsun (Level 47)",
@@ -8403,7 +8403,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Loupmoon Cryst (Level 49)",
@@ -8411,7 +8411,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Wumpo (Level 50)",
@@ -8419,7 +8419,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Blazehowl Noct (Level 50)",
@@ -8427,7 +8427,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Elphidran (Level 55)",
@@ -8435,7 +8435,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Splatterina (Level 55)",
@@ -8443,7 +8443,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Shroomer (Level 55)",
@@ -8451,7 +8451,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Direhowl (Level 25)",
@@ -8459,7 +8459,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Mossanda (Level 30)",
@@ -8467,7 +8467,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Dogen (Level 28)",
@@ -8475,7 +8475,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Lovander (Level 26)",
@@ -8483,7 +8483,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Gorirat (Level 30)",
@@ -8491,7 +8491,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
     },
     {
         "name": "Predator - Gildane (Level 48)",
@@ -8499,7 +8499,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Jormuntide Ignis (Level 48)",
@@ -8507,7 +8507,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Digtoise (Level 45)",
@@ -8515,7 +8515,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
     },
     {
         "name": "Predator - Helzephyr Lux (Level 60)",
@@ -8523,7 +8523,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Incineram Noct (Level 60)",
@@ -8531,7 +8531,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Sootseer (Level 60)",
@@ -8539,7 +8539,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Predator - Bushi Noct (Level 60)",
@@ -8547,7 +8547,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
     },
     {
         "name": "Pal Merchant (Small Settlement) - Slot 1",
@@ -11790,7 +11790,7 @@
             "Capture Challenges",
             "Diamond Passives"
         ],
-        "requires": "|Neptilius Beacon| OR ({OptOne(|Water Orb|)} AND |Tech - Mill| AND (|Tech - Progressive Workbench:2| AND |Tech - Beginner Fishing Set|)"
+        "requires": "|Neptilius Beacon| OR |Fishing|"
     },
     {
         "name": "Diamond Passive - King of the Waves",
@@ -12106,7 +12106,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Pizza Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND (|Volcano Beacon| OR |Dunes Beacon|)) OR (|Tech - Tomato Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Pizza Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND (|Volcano Beacon| OR |Dunes Beacon|)) OR (|Tech - Tomato Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
     },
     {
         "name": "Cook Carbonara",
@@ -12115,7 +12115,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Carbonara Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Bamboo Beacon| AND |Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Carbonara Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Bamboo Beacon| AND |Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Cake",
@@ -12124,7 +12124,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Cake Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|"
+        "requires": "{OptOne(|Cake Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|"
     },
     {
         "name": "Cook Grilled Chikipi",
@@ -12304,7 +12304,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND |@Merchant Location|)"
+        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND |@Watering| AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND |@Merchant Location|)"
     },
     {
         "name": "Cook Stir-Fried Vegetables",
@@ -12358,7 +12358,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Chikipi Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Fried Chikipi Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Rushoar Hot Dog",
@@ -12367,7 +12367,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Hot Dog Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
+        "requires": "{OptOne(|Rushoar Hot Dog Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
     },
     {
         "name": "Cook Eikthyrdeer Loco Moco",
@@ -12394,7 +12394,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mozzarina Hamburger Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
+        "requires": "{OptOne(|Mozzarina Hamburger Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
     },
     {
         "name": "Cook Mozzarina Cheeseburger",
@@ -12403,7 +12403,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mozzarina Cheeseburger Recipe|)} AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
+        "requires": "{OptOne(|Mozzarina Cheeseburger Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
     },
     {
         "name": "Cook Fried Kelpsea",
@@ -12412,7 +12412,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Kelpsea Recipe|)} AND |Kelpsea Beacon| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Fried Kelpsea Recipe|)} AND |Kelpsea Beacon| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
     },
     {
         "name": "Cook Dumud Chowder",
@@ -12430,7 +12430,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Broncherry Fried Noodles Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND ((|Sea Breeze Beacon| AND |@Player Beacon:2|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Broncherry Fried Noodles Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND ((|Sea Breeze Beacon| AND |@Player Beacon:2|) OR |Bamboo Beacon|)"
     },
     {
         "name": "Cook Spring Rolls",
@@ -12439,7 +12439,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Spring Rolls Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
+        "requires": "{OptOne(|Spring Rolls Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
     },
     {
         "name": "Cook Gratin",
@@ -12493,7 +12493,7 @@
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mushroom Quiche Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Mushroom Quiche Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
     },
     {
         "name": "Cooked all the Dishes!",

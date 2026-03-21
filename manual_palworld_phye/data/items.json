@@ -5,7 +5,8 @@
         "category": [
             "Build - Storage"
         ],
-        "progression": true
+        "progression": true,
+        "early": true
     },
     {
         "count": 5,
@@ -1682,7 +1683,8 @@
         "category": [
             "Weapons - Tools"
         ],
-        "useful": true
+        "useful": true,
+        "early": true
     },
     {
         "count": 1,
@@ -1690,7 +1692,8 @@
         "category": [
             "Weapons - Melee"
         ],
-        "useful": true
+        "useful": true,
+        "early": true
     },
     {
         "count": 1,
@@ -3993,7 +3996,8 @@
         "count": 1,
         "name": "Monarch's Crown Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4001,7 +4005,8 @@
         "count": 1,
         "name": "Golden Crown Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4009,7 +4014,8 @@
         "count": 1,
         "name": "Long-Eared Headband Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4017,7 +4023,8 @@
         "count": 1,
         "name": "Witch Hat Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4025,7 +4032,8 @@
         "count": 1,
         "name": "Soft Hat Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4033,7 +4041,8 @@
         "count": 1,
         "name": "Helmet Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4041,7 +4050,8 @@
         "count": 1,
         "name": "Silk Hat Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4049,7 +4059,8 @@
         "count": 1,
         "name": "Tricorne Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4057,7 +4068,8 @@
         "count": 1,
         "name": "Exploration Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4065,7 +4077,8 @@
         "count": 1,
         "name": "Graduation Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4073,7 +4086,8 @@
         "count": 1,
         "name": "Farming Hat Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4081,7 +4095,8 @@
         "count": 1,
         "name": "Bowler Hat Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4089,7 +4104,8 @@
         "count": 1,
         "name": "Tocotoco Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4097,7 +4113,8 @@
         "count": 1,
         "name": "Grinning Tocotoco Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4105,7 +4122,8 @@
         "count": 1,
         "name": "Gumoss Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4113,7 +4131,8 @@
         "count": 1,
         "name": "Penking Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4121,7 +4140,8 @@
         "count": 1,
         "name": "Katress Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -4129,7 +4149,8 @@
         "count": 1,
         "name": "Old Bow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4137,7 +4158,8 @@
         "count": 1,
         "name": "Old Bow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4145,7 +4167,8 @@
         "count": 1,
         "name": "Old Bow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4153,7 +4176,8 @@
         "count": 1,
         "name": "Old Bow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4161,7 +4185,8 @@
         "count": 1,
         "name": "Crossbow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4169,7 +4194,8 @@
         "count": 1,
         "name": "Crossbow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4177,7 +4203,8 @@
         "count": 1,
         "name": "Crossbow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4185,7 +4212,8 @@
         "count": 1,
         "name": "Crossbow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4193,7 +4221,8 @@
         "count": 1,
         "name": "Assault Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4201,7 +4230,8 @@
         "count": 1,
         "name": "Assault Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4209,7 +4239,8 @@
         "count": 1,
         "name": "Assault Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4217,7 +4248,8 @@
         "count": 1,
         "name": "Assault Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4225,7 +4257,8 @@
         "count": 1,
         "name": "Pump-Action Shotgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4233,7 +4266,8 @@
         "count": 1,
         "name": "Pump-Action Shotgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4241,7 +4275,8 @@
         "count": 1,
         "name": "Pump-Action Shotgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4249,7 +4284,8 @@
         "count": 1,
         "name": "Pump-Action Shotgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4257,7 +4293,8 @@
         "count": 1,
         "name": "Handgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4265,7 +4302,8 @@
         "count": 1,
         "name": "Handgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4273,7 +4311,8 @@
         "count": 1,
         "name": "Handgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4281,7 +4320,8 @@
         "count": 1,
         "name": "Handgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4289,7 +4329,8 @@
         "count": 1,
         "name": "Rocket Launcher Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4297,7 +4338,8 @@
         "count": 1,
         "name": "Rocket Launcher Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4305,7 +4347,8 @@
         "count": 1,
         "name": "Rocket Launcher Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4313,7 +4356,8 @@
         "count": 1,
         "name": "Rocket Launcher Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4321,7 +4365,8 @@
         "count": 1,
         "name": "Musket Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4329,7 +4374,8 @@
         "count": 1,
         "name": "Musket Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4337,7 +4383,8 @@
         "count": 1,
         "name": "Musket Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4345,7 +4392,8 @@
         "count": 1,
         "name": "Musket Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4353,7 +4401,8 @@
         "count": 1,
         "name": "Double-Barreled Shotgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4361,7 +4410,8 @@
         "count": 1,
         "name": "Double-Barreled Shotgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4369,7 +4419,8 @@
         "count": 1,
         "name": "Double-Barreled Shotgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4377,7 +4428,8 @@
         "count": 1,
         "name": "Double-Barreled Shotgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4385,7 +4437,8 @@
         "count": 1,
         "name": "Single-Shot Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4393,7 +4446,8 @@
         "count": 1,
         "name": "Single-Shot Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -4401,7 +4455,8 @@
         "count": 1,
         "name": "Single-Shot Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -4409,7 +4464,8 @@
         "count": 1,
         "name": "Single-Shot Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -4417,7 +4473,8 @@
         "count": 1,
         "name": "Feathered Hair Band Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4425,7 +4482,8 @@
         "count": 1,
         "name": "Feathered Hair Band Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4433,7 +4491,8 @@
         "count": 1,
         "name": "Feathered Hair Band Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4441,7 +4500,8 @@
         "count": 1,
         "name": "Feathered Hair Band Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4449,7 +4509,8 @@
         "count": 1,
         "name": "Metal Helm Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4457,7 +4518,8 @@
         "count": 1,
         "name": "Metal Helm Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4465,7 +4527,8 @@
         "count": 1,
         "name": "Metal Helm Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4473,7 +4536,8 @@
         "count": 1,
         "name": "Metal Helm Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4481,7 +4545,8 @@
         "count": 1,
         "name": "Refined Metal Helm Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4489,7 +4554,8 @@
         "count": 1,
         "name": "Refined Metal Helm Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4497,7 +4563,8 @@
         "count": 1,
         "name": "Refined Metal Helm Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4505,7 +4572,8 @@
         "count": 1,
         "name": "Refined Metal Helm Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4513,7 +4581,8 @@
         "count": 1,
         "name": "Pal Metal Helm Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4521,7 +4590,8 @@
         "count": 1,
         "name": "Pal Metal Helm Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4529,7 +4599,8 @@
         "count": 1,
         "name": "Pal Metal Helm Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4537,7 +4608,8 @@
         "count": 1,
         "name": "Pal Metal Helm Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4545,7 +4617,8 @@
         "count": 1,
         "name": "Cloth Outfit Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4553,7 +4626,8 @@
         "count": 1,
         "name": "Cloth Outfit Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4561,7 +4635,8 @@
         "count": 1,
         "name": "Cloth Outfit Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4569,7 +4644,8 @@
         "count": 1,
         "name": "Cloth Outfit Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4577,7 +4653,8 @@
         "count": 1,
         "name": "Pelt Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4585,7 +4662,8 @@
         "count": 1,
         "name": "Pelt Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4593,7 +4671,8 @@
         "count": 1,
         "name": "Pelt Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4601,7 +4680,8 @@
         "count": 1,
         "name": "Pelt Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4609,7 +4689,8 @@
         "count": 1,
         "name": "Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4617,7 +4698,8 @@
         "count": 1,
         "name": "Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4625,7 +4707,8 @@
         "count": 1,
         "name": "Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4633,7 +4716,8 @@
         "count": 1,
         "name": "Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4641,7 +4725,8 @@
         "count": 1,
         "name": "Refined Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4649,7 +4734,8 @@
         "count": 1,
         "name": "Refined Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4657,7 +4743,8 @@
         "count": 1,
         "name": "Refined Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4665,7 +4752,8 @@
         "count": 1,
         "name": "Refined Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4673,7 +4761,8 @@
         "count": 1,
         "name": "Pal Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4681,7 +4770,8 @@
         "count": 1,
         "name": "Pal Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4689,7 +4779,8 @@
         "count": 1,
         "name": "Pal Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4697,7 +4788,8 @@
         "count": 1,
         "name": "Pal Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4705,7 +4797,8 @@
         "count": 1,
         "name": "Tropical Outfit Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4713,7 +4806,8 @@
         "count": 1,
         "name": "Tropical Outfit Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4721,7 +4815,8 @@
         "count": 1,
         "name": "Tropical Outfit Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4729,7 +4824,8 @@
         "count": 1,
         "name": "Tropical Outfit Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4737,7 +4833,8 @@
         "count": 1,
         "name": "Tundra Outfit Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4745,7 +4842,8 @@
         "count": 1,
         "name": "Tundra Outfit Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4753,7 +4851,8 @@
         "count": 1,
         "name": "Tundra Outfit Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4761,7 +4860,8 @@
         "count": 1,
         "name": "Tundra Outfit Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4769,7 +4869,8 @@
         "count": 1,
         "name": "Heat Resistant Pelt Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4777,7 +4878,8 @@
         "count": 1,
         "name": "Heat Resistant Pelt Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4785,7 +4887,8 @@
         "count": 1,
         "name": "Heat Resistant Pelt Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4793,7 +4896,8 @@
         "count": 1,
         "name": "Heat Resistant Pelt Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4801,7 +4905,8 @@
         "count": 1,
         "name": "Cold Resistant Pelt Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4809,7 +4914,8 @@
         "count": 1,
         "name": "Cold Resistant Pelt Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4817,7 +4923,8 @@
         "count": 1,
         "name": "Cold Resistant Pelt Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4825,7 +4932,8 @@
         "count": 1,
         "name": "Cold Resistant Pelt Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4833,7 +4941,8 @@
         "count": 1,
         "name": "Heat Resistant Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4841,7 +4950,8 @@
         "count": 1,
         "name": "Heat Resistant Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4849,7 +4959,8 @@
         "count": 1,
         "name": "Heat Resistant Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4857,7 +4968,8 @@
         "count": 1,
         "name": "Heat Resistant Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4865,7 +4977,8 @@
         "count": 1,
         "name": "Cold Resistant Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4873,7 +4986,8 @@
         "count": 1,
         "name": "Cold Resistant Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4881,7 +4995,8 @@
         "count": 1,
         "name": "Cold Resistant Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4889,7 +5004,8 @@
         "count": 1,
         "name": "Cold Resistant Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4897,7 +5013,8 @@
         "count": 1,
         "name": "Heat Resistant Refined Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4905,7 +5022,8 @@
         "count": 1,
         "name": "Heat Resistant Refined Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4913,7 +5031,8 @@
         "count": 1,
         "name": "Heat Resistant Refined Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4921,7 +5040,8 @@
         "count": 1,
         "name": "Heat Resistant Refined Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4929,7 +5049,8 @@
         "count": 1,
         "name": "Cold Resistant Refined Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4937,7 +5058,8 @@
         "count": 1,
         "name": "Cold Resistant Refined Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4945,7 +5067,8 @@
         "count": 1,
         "name": "Cold Resistant Refined Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4953,7 +5076,8 @@
         "count": 1,
         "name": "Cold Resistant Refined Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4961,7 +5085,8 @@
         "count": 1,
         "name": "Heat Resistant Pal Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4969,7 +5094,8 @@
         "count": 1,
         "name": "Heat Resistant Pal Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -4977,7 +5103,8 @@
         "count": 1,
         "name": "Heat Resistant Pal Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -4985,7 +5112,8 @@
         "count": 1,
         "name": "Heat Resistant Pal Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -4993,7 +5121,8 @@
         "count": 1,
         "name": "Cold Resistant Pal Metal Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5001,7 +5130,8 @@
         "count": 1,
         "name": "Cold Resistant Pal Metal Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5009,7 +5139,8 @@
         "count": 1,
         "name": "Cold Resistant Pal Metal Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5017,7 +5148,8 @@
         "count": 1,
         "name": "Cold Resistant Pal Metal Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5025,7 +5157,8 @@
         "count": 1,
         "name": "Makeshift Handgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5033,7 +5166,8 @@
         "count": 1,
         "name": "Makeshift Handgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5041,7 +5175,8 @@
         "count": 1,
         "name": "Makeshift Handgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5049,7 +5184,8 @@
         "count": 1,
         "name": "Makeshift Handgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5057,7 +5193,8 @@
         "count": 1,
         "name": "Laser Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5065,7 +5202,8 @@
         "count": 1,
         "name": "Laser Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5073,7 +5211,8 @@
         "count": 1,
         "name": "Laser Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5081,7 +5220,8 @@
         "count": 1,
         "name": "Laser Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5089,7 +5229,8 @@
         "count": 1,
         "name": "Flamethrower Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5097,7 +5238,8 @@
         "count": 1,
         "name": "Flamethrower Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5105,7 +5247,8 @@
         "count": 1,
         "name": "Flamethrower Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5113,7 +5256,8 @@
         "count": 1,
         "name": "Flamethrower Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5121,7 +5265,8 @@
         "count": 1,
         "name": "Grenade Launcher Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5129,7 +5274,8 @@
         "count": 1,
         "name": "Grenade Launcher Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5137,7 +5283,8 @@
         "count": 1,
         "name": "Grenade Launcher Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5145,7 +5292,8 @@
         "count": 1,
         "name": "Grenade Launcher Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5153,7 +5301,8 @@
         "count": 1,
         "name": "Guided Missile Launcher Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5161,7 +5310,8 @@
         "count": 1,
         "name": "Guided Missile Launcher Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5169,7 +5319,8 @@
         "count": 1,
         "name": "Guided Missile Launcher Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5177,7 +5328,8 @@
         "count": 1,
         "name": "Guided Missile Launcher Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5185,7 +5337,8 @@
         "count": 1,
         "name": "Multi Guided Missile Launcher Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5193,7 +5346,8 @@
         "count": 1,
         "name": "Multi Guided Missile Launcher Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5201,7 +5355,8 @@
         "count": 1,
         "name": "Multi Guided Missile Launcher Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5209,7 +5364,8 @@
         "count": 1,
         "name": "Multi Guided Missile Launcher Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5217,7 +5373,8 @@
         "count": 1,
         "name": "Gatling Gun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5225,7 +5382,8 @@
         "count": 1,
         "name": "Gatling Gun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5233,7 +5391,8 @@
         "count": 1,
         "name": "Gatling Gun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5241,7 +5400,8 @@
         "count": 1,
         "name": "Gatling Gun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5249,7 +5409,8 @@
         "count": 1,
         "name": "Plasteel Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5257,7 +5418,8 @@
         "count": 1,
         "name": "Plasteel Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5265,7 +5427,8 @@
         "count": 1,
         "name": "Plasteel Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5273,7 +5436,8 @@
         "count": 1,
         "name": "Plasteel Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5281,7 +5445,8 @@
         "count": 1,
         "name": "Heat Resistant Plasteel Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5289,7 +5454,8 @@
         "count": 1,
         "name": "Heat Resistant Plasteel Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5297,7 +5463,8 @@
         "count": 1,
         "name": "Heat Resistant Plasteel Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5305,7 +5472,8 @@
         "count": 1,
         "name": "Heat Resistant Plasteel Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5313,7 +5481,8 @@
         "count": 1,
         "name": "Cold Resistant Plasteel Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5321,7 +5490,8 @@
         "count": 1,
         "name": "Cold Resistant Plasteel Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5329,7 +5499,8 @@
         "count": 1,
         "name": "Cold Resistant Plasteel Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5337,7 +5508,8 @@
         "count": 1,
         "name": "Cold Resistant Plasteel Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5345,7 +5517,8 @@
         "count": 1,
         "name": "Lightweight Plasteel Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5353,7 +5526,8 @@
         "count": 1,
         "name": "Lightweight Plasteel Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5361,7 +5535,8 @@
         "count": 1,
         "name": "Lightweight Plasteel Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5369,7 +5544,8 @@
         "count": 1,
         "name": "Lightweight Plasteel Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5377,7 +5553,8 @@
         "count": 1,
         "name": "Plasteel Helmet Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5385,7 +5562,8 @@
         "count": 1,
         "name": "Plasteel Helmet Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5393,7 +5571,8 @@
         "count": 1,
         "name": "Plasteel Helmet Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5401,7 +5580,8 @@
         "count": 1,
         "name": "Plasteel Helmet Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5409,7 +5589,8 @@
         "count": 1,
         "name": "Leezpunk Hood Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -5417,7 +5598,8 @@
         "count": 1,
         "name": "Killamari Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -5425,7 +5607,8 @@
         "count": 1,
         "name": "Ribbuny Headband Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -5433,7 +5616,8 @@
         "count": 1,
         "name": "Swee Cap Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -5441,7 +5625,8 @@
         "count": 1,
         "name": "Dazzi Hat Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Vanity"
         ],
         "filler": true
     },
@@ -5449,7 +5634,8 @@
         "count": 1,
         "name": "Poison Arrow Crossbow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5457,7 +5643,8 @@
         "count": 1,
         "name": "Poison Arrow Crossbow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5465,7 +5652,8 @@
         "count": 1,
         "name": "Poison Arrow Crossbow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5473,7 +5661,8 @@
         "count": 1,
         "name": "Poison Arrow Crossbow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5481,7 +5670,8 @@
         "count": 1,
         "name": "Fire Arrow Crossbow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5489,7 +5679,8 @@
         "count": 1,
         "name": "Fire Arrow Crossbow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5497,7 +5688,8 @@
         "count": 1,
         "name": "Fire Arrow Crossbow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5505,7 +5697,8 @@
         "count": 1,
         "name": "Fire Arrow Crossbow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5513,7 +5706,8 @@
         "count": 1,
         "name": "Hexolite Helmet Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5521,7 +5715,8 @@
         "count": 1,
         "name": "Hexolite Helmet Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5529,7 +5724,8 @@
         "count": 1,
         "name": "Hexolite Helmet Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5537,7 +5733,8 @@
         "count": 1,
         "name": "Hexolite Helmet Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5545,7 +5742,8 @@
         "count": 1,
         "name": "Hexolite Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5553,7 +5751,8 @@
         "count": 1,
         "name": "Hexolite Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5561,7 +5760,8 @@
         "count": 1,
         "name": "Hexolite Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5569,7 +5769,8 @@
         "count": 1,
         "name": "Hexolite Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5577,7 +5778,8 @@
         "count": 1,
         "name": "Heat Resistant Hexolite Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5585,7 +5787,8 @@
         "count": 1,
         "name": "Heat Resistant Hexolite Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5593,7 +5796,8 @@
         "count": 1,
         "name": "Heat Resistant Hexolite Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5601,7 +5805,8 @@
         "count": 1,
         "name": "Heat Resistant Hexolite Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5609,7 +5814,8 @@
         "count": 1,
         "name": "Cold Resistant Hexolite Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5617,7 +5823,8 @@
         "count": 1,
         "name": "Cold Resistant Hexolite Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5625,7 +5832,8 @@
         "count": 1,
         "name": "Cold Resistant Hexolite Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5633,7 +5841,8 @@
         "count": 1,
         "name": "Cold Resistant Hexolite Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5641,7 +5850,8 @@
         "count": 1,
         "name": "Lightweight Hexolite Armor Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5649,7 +5859,8 @@
         "count": 1,
         "name": "Lightweight Hexolite Armor Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -5657,7 +5868,8 @@
         "count": 1,
         "name": "Lightweight Hexolite Armor Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -5665,7 +5877,8 @@
         "count": 1,
         "name": "Lightweight Hexolite Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -5673,7 +5886,8 @@
         "count": 1,
         "name": "Laser Gatling Gun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5681,7 +5895,8 @@
         "count": 1,
         "name": "Laser Gatling Gun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5689,7 +5904,8 @@
         "count": 1,
         "name": "Laser Gatling Gun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5697,7 +5913,8 @@
         "count": 1,
         "name": "Laser Gatling Gun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5705,7 +5922,8 @@
         "count": 1,
         "name": "Plasma Cannon Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5713,7 +5931,8 @@
         "count": 1,
         "name": "Plasma Cannon Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5721,7 +5940,8 @@
         "count": 1,
         "name": "Plasma Cannon Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5729,7 +5949,8 @@
         "count": 1,
         "name": "Plasma Cannon Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5737,7 +5958,8 @@
         "count": 1,
         "name": "Semi-Auto Shotgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5745,7 +5967,8 @@
         "count": 1,
         "name": "Semi-Auto Shotgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5753,7 +5976,8 @@
         "count": 1,
         "name": "Semi-Auto Shotgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5761,7 +5985,8 @@
         "count": 1,
         "name": "Semi-Auto Shotgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5769,7 +5994,8 @@
         "count": 1,
         "name": "Old Revolver Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5777,7 +6003,8 @@
         "count": 1,
         "name": "Old Revolver Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5785,7 +6012,8 @@
         "count": 1,
         "name": "Old Revolver Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5793,7 +6021,8 @@
         "count": 1,
         "name": "Old Revolver Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5801,7 +6030,8 @@
         "count": 1,
         "name": "Makeshift Assault Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5809,7 +6039,8 @@
         "count": 1,
         "name": "Makeshift Assault Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5817,7 +6048,8 @@
         "count": 1,
         "name": "Makeshift Assault Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5825,7 +6057,8 @@
         "count": 1,
         "name": "Makeshift Assault Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5833,7 +6066,8 @@
         "count": 1,
         "name": "Semi-Auto Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5841,7 +6075,8 @@
         "count": 1,
         "name": "Semi-Auto Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5849,7 +6084,8 @@
         "count": 1,
         "name": "Semi-Auto Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5857,7 +6093,8 @@
         "count": 1,
         "name": "Semi-Auto Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5865,7 +6102,8 @@
         "count": 1,
         "name": "Makeshift SMG Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5873,7 +6111,8 @@
         "count": 1,
         "name": "Makeshift SMG Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5881,7 +6120,8 @@
         "count": 1,
         "name": "Makeshift SMG Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5889,7 +6129,8 @@
         "count": 1,
         "name": "Makeshift SMG Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5897,7 +6138,8 @@
         "count": 1,
         "name": "SMG Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5905,7 +6147,8 @@
         "count": 1,
         "name": "SMG Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5913,7 +6156,8 @@
         "count": 1,
         "name": "SMG Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5921,7 +6165,8 @@
         "count": 1,
         "name": "SMG Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5929,7 +6174,8 @@
         "count": 1,
         "name": "Makeshift Shotgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5937,7 +6183,8 @@
         "count": 1,
         "name": "Makeshift Shotgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5945,7 +6192,8 @@
         "count": 1,
         "name": "Makeshift Shotgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5953,7 +6201,8 @@
         "count": 1,
         "name": "Makeshift Shotgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5961,7 +6210,8 @@
         "count": 1,
         "name": "Advanced Bow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5969,7 +6219,8 @@
         "count": 1,
         "name": "Advanced Bow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -5977,7 +6228,8 @@
         "count": 1,
         "name": "Advanced Bow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -5985,7 +6237,8 @@
         "count": 1,
         "name": "Advanced Bow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -5993,7 +6246,8 @@
         "count": 1,
         "name": "Compound Bow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6001,7 +6255,8 @@
         "count": 1,
         "name": "Compound Bow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6009,7 +6264,8 @@
         "count": 1,
         "name": "Compound Bow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6017,7 +6273,8 @@
         "count": 1,
         "name": "Compound Bow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6025,7 +6282,8 @@
         "count": 1,
         "name": "Rayne Syndicate Flag Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6033,7 +6291,8 @@
         "count": 1,
         "name": "Overheat Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6041,7 +6300,8 @@
         "count": 1,
         "name": "Overheat Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6049,7 +6309,8 @@
         "count": 1,
         "name": "Overheat Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6057,7 +6318,8 @@
         "count": 1,
         "name": "Overheat Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6065,7 +6327,8 @@
         "count": 1,
         "name": "Charge Rifle Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6073,7 +6336,8 @@
         "count": 1,
         "name": "Charge Rifle Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6081,7 +6345,8 @@
         "count": 1,
         "name": "Charge Rifle Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6089,7 +6354,8 @@
         "count": 1,
         "name": "Charge Rifle Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6097,7 +6363,8 @@
         "count": 1,
         "name": "Energy Shotgun Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6105,7 +6372,8 @@
         "count": 1,
         "name": "Energy Shotgun Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6113,7 +6381,8 @@
         "count": 1,
         "name": "Energy Shotgun Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6121,7 +6390,8 @@
         "count": 1,
         "name": "Energy Shotgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6129,7 +6399,8 @@
         "count": 1,
         "name": "Lyleen Statue Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6137,7 +6408,8 @@
         "count": 1,
         "name": "Free Pal Alliance Flag Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6145,7 +6417,8 @@
         "count": 1,
         "name": "Free Pal Alliance Banner Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6153,7 +6426,8 @@
         "count": 1,
         "name": "Wire Fence Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6161,7 +6435,8 @@
         "count": 1,
         "name": "Wooden Barricade Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6169,7 +6444,8 @@
         "count": 1,
         "name": "Majestic Wall Torch Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6177,7 +6453,8 @@
         "count": 1,
         "name": "Ceremonial Candlestick Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6185,7 +6462,8 @@
         "count": 1,
         "name": "Majestic Candlestick Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6193,7 +6471,8 @@
         "count": 1,
         "name": "Paper Lantern Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6201,7 +6480,8 @@
         "count": 1,
         "name": "Red Wooden Lantern Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6209,7 +6489,8 @@
         "count": 1,
         "name": "Yakumo Statue Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6217,7 +6498,8 @@
         "count": 1,
         "name": "Laboratory Desk Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6225,7 +6507,8 @@
         "count": 1,
         "name": "Laboratory Chair Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6233,7 +6516,8 @@
         "count": 1,
         "name": "Excalibur Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6241,7 +6525,8 @@
         "count": 1,
         "name": "Excalibur Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6249,7 +6534,8 @@
         "count": 1,
         "name": "Excalibur Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6257,7 +6543,8 @@
         "count": 1,
         "name": "Excalibur Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6265,7 +6552,8 @@
         "count": 1,
         "name": "Terraprisma Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6273,7 +6561,8 @@
         "count": 1,
         "name": "Terraprisma Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6281,7 +6570,8 @@
         "count": 1,
         "name": "Terraprisma Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6289,7 +6579,8 @@
         "count": 1,
         "name": "Terraprisma Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6297,7 +6588,8 @@
         "count": 1,
         "name": "Vortex Beater Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6305,7 +6597,8 @@
         "count": 1,
         "name": "Vortex Beater Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6313,7 +6606,8 @@
         "count": 1,
         "name": "Vortex Beater Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6321,7 +6615,8 @@
         "count": 1,
         "name": "Vortex Beater Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6329,7 +6624,8 @@
         "count": 1,
         "name": "Nightglow Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6337,7 +6633,8 @@
         "count": 1,
         "name": "Nightglow Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6345,7 +6642,8 @@
         "count": 1,
         "name": "Nightglow Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6353,7 +6651,8 @@
         "count": 1,
         "name": "Nightglow Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6361,7 +6660,8 @@
         "count": 1,
         "name": "Terra Blade Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6369,7 +6669,8 @@
         "count": 1,
         "name": "Terra Blade Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6377,7 +6678,8 @@
         "count": 1,
         "name": "Terra Blade Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6385,7 +6687,8 @@
         "count": 1,
         "name": "Terra Blade Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6393,7 +6696,8 @@
         "count": 1,
         "name": "Hallowed Mask Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6401,7 +6705,8 @@
         "count": 1,
         "name": "Hallowed Mask Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6409,7 +6714,8 @@
         "count": 1,
         "name": "Hallowed Mask Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -6417,7 +6723,8 @@
         "count": 1,
         "name": "Hallowed Mask Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6425,7 +6732,8 @@
         "count": 1,
         "name": "Hallowed Headgear Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6433,7 +6741,8 @@
         "count": 1,
         "name": "Hallowed Headgear Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6441,7 +6750,8 @@
         "count": 1,
         "name": "Hallowed Headgear Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -6449,7 +6759,8 @@
         "count": 1,
         "name": "Hallowed Headgear Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6457,7 +6768,8 @@
         "count": 1,
         "name": "Hallowed Plate Mail Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6465,7 +6777,8 @@
         "count": 1,
         "name": "Hallowed Plate Mail Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6473,7 +6786,8 @@
         "count": 1,
         "name": "Hallowed Plate Mail Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -6481,7 +6795,8 @@
         "count": 1,
         "name": "Hallowed Plate Mail Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6489,7 +6804,8 @@
         "count": 1,
         "name": "Hallowed Helmet Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6497,7 +6813,8 @@
         "count": 1,
         "name": "Hallowed Helmet Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6505,7 +6822,8 @@
         "count": 1,
         "name": "Hallowed Helmet Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -6513,7 +6831,8 @@
         "count": 1,
         "name": "Hallowed Helmet Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6521,7 +6840,8 @@
         "count": 1,
         "name": "Hallowed Hood Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6529,7 +6849,8 @@
         "count": 1,
         "name": "Hallowed Hood Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "filler": true
     },
@@ -6537,7 +6858,8 @@
         "count": 1,
         "name": "Hallowed Hood Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "useful": true
     },
@@ -6545,7 +6867,8 @@
         "count": 1,
         "name": "Hallowed Hood Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6553,7 +6876,8 @@
         "count": 1,
         "name": "Meteor Launcher Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6561,7 +6885,8 @@
         "count": 1,
         "name": "Beginner Fishing Rod (Gumoss) Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6569,7 +6894,8 @@
         "count": 1,
         "name": "Intermediate Fishing Rod (Croajiro) Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6577,7 +6903,8 @@
         "count": 1,
         "name": "Advanced Fishing Rod (Depresso) Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6585,7 +6912,8 @@
         "count": 1,
         "name": "Moon Lord Statue Schematic",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Furniture"
         ],
         "filler": true
     },
@@ -6593,7 +6921,8 @@
         "count": 1,
         "name": "Marksman Revolver Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6601,7 +6930,8 @@
         "count": 1,
         "name": "Core Eject Shotgun Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6609,7 +6939,9 @@
         "count": 1,
         "name": "V1 Armor Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6617,7 +6949,9 @@
         "count": 1,
         "name": "V2 Armor Revolver Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons",
+            "Schematics_Armour"
         ],
         "progression_skip_balancing": true
     },
@@ -6625,7 +6959,8 @@
         "count": 1,
         "name": "Sword Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6633,7 +6968,8 @@
         "count": 1,
         "name": "Sword Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6641,7 +6977,8 @@
         "count": 1,
         "name": "Sword Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6649,7 +6986,8 @@
         "count": 1,
         "name": "Sword Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6657,7 +6995,8 @@
         "count": 1,
         "name": "Katana Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6665,7 +7004,8 @@
         "count": 1,
         "name": "Katana Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6673,7 +7013,8 @@
         "count": 1,
         "name": "Katana Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6681,7 +7022,8 @@
         "count": 1,
         "name": "Katana Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6689,7 +7031,8 @@
         "count": 1,
         "name": "Beam Sword Schematic 1",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6697,7 +7040,8 @@
         "count": 1,
         "name": "Beam Sword Schematic 2",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "filler": true
     },
@@ -6705,7 +7049,8 @@
         "count": 1,
         "name": "Beam Sword Schematic 3",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "useful": true
     },
@@ -6713,7 +7058,8 @@
         "count": 1,
         "name": "Beam Sword Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -6721,7 +7067,8 @@
         "count": 1,
         "name": "Lily's Spear Schematic 4",
         "category": [
-            "Schematics"
+            "Schematics",
+            "Schematics_Weapons"
         ],
         "progression_skip_balancing": true
     },
@@ -11243,7 +11590,8 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression": true
+        "progression": true,
+        "early": true
     },
     {
         "count": 1,

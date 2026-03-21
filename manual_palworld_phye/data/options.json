@@ -83,9 +83,49 @@
             "default": false,
             "group": "Extra Locations"
         },
-        "All_Schematics": {
+        "Vanity_Schematics": {
             "description": [
-                "Adds all schematics into the item pool.",
+                "Adds all of the Vanity Schematics into the item pool.",
+                "Vanity schematics are mostly the hats and caps that gives no armor but can be used to customize your character",
+                "Rank 1-2 of a Schematic Tier will be treated as filler items.",
+                "Rank 3 of a Schematic Tier will be treated as useful items.",
+                "Rank 4 of a Schematic Tier will be treated as progression items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Furniture_Schematics": {
+            "description": [
+                "Adds all Furniture Schematics into the item pool.",
+                "Furniture Schematics includes all the various building options you can obtain from hunting down the Enemy Bases",
+                "Rank 1-2 of a Schematic Tier will be treated as filler items.",
+                "Rank 3 of a Schematic Tier will be treated as useful items.",
+                "Rank 4 of a Schematic Tier will be treated as progression items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Weapon_Schematics": {
+            "description": [
+                "Adds all the Weapon Schematics into the item pool.",
+                "This includes all the various weapon schematics you can find from Chests, Dungeons and dropped from Pals. This also includes the weapon schematics that can be bought from shops.",
+                "For the ULTRAKILL Collab Schematics to be added, you require both the Weapon and Armour Schematics to be enabled for it to exist.",
+                "Fishing Rod Schematics are included as Weapon Schematics",
+                "Rank 1-2 of a Schematic Tier will be treated as filler items.",
+                "Rank 3 of a Schematic Tier will be treated as useful items.",
+                "Rank 4 of a Schematic Tier will be treated as progression items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Armour_Schematics": {
+            "description": [
+                "Adds all the Armour Schematics into the item pool.",
+                "This includes all the various armour schematics you can find from Chests, Dungeons and dropped from Pals. This also includes the armour schematics that can be bought from shops.",
+                "For the ULTRAKILL Collab Schematics to be added, you require both the Weapon and Armour Schematics to be enabled for it to exist.",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
                 "Rank 3 of a Schematic Tier will be treated as useful items.",
                 "Rank 4 of a Schematic Tier will be treated as progression items."

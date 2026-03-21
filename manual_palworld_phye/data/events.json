@@ -4394,6 +4394,10 @@
             "category": [
                 "Sub Missions"
             ]
+        },
+        {
+            "name": "Fishing",
+            "requires": "|@Watering| AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |@Kindling| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
         }
     ]
 }

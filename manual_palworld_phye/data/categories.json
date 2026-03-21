@@ -39,8 +39,21 @@
     "Predator Hunts": {
         "yaml_option": [ "Predator_Pals" ]
     },
-    "Schematics": {
-        "yaml_option": [ "All_Schematics" ]
+    "Schematics_Vanity": {
+        "yaml_option": [ "Vanity_Schematics" ],
+        "hidden": true
+    },
+    "Schematics_Weapons": {
+        "yaml_option": [ "Weapon_Schematics" ],
+        "hidden": true
+    },
+    "Schematics_Armour": {
+        "yaml_option": [ "Armour_Schematics" ],
+        "hidden": true
+    },
+    "Schematics_Furniture": {
+        "yaml_option": [ "Furniture_Schematics" ],
+        "hidden": true
     },
     "Consumables - Skill Fruits": {
         "yaml_option": [ "Skill_Fruits" ]

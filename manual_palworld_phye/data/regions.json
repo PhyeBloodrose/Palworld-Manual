@@ -249,7 +249,7 @@
         "connects_to": [
             "Mission 14"
         ],
-        "requires": "|@Cloth Armor| OR (|Tech - Progressive Workbench:2| AND (|@Leather Armor| OR (|@Metal Armor| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace|)))"
+        "requires": "|@Cloth Armor| OR (|Tech - Progressive Workbench:2| AND (|@Leather Armor| OR (|@Metal Armor| AND |@Kindling| AND |Tech - Progressive Furnace|)))"
     },
     "Mission 14": {
         "connects_to": [
@@ -379,37 +379,37 @@
         "connects_to": [
             "Windswept Hills"
         ],
-        "requires": "{OptOne(|Windswept Spawn|)} OR {YamlDisabled(Random_Spawn)}"
+        "requires": "|Windswept Spawn| OR {YamlDisabled(Random_Spawn)}"
     },
     "Sea Breeze Gate": {
         "connects_to": [
             "Sea Breeze Archipelago"
         ],
-        "requires": "{OptOne(|Sea Breeze Spawn|)} AND {YamlEnabled(Random_Spawn)}"
+        "requires": "|Sea Breeze Spawn| AND {YamlEnabled(Random_Spawn)}"
     },
     "Forgotten Gate": {
         "connects_to": [
             "Forgotten Island"
         ],
-        "requires": "{OptOne(|Forgotten Spawn|)} AND {YamlEnabled(Random_Spawn)}"
+        "requires": "|Forgotten Spawn| AND {YamlEnabled(Random_Spawn)}"
     },
     "Ice Wind Gate": {
         "connects_to": [
             "Ice Wind Island"
         ],
-        "requires": "{OptOne(|Ice Wind Spawn|)} AND {YamlEnabled(Random_Spawn)}"
+        "requires": "|Ice Wind Spawn| AND {YamlEnabled(Random_Spawn)}"
     },
     "Marsh Gate": {
         "connects_to": [
             "Marsh Island"
         ],
-        "requires": "{OptOne(|Marsh Spawn|)} AND {YamlEnabled(Random_Spawn)}"
+        "requires": "|Marsh Spawn| AND {YamlEnabled(Random_Spawn)}"
     },
     "Eastern Wild Gate": {
         "connects_to": [
             "Eastern Wild Island"
         ],
-        "requires": "{OptOne(|Eastern Wild Spawn|)} AND {YamlEnabled(Random_Spawn)}"
+        "requires": "|Eastern Wild Spawn| AND {YamlEnabled(Random_Spawn)}"
     },
     "Windswept Hills": {
         "connects_to": [
@@ -468,7 +468,7 @@
             "Zoe Mission",
             "Sunlit Highway"
         ],
-        "requires": "|Windswept Pass| OR ({OptOne(|Windswept Spawn|)} AND {YamlEnabled(Random_Spawn)})"
+        "requires": "|Windswept Pass| OR |Windswept Spawn|"
     },
     "Kingpaca Alpha": {
         "connects_to": [
@@ -577,7 +577,7 @@
             "Esoteric",
             "Frostbitten Highway"
         ],
-        "requires": "|Sea Breeze Pass| OR ({OptOne(|Sea Breeze Spawn|)} AND {YamlEnabled(Random_Spawn)})"
+        "requires": "|Sea Breeze Pass| OR |Sea Breeze Spawn|"
     },
     "Univolt Alpha": {
         "connects_to": [
@@ -1006,7 +1006,7 @@
             "Mossanda Lux Alpha",
             "Arena Highway"
         ],
-        "requires": "|Eastern Wild Pass| OR ({OptOne(|Eastern Wild Spawn|)} AND {YamlEnabled(Random_Spawn)})"
+        "requires": "|Eastern Wild Pass| OR |Eastern Wild Spawn|"
     },
     "Wumpo Botan Alpha": {
         "connects_to": [
@@ -1053,7 +1053,7 @@
             "Croajiro",
             "Dumud"
         ],
-        "requires": "|Ice Wind Pass| OR ({OptOne(|Ice Wind Spawn|)} AND {YamlEnabled(Random_Spawn)})"
+        "requires": "|Ice Wind Pass| OR |Ice Wind Spawn|"
     },
     "Forgotten Island": {
         "connects_to": [
@@ -1094,7 +1094,7 @@
             "Abyssal Nights",
             "Forgotten Highway"
         ],
-        "requires": "|Forgotten Pass| OR ({OptOne(|Forgotten Spawn|)} AND {YamlEnabled(Random_Spawn)})"
+        "requires": "|Forgotten Pass| OR |Forgotten Spawn|"
     },
     "Forgotten Highway": {
         "connects_to": [
@@ -1198,7 +1198,7 @@
             "Croajiro",
             "Grintale"
         ],
-        "requires": "|Marsh Pass| OR ({OptOne(|Marsh Spawn|)} AND {YamlEnabled(Random_Spawn)})"
+        "requires": "|Marsh Pass| OR |Marsh Spawn|"
     },
     "Isle of Decayed Treasures": {
         "connects_to": [
@@ -1391,7 +1391,7 @@
         "connects_to": [
             "Katress"
         ],
-        "requires": "{OptOne(|Seal of the Sorcerer|)} AND {OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Seal of the Sorcerer|)} AND {OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
     },
     "Mixed Region - Jormuntide": {
         "connects_to": [
@@ -3232,7 +3232,7 @@
             "High Quality Bait",
             "Deluxe Bait"
         ],
-        "requires": "|Tech - Palbox| AND ((|Tech - Fishing Pond| AND |@Player Beacon:3|) OR (|Tech - Large Fishing Pond| AND |@Player Beacon:5|)) AND {OptOne(|Water Orb|)} AND |Tech - Mill| AND |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
+        "requires": "|Tech - Palbox| AND ((|Tech - Fishing Pond| AND |@Player Beacon:3|) OR (|Tech - Large Fishing Pond| AND |@Player Beacon:5|)) AND |@Watering| AND |Tech - Mill| AND |Tech - Progressive Workbench| AND {YamlEnabled(Enable_Fishing_Pond)}"
     },
     "Common Bait": {
         "connects_to": [
@@ -3292,7 +3292,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Crescent": {
         "connects_to": [
@@ -3305,7 +3305,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_SeaBreeze": {
         "connects_to": [
@@ -3318,7 +3318,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Obsidian": {
         "connects_to": [
@@ -3330,7 +3330,7 @@
             "Gloopie",
             "Finsider"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Feybreak": {
         "connects_to": [
@@ -3341,7 +3341,7 @@
             "Whalaska",
             "Whalaska Ignis"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Sakurajima": {
         "connects_to": [
@@ -3350,7 +3350,7 @@
             "Gloopie",
             "Ghangler"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Astral": {
         "connects_to": [
@@ -3358,7 +3358,7 @@
             "Killamari",
             "Celaray Lux"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_AstralFoot": {
         "connects_to": [
@@ -3369,7 +3369,7 @@
             "Azurobe",
             "Turtacle"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Verdant": {
         "connects_to": [
@@ -3387,7 +3387,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Frostbound": {
         "connects_to": [
@@ -3395,7 +3395,7 @@
             "Munchill",
             "Polapup"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Scar": {
         "connects_to": [
@@ -3406,7 +3406,7 @@
             "Azurobe",
             "Turtacle"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_IceWind": {
         "connects_to": [
@@ -3417,7 +3417,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Forgotten": {
         "connects_to": [
@@ -3428,7 +3428,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Desert": {
         "connects_to": [
@@ -3438,7 +3438,7 @@
             "Turtacle Terra",
             "Finsider"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_EasternWild": {
         "connects_to": [
@@ -3450,7 +3450,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Marsh": {
         "connects_to": [
@@ -3461,7 +3461,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Arena": {
         "connects_to": [
@@ -3469,7 +3469,7 @@
             "Turtacle Terra",
             "Finsider"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Decayed": {
         "connects_to": [
@@ -3482,7 +3482,7 @@
             "Jelliette",
             "Gloopie"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Sunlit": {
         "connects_to": [
@@ -3493,7 +3493,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Oasis": {
         "connects_to": [
@@ -3501,7 +3501,7 @@
             "Dumud Gild",
             "Turtacle Terra"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Glacial": {
         "connects_to": [
@@ -3510,7 +3510,7 @@
             "Polapup",
             "Whalaska"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Phantom": {
         "connects_to": [
@@ -3519,7 +3519,7 @@
             "Finsider Ignis",
             "Ghangler"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Twilight": {
         "connects_to": [
@@ -3529,7 +3529,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Bamboo": {
         "connects_to": [
@@ -3540,7 +3540,7 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_EternalSummer": {
         "connects_to": [
@@ -3549,7 +3549,7 @@
             "Surfent Terra",
             "Turtacle Terra"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_Frostbitten": {
         "connects_to": [
@@ -3559,14 +3559,14 @@
             "Jellroy",
             "Jelliette"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_WS_1": {
         "connects_to": [
             "Penking",
             "Turtacle"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_WS_2": {
         "connects_to": [
@@ -3574,14 +3574,14 @@
             "Ghangler Ignis",
             "Whalaska Ignis"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Fishing_WS_3": {
         "connects_to": [
             "Penking Lux",
             "Dumud Gild"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        "requires": "|Fishing|"
     },
     "Hillside Cavern": {
         "connects_to": [
@@ -4970,7 +4970,7 @@
         "connects_to": [
             "Handiwork T2-1"
         ],
-        "requires": "{OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |Tech - Pal Expedition Station|"
+        "requires": "|@Kindling| AND |Tech - Progressive Furnace:1| AND |Tech - Pal Expedition Station|"
     },
     "Handiwork T1-5": {
         "connects_to": [
@@ -4988,49 +4988,49 @@
         "connects_to": [
             "Handiwork T3-1"
         ],
-        "requires": "|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
+        "requires": "|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Handiwork T2-2": {
         "connects_to": [
             "Handiwork T3-2"
         ],
-        "requires": "((|Tech - Polymer| AND |Tech - Palbox| AND |@Power Source| AND |Tech - Progressive Workbench:3| AND |@Player Beacon:3|) OR |Volcano Beacon|) AND (|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
+        "requires": "((|Tech - Polymer| AND |Tech - Palbox| AND |@Power Source| AND |Tech - Progressive Workbench:3| AND |@Player Beacon:3|) OR |Volcano Beacon|) AND (|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|)"
     },
     "Handiwork T2-3": {
         "connects_to": [
             "Handiwork T3-3"
         ],
-        "requires": "|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
+        "requires": "|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Handiwork T2-4": {
         "connects_to": [
             "Handiwork T3-4"
         ],
-        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND (|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
+        "requires": "|Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|)) AND (|@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|)"
     },
     "Handiwork T3-1": {
         "connects_to": [
             "Handiwork T4-1"
         ],
-        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
+        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|)"
     },
     "Handiwork T3-2": {
         "connects_to": [
             "Handiwork T4-2"
         ],
-        "requires": "|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(Applied Handiwork Technique I)}"
+        "requires": "|@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Handiwork T3-3": {
         "connects_to": [
             "Handiwork T3-5"
         ],
-        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(Applied Handiwork Technique I)})"
+        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|)"
     },
     "Handiwork T3-4": {
         "connects_to": [
             "Handiwork T4-4"
         ],
-        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR {OptOne(Applied Handiwork Technique I)})"
+        "requires": "(|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|) AND (|@Handiwork Level 3| OR |@Handiwork Level 4| OR |Applied Handiwork Technique I|)"
     },
     "Handiwork T3-5": {
         "connects_to": [
@@ -5040,19 +5040,19 @@
     },
     "Handiwork T4-1": {
         "connects_to": [],
-        "requires": "|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
+        "requires": "|@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Handiwork T4-2": {
         "connects_to": [],
-        "requires": "|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
+        "requires": "|@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Handiwork T4-3": {
         "connects_to": [],
-        "requires": "|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)}"
+        "requires": "|@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Handiwork T4-4": {
         "connects_to": [],
-        "requires": "{OptOne(|@Raid Boss|)} AND (|@Handiwork Level 4| OR {OptOne(|Applied Handiwork Technique I|)})"
+        "requires": "{OptOne(|@Raid Boss|)} AND (|@Handiwork Level 4| OR |Applied Handiwork Technique I|"
     },
     "Kindling T1": {
         "connects_to": [
@@ -5060,7 +5060,7 @@
             "Kindling T1-2",
             "Kindling T1-3"
         ],
-        "requires": "{OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:1| AND |@Kindling|"
+        "requires": "|@Kindling| AND |Tech - Progressive Furnace:1| AND |@Kindling|"
     },
     "Kindling T1-1": {
         "connects_to": [
@@ -5097,65 +5097,65 @@
         "connects_to": [
             "Kindling T3-1"
         ],
-        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T2-2": {
         "connects_to": [
             "Kindling T3-2"
         ],
-        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T2-3": {
         "connects_to": [
             "Kindling T3-3"
         ],
-        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T2-4": {
         "connects_to": [
             "Kindling T3-4"
         ],
-        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Kindling T3-1": {
         "connects_to": [
             "Kindling T4-1"
         ],
-        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Kindling T3-2": {
         "connects_to": [
             "Kindling T4-2"
         ],
-        "requires": "|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}"
+        "requires": "|@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|"
     },
     "Kindling T3-3": {
         "connects_to": [
             "Kindling T4-3"
         ],
-        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Kindling T3-4": {
         "connects_to": [
             "Kindling T4-4"
         ],
-        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "(|@Kindling Level 3| OR |@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Kindling T4-1": {
         "connects_to": [],
-        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND |@Power Source| AND |@Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:4| AND |@Power Source| AND |@Player Beacon:5|"
     },
     "Kindling T4-2": {
         "connects_to": [],
-        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND {OptOne(|@Raid Boss|)} AND |@Power Source| AND |@Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:4| AND {OptOne(|@Raid Boss|)} AND |@Power Source| AND |@Player Beacon:5|"
     },
     "Kindling T4-3": {
         "connects_to": [],
-        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND |@Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:4| AND |@Player Beacon:5|"
     },
     "Kindling T4-4": {
         "connects_to": [],
-        "requires": "(|@Kindling Level 4| OR {OptOne(|Applied Kindling Technique I|)}) AND |Tech - Progressive Furnace:4| AND {OptOne(|@Raid Boss|)} AND |@Power Source| AND |@Player Beacon:5|"
+        "requires": "(|@Kindling Level 4| OR |Applied Kindling Technique I|) AND |Tech - Progressive Furnace:4| AND {OptOne(|@Raid Boss|)} AND |@Power Source| AND |@Player Beacon:5|"
     },
     "Watering T1": {
         "connects_to": [
@@ -5194,59 +5194,59 @@
         "connects_to": [
             "Watering T3-1"
         ],
-        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
+        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|"
     },
     "Watering T2-2": {
         "connects_to": [
             "Watering T4-2"
         ],
-        "requires": "(|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)})"
+        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|"
     },
     "Watering T2-3": {
         "connects_to": [
             "Watering T3-2"
         ],
-        "requires": "(|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND ((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |@Player Beacon:2|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}))"
+        "requires": "(|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|) AND ((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |@Player Beacon:2|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Watering T2-4": {
         "connects_to": [
             "Watering T3-3"
         ],
-        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
+        "requires": "|@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|"
     },
     "Watering T3-1": {
         "connects_to": [
             "Watering T4-1"
         ],
-        "requires": "|@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
+        "requires": "|@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|"
     },
     "Watering T3-2": {
         "connects_to": [
             "Watering T4-3"
         ],
-        "requires": "(|@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
+        "requires": "(|@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
     },
     "Watering T3-3": {
         "connects_to": [
             "Watering T4-4"
         ],
-        "requires": "(|@Watering Level 3| OR |@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND |Tech - Onion Plantation| AND |@Player Beacon:3|"
+        "requires": "(|@Watering Level 3| OR |@Watering Level 4| OR |Applied Watering Technique I|) AND |Tech - Onion Plantation| AND |@Player Beacon:3|"
     },
     "Watering T4-1": {
         "connects_to": [],
-        "requires": "|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}"
+        "requires": "|@Watering Level 4| OR |Applied Watering Technique I|"
     },
     "Watering T4-2": {
         "connects_to": [],
-        "requires": "(|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Watering Level 4| OR |Applied Watering Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Watering T4-3": {
         "connects_to": [],
-        "requires": "(|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND |Tech - Onion Plantation| AND |@Player Beacon:3|"
+        "requires": "(|@Watering Level 4| OR |Applied Watering Technique I|) AND |Tech - Onion Plantation| AND |@Player Beacon:3|"
     },
     "Watering T4-4": {
         "connects_to": [],
-        "requires": "(|@Watering Level 4| OR {OptOne(|Applied Watering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Watering Level 4| OR |Applied Watering Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Planting T1": {
         "connects_to": [
@@ -5285,65 +5285,65 @@
         "connects_to": [
             "Planting T2-4"
         ],
-        "requires": "|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}"
+        "requires": "|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|"
     },
     "Planting T2-2": {
         "connects_to": [
             "Planting T3-2"
         ],
-        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
+        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T2-3": {
         "connects_to": [
             "Planting T3-4"
         ],
-        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |@Watering| AND |Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
+        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND |@Watering| AND |Tech - Mill| AND (|Forgotten Beacon| OR |Bamboo Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon|)"
     },
     "Planting T2-4": {
         "connects_to": [
             "Planting T3-1"
         ],
-        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
+        "requires": "(|@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Planting T3-1": {
         "connects_to": [
             "Planting T4-1"
         ],
-        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
     },
     "Planting T3-2": {
         "connects_to": [
             "Planting T4-2"
         ],
-        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND |Tech - Potato Plantation| AND |Tech - Carrot Plantation| AND |@Player Beacon:3|"
     },
     "Planting T3-3": {
         "connects_to": [
             "Planting T4-3"
         ],
-        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR (|Dunes Beacon| OR |Volcano Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|)) AND |@Watering| AND |Tech - Mill|"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND ((|Tech - Cement| AND |Tech - Progressive Workbench:2|) OR (|Dunes Beacon| OR |Volcano Beacon| OR |Astral Beacon| OR |Sakurajima Beacon| OR |Cold Shore Beacon|)) AND |@Watering| AND |Tech - Mill|"
     },
     "Planting T3-4": {
         "connects_to": [
             "Planting T4-4"
         ],
-        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
+        "requires": "(|@Planting Level 3| OR |@Planting Level 4| OR |Applied Planting Technique I|) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Planting T4-1": {
         "connects_to": [],
-        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Planting Level 4| OR |Applied Planting Technique I|) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
     },
     "Planting T4-2": {
         "connects_to": [],
-        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Planting Level 4| OR |Applied Planting Technique I|) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
     },
     "Planting T4-3": {
         "connects_to": [],
-        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation| AND |@Player Beacon:2|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
+        "requires": "(|@Planting Level 4| OR |Applied Planting Technique I|) AND ((|Tech - Tomato Plantation| AND |Tech - Lettuce Plantation| AND |@Player Beacon:2|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(|Membership Card|)}))"
     },
     "Planting T4-4": {
         "connects_to": [],
-        "requires": "(|@Planting Level 4| OR {OptOne(|Applied Planting Technique I|)}) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Planting Level 4| OR |Applied Planting Technique I|) AND |Tech - Onion Plantation| AND {OptOne(|@Raid Boss|)}"
     },
     "Gen_Elec T1": {
         "connects_to": [
@@ -5376,47 +5376,47 @@
         "connects_to": [
             "Gen_Elec T3-1"
         ],
-        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T2-2": {
         "connects_to": [
             "Gen_Elec T3-2"
         ],
-        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T2-3": {
         "connects_to": [
             "Gen_Elec T3-3"
         ],
-        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T2-4": {
         "connects_to": [
             "Gen_Elec T3-4"
         ],
-        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
+        "requires": "(|@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)"
     },
     "Gen_Elec T3-1": {
         "connects_to": [
             "Gen_Elec T3-5"
         ],
-        "requires": "(|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Gen_Elec T3-2": {
         "connects_to": [
             "Gen_Elec T4-2"
         ],
-        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
+        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|"
     },
     "Gen_Elec T3-3": {
         "connects_to": [],
-        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
+        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|"
     },
     "Gen_Elec T3-4": {
         "connects_to": [
             "Gen_Elec T4-3"
         ],
-        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
+        "requires": "|@Electricity Level 3| OR |@Electricity Level 4| OR |Applied Generating Electricity Technique I|"
     },
     "Gen_Elec T3-5": {
         "connects_to": [
@@ -5426,15 +5426,15 @@
     },
     "Gen_Elec T4-1": {
         "connects_to": [],
-        "requires": "|@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}"
+        "requires": "|@Electricity Level 4| OR |Applied Generating Electricity Technique I|"
     },
     "Gen_Elec T4-2": {
         "connects_to": [],
-        "requires": "(|@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Gen_Elec T4-3": {
         "connects_to": [],
-        "requires": "(|@Electricity Level 4| OR {OptOne(|Applied Generating Electricity Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Electricity Level 4| OR |Applied Generating Electricity Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Lumbering T1": {
         "connects_to": [
@@ -5467,25 +5467,25 @@
         "connects_to": [
             "Lumbering T2-5"
         ],
-        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND ((|@Kindling| AND |Tech - Progressive Furnace:1|) OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|)"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|) AND ((|@Kindling| AND |Tech - Progressive Furnace:1|) OR |Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon|)"
     },
     "Lumbering T2-2": {
         "connects_to": [
             "Lumbering T3-2"
         ],
-        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
     },
     "Lumbering T2-3": {
         "connects_to": [
             "Lumbering T3-3"
         ],
-        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
     },
     "Lumbering T2-4": {
         "connects_to": [
             "Lumbering T3-4"
         ],
-        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
+        "requires": "(|@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|) AND (|Wildlife 3 Beacon| OR |Hot Volcano Beacon| OR (|Glacial Beacon| AND {OptOne(|Seal of the Glacial Core|)}) OR (|Tech - Carbon Fiber| AND |Tech - Progressive Workbench:3| AND |@Power Source|))"
     },
     "Lumbering T2-5": {
         "connects_to": [
@@ -5497,35 +5497,35 @@
         "connects_to": [
             "Lumbering T4-1"
         ],
-        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|"
     },
     "Lumbering T3-2": {
         "connects_to": [
             "Lumbering T4-2"
         ],
-        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|"
     },
     "Lumbering T3-3": {
         "connects_to": [],
-        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|"
     },
     "Lumbering T3-4": {
         "connects_to": [
             "Lumbering T4-3"
         ],
-        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
+        "requires": "|@Lumbering Level 3| OR |@Lumbering Level 4| OR |Applied Lumbering Technique I|"
     },
     "Lumbering T4-1": {
         "connects_to": [],
-        "requires": "(|@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Lumbering Level 4| OR |Applied Lumbering Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Lumbering T4-2": {
         "connects_to": [],
-        "requires": "|@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}"
+        "requires": "|@Lumbering Level 4| OR |Applied Lumbering Technique I|"
     },
     "Lumbering T4-3": {
         "connects_to": [],
-        "requires": "(|@Lumbering Level 4| OR {OptOne(|Applied Lumbering Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Lumbering Level 4| OR |Applied Lumbering Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Mining T1": {
         "connects_to": [
@@ -5557,50 +5557,50 @@
         "connects_to": [
             "Mining T2-4"
         ],
-        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-2": {
         "connects_to": [
             "Mining T3-3"
         ],
-        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Pal Expedition Station| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-3": {
         "connects_to": [
             "Mining T3-4"
         ],
-        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Pal Expedition Station| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:2| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Pal Expedition Station| AND |@Kindling| AND |Tech - Progressive Furnace:2| AND ((|Zoe's Key| AND |Grasslands Beacon|) OR (|Lily's Key| AND |Frostbound Beacon|) OR (|Axel's Key| AND |Hot Volcano Beacon|) OR (|Marcus's Key| AND |Dunes Beacon|) OR (|Victor's Key| AND |Astral Beacon|) OR (|Saya's Key| AND |Sakurajima Beacon|) OR (|Bjorn's Key| AND |Feybreak Frost Beacon|))"
     },
     "Mining T2-4": {
         "connects_to": [
             "Mining T3-1",
             "Mining T3-2"
         ],
-        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Mining T3-1": {
         "connects_to": [
             "Mining T4-1"
         ],
-        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Mining T3-2": {
         "connects_to": [
             "Mining T3-5"
         ],
-        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Mining T3-3": {
         "connects_to": [
             "Mining T4-3"
         ],
-        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Player Beacon:3|"
     },
     "Mining T3-4": {
         "connects_to": [
             "Mining T4-4"
         ],
-        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:3|"
+        "requires": "(|@Mining Level 3| OR |@Mining Level 4| OR |Applied Mining Technique I|) AND |@Kindling| AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:3|"
     },
     "Mining T3-5": {
         "connects_to": [
@@ -5610,20 +5610,20 @@
     },
     "Mining T4-1": {
         "connects_to": [],
-        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:4|"
+        "requires": "(|@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:4|"
     },
     "Mining T4-2": {
         "connects_to": [],
-        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
 
     },
     "Mining T4-3": {
         "connects_to": [],
-        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:4|"
+        "requires": "(|@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon| OR |Hot Volcano Beacon|) AND |@Player Beacon:4|"
     },
     "Mining T4-4": {
         "connects_to": [],
-        "requires": "(|@Mining Level 4| OR {OptOne(|Applied Mining Technique I|)}) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Mining Level 4| OR |Applied Mining Technique I|) AND |Tech - Progressive Furnace:3| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
     },
     "Cooling T1": {
         "connects_to": [
@@ -5668,59 +5668,59 @@
         "connects_to": [
             "Cooling T3-1"
         ],
-        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T2-2": {
         "connects_to": [
             "Cooling T3-2"
         ],
-        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T2-3": {
         "connects_to": [
             "Cooling T3-3"
         ],
-        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T2-4": {
         "connects_to": [
             "Cooling T3-4"
         ],
-        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
+        "requires": "(|@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|) AND (|Frostbound Beacon| OR |Cold Shore Beacon| OR |Astral Beacon| OR |Glacial Beacon|)"
     },
     "Cooling T3-1": {
         "connects_to": [
             "Cooling T4-1"
         ],
-        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|"
     },
     "Cooling T3-2": {
         "connects_to": [],
-        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|"
     },
     "Cooling T3-3": {
         "connects_to": [
             "Cooling T4-2"
         ],
-        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|"
     },
     "Cooling T3-4": {
         "connects_to": [
             "Cooling T4-3"
         ],
-        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
+        "requires": "|@Cooling Level 3| OR |@Cooling Level 4| OR |Applied Cooling Technique I|"
     },
     "Cooling T4-1": {
         "connects_to": [],
-        "requires": "|@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
+        "requires": "|@Cooling Level 4| OR |Applied Cooling Technique I|"
     },
     "Cooling T4-2": {
         "connects_to": [],
-        "requires": "|@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}"
+        "requires": "|@Cooling Level 4| OR |Applied Cooling Technique I|"
     },
     "Cooling T4-3": {
         "connects_to": [],
-        "requires": "(|@Cooling Level 4| OR {OptOne(|Applied Cooling Technique I|)}) AND {OptOne(|@Raid Boss|)}"
+        "requires": "(|@Cooling Level 4| OR |Applied Cooling Technique I|) AND {OptOne(|@Raid Boss|)}"
     },
     "Med_Prod T1": {
         "connects_to": [
@@ -5746,55 +5746,55 @@
         "connects_to": [
             "Med_Prod T2-4"
         ],
-        "requires": "|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
+        "requires": "|@Medicine Level 2| OR |@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|"
     },
     "Med_Prod T2-2": {
         "connects_to": [
             "Med_Prod T3-2"
         ],
-        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
+        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
     },
     "Med_Prod T2-3": {
         "connects_to": [
             "Med_Prod T3-3"
         ],
-        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
+        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
     },
     "Med_Prod T2-4": {
         "connects_to": [
             "Med_Prod T3-1"
         ],
-        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
+        "requires": "(|@Medicine Level 2| OR |@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|) AND (|Sakurajima Beacon| OR |Feybreak Frost Beacon|)"
     },
     "Med_Prod T3-1": {
         "connects_to": [
             "Med_Prod T4-1"
         ],
-        "requires": "|@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
+        "requires": "|@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|"
     },
     "Med_Prod T3-2": {
         "connects_to": [
             "Med_Prod T4-2"
         ],
-        "requires": "|@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
+        "requires": "|@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|"
     },
     "Med_Prod T3-3": {
         "connects_to": [
             "Med_Prod T4-3"
         ],
-        "requires": "|@Medicine Level 3| OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}"
+        "requires": "|@Medicine Level 3| OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|"
     },
     "Med_Prod T4-1": {
         "connects_to": [],
-        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Med_Prod T4-2": {
         "connects_to": [],
-        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Player Beacon:4|"
+        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND |@Player Beacon:4|"
     },
     "Med_Prod T4-3": {
         "connects_to": [],
-        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR {OptOne(|@Medicine Level 4|)} OR {OptOne(|Applied Medicine Production Technique I|)}) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
+        "requires": "((|A.Tech - Pal Essence Condenser| AND {YamlDisabled(Enable_Raid_Pals)}) OR (|@Medicine Level 4| AND {YamlEnabled(Enable_Raid_Pals)}) OR |Applied Medicine Production Technique I|) AND |Tech - Electric Medicine Workbench| AND |@Power Source| AND {OptOne(|@Raid Boss|)}"
     },
     "Bounty Merchant": {
         "connects_to": [],
@@ -5919,7 +5919,7 @@
             "Campfire",
             "Cooking Pot"
         ],
-        "requires": "|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace|)"
+        "requires": "|Tech - Cooking Pot| AND (|Volcano Beacon| OR |Wildlife 3 Beacon| OR (|Bamboo Beacon| AND {OptOne(|Seal of the Swordmaster|)}) OR |Sakurajima Beacon| OR (|@Kindling| AND |Tech - Progressive Furnace|))"
     },
     "Kitchen": {
         "connects_to": [
@@ -5927,7 +5927,7 @@
             "Cooking Pot",
             "Electric Kitchen"
         ],
-        "requires": "|Tech - Electric Kitchen| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace:2| AND |@Coal Place| AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox| AND |@Player Beacon:4|"
+        "requires": "|Tech - Electric Kitchen| AND |@Kindling| AND |Tech - Progressive Furnace:2| AND |@Coal Place| AND ((|Tech - Circuit Board| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Volcano Beacon|)) OR (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Feybreak Beacon|)) AND |Tech - Palbox| AND |@Player Beacon:4|"
     },
     "Oven": {
         "connects_to": [
@@ -5936,7 +5936,7 @@
             "Electric Kitchen",
             "Large-Scale Stone Oven"
         ],
-        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND {OptOne(|Fire Orb|)} AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR |@Cement Junk|) AND |@Player Beacon:4|"
+        "requires": "|Tech - Large-Scale Stone Oven| AND |Tech - Palbox| AND |@Kindling| AND |Tech - Progressive Furnace| AND ((|Tech - Cement| and |Tech - Progressive Workbench:2|) OR |@Cement Junk|) AND |@Player Beacon:4|"
     },
     "Campfire": {
         "connects_to": [],
@@ -5944,15 +5944,15 @@
     },
     "Cooking Pot": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)}"
+        "requires": "|@Kindling|"
     },
     "Electric Kitchen": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)}"
+        "requires": "|@Kindling|"
     },
     "Large-Scale Stone Oven": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)}"
+        "requires": "|@Kindling|"
     },
     "Pal_Critic_SmallSettlement": {
         "connects_to": [
@@ -6294,25 +6294,25 @@
         "connects_to": [
             "Arrogant_Foodie7"
         ],
-        "requires": "((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)}) AND {OptOne(|Omelet Recipe|)}"
+        "requires": "((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR |Membership Card| OR {YamlDisabled(Limit_Wandering_Merchant)}) AND {OptOne(|Omelet Recipe|)}"
     },
     "Arrogant_Foodie7": {
         "connects_to": [
             "Arrogant_Foodie8"
         ],
-        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND |Reindrix Beacon| AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)})"
+        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND |Reindrix Beacon| AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR |Membership Card| OR {YamlDisabled(Limit_Wandering_Merchant)})"
     },
     "Arrogant_Foodie8": {
         "connects_to": [
             "Arrogant_Foodie9"
         ],
-        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND ((|Tech - Lettuce Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)})"
+        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND ((|Tech - Lettuce Plantation| AND |Tech - Palbox|) OR |Membership Card| OR {YamlDisabled(Limit_Wandering_Merchant)})"
     },
     "Arrogant_Foodie9": {
         "connects_to": [
             "Arrogant_Foodie10"
         ],
-        "requires": "((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Tech - Palbox|) OR {OptOne(|Membership Card|)} OR {YamlDisabled(Limit_Wandering_Merchant)}) AND {OptOne(|Salad Recipe|)}"
+        "requires": "((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Tech - Palbox|) OR |Membership Card| OR {YamlDisabled(Limit_Wandering_Merchant)}) AND {OptOne(|Salad Recipe|)}"
     },
     "Arrogant_Foodie10": {
         "connects_to": [
@@ -6328,67 +6328,67 @@
         "connects_to": [
             "Penking"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Frozen Wings|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Frozen Wings|)} AND |@Player Beacon:2|"
     },
     "Swift": {
         "connects_to": [
             "Verdash"
         ],
-        "requires": "{OptOne(|Player Level:35|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swift|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:35|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Swift|)} AND |@Player Beacon:4|"
     },
     "Guardian": {
         "connects_to": [
             "Vaelet"
         ],
-        "requires": "{OptOne(|Player Level:37|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Guardian|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:37|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Guardian|)} AND |@Player Beacon:4|"
     },
     "Stalwart": {
         "connects_to": [
             "Warsect"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Stalwart|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Stalwart|)} AND |@Player Beacon:3|"
     },
     "Pristine": {
         "connects_to": [
             "Sibelyx"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Pristine|)} AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Pristine|)} AND |@Player Beacon:4|"
     },
     "Abyssal Nights": {
         "connects_to": [
             "Felbat"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Abyssal Nights|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Abyssal Nights|)} AND |@Player Beacon:2|"
     },
     "Spirits": {
         "connects_to": [
             "Petallia"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of Spirits|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND {OptOne(|Seal of Spirits|)} AND |@Player Beacon:3|"
     },
     "Winged Tyrant": {
         "connects_to": [
             "Quivern"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Winged Tyrant|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Winged Tyrant|)} AND |@Player Beacon:2|"
     },
     "Thunder Dragon": {
         "connects_to": [
             "Relaxaurus Lux"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Thunder Dragon|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Thunder Dragon|)} AND |@Player Beacon:3|"
     },
     "Swordmaster": {
         "connects_to": [
             "Bushi"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Swordmaster|)} AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Swordmaster|)} AND |@Player Beacon:2|"
     },
     "Esoteric": {
         "connects_to": [
             "Lunaris"
         ],
-        "requires": "{OptOne(|Player Level:32|)} AND {OptOne(|@Key Items - Elemental Orbs|)} AND {OptOne(|Seal of the Esoteric|)} AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:32|)} AND |@Pal Beacons| AND {OptOne(|Seal of the Esoteric|)} AND |@Player Beacon:3|"
     },
     "Player Progression": {
         "starting": true,

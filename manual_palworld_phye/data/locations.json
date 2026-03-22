@@ -1037,11 +1037,11 @@
     },
     {
         "name": "Boss - Frostallion Noct (Level 60)",
-        "region": "Feybreak Blue",
+        "region": "Frostallion Noct Alpha",
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Black Pegasus|)} AND {OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
+        "requires": ""
     },
     {
         "name": "Boss - Smokie (Level 55)",
@@ -11665,7 +11665,7 @@
     },
     {
         "name": "Diamond Passive - Remarkable Craftmanship",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11674,7 +11674,7 @@
     },
     {
         "name": "Diamond Passive - Diamond Body",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11683,7 +11683,7 @@
     },
     {
         "name": "Diamond Passive - Lucky",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11692,7 +11692,7 @@
     },
     {
         "name": "Diamond Passive - Legend",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11731,7 +11731,7 @@
     },
     {
         "name": "Diamond Passive - Demon God",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11740,7 +11740,7 @@
     },
     {
         "name": "Diamond Passive - Mastery of Fasting",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11749,7 +11749,7 @@
     },
     {
         "name": "Diamond Passive - Heart of the Immovable King",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11758,7 +11758,7 @@
     },
     {
         "name": "Diamond Passive - Swift",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11767,7 +11767,7 @@
     },
     {
         "name": "Diamond Passive - Eternal Engine",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11776,7 +11776,7 @@
     },
     {
         "name": "Diamond Passive - Vampiric",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11785,7 +11785,7 @@
     },
     {
         "name": "Diamond Passive - Lunker",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"
@@ -11794,7 +11794,7 @@
     },
     {
         "name": "Diamond Passive - King of the Waves",
-        "region": "General",
+        "region": "Diamond Passives",
         "category": [
             "Capture Challenges",
             "Diamond Passives"

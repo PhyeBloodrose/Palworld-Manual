@@ -487,11 +487,24 @@
             "Grass Egg 2",
             "Fishing_Crescent",
             "Mountain Stream Grotto",
-            "Forest Meteor",
-            "Incident_Forest",
             "Cage_Forest",
             "Black Marketeer",
             "Crescent_BlackMarket",
+            "Elphidran Alpha",
+            "Spirits",
+            "Pal_Critic_HypocriteHill",
+            "WildPals_Crescent"
+        ],
+        "requires": "|Crescent Pass| AND {OptOne(|Player Level:15|)}"
+    },
+    "Elphidran Alpha": {
+        "connects_to": [
+            "Elphidran"
+        ],
+        "requires": "|@Player Beacon:3|"
+    },
+    "WildPals_Crescent": {
+        "connects_to": [
             "Lamball",
             "Tanzee",
             "Jolthog",
@@ -515,17 +528,10 @@
             "Mammorest",
             "Helzephyr",
             "Mimog",
-            "Elphidran Alpha",
-            "Spirits",
-            "Pal_Critic_HypocriteHill"
+            "Forest Meteor",
+            "Incident_Forest"
         ],
-        "requires": "|Crescent Pass| AND {OptOne(|Player Level:15|)}"
-    },
-    "Elphidran Alpha": {
-        "connects_to": [
-            "Elphidran"
-        ],
-        "requires": "|@Player Beacon:3|"
+        "requires": "|@Player Beacon:2|"
     },
     "Sea Breeze Archipelago": {
         "connects_to": [
@@ -603,14 +609,21 @@
             "Volcano Egg 1",
             "Fishing_Obsidian",
             "Volcanic Cavern",
-            "Volcano Meteor",
-            "Incident_Volcano",
             "Cage_Volcano",
             "Black Marketeer",
             "Obsidian_BlackMarket",
             "Obsidian_WanderingMerchant",
             "Obsidian_PalMerchant",
             "Pal Merchant_Volcano",
+            "Whalaska Ignis Boss",
+            "Pal_Critic_AnubisStatue",
+            "Forgotten Highway",
+            "WildPals_Obsidian"
+        ],
+        "requires": "|Obsidian Pass| AND {OptOne(|Player Level:30|)}"
+    },
+    "WildPals_Obsidian": {
+        "connects_to": [
             "Gobfin Ignis",
             "Incineram",
             "Dumud",
@@ -629,11 +642,10 @@
             "Reptyro",
             "Fenglope",
             "Mimog",
-            "Whalaska Ignis Boss",
-            "Pal_Critic_AnubisStatue",
-            "Forgotten Highway"
+            "Volcano Meteor",
+            "Incident_Volcano"
         ],
-        "requires": "|Obsidian Pass| AND {OptOne(|Player Level:30|)}"
+        "requires": "|@Player Beacon:3|"
     },
     "Hot Volcano": {
         "connects_to": [
@@ -665,12 +677,18 @@
             "Feybreak Egg 1",
             "Fishing_Feybreak",
             "Feybreak Cavern",
-            "Feybreak Meteor",
-            "Incident_Feybreak_Red",
-            "Incident_Feybreak_Desert",
-            "Incident_Feybreak_Yellow",
-            "Incident_Feybreak_Dark",
             "Cage_Viking",
+            "Celesdir Alpha",
+            "Fenglope Lux Alpha",
+            "Kitsun Noct Alpha",
+            "Silvegis Alpha",
+            "Pal_Critic_StonePillarCaveEntrance",
+            "WildPals_Feybreak"
+        ],
+        "requires": "|Feybreak Pass| AND |EZ Mount| AND {OptOne(|Player Level:55|)}"
+    },
+    "WildPals_Feybreak": {
+        "connects_to": [
             "Foxparks Cryst",
             "Caprity Noct",
             "Ribbuny Botan",
@@ -694,7 +712,6 @@
             "Nitemary",
             "Starryon",
             "Smokie",
-            "Celesdir Alpha",
             "Omascul",
             "Splatterina",
             "Tarantriss",
@@ -702,13 +719,13 @@
             "Prunelia",
             "Nyafia",
             "Gildane",
-            "Fenglope Lux Alpha",
-            "Kitsun Noct Alpha",
-            "Frostallion Noct",
-            "Silvegis Alpha",
-            "Pal_Critic_StonePillarCaveEntrance"
+            "Feybreak Meteor",
+            "Incident_Feybreak_Red",
+            "Incident_Feybreak_Desert",
+            "Incident_Feybreak_Yellow",
+            "Incident_Feybreak_Dark"
         ],
-        "requires": "|Feybreak Pass| AND |EZ Mount| AND {OptOne(|Player Level:55|)}"
+        "requires": "|@Player Beacon:5|"
     },
     "Fenglope Lux Alpha": {
         "connects_to": [
@@ -734,6 +751,12 @@
         ],
         "requires": "|@Player Beacon:6|"
     },
+    "Frostallion Noct Alpha": {
+        "connects_to": [
+            "Frostallion Noct"
+        ],
+        "requires": "{OptOne(|Seal of the Black Pegasus|)} AND {OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
+    },
     "Feybreak Red": {
         "connects_to": [],
         "requires": ""
@@ -744,7 +767,8 @@
     },
     "Feybreak Blue": {
         "connects_to": [
-            "Feybreak Egg 2"
+            "Feybreak Egg 2",
+            "Frostallion Noct Alpha"
         ],
         "requires": "|Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
     },
@@ -762,10 +786,14 @@
             "Sakurajima Egg 1",
             "Fishing_Sakurajima",
             "Cherry Blossom Cave",
-            "Sakurajima Meteor",
-            "Incident_Sakurajima",
-            "Incident_Sakurajima_B",
             "Cage_Sakurajima",
+            "Pal_Critic_MushroomWetlands",
+            "WildPals_Sakurajima"
+        ],
+        "requires": "|Sakurajima Pass| AND {OptOne(|Player Level:50|)}"
+    },
+    "WildPals_Sakurajima": {
+        "connects_to": [
             "Cattiva",
             "Depresso",
             "Tocotoco",
@@ -799,9 +827,11 @@
             "Mimog",
             "Knocklem",
             "Menasting Terra",
-            "Pal_Critic_MushroomWetlands"
+            "Sakurajima Meteor",
+            "Incident_Sakurajima",
+            "Incident_Sakurajima_B"
         ],
-        "requires": "|Sakurajima Pass| AND {OptOne(|Player Level:50|)}"
+        "requires": "|@Player Beacon:5|"
     },
     "Astral Mountains": {
         "connects_to": [
@@ -812,11 +842,18 @@
             "Glacier Egg 2",
             "Fishing_Astral",
             "Astral Mountains Cavern",
-            "Snow Meteor",
-            "Incident_Snow",
             "Cage_Snow",
             "Black Marketeer",
             "Astral_BlackMarket",
+            "Lyleen Noct Alpha",
+            "Kingpaca Cryst Alpha",
+            "Glacial Core Highway",
+            "WildPals_Astral"
+        ],
+        "requires": "|Astral Pass| AND {OptOne(|Player Level:35|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+    },
+    "WildPals_Astral": {
+        "connects_to": [
             "Mau Cryst",
             "Hangyu Cryst",
             "Maraith",
@@ -826,12 +863,11 @@
             "Mammorest Cryst",
             "Wumpo",
             "Mimog",
-            "Lyleen Noct Alpha",
-            "Kingpaca Cryst Alpha",
             "Frostallion",
-            "Glacial Core Highway"
+            "Snow Meteor",
+            "Incident_Snow"
         ],
-        "requires": "|Astral Pass| AND {OptOne(|Player Level:30|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+        "requires": "|@Player Beacon:4|"
     },
     "Lyleen Noct Alpha": {
         "connects_to": [
@@ -856,9 +892,15 @@
             "Glacier Egg 1",
             "Fishing_AstralFoot",
             "Astral Mountains Cavern",
-            "Snow Meteor",
             "Black Marketeer",
             "AstralFoot_BlackMarket",
+            "Pal_Critic_ColdShore",
+            "WildPals_AstralFoot"
+        ],
+        "requires": "|Astral Foot Pass| AND {OptOne(|Player Level:30|)}"
+    },
+    "WildPals_AstralFoot": {
+        "connects_to": [
             "Pengullet",
             "Mau Cryst",
             "Hangyu Cryst",
@@ -876,9 +918,9 @@
             "Elizabee",
             "Grintale",
             "Katress",
-            "Pal_Critic_ColdShore"
+            "Snow Meteor"
         ],
-        "requires": "|Astral Foot Pass| AND {OptOne(|Player Level:30|)}"
+        "requires": "|@Player Beacon:3|"
     },
     "Verdant Brook": {
         "connects_to": [
@@ -891,11 +933,19 @@
             "Grass Egg 4",
             "Fishing_Verdant",
             "Mountain Stream Grotto",
-            "Forest Meteor",
-            "Incident_Forest_B",
             "Cage_Forest",
             "Black Marketeer",
             "Verdant_BlackMarket",
+            "Swift",
+            "Stalwart",
+            "Guardian",
+            "Pal_Critic_GobfinTurf",
+            "WildPals_Verdant"
+        ],
+        "requires": "|Verdant Pass| AND {OptOne(|Player Level:20|)}"
+    },
+    "WildPals_Verdant": {
+        "connects_to": [
             "Gobfin",
             "Mossanda",
             "Loupmoon",
@@ -906,20 +956,23 @@
             "Katress",
             "Helzephyr",
             "Mimog",
-            "Swift",
-            "Stalwart",
-            "Guardian",
-            "Pal_Critic_GobfinTurf"
+            "Forest Meteor",
+            "Incident_Forest_B"
         ],
-        "requires": "|Verdant Pass| AND {OptOne(|Player Level:20|)}"
+        "requires": "|@Player Beacon:2|"
     },
     "Frostbound Mountains": {
         "connects_to": [
             "Verdant Brook",
             "Grass Egg 4",
             "Fishing_Frostbound",
-            "Forest Meteor",
-            "Incident_Forest_Frost",
+            "Pristine",
+            "WildPals_Frostbound"
+        ],
+        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+    },
+    "WildPals_Frostbound": {
+        "connects_to": [
             "Swee",
             "Sweepa",
             "Chillet",
@@ -928,9 +981,10 @@
             "Kitsun",
             "Vanwyrm Cryst",
             "Mimog",
-            "Pristine"
+            "Forest Meteor",
+            "Incident_Forest_Frost"
         ],
-        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+        "requires": "|@Player Beacon:2|"
     },
     "Scars of War": {
         "connects_to": [
@@ -1118,8 +1172,6 @@
             "Desert Egg 1",
             "Fishing_Desert",
             "Cavern of the Dunes",
-            "Desert Meteor",
-            "Incident_Desert",
             "Cage_Desert",
             "Pal Merchant_Desert",
             "Black Marketeer",
@@ -1127,6 +1179,17 @@
             "Desert_PalMerchant",
             "Desert_BlackMarket",
             "Bounty Merchant",
+            "Menasting Alpha",
+            "Paladius",
+            "Necromus",
+            "Pal_Critic_Duneshelter",
+            "Arrogant_Foodie",
+            "WildPals_Desert"
+        ],
+        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)} AND |Tech - Progressive Workbench| AND (|@Cold Temperature Clothes| OR |@Hot Temperature Clothes|)"
+    },
+    "WildPals_Desert": {
+        "connects_to": [
             "Fuddler",
             "Tocotoco",
             "Hangyu",
@@ -1144,13 +1207,10 @@
             "Suzaku",
             "Mimog",
             "Tarantriss",
-            "Menasting Alpha",
-            "Paladius",
-            "Necromus",
-            "Pal_Critic_Duneshelter",
-            "Arrogant_Foodie"
+            "Desert Meteor",
+            "Incident_Desert"
         ],
-        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)} AND |Tech - Progressive Workbench| AND (|@Cold Temperature Clothes| OR |@Hot Temperature Clothes|)"
+        "requires": "|@Player Beacon:4|"
     },
     "Menasting Alpha": {
         "connects_to": [
@@ -1415,7 +1475,7 @@
             "Petallia",
             "Grizzbolt"
         ],
-        "requires": "|Wildlife Sanctuary 1 Tracker| AND {OptOne(|Player Level:20|)}"
+        "requires": "|Wildlife Sanctuary 1 Tracker| AND {OptOne(|Player Level:20|)} AND |@Player Beacon:2|"
     },
     "Wildlife Sanctuary 2": {
         "connects_to": [
@@ -1431,7 +1491,7 @@
             "Menasting",
             "Jormuntide Ignis"
         ],
-        "requires": "|Wildlife Sanctuary 2 Tracker| AND {OptOne(|Player Level:40|)}"
+        "requires": "|Wildlife Sanctuary 2 Tracker| AND {OptOne(|Player Level:40|)} AND |@Player Beacon:4|"
     },
     "Wildlife Sanctuary 3": {
         "connects_to": [
@@ -1446,7 +1506,7 @@
             "Orserk",
             "Shadowbeak"
         ],
-        "requires": "|Wildlife Sanctuary 3 Tracker| AND {OptOne(|Player Level:40|)}"
+        "requires": "|Wildlife Sanctuary 3 Tracker| AND {OptOne(|Player Level:40|)} AND |@Player Beacon:4|"
     },
     "Lamball": {
         "connects_to": [],
@@ -6433,7 +6493,13 @@
     },
     "General": {
         "starting": true,
-        "connects_to": [],
+        "connects_to": [
+            "Diamond Passives"
+        ],
         "requires": []
+    },
+    "Diamond Passives": {
+        "connects_to": [],
+        "requires": "|@Pal Beacons|"
     }
 }

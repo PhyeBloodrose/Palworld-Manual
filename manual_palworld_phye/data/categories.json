@@ -328,6 +328,13 @@
     "Raiding": {
         "hidden": true
     },
+    "OilRigs": {
+        "yaml_option": [ "Enable_OilRigs" ],
+        "hidden": true
+    },
+    "Key Items - Oil Rig Radars": {
+        "yaml_option": [ "Limit_OilRigs" ]
+    },
     "The Journey": {
         "yaml_option": [ "Journey_Missions" ]
     },

@@ -466,7 +466,8 @@
             "Pal_Critic_SmallSettlement",
             "Frozen Wings",
             "Zoe Mission",
-            "Sunlit Highway"
+            "Sunlit Highway",
+            "OilRig30"
         ],
         "requires": "|Windswept Pass| OR |Windswept Spawn|"
     },
@@ -493,7 +494,8 @@
             "Elphidran Alpha",
             "Spirits",
             "Pal_Critic_HypocriteHill",
-            "WildPals_Crescent"
+            "WildPals_Crescent",
+            "OilRig30"
         ],
         "requires": "|Crescent Pass| AND {OptOne(|Player Level:15|)}"
     },
@@ -654,7 +656,7 @@
             "Astegon Alpha",
             "Jetragon"
         ],
-        "requires": "|Tech - Progressive Workbench| AND |@Hot Temperature Clothes|"
+        "requires": "|Hot Armor|"
     },
     "Blazamut Alpha": {
         "connects_to": [
@@ -683,7 +685,8 @@
             "Kitsun Noct Alpha",
             "Silvegis Alpha",
             "Pal_Critic_StonePillarCaveEntrance",
-            "WildPals_Feybreak"
+            "WildPals_Feybreak",
+            "OilRig60"
         ],
         "requires": "|Feybreak Pass| AND |EZ Mount| AND {OptOne(|Player Level:55|)}"
     },
@@ -770,7 +773,7 @@
             "Feybreak Egg 2",
             "Frostallion Noct Alpha"
         ],
-        "requires": "|Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+        "requires": "|Cold Armor|"
     },
     "Feybreak Desert": {
         "connects_to": [],
@@ -850,7 +853,7 @@
             "Glacial Core Highway",
             "WildPals_Astral"
         ],
-        "requires": "|Astral Pass| AND {OptOne(|Player Level:35|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+        "requires": "|Astral Pass| AND {OptOne(|Player Level:35|)} AND |Cold Armor|"
     },
     "WildPals_Astral": {
         "connects_to": [
@@ -940,7 +943,8 @@
             "Stalwart",
             "Guardian",
             "Pal_Critic_GobfinTurf",
-            "WildPals_Verdant"
+            "WildPals_Verdant",
+            "OilRig30"
         ],
         "requires": "|Verdant Pass| AND {OptOne(|Player Level:20|)}"
     },
@@ -969,7 +973,7 @@
             "Pristine",
             "WildPals_Frostbound"
         ],
-        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)} AND |Tech - Progressive Workbench| AND |@Cold Temperature Clothes|"
+        "requires": "|Frostbound Pass| AND {OptOne(|Player Level:20|)} AND |Cold Armor|"
     },
     "WildPals_Frostbound": {
         "connects_to": [
@@ -1186,7 +1190,7 @@
             "Arrogant_Foodie",
             "WildPals_Desert"
         ],
-        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)} AND |Tech - Progressive Workbench| AND (|@Cold Temperature Clothes| OR |@Hot Temperature Clothes|)"
+        "requires": "|Dessicated Pass| AND {OptOne(|Player Level:40|)} AND (|Cold Armor| OR |Hot Armor|)"
     },
     "WildPals_Desert": {
         "connects_to": [
@@ -1256,7 +1260,9 @@
             "Tombat",
             "Mammorest",
             "Croajiro",
-            "Grintale"
+            "Grintale",
+            "OilRig30",
+            "OilRig55"
         ],
         "requires": "|Marsh Pass| OR |Marsh Spawn|"
     },
@@ -1272,7 +1278,8 @@
         "connects_to": [
             "Fishing_Sunlit",
             "Herbil",
-            "Finsider"
+            "Finsider",
+            "OilRig55"
         ],
         "requires": "|Sunlit Pass|"
     },
@@ -6501,5 +6508,17 @@
     "Diamond Passives": {
         "connects_to": [],
         "requires": "|@Pal Beacons|"
+    },
+    "OilRig30": {
+        "connects_to": [],
+        "requires": "{OptOne(|Weak Oil Rig Radar|)"
+    },
+    "OilRig55": {
+        "connects_to": [],
+        "requires": "|EZ Mount| AND {OptOne(|Medium Oil Rig Radar|)"
+    },
+    "OilRig60": {
+        "connects_to": [],
+        "requires": "{OptOne(|Strong Oil Rig Radar|)"
     }
 }

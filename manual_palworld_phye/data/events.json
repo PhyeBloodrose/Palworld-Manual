@@ -4398,6 +4398,14 @@
         {
             "name": "Fishing",
             "requires": "|@Watering| AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |@Kindling| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+        },
+        {
+            "name": "Hot Armor",
+            "requires": "(|Tech - Progressive Workbench| AND |Tech - Tropical Outfit|) OR (|Tech - Progressive Workbench:2| AND |Tech - Heat Resistant Pelt Armor|) OR (|Tech - Progressive Workbench:2| AND |Tech - Heat Resistant Metal Armor| AND |@Kindling| AND |Tech - Progressive Furnace|)"
+        },
+        {
+            "name": "Cold Armor",
+            "requires": "(|Tech - Progressive Workbench| AND |Tech - Tundra Outfit|) OR (|Tech - Progressive Workbench:2| AND |Tech - Cold Resistant Pelt Armor|) OR (|Tech - Progressive Workbench:2| AND |Tech - Cold Resistant Metal Armor| AND |@Kindling| AND |Tech - Progressive Furnace|)"
         }
     ]
 }

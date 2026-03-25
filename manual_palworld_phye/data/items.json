@@ -1766,7 +1766,7 @@
             "Armor - Body",
             "Cloth Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -1909,20 +1909,18 @@
         "name": "Tech - Tropical Outfit",
         "category": [
             "Armor - Body",
-            "Hot Temperature Clothes",
             "Cloth Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Tundra Outfit",
         "category": [
             "Armor - Body",
-            "Cold Temperature Clothes",
             "Cloth Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2003,7 +2001,7 @@
             "Armor - Body",
             "Leather Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2176,10 +2174,9 @@
         "name": "Tech - Heat Resistant Pelt Armor",
         "category": [
             "Armor - Body",
-            "Hot Temperature Clothes",
             "Leather Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2242,10 +2239,9 @@
         "name": "Tech - Cold Resistant Pelt Armor",
         "category": [
             "Armor - Body",
-            "Cold Temperature Clothes",
             "Leather Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2398,7 +2394,7 @@
             "Armor - Body",
             "Metal Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2477,10 +2473,9 @@
         "name": "Tech - Heat Resistant Metal Armor",
         "category": [
             "Armor - Body",
-            "Hot Temperature Clothes",
             "Metal Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2535,10 +2530,9 @@
         "name": "Tech - Cold Resistant Metal Armor",
         "category": [
             "Armor - Body",
-            "Cold Temperature Clothes",
             "Metal Armor"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2960,8 +2954,7 @@
         "count": 1,
         "name": "Tech - Heat Resistant Refined Metal Armor",
         "category": [
-            "Armor - Body",
-            "Hot Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3025,8 +3018,7 @@
         "count": 1,
         "name": "Tech - Cold Resistant Refined Metal Armor",
         "category": [
-            "Armor - Body",
-            "Cold Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3226,8 +3218,7 @@
         "count": 1,
         "name": "Tech - Heat Resistant Pal Metal Armor",
         "category": [
-            "Armor - Body",
-            "Hot Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3299,8 +3290,7 @@
         "count": 1,
         "name": "Tech - Cold Resistant Pal Metal Armor",
         "category": [
-            "Armor - Body",
-            "Cold Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3372,8 +3362,7 @@
         "count": 1,
         "name": "Tech - Heat Resistant Plasteel Armor",
         "category": [
-            "Armor - Body",
-            "Hot Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3405,8 +3394,7 @@
         "count": 1,
         "name": "Tech - Cold Resistant Plasteel Armor",
         "category": [
-            "Armor - Body",
-            "Cold Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3566,8 +3554,7 @@
         "count": 1,
         "name": "Tech - Heat Resistant Hexolite Armor",
         "category": [
-            "Armor - Body",
-            "Hot Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -3575,8 +3562,7 @@
         "count": 1,
         "name": "Tech - Cold Resistant Hexolite Armor",
         "category": [
-            "Armor - Body",
-            "Cold Temperature Clothes"
+            "Armor - Body"
         ],
         "useful": true
     },
@@ -13302,6 +13288,30 @@
         "name": "Hartalis's Bond",
         "category": [
             "Pal Bonds"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Weak Oil Rig Radar",
+        "category": [
+            "Key Items - Oil Rig Radars"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Medium Oil Rig Radar",
+        "category": [
+            "Key Items - Oil Rig Radars"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Strong Oil Rig Radar",
+        "category": [
+            "Key Items - Oil Rig Radars"
         ],
         "progression_skip_balancing": true
     },

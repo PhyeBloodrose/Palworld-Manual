@@ -31,7 +31,7 @@
                 "Includes all Journals as checks."
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "group": "Extra Locations"
         },
         "Sub_Missions": {
@@ -257,8 +257,7 @@
         },
         "Tower_Goal": {
             "description": [
-                "Tower Rush: Defeat all 7 Tower Bosses. In any order you want.",
-                "If 'All of the Above goal' is activated, this requires you to defeat the hard mode bosses instead. As such the logic will be different."
+                "Tower Rush: Defeat all 7 Tower Bosses."
             ],
             "type": "Toggle",
             "default": false,
@@ -557,7 +556,7 @@
                 "When this is enabled, Pals found in Cages will be considered for logic."
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "group": "Logic Options"
         },
         "Enable_Dungeons": {
@@ -565,7 +564,7 @@
                 "When this is enabled, Pals found as Dungeon Bosses will be considered for logic."
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "group": "Logic Options"
         },
         "Enable_Incidents": {
@@ -573,7 +572,7 @@
                 "When this is enabled, Pals found during random incidents will be considered for logic."
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "group": "Logic Options"
         },
         "Enable_Wild_Eggs": {
@@ -589,7 +588,7 @@
                 "When this is enabled, Pals obtained from the Fishing Pond will be considered for logic."
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "group": "Logic Options"
         },
         "Enable_Pal_Merchants": {
@@ -714,6 +713,33 @@
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
+        },
+        "Include_JunkPiles": {
+            "description": [
+                "When this is enabled, Items received from Junk Piles scattered across the world will be considered for logic."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Include_PalDrops": {
+            "description": [
+                "When this is enabled, any Materials dropped by Pals will be considered for logic. Such as Ingots from Bushi, Cloth from Croajiro and meat from Pals amongst other things.",
+                "When this is disabled, meat obtained from Pals will only be in logic when you are able to do the Pal Expeditions where they can be obtained from.",
+                "When this is disabled, these are the items which still remains only obtainable from Pals; Gumoss Leaf, Dazzi Cloud, Swee Hair, Jelliette Bell Flesh, Jellroy Bell Flesh, Munchill Meat, Gloopie Tentacle, Potato Seeds, Onion Seeds and Carrot Seeds."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Require_AnyMount": {
+            "description": [
+                "When this is enabled, Any Mount will be required to travel across long distances.",
+                "When this is disabled, Only Mounts which can travel by water or the sky will be required to travel long distances."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
         }
     }
 

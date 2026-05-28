@@ -5,11 +5,9 @@
             "name": "Eastern Wild Beacon",
             "region": "Eastern Wild Island",
             "category": [
-                "Honey Drop",
-                "Tomato Drop",
+                "Location Beacons",
                 "Island Dungeon Location",
-                "Travel Point",
-                "Onion Drop"
+                "Travel Point"
             ]
         },
         {
@@ -17,16 +15,15 @@
             "region": "Dessicated Dunes",
             "category": [
                 "Location Beacons",
-                "Tomato Drop",
                 "Crude Oil",
                 "Coal Place",
                 "Cement Junk",
                 "Tower Boss Location",
                 "Dungeon Location",
-                "Potato Drop",
                 "Journal Location",
                 "Travel Point",
-                "Lucky Hunts"
+                "Lucky Hunts",
+                "Bounty Shop"
             ]
         },
         {
@@ -40,7 +37,6 @@
                 "Tower Boss Location",
                 "Lucky Hunts",
                 "Dungeon Location",
-                "Potato Drop",
                 "Journal Location",
                 "Travel Point"
             ]
@@ -50,12 +46,10 @@
             "region": "Feybreak",
             "category": [
                 "Location Beacons",
-                "Honey Drop",
                 "Crude Oil",
                 "Cement Junk",
                 "Lucky Hunts",
                 "Dungeon Location",
-                "Potato Drop",
                 "Journal Location",
                 "Travel Point"
             ]
@@ -88,11 +82,8 @@
             "region": "Foot of the Astral Mountains",
             "category": [
                 "Location Beacons",
-                "Honey Drop",
-                "Tomato Drop",
                 "Cement Junk",
                 "Astral Dungeon Location",
-                "Onion Drop",
                 "Journal Location",
                 "Travel Point"
             ]
@@ -102,14 +93,18 @@
             "region": "Verdant Brook",
             "category": [
                 "Location Beacons",
-                "Honey Drop",
-                "Tomato Drop",
                 "Coal Place",
                 "Lucky Hunts",
                 "Forest Dungeon Location",
-                "Onion Drop",
                 "Journal Location",
                 "Travel Point"
+            ]
+        },
+        {
+            "name": "Scars of War Beacon",
+            "region": "Scars of War",
+            "category": [
+                "Location Beacons"
             ]
         },
         {
@@ -117,14 +112,9 @@
             "region": "Crescent Moon Shore",
             "category": [
                 "Location Beacons",
-                "Honey Drop",
-                "Lettuce Drop",
-                "Tomato Drop",
                 "Coal Place",
                 "Lucky Hunts",
-                "Onion Drop",
                 "Forest Dungeon Location",
-                "Potato Drop",
                 "Journal Location",
                 "Travel Point"
             ]
@@ -181,7 +171,8 @@
                 "Lucky Hunts",
                 "Dungeon Location",
                 "Journal Location",
-                "Travel Point"
+                "Travel Point",
+                "Bounty Shop"
             ]
         },
         {
@@ -190,6 +181,13 @@
             "category": [
                 "Location Beacons",
                 "Travel Point"
+            ]
+        },
+        {
+            "name": "Base Level 2",
+            "region": "Base Level 2",
+            "category": [
+                "General Beacons"
             ]
         },
         {
@@ -211,11 +209,9 @@
             "region": "Bamboo Groves",
             "category": [
                 "Location Beacons",
-                "Tomato Drop",
                 "Coal Place",
                 "Lucky Hunts",
                 "Dungeon Location",
-                "Potato Drop",
                 "Journal Location",
                 "Travel Point"
             ]
@@ -314,8 +310,7 @@
             "name": "Wildlife 1 Beacon",
             "region": "Wildlife Sanctuary 1",
             "category": [
-                "Wildlife Beacons",
-                "Onion Drop"
+                "Wildlife Beacons"
             ]
         },
         {
@@ -323,7 +318,6 @@
             "region": "Wildlife Sanctuary 2",
             "category": [
                 "Wildlife Beacons",
-                "Lettuce Drop",
                 "Journal Location"
             ]
         },
@@ -335,43 +329,92 @@
             ]
         },
         {
-            "name": "Player 10 Beacon",
-            "region": "Player Progression",
+            "name": "Player Beacon 1",
+            "region": "Player Progression 5",
             "category": [
                 "Player Beacon"
             ]
         },
         {
-            "name": "Player 20 Beacon",
+            "name": "Player Beacon 2",
+            "region": "Player Progression 10",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 3",
+            "region": "Player Progression 15",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 4",
             "region": "Player Progression 20",
             "category": [
                 "Player Beacon"
             ]
         },
         {
-            "name": "Player 30 Beacon",
+            "name": "Player Beacon 5",
+            "region": "Player Progression 25",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 6",
             "region": "Player Progression 30",
             "category": [
                 "Player Beacon"
             ]
         },
         {
-            "name": "Player 40 Beacon",
+            "name": "Player Beacon 7",
+            "region": "Player Progression 35",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 8",
             "region": "Player Progression 40",
             "category": [
                 "Player Beacon"
             ]
         },
         {
-            "name": "Player 50 Beacon",
+            "name": "Player Beacon 9",
+            "region": "Player Progression 45",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 10",
             "region": "Player Progression 50",
             "category": [
                 "Player Beacon"
             ]
         },
         {
-            "name": "Player 60 Beacon",
+            "name": "Player Beacon 11",
+            "region": "Player Progression 55",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 12",
             "region": "Player Progression 60",
+            "category": [
+                "Player Beacon"
+            ]
+        },
+        {
+            "name": "Player Beacon 13",
+            "region": "Player Progression 65",
             "category": [
                 "Player Beacon"
             ]
@@ -638,7 +681,8 @@
             "category": [
                 "Pal Beacons",
                 "Handiwork",
-                "Handiwork Rank 1"
+                "Handiwork Rank 1",
+                "Small Pal"
             ]
         },
         {
@@ -649,14 +693,16 @@
                 "Handiwork",
                 "Handiwork Level 1",
                 "Mining",
-                "Mining Level 1"
+                "Mining Level 1",
+                "Small Pal"
             ]
         },
         {
             "name": "Chikipi Beacon",
             "region": "Chikipi",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -667,7 +713,8 @@
                 "Planting",
                 "Handiwork",
                 "Lumbering",
-                "Medicine"
+                "Medicine",
+                "Small Pal"
             ]
         },
         {
@@ -675,7 +722,8 @@
             "region": "Foxparks",
             "category": [
                 "Pal Beacons",
-                "Kindling"
+                "Kindling",
+                "Small Pal"
             ]
         },
         {
@@ -683,7 +731,8 @@
             "region": "Foxparks Cryst",
             "category": [
                 "Pal Beacons",
-                "Cooling"
+                "Cooling",
+                "Small Pal"
             ]
         },
         {
@@ -692,7 +741,8 @@
             "category": [
                 "Pal Beacons",
                 "Watering",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -702,7 +752,8 @@
                 "Pal Beacons",
                 "Kindling",
                 "Watering",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -710,7 +761,8 @@
             "region": "Sparkit",
             "category": [
                 "Pal Beacons",
-                "Electricity"
+                "Electricity",
+                "Small Pal"
             ]
         },
         {
@@ -720,7 +772,8 @@
                 "Pal Beacons",
                 "Planting",
                 "Handiwork",
-                "Lumbering"
+                "Lumbering",
+                "Small Pal"
             ]
         },
         {
@@ -728,7 +781,8 @@
             "region": "Rooby",
             "category": [
                 "Pal Beacons",
-                "Kindling"
+                "Kindling",
+                "Small Pal"
             ]
         },
         {
@@ -738,7 +792,8 @@
                 "Pal Beacons",
                 "Watering",
                 "Handiwork",
-                "Cooling"
+                "Cooling",
+                "Small Pal"
             ]
         },
         {
@@ -748,7 +803,8 @@
                 "Pal Beacons",
                 "Watering",
                 "Electricity",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -786,7 +842,8 @@
             "region": "Jolthog",
             "category": [
                 "Pal Beacons",
-                "Electricity"
+                "Electricity",
+                "Small Pal"
             ]
         },
         {
@@ -794,7 +851,8 @@
             "region": "Jolthog Cryst",
             "category": [
                 "Pal Beacons",
-                "Cooling"
+                "Cooling",
+                "Small Pal"
             ]
         },
         {
@@ -802,21 +860,24 @@
             "region": "Gumoss",
             "category": [
                 "Pal Beacons",
-                "Planting"
+                "Planting",
+                "Small Pal"
             ]
         },
         {
             "name": "Vixy Beacon",
             "region": "Vixy",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
             "name": "Hoocrates Beacon",
             "region": "Hoocrates",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -833,14 +894,16 @@
             "category": [
                 "Pal Beacons",
                 "Handiwork",
-                "Mining"
+                "Mining",
+                "Small Pal"
             ]
         },
         {
             "name": "Cremis Beacon",
             "region": "Cremis",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -848,7 +911,8 @@
             "region": "Daedream",
             "category": [
                 "Pal Beacons",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -856,14 +920,16 @@
             "region": "Rushoar",
             "category": [
                 "Pal Beacons",
-                "Mining"
+                "Mining",
+                "Small Pal"
             ]
         },
         {
             "name": "Nox Beacon",
             "region": "Nox",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -872,7 +938,8 @@
             "category": [
                 "Pal Beacons",
                 "Handiwork",
-                "Mining"
+                "Mining",
+                "Small Pal"
             ]
         },
         {
@@ -880,7 +947,8 @@
             "region": "Killamari",
             "category": [
                 "Pal Beacons",
-                "Watering"
+                "Watering",
+                "Small Pal"
             ]
         },
         {
@@ -889,14 +957,16 @@
             "category": [
                 "Pal Beacons",
                 "Watering",
-                "Watering Level 2"
+                "Watering Level 2",
+                "Small Pal"
             ]
         },
         {
             "name": "Mau Beacon",
             "region": "Mau",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -904,7 +974,8 @@
             "region": "Mau Cryst",
             "category": [
                 "Pal Beacons",
-                "Cooling"
+                "Cooling",
+                "Small Pal"
             ]
         },
         {
@@ -928,14 +999,16 @@
             "name": "Direhowl Beacon",
             "region": "Direhowl",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
             "name": "Tocotoco Beacon",
             "region": "Tocotoco",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -945,14 +1018,16 @@
                 "Pal Beacons",
                 "Planting",
                 "Handiwork",
-                "Medicine"
+                "Medicine",
+                "Small Pal"
             ]
         },
         {
             "name": "Mozzarina Beacon",
             "region": "Mozzarina",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -963,7 +1038,8 @@
                 "Planting",
                 "Handiwork",
                 "Medicine",
-                "Medicine Level 2"
+                "Medicine Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -973,7 +1049,8 @@
                 "Pal Beacons",
                 "Watering",
                 "Watering Level 2",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -983,7 +1060,8 @@
                 "Pal Beacons",
                 "Kindling",
                 "Kindling Level 2",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -991,7 +1069,8 @@
             "region": "Hangyu",
             "category": [
                 "Pal Beacons",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1000,7 +1079,8 @@
             "category": [
                 "Pal Beacons",
                 "Handiwork",
-                "Cooling"
+                "Cooling",
+                "Small Pal"
             ]
         },
         {
@@ -1033,7 +1113,8 @@
             "name": "Woolipop Beacon",
             "region": "Woolipop",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -1042,7 +1123,8 @@
             "category": [
                 "Pal Beacons",
                 "Planting",
-                "Planting Level 2"
+                "Planting Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -1051,7 +1133,8 @@
             "category": [
                 "Pal Beacons",
                 "Planting",
-                "Planting Level 2"
+                "Planting Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -1091,7 +1174,8 @@
             "region": "Ribbuny",
             "category": [
                 "Pal Beacons",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1100,7 +1184,8 @@
             "category": [
                 "Pal Beacons",
                 "Planting",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1176,7 +1261,8 @@
             "region": "Leezpunk",
             "category": [
                 "Pal Beacons",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1185,7 +1271,8 @@
             "category": [
                 "Pal Beacons",
                 "Kindling",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1245,7 +1332,8 @@
                 "Pal Beacons",
                 "Handiwork",
                 "Lumbering",
-                "Lumbering Level 2"
+                "Lumbering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -1255,7 +1343,8 @@
                 "Pal Beacons",
                 "Handiwork",
                 "Mining",
-                "Mining Level 2"
+                "Mining Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -1295,7 +1384,8 @@
             "region": "Swee",
             "category": [
                 "Pal Beacons",
-                "Cooling"
+                "Cooling",
+                "Small Pal"
             ]
         },
         {
@@ -1340,7 +1430,8 @@
             "category": [
                 "Pal Beacons",
                 "Cooling",
-                "Cooling Level 2"
+                "Cooling Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -1406,7 +1497,8 @@
             "category": [
                 "Pal Beacons",
                 "Electricity",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1416,7 +1508,8 @@
                 "Pal Beacons",
                 "Electricity",
                 "Handiwork",
-                "Medicine"
+                "Medicine",
+                "Small Pal"
             ]
         },
         {
@@ -1510,7 +1603,8 @@
             "category": [
                 "Pal Beacons",
                 "Kindling",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -1680,7 +1774,8 @@
             "region": "Kelpsea",
             "category": [
                 "Pal Beacons",
-                "Watering"
+                "Watering",
+                "Small Pal"
             ]
         },
         {
@@ -1688,7 +1783,8 @@
             "region": "Kelpsea Ignis",
             "category": [
                 "Pal Beacons",
-                "Kindling"
+                "Kindling",
+                "Small Pal"
             ]
         },
         {
@@ -1920,7 +2016,8 @@
             "category": [
                 "Pal Beacons",
                 "Lumbering",
-                "Lumbering Level 2"
+                "Lumbering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -1931,7 +2028,8 @@
                 "Electricity",
                 "Electricity Level 2",
                 "Lumbering",
-                "Lumbering Level 2"
+                "Lumbering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2242,7 +2340,8 @@
             "category": [
                 "Pal Beacons",
                 "Watering",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -2251,7 +2350,8 @@
             "category": [
                 "Pal Beacons",
                 "Watering",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -2264,7 +2364,8 @@
                 "Handiwork",
                 "Handiwork Level 2",
                 "Medicine",
-                "Medicine Level 2"
+                "Medicine Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2276,7 +2377,8 @@
                 "Planting Level 2",
                 "Handiwork",
                 "Lumbering",
-                "Lumbering Level 2"
+                "Lumbering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2288,7 +2390,8 @@
                 "Planting Level 2",
                 "Handiwork",
                 "Lumbering",
-                "Lumbering Level 2"
+                "Lumbering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2296,7 +2399,8 @@
             "region": "Kikit",
             "category": [
                 "Pal Beacons",
-                "Mining"
+                "Mining",
+                "Small Pal"
             ]
         },
         {
@@ -2319,7 +2423,8 @@
                 "Pal Beacons",
                 "Lumbering",
                 "Lumbering Level 3",
-                "Medicine"
+                "Medicine",
+                "Small Pal"
             ]
         },
         {
@@ -2335,7 +2440,8 @@
             "name": "Yakumo Beacon",
             "region": "Yakumo",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -2347,21 +2453,24 @@
                 "Handiwork Level 3",
                 "Lumbering",
                 "Lumbering Level 2",
-                "Medicine"
+                "Medicine",
+                "Small Pal"
             ]
         },
         {
             "name": "Dazemu Beacon",
             "region": "Dazemu",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
             "name": "Mimog Beacon",
             "region": "Mimog",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -2370,7 +2479,8 @@
             "category": [
                 "Pal Beacons",
                 "Lumbering",
-                "Lumbering Level 2"
+                "Lumbering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2395,7 +2505,8 @@
             "category": [
                 "Pal Beacons",
                 "Handiwork",
-                "Handiwork Level 3"
+                "Handiwork Level 3",
+                "Small Pal"
             ]
         },
         {
@@ -2418,7 +2529,8 @@
             "name": "Smokie Beacon",
             "region": "Smokie",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -2434,7 +2546,8 @@
             "name": "Omascul Beacon",
             "region": "Omascul",
             "category": [
-                "Pal Beacons"
+                "Pal Beacons",
+                "Small Pal"
             ]
         },
         {
@@ -2456,7 +2569,8 @@
                 "Handiwork",
                 "Handiwork Level 2",
                 "Medicine",
-                "Medicine Level 2"
+                "Medicine Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2490,7 +2604,8 @@
                 "Planting Level 3",
                 "Handiwork",
                 "Medicine",
-                "Medicine Level 3"
+                "Medicine Level 3",
+                "Small Pal"
             ]
         },
         {
@@ -2517,7 +2632,8 @@
             "category": [
                 "Pal Beacons",
                 "Planting",
-                "Planting Level 2"
+                "Planting Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2530,7 +2646,8 @@
                 "Medicine",
                 "Medicine Level 2",
                 "Cooling",
-                "Cooling Level 3"
+                "Cooling Level 3",
+                "Small Pal"
             ]
         },
         {
@@ -2571,7 +2688,8 @@
                 "Pal Beacons",
                 "Watering",
                 "Cooling",
-                "Cooling Level 2"
+                "Cooling Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2582,7 +2700,8 @@
                 "Watering",
                 "Watering Level 2",
                 "Cooling",
-                "Cooling Level 3"
+                "Cooling Level 3",
+                "Small Pal"
             ]
         },
         {
@@ -2613,7 +2732,8 @@
                 "Watering",
                 "Watering Level 2",
                 "Handiwork",
-                "Medicine"
+                "Medicine",
+                "Small Pal"
             ]
         },
         {
@@ -2623,7 +2743,8 @@
                 "Pal Beacons",
                 "Watering",
                 "Watering Level 2",
-                "Handiwork"
+                "Handiwork",
+                "Small Pal"
             ]
         },
         {
@@ -2634,7 +2755,8 @@
                 "Watering",
                 "Watering Level 2",
                 "Handiwork",
-                "Handiwork Level 2"
+                "Handiwork Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2643,7 +2765,8 @@
             "category": [
                 "Pal Beacons",
                 "Watering",
-                "Watering Level 2"
+                "Watering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2654,7 +2777,8 @@
                 "Kindling",
                 "Kindling Level 2",
                 "Watering",
-                "Watering Level 2"
+                "Watering Level 2",
+                "Small Pal"
             ]
         },
         {
@@ -2752,13 +2876,6 @@
             "category": [
                 "Raid Boss"
             ]
-        },
-        {
-            "name": "EZ Mount",
-            "category": [
-                "EZ_Mounts"
-            ],
-            "requires": "|Tech - Pal Gear Workbench| AND (|Tech - Palbox| OR |Arena Beacon|) AND ((|Tech - Rushoar Saddle| AND |Rushoar Beacon|) OR (|Tech - Melpaca Saddle| AND |Melpaca Beacon|) OR (|Tech - Direhowl's Saddled Harness| AND |Direhowl Beacon|) OR (|Tech - Eikthyrdeer Saddle| AND |Eikthyrdeer Beacon|) OR (|Tech - Nitewing Saddle| AND |Nitewing Beacon|) OR (|Tech - Dinossom Saddle| AND |Dinossom Beacon|))"
         },
         {
             "name": "Hillside Beacon",
@@ -2911,8 +3028,7 @@
             "name": "Boss - Vaelet",
             "copy_location": "Boss - Vaelet (Level 38)",
             "category": [
-                "Overworld Boss",
-                "Onion Drop"
+                "Overworld Boss"
             ]
         },
         {
@@ -3111,8 +3227,7 @@
             "name": "Boss - Broncherry",
             "copy_location": "Boss - Broncherry (Level 23)",
             "category": [
-                "Overworld Boss",
-                "Potato Drop"
+                "Overworld Boss"
             ]
         },
         {
@@ -3317,56 +3432,64 @@
             "name": "Bounty - Hawk",
             "copy_location": "Bounty - Hawk (Level 12)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Scoot",
             "copy_location": "Bounty - Scoot (Level 10)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Turncoat",
             "copy_location": "Bounty - Turncoat (Level 15)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Crash",
             "copy_location": "Bounty - Crash (Level 15)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Dart",
             "copy_location": "Bounty - Dart (Level 23)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Fumble",
             "copy_location": "Bounty - Fumble (Level 28)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Brick",
             "copy_location": "Bounty - Brick (Level 30)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Dyna",
             "copy_location": "Bounty - Dyna (Level 26)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
@@ -3377,161 +3500,184 @@
             "name": "Bounty - Lasso",
             "copy_location": "Bounty - Lasso (Level 21)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Ego",
             "copy_location": "Bounty - Ego (Level 23)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Jade",
             "copy_location": "Bounty - Jade (Level 19)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Grill",
             "copy_location": "Bounty - Grill (Level 20)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Siren",
             "copy_location": "Bounty - Siren (Level 16)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Whip",
             "copy_location": "Bounty - Whip (Level 40)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Whisper",
             "copy_location": "Bounty - Whisper (Level 37)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Phantom",
             "copy_location": "Bounty - Phantom (Level 36)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Skim",
             "copy_location": "Bounty - Skim (Level 42)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Whisk",
             "copy_location": "Bounty - Whisk (Level 45)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Quill",
             "copy_location": "Bounty - Quill (Level 43)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Urchin",
             "copy_location": "Bounty - Urchin (Level 53)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Nimble",
             "copy_location": "Bounty - Nimble (Level 52)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Aloha",
             "copy_location": "Bounty - Aloha (Level 39)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Shadow",
             "copy_location": "Bounty - Shadow (Level 41)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Flare",
             "copy_location": "Bounty - Flare (Level 38)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Billy",
             "copy_location": "Bounty - Billy (Level 57)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Gnaw",
             "copy_location": "Bounty - Gnaw (Level 57)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Ram",
             "copy_location": "Bounty - Ram (Level 59)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Pinch",
             "copy_location": "Bounty - Pinch (Level 57)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Dazzle",
             "copy_location": "Bounty - Dazzle (Level 56)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Cache",
             "copy_location": "Bounty - Cache (Level 58)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
             "name": "Bounty - Mimic",
             "copy_location": "Bounty - Mimic (Level 57)",
             "category": [
-                "Overworld Boss"
+                "Overworld Boss",
+                "Bounties"
             ]
         },
         {
@@ -4397,15 +4543,1519 @@
         },
         {
             "name": "Fishing",
-            "requires": "|@Watering| AND |Tech - Mill| AND ((|Tech - Palbox| AND |Tech - Wheat Plantation|) OR (|@Merchant Location| AND {OptOne(|Membership Card|)})) AND |Tech - Beginner Fishing Set| AND |@Kindling| AND |Tech - Progressive Furnace:1| AND |Tech - Progressive Workbench:2|"
+            "requires": "|Fishing Rod| AND |Fishing Bait|"
+        },
+        {
+            "name": "Fishing Rod",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Beginner Fishing Rod| OR |Intermediate Fishing Rod| OR |Advanced Fishing Rod|"
+        },
+        {
+            "name": "Beginner Fishing Rod",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |Tech - Beginner Fishing Set| AND |High Quality Work| AND |Pal Fluids| AND |Ingot|"
+        },
+        {
+            "name": "Intermediate Fishing Rod",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 6| AND |Tech - Intermediate Fishing Rod| AND |Productive Work| AND |High Quality Pal Oil| AND |Cement|"
+        },
+        {
+            "name": "Advanced Fishing Rod",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 9| AND |Tech - Intermediate Fishing Rod| AND |Productive Work 2| AND |High Quality Pal Oil| AND |Pal Metal Ingot| AND |Carbon Fiber|"
+        },
+        {
+            "name": "Fishing Bait",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Simple Bait| OR |High Quality Bait| OR |Deluxe Bait| OR |Alluring Bait|"
+        },
+        {
+            "name": "Simple Bait",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |Tech - Beginner Fishing Set| AND |High Quality Work| AND |Pal Fluids| AND |Flours|"
+        },
+        {
+            "name": "High Quality Bait",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 5| AND |Tech - High Quality Bait| AND |High Quality Work| AND |Pal Fluids| AND |Tomatoes| AND |Flours|"
+        },
+        {
+            "name": "Deluxe Bait",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 8| AND |Tech - Deluxe Bait| AND |High Quality Work| AND |High Quality Pal Oil| AND |Onions| AND |Carrots| AND |Flours|"
+        },
+        {
+            "name": "Alluring Bait",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 11| AND |Tech - Alluring Bait| AND |High Quality Work| AND |High Quality Pal Oil| AND |CavernMushroom| AND |Carrots| AND |Flours|"
+        },
+        {
+            "name": "Fishing Pond",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Fishing Pond| AND |Player Beacon 7| AND |Cement| AND |Pal Fluids|"
+        },
+        {
+            "name": "Large Fishing Pond",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Large Fishing Pond| AND |Player Beacon 11| AND |Plasteel| AND |High Quality Pal Oil|"
+        },
+        {
+            "name": "High Quality Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 2| AND |Tech - Progressive Workbench:2| AND |Ingot| AND |Nail|"
+        },
+        {
+            "name": "Production Assembly Line",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 5| AND |Tech - Palbox| AND |Tech - Progressive Workbench:3| AND |Ingot| AND |Nail| AND |Cement|"
+        },
+        {
+            "name": "Production Assembly Line II",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 8| AND |Tech - Progressive Workbench:4| AND |Refined Ingot| AND |Nail| AND |Circuit Board|"
+        },
+        {
+            "name": "Advanced Workshop",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Tech - Progressive Workbench:5| AND |Coralum Ingot| AND |Hexolite| AND |Circuit Board| AND |Nail|"
+        },
+        {
+            "name": "Primitive Work",
+            "region": "Primitive Work",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "High Quality Work",
+            "region": "High Quality Work",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Productive Work",
+            "region": "Productive Work",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Productive Work 2",
+            "region": "Productive Work 2",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Advanced Work",
+            "region": "Advanced Work",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Ingot",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Primitive Fire| OR ({YamlEnabled(Include_PalDrops)} AND (|Boss - Bushi| OR ((|Volcano Beacon| OR |Sakurajima Beacon|) AND |Player Beacon 8|)))"
+        },
+        {
+            "name": "Nail",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Player Beacon 2| AND |Tech - Nail| AND |Tech - Progressive Workbench| AND |Ingot|) OR {YamlEnabled(Include_JunkPiles)}"
+        },
+        {
+            "name": "Cloth",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - Cloth| AND |Tech - Progressive Workbench|) OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "Charcoal",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Primitive Fire|"
+        },
+        {
+            "name": "High Quality Cloth",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - High Quality Cloth| AND |High Quality Work| AND |Player Beacon 7| AND |Wool|) OR ({YamlEnabled(Include_PalDrops)} AND |Player Beacon 8| AND (|Boss - Sibelyx| OR |Astral Beacon|)) OR (|Sibelyx Beacon| AND |Ranch|)"
+        },
+        {
+            "name": "Gunpowder",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - Gunpowder| AND |High Quality Work| AND |Charcoal| AND |Player Beacon 4|) OR ({YamlEnabled(Include_PalDrops)} AND (((|Twilight Beacon| OR |Bounty - Dyna|) AND |Player Beacon 4|) OR (|Sakurajima Beacon| AND |Player Beacon 8|) OR (|Dunes Beacon| AND |Player Beacon 6|)))"
+        },
+        {
+            "name": "Refined Ingot",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Improved Fire| AND |@Coal Place|"
+        },
+        {
+            "name": "Primitive Furnace",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 2| AND |Tech - Progressive Furnace| AND |Flame Organ|"
+        },
+        {
+            "name": "Improved Furnace",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 7| AND |Tech - Progressive Furnace:2| AND |Tech - Palbox| AND |Cement| AND |Flame Organ|"
+        },
+        {
+            "name": "Electric Furnace",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 9| AND |Tech - Progressive Furnace:3| AND |Tech - Palbox| AND |Refined Ingot| AND |Circuit Board| AND |Polymer| AND |Carbon Fiber|"
+        },
+        {
+            "name": "Gigantic Furnace",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 11| AND |Tech - Progressive Furnace:4| AND |Tech - Palbox| AND |Plasteel| AND |Flame Organ| AND |Polymer|"
+        },
+        {
+            "name": "Primitive Fire",
+            "region": "Primitive Fire",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Improved Fire",
+            "region": "Improved Fire",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Electric Fire",
+            "region": "Electric Fire",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Gigantic Fire",
+            "region": "Gigantic Fire",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Cement",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - Cement| AND |Bone| AND |High Quality Work| AND |Pal Fluids| AND |Player Beacon 4|) OR ({YamlEnabled(Include_JunkPiles)} AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Ranch",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Ranch| AND |Tech - Palbox|"
+        },
+        {
+            "name": "Flame Organ",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Ranch| AND (|Flambelle Beacon| OR |Kelpsea Ignis Beacon|)) OR {YamlEnabled(Include_PalDrops)} OR ({OptOne(|Membership Card|} AND |@Merchant Location|)"
+        },
+        {
+            "name": "Bone",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Ranch| AND (|Vixy Beacon| OR |Sootseer Beacon|)) OR {YamlEnabled(Include_PalDrops)} OR ({OptOne(|Membership Card|} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Pal Fluids",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Ranch| AND |Kelpsea Beacon|) OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "Leather",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "{YamlEnabled(Include_PalDrops)} OR ({OptOne(|Membership Card|} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Circuit Board",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - Circuit Board| AND |Productive Work| AND |Pure Quartz| AND |Polymer| AND |Player Beacon 7|) OR ({YamlEnabled(Include_JunkPiles)} AND (|Astral Beacon| OR |Cold Shore Beacon| OR |Sakurajima Beacon| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Pure Quartz",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Boss - Astegon| OR |Boss - Jetragon| OR |Boss - Frostallion Noct| OR |Wildlife 3 Beacon|)) OR |Astral Beacon| OR |Cold Shore Beacon| OR |Frostbound Beacon| OR |Frostbitten Beacon| OR |Glacial Beacon|"
+        },
+        {
+            "name": "Polymer",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - Polymer| AND |Productive Work| AND |High Quality Pal Oil| AND |Player Beacon 7|) OR ({YamlEnabled(Include_PalDrops)} AND (|Hot Volcano Beacon| OR |Boss - Neptilius|))"
+        },
+        {
+            "name": "High Quality Pal Oil",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Ranch| AND (|Dumud Beacon| OR |Dumud Gild Beacon|)) OR ({OptOne(|Membership Card|} AND (|Dunes Beacon| OR |Volcano Beacon|)) OR ({YamlEnabled(Include_PalDrops)} AND |Player Beacon 4|)"
+        },
+        {
+            "name": "Power Source",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Base Level 2| AND ((|Human-Powered Generator| AND |@Small Pal|) OR ((|Power Generator| OR |Large Power Generator|) AND |@Electricity|))"
+        },
+        {
+            "name": "Human-Powered Generator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |Tech - Human-Powered Generator| AND |Electric Organ|"
+        },
+        {
+            "name": "Power Generator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 5| AND |Tech - Power Generator| AND |Ingot| AND |Electric Organ|"
+        },
+        {
+            "name": "Large Power Generator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 10| AND |A.Tech - Large Power Generator| AND |Pal Metal Ingot| AND |Electric Organ|"
+        },
+        {
+            "name": "Electric Organ",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Grasslands Beacon| OR (|Wildlife 1 Beacon| AND |Player Beacon 4|) OR |Boss - Mossanda Lux| OR |Bamboo Beacon| OR |Boss - Univolt| OR (|Dunes Beacon| AND |Player Beacon 6|) OR (|Feybreak Beacon| AND |Player Beacon 12|) OR (|Sakurajima Beacon| AND |Player Beacon 10|))) OR ({OptOne(|Membership Card|} AND |@Merchant Location|)"
+        },
+        {
+            "name": "Pal Metal Ingot",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Electric Fire| OR ({YamlEnabled(Include_PalDrops)} AND (|Boss - Paladius| OR |Boss - Astegon| OR (|Wildlife 3 Beacon| AND |Player Beacon 10|))"
+        },
+        {
+            "name": "Carbon Fiber",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Player Beacon 7| AND |Tech - Carbon Fiber| AND |Productive Work|) OR ({YamlEnabled(Include_PalDrops)} AND (|Boss - Jetragon| OR |Boss - Neptilius| OR (|Wildlife 3 Beacon| AND |Player Beacon 10|))"
+        },
+        {
+            "name": "Cooking Pot",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 4| AND |Tech - Cooking Pot| AND |Ingot| AND |Flame Organ|"
+        },
+        {
+            "name": "Electric Kitchen",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 8| AND |Tech - Electric Kitchen| AND |Refined Ingot| AND |Circuit Board| AND |Charcoal| AND |Flame Organ|"
+        },
+        {
+            "name": "Large-Scale Stone Oven",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 10| AND |Tech - Large-Scale Stone Oven| AND |Cement| AND |Charcoal| AND |Flame Organ|"
+        },
+        {
+            "name": "Basic Cooking",
+            "region": "Basic Cooking",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Decent Cooking",
+            "region": "Decent Cooking",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Electric Cooking",
+            "region": "Electric Cooking",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Large-Scale Cooking",
+            "region": "Large-Scale Cooking",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Shoddy Bed",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Shoddy Bed| AND |Wool|"
+        },
+        {
+            "name": "Wool",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |@Merchant Location|) OR {YamlEnabled(Include_PalDrops)} OR ((|Lamball Beacon| OR |Melpaca Beacon| OR |Cremis Beacon|) AND |Ranch|)"
+        },
+        {
+            "name": "Base Foundation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Wooden Structure Set| OR (|Player Beacon 4| AND |Tech - Stone Structure Set|) OR (|Player Beacon 6| AND |Tech - Metal Structure Set| AND |Ingot|) OR (|Player Beacon 8| AND |Tech - Glass Structure Set|) OR (|Player Beacon 10| AND |Tech - Japanese-Style Structure Set|) OR (|Player Beacon 12| AND |Tech - Futuristic Structure Set| AND |Polymer|)"
+        },
+        {
+            "name": "Pal Gear Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 2| AND |Tech - Pal Gear Workbench| AND |Cloth|"
+        },
+        {
+            "name": "Cloth",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Tech - Cloth| AND |Tech - Progressive Workbench| AND |Wool|) OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "Hot Spring",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 2| AND |Tech - Hot Spring| AND |Pal Fluids|"
+        },
+        {
+            "name": "High Quality Hot Spring",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 6| AND |Tech - High Quality Hot Spring| AND |Cement|"
+        },
+        {
+            "name": "Medieval Medicine Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |Tech - Medieval Medicine Workbench| AND |Nail|"
+        },
+        {
+            "name": "Electric Medicine Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 9| AND |Tech - Electric Medicine Workbench| AND |Refined Ingot| AND |Circuit Board| AND |Carbon Fiber|"
+        },
+        {
+            "name": "Advanced Medicine Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Tech - Advanced Medicine Workbench| AND |Hexolite| AND |Plasteel| AND |Circuit Board|"
+        },
+        {
+            "name": "Medieval Medicine",
+            "region": "Medieval Medicine",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Electric Medicine",
+            "region": "Electric Medicine",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Advanced Medicine",
+            "region": "Advanced Medicine",
+            "category": [
+                "Crafting Possible"
+            ]
+        },
+        {
+            "name": "Hexolite",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 11| AND |Tech - Hexolite| AND |Gigantic Fire| AND |Feybreak Beacon| AND |Chromite|"
+        },
+        {
+            "name": "Chromite",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Feybreak Beacon| AND ((|Smokie Beacon| AND |Tech - Smokie's Harness| AND |Dark Fragment| AND |Leather| AND |Tech - Pal Gear Workbench| AND |Cloth|) OR (|Tech - Metal Detector| AND |Productive Work 2| AND |Plasteel| AND |Circuit Board|))) OR |Dark Cave of Feybreak| OR ({YamlEnabled(Include_PalDrops)} AND |Boss - Silvegis|)"
+        },
+        {
+            "name": "Plasteel",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 10| AND |Tech - Plasteel| AND |Electric Fire| AND |Crude Oil|"
+        },
+        {
+            "name": "Crude Oil",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Crude Oil Extractor| AND |Tech - Palbox| AND |Power Source| AND |@Crude Oil|) OR ({YamlEnabled(Include_PalDrops)} AND ((|Sakurajima Beacon| AND |Player Beacon 10|) OR (|Feybreak Beacon| AND |Player Beacon 12|) OR (|Astral Beacon| AND |Player Beacon 8|))"
+        },
+        {
+            "name": "Crude Oil Extractor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 10| AND |Tech - Crude Oil Extractor| AND |Pal Metal Ingot| AND |Circuit Board|"
+        },
+        {
+            "name": "Cooler Box",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |Tech - Cooler Box| AND |Ingot| AND |Ice Organ|"
+        },
+        {
+            "name": "Ice Organ",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |Dunes Beacon|) OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "Sphere Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |Tech - Sphere Workbench| AND |Nail|"
+        },
+        {
+            "name": "Sphere Assembly Line",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 6| AND |Tech - Sphere Assembly Line| AND |Ingot| AND |Nail|"
+        },
+        {
+            "name": "Advanced Sphere Assembly Line",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Tech - Advanced Sphere Assembly Line| AND |Hexolite| AND |Plasteel| AND |Circuit Board| AND |Nail|"
+        },
+        {
+            "name": "Weapon Workbench",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 4| AND |Tech - Weapon Workbench| AND |Ingot| AND |Nail|"
+        },
+        {
+            "name": "Weapon Assembly Line",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 6| AND |Tech - Weapon Assembly Line| AND |Ingot| AND |Nail| AND |High Quality Pal Oil|"
+        },
+        {
+            "name": "Weapon Assembly Line II",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 10| AND |Tech - Weapon Assembly Line II| AND |Refined Ingot| AND |Circuit Board| AND |Nail|"
+        },
+        {
+            "name": "Coralum Ingot",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Gigantic Fire| AND |Tech - Coralum Ingot| AND |@Coal Place| AND |Coralum Ore|"
+        },
+        {
+            "name": "Coralum Ore",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Whalaska Beacon| OR |Boss - Whalaska Ignis|)) OR |Salvage|"
+        },
+        {
+            "name": "Salvage",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Tech - Powerful Fishing Magnet| AND |Hexolite| AND |Productive Work 2| AND |WaterMount|"
+        },
+        {
+            "name": "Mount",
+            "category": [
+                "Mounts"
+            ],
+            "requires": "({YamlEnabled(Require_AnyMount)} AND (|GroundMount| OR |WaterMount| OR |SkyMount|)) OR ({YamlDisabled(Require_AnyMount)} AND (|WaterMount| OR |SkyMount|))"
+        },
+        {
+            "name": "GroundMount",
+            "region": "Rideable Ground Mount",
+            "category": [
+                "Mounts"
+            ]
+        },
+        {
+            "name": "WaterMount",
+            "region": "Rideable Water Mount",
+            "category": [
+                "Mounts"
+            ]
+        },
+        {
+            "name": "SkyMount",
+            "region": "Rideable Sky Mount",
+            "category": [
+                "Mounts"
+            ]
+        },
+        {
+            "name": "Venom Gland",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |@Merchant Location|) OR {YamlEnabled(Include_PalDrops)} OR (|Caprity Noct Beacon| AND |Ranch|)"
+        },
+        {
+            "name": "Horn",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|)) OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "Pal Labor Research Laboratory",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 4| AND |Tech - Pal Labor Research Laboratory| AND |Ingot|"
+        },
+        {
+            "name": "Fluffy Pal Bed",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 5| AND |Tech - Fluffy Pal Bed| AND |Cloth| AND |Nail|"
+        },
+        {
+            "name": "Large Pal Bed",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 8| AND |Tech - Large Pal Bed| AND |High Quality Cloth| AND |Nail|"
+        },
+        {
+            "name": "PalEggs",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Tech - Palbox| AND (|Egg Incubator| OR |Large Incubator| OR (|Power Source| AND (|Large-Scale Electric Egg Incubator| OR |Electric Egg Incubator|)))"
+        },
+        {
+            "name": "Egg Incubator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 2| AND |A.Tech - Progressive Egg Incubator| AND |Cloth|"
+        },
+        {
+            "name": "Electric Egg Incubator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 8| AND |A.Tech - Progressive Egg Incubator:2| AND |Refined Ingot| AND |Circuit Board| AND |Ancient Civilization Core|"
+        },
+        {
+            "name": "Large Incubator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 10| AND |A.Tech - Progressive Egg Incubator:3| AND |Pal Metal Ingot| AND |Cloth| AND |Ancient Civilization Core|"
+        },
+        {
+            "name": "Large-Scale Electric Egg Incubator",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |A.Tech - Progressive Egg Incubator:4| AND |Hexolite| AND |Circuit Board| AND |Ancient Civilization Core|"
+        },
+        {
+            "name": "Refined Metal Chest",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 8| AND |Tech - Refined Metal Chest| AND |Refined Ingot| AND |Nail|"
+        },
+        {
+            "name": "Cold Food Box",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 11| AND |Tech - Cold Food Box| AND |Pal Metal Ingot| AND |Plasteel| AND |Ice Organ|"
+        },
+        {
+            "name": "Refrigerated Crusher",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 11| AND |Tech - Refrigerated Crusher| AND |Pal Metal Ingot| AND |Plasteel| AND |Ice Organ|"
+        },
+        {
+            "name": "CavernMushroom",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|@Dungeon Beacons| OR |Verdant Hollow| OR |Forest's Secret Realm| OR |Blazing Cavern| OR |Desert’s Hidden Sanctum|"
+        },
+        {
+            "name": "MysteriousMushroom",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Sakurajima Beacon| OR ({YamlEnabled(Include_PalDrops)} AND |Feybreak Frost Beacon|)"
+        },
+        {
+            "name": "CottonCandy",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({YamlEnabled(Include_PalDrops)} AND |Bamboo Beacon|) OR (|Woolipop Beacon| AND |Ranch|)"
+        },
+        {
+            "name": "Pal Expedition Station",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Pal Expedition Station| AND |Player Beacon 3|"
+        },
+        {
+            "name": "Verdant Hollow",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Zoe|"
+        },
+        {
+            "name": "Forest's Secret Realm",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Lily|"
+        },
+        {
+            "name": "Blazing Cavern",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Axel|"
+        },
+        {
+            "name": "Desert’s Hidden Sanctum",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Marcus|"
+        },
+        {
+            "name": "Astral Frost Cavern",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Victor|"
+        },
+        {
+            "name": "Celestial Sakura Cavern",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Saya|"
+        },
+        {
+            "name": "Dark Cave of Feybreak",
+            "category": [
+                "Expeditions"
+            ],
+            "requires": "|Pal Expedition Station| AND |Bjorn|"
+        },
+        {
+            "name": "Zoe",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Zoe's Key| AND |Grasslands Beacon| AND |@Pal Beacons| AND |Player Beacon 2|"
+        },
+        {
+            "name": "Lily",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Lily's Key| AND |Frostbound Beacon| AND {OptOne(|Player Level:25|)} AND |Player Beacon 5| AND |@Pal Beacons|"
+        },
+        {
+            "name": "Axel",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Axel's Key| AND |Hot Volcano Beacon| AND {OptOne(|Player Level:40|)} AND |Player Beacon 8| AND |@Pal Beacons|"
+        },
+        {
+            "name": "Marcus",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Marcus's Key| AND |Dunes Beacon| AND {OptOne(|Player Level:45|)} AND |Player Beacon 9| AND |@Pal Beacons|"
+        },
+        {
+            "name": "Victor",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Victor's Key| AND |Astral Beacon| AND {OptOne(|Player Level:50|)} AND |Player Beacon 10| AND |@Pal Beacons|"
+        },
+        {
+            "name": "Saya",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Saya's Key| AND |Sakurajima Beacon| AND {OptOne(|Player Level:55|)} AND |Player Beacon 11| AND |@Pal Beacons|"
+        },
+        {
+            "name": "Bjorn",
+            "category": [
+                "Tower Boss"
+            ],
+            "requires": "|Bjorn's Key| AND |Feybreak Frost Beacon| AND {OptOne(|Player Level:60|)} AND |Player Beacon 12| AND |@Pal Beacons| AND |Boss - Omascul| AND |Boss - Caprity Noct| AND |Boss - Dazzi Noct|"
+        },
+        {
+            "name": "Pal Pod",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Tech - Pal Pod| AND |Hexolite| AND |Pal Fluids| AND |Circuit Board|"
+        },
+        {
+            "name": "Advanced Chest",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 12| AND |Tech - Advanced Chest| AND |Hexolite| AND |Carbon Fiber| AND |Nail|"
+        },
+        {
+            "name": "TomatoSeeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND (|Dunes Beacon| OR |Volcano Beacon|)) OR ({YamlEnabled(Include_PalDrops)} AND ((|Dunes Beacon| AND |Player Beacon 8|) OR (|Player Beacon 4| AND |Mossanda Beacon|) OR |Boss - Vaelet| OR |Boss - Wumpo Botan| OR (|Wildlife 2 Beacon| AND |Player Beacon 8|) OR (|Wildlife 1 Beacon| AND |Player Beacon 4|)))"
+        },
+        {
+            "name": "Tomatoes",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tomato Plantation| OR ({OptOne(|Membership Card|)} AND (|Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Tomato Plantation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Tomato Plantation| AND |TomatoSeeds| AND |Pal Fluids| AND |Player Beacon 5|"
+        },
+        {
+            "name": "Flours",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Mill| AND |Wheats| AND |@Watering| AND |Player Beacon 2|"
+        },
+        {
+            "name": "Wheats",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Wheat Plantation|"
+        },
+        {
+            "name": "WheatSeeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |@Merchant Location|) OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "Wheat Plantation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Wheat Plantation| AND |WheatSeeds| AND |Player Beacon 3|"
+        },
+        {
+            "name": "Eggs",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |@Merchant Location|) OR {YamlEnabled(Include_PalDrops)} OR (|Chikipi Beacon| AND |Ranch|)"
+        },
+        {
+            "name": "Milks",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND |@Merchant Location|) OR ({YamlEnabled(Include_PalDrops)} AND |Bamboo Beacon|) OR (|Mozzarina Beacon| AND |Ranch|)"
+        },
+        {
+            "name": "LettuceSeeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND (|Dunes Beacon| OR |Volcano Beacon|)) OR ({YamlEnabled(Include_PalDrops)} AND (|Crescent Beacon| OR (|Player Beacon 8| AND |Oasis Beacon|) OR |Boss - Broncherry Aqua| OR |Boss - Wumpo Botan| OR (|Wildlife 2 Beacon| AND |Player Beacon 8|)))"
+        },
+        {
+            "name": "Lettuces",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Lettuce Plantation| OR ({OptOne(|Membership Card|)} AND (|Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Lettuce Plantation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Lettuce Plantation| AND |Pal Fluids| AND |LettuceSeeds| AND |Player Beacon 5|"
+        },
+        {
+            "name": "Honeys",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Beegarde Beacon| AND |Ranch|) OR ({YamlEnabled(Include_PalDrops)} AND ((|Crescent Beacon| OR |Boss - Warsect| OR (|Feybreak Beacon| AND |Player Beacon 10|) OR (|Forest Beacon| AND |Player Beacon 4|)))"
+        },
+        {
+            "name": "ChikipiPoultry",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Verdant Hollow| OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "LamballMutton",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Verdant Hollow| OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "RawKelpsea",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Blazing Cavern| OR ({YamlEnabled(Include_PalDrops)} AND (|Bamboo Beacon| OR |Grasslands Beacon|) OR (|Fishing| AND |Kelpsea Beacon|))"
+        },
+        {
+            "name": "GaleclawPoultry",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Forest's Secret Realm| OR ({YamlEnabled(Include_PalDrops)} AND (|Bamboo Beacon| OR |Crescent Beacon|))"
+        },
+        {
+            "name": "RushoarPork",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Forest's Secret Realm| OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "RawDumud",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Desert’s Hidden Sanctum| OR ({YamlEnabled(Include_PalDrops)} AND (|Twilight Beacon| OR |Volcano Beacon|) OR (|Fishing| AND |Dumud Gild Beacon|))"
+        },
+        {
+            "name": "EikthyrdeerVenison",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Desert’s Hidden Sanctum| OR {YamlEnabled(Include_PalDrops)}"
+        },
+        {
+            "name": "ReindrixVenison",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Astral Frost Cavern| OR ({YamlEnabled(Include_PalDrops)} AND (|Twilight Beacon| OR (|Volcano Beacon| AND |Player Beacon 6|)) OR (|Fishing| AND |Dumud Gild Beacon|))"
+        },
+        {
+            "name": "CaprityMeat",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Blazing Cavern| OR ({YamlEnabled(Include_PalDrops)} AND (|Sea Breeze Beacon| OR |Ice Wind Beacon| OR (|Cold Shore Beacon| AND |Player Beacon 7|) OR |Grasslands Beacon| OR |Eastern Wild Beacon|))"
+        },
+        {
+            "name": "MozzarinaMeat",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Celestial Sakura Cavern| OR ({YamlEnabled(Include_PalDrops)} AND |Bamboo Beacon| AND |Player Beacon 3|)"
+        },
+        {
+            "name": "BroncherryMeat",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Celestial Sakura Cavern| OR |Dark Cave of Feybreak|) OR ({YamlEnabled(Include_PalDrops)} AND ((|Bamboo Beacon| AND |Player Beacon 3|) OR |Boss - Broncherry| OR |Boss - Broncherry Aqua|))"
+        },
+        {
+            "name": "MammorestMeat",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Astral Frost Cavern| OR |Dark Cave of Feybreak|) OR ({YamlEnabled(Include_PalDrops)} AND (((|Bamboo Beacon| OR |Forgotten Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon| OR |Cold Shore Beacon|) AND |Player Beacon 6|) OR |Boss - Mammorest|))"
+        },
+        {
+            "name": "MunchillMeat",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Fishing| AND (|Glacial Beacon| OR |Frostbound Beacon| OR |Frostbitten Beacon| OR |Feybreak Frost Beacon|)"
+        },
+        {
+            "name": "OnionSeeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Crescent Beacon| AND |Player Beacon 4|) OR ((|Eastern Wild Beacon| OR |Forest Beacon| OR |Cold Shore Beacon|) AND |Player Beacon 5|) OR |Boss - Vaelet| OR (|Wildlife 1 Beacon| AND |Player Beacon 4|)"
+        },
+        {
+            "name": "Onions",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Onion Plantation|"
+        },
+        {
+            "name": "Onion Plantation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Onion Plantation| AND |Pal Fluids| AND |OnionSeeds| AND |Player Beacon 8|"
+        },
+        {
+            "name": "CarrotSeeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Ice Wind Beacon| OR |Grasslands Beacon| OR |Eastern Wild Beacon| OR (|Sakurajima Beacon| AND |Player Beacon 10|) OR (|Dunes Beacon| AND |Player Beacon 9|)"
+        },
+        {
+            "name": "Carrots",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Carrot Plantation|"
+        },
+        {
+            "name": "Carrot Plantation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Carrot Plantation| AND |Pal Fluids| AND |CarrotSeeds| AND |Player Beacon 7|"
+        },
+        {
+            "name": "PotatoSeeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Sakurajima Beacon| AND |Player Beacon 10|) OR (|Crescent Beacon| AND |Player Beacon 4|) OR (|Dunes Beacon| AND |Player Beacon 9|) OR (|Bamboo Beacon| AND |Player Beacon 3|) OR |Boss - Broncherry| OR (|Feybreak Beacon| AND |Player Beacon 11|)"
+        },
+        {
+            "name": "Potatoes",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Potato Plantation|"
+        },
+        {
+            "name": "Potato Plantation",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Palbox| AND |Tech - Potato Plantation| AND |Pal Fluids| AND |PotatoSeeds| AND |Player Beacon 6|"
+        },
+        {
+            "name": "GloopieTentacle",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "(|Fishing| AND (|Volcano Beacon| OR |Sakurajima Beacon| OR |Wildlife 2 Beacon|)) OR |Decayed Beacon|"
+        },
+        {
+            "name": "JellietteBellFlesh",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Fishing|"
+        },
+        {
+            "name": "JellroyBellFlesh",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Fishing| OR |Phantom Beacon|"
+        },
+        {
+            "name": "Beautiful Flower",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Wildlife 1 Beacon| OR |Wildlife 2 Beacon| OR |Wildlife 3 Beacon| OR ({YamlEnabled(Include_PalDrops)} AND (|Boss - Petallia| OR |Sea Breeze Beacon| OR |Eastern Wild Beacon| OR |Ice Wind Beacon| OR (|Bamboo Beacon| AND |Player Beacon 3|) OR (|Astral Beacon| AND |Player Beacon 8|) OR |Boss - Wumpo Botan| OR (|Sakurajima Beacon| AND |Player Beacon 10|) OR (|Feybreak Beacon| AND |Player Beacon 11|)))"
+        },
+        {
+            "name": "Meteorite Fragment",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Player Beacon 4|"
+        },
+        {
+            "name": "Dark Fragment",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Feybreak Beacon|"
+        },
+        {
+            "name": "Ancient Civilization Core",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "({YamlEnabled(Include_PalDrops)} AND |@Raid Boss|) OR |Astral Frost Cavern| OR |Celestial Sakura Cavern| OR |Dark Cave of Feybreak|"
         },
         {
             "name": "Hot Armor",
-            "requires": "(|Tech - Progressive Workbench| AND |Tech - Tropical Outfit|) OR (|Tech - Progressive Workbench:2| AND |Tech - Heat Resistant Pelt Armor|) OR (|Tech - Progressive Workbench:2| AND |Tech - Heat Resistant Metal Armor| AND |@Kindling| AND |Tech - Progressive Furnace|)"
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Flame Organ| AND ((|Tech - Tropical Outfit| AND |Cloth| AND |Tech - Progressive Workbench|) OR (|Tech - Heat Resistant Pelt Armor| AND |Leather| AND |High Quality Work|) OR (|Tech - Heat Resistant Metal Armor| AND |Ingot| AND |Leather| AND |Cloth| AND |High Quality Work|) OR (|Tech - Heat Resistant Refined Metal Armor| AND |Refined Ingot| AND |Leather| AND |High Quality Cloth| AND |Productive Work|) OR (|Tech - Heat Resistant Pal Metal Armor| AND |Pal Metal Ingot| AND |Leather| AND |High Quality Cloth| AND |Productive Work 2|) OR (|Tech - Heat Resistant Plasteel Armor| AND |Plasteel| AND |Pal Metal Ingot| AND |High Quality Cloth| AND |Productive Work 2|) OR (|Tech - Heat Resistant Hexolite Armor| AND |Hexolite| AND |Plasteel| AND |High Quality Cloth| AND |Productive Work 2|))"
         },
         {
             "name": "Cold Armor",
-            "requires": "(|Tech - Progressive Workbench| AND |Tech - Tundra Outfit|) OR (|Tech - Progressive Workbench:2| AND |Tech - Cold Resistant Pelt Armor|) OR (|Tech - Progressive Workbench:2| AND |Tech - Cold Resistant Metal Armor| AND |@Kindling| AND |Tech - Progressive Furnace|)"
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Ice Organ| AND ((|Tech - Tundra Outfit| AND |Cloth| AND |Tech - Progressive Workbench|) OR (|Tech - Cold Resistant Pelt Armor| AND |Leather| AND |High Quality Work|) OR (|Tech - Cold Resistant Metal Armor| AND |Ingot| AND |Leather| AND |Cloth| AND |High Quality Work|) OR (|Tech - Cold Resistant Refined Metal Armor| AND |Refined Ingot| AND |Leather| AND |High Quality Cloth| AND |Productive Work|) OR (|Tech - Cold Resistant Pal Metal Armor| AND |Pal Metal Ingot| AND |Leather| AND |High Quality Cloth| AND |Productive Work 2|) OR (|Tech - Cold Resistant Plasteel Armor| AND |Plasteel| AND |Pal Metal Ingot| AND |High Quality Cloth| AND |Productive Work 2|) OR (|Tech - Cold Resistant Hexolite Armor| AND |Hexolite| AND |Plasteel| AND |High Quality Cloth| AND |Productive Work 2|))"
+        },
+        {
+            "name": "Cakes",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "({OptOne(|Cake Recipe|)} AND |Flours| AND |Milks| AND |Honeys| AND |Decent Cooking|) OR ({YamlEnabled(Lovander_Cake)} AND ((|Twilight Beacon| AND |Player Beacon 3|) OR (|Dunes Beacon| AND |Player Beacon 8|)))"
+        },
+        {
+            "name": "Cloth Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Cloth| AND |Tech - Progressive Workbench| AND (|Tech - Cloth Outfit| OR (|Tech - Tundra Outfit| AND |Ice Organ|) OR (|Tech - Tropical Outfit| AND |Flame Organ|))"
+        },
+        {
+            "name": "Pelt Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Leather| AND |High Quality Work| AND (|Tech - Pelt Armor| OR (|Tech - Cold Resistant Pelt Armor| AND |Ice Organ|) OR (|Tech - Heat Resistant Pelt Armor| AND |Flame Organ|))"
+        },
+        {
+            "name": "Metal Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Ingot| AND |Leather| AND |Cloth| AND |High Quality Work| AND (|Tech - Metal Armor| OR (|Tech - Cold Resistant Metal Armor| AND |Ice Organ|) OR (|Tech - Heat Resistant Metal Armor| AND |Flame Organ|))"
+        },
+        {
+            "name": "Refined Metal Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Refined Ingot| AND |Leather| AND |High Quality Cloth| AND |Productive Work| AND (|Tech - Refined Metal Armor| OR (|Tech - Cold Resistant Refined Metal Armor| AND |Ice Organ|) OR (|Tech - Heat Resistant Refined Metal Armor| AND |Flame Organ|))"
+        },
+        {
+            "name": "Pal Metal Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Pal Metal Ingot| AND |Leather| AND |High Quality Cloth| AND |Productive Work 2| AND (|Tech - Pal Metal Armor| OR (|Tech - Cold Resistant Pal Metal Armor| AND |Ice Organ|) OR (|Tech - Heat Resistant Pal Metal Armor| AND |Flame Organ|))"
+        },
+        {
+            "name": "Plasteel Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Plasteel| AND |Pal Metal Ingot| AND |High Quality Cloth| AND |Productive Work 2| AND (|Tech - Plasteel Armor| OR (|Tech - Cold Resistant Plasteel Armor| AND |Ice Organ|) OR (|Tech - Heat Resistant Plasteel Armor| AND |Flame Organ|))"
+        },
+        {
+            "name": "Hexolite Armor",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Hexolite| AND |Plasteel| AND |High Quality Cloth| AND |Productive Work 2| AND (|Tech - Hexolite Armor| OR (|Tech - Cold Resistant Hexolite Armor| AND |Ice Organ|) OR (|Tech - Heat Resistant Hexolite Armor| AND |Flame Organ|))"
+        },
+        {
+            "name": "Pal Essence Condenser",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Player Beacon 3| AND |A.Tech - Pal Essence Condenser| AND |Tech - Palbox| AND |Ingot|"
+        },
+        {
+            "name": "Handiwork Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Handiwork| AND (|Applied Handiwork Technique I| OR |Pal Essence Condenser|)) OR |@Handiwork Level 2| OR |@Handiwork Level 3| OR |@Handiwork Level 4|"
+        },
+        {
+            "name": "Handiwork Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Handiwork Level 2| AND (|Applied Handiwork Technique I| OR |Pal Essence Condenser|)) OR |@Handiwork Level 3| OR |@Handiwork Level 4|"
+        },
+        {
+            "name": "Handiwork Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Handiwork Level 3| AND (|Applied Handiwork Technique I| OR |Pal Essence Condenser|)) OR |@Handiwork Level 4|"
+        },
+        {
+            "name": "Kindling Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Kindling| AND (|Applied Kindling Technique I| OR |Pal Essence Condenser|)) OR |@Kindling Level 2| OR |@Kindling Level 3| OR |@Kindling Level 4|"
+        },
+        {
+            "name": "Kindling Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Kindling Level 2| AND (|Applied Kindling Technique I| OR |Pal Essence Condenser|)) OR |@Kindling Level 3| OR |@Kindling Level 4|"
+        },
+        {
+            "name": "Kindling Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Kindling Level 3| AND (|Applied Kindling Technique I| OR |Pal Essence Condenser|)) OR |@Kindling Level 4|"
+        },
+        {
+            "name": "Watering Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Watering| AND (|Applied Watering Technique I| OR |Pal Essence Condenser|)) OR |@Watering Level 2| OR |@Watering Level 3| OR |@Watering Level 4|"
+        },
+        {
+            "name": "Watering Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Watering Level 2| AND (|Applied Watering Technique I| OR |Pal Essence Condenser|)) OR |@Watering Level 3| OR |@Watering Level 4|"
+        },
+        {
+            "name": "Watering Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Watering Level 3| AND (|Applied Watering Technique I| OR |Pal Essence Condenser|)) OR |@Watering Level 4|"
+        },
+        {
+            "name": "Planting Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Planting| AND (|Applied Planting Technique I| OR |Pal Essence Condenser|)) OR |@Planting Level 2| OR |@Planting Level 3| OR |@Planting Level 4|"
+        },
+        {
+            "name": "Planting Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Planting Level 2| AND (|Applied Planting Technique I| OR |Pal Essence Condenser|)) OR |@Planting Level 3| OR |@Planting Level 4|"
+        },
+        {
+            "name": "Planting Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Planting Level 3| AND (|Applied Planting Technique I| OR |Pal Essence Condenser|)) OR |@Planting Level 4|"
+        },
+        {
+            "name": "Electricity Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Electricity| AND (|Applied Generating Electricity Technique I| OR |Pal Essence Condenser|)) OR |@Electricity Level 2| OR |@Electricity Level 3| OR |@Electricity Level 4|"
+        },
+        {
+            "name": "Electricity Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Electricity Level 2| AND (|Applied Generating Electricity Technique I| OR |Pal Essence Condenser|)) OR |@Electricity Level 3| OR |@Electricity Level 4|"
+        },
+        {
+            "name": "Electricity Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Electricity Level 3| AND (|Applied Generating Electricity Technique I| OR |Pal Essence Condenser|)) OR |@Electricity Level 4|"
+        },
+        {
+            "name": "Lumbering Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Lumbering| AND (|Applied Lumbering Technique I| OR |Pal Essence Condenser|)) OR |@Lumbering Level 2| OR |@Lumbering Level 3| OR |@Lumbering Level 4|"
+        },
+        {
+            "name": "Lumbering Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Lumbering Level 2| AND (|Applied Lumbering Technique I| OR |Pal Essence Condenser|)) OR |@Lumbering Level 3| OR |@Lumbering Level 4|"
+        },
+        {
+            "name": "Lumbering Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Lumbering Level 3| AND (|Applied Lumbering Technique I| OR |Pal Essence Condenser|)) OR |@Lumbering Level 4|"
+        },
+        {
+            "name": "Mining Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Mining| AND (|Applied Mining Technique I| OR |Pal Essence Condenser|)) OR |@Mining Level 2| OR |@Mining Level 3| OR |@Mining Level 4|"
+        },
+        {
+            "name": "Mining Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Mining Level 2| AND (|Applied Mining Technique I| OR |Pal Essence Condenser|)) OR |@Mining Level 3| OR |@Mining Level 4|"
+        },
+        {
+            "name": "Mining Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Mining Level 3| AND (|Applied Mining Technique I| OR |Pal Essence Condenser|)) OR |@Mining Level 4|"
+        },
+        {
+            "name": "Cooling Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Cooling| AND (|Applied Cooling Technique I| OR |Pal Essence Condenser|)) OR |@Cooling Level 2| OR |@Cooling Level 3| OR |@Cooling Level 4|"
+        },
+        {
+            "name": "Cooling Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Cooling Level 2| AND (|Applied Cooling Technique I| OR |Pal Essence Condenser|)) OR |@Cooling Level 3| OR |@Cooling Level 4|"
+        },
+        {
+            "name": "Cooling Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Cooling Level 3| AND (|Applied Cooling Technique I| OR |Pal Essence Condenser|)) OR |@Cooling Level 4|"
+        },
+        {
+            "name": "Medicine Level 2+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Medicine| AND (|Applied Medicine Production Technique I| OR |Pal Essence Condenser|)) OR |@Medicine Level 2| OR |@Medicine Level 3| OR ({YamlEnabled(Enable_Raid_Pals)} AND |@Medicine Level 4|)"
+        },
+        {
+            "name": "Medicine Level 3+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Medicine Level 2| AND (|Applied Medicine Production Technique I| OR |Pal Essence Condenser|)) OR |@Medicine Level 3| OR ({YamlEnabled(Enable_Raid_Pals)} AND |@Medicine Level 4|)"
+        },
+        {
+            "name": "Medicine Level 4+",
+            "category": [
+                "Work Possible"
+            ],
+            "requires": "(|@Medicine Level 3| AND (|Applied Medicine Production Technique I| OR |Pal Essence Condenser|)) OR ({YamlEnabled(Enable_Raid_Pals)} AND |@Medicine Level 4|)"
+        },
+        {
+            "name": "Ancient Pal Manuscript",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "({OptOne(|Bounty Hunter Card|)} AND |@Bounty Shop| AND |@Bounties|) OR |Verdant Hollow| OR |Forest's Secret Realm| OR |Blazing Cavern| OR |Desert’s Hidden Sanctum| OR |Astral Frost Cavern| OR |Celestial Sakura Cavern| OR |Dark Cave of Feybreak|"
+        },
+        {
+            "name": "Gumoss Leaf",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "|Forgotten Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon| OR (|Bamboo Beacon| AND |Player Beacon 3|)"
+        },
+        {
+            "name": "Swee Hair",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "(|Bamboo Beacon| AND |Player Beacon 3|) OR (|Frostbound Beacon| AND |Player Beacon 5|)"
+        },
+        {
+            "name": "Dazzi Cloud",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "(|Dunes Beacon| AND |Player Beacon 8|) OR (|Feybreak Beacon| AND |Player Beacon 11|)"
+        },
+        {
+            "name": "LowGradeMedicalSupplies",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Medieval Medicine| AND |Horn|) OR ({YamlEnabled(Include_PalDrops)} AND (|Forgotten Beacon| OR |Sea Breeze Beacon| OR |Grasslands Beacon| OR |Marsh Beacon| OR (|Bamboo Beacon| AND |Player Beacon 3|) OR (|Crescent Beacon| AND |Player Beacon 4|))) OR ({OptOne(|Membership Card|} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "MedicalSupplies",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Medieval Medicine| AND |Ingot| AND |Horn| AND |Bone|) OR ({OptOne(|Membership Card|} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "HighGradeMedicalSupplies",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "(|Medieval Medicine| AND |Ingot| AND |Horn| AND |Bone|) OR ({OptOne(|Membership Card|} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|))"
+        },
+        {
+            "name": "Bone",
+            "category": [
+                "Gathering Possible"
+            ],
+            "requires": "({OptOne(|Membership Card|)} AND (|@Merchant Location| OR |Dunes Beacon| OR |Volcano Beacon|)) OR {YamlEnabled(Include_PalDrops)} OR (|Ranch| AND (|Vixy Beacon| OR |Sootseer Beacon|))"
+        },
+        {
+            "name": "RecoveryMeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Medieval Medicine| AND |CavernMushroom| AND |Pal Fluids| AND |CottonCandy|"
+        },
+        {
+            "name": "HighQualityRecoveryMeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Electric Medicine| AND |CavernMushroom| AND |High Quality Pal Oil| AND |CottonCandy|"
+        },
+        {
+            "name": "AdvancedRecoveryMeds",
+            "category": [
+                "Crafting Possible"
+            ],
+            "requires": "|Tech - Advanced Recovery Meds| AND |Advanced Medicine| AND |CavernMushroom| AND |High Quality Pal Oil| AND |CottonCandy|"
         }
     ]
 }

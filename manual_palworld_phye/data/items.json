@@ -5,8 +5,7 @@
         "category": [
             "Build - Storage"
         ],
-        "progression": true,
-        "early": true
+        "progression": true
     },
     {
         "count": 5,
@@ -70,7 +69,7 @@
         "category": [
             "Build - Pal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -325,8 +324,7 @@
         "count": 1,
         "name": "Tech - Wooden Structure Set",
         "category": [
-            "Build - Foundations",
-            "Base Foundations"
+            "Build - Foundations"
         ],
         "progression": true
     },
@@ -334,8 +332,7 @@
         "count": 1,
         "name": "Tech - Stone Structure Set",
         "category": [
-            "Build - Foundations",
-            "Base Foundations"
+            "Build - Foundations"
         ],
         "progression": true
     },
@@ -343,8 +340,7 @@
         "count": 1,
         "name": "Tech - Metal Structure Set",
         "category": [
-            "Build - Foundations",
-            "Base Foundations"
+            "Build - Foundations"
         ],
         "progression": true
     },
@@ -352,8 +348,7 @@
         "count": 1,
         "name": "Tech - Glass Structure Set",
         "category": [
-            "Build - Foundations",
-            "Base Foundations"
+            "Build - Foundations"
         ],
         "progression": true
     },
@@ -361,8 +356,7 @@
         "count": 1,
         "name": "Tech - Japanese-Style Structure Set",
         "category": [
-            "Build - Foundations",
-            "Base Foundations"
+            "Build - Foundations"
         ],
         "progression": true
     },
@@ -370,8 +364,7 @@
         "count": 1,
         "name": "Tech - Futuristic Structure Set",
         "category": [
-            "Build - Foundations",
-            "Base Foundations"
+            "Build - Foundations"
         ],
         "progression": true
     },
@@ -381,6 +374,10 @@
         "category": [
             "Spheres"
         ],
+        "classification_count": {
+            "progression": 1,
+            "useful": 6
+        },
         "progression": true
     },
     {
@@ -397,7 +394,11 @@
         "category": [
             "Armor - Shields"
         ],
-        "progression_skip_balancing": true
+        "classification_count": {
+            "progression": 1,
+            "useful": 5
+        },
+        "progression": true
     },
     {
         "count": 4,
@@ -405,7 +406,11 @@
         "category": [
             "Gliders"
         ],
-        "progression_skip_balancing": true
+        "classification_count": {
+            "progression": 1,
+            "useful": 3
+        },
+        "progression": true
     },
     {
         "count": 1,
@@ -419,7 +424,8 @@
         "count": 1,
         "name": "Tech - Rushoar Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -427,7 +433,8 @@
         "count": 1,
         "name": "Tech - Melpaca Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -435,9 +442,10 @@
         "count": 1,
         "name": "Tech - Celaray's Gloves",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Gliders"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -459,7 +467,8 @@
         "count": 1,
         "name": "Tech - Direhowl's Saddled Harness",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -467,15 +476,17 @@
         "count": 1,
         "name": "Tech - Killamari's Gloves",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Gliders"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
         "name": "Tech - Surfent Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
         "progression": true
     },
@@ -507,7 +518,8 @@
         "count": 1,
         "name": "Tech - Eikthyrdeer Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -515,15 +527,17 @@
         "count": 1,
         "name": "Tech - Grintale Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Chillet Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -531,7 +545,8 @@
         "count": 1,
         "name": "Tech - Sweepa Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -539,15 +554,17 @@
         "count": 1,
         "name": "Tech - Univolt Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Nitewing Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
         "progression": true
     },
@@ -555,9 +572,10 @@
         "count": 1,
         "name": "Tech - Arsox Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -587,7 +605,8 @@
         "count": 1,
         "name": "Tech - Dinossom Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -595,9 +614,10 @@
         "count": 1,
         "name": "Tech - Broncherry Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -611,15 +631,17 @@
         "count": 1,
         "name": "Tech - Hangyu's Gloves",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Gliders"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
         "name": "Tech - Elphidran Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
         "progression": true
     },
@@ -627,7 +649,8 @@
         "count": 1,
         "name": "Tech - Vanwyrm Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
         "progression": true
     },
@@ -635,7 +658,8 @@
         "count": 1,
         "name": "Tech - Kingpaca Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -651,15 +675,17 @@
         "count": 1,
         "name": "Tech - Dazemu Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Maraith Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -667,9 +693,10 @@
         "count": 1,
         "name": "Tech - Galeclaw's Gloves",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Gliders"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -683,39 +710,44 @@
         "count": 1,
         "name": "Tech - Mossanda's Grenade Launcher",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Azurobe Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Surfent Terra Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Eikthyrdeer Terra Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Fenglope Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -723,25 +755,28 @@
         "count": 1,
         "name": "Tech - Mossanda Lux's Grenade Launcher",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
     {
         "count": 1,
-        "name": "Tech - Broncherry Aqua's Saddle",
+        "name": "Tech - Broncherry Aqua Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Rayhound Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -753,73 +788,82 @@
     },
     {
         "count": 1,
-        "name": "Tech - Elphidran Aqua's Saddle",
+        "name": "Tech - Elphidran Aqua Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Tarantriss Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Mammorest Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Reindrix Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
-        "name": "Tech - Azurobe Cryst  Saddle",
+        "name": "Tech - Azurobe Cryst Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Kitsun Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Vanwyrm Cryst Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Dinossom Lux Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Pyrin Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -827,15 +871,17 @@
         "count": 1,
         "name": "Tech - Hangyu Cryst's Gloves",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Gliders"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
         "name": "Tech - Reptyro Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -843,15 +889,17 @@
         "count": 1,
         "name": "Tech - Helzephyr Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Blazehowl Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -859,39 +907,44 @@
         "count": 1,
         "name": "Tech - Beakon Saddle",
         "category": [
-            "Pal Gear"
-        ],
-        "progression_skip_balancing": true
-    },
-    {
-        "count": 1,
-        "name": "Tech - Pyrin Noct Saddle",
-        "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
         "progression": true
     },
     {
         "count": 1,
-        "name": "Tech - Polapup Saddle",
+        "name": "Tech - Pyrin Noct Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Tech - Polapup's Harness",
+        "category": [
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Whalaska Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Blazehowl Noct Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
         "progression": true
     },
@@ -899,15 +952,17 @@
         "count": 1,
         "name": "Tech - Quivern Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Ragnahawk Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
         "progression": true
     },
@@ -915,233 +970,270 @@
         "count": 1,
         "name": "Tech - Reptyro Cryst Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Faleris Saddle",
         "category": [
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Tech - Pengullet Lux's Rocket Launcher",
+        "category": [
             "Pal Gear"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
         "name": "Tech - Jormuntide Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Blazamut Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Grizzbolt's Minigun",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Suzaku Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Kingpaca Cryst Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Palumba Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Suzaku Aqua Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Jormuntide Ignis Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Yakumo Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
-        "name": "Tech - Relaxaurus's Missile Launcher",
+        "name": "Tech - Relaxaurus' Missile Launcher",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Wumpo Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Wumpo Botan Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Mammorest Cryst Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Chillet Ignis Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Relaxaurus Lux's Missile Launcher",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Shroomer Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Braloha Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Astegon Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Shadowbeak Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Shroomer Noct Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Frostallion Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Frostallion Noct Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Paladius Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Necromus Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Quivern Botan Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Jetragon's Missile Launcher",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Xenogard Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -1155,25 +1247,28 @@
         "count": 1,
         "name": "Tech - Helzephyr Lux Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Fenglope Lux Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Selyne Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -1187,41 +1282,46 @@
         "count": 1,
         "name": "Tech - Kitsun Noct Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Gildane Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Blazamut Ryu Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
-        "name": "Tech - Falleris Aqua Saddle",
+        "name": "Tech - Faleris Aqua Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Azurmane Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -1229,45 +1329,50 @@
         "category": [
             "Pal Gear"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Starryon Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Silvegis Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Celesdir Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Bastigor Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Ghangler Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
         "progression": true
     },
@@ -1275,41 +1380,46 @@
         "count": 1,
         "name": "Tech - Ghangler Ignis Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Tech - Bastigor's Hammer",
+        "category": [
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Xenolord Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Sky Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Whalaska Ignis Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
         "name": "Tech - Neptilius Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Water Mounts"
         ],
-        "progression_skip_balancing": true
-    },
-    {
-        "count": 1,
-        "name": "Tech - Pengullet Lux's Rocket Launcher",
-        "category": [
-            "Pal Gear"
-        ],
-        "useful": true
+        "progression": true
     },
     {
         "count": "5",
@@ -1317,6 +1427,10 @@
         "category": [
             "Key Items"
         ],
+        "classification_count": {
+            "progression": 1,
+            "useful": 4
+        },
         "progression": true
     },
     {
@@ -1527,31 +1641,7 @@
     },
     {
         "count": 1,
-        "name": "Frostbound Pass",
-        "category": [
-            "Island Passes"
-        ],
-        "progression": true
-    },
-    {
-        "count": 1,
-        "name": "Scars of War Pass",
-        "category": [
-            "Island Passes"
-        ],
-        "progression": true
-    },
-    {
-        "count": 1,
         "name": "Astral Pass",
-        "category": [
-            "Island Passes"
-        ],
-        "progression": true
-    },
-    {
-        "count": 1,
-        "name": "Astral Foot Pass",
         "category": [
             "Island Passes"
         ],
@@ -1600,14 +1690,6 @@
     {
         "count": 1,
         "name": "Phantom Pass",
-        "category": [
-            "Island Passes"
-        ],
-        "progression": true
-    },
-    {
-        "count": 1,
-        "name": "Twilight Pass",
         "category": [
             "Island Passes"
         ],
@@ -1667,7 +1749,7 @@
         "category": [
             "Weapons - Tools"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 4,
@@ -1675,7 +1757,7 @@
         "category": [
             "Weapons - Tools"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -1683,8 +1765,7 @@
         "category": [
             "Weapons - Tools"
         ],
-        "useful": true,
-        "early": true
+        "useful": true
     },
     {
         "count": 1,
@@ -1692,8 +1773,7 @@
         "category": [
             "Weapons - Melee"
         ],
-        "useful": true,
-        "early": true
+        "useful": true
     },
     {
         "count": 1,
@@ -1790,7 +1870,7 @@
         "category": [
             "Build - Pal"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -1976,7 +2056,7 @@
         "category": [
             "Materials"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2149,9 +2229,10 @@
         "count": 1,
         "name": "Tech - Alluring Bait",
         "category": [
-            "Consumables"
+            "Consumables",
+            "Fishing Bait"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2329,7 +2410,7 @@
         "category": [
             "Materials"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2852,7 +2933,7 @@
         "category": [
             "Materials"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2876,7 +2957,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -2956,7 +3037,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3020,7 +3101,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3156,7 +3237,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3220,7 +3301,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3292,7 +3373,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3308,7 +3389,7 @@
         "category": [
             "Materials"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3316,7 +3397,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3364,7 +3445,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3396,7 +3477,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3436,7 +3517,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3460,7 +3541,7 @@
         "category": [
             "Materials"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3468,7 +3549,7 @@
         "category": [
             "Weapons - Tools"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3492,7 +3573,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3556,7 +3637,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3564,7 +3645,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3588,7 +3669,7 @@
         "category": [
             "Armor - Body"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3596,7 +3677,7 @@
         "category": [
             "Consumables"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3604,7 +3685,7 @@
         "category": [
             "Materials"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -3730,9 +3811,10 @@
         "count": 1,
         "name": "Tech - Hartalis Saddle",
         "category": [
-            "Pal Gear"
+            "Pal Gear",
+            "Pal Gear - Ground Mounts"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 5,
@@ -3740,7 +3822,7 @@
         "category": [
             "Weapons - Tools"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -3756,7 +3838,7 @@
         "category": [
             "Key Items"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 3,
@@ -3764,7 +3846,7 @@
         "category": [
             "Key Items"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -3804,7 +3886,7 @@
         "category": [
             "Build - Production"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -3820,7 +3902,7 @@
         "category": [
             "Key Items"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -3870,7 +3952,7 @@
         "category": [
             "Accessories"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -9214,7 +9296,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9238,7 +9320,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9302,7 +9384,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9318,7 +9400,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9334,7 +9416,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9350,7 +9432,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9366,7 +9448,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9382,7 +9464,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9398,7 +9480,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9414,7 +9496,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9430,7 +9512,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9446,7 +9528,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9462,7 +9544,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9486,7 +9568,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9606,7 +9688,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9622,7 +9704,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9638,7 +9720,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9654,7 +9736,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9670,7 +9752,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9686,7 +9768,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9702,7 +9784,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9718,7 +9800,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9734,7 +9816,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9750,7 +9832,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9766,7 +9848,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9782,7 +9864,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9798,7 +9880,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9814,7 +9896,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9830,7 +9912,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9846,7 +9928,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9862,7 +9944,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9878,7 +9960,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9894,7 +9976,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9910,7 +9992,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9926,7 +10008,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9942,7 +10024,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9958,7 +10040,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9974,7 +10056,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -9990,7 +10072,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10006,7 +10088,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10062,7 +10144,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10078,7 +10160,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10094,7 +10176,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10110,7 +10192,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10126,7 +10208,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10142,7 +10224,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10158,7 +10240,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10174,7 +10256,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10190,7 +10272,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10206,7 +10288,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10254,7 +10336,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10270,7 +10352,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10286,7 +10368,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10302,7 +10384,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -10318,7 +10400,7 @@
         "category": [
             "Cooking Recipes"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11405,7 +11487,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11413,7 +11495,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11421,7 +11503,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11429,7 +11511,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11437,7 +11519,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11445,7 +11527,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11453,7 +11535,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11461,7 +11543,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,
@@ -11469,7 +11551,7 @@
         "category": [
             "Key Items - Egg Vouchers"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11576,8 +11658,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression": true,
-        "early": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11585,7 +11666,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11593,7 +11674,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11601,7 +11682,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11609,7 +11690,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11617,7 +11698,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11625,7 +11706,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11633,7 +11714,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11641,7 +11722,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11649,7 +11730,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11657,7 +11738,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11665,7 +11746,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11673,7 +11754,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11681,7 +11762,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11689,7 +11770,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11697,7 +11778,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11705,7 +11786,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11713,7 +11794,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11721,7 +11802,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11729,7 +11810,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11737,7 +11818,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11745,7 +11826,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11753,7 +11834,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11761,7 +11842,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11769,7 +11850,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11777,7 +11858,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11785,7 +11866,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11793,7 +11874,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11801,7 +11882,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11809,7 +11890,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11817,7 +11898,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11825,7 +11906,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11833,7 +11914,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11841,7 +11922,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11849,7 +11930,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11857,7 +11938,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11865,7 +11946,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11873,7 +11954,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11881,7 +11962,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11889,7 +11970,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11897,7 +11978,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11905,7 +11986,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11913,7 +11994,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11921,7 +12002,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11929,7 +12010,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11937,7 +12018,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11945,7 +12026,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11953,7 +12034,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11961,7 +12042,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11969,7 +12050,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11977,7 +12058,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11985,7 +12066,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -11993,7 +12074,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12001,7 +12082,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12009,7 +12090,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12017,7 +12098,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12025,7 +12106,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12033,7 +12114,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12041,7 +12122,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12049,7 +12130,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12057,7 +12138,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12065,7 +12146,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12073,7 +12154,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12081,7 +12162,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12089,7 +12170,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12097,7 +12178,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12105,7 +12186,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12113,7 +12194,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12121,7 +12202,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12129,7 +12210,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12137,7 +12218,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12145,7 +12226,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12153,7 +12234,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12161,7 +12242,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12169,7 +12250,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12177,7 +12258,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12185,7 +12266,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12193,7 +12274,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12201,7 +12282,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12209,7 +12290,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12217,7 +12298,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12225,7 +12306,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12233,7 +12314,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12241,7 +12322,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12249,7 +12330,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12257,7 +12338,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12265,7 +12346,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12273,7 +12354,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12281,7 +12362,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12289,7 +12370,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12297,7 +12378,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12305,7 +12386,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12313,7 +12394,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12321,7 +12402,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12329,7 +12410,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12337,7 +12418,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12345,7 +12426,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12353,7 +12434,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12361,7 +12442,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12369,7 +12450,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12377,7 +12458,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12385,7 +12466,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12393,7 +12474,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12401,7 +12482,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12409,7 +12490,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12417,7 +12498,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12425,7 +12506,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12433,7 +12514,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12441,7 +12522,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12449,7 +12530,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12457,7 +12538,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12465,7 +12546,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12473,7 +12554,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12481,7 +12562,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12489,7 +12570,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12497,7 +12578,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12505,7 +12586,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12513,7 +12594,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12521,7 +12602,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12529,7 +12610,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12537,7 +12618,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12545,7 +12626,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12553,7 +12634,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12561,7 +12642,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12569,7 +12650,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12577,7 +12658,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12585,7 +12666,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12593,7 +12674,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12601,7 +12682,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12609,7 +12690,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12617,7 +12698,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12625,7 +12706,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12633,7 +12714,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12641,7 +12722,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12649,7 +12730,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12657,7 +12738,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12665,7 +12746,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12673,7 +12754,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12681,7 +12762,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12689,7 +12770,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12697,7 +12778,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12705,7 +12786,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12713,7 +12794,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12721,7 +12802,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12729,7 +12810,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12737,7 +12818,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12745,7 +12826,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12753,7 +12834,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12761,7 +12842,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12769,7 +12850,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12777,7 +12858,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12785,7 +12866,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12793,7 +12874,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12801,7 +12882,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12809,7 +12890,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12817,7 +12898,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12825,7 +12906,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12833,7 +12914,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12841,7 +12922,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12849,7 +12930,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12857,7 +12938,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12865,7 +12946,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12873,7 +12954,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12881,7 +12962,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12889,7 +12970,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12897,7 +12978,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12905,7 +12986,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12913,7 +12994,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12921,7 +13002,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12929,7 +13010,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12937,7 +13018,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12945,7 +13026,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12953,7 +13034,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12961,7 +13042,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12969,7 +13050,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12977,7 +13058,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12985,7 +13066,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -12993,7 +13074,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13001,7 +13082,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13009,7 +13090,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13017,7 +13098,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13025,7 +13106,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13033,7 +13114,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13041,7 +13122,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13049,7 +13130,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13057,7 +13138,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13065,7 +13146,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13073,7 +13154,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13081,7 +13162,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13089,7 +13170,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13097,7 +13178,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13105,7 +13186,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13113,7 +13194,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13121,7 +13202,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13129,7 +13210,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13137,7 +13218,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13145,7 +13226,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13153,7 +13234,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13161,7 +13242,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13169,7 +13250,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13177,7 +13258,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13185,7 +13266,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13193,7 +13274,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13201,7 +13282,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13209,7 +13290,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13217,7 +13298,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13225,7 +13306,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13233,7 +13314,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13241,7 +13322,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13249,7 +13330,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13257,7 +13338,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13265,7 +13346,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13273,7 +13354,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13281,7 +13362,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13289,7 +13370,7 @@
         "category": [
             "Pal Bonds"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13305,7 +13386,7 @@
         "category": [
             "Key Items - Oil Rig Radars"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13313,7 +13394,7 @@
         "category": [
             "Key Items - Oil Rig Radars"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 65,
@@ -13321,7 +13402,7 @@
         "category": [
             "Player Levels"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13330,7 +13411,7 @@
             "Key Items - Proof of Victory",
             "Journey Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13339,7 +13420,7 @@
             "Key Items - Proof of Victory",
             "Tower Rush Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13348,7 +13429,7 @@
             "Key Items - Proof of Victory",
             "Legendary Hunt Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13357,7 +13438,7 @@
             "Key Items - Proof of Victory",
             "Predator Hunter Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13366,7 +13447,7 @@
             "Key Items - Proof of Victory",
             "Raid Boss Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13375,7 +13456,7 @@
             "Key Items - Proof of Victory",
             "Veteran Hunter"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13384,7 +13465,7 @@
             "Key Items - Proof of Victory",
             "Chef Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13393,7 +13474,7 @@
             "Key Items - Proof of Victory",
             "Sub Missions Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13402,7 +13483,7 @@
             "Key Items - Proof of Victory",
             "Research Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13411,7 +13492,7 @@
             "Key Items - Proof of Victory",
             "Catchem Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13420,7 +13501,7 @@
             "Key Items - Proof of Victory",
             "Traveler Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13429,7 +13510,7 @@
             "Key Items - Proof of Victory",
             "Journalist Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13438,7 +13519,7 @@
             "Key Items - Proof of Victory",
             "Dungeoneer Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13447,7 +13528,7 @@
             "Key Items - Proof of Victory",
             "Lucky Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -13456,6 +13537,6 @@
             "Key Items - Proof of Victory",
             "Base Builder Goal"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     }
 ]

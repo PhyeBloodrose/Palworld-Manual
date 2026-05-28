@@ -559,24 +559,12 @@
         ]
     },
     {
-        "region": "General",
-        "name": "Starting as Player Level 1",
-        "category": [
-            "Start",
-            "Player Level Location"
-        ],
-        "requires": [],
-        "place_item": [
-            "Player Level"
-        ]
-    },
-    {
         "name": "Boss - Chillet (Level 11)",
         "region": "Windswept Hills",
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |Player Beacon 2|"
     },
     {
         "name": "Boss - Mammorest (Level 38)",
@@ -584,7 +572,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Boss - Kingpaca (Level 23)",
@@ -592,7 +580,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Boss - Azurobe (Level 17)",
@@ -600,7 +588,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:17|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:17|)} AND |@Pal Beacons| AND |Player Beacon 4|"
     },
     {
         "name": "Boss - Penking (Level 15)",
@@ -624,7 +612,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |Player Beacon 9|"
     },
     {
         "name": "Boss - Grintale (Level 17)",
@@ -632,7 +620,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:17|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:17|)} AND |@Pal Beacons| AND |Player Beacon 4|"
     },
     {
         "name": "Boss - Wumpo Botan (Level 38)",
@@ -640,7 +628,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Boss - Mossanda Lux (Level 31)",
@@ -648,7 +636,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Boss - Verdash (Level 35)",
@@ -688,7 +676,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:44|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:44|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Boss - Suzaku (Level 45)",
@@ -696,7 +684,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Boss - Dinossom Lux (Level 47)",
@@ -704,7 +692,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Boss - Paladius or Necromus (Level 60)",
@@ -712,7 +700,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Neptilius (Level 60)",
@@ -720,7 +708,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Glacial Core|)} AND {OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Lyleen Noct (Level 49)",
@@ -728,7 +716,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Boss - Kingpaca Cryst (Level 46)",
@@ -736,7 +724,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:46|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:46|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Boss - Frostallion (Level 60)",
@@ -744,7 +732,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Ice Orb:11|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND {OptOne(|Ice Orb:11|)} AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Menasting Terra (Level 54)",
@@ -752,7 +740,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:54|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:54|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Knocklem (Level 55)",
@@ -760,7 +748,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Felbat (Level 23)",
@@ -776,7 +764,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:14|)} AND |@Pal Beacons| AND |@Player Beacon:1|"
+        "requires": "{OptOne(|Player Level:14|)} AND |@Pal Beacons| AND |Player Beacon 3|"
     },
     {
         "name": "Boss - Nitewing (Level 18)",
@@ -784,7 +772,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:18|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:18|)} AND |@Pal Beacons| AND |Player Beacon 4|"
     },
     {
         "name": "Boss - Elizabee (Level 31)",
@@ -792,7 +780,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Boss - Petallia (Level 28)",
@@ -808,7 +796,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Boss - Anubis (Level 47)",
@@ -816,7 +804,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |Player Beacon 10|"
     },
     {
         "name": "Boss - Quivern (Level 23)",
@@ -832,7 +820,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:29|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:29|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Boss - Relaxaurus Lux (Level 31)",
@@ -848,7 +836,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Boss - Broncherry Aqua (Level 30)",
@@ -856,7 +844,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Boss - Bushi (Level 23)",
@@ -872,7 +860,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |Player Beacon 2|"
     },
     {
         "name": "Boss - Univolt (Level 31)",
@@ -880,7 +868,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Boss - Gumoss (Level 11)",
@@ -888,7 +876,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:11|)} AND |@Pal Beacons| AND |Player Beacon 2|"
     },
     {
         "name": "Boss - Broncherry (Level 23)",
@@ -896,7 +884,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Boss - Lunaris (Level 32)",
@@ -912,7 +900,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Boss - Astegon (Level 48)",
@@ -920,7 +908,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Boss - Jetragon (Level 60)",
@@ -928,7 +916,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Whalaska Ignis (Level 58)",
@@ -936,7 +924,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Loupmoon Cryst (Level 54)",
@@ -944,7 +932,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:54|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:54|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Nyafia (Level 57)",
@@ -952,7 +940,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Silvegis (Level 59)",
@@ -960,7 +948,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Nitemary (Level 56)",
@@ -968,7 +956,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Soul|)} AND {OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Starryon (Level 57)",
@@ -976,7 +964,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Fenglope Lux (Level 57)",
@@ -984,7 +972,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Faleris Aqua (Level 56)",
@@ -992,7 +980,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Gildane (Level 58)",
@@ -1000,7 +988,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Kitsun Noct (Level 57)",
@@ -1008,7 +996,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Celesdir (Level 60)",
@@ -1016,7 +1004,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Prunelia (Level 55)",
@@ -1024,7 +1012,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Indigo|)} AND {OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Foxparks Cryst (Level 52)",
@@ -1032,7 +1020,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:52|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:52|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Splatterina (Level 58)",
@@ -1040,7 +1028,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Ribbuny Botan (Level 53)",
@@ -1048,7 +1036,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Azurmane (Level 57)",
@@ -1056,7 +1044,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Warsect Terra (Level 59)",
@@ -1064,7 +1052,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Frostallion Noct (Level 60)",
@@ -1080,7 +1068,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Seal of the Little Hero|)} AND {OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Tarantriss (Level 57)",
@@ -1088,7 +1076,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Omascul (Level 55)",
@@ -1096,7 +1084,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Cryolinx Terra (Level 58)",
@@ -1104,7 +1092,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Boss - Dazzi Noct (Level 53)",
@@ -1112,7 +1100,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Boss - Caprity Noct (Level 55)",
@@ -1120,7 +1108,7 @@
         "category": [
             "Boss Alpha Pals"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Bounty - Hawk (Level 12)",
@@ -1128,7 +1116,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:12|)} AND |@Pal Beacons| AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:12|)} AND |@Pal Beacons| AND |Player Beacon 2|"
     },
     {
         "name": "Bounty - Scoot (Level 10)",
@@ -1136,7 +1124,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:10|)} AND |@Pal Beacons| AND |@Player Beacon|"
+        "requires": "{OptOne(|Player Level:10|)} AND |@Pal Beacons| AND |Player Beacon 2|"
     },
     {
         "name": "Bounty - Turncoat (Level 15)",
@@ -1144,7 +1132,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND |Player Beacon 3|"
     },
     {
         "name": "Bounty - Crash (Level 15)",
@@ -1152,7 +1140,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:15|)} AND |@Pal Beacons| AND |Player Beacon 3|"
     },
     {
         "name": "Bounty - Dart (Level 23)",
@@ -1160,7 +1148,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Bounty - Fumble (Level 28)",
@@ -1168,7 +1156,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Bounty - Brick (Level 30)",
@@ -1176,7 +1164,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Bounty - Dyna (Level 26)",
@@ -1184,7 +1172,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Bounty - Mite (Level 26)",
@@ -1192,7 +1180,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Bounty - Lasso (Level 21)",
@@ -1200,7 +1188,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:21|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:21|)} AND |@Pal Beacons| AND |Player Beacon 4|"
     },
     {
         "name": "Bounty - Ego (Level 23)",
@@ -1208,7 +1196,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:23|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Bounty - Jade (Level 19)",
@@ -1216,7 +1204,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:19|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:19|)} AND |@Pal Beacons| AND |Player Beacon 4|"
     },
     {
         "name": "Bounty - Grill (Level 20)",
@@ -1224,7 +1212,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:20|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:20|)} AND |@Pal Beacons| AND |Player Beacon 4|"
     },
     {
         "name": "Bounty - Siren (Level 16)",
@@ -1232,7 +1220,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:16|)} AND |@Pal Beacons| AND |@Player Beacon:2|"
+        "requires": "{OptOne(|Player Level:16|)} AND |@Pal Beacons| AND |Player Beacon 3|"
     },
     {
         "name": "Bounty - Whip (Level 40)",
@@ -1240,7 +1228,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Bounty - Whisper (Level 37)",
@@ -1248,7 +1236,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:37|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:37|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Bounty - Phantom (Level 36)",
@@ -1256,7 +1244,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:36|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:36|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Bounty - Clint (Level 49)",
@@ -1264,7 +1252,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Bounty - Skim (Level 42)",
@@ -1272,7 +1260,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:42|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:42|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Bounty - Whisk (Level 45)",
@@ -1280,7 +1268,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Bounty - Quill (Level 43)",
@@ -1288,7 +1276,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:43|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:43|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Bounty - Urchin (Level 53)",
@@ -1296,7 +1284,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:53|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Bounty - Nimble (Level 52)",
@@ -1304,7 +1292,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:52|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:52|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Bounty - Aloha (Level 39)",
@@ -1312,7 +1300,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:39|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:39|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Bounty - Shadow (Level 41)",
@@ -1320,7 +1308,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:41|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:41|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Bounty - Flare (Level 38)",
@@ -1328,7 +1316,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Bounty - Billy (Level 57)",
@@ -1336,7 +1324,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Bounty - Gnaw (Level 57)",
@@ -1344,7 +1332,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Bounty - Ram (Level 59)",
@@ -1352,7 +1340,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:59|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Bounty - Pinch (Level 57)",
@@ -1360,7 +1348,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Bounty - Dazzle (Level 56)",
@@ -1368,7 +1356,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:56|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Bounty - Cache (Level 58)",
@@ -1376,7 +1364,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:58|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Bounty - Mimic (Level 57)",
@@ -1384,7 +1372,7 @@
         "category": [
             "Bounties"
         ],
-        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:57|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Travel Point - Plateau of Beginnings",
@@ -1417,7 +1405,7 @@
         "category": [
             "Fast Travel Locations"
         ],
-        "requires": "|Zoe's Key|"
+        "requires": "|Zoe| OR |SkyMount|"
     },
     {
         "name": "Travel Point - Small Settlement",
@@ -1571,7 +1559,7 @@
         "category": [
             "Fast Travel Locations"
         ],
-        "requires": "|Lily's Key|"
+        "requires": "|Lily| OR |SkyMount|"
     },
     {
         "name": "Travel Point - Mount Flopie Summit",
@@ -1739,7 +1727,7 @@
         "category": [
             "Fast Travel Locations"
         ],
-        "requires": "|Saya's Key|"
+        "requires": "|Saya| OR |SkyMount|"
     },
     {
         "name": "Travel Point - Secluded Cemetary",
@@ -1789,7 +1777,7 @@
         "category": [
             "Fast Travel Locations"
         ],
-        "requires": "|Victor's Key|"
+        "requires": "|Victor| OR |SkyMount|"
     },
     {
         "name": "Travel Point - Unthawable Lake",
@@ -1880,7 +1868,7 @@
         "category": [
             "Fast Travel Locations"
         ],
-        "requires": "|Marcus's Key|"
+        "requires": "|Marcus| OR |SkyMount|"
     },
     {
         "name": "Travel Point - Deep Sand Dunes",
@@ -1930,7 +1918,7 @@
             "Fast Travel Locations",
             "Tower Boss Location"
         ],
-        "requires": "|Axel's Key|"
+        "requires": "|Axel| OR |SkyMount|"
     },
     {
         "name": "Travel Point - Anubis Statue",
@@ -2044,7 +2032,7 @@
             "Fast Travel Locations",
             "Tower Boss Location"
         ],
-        "requires": "|Bjorn's Key|"
+        "requires": "|Bjorn| OR |SkyMount|"
     },
     {
         "name": "Travel Point - The Oculus Gate, Tower in Sight",
@@ -3082,7 +3070,7 @@
         "requires": []
     },
     {
-        "name": "Palpedia - Toctoco",
+        "name": "Palpedia - Tocotoco",
         "region": "Tocotoco",
         "category": [
             "Palpedia"
@@ -6244,7 +6232,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "(|Lovander Beacon| AND {YamlEnabled(Lovander_Cake)}) OR ((|Tech - Cooking Pot| OR |Tech - Large-Scale Stone Oven|) AND {OptOne(|Cake Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND |@Honey Drop|)"
+        "requires": "|Cakes|"
     },
     {
         "name": "Sub Mission - Farewell Under the Sakura Tree",
@@ -6252,7 +6240,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Tech - Advanced Recovery Meds| AND |Tech - Palbox| AND |Tech - Advanced Medicine Workbench| AND |@Kindling| AND |Tech - Progressive Furnace:4| AND |Tech - Progressive Workbench:3| AND |@Power Source| AND (|Tech - Polymer| OR |Hot Volcano Beacon| OR |Neptilius Beacon|) AND (|Tech - Carbon Fiber| OR |Hot Volcano Beacon| OR |Neptilius Beacon| OR |Wildlife 3 Beacon|) AND |Feybreak Beacon|"
+        "requires": "|AdvancedRecoveryMeds|"
     },
     {
         "name": "Sub Mission - No Mercy for Pal Thieves",
@@ -6260,7 +6248,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "|@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Sub Mission - Operation: Splatterina Spree",
@@ -6284,7 +6272,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": []
+        "requires": "|@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Sub Mission - Gargantuan Tarantriss",
@@ -7068,7 +7056,7 @@
         "category": [
             "Sub Missions"
         ],
-        "requires": "|Frostbound Beacon| OR |Astral Beacon|"
+        "requires": "|High Quality Cloth| AND |Venom Gland|"
     },
     {
         "name": "Sub Mission - Zoe's Sphere",
@@ -7087,1232 +7075,1382 @@
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Handiwork Speed LV1",
+        "name": "HW Research Task - Handiwork Speed LV1",
         "region": "Handiwork T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Handiwork Speed LV2",
+        "name": "HW Research Task - Handiwork Speed LV2",
         "region": "Handiwork T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Armor Crafting Cost-Saving Technique Lv1",
+        "name": "HW Research Task - Armor Crafting Cost-Saving Technique Lv1",
         "region": "Handiwork T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Tips for Handiwork Research Lv1",
+        "name": "HW Research Task - Tips for Handiwork Research Lv1",
         "region": "Handiwork T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Large Toolbox Development",
+        "name": "HW Research Task - Large Toolbox Development",
         "place_item": [
             "Tech - Large Toolbox"
         ],
         "region": "Handiwork T1-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Sphere Duplication Technique Lv1",
+        "name": "HW Research Task - Sphere Duplication Technique Lv1",
         "region": "Handiwork T1-5",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Pal Gear Crafting Cost-Saving Technique Lv1",
+        "name": "HW Research Task - Pal Gear Crafting Cost-Saving Technique Lv1",
         "region": "Handiwork T1-6",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Handiwork Speed LV3",
+        "name": "HW Research Task - Handiwork Speed LV3",
         "region": "Handiwork T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Ammunition Duplication Technique Lv1",
+        "name": "HW Research Task - Ammunition Duplication Technique Lv1",
         "region": "Handiwork T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Weapon Crafting Cost-Saving Technique Lv1",
+        "name": "HW Research Task - Weapon Crafting Cost-Saving Technique Lv1",
         "region": "Handiwork T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Tips for Handiwork Research LV2",
+        "name": "HW Research Task - Tips for Handiwork Research LV2",
         "region": "Handiwork T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Handiwork Speed Lv4",
+        "name": "HW Research Task - Handiwork Speed Lv4",
         "region": "Handiwork T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Sphere Duplication Technique Lv2",
+        "name": "HW Research Task - Sphere Duplication Technique Lv2",
         "region": "Handiwork T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Armor Crafting Cost-Saving Technique Lv2",
+        "name": "HW Research Task - Armor Crafting Cost-Saving Technique Lv2",
         "region": "Handiwork T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Pals at Base Enhancement Lv1",
+        "name": "HW Research Task - Pals at Base Enhancement Lv1",
         "region": "Handiwork T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Pal Gear Crafting Cost-Saving Technique Lv2",
+        "name": "HW Research Task - Pal Gear Crafting Cost-Saving Technique Lv2",
         "region": "Handiwork T3-5",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Handiwork Speed Lv5",
+        "name": "HW Research Task - Handiwork Speed Lv5",
         "region": "Handiwork T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiworks"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Ammunition Duplication Technique Lv2",
+        "name": "HW Research Task - Ammunition Duplication Technique Lv2",
         "region": "Handiwork T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Weapon Crafting Cost-Saving Technique Lv2",
+        "name": "HW Research Task - Weapon Crafting Cost-Saving Technique Lv2",
         "region": "Handiwork T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Handiwork Research Task - Pals at Base Enhancement Lv2",
+        "name": "HW Research Task - Pals at Base Enhancement Lv2",
         "region": "Handiwork T4-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Handiwork"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Kindling Task Lv1",
+        "name": "K Research Task - Kindling Task Lv1",
         "region": "Kindling T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Kindling Task Lv2",
+        "name": "K Research Task - Kindling Task Lv2",
         "region": "Kindling T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Incubation Acceleration Lv1",
+        "name": "K Research Task - Incubation Acceleration Lv1",
         "region": "Kindling T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Tips for Kindling Research Lv1",
+        "name": "K Research Task - Tips for Kindling Research Lv1",
         "region": "Kindling T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Flame Cauldron Development",
+        "name": "K Research Task - Flame Cauldron Development",
         "place_item": [
             "Tech - Flame Cauldron"
         ],
         "region": "Kindling T1-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Mass Cooking Technique Lv1",
+        "name": "K Research Task - Mass Cooking Technique Lv1",
         "region": "Kindling T1-5",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Kindling Task Lv3",
+        "name": "K Research Task - Kindling Task Lv3",
         "region": "Kindling T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Refinement Technique Lv1",
+        "name": "K Research Task - Refinement Technique Lv1",
         "region": "Kindling T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Incubation Acceleration Lv2",
+        "name": "K Research Task - Incubation Acceleration Lv2",
         "region": "Kindling T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Tips for Kindling Research Lv2",
+        "name": "K Research Task - Tips for Kindling Research Lv2",
         "region": "Kindling T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Kindling Task Lv4",
+        "name": "K Research Task - Kindling Task Lv4",
         "region": "Kindling T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Mass Cooking Technique Lv2",
+        "name": "K Research Task - Mass Cooking Technique Lv2",
         "region": "Kindling T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Incubation Acceleration Lv3",
+        "name": "K Research Task - Incubation Acceleration Lv3",
         "region": "Kindling T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Pals at Base Enhancement Lv1",
+        "name": "K Research Task - Pals at Base Enhancement Lv1",
         "region": "Kindling T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Kindling Task Lv5",
+        "name": "K Research Task - Kindling Task Lv5",
         "region": "Kindling T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Refinement Technique Lv2",
+        "name": "K Research Task - Refinement Technique Lv2",
         "region": "Kindling T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Incubation Acceleration Lv4",
+        "name": "K Research Task - Incubation Acceleration Lv4",
         "region": "Kindling T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Kindling Research Task - Pals at Base Enhancement Lv2",
+        "name": "K Research Task - Pals at Base Enhancement Lv2",
         "region": "Kindling T4-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Kindling"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Watering Task Lv1",
+        "name": "W Research Task - Watering Task Lv1",
         "region": "Watering T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Watering Task Lv2",
+        "name": "W Research Task - Watering Task Lv2",
         "region": "Watering T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Crop Knowledge Lv1",
+        "name": "W Research Task - Crop Knowledge Lv1",
         "region": "Watering T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Tips for Watering Research Lv1",
+        "name": "W Research Task - Tips for Watering Research Lv1",
         "region": "Watering T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Fountain Development",
+        "name": "W Research Task - Fountain Development",
         "place_item": [
             "Tech - Water Fountain"
         ],
         "region": "Watering T1-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Watering Task Lv3",
+        "name": "W Research Task - Watering Task Lv3",
         "region": "Watering T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Paldium Crushing Technique Lv1",
+        "name": "W Research Task - Paldium Crushing Technique Lv1",
         "region": "Watering T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Harvest Knowledge Lv1",
+        "name": "W Research Task - Harvest Knowledge Lv1",
         "region": "Watering T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Tips for Watering Research Lv2",
+        "name": "W Research Task - Tips for Watering Research Lv2",
         "region": "Watering T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Watering Task Lv4",
+        "name": "W Research Task - Watering Task Lv4",
         "region": "Watering T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Crop Knowledge Lv2",
+        "name": "W Research Task - Crop Knowledge Lv2",
         "region": "Watering T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Pals at Base Enhancement Lv1",
+        "name": "W Research Task - Pals at Base Enhancement Lv1",
         "region": "Watering T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Watering Task Lv5",
+        "name": "W Research Task - Watering Task Lv5",
         "region": "Watering T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Paldium Crushing Technique Lv2",
+        "name": "W Research Task - Paldium Crushing Technique Lv2",
         "region": "Watering T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Harvest Knowledge Lv2",
+        "name": "W Research Task - Harvest Knowledge Lv2",
         "region": "Watering T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Watering Research Task - Pals at Base Enhancement Lv2",
+        "name": "W Research Task - Pals at Base Enhancement Lv2",
         "region": "Watering T4-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Watering"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Task Lv1",
+        "name": "P Research Task - Planting Task Lv1",
         "region": "Planting T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Task Lv2",
+        "name": "P Research Task - Planting Task Lv2",
         "region": "Planting T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Crop Knowledge Lv1",
+        "name": "P Research Task - Crop Knowledge Lv1",
         "region": "Planting T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Research Tips Lv1",
+        "name": "P Research Task - Planting Research Tips Lv1",
         "region": "Planting T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Flower Bed Development",
+        "name": "P Research Task - Flower Bed Development",
         "place_item": [
             "Tech - Flower Bed"
         ],
         "region": "Planting T1-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Silo Development",
+        "name": "P Research Task - Silo Development",
         "place_item": [
             "Tech - Silo"
         ],
         "region": "Planting T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Harvest Knowledge Lv1",
+        "name": "P Research Task - Harvest Knowledge Lv1",
         "region": "Planting T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Research Tips Lv2",
+        "name": "P Research Task - Planting Research Tips Lv2",
         "region": "Planting T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Task Lv3",
+        "name": "P Research Task - Planting Task Lv3",
         "region": "Planting T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Task Lv4",
+        "name": "P Research Task - Planting Task Lv4",
         "region": "Planting T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Harvest Knowledge Lv2",
+        "name": "P Research Task - Harvest Knowledge Lv2",
         "region": "Planting T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Crop Knowledge Lv2",
+        "name": "P Research Task - Crop Knowledge Lv2",
         "region": "Planting T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Pals at Base Enhancement Lv1",
+        "name": "P Research Task - Pals at Base Enhancement Lv1",
         "region": "Planting T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Planting Task Lv5",
+        "name": "P Research Task - Planting Task Lv5",
         "region": "Planting T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Harvest Knowledge Lv3",
+        "name": "P Research Task - Harvest Knowledge Lv3",
         "region": "Planting T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Crop Knowledge Lv3",
+        "name": "P Research Task - Crop Knowledge Lv3",
         "region": "Planting T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Planting Research Task - Pals at Base Enhancement Lv2",
+        "name": "P Research Task - Pals at Base Enhancement Lv2",
         "region": "Planting T4-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Planting"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Generating Electricity Task Lv1",
+        "name": "GE Research Task - Generating Electricity Task Lv1",
         "region": "Gen_Elec T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Generating Electricity Task Lv2",
+        "name": "GE Research Task - Generating Electricity Task Lv2",
         "region": "Gen_Elec T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Power Storage Solutions Lv1",
+        "name": "GE Research Task - Power Storage Solutions Lv1",
         "region": "Gen_Elec T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Tips for Generating Electricity Research Lv1",
+        "name": "GE Research Task - Tips for Generating Electricity Research Lv1",
         "region": "Gen_Elec T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Generating Electricity Task Lv3",
+        "name": "GE Research Task - Generating Electricity Task Lv3",
         "region": "Gen_Elec T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Power Saving Mastery Lv1",
+        "name": "GE Research Task - Power Saving Mastery Lv1",
         "region": "Gen_Elec T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Power Storage Solutions Lv2",
+        "name": "GE Research Task - Power Storage Solutions Lv2",
         "region": "Gen_Elec T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Tips for Generating Electricity Research Lv2",
+        "name": "GE Research Task - Tips for Generating Electricity Research Lv2",
         "region": "Gen_Elec T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Electric Pylon Development",
+        "name": "GE Research Task - Electric Pylon Development",
         "place_item": [
             "Tech - Electric Pylon"
         ],
         "region": "Gen_Elec T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Power Saving Mastery Lv2",
+        "name": "GE Research Task - Power Saving Mastery Lv2",
         "region": "Gen_Elec T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Power Storage Solutions Lv3",
+        "name": "GE Research Task - Power Storage Solutions Lv3",
         "region": "Gen_Elec T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Pals at Base Enhancement Lv1",
+        "name": "GE Research Task - Pals at Base Enhancement Lv1",
         "region": "Gen_Elec T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Generating Electricity Task Lv4",
+        "name": "GE Research Task - Generating Electricity Task Lv4",
         "region": "Gen_Elec T3-5",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Generating Electricity Task Lv5",
+        "name": "GE Research Task - Generating Electricity Task Lv5",
         "region": "Gen_Elec T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Power Saving Mastery Lv3",
+        "name": "GE Research Task - Power Saving Mastery Lv3",
         "region": "Gen_Elec T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Generating Electricity Research Task - Pals at Base Enhancement Lv2",
+        "name": "GE Research Task - Pals at Base Enhancement Lv2",
         "region": "Gen_Elec T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Generating Electricity"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Task Lv1",
+        "name": "L Research Task - Lumbering Task Lv1",
         "region": "Lumbering T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Task Lv2",
+        "name": "L Research Task - Lumbering Task Lv2",
         "region": "Lumbering T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Time-Saving Expedition Lv1",
+        "name": "L Research Task - Time-Saving Expedition Lv1",
         "region": "Lumbering T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Research Tips Lv1",
+        "name": "L Research Task - Lumbering Research Tips Lv1",
         "region": "Lumbering T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Stump and Axe Development",
+        "name": "L Research Task - Stump and Axe Development",
         "place_item": [
             "Tech - Stump and Axe"
         ],
         "region": "Lumbering T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Mastery of Expeditions Lv1",
+        "name": "L Research Task - Mastery of Expeditions Lv1",
         "region": "Lumbering T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Time-Saving Expedition Lv2",
+        "name": "L Research Task - Time-Saving Expedition Lv2",
         "region": "Lumbering T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Resarch Tips Lv2",
+        "name": "L Research Task - Lumbering Resarch Tips Lv2",
         "region": "Lumbering T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Task Lv3",
+        "name": "L Research Task - Lumbering Task Lv3",
         "region": "Lumbering T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Task Lv4",
+        "name": "L Research Task - Lumbering Task Lv4",
         "region": "Lumbering T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Mastery of Expeditions Lv2",
+        "name": "L Research Task - Mastery of Expeditions Lv2",
         "region": "Lumbering T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Time-Saving Expedition Lv3",
+        "name": "L Research Task - Time-Saving Expedition Lv3",
         "region": "Lumbering T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Pals at Base Enhancement Lv1",
+        "name": "L Research Task - Pals at Base Enhancement Lv1",
         "region": "Lumbering T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Lumbering Task Lv5",
+        "name": "L Research Task - Lumbering Task Lv5",
         "region": "Lumbering T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Mastery of Expeditions Lv3",
+        "name": "L Research Task - Mastery of Expeditions Lv3",
         "region": "Lumbering T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Lumbering Research Task - Pals at Base Enhancement Lv2",
+        "name": "L Research Task - Pals at Base Enhancement Lv2",
         "region": "Lumbering T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Lumbering"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Task Lv1",
+        "name": "M Research Task - Mining Task Lv1",
         "region": "Mining T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Task Lv2",
+        "name": "M Research Task - Mining Task Lv2",
         "region": "Mining T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Time-Saving Expedition Lv1",
+        "name": "M Research Task - Time-Saving Expedition Lv1",
         "region": "Mining T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Research Tips Lv1",
+        "name": "M Research Task - Mining Research Tips Lv1",
         "region": "Mining T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Cart Development",
+        "name": "M Research Task - Mining Cart Development",
         "place_item": [
             "Tech - Mining Cart"
         ],
         "region": "Mining T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mastery of Expeditions Lv1",
+        "name": "M Research Task - Mastery of Expeditions Lv1",
         "region": "Mining T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Research Tips Lv2",
+        "name": "M Research Task - Mining Research Tips Lv2",
         "region": "Mining T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Task Lv3",
+        "name": "M Research Task - Mining Task Lv3",
         "region": "Mining T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Task Lv4",
+        "name": "M Research Task - Mining Task Lv4",
         "region": "Mining T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Crude Oil Extraction Efficiency Lv1",
+        "name": "M Research Task - Crude Oil Extraction Efficiency Lv1",
         "region": "Mining T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Time-Saving Expedition Lv2",
+        "name": "M Research Task - Time-Saving Expedition Lv2",
         "region": "Mining T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Pals at Base Enhancement Lv1",
+        "name": "M Research Task - Pals at Base Enhancement Lv1",
         "region": "Mining T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Crude Oil Extraction Efficiency Lv2",
+        "name": "M Research Task - Crude Oil Extraction Efficiency Lv2",
         "region": "Mining T3-5",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mining Task Lv5",
+        "name": "M Research Task - Mining Task Lv5",
         "region": "Mining T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Crude Oil Extraction Efficiency Lv3",
+        "name": "M Research Task - Crude Oil Extraction Efficiency Lv3",
         "region": "Mining T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Mastery of Expeditions Lv2",
+        "name": "M Research Task - Mastery of Expeditions Lv2",
         "region": "Mining T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Mining Research Task - Pals at Base Enhancement Lv2",
+        "name": "M Research Task - Pals at Base Enhancement Lv2",
         "region": "Mining T4-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Mining"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Storage Lv1",
+        "name": "C Research Task - Cooling Storage Lv1",
         "region": "Cooling T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Task Lv1",
+        "name": "C Research Task - Cooling Task Lv1",
         "region": "Cooling T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Incubation Acceleration Lv1",
+        "name": "C Research Task - Incubation Acceleration Lv1",
         "region": "Cooling T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Research Lv1",
+        "name": "C Research Task - Cooling Research Lv1",
         "region": "Cooling T1-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Snowman Development",
+        "name": "C Research Task - Snowman Development",
         "place_item": [
             "Tech - Snowman"
         ],
         "region": "Cooling T1-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Storage Lv2",
+        "name": "C Research Task - Cooling Storage Lv2",
         "region": "Cooling T1-5",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Task Lv2",
+        "name": "C Research Task - Cooling Task Lv2",
         "region": "Cooling T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Storage Lv3",
+        "name": "C Research Task - Cooling Storage Lv3",
         "region": "Cooling T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Incubation Acceleration Lv2",
+        "name": "C Research Task - Incubation Acceleration Lv2",
         "region": "Cooling T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Research Lv2",
+        "name": "C Research Task - Cooling Research Lv2",
         "region": "Cooling T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Task Lv3",
+        "name": "C Research Task - Cooling Task Lv3",
         "region": "Cooling T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Storage Lv4",
+        "name": "C Research Task - Cooling Storage Lv4",
         "region": "Cooling T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Incubation Acceleration Lv3",
+        "name": "C Research Task - Incubation Acceleration Lv3",
         "region": "Cooling T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Pals at Base Enhancement Lv1",
+        "name": "C Research Task - Pals at Base Enhancement Lv1",
         "region": "Cooling T3-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Cooling Task Lv4",
+        "name": "C Research Task - Cooling Task Lv4",
         "region": "Cooling T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Incubation Acceleration Lv4",
+        "name": "C Research Task - Incubation Acceleration Lv4",
         "region": "Cooling T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Cooling Research Task - Pals at Base Enhancement Lv2",
+        "name": "C Research Task - Pals at Base Enhancement Lv2",
         "region": "Cooling T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Cooling"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Task Lv1",
+        "name": "MP Research Task - Medicine Production Task Lv1",
         "region": "Med_Prod T1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Task Lv2",
+        "name": "MP Research Task - Medicine Production Task Lv2",
         "region": "Med_Prod T1-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Research Lv1",
+        "name": "MP Research Task - Medicine Production Research Lv1",
         "region": "Med_Prod T1-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Witch's Cauldron Development",
+        "name": "MP Research Task - Witch's Cauldron Development",
         "place_item": [
             "Tech - Witch Cauldron"
         ],
         "region": "Med_Prod T2-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Pharmaceutical Cost-Saving Technique Lv1",
+        "name": "MP Research Task - Pharmaceutical Cost-Saving Technique Lv1",
         "region": "Med_Prod T2-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Research Lv2",
+        "name": "MP Research Task - Medicine Production Research Lv2",
         "region": "Med_Prod T2-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Task Lv3",
+        "name": "MP Research Task - Medicine Production Task Lv3",
         "region": "Med_Prod T2-4",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Task Lv4",
+        "name": "MP Research Task - Medicine Production Task Lv4",
         "region": "Med_Prod T3-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Pharmaceutical Cost-Saving Technique Lv2",
+        "name": "MP Research Task - Pharmaceutical Cost-Saving Technique Lv2",
         "region": "Med_Prod T3-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Pals at Base Enhancement Lv1",
+        "name": "MP Research Task - Pals at Base Enhancement Lv1",
         "region": "Med_Prod T3-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Medicine Production Task Lv5",
+        "name": "MP Research Task - Medicine Production Task Lv5",
         "region": "Med_Prod T4-1",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Pharmaceutical Cost-Saving Technique Lv3",
+        "name": "MP Research Task - Pharmaceutical Cost-Saving Technique Lv3",
         "region": "Med_Prod T4-2",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
     {
-        "name": "Medicine Production Research Task - Pals at Base Enhancement Lv2",
+        "name": "MP Research Task - Pals at Base Enhancement Lv2",
         "region": "Med_Prod T4-3",
         "category": [
-            "Research Tasks"
+            "Research Tasks",
+            "Research Tasks - Medicine Production"
         ],
         "requires": []
     },
@@ -8322,7 +8460,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Tarantris (Level 30)",
@@ -8330,7 +8468,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Omascul (Level 31)",
@@ -8338,7 +8476,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Predator - Starryon (Level 34)",
@@ -8346,7 +8484,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:34|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:34|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Predator - Dinossom (Level 31)",
@@ -8354,7 +8492,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:31|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Predator - Maraith (Level 38)",
@@ -8362,7 +8500,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:38|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Predator - Rayhound (Level 30)",
@@ -8370,7 +8508,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Reptyro Cryst (Level 40)",
@@ -8378,7 +8516,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND |@Player Beacon:4|"
+        "requires": "{OptOne(|Player Level:40|)} AND |@Pal Beacons| AND |Player Beacon 8|"
     },
     {
         "name": "Predator - Ragnahawk (Level 32)",
@@ -8386,7 +8524,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:32|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:32|)} AND |@Pal Beacons| AND |Player Beacon 7|"
     },
     {
         "name": "Predator - Vanwyrm (Level 25)",
@@ -8394,7 +8532,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Predator - Cryolinx Terra (Level 48)",
@@ -8402,7 +8540,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Dazemu (Level 47)",
@@ -8410,7 +8548,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Prixter (Level 45)",
@@ -8418,7 +8556,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Predator - Faleris Aqua (Level 50)",
@@ -8426,7 +8564,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Kitsun (Level 47)",
@@ -8434,7 +8572,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:47|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Loupmoon Cryst (Level 49)",
@@ -8442,7 +8580,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:49|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Wumpo (Level 50)",
@@ -8450,7 +8588,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Blazehowl Noct (Level 50)",
@@ -8458,7 +8596,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:50|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Elphidran (Level 55)",
@@ -8466,7 +8604,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Predator - Splatterina (Level 55)",
@@ -8474,7 +8612,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Predator - Shroomer (Level 55)",
@@ -8482,7 +8620,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 11|"
     },
     {
         "name": "Predator - Direhowl (Level 25)",
@@ -8490,7 +8628,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:25|)} AND |@Pal Beacons| AND |Player Beacon 5|"
     },
     {
         "name": "Predator - Mossanda (Level 30)",
@@ -8498,7 +8636,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Dogen (Level 28)",
@@ -8506,7 +8644,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:28|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Lovander (Level 26)",
@@ -8514,7 +8652,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:26|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Gorirat (Level 30)",
@@ -8522,7 +8660,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |@Player Beacon:3|"
+        "requires": "{OptOne(|Player Level:30|)} AND |@Pal Beacons| AND |Player Beacon 6|"
     },
     {
         "name": "Predator - Gildane (Level 48)",
@@ -8530,7 +8668,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:55|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Jormuntide Ignis (Level 48)",
@@ -8538,7 +8676,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:48|)} AND |@Pal Beacons| AND |Player Beacon 10|"
     },
     {
         "name": "Predator - Digtoise (Level 45)",
@@ -8546,7 +8684,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |@Player Beacon:5|"
+        "requires": "{OptOne(|Player Level:45|)} AND |@Pal Beacons| AND |Player Beacon 9|"
     },
     {
         "name": "Predator - Helzephyr Lux (Level 60)",
@@ -8554,7 +8692,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Predator - Incineram Noct (Level 60)",
@@ -8562,7 +8700,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Predator - Sootseer (Level 60)",
@@ -8570,7 +8708,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Predator - Bushi Noct (Level 60)",
@@ -8578,7 +8716,7 @@
         "category": [
             "Predator Hunts"
         ],
-        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |@Player Beacon:6|"
+        "requires": "{OptOne(|Player Level:60|)} AND |@Pal Beacons| AND |Player Beacon 12|"
     },
     {
         "name": "Pal Merchant (Small Settlement) - Slot 1",
@@ -12136,7 +12274,7 @@
     },
     {
         "name": "Cook Baked Berries",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
@@ -12145,7 +12283,7 @@
     },
     {
         "name": "Cook Baked Mushrooms",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
@@ -12154,70 +12292,70 @@
     },
     {
         "name": "Cook Bread",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Bread Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Bread Recipe|)} AND |Flours|"
     },
     {
         "name": "Cook Fried Egg",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Egg Recipe|)}"
+        "requires": "{OptOne(|Fried Egg Recipe|)} AND |Eggs|"
     },
     {
         "name": "Cook Hot Milk",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "(({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND {OptOne(|Hot Milk Recipe|)}"
+        "requires": "{OptOne(|Hot Milk Recipe|)} AND |Milks|"
     },
     {
         "name": "Cook Jam-Filled Bun",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Jam-Filled Bun Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Jam-Filled Bun Recipe|)} AND |Flours|"
     },
     {
         "name": "Cook Pancake",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Water Orb|)} AND |Tech - Mill| AND {OptOne(|Pancake Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Pancake Recipe|)} AND |Milks| AND |Flours|"
     },
     {
         "name": "Cook Salad",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "((|Tech - Lettuce Plantation| AND |Tech - Tomato Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}) AND {OptOne(|Salad Recipe|)}"
+        "requires": "{OptOne(|Salad Recipe|)} AND |Lettuces| AND |Tomatoes|"
     },
     {
         "name": "Cook Omelet",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)}) AND {OptOne(|Omelet Recipe|)}"
+        "requires": "{OptOne(|Omelet Recipe|)} AND |Tomatoes| AND |Eggs|"
     },
     {
         "name": "Cook Marinated Mushrooms",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
@@ -12226,408 +12364,408 @@
     },
     {
         "name": "Cook Mushroom Soup",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mushroom Soup Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Mushroom Soup Recipe|)} AND |Milks|"
     },
     {
         "name": "Cook Pizza",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Pizza Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND (|Volcano Beacon| OR |Dunes Beacon|)) OR (|Tech - Tomato Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Pizza Recipe|)} AND |Flours| AND |Tomatoes| AND |Milks|"
     },
     {
         "name": "Cook Carbonara",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Carbonara Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Bamboo Beacon| AND |Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Carbonara Recipe|)} AND |Flours| AND |Eggs| AND |Milks|"
     },
     {
         "name": "Cook Cake",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Cake Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |@Honey Drop|"
+        "requires": "{OptOne(|Cake Recipe|)} AND |Flours| AND |Milks| AND |Honeys|"
     },
     {
         "name": "Cook Grilled Chikipi",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Grilled Chikipi Recipe|)}"
+        "requires": "{OptOne(|Grilled Chikipi Recipe|)} AND |ChikipiPoultry|"
     },
     {
         "name": "Cook Lamball Kebab",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Lamball Kebab Recipe|)}"
+        "requires": "{OptOne(|Lamball Kebab Recipe|)} AND |LamballMutton|"
     },
     {
         "name": "Cook Grilled Kelpsea",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Kelpsea Beacon| AND {OptOne(|Grilled Kelpsea Recipe|)}"
+        "requires": "{OptOne(|Grilled Kelpsea Recipe|)} AND |RawKelpsea|"
     },
     {
         "name": "Cook Grilled Galeclaw",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "(|Crescent Beacon| OR |Bamboo Beacon|) AND {OptOne(|Grilled Galeclaw Recipe|)}"
+        "requires": "{OptOne(|Grilled Galeclaw Recipe|)} AND |GaleclawPoultry|"
     },
     {
         "name": "Cook Roast Rushoar",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Roast Rushoar Recipe|)}"
+        "requires": "{OptOne(|Roast Rushoar Recipe|)} AND |RushoarPork|"
     },
     {
         "name": "Cook Broiled Dumud",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "(|Volcano Beacon| OR |Twilight Beacon| OR |Boss - Dumud|) AND {OptOne(|Broiled Dumud Recipe|)}"
+        "requires": "{OptOne(|Broiled Dumud Recipe|)} AND |RawDumud|"
     },
     {
         "name": "Cook Roast Eikthyrdeer",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Roast Eikthyrdeer Recipe|)}"
+        "requires": "{OptOne(|Roast Eikthyrdeer Recipe|)} AND |EikthyrdeerVenison|"
     },
     {
         "name": "Cook Roast Reindrix",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Reindrix Beacon| AND {OptOne(|Roast Reindrix Recipe|)}"
+        "requires": "{OptOne(|Roast Reindrix Recipe|)} AND |ReindrixVenison|"
     },
     {
         "name": "Cook Herb Roasted Caprity",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Caprity Beacon| AND {OptOne(|Herb Roasted Caprity Recipe|)}"
+        "requires": "{OptOne(|Herb Roasted Caprity Recipe|)} AND |CaprityMeat|"
     },
     {
         "name": "Cook Mozzarina Steak",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Bamboo Beacon| AND {OptOne(|Mozzarina Steak Recipe|)}"
+        "requires": "{OptOne(|Mozzarina Steak Recipe|)} AND |MozzarinaMeat|"
     },
     {
         "name": "Cook Broncherry Rib Roast",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "(|Bamboo Beacon| OR (|Sea Breeze Beacon| AND |@Player Beacon:2|)) AND {OptOne(|Broncherry Rib Roast Recipe|)}"
+        "requires": "{OptOne(|Broncherry Rib Roast Recipe|)} AND |BroncherryMeat|"
     },
     {
         "name": "Cook Mammorest Steak",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Mammorest Beacon| AND {OptOne(|Mammorest Steak Recipe|)}"
+        "requires": "{OptOne(|Mammorest Steak Recipe|)} AND |MammorestMeat|"
     },
     {
         "name": "Cook Munchill Steak",
-        "region": "Campfire",
+        "region": "Basic Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "|Munchill Beacon| AND {OptOne(|Munchill Steak Recipe|)}"
+        "requires": "{OptOne(|Munchill Steak Recipe|)} AND |MunchillMeat|"
     },
     {
         "name": "Cook Chikipi Sauté",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Chikipi Sauté Recipe|)}"
+        "requires": "{OptOne(|Chikipi Sauté Recipe|)} AND |ChikipiPoultry|"
     },
     {
         "name": "Cook Herb Roasted Lamball",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Herb Roasted Lamball Recipe|)}"
+        "requires": "{OptOne(|Herb Roasted Lamball Recipe|)} AND |LamballMutton|"
     },
     {
         "name": "Cook Grilled Lamball",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND ((|Tech - Lettuce Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)})"
+        "requires": "{OptOne(|Grilled Lamball Recipe|)} AND |LamballMutton| AND |Lettuces|"
     },
     {
         "name": "Cook Stewed Galeclaw",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Stewed Galeclaw Recipe|)} AND (|Bamboo Beacon| OR |Crescent Beacon|)"
+        "requires": "{OptOne(|Stewed Galeclaw Recipe|)} AND |GaleclawPoultry|"
     },
     {
         "name": "Cook Rushoar Bacon 'n' Eggs",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Bacon 'n' Eggs Recipe|)}"
+        "requires": "{OptOne(|Rushoar Bacon 'n' Eggs Recipe|)} AND |RushoarPork| AND |Eggs|"
     },
     {
         "name": "Cook Reindrix Stew",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND |Reindrix Beacon| AND ((|Tech - Tomato Plantation| AND |Tech - Palbox|) OR ((|Volcano Beacon| OR |Dunes Beacon|) AND {OptOne(|Membership Card|)})"
+        "requires": "{OptOne(|Reindrix Stew Recipe|)} AND |ReindrixVenison| AND |Flours|"
     },
     {
         "name": "Cook Rushoar Gyoza",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND |@Watering| AND |Tech - Mill| AND ({OptOne(|Membership Card|)} AND |@Merchant Location|)"
+        "requires": "{OptOne(|Rushoar Gyoza Recipe|)} AND |RushoarPork| AND |Flours|"
     },
     {
         "name": "Cook Stir-Fried Vegetables",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Stir-Fried Vegetables Recipe|)} AND |Tech - Onion Plantation| AND |Tech - Carrot Plantation| AND |Tech - Palbox| AND (|Crescent Beacon| OR |Forest Beacon| OR |Eastern Wild Beacon| OR |Cold Shore Beacon| OR |Wildlife 1 Beacon|)"
+        "requires": "{OptOne(|Stir-Fried Vegetables Recipe|)} AND |Onions| AND |Carrots|"
     },
     {
         "name": "Cook French Fries",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|French Fries Recipe|)} AND |Tech - Potato Plantation| AND |Tech - Palbox| AND (|Crescent Beacon| OR |Dunes Beacon| OR |Bamboo Beacon| OR (|Sea Breeze Beacon| AND |@Player Beacon:2|) OR |Feybreak Beacon|)"
+        "requires": "{OptOne(|French Fries Recipe|)} AND |Potatoes| AND |High Quality Pal Oil|"
     },
     {
         "name": "Cook Fried Gloopie Balls",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND |Gloopie Beacon|"
+        "requires": "{OptOne(|Fried Gloopie Balls Recipe|)} AND |GloopieTentacle| AND |Flours|"
     },
     {
         "name": "Cook Jelliette's Jiggly Jelly",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Jelliette's Jiggly Jelly Recipe|)} AND |Jelliette Beacon|"
+        "requires": "{OptOne(|Jelliette's Jiggly Jelly Recipe|)} AND |JellietteBellFlesh| AND |Pal Fluids|"
     },
     {
         "name": "Cook Jellroy's Jolly Jelly",
-        "region": "Cooking Pot",
+        "region": "Decent Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Jellroy's Jolly Jelly Recipe|)} AND |Jellroy Beacon|"
+        "requires": "{OptOne(|Jellroy's Jolly Jelly Recipe|)} AND |JellroyBellFlesh|"
     },
     {
         "name": "Cook Fried Chikipi",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Chikipi Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Fried Chikipi Recipe|)} AND |ChikipiPoultry| AND |Flours| AND |Eggs| AND |High Quality Pal Oil|"
     },
     {
         "name": "Cook Rushoar Hot Dog",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Rushoar Hot Dog Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
+        "requires": "{OptOne(|Rushoar Hot Dog Recipe|)} AND |RushoarPork| AND |Flours| AND |Lettuces|"
     },
     {
         "name": "Cook Eikthyrdeer Loco Moco",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Eikthyrdeer Loco Moco Recipe|)}"
+        "requires": "{OptOne(|Eikthyrdeer Loco Moco Recipe|)} AND |EikthyrdeerVenison| AND |Eggs|"
     },
     {
         "name": "Cook Eikthyrdeer Stew",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Eikthyrdeer Stew Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Eikthyrdeer Stew Recipe|)} AND |EikthyrdeerVenison| AND |Milks|"
     },
     {
         "name": "Cook Mozzarina Hamburger",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mozzarina Hamburger Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
+        "requires": "{OptOne(|Mozzarina Hamburger Recipe|)} AND |MozzarinaMeat| AND |Flours| AND |Lettuces|"
     },
     {
         "name": "Cook Mozzarina Cheeseburger",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mozzarina Cheeseburger Recipe|)} AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|)) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Bamboo Beacon|"
+        "requires": "{OptOne(|Mozzarina Cheeseburger Recipe|)} AND |MozzarinaMeat| AND |Flours| AND |Tomatoes| AND |Milks|"
     },
     {
         "name": "Cook Fried Kelpsea",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Fried Kelpsea Recipe|)} AND |Kelpsea Beacon| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR (|Tech - Wheat Plantation| AND |Tech - Palbox|))"
+        "requires": "{OptOne(|Fried Kelpsea Recipe|)} AND |RawKelpsea| AND |Flours| AND |Eggs| AND |High Quality Pal Oil|"
     },
     {
         "name": "Cook Dumud Chowder",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Dumud Chowder Recipe|)} AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND (|Dumud Gild Beacon| OR |Volcano Beacon| OR |Twilight Beacon| OR |Boss - Dumud|)"
+        "requires": "{OptOne(|Dumud Chowder Recipe|)} AND |RawDumud| AND |Lettuces| AND |Tomatoes|"
     },
     {
         "name": "Cook Broncherry Fried Noodles",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Broncherry Fried Noodles Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND ((|Sea Breeze Beacon| AND |@Player Beacon:2|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Broncherry Fried Noodles Recipe|)} AND |BroncherryMeat| AND |Onions| AND |Carrots| AND |Flours|"
     },
     {
         "name": "Cook Spring Rolls",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Spring Rolls Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
+        "requires": "{OptOne(|Spring Rolls Recipe|)} AND |Onions| AND |Flours|"
     },
     {
         "name": "Cook Gratin",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Gratin Recipe|)} AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|) AND |Tech - Palbox| AND |Tech - Potato Plantation| AND |@Potato Drop| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|)"
+        "requires": "{OptOne(|Gratin Recipe|)} AND |Milks| AND |Potatoes| AND |Potatoes| AND |Flours|"
     },
     {
         "name": "Cook Minestrone",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Minestrone Recipe|)} AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Tomato Plantation| AND |@Tomato Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)})) AND |Tech - Palbox| AND |Tech - Carrot Plantation| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Potato Plantation| AND |@Potato Drop|"
+        "requires": "{OptOne(|Minestrone Recipe|)} AND |Tomatoes| AND |Carrots| AND |Onions| AND |Potatoes|"
     },
     {
         "name": "Cook Seafood Salad",
-        "region": "Electric Kitchen",
+        "region": "Electric Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Seafood Salad Recipe|)} AND |Gloopie Beacon| AND ((|@Player Beacon:2| AND |Tech - Palbox| AND |Tech - Lettuce Plantation| AND |@Lettuce Drop|) OR ((|Dunes Beacon| OR |Volcano Beacon|) AND {OptOne(Membership Card)}))"
+        "requires": "{OptOne(|Seafood Salad Recipe|)} AND |GloopieTentacle| AND |Lettuces|"
     },
     {
         "name": "Cook Mammorest Curry",
-        "region": "Large-Scale Stone Oven",
+        "region": "Large-Scale Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mammorest Curry Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND |Tech - Potato Plantation| AND |@Potato Drop|"
+        "requires": "{OptOne(|Mammorest Curry Recipe|)} AND |MammorestMeat| AND |Onions| AND |Carrots| AND |Potatoes|"
     },
     {
         "name": "Cook Galeclaw Nikujaga",
-        "region": "Large-Scale Stone Oven",
+        "region": "Large-Scale Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Galeclaw Nikujaga Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |Tech - Carrot Plantation| AND |Tech - Potato Plantation| AND |@Potato Drop| AND (|Bamboo Beacon| OR |Crescent Beacon|)"
+        "requires": "{OptOne(|Galeclaw Nikujaga Recipe|)} AND |GaleclawPoultry| AND |Onions| AND |Carrots| AND |Potatoes|"
     },
     {
         "name": "Cook Mushroom Quiche",
-        "region": "Large-Scale Stone Oven",
+        "region": "Large-Scale Cooking",
         "category": [
             "Cooking Challenges",
             "Cook Stuff"
         ],
-        "requires": "{OptOne(|Mushroom Quiche Recipe|)} AND |Tech - Palbox| AND |Tech - Onion Plantation| AND |@Onion Drop| AND |@Watering| AND |Tech - Mill| AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Tech - Wheat Plantation|) AND (({OptOne(|Membership Card|)} AND |@Merchant Location|) OR |Bamboo Beacon|)"
+        "requires": "{OptOne(|Mushroom Quiche Recipe|)} AND |Flours| AND |Onions| AND |Eggs| AND |Milks|"
     },
     {
         "name": "Cooked all the Dishes!",
@@ -12648,7 +12786,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Zoe's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Zoe|"
     },
     {
         "name": "Defeat Lily and Lyleen",
@@ -12657,7 +12795,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Lily's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Lily|"
     },
     {
         "name": "Defeat Axel and Orserk",
@@ -12666,7 +12804,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Axel's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Axel|"
     },
     {
         "name": "Defeat Marcus and Faleris",
@@ -12675,7 +12813,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Marcus's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Marcus|"
     },
     {
         "name": "Defeat Victor and Shadowbeak",
@@ -12684,7 +12822,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Victor's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Victor|"
     },
     {
         "name": "Defeat Saya and Selyne",
@@ -12693,7 +12831,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Saya's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Saya|"
     },
     {
         "name": "Defeat Bjorn and Bastigor",
@@ -12702,7 +12840,7 @@
             "Tower Bosses",
             "Tower Rush"
         ],
-        "requires": "(|Bjorn's Key| AND {YamlDisabled(AllofAbove_Goal)}) OR ({YamlEnabled(AllofAbove_Goal)} AND |@Tower Keys:all| AND |@Tower Boss Location:7|)"
+        "requires": "|Bjorn|"
     },
     {
         "name": "Defeated all the Tower Bosses!",
@@ -12712,7 +12850,7 @@
             "Tower Rush Goal",
             "Victory Conditions"
         ],
-        "requires": "|@Tower Keys:all| AND |@Tower Boss Location:7|",
+        "requires": "|@Tower Boss:7|",
         "place_item": [
             "Proof of Victory (Tower Rush)"
         ]
@@ -13163,7 +13301,7 @@
         "requires": []
     },
     {
-        "name": "Discover The Mineshaft of the Devout",
+        "name": "Discover The Devout Mineshaft",
         "region": "Crescent Moon Shore",
         "category": [
             "Exploration"
@@ -13531,6 +13669,14 @@
         "requires": []
     },
     {
+        "name": "Discover The Shield Dragon Tunnel",
+        "region": "Feybreak Red",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
         "name": "Discover The Emberstone Plateau",
         "region": "Feybreak Red",
         "category": [
@@ -13548,6 +13694,38 @@
     },
     {
         "name": "Discover The Hidden Passage to the Oculus Gate",
+        "region": "Feybreak Red",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Discover The Dark Flame Tunnel",
+        "region": "Feybreak Red",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Discover The Bloodstained Tunnel",
+        "region": "Feybreak Red",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Discover The Stone Pillar Cave",
+        "region": "Feybreak Red",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Discover The Cannibal's Mine",
         "region": "Feybreak Red",
         "category": [
             "Exploration"
@@ -13573,6 +13751,22 @@
     {
         "name": "Discover The Sealed Realm of the Little Hero",
         "region": "Feybreak Yellow",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Discover The Oculus Gate, Tower in Sight",
+        "region": "Feybreak Blue",
+        "category": [
+            "Exploration"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Discover The Feybreak Shipwreck",
+        "region": "Feybreak Blue",
         "category": [
             "Exploration"
         ],
@@ -13628,7 +13822,7 @@
     },
     {
         "name": "Found a Lucky Pal at the Crescent Moon Shore",
-        "region": "Crescent Moon Shore",
+        "region": "WildPals_Crescent",
         "category": [
             "Lucky Hunt"
         ],
@@ -13636,7 +13830,7 @@
     },
     {
         "name": "Found a Lucky Pal in Verdant Brook",
-        "region": "Verdant Brook",
+        "region": "WildPals_Verdant",
         "category": [
             "Lucky Hunt"
         ],
@@ -13644,7 +13838,7 @@
     },
     {
         "name": "Found a Lucky Pal in Astral Mountains",
-        "region": "Astral Mountains",
+        "region": "WildPals_Astral",
         "category": [
             "Lucky Hunt"
         ],
@@ -13652,7 +13846,7 @@
     },
     {
         "name": "Found a Lucky Pal at Mount Obsidian",
-        "region": "Mount Obsidian",
+        "region": "WildPals_Obsidian",
         "category": [
             "Lucky Hunt"
         ],
@@ -13660,7 +13854,7 @@
     },
     {
         "name": "Found a Lucky Pal in Desiccated Dunes",
-        "region": "Dessicated Dunes",
+        "region": "WildPals_Desert",
         "category": [
             "Lucky Hunt"
         ],
@@ -13668,7 +13862,7 @@
     },
     {
         "name": "Found a Lucky Pal at Sakurajima",
-        "region": "Sakurajima",
+        "region": "WildPals_Sakurajima",
         "category": [
             "Lucky Hunt"
         ],
@@ -13676,7 +13870,7 @@
     },
     {
         "name": "Found a Lucky Pal at Feybreak Island",
-        "region": "Feybreak",
+        "region": "WildPals_Feybreak",
         "category": [
             "Lucky Hunt"
         ],
@@ -13689,7 +13883,7 @@
             "OilRigs",
             "Oil Rigs Takedown"
         ],
-        "requires": "|@Player Beacon:3| AND {OptOne(|Player Level:30|)"
+        "requires": "|Player Beacon 6| AND {OptOne(|Player Level:30|)"
     },
     {
         "name": "Discover the Rayne Syndicate Barge Oil Rig",
@@ -13707,7 +13901,7 @@
             "OilRigs",
             "Oil Rigs Takedown"
         ],
-        "requires": "|@Player Beacon:6| AND {OptOne(|Player Level:55|)"
+        "requires": "|Player Beacon 11| AND {OptOne(|Player Level:55|)"
     },
     {
         "name": "Discover the Rayne Syndicate Oil Rig",
@@ -13725,7 +13919,7 @@
             "OilRigs",
             "Oil Rigs Takedown"
         ],
-        "requires": "|@Player Beacon:6| AND {OptOne(|Player Level:60|)"
+        "requires": "|Player Beacon 12| AND {OptOne(|Player Level:60|)"
     },
     {
         "name": "Discover the Rayne Syndicate Platform Oil Rig",
@@ -13737,20 +13931,116 @@
         "requires": []
     },
     {
-        "name": "Reached Player Level 5",
-        "region": "Player Progression",
+        "name": "Created your Character",
+        "region": "General",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:5)}"
+        "requires": ""
+    },
+    {
+        "name": "Reached Player Level 2",
+        "region": "Player Progression 5",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:2|)}"
+    },
+    {
+        "name": "Reached Player Level 3",
+        "region": "Player Progression 5",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:3|)}"
+    },
+    {
+        "name": "Reached Player Level 4",
+        "region": "Player Progression 5",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:4|)}"
+    },
+    {
+        "name": "Reached Player Level 5",
+        "region": "Player Progression 5",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:5|)}"
+    },
+    {
+        "name": "Reached Player Level 6",
+        "region": "Player Progression 10",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:6|)}"
+    },
+    {
+        "name": "Reached Player Level 7",
+        "region": "Player Progression 10",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:7|)}"
+    },
+    {
+        "name": "Reached Player Level 8",
+        "region": "Player Progression 10",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:8|)}"
+    },
+    {
+        "name": "Reached Player Level 9",
+        "region": "Player Progression 10",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:9|)}"
     },
     {
         "name": "Reached Player Level 10",
-        "region": "Player Progression",
+        "region": "Player Progression 10",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:10)}"
+        "requires": "{OptOne(|Player Level:10|)}"
+    },
+    {
+        "name": "Reached Player Level 11",
+        "region": "Player Progression 15",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:11|)}"
+    },
+    {
+        "name": "Reached Player Level 12",
+        "region": "Player Progression 15",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:12|)}"
+    },
+    {
+        "name": "Reached Player Level 13",
+        "region": "Player Progression 15",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:13|)}"
+    },
+    {
+        "name": "Reached Player Level 14",
+        "region": "Player Progression 15",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:14|)}"
     },
     {
         "name": "Reached Player Level 15",
@@ -13758,7 +14048,39 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:15)}"
+        "requires": "{OptOne(|Player Level:15|)}"
+    },
+    {
+        "name": "Reached Player Level 16",
+        "region": "Player Progression 20",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:16|)}"
+    },
+    {
+        "name": "Reached Player Level 17",
+        "region": "Player Progression 20",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:17|)}"
+    },
+    {
+        "name": "Reached Player Level 18",
+        "region": "Player Progression 20",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:18|)}"
+    },
+    {
+        "name": "Reached Player Level 19",
+        "region": "Player Progression 20",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:19|)}"
     },
     {
         "name": "Reached Player Level 20",
@@ -13766,15 +14088,79 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:20)}"
+        "requires": "{OptOne(|Player Level:20|)}"
     },
     {
-        "name": "Reached Player Level 25",
-        "region": "Player Progression 20",
+        "name": "Reached Player Level 21",
+        "region": "Player Progression 25",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:25)}"
+        "requires": "{OptOne(|Player Level:21|)}"
+    },
+    {
+        "name": "Reached Player Level 22",
+        "region": "Player Progression 25",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:22|)}"
+    },
+    {
+        "name": "Reached Player Level 23",
+        "region": "Player Progression 25",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:23|)}"
+    },
+    {
+        "name": "Reached Player Level 24",
+        "region": "Player Progression 25",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:24|)}"
+    },
+    {
+        "name": "Reached Player Level 25",
+        "region": "Player Progression 25",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:25|)}"
+    },
+    {
+        "name": "Reached Player Level 26",
+        "region": "Player Progression 30",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:26|)}"
+    },
+    {
+        "name": "Reached Player Level 27",
+        "region": "Player Progression 30",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:27|)}"
+    },
+    {
+        "name": "Reached Player Level 28",
+        "region": "Player Progression 30",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:28|)}"
+    },
+    {
+        "name": "Reached Player Level 29",
+        "region": "Player Progression 30",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:29|)}"
     },
     {
         "name": "Reached Player Level 30",
@@ -13782,15 +14168,79 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:30)}"
+        "requires": "{OptOne(|Player Level:30|)}"
     },
     {
-        "name": "Reached Player Level 35",
-        "region": "Player Progression 30",
+        "name": "Reached Player Level 31",
+        "region": "Player Progression 35",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:35)}"
+        "requires": "{OptOne(|Player Level:31|)}"
+    },
+    {
+        "name": "Reached Player Level 32",
+        "region": "Player Progression 35",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:32|)}"
+    },
+    {
+        "name": "Reached Player Level 33",
+        "region": "Player Progression 35",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:33|)}"
+    },
+    {
+        "name": "Reached Player Level 34",
+        "region": "Player Progression 35",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:34|)}"
+    },
+    {
+        "name": "Reached Player Level 35",
+        "region": "Player Progression 35",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:35|)}"
+    },
+    {
+        "name": "Reached Player Level 36",
+        "region": "Player Progression 40",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:36|)}"
+    },
+    {
+        "name": "Reached Player Level 37",
+        "region": "Player Progression 40",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:37|)}"
+    },
+    {
+        "name": "Reached Player Level 38",
+        "region": "Player Progression 40",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:38|)}"
+    },
+    {
+        "name": "Reached Player Level 39",
+        "region": "Player Progression 40",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:39|)}"
     },
     {
         "name": "Reached Player Level 40",
@@ -13798,15 +14248,79 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:40)}"
+        "requires": "{OptOne(|Player Level:40|)}"
     },
     {
-        "name": "Reached Player Level 45",
-        "region": "Player Progression 40",
+        "name": "Reached Player Level 41",
+        "region": "Player Progression 45",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:45)}"
+        "requires": "{OptOne(|Player Level:41|)}"
+    },
+    {
+        "name": "Reached Player Level 42",
+        "region": "Player Progression 45",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:42|)}"
+    },
+    {
+        "name": "Reached Player Level 43",
+        "region": "Player Progression 45",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:43|)}"
+    },
+    {
+        "name": "Reached Player Level 44",
+        "region": "Player Progression 45",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:44|)}"
+    },
+    {
+        "name": "Reached Player Level 45",
+        "region": "Player Progression 45",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:45|)}"
+    },
+    {
+        "name": "Reached Player Level 46",
+        "region": "Player Progression 50",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:46|)}"
+    },
+    {
+        "name": "Reached Player Level 47",
+        "region": "Player Progression 50",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:47|)}"
+    },
+    {
+        "name": "Reached Player Level 48",
+        "region": "Player Progression 50",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:48|)}"
+    },
+    {
+        "name": "Reached Player Level 49",
+        "region": "Player Progression 50",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:49|)}"
     },
     {
         "name": "Reached Player Level 50",
@@ -13814,15 +14328,79 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:50)}"
+        "requires": "{OptOne(|Player Level:50|)}"
     },
     {
-        "name": "Reached Player Level 55",
-        "region": "Player Progression 50",
+        "name": "Reached Player Level 51",
+        "region": "Player Progression 55",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:55)}"
+        "requires": "{OptOne(|Player Level:51|)}"
+    },
+    {
+        "name": "Reached Player Level 52",
+        "region": "Player Progression 55",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:52|)}"
+    },
+    {
+        "name": "Reached Player Level 53",
+        "region": "Player Progression 55",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:53|)}"
+    },
+    {
+        "name": "Reached Player Level 54",
+        "region": "Player Progression 55",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:54|)}"
+    },
+    {
+        "name": "Reached Player Level 55",
+        "region": "Player Progression 55",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:55|)}"
+    },
+    {
+        "name": "Reached Player Level 56",
+        "region": "Player Progression 60",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:56|)}"
+    },
+    {
+        "name": "Reached Player Level 57",
+        "region": "Player Progression 60",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:57|)}"
+    },
+    {
+        "name": "Reached Player Level 58",
+        "region": "Player Progression 60",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:58|)}"
+    },
+    {
+        "name": "Reached Player Level 59",
+        "region": "Player Progression 60",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:59|)}"
     },
     {
         "name": "Reached Player Level 60",
@@ -13830,15 +14408,47 @@
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:60)}"
+        "requires": "{OptOne(|Player Level:60|)}"
     },
     {
-        "name": "Reached Player Level 65",
-        "region": "Player Progression 60",
+        "name": "Reached Player Level 61",
+        "region": "Player Progression 65",
         "category": [
             "Player Progression"
         ],
-        "requires": "{OptOne(Player Level:65)}"
+        "requires": "{OptOne(|Player Level:61|)}"
+    },
+    {
+        "name": "Reached Player Level 62",
+        "region": "Player Progression 65",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:62|)}"
+    },
+    {
+        "name": "Reached Player Level 63",
+        "region": "Player Progression 65",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:63|)}"
+    },
+    {
+        "name": "Reached Player Level 64",
+        "region": "Player Progression 65",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:64|)}"
+    },
+    {
+        "name": "Reached Player Level 65",
+        "region": "Player Progression 65",
+        "category": [
+            "Player Progression"
+        ],
+        "requires": "{OptOne(|Player Level:65|)}"
     },
     {
         "name": "Defeated all Raid Bosses",
@@ -13961,61 +14571,61 @@
         ]
     },
     {
-        "region": "Feybreak Blue",
         "name": "Extra Spawn 1",
+        "region": "Feybreak Blue",
         "category": [
             "DUMMY",
             "Random Start"
         ],
-        "requires": "|@Key Items - Proof of Victory:all|",
+        "requires": "|@Key Items - Proof of Victory:ALL|",
         "place_item_category": [
             "Spawn Keys"
         ]
     },
     {
-        "region": "Feybreak Blue",
         "name": "Extra Spawn 2",
+        "region": "Feybreak Blue",
         "category": [
             "DUMMY",
             "Random Start"
         ],
-        "requires": "|@Key Items - Proof of Victory:all|",
+        "requires": "|@Key Items - Proof of Victory:ALL|",
         "place_item_category": [
             "Spawn Keys"
         ]
     },
     {
-        "region": "Feybreak Blue",
         "name": "Extra Spawn 3",
+        "region": "Feybreak Blue",
         "category": [
             "DUMMY",
             "Random Start"
         ],
-        "requires": "|@Key Items - Proof of Victory:all|",
+        "requires": "|@Key Items - Proof of Victory:ALL|",
         "place_item_category": [
             "Spawn Keys"
         ]
     },
     {
-        "region": "Feybreak Blue",
         "name": "Extra Spawn 4",
+        "region": "Feybreak Blue",
         "category": [
             "DUMMY",
             "Random Start"
         ],
-        "requires": "|@Key Items - Proof of Victory:all|",
+        "requires": "|@Key Items - Proof of Victory:ALL|",
         "place_item_category": [
             "Spawn Keys"
         ]
     },
     {
-        "region": "Feybreak Blue",
         "name": "Extra Spawn 5",
+        "region": "Feybreak Blue",
         "category": [
             "DUMMY",
             "Random Start"
         ],
-        "requires": "|@Key Items - Proof of Victory:all|",
+        "requires": "|@Key Items - Proof of Victory:ALL|",
         "place_item_category": [
             "Spawn Keys"
         ]
@@ -14027,6 +14637,6 @@
         "category": [
             "Goal Completed"
         ],
-        "requires": "({YamlEnabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:all|) OR ({YamlDisabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory|)"
+        "requires": "({YamlEnabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory:ALL|) OR ({YamlDisabled(AllofAbove_Goal)} AND |@Key Items - Proof of Victory|)"
     }
 ]

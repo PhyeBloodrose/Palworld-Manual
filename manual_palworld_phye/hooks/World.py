@@ -70,6 +70,89 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    from ..Helpers import get_option_value
+    randomspawn = is_option_enabled(multiworld, player, "Random_Spawn")
+    ancient_technology = is_option_enabled(multiworld, player, "Include_AncientTechnology")
+    player_access = get_option_value(multiworld, player, "player_access")
+    spawns = ["Windswept Spawn","Sea Breeze Spawn","Eastern Wild Spawn","Marsh Spawn"]
+    spawn_to_pass = {
+    "Windswept Spawn": "Windswept Pass",
+    "Sea Breeze Spawn": "Sea Breeze Pass",
+    "Eastern Wild Spawn": "Eastern Wild Pass",
+    "Marsh Spawn": "Marsh Pass"
+    }
+
+    if player_access >= 1:
+       spawns.extend(["Murmurs Spawn", "Silence Spawn"])
+       spawn_to_pass.update({
+         "Murmurs Spawn": "Murmurs Pass",
+         "Silence Spawn": "Silence Pass"
+       })
+    
+    if randomspawn:
+       spawnpoint = world.random.choice(spawns)
+       item_config[spawnpoint] = {"progression": 1}
+       pass_to_remove = spawn_to_pass[spawnpoint]
+       item_config.pop(pass_to_remove, None)
+
+    #Dealing with Variance of Item Accessibilites
+    technology_progression = {
+      "Progressive Armor":             [1, 2, 3, 4, 5, 6, 7, 8, 8],
+      "Progressive Ingot":             [1, 1, 1, 2, 3, 4, 5, 7, 8],
+      "Progressive Pal Sphere":        [1, 3, 4, 5, 6, 7, 8, 9, 10],
+      "Progressive Glider":            [1, 2, 2, 3, 3, 4, 4, 4, 4],
+      "Progressive Workbench":         [0, 1, 2, 2, 3, 3, 3, 5, 5],
+      "Progressive Furnace":           [1, 1, 1, 2, 3, 3, 4, 5, 5],
+      "Progressive Axe":               [0, 1, 1, 2, 3, 4, 4, 4, 4],
+      "Progressive Pickaxe":           [0, 1, 1, 2, 3, 4, 4, 4, 4]
+    } 
+
+    technology_useful = {
+      "Progressive Feed Bag":          [1, 2, 3, 4, 5, 5, 5, 5, 5],
+      "Progressive Pouch":             [0, 0, 1, 1, 2, 3, 4, 4, 4]
+    } 
+         
+    progressive_shield = {
+      "Progressive Shield":            [1, 2, 3, 3, 4, 5, 6, 6, 7]
+    }
+    
+    ancient_technology_progression = {
+      "Progressive Egg Incubator":      [1, 1, 1, 2, 3, 3, 4, 4, 5],
+      "Progressive Glider":             [1, 2, 2, 3, 3, 4, 4, 4, 5]
+    }
+    ancient_technology_useful = {
+      "Progressive Lockpicking Tool":   [0, 1, 2, 2, 2, 3, 3, 3, 3],
+      "Progressive Air Dash Boots":     [0, 0, 0, 1, 1, 1, 1, 2, 3],
+      "Progressive Grappling Gun":      [0, 2, 2, 3, 4, 4, 4, 5, 5],
+    }
+
+    for item, counts in technology_progression.items():
+       item_config[item] = {
+        "progression": counts[player_access]
+       }
+
+    for item, counts in technology_useful.items():
+       item_config[item] = {
+        "useful": counts[player_access]
+       }
+
+    for item, counts in progressive_shield.items():
+       item_config[item] = {
+        "progression": 1,
+        "useful": counts[player_access] - 1
+       }
+    
+    if ancient_technology:
+        for item, counts in ancient_technology_progression.items():
+          item_config[item] = {
+           "progression": counts[player_access]
+          }
+
+        for item, counts in ancient_technology_useful.items():
+          item_config[item] = {
+           "useful": counts[player_access]
+          }
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage

@@ -1,43 +1,70 @@
 {
+    "Hidden": {
+        "hidden": true
+    },
+    "ORB01": {
+        "hidden": true
+    },
+    "ORB02": {
+        "hidden": true
+    },
+    "ORB03": {
+        "hidden": true
+    },
+    "ORB04": {
+        "hidden": true
+    },
+    "ORB05": {
+        "hidden": true
+    },
+    "ORB06": {
+        "hidden": true
+    },
+    "ORB07": {
+        "hidden": true
+    },
+    "ORB08": {
+        "hidden": true
+    },
+    "Ancient Technology": {
+        "yaml_option": [ "Include_AncientTechnology" ]
+    },
+    "Alpha Pals": {
+        "yaml_option": [ "Enable_Alpha_Pals" ]
+    },
+    "Alpha Hunter": {
+        "yaml_option": [ "Alpha_Goal", "Enable_Alpha_Pals" ],
+        "hidden": true
+    },
+    "Bounties": {
+        "yaml_option": [ "Enable_Bounties" ]
+    },
+    "Bounty Hunter": {
+        "yaml_option": [ "Bounty_Goal", "Enable_Bounties" ],
+        "hidden": true
+    },
     "Sub Missions": {
         "yaml_option": [ "Sub_Missions" ]
     },
     "Research Tasks": {
         "yaml_option": [ "Research_Tasks" ]
     },
-    "Research Tokens": {
-        "yaml_option": [ "Research_Tasks" ],
-        "hidden": true
+    "Palpedia": {
+        "yaml_option": [ "Enable_Palpedia" ]
     },
     "Raid Boss": {
-        "yaml_option": [ "Enable_Raid_Pals" ],
+        "yaml_option": [ "Enable_Raid_Pals", "Enable_Palpedia" ],
         "hidden": true
     },
-    "Dungeon Location": {
+    "Mimog Effigies": {
+        "yaml_option": [ "Enable_Palpedia", "Mimog_Effigies" ]
+    },
+    "Rainbow Passives": {
+        "yaml_option": [ "Rainbow_Passives" ],
         "hidden": true
     },
-    "Island Dungeon Location": {
-        "hidden": true
-    },
-    "Astral Dungeon Location": {
-        "hidden": true
-    },
-    "Forest Dungeon Location": {
-        "hidden": true
-    },
-    "Capture Pals": {
-        "yaml_option": [ "Capture_Pals" ],
-        "hidden": true
-    },
-    "Diamond Passives": {
-        "yaml_option": [ "Diamond_Passives" ],
-        "hidden": true
-    },
-    "Passives Unlocked": {
+    "Passive Skills": {
         "yaml_option": [ "Passives" ]
-    },
-    "Predator Hunts": {
-        "yaml_option": [ "Predator_Pals" ]
     },
     "Schematics_Vanity": {
         "yaml_option": [ "Vanity_Schematics" ],
@@ -58,60 +85,20 @@
     "Consumables - Skill Fruits": {
         "yaml_option": [ "Skill_Fruits" ]
     },
-    "Elixirs": {
+    "Consumables - Elixirs": {
         "yaml_option": [ "Potions" ]
     },
-    "Pal Fruits": {
+    "Consumables - Pal Fruits": {
         "yaml_option": [ "Pal_Fruits" ]
     },
-    "Technique Books": {
-        "yaml_option": [ "Tech_Books" ]
+    "Consumables - Handbooks": {
+        "yaml_option": [ "Handbooks" ]
     },
     "Key Items - Implants": {
         "yaml_option": [ "Implants" ]
     },
-    "Player Levels": {
-        "yaml_option": [ "Include_Levelups" ]
-    },
-    "Player Level Location": {
-        "yaml_option": [ "Include_Levelups" ],
-        "hidden": true
-    },
-    "Power Source": {
-        "hidden": true
-    },
-    "Legendary": {
-        "hidden": true
-    },
-    "Spawn Keys": {
+    "Spawn Point": {
         "yaml_option": [ "Random_Spawn" ],
-        "hidden": true
-    },
-    "EZ_Mounts": {
-        "hidden": true
-    },
-    "EZ_HotArmor": {
-        "hidden": true
-    },
-    "EZ_ColdArmor": {
-        "hidden": true
-    },
-    "Cloth Armor": {
-        "hidden": true
-    },
-    "Leather Armor": {
-        "hidden": true
-    },
-    "Metal Armor": {
-        "hidden": true
-    },
-    "Bosses": {
-        "hidden": true
-    },
-    "Base Foundations": {
-        "hidden": true
-    },
-    "Fishing Bait": {
         "hidden": true
     },
     "Starting Bonus": {
@@ -126,8 +113,11 @@
         "yaml_option": [ "!Random_Spawn" ],
         "hidden": true
     },
-    "Journey Goal": {
-        "yaml_option": [ "Journey_Goal", "Journey_Missions" ],
+    "Main Missions": {
+        "yaml_option": [ "Main_Missions" ]
+    },
+    "Main Mission Goal": {
+        "yaml_option": [ "MainMissions_Goal", "Main_Missions" ],
         "hidden": true
     },
     "Journals": {
@@ -141,16 +131,8 @@
         "yaml_option": [ "Traveler_Goal" ],
         "hidden": true
     },
-    "Tower Bosses": {
-        "yaml_option": [ "Tower_Goal" ],
-        "hidden": true
-    },
     "Tower Rush": {
-        "yaml_option": [ "Tower_Goal" ],
-        "hidden": false
-    },
-    "Tower Boss Location": {
-        "hidden": true
+        "yaml_option": [ "Tower_Goal" ]
     },
     "Tower Rush Goal": {
         "yaml_option": [ "Tower_Goal" ],
@@ -160,45 +142,34 @@
         "yaml_option": [ "Legendary_Goal" ],
         "hidden": true
     },
-    "Predators": {
-        "hidden": true
-    },
-    "Predator Hunter Goal": {
-        "yaml_option": [ "Predator_Goal", "Predator_Pals" ],
-        "hidden": true
-    },
     "Raid Boss Goal": {
         "yaml_option": [ "Raid_Goal" ],
         "hidden": true
     },
     "Raid Bosses": {
-        "yaml_option": [ "Raid_Goal" ],
-        "hidden": true
-    },
-    "Veteran Hunter": {
-        "yaml_option": [ "Veteran_Goal" ],
-        "hidden": true
+        "yaml_option": [ "Raid_Goal" ]
     },
     "Research Goal": {
         "yaml_option": [ "Researcher_Goal", "Research_Tasks" ],
         "hidden": true
     },
-    "Catchem Goal": {
-        "yaml_option": [ "CatchThemAll_Goal" ],
+    "Palpedia Goal": {
+        "yaml_option": [ "Palpedia_Goal", "Enable_Palpedia" ],
         "hidden": true
     },
     "Lucky Hunts": {
-        "hidden": true
-    },
-    "Lucky Hunt": {
         "yaml_option": [ "Lucky_Pals" ]
     },
     "Lucky Goal": {
         "yaml_option": [ "Lucky_Goal", "Lucky_Pals" ],
         "hidden": true
     },
+    "Base Progresssion": {
+        "yaml_option": [ "Base_Tasks" ],
+        "hidden": true
+    },
     "Base Builder Goal": {
-        "yaml_option": [ "BaseBuilder_Goal" ],
+        "yaml_option": [ "BaseBuilder_Goal", "Base_Tasks" ],
         "hidden": true
     },
     "Pal Merchants": {
@@ -253,29 +224,28 @@
         "yaml_option": [ "Limit_Medal_Merchant" ],
         "hidden": true
     },
-    "MiscConsume": {
-        "yaml_option": [ "Misc_Consumables" ],
+    "Ruins Limit": {
+        "yaml_option": [ "Limit_AncientRuins" ],
         "hidden": true
+    },
+    "Consumables - Manuals": {
+        "yaml_option": [ "Manuals" ]
+    },
+    "Consumables - Chest Keys": {
+        "yaml_option": [ "Chest_Keys" ]
     },
     "Cooking Recipes": {
         "yaml_option": [ "Cooking_Recipes" ]
-    },
-    "Ingredients": {
-        "yaml_option": [ "Ingredients" ]
     },
     "Pal Souls": {
         "yaml_option": [ "Pal_Souls" ],
         "hidden": true
     },
-    "Seeds": {
-        "yaml_option": [ "Seeds" ],
-        "hidden": true
-    },
     "Pal Bonds": {
-        "yaml_option": [ "Pal_Bonds" ]
+        "yaml_option": [ "Pal_Bonds", "Enable_Palpedia" ]
     },
-    "Consumables - Food": {
-        "yaml_option": [ "Food" ]
+    "Cooking Challenges": {
+        "yaml_option": [ "Chefsanity" ]
     },
     "Cook Stuff": {
         "yaml_option": [ "Chefsanity" ],
@@ -292,41 +262,8 @@
         "yaml_option": [ "Dungeoneer_Goal", "Dungeons" ],
         "hidden": true
     },
-    "Merchant Location": {
-        "hidden": true
-    },
-    "Coal Place": {
-        "hidden": true
-    },
-    "Lettuce Drop": {
-        "hidden": true
-    },
-    "Tomato Drop": {
-        "hidden": true
-    },
-    "Onion Drop": {
-        "hidden": true
-    },
-    "Potato Drop": {
-        "hidden": true
-    },
-    "Honey Drop": {
-        "hidden": true
-    },
-    "Cement Junk": {
-        "hidden": true
-    },
-    "Crude Oil": {
-        "hidden": true
-    },
-    "DUMMY": {
-        "hidden": true
-    },
     "Exploration": {
         "yaml_option": [ "Exploration" ]
-    },
-    "Raiding": {
-        "hidden": true
     },
     "OilRigs": {
         "yaml_option": [ "Enable_OilRigs" ],
@@ -334,9 +271,6 @@
     },
     "Key Items - Oil Rig Radars": {
         "yaml_option": [ "Limit_OilRigs" ]
-    },
-    "The Journey": {
-        "yaml_option": [ "Journey_Missions" ]
     },
     "Key Items - Elemental Orbs": {
         "yaml_option": [ "Elemental_Orbs" ]
@@ -348,14 +282,102 @@
     "Key Items - Dungeon Keys": {
         "yaml_option": [ "Dungeon_Keys" ]
     },
-    "Key Items - Seals": {
-        "yaml_option": [ "Sealed_Realms" ]
+    "Key Items - Bounty Tokens": {
+        "yaml_option": [ "Bounty_Tokens", "Enable_Alpha_Pals" ]
     },
-    "Access": {
-        "yaml_option": [ "Accessories" ],
-        "hidden": true
+    "Schematics - Accessories": {
+        "yaml_option": [ "Accessory_Schematics" ]
     },
     "Key Items - Egg Vouchers": {
         "yaml_option": [ "Egg_Vouchers" ]
+    },
+    "Schematics - Raid Slabs": {
+        "yaml_option": [ "Raid_Slabs" ]
+    },
+    "Consumables - Treasure Maps": {
+        "yaml_option": [ "Treasure_Maps" ]
+    },
+    "Consumables - Awakening Crystals": {
+        "yaml_option": [ "Awakening_Crystals" ]
+    },
+    "Radiant Gems": {
+        "yaml_option": [ "Awakening_Crystals" ],
+        "hidden": true
+    },
+    "FishingEnabled": {
+        "yaml_option": [ "Enable_Fishing", "Enable_Palpedia" ],
+        "hidden":  true
+    },
+    "Fishing Locations": {
+        "yaml_option": [ "Enable_Fishing", "Fishing_Spots" ]
+    },
+    "Player Progress": {
+        "yaml_option": [ "Player_Progression" ]
+    },
+    "TowerLock": {
+        "yaml_option": [ "Tower_LevelCap" ],
+        "hidden": true
+    },
+    "Collector Goal": {
+        "yaml_option": [ "EffigyCollector_Goal" ],
+        "hidden": true
+    },
+    "Collecting - Lifmunk Effigies": {
+        "yaml_option": [ "Lifmunk_Effigies" ]
+    },
+    "Collecting - Lamball Effigies": {
+        "yaml_option": [ "Lamball_Effigies" ]
+    },
+    "Collecting - Pengullet Effigies": {
+        "yaml_option": [ "Pengullet_Effigies" ]
+    },
+    "Collecting - Munchill Effigies": {
+        "yaml_option": [ "Munchill_Effigies" ]
+    },
+    "Collecting - Rooby Effigies": {
+        "yaml_option": [ "Rooby_Effigies" ]
+    },
+    "Collecting - Herbil Effigies": {
+        "yaml_option": [ "Herbil_Effigies" ]
+    },
+    "Collecting - Tanzee Effigies": {
+        "yaml_option": [ "Tanzee_Effigies" ]
+    },
+    "Collecting - Depresso Effigies": {
+        "yaml_option": [ "Depresso_Effigies" ]
+    },
+    "Collecting - Cattiva Effigies": {
+        "yaml_option": [ "Cattiva_Effigies" ]
+    },
+    "Collecting - Lunaris Effigies": {
+        "yaml_option": [ "Lunaris_Effigies" ]
+    },
+    "Collecting - Relaxaurus Effigies": {
+        "yaml_option": [ "Relaxaurus_Effigies" ]
+    },
+    "Collecting - Yakumo Effigies": {
+        "yaml_option": [ "Yakumo_Effigies" ]
+    },
+    "BreedingEnabled": {
+        "yaml_option": [ "Allow_Breeding" ],
+        "hidden": true
+    },
+    "Watcher Goal": {
+        "yaml_option": [ "TheWatcher_Goal" ],
+        "hidden": true
+    },
+    "Ancient Ruins Goal": {
+        "yaml_option": [ "AncientRuins_Goal", "Ancient_Ruins" ],
+        "hidden": true
+    },
+    "Ancient Ruins": {
+        "yaml_option": [ "Ancient_Ruins" ]
+    },
+    "Arena Challenges": {
+        "yaml_option": [ "Arena_Challenges" ]
+    },
+    "Arena Goal": {
+        "yaml_option": [ "Arena_Challenges", "Arena_Goal" ],
+        "hidden": true
     }
 }

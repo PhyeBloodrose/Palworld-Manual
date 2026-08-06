@@ -13,26 +13,78 @@
         }
     },
     "user": {
-        "_commented_out_option": {
-            "type": "Toggle",
-            "default": true
-        },
-        "Journey_Missions": {
+        "player_access": {
+            "type": "Choice",
             "description": [
-                "Include all Main Missions as checks.",
-                "Also called 'The Journey'."
+                "How far do you want to progress during this playthrough?",
+                "The selected Tower Boss defines the maximum intended progression. However, you may not need to reach that boss to complete your chosen Victory Condition(s).",
+                "Technologies unlocked beyond the selected Tower Boss will be removed from the item pool.",
+                "For reference, each Tower Boss roughly corresponds to the following highest resource tier: Cloth (Zoe) → Leather (Lily) → Ingot (Axel) → Refined Ingot (Marcus) → Pal Metal (Victor) → Plasteel (Saya) → Hexolite (Bjorn) → Coralum & Soralite (Auri) → Paloxite (World Tree).",
+                "For reference, the level of each Tower Boss goes from 10 (Zoe) → 20 (Lily) → 30 (Axel) → 40 (Marcus) → 50 (Victor) → 55 (Saya) → 60 (Bjorn) → 70 (Auri) → 80 (World Tree)",
+                "Regions accessible will be determined by the lowest Pal Level accessible in comparison to the Tower Boss selected as max progression.",
+                "Exceptions may occur such as Isle of Murmurs and Isle of Silence being disabled if Zoe is the Max Progression as those islands are shut off by higher level areas.",
+                "Pals that you can find as Alpha Bosses, in the Wild or in Dungeons are restricted by how far you wish the progression shall go.",
+                "Pals are automatically logically removed even if they would be able to be found earlier by other means such as fishing, eggs and from merchants!"
+            ],
+            "values": {
+                "Zoe & Grizzbolt": 0,
+                "Lily & Lyleen": 1,
+                "Axel & Orserk": 2,
+                "Marcus & Faleris": 3,
+                "Victor & Shadowbeak": 4,
+                "Saya & Selyne": 5,
+                "Bjorn & Bastigor": 6,
+                "Auri & Shaolong": 7,
+                "World Tree": 8
+            },
+            "default": 0
+        },
+        "Enable_Palpedia": {
+            "description": [
+                "Includes all Palpedia Entries as Checks.",
+                "This option is also required for logic involving specific Pals.",
+                "If this option is disabled, it is intended for players who wish to use Palworld's in-game randomizer and do not want checks that require specific Pals.",
+                "If this option is disabled you'll still require the Pal Gear Workbench to reach long distances, but it won't be able to guarantee that you have access to a rideable mount.",
+                "If this option is disabled you may have to use the Global Palbox to get Pals required for certains options as all pals will technically be in logic without this option!"
             ],
             "type": "Toggle",
             "default": true,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
-        "Journals": {
+        "Enable_Raid_Pals": {
             "description": [
-                "Includes all Journals as checks."
+                "Includes all of the Raid Pals as Palpedia locations.",
+                "Does nothing if 'Enable_Palpedia' is disabled."
             ],
             "type": "Toggle",
-            "default": false,
-            "group": "Extra Locations"
+            "default": true,
+            "group": "Location Options"
+        },
+        "Enable_Alpha_Pals": {
+            "description": [
+                "Includes all of the Alpha Pals you encounter as overworld bosses as locations.",
+                "This option is automatically disabled if 'Player_Access' only goes to Zoe.",
+                "If this is disabled, they'll still be accounted for in the logic of capturing various pals."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Location Options"
+        },
+        "Enable_Bounties": {
+            "description": [
+                "Includes all of the various NPCs which glow purple you encounter as overworld bosses as locations."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Location Options"
+        },
+        "Main_Missions": {
+            "description": [
+                "Includes all of the Main Missions as checks."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Location Options"
         },
         "Sub_Missions": {
             "description": [
@@ -40,56 +92,197 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
-        "Research_Tasks": {
+        "Journals": {
             "description": [
-                "Include all Research in the Pal Research Laboratory as checks."
+                "Includes all Journals as checks."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
-        "Capture_Pals": {
+        "Base_Tasks": {
             "description": [
-                "Capture every pal 12 times for the capture bonus is a check."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Extra Locations"
-        },
-        "Predator_Pals": {
-            "description": [
-                "Includes all Predator Pals as locations."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Extra Locations"
-        },
-        "Enable_Raid_Pals": {
-            "description": [
-                "Includes all of the Raid Pals as Palpedia locations."
+                "Includes all of the Base Building Tasks as checks."
             ],
             "type": "Toggle",
             "default": true,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
-        "Diamond_Passives": {
+        "Research_Tasks": {
             "description": [
-                "Includes all Diamond Passives as locations.",
-                "Requires a lot of luck early to obtain them."
+                "Includes all Research in the Pal Research Lab as checks.",
+                "If 'Enable_Palpedia' is disabled it will not check if you have any pals with appropiate Work Suitabilities for each tier of research."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options",
+            "hidden": true
+        },
+        "Ancient_Ruins": {
+            "description": [
+                "Includes all of the Ancient Ruins scattered around the world as checks.",
+                "Ancient Ruins are locations that reward loot after solving their puzzles.",
+                "Some Ancient Ruins require combat and as such the ruins won't be in logic until you are the same level as the region you find them in.",
+                "You may still activate the ruins beforehand if you wish but they won't be in logic until then."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "Rainbow_Passives": {
+            "description": [
+                "Includes all of the Rainbow Passives as locations.",
+                "Requires a lot of luck early to obtain most of them.",
+                "Will include the World Tree Passives as well if 'player_access' is at the highest.",
+                "Mutation passives are also included if you have access to Breeding."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "Lifmunk_Effigies": {
+            "description": [
+                "Every Lifmunk Effigy found in the world is a check.",
+                "Lifmunk Effigies increases Capture Power."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Lamball_Effigies": {
+            "description": [
+                "Every Lamball Effigy found at the Bamboo Groves, Crescent Moon Shore and Verdant Brook is a check.",
+                "Lamball Effigies increases Satiety Duration."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Pengullet_Effigies": {
+            "description": [
+                "Every Pengullet Effigy found in Volcanic Areas is a check.",
+                "Pengullet Effigies increases Swimming Ability.",
+                "Requires Mount Obsidian to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Munchill_Effigies": {
+            "description": [
+                "Every Munchill Effigy found in Desert Areas is a check.",
+                "Munchill Effigies increases Food Preservation.",
+                "Requires The Desiccated Dunes to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Rooby_Effigies": {
+            "description": [
+                "Every Rooby Effigy found in the Astral Mountains is a check.",
+                "Rooby Effigies increases Jump Power.",
+                "Requires The Astral Mountains to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Herbil_Effigies": {
+            "description": [
+                "Every Herbil Effigy found in Sakurajima is a check.",
+                "Herbil Effigies increases Flight Capacity.",
+                "Requires Sakurajima to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Tanzee_Effigies": {
+            "description": [
+                "Every Tanzee Effigy found in Feybreak is a check.",
+                "Tanzee Effigies increases Climbing Profiency.",
+                "Requires Feybreak to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Depresso_Effigies": {
+            "description": [
+                "Every Depresso Effigy found in Sunreach is a check.",
+                "Depresso Effigies increases Status Resistance.",
+                "Requires Sunreach to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Cattiva_Effigies": {
+            "description": [
+                "Every Cattiva Effigy found in the World Tree is a check.",
+                "Cattiva Effigies increases Endurance.",
+                "Requires The World Tree to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Lunaris_Effigies": {
+            "description": [
+                "Every Lunaris Effigy found in the world is a check.",
+                "Lunaris Effigies grants Sphere Tracking.",
+                "Requires Crescent Moon Shore to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Relaxaurus_Effigies": {
+            "description": [
+                "Every Relaxaurus Effigy found in the world is a check.",
+                "Relaxaurus Effigies increases EXP Gain.",
+                "Requires Mount Obsidian to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Yakumo_Effigies": {
+            "description": [
+                "Every Yakumo Effigy found in the world is a check.",
+                "Yakumo Effigies increases the odds of finding Rainbow Passive Skills on Wild Pals.",
+                "Requires Feybreak to be accessible due to 'player_access'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Mimog_Effigies": {
+            "description": [
+                "You receive a Mimog Effigy from capturing every pal 5 times, as such those checks will be enabled with this option.",
+                "Mimog Effigies increases Movement Speed."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Effigy Options"
+        },
+        "Include_AncientTechnology": {
+            "description": [
+                "When enabled, will also randomize Ancient Technology unlocks."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Additional Items"
         },
         "Vanity_Schematics": {
             "description": [
-                "Adds all of the Vanity Schematics into the item pool.",
-                "Vanity schematics are mostly the hats and caps that gives no armor but can be used to customize your character",
+                "Adds one of each Vanity Schematic into the item pool.",
+                "Vanity schematics are mostly the hats and caps that provide no real armor but can be used to customize your character",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
-                "Rank 3 of a Schematic Tier will be treated as useful items.",
-                "Rank 4 of a Schematic Tier will be treated as progression items."
+                "Rank 3-4 of a Schematic Tier will be treated as useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -97,11 +290,10 @@
         },
         "Furniture_Schematics": {
             "description": [
-                "Adds all Furniture Schematics into the item pool.",
+                "Adds one of each Furniture Schematic into the item pool.",
                 "Furniture Schematics includes all the various building options you can obtain from hunting down the Enemy Bases",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
-                "Rank 3 of a Schematic Tier will be treated as useful items.",
-                "Rank 4 of a Schematic Tier will be treated as progression items."
+                "Rank 3-4 of a Schematic Tier will be treated as useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -109,13 +301,12 @@
         },
         "Weapon_Schematics": {
             "description": [
-                "Adds all the Weapon Schematics into the item pool.",
-                "This includes all the various weapon schematics you can find from Chests, Dungeons and dropped from Pals. This also includes the weapon schematics that can be bought from shops.",
+                "Adds one of each Weapon Schematic into the item pool.",
+                "This includes all the various weapon schematics you can find from Chests, Dungeons and dropped by Pals. This also includes the weapon schematics that can be bought from shops.",
                 "For the ULTRAKILL Collab Schematics to be added, you require both the Weapon and Armour Schematics to be enabled for it to exist.",
                 "Fishing Rod Schematics are included as Weapon Schematics",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
-                "Rank 3 of a Schematic Tier will be treated as useful items.",
-                "Rank 4 of a Schematic Tier will be treated as progression items."
+                "Rank 3-4 of a Schematic Tier will be treated as useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -123,12 +314,31 @@
         },
         "Armour_Schematics": {
             "description": [
-                "Adds all the Armour Schematics into the item pool.",
+                "Adds one of each Armour Schematic into the item pool.",
                 "This includes all the various armour schematics you can find from Chests, Dungeons and dropped from Pals. This also includes the armour schematics that can be bought from shops.",
                 "For the ULTRAKILL Collab Schematics to be added, you require both the Weapon and Armour Schematics to be enabled for it to exist.",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
-                "Rank 3 of a Schematic Tier will be treated as useful items.",
-                "Rank 4 of a Schematic Tier will be treated as progression items."
+                "Rank 3-4 of a Schematic Tier will be treated as useful items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Raid_Slabs": {
+            "description": [
+                "Adds 4 of each Raid Slab Fragment into the item pool.",
+                "The Slabs themselves will appear in your inventory upon receiveing four of each fragment.",
+                "These are considered progression items and will be required before Raid Bosses are in logic if you have them enabled.",
+                "This also adds the Celestial Sigil, the raid summoning item for the Moon Lord, but it is treated as a useful item."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Accessory_Schematics": {
+            "description": [
+                "Adds one of each Accessory Schematic into the item pool.",
+                "These are all considered as useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -136,10 +346,9 @@
         },
         "Skill_Fruits": {
             "description": [
-                "Adds all skill fruits into the item pool.",
+                "Adds one of each skill fruit into the item pool.",
                 "Uncommon Skill Fruits are considered as filler items.",
-                "Rare Skill Fruits are considered as useful items.",
-                "Epic Skill Fruits are considered as progression items."
+                "Rare and Epic Skill Fruits are considered as useful items."
             ],
             "type": "Toggle",
             "default": false,
@@ -147,17 +356,26 @@
         },
         "Potions": {
             "description": [
-                "Adds all of the Remedies and Elixirs into the item pool. Those potions which increases a player's stat.",
+                "Adds one of each Remedy and Elixir into the item pool. Potions that increase player stats.",
                 "Remedies and Elixirs are treated as Filler items."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Additional Items"
         },
-        "Misc_Consumables": {
+        "Manuals": {
             "description": [
-                "Adds various miscellenous consumables into the pool. Such as medicine and technology point books.",
-                "All of these items are considered fillers."
+                "Adds one of each manual into the pool. The ones giving Tech Points, Ancient Tech Points and Experience.",
+                "Manuals are considered fillers."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Chest_Keys": {
+            "description": [
+                "Adds one of each Key into the pool; Copper, Silver and Gold Key.",
+                "Chest Keys are considered fillers."
             ],
             "type": "Toggle",
             "default": false,
@@ -184,11 +402,11 @@
             "default": false,
             "group": "Additional Items"
         },
-        "Tech_Books": {
+        "Handbooks": {
             "description": [
-                "Adds all of the Work Suitability Technique Books into the item pool.",
-                "Useful for those who are capable of generating items into the game on their own.",
-                "Technique Books are treated as progression items."
+                "Adds one of each of the Work Suitability Handbooks into the item pool.",
+                "Useful for players who can generate items into their own game.",
+                "Handbooks are treated as progression items and may be required for Research Tasks if they're enabled."
             ],
             "type": "Toggle",
             "default": false,
@@ -196,8 +414,9 @@
         },
         "Implants": {
             "description": [
-                "Adds all of the various Implants into the item pool.",
-                "When obtained through the multiworld, allow yourself to use said Implant with the Pal Surgery Table or purchase the needed one from the Bounty/Arena Merchant.",
+                "Adds one of each Implant and Disposable Implant into the item pool.",
+                "When obtained through the multiworld, you may use that Implant with the Pal Surgery Table or purchase it from the Bounty or Arena Merchant.",
+                "These will automatically be disabled if the Pal Surgery Table is inaccessible due to the 'Player_Access' option.",
                 "Implants are treated as Useful items."
             ],
             "type": "Toggle",
@@ -206,31 +425,43 @@
         },
         "Passives": {
             "description": [
-                "Adds all of the various Passives into the item pool as items.",
-                "This is not the same as the implants which already exists in the game.",
-                "When obtained through the multiworld, allow yourself to use said Passive on Pals you capture or Breed.",
-                "Diamond Passives are treated as progression items.",
-                "Golden and White Passives are treated as Useful items.",
-                "Red Passives are treated as Filler items."
+                "Adds one of each Passive Skill into the item pool as items.",
+                "When obtained through the multiworld, allow yourself to use the Passives on Pals you capture or Breed.",
+                "World Tree and Rainbow Passives are treated as useful items.",
+                "Golden, White and Red Passives are treated as filler items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Tower_LevelCap": {
+            "description": [
+                "If enabled, will lock level progression behind defeating Tower Bosses instead of with Region Access.",
+                "The Level Cap for Progression goes from 10>20>30>40>50>55>60>70>80.",
+                "If disabled, will lock level progression behind regions instead of the access to Tower Bosses.",
+                "For reference it will require for you to have access to Crescent Moon Shore>Mount Obsidian>Desiccated Dunes>Astral Mountains>Sakurajima>Feybreak>Sunreach>The World Tree",
+                "Either level cap require you to be able to craft and wear appropriate Body Armor as explained in the 'Player_Access' option for level progression.",
+                "NOTE: If using the tower level cap I made it so each boss gives an extra location with a placed item which is required to progress the level ups.",
+                "I did it so you wouldn't get too overwhelmed by the next level up tier until you feel ready for it! They're all the 'obtained key spheres locations'."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
         },
-        "Include_Levelups": {
+        "Disable_LevelCap": {
             "description": [
-                "Includes a 'Player Level' item in the pool which restricts your player level.",
-                "Only allow yourself to level up if you obtain the player level item.",
-                "You'll get one Player Level item for free at start, as you start off as level 1.",
-                "If enabled, will add a level requirement to dungeons, regions and bosses besides their normal requirement."
+                "If enabled, will disable any logic requiring a specific level before it is in logic.",
+                "Essentially treating as you're able to reach level 80 from the beginning.",
+                "Could be fun to have a wildly randomized playthrough",
+                "Reccommended to not use the player progression locations unless you really want to level up to 80 immediately."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Limit Options"
+            "group": "Logic Options"
         },
         "Start_With_Palbox": {
             "description": [
-                "If you wish to start with the palbox or not."
+                "If Enabled, will add a location in the manual for you to click to receive your Palbox at start."
             ],
             "type": "Toggle",
             "default": false,
@@ -238,18 +469,21 @@
         },
         "Random_Spawn": {
             "description": [
-                "This will give you one of the spawn locations as your starting location.",
-                "If disabled, will always give you 'Windswept Pass' which will allow you to start in Windswept Hills as usual.",
-                "To enable spawn locations in the game, make sure your world is set on Multiplayer, click respawn and then you'll be able to pick where to spawn!"
+                "If Enabled, will give you a random 'Island Spawn' item which determines the island you start on.",
+                "If Disabled, it will always give you 'Windswept Pass' which will allow you to start on Windswept Island as usual.",
+                "To enable spawn locations within the game, make sure your world is set on Multiplayer, click Emergency Respawn and then you'll be able to pick where to spawn!",
+                "If doing Main Missions, make sure you've received the Survival Guide before you respawn.",
+                "If 'Player_Access' is capped at Zoe, then Isle of Murmurs and Isle of Silence will not be in the pool of possible starting locations."
             ],
             "type": "Toggle",
             "default": true,
             "group": "Extra Options"
         },
-        "Journey_Goal": {
+        "MainMissions_Goal": {
             "description": [
-                "Journey: Complete all Main Missions.",
-                "Requires 'Journey Missions' to be enabled or it won't generate properly."
+                "The Main Quest: Complete all of the Main Missions.",
+                "The final main mission for this goal is the Tower Boss selected in 'player_access'.",
+                "Requires 'Main Missions' to be enabled or it won't generate."
             ],
             "type": "Toggle",
             "default": true,
@@ -257,7 +491,8 @@
         },
         "Tower_Goal": {
             "description": [
-                "Tower Rush: Defeat all 7 Tower Bosses."
+                "Tower Rush: Defeat all the Tower Bosses.",
+                "You only have to defeat all tower bosses up to your max progression for this Victory Condition."
             ],
             "type": "Toggle",
             "default": false,
@@ -265,17 +500,18 @@
         },
         "Legendary_Goal": {
             "description": [
-                "Legendary Hunt: Defeat or Capture all Legendary Pals",
-                "Those being: Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon and Neptilius."
+                "Legendary Hunter: Defeat or capture all of the Legendary Pals",
+                "Those being: Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon, Neptilius and Panthalus.",
+                "This goal will be unavailable if 'player_access' doesn't reach Level 60 due to that being the lowest level of them."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Goal Options"
         },
-        "Predator_Goal": {
+        "AncientRuins_Goal": {
             "description": [
-                "Predator Hunter: Defeat all the different Predator Pals.",
-                "Requires 'Predator Pals' to be enabled or this goal will not generate."
+                "Ancient Discovery: Discover all of the Ancient Ruins to Goal.",
+                "Requires 'Ancient Ruins' to be enabled or this goal will not generate."
             ],
             "type": "Toggle",
             "default": false,
@@ -283,17 +519,29 @@
         },
         "Raid_Goal": {
             "description": [
-                "Raid Boss: Defeat all the Raid Bosses.",
-                "Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis."
+                "Pal Raider: Defeat all of the Pal Raid Bosses.",
+                "Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis.",
+                "This goal will be unavailable if 'player_access' doesn't reach Level 35 As that's the Level of Bellanoir which is the earliest Raid Boss you can fight."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Goal Options"
         },
-        "Veteran_Goal": {
+        "Alpha_Goal": {
             "description": [
-                "Veteran Hunter: Defeat all 100 Overworld Bosses!",
-                "Overworld bosses are all the Bosses you can find in the Overworld with a mugshot. Those being Bounties and Alpha Pals."
+                "Alpha Hunter: Defeat all of the Overworld Alpha Pals!",
+                "The Alpha Pals required for this goal are those that are visible as question marks on the map, this also includes the World Tree Alphas if the 'player_access' allows for it.",
+                "Does nothing if 'Enable_Alpha_Pals' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Bounty_Goal": {
+            "description": [
+                "Bounty Hunter: Defeat all of the Bounties!",
+                "The Bounties required for this goal are the various npcs that are visible as question marks on the map and is glowing purple.",
+                "Does nothing if 'Enable_Bounties' is disabled."
             ],
             "type": "Toggle",
             "default": false,
@@ -310,8 +558,8 @@
         },
         "SubMissions_Goal": {
             "description": [
-                "Sub Missions: Require you to complete all the sub missions in the game to goal.",
-                "Requires 'Sub Missions checks' enabled or this goal won't appear."
+                "The Side Hustler: Require you to complete all the sub missions in the game to goal.",
+                "Requires 'Sub_Missions' enabled or this goal won't appear."
             ],
             "type": "Toggle",
             "default": false,
@@ -324,15 +572,18 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options"
+            "group": "Goal Options",
+            "hidden": true
         },
-        "CatchThemAll_Goal": {
+        "Palpedia_Goal": {
             "description": [
-                "Catch Them All: Require you to obtain all of the Pals available in the Palpedia to goal."
+                "Full Palpedia: Require you to obtain all of the Pals available in the Palpedia to goal.",
+                "Requires 'Enable_Palpedia' to be enabled or this goal won't appear."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options"
+            "group": "Goal Options",
+            "hidden": true
         },
         "Journalist_Goal": {
             "description": [
@@ -345,7 +596,8 @@
         },
         "Traveler_Goal": {
             "description": [
-                "Palpagos Traveler: Require you to travel to all the Travel Points within Palpagos Isles to goal."
+                "Palpagos Traveler: Require you to travel to all the Travel Points within Palpagos Isles to goal.",
+                "Watchtowers will not be accounted for in this goal despite both being travel points."
             ],
             "type": "Toggle",
             "default": false,
@@ -353,7 +605,7 @@
         },
         "Dungeoneer_Goal": {
             "description": [
-                "Dungeon Dweller: Require you to enter all of the Dungeons to goal.",
+                "Dungeon Dweller: Require you to enter and defeat a boss from all of the Dungeons to goal.",
                 "Requires Dungeons as checks or it won't generate."
             ],
             "type": "Toggle",
@@ -363,7 +615,7 @@
         "Lucky_Goal": {
             "description": [
                 "Feeling Lucky: Require you to find and capture a Lucky Pal in each Major Region to goal!",
-                "The Major Regions are as following; Windswept Hills, Sea-Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains(Not the Foot), Mount Obsidian, Desiccated Dunes, Sakurajima and Feybreak.",
+                "The Major Regions are as following; Windswept Island, Sea Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains, Mount Obsidian, Desiccated Dunes, Sakurajima, Feybreak, Sunreach and the World Tree.",
                 "Requires 'Lucky Pals' locations to be enabled or the goal won't generate."
             ],
             "type": "Toggle",
@@ -372,16 +624,56 @@
         },
         "BaseBuilder_Goal": {
             "description": [
-                "Base Builder: Require you to max out your base in order to goal!"
+                "Base Builder: Require you to max out your base in order to goal!",
+                "If you selected a lower Player Access setting, this goal will complete after constructing the highest building available.",
+                "Requires 'Base Tasks' to be enabled or it won't generate."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Goal Options"
         },
-        "AllofAbove_Goal": {
+        "TheWatcher_Goal": {
             "description": [
-                "All of the Above: Any goals picked above will be required to goal in this all inclusive goal option!",
-                "If this option is not enabled, you just require any of the above enabled goals to be completed to win."
+                "The Watcher: Require you to reach every watchtower in order to goal!",
+                "Not to be confused with ordinary Travel Points."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Arena_Goal": {
+            "description": [
+                "Arena Champion: Require you to beat and conquer all of the Arena Challenges to goal!",
+                "Requires 'Arena_Challenges' or it won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Fisherman_Goal": {
+            "description": [
+                "Fisherman: Require you to fish in every restricted location!",
+                "Requires 'Fishing_Spots' and 'Enable_Fishing' or it won't appear!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options",
+            "hidden": true
+        },
+        "EffigyCollector_Goal": {
+            "description": [
+                "Effigy Collector: Collect all of the Effigies scattered around the world to goal!",
+                "You need at least one effigy type to be enabled for this to be able to goal.",
+                "Mimog Effigies are not accounted for in this goal! As they would be the same as the 'Full_Palpedia' goal."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Goal_Requires_AllofAbove": {
+            "description": [
+                "If this is enabled, you'll require to complete every selected Goal before you're able to win.",
+                "If this option is disabled, you just require any of the above enabled goals to be completed to win."
             ],
             "type": "Toggle",
             "default": false,
@@ -389,7 +681,7 @@
         },
         "Pal_Merchants": {
             "description": [
-                "Enables all of the merchants which sells pals as checks.",
+                "Enables all merchants who sell Pals as checks.",
                 "Wears a blue coat."
             ],
             "type": "Toggle",
@@ -398,8 +690,9 @@
         },
         "Item_Merchants": {
             "description": [
-                "Enables all of the merchants which sells common items as checks.",
-                "Wears a red coat."
+                "Enables all of the merchants who sells common items as checks.",
+                "Wears a red coat.",
+                "These checks will be pre-hinted."
             ],
             "type": "Toggle",
             "default": false,
@@ -407,8 +700,9 @@
         },
         "Ammo_Merchants": {
             "description": [
-                "Enables all of the merchants which sells ammo as checks.",
-                "Wears a green coat."
+                "Enables all of the merchants who sells ammo as checks.",
+                "Wears a green coat.",
+                "These checks will be pre-hinted."
             ],
             "type": "Toggle",
             "default": false,
@@ -416,7 +710,9 @@
         },
         "Arena_Merchant": {
             "description": [
-                "Enables the arena merchant which sells items for tickets as checks."
+                "Enables the arena merchant who sells items for tickets as checks.",
+                "These checks will be pre-hinted.",
+                "You also require Lily to be at least accessible for these checks to appear."
             ],
             "type": "Toggle",
             "default": false,
@@ -424,7 +720,8 @@
         },
         "Bounty_Merchants": {
             "description": [
-                "Enables all of the bounty merchants which sells items for bounty tokens as checks."
+                "Enables all of the bounty merchants who sells items for successful bounty tokens as checks.",
+                "These checks will be pre-hinted."
             ],
             "type": "Toggle",
             "default": false,
@@ -432,7 +729,8 @@
         },
         "Medal_Merchant": {
             "description": [
-                "Enables the Medal Merchant which sells items for Dog Coins as checks."
+                "Enables the Medal Merchant who sells items for Dog Coins as checks.",
+                "These checks will be pre-hinted."
             ],
             "type": "Toggle",
             "default": false,
@@ -488,7 +786,7 @@
         },
         "Limit_Arena_Merchant": {
             "description": [
-                "This will add a 'Arena Membership Card' item into the pool which will then be required to shop from the Arena Merchant."
+                "This will add an 'Arena Membership Card' item into the pool which will then be required to shop from the Arena Merchant."
             ],
             "type": "Toggle",
             "default": false,
@@ -496,8 +794,9 @@
         },
         "Cooking_Recipes": {
             "description": [
-                "This will add recipes for all dishes you can cook into the item pool which will then be required to cook said recipe.",
-                "They'll be treated as progression items."
+                "This will add recipes for all dishes you can cook into the item pool which will then be required before you can cook that recipe.",
+                "They'll be considered as progression items due to Chefsanity might require them.",
+                "Cakes you unlock through the Tech Tree will not have recipe items for them as they already limit them the same way."
             ],
             "type": "Toggle",
             "default": false,
@@ -508,68 +807,26 @@
                 "This will add orbs of each Element into the pool, restricting the capture of pals if you do not have enough of said element.",
                 "They'll be treated as progression items.",
                 "The orbs will match the rarity number each pal has, excluding those with a rarity of 20, they'll require 11 orbs instead.",
-                "Dual-element Pals requires both of its elements to have enough orbs for them to be in logic."
+                "Dual-element Pals require both of its elements to have enough orbs for them to be in logic.",
+                "Does nothing if 'Enable Palpedia' is disabled."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
         },
-        "Ingredients": {
-            "description": [
-                "This will add all the various ingredients into the item pool. Such as Eggs, Milk and Tomatoes.",
-                "They'll be treated as filler items."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Additional Items"
-        },
-        "Seeds": {
-            "description": [
-                "This will add one of each type of seeds item pool. Such as Tomato Seeds, Potato Seeds and Tomato Seeds.",
-                "These seeds will not be considered for logic",
-                "They'll be treated as filler items."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Additional Items"
-        },
-        "Food": {
-            "description": [
-                "This will add all the various food dishes into the item pool. Such as Baked Berries, Bread and Omelette.",
-                "They'll be treated as filler items."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Additional Items"
-        },
         "Chefsanity": {
             "description": [
-                "Includes all dishes you can cook as checks.",
-                "Work really well with the 'Cooking Recipes' option!"
+                "Includes all dishes you can cook as checks."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
-        "Enable_Cages": {
+        "Enable_Dungeon_Bosses": {
             "description": [
-                "When this is enabled, Pals found in Cages will be considered for logic."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
-        "Enable_Dungeons": {
-            "description": [
-                "When this is enabled, Pals found as Dungeon Bosses will be considered for logic."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
-        "Enable_Incidents": {
-            "description": [
-                "When this is enabled, Pals found during random incidents will be considered for logic."
+                "When this is enabled, Pals found as Dungeon Bosses will be considered for logic.",
+                "Does nothing if 'Enable Palpedia' is disabled.",
+                "If this is disabled, Mau Cryst will still require 'Astral Mountains Cavern' before it is accessible. Since it only spawns naturally as a Dungeon Boss since 1.0."
             ],
             "type": "Toggle",
             "default": false,
@@ -577,7 +834,17 @@
         },
         "Enable_Wild_Eggs": {
             "description": [
-                "When this is enabled, Pals obtained from wild Pal Eggs will be considered for logic."
+                "When this is enabled, Pals obtained from wild Pal Eggs will be considered for logic.",
+                "Does nothing if 'Enable Palpedia' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Enable_Fishing": {
+            "description": [
+                "When this is enabled, Pals obtained from Fishing will be considered for logic.",
+                "Does nothing if 'Enable_Palpedia' is disabled."
             ],
             "type": "Toggle",
             "default": true,
@@ -585,7 +852,8 @@
         },
         "Enable_Fishing_Pond": {
             "description": [
-                "When this is enabled, Pals obtained from the Fishing Pond will be considered for logic."
+                "When this is enabled, Pals obtained from the Fishing Pond will be considered for logic.",
+                "Does nothing if 'Enable Palpedia' is disabled."
             ],
             "type": "Toggle",
             "default": false,
@@ -593,7 +861,8 @@
         },
         "Enable_Pal_Merchants": {
             "description": [
-                "When this is enabled, Pals obtained from the Pal Merchant will be considered for logic."
+                "When this is enabled, Pals obtained from the Pal Merchant will be considered for logic.",
+                "Does nothing if 'Enable Palpedia' is disabled."
             ],
             "type": "Toggle",
             "default": true,
@@ -601,7 +870,8 @@
         },
         "Enable_Black_Marketeers": {
             "description": [
-                "When this is enabled, Pals obtained from the Black Marketeer will be considered for logic."
+                "When this is enabled, Pals obtained from the Black Marketeer will be considered for logic.",
+                "Does nothing if 'Enable Palpedia' is disabled."
             ],
             "type": "Toggle",
             "default": true,
@@ -609,38 +879,30 @@
         },
         "Dungeon_Keys": {
             "description": [
-                "When this is enabled, you'll require a dungeon's specific key to access it.",
-                "Only exception is that the Sealed Realm of Terraria has a dungeon key of its own."
+                "When this is enabled, each dungeon requires its own key to access it.",
+                "Only exception is that the Sealed Realm of Terraria has a dungeon key of its own.",
+                "These keys will be added as items if this option is enabled."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
         },
-        "Sealed_Realms": {
+        "Bounty_Tokens": {
             "description": [
-                "When this is enabled, you'll require the Seal of the Sealed Realm to access said Sealed Realm encounter.",
-                "Only exception is that the Sealed Realm of Terraria is considered a Dungeon and not a Sealed Realm for logic reasons."
+                "This will add one of each Bounty Token which you receive from the Alpha Pal bosses into the item pool.",
+                "These tokens will be required before the boss gets in logic.",
+                "This option is automatically disabled if 'Player_Access' only goes to Zoe.",
+                "Does nothing if 'Enable_Alpha_Pals' is disabled."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
-        },
-        "Accessories": {
-            "description": [
-                "This will add all the Misc Accessories into the item pool. Such as Pendants, Rings, Whistles, Flutes, Undershirts and the Growth Acceleration Bell.",
-                "Their base Tiers will be treated as filler items.",
-                "Their mid Tiers will be treated as useful items.",
-                "Their highest tier will be treated as progression items."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Additional Items"
         },
         "Egg_Vouchers": {
             "description": [
-                "This will add vouchers of each Element into the pool, restricting the hatching of pals if you do not have the voucher of said element and size.",
+                "This will add Egg Vouchers for each Element into the pool, restricting the hatching of pals if you do not have the voucher of said element and size.",
                 "They'll be treated as progression items.",
-                "The vouchers are Progressive, going from Normal > Large > Huge."
+                "The vouchers are Progressive, 1 voucher allows Normal Eggs, 2 vouchers allows Large Eggs, and 3 vouchers allows Huge Eggs."
             ],
             "type": "Toggle",
             "default": false,
@@ -652,24 +914,16 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
-        },
-        "Lovander_Cake": {
-            "description": [
-                "When this is enabled, Lovander will be in logic for obtaining cakes for Breeding and Sub-Missions."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
+            "group": "Location Options"
         },
         "Lucky_Pals": {
             "description": [
                 "Includes finding a Lucky Pal in each Major Region as checks.",
-                "The Major Regions are as following; Windswept Hills, Sea-Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains(Not the Foot), Mount Obsidian, Desiccated Dunes, Sakurajima and Feybreak."
+                "The Major Regions are as following; Windswept Island, Sea Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains, Mount Obsidian, Desiccated Dunes, Sakurajima, Feybreak, Sunreach and the World Tree."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
         "Allow_Breeding": {
             "description": [
@@ -681,17 +935,21 @@
         },
         "Exploration": {
             "description": [
-                "Includes discovering various locations as checks."
+                "Includes exploration of various locations as checks.",
+                "A location is considered explored once its name appears on screen. Such as 'Golden Hills' and 'Autumn Rocks'."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
         "Pal_Bonds": {
             "description": [
                 "This will add an item for each Pal into the pool, restricting the capturing of said Pal until you receive it.",
                 "They'll be treated as progression items.",
-                "The items are called 'Lamball's Bond', 'Cattiva's Bond' and so forth."
+                "The items are called 'Lamball's Bond', 'Cattiva's Bond' and so forth.",
+                "NOTE: This will make it so you require Panthalus' Bond before you are allowed to fight the boss.",
+                "Due to the nature of this Manual, these are removed automatically in accordance to 'player_access'.",
+                "As such it does nothing if 'Enable_Palpedia' is disabled."
             ],
             "type": "Toggle",
             "default": false,
@@ -703,30 +961,22 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Extra Locations"
+            "group": "Location Options"
         },
         "Limit_OilRigs": {
             "description": [
-                "This will add an item for each Oil Rig into the pool which will limit their access.",
+                "This will add an item for each Oil Rig into the pool which will be required to access them.",
                 "These items are called 'Weak Oil Rig Radar', 'Medium Oil Rig Radar' and 'Strong Oil Rig Radar'."
             ],
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
         },
-        "Include_JunkPiles": {
-            "description": [
-                "When this is enabled, Items received from Junk Piles scattered across the world will be considered for logic."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
         "Include_PalDrops": {
             "description": [
                 "When this is enabled, any Materials dropped by Pals will be considered for logic. Such as Ingots from Bushi, Cloth from Croajiro and meat from Pals amongst other things.",
-                "When this is disabled, meat obtained from Pals will only be in logic when you are able to do the Pal Expeditions where they can be obtained from.",
-                "When this is disabled, these are the items which still remains only obtainable from Pals; Gumoss Leaf, Dazzi Cloud, Swee Hair, Jelliette Bell Flesh, Jellroy Bell Flesh, Munchill Meat, Gloopie Tentacle, Potato Seeds, Onion Seeds and Carrot Seeds."
+                "If 'Enable_Fishing' is also enabled, it will consider fishing for logic as well.",
+                "When this is disabled, just a palbox will be required for logic most of the time due to the new merchants which sell most items. They're quite random and as such are only considered as a last resort."
             ],
             "type": "Toggle",
             "default": true,
@@ -740,7 +990,114 @@
             "type": "Toggle",
             "default": false,
             "group": "Logic Options"
+        },
+        "SkipFeybreak_Sunreach": {
+            "description": [
+                "When this is enabled, you don't require access to Feybreak before you are allowed to go to Sunreach. You may fly directly to the top of the tower and use the portal there. You won't need the Feybreak Pass to do so.",
+                "When this is disabled, you'll need either a flying mount or access to Bjorn before Sunreach gets into logic. As well as the Feybreak Pass."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Limit_PalSpheres": {
+            "description": [
+                "When this is enabled, Pals will only be accessible in their regions if you can craft the Pal Sphere that is around the same level as the pal you can capture.",
+                "As an example, Pal Spheres are required to capture pals level 2-13 since at level 14 you can get the Mega Sphere Technology. For level 14-19 Pals you'll require the Mega Sphere instead.",
+                "If you are able to craft a higher tier sphere, they're usable as well.",
+                "If this is disabled, pals are accessible as soon as you reach their regions.",
+                "Does nothing if 'Enabled Palpedia' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Treasure_Maps": {
+            "description": [
+                "Adds one of each Treasure Map rarity into the item pool.",
+                "When received in the Multiworld you may allow yourself to use any Treasure Map of that rarity you find within Palworld.",
+                "This option is automatically disabled if Zoe is the max progression.",
+                "Common and Uncommon will be considered fillers.",
+                "Rare, Epic and Legendary will be considered useful."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Awakening_Crystals": {
+            "description": [
+                "Adds one of each Awakening Crystal and Radiant Gem into the item pool.",
+                "If the 'Ancient Workbench' is inaccesible due to the 'Player_Access' option, 'Radiant Gems' will be disabled.",
+                "These items will be considered useful."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Additional Items"
+        },
+        "Arena_Challenges": {
+            "description": [
+                "This will add the Arena Challenges as locations!",
+                "Will require at least Lily to be accessible for this option to be enabled since the lowest challenge is level 20."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "Allow_Ocean_Travel": {
+            "description": [
+                "When this is enabled, You'll be able to visit any of the Miscellanous Islands as soon as you have access to a water or flying mount.",
+                "Not gonna torment you by travelling all over the ocean on a landbound mount."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Allow_Ranching": {
+            "description": [
+                "When this is enabled, Items received from putting Pals in the Ranch will be considered for logic.",
+                "Does nothing if 'Enable_Palpedia' is disabled."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "Limit_AncientRuins": {
+            "description": [
+                "If enabled will add an 'Ancient Cipher' item to the item pool which will be required to access the Ancient Ruins.",
+                "You still require to be the same level as the area the Ancient Ruins is located at though!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Fishing_Spots": {
+            "description": [
+                "This will add a fishing location to every location requiring a pass to access!",
+                "'Enable_Fishing' has to be enabled for these locations to show up as they follow the same logic!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options",
+            "hidden": true
+        },
+        "Player_Progression": {
+            "description": [
+                "Adds one check for each level from 2 to 80 depending on the 'player_access' setting!",
+                "This doesn't prevent the level cap from functioning if disabled as these are just extra locations for the manual.",
+                "You are still required to be a certain level before things are in logic even if you don't have these locations to guide you!"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Location Options"
+        },
+        "Pal_Condensing": {
+            "description": [
+                "When enabled, will consider a pals' boosted Work Suitabilities at 4 Star for Research Tasks and Ancient Production stations.",
+                "Does nothing if 'Enable_Palpedia' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
         }
     }
-
 }

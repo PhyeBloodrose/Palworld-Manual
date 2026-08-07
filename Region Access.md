@@ -1,4 +1,4 @@
-#Region Access
+# Region Access
 In this manual you will be able to restrict how much of Palworld you have access to depending on the 'player_access' option in the yaml. This page will try to explain how much of Palworld is unlocked per tier.
 
 The choice is progressive, if you pick a later Tower Boss, any and all lower tiers will also be made available.

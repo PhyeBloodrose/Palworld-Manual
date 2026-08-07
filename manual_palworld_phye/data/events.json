@@ -551,7 +551,7 @@
         },
         {
             "name": "Pals",
-            "requires": "|@Pal Beacons| OR {YamlDisabled(Enable_Palpedia)}"
+            "requires": "|@Pal Beacons| OR |@Raid Boss| OR |@Fish Pals| OR {YamlDisabled(Enable_Palpedia)}"
         },
         {
             "name": "Windswept Beacon",
@@ -1412,7 +1412,7 @@
             "name": "Pengullet Lux Beacon",
             "region": "Pengullet Lux",
             "category": [
-                "Pal Beacons",
+                "Fish Pals",
                 "Watering",
                 "Electricity",
                 "Electricity Level 2",
@@ -1449,7 +1449,7 @@
             "name": "Penking Lux Beacon",
             "region": "Penking Lux",
             "category": [
-                "Pal Beacons",
+                "Fish Pals",
                 "Watering",
                 "Watering Level 2",
                 "Electricity",
@@ -2778,7 +2778,7 @@
             "name": "Finsider Ignis Beacon",
             "region": "Finsider Ignis",
             "category": [
-                "Pal Beacons",
+                "Fish Pals",
                 "Kindling",
                 "Kindling Level 2",
                 "Watering",
@@ -3001,7 +3001,7 @@
             "name": "Ghangler Ignis Beacon",
             "region": "Ghangler Ignis",
             "category": [
-                "Pal Beacons",
+                "Fish Pals",
                 "Kindling",
                 "Kindling Level 5",
                 "Watering",
@@ -10236,19 +10236,1384 @@
             "requires": "|Player Level 71| AND |Ancient Farm| AND |Craft Paloxite Ingot| AND |Gather Ancient Civilization Core|"
         },
         {
+            "name": "Handiwork T1",
+            "region": "Handiwork T1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Handiwork T1-1",
+            "region": "Handiwork T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Handiwork T1-2",
+            "region": "Handiwork T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T1-3",
+            "region": "Handiwork T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Handiwork T2-1",
+            "region": "Handiwork T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T2-2",
+            "region": "Handiwork T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T2-3",
+            "region": "Handiwork T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T2-4",
+            "region": "Handiwork T2-4",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T3-1",
+            "region": "Handiwork T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T3-2",
+            "region": "Handiwork T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T3-3",
+            "region": "Handiwork T3-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T4-1",
+            "region": "Handiwork T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Handiwork T4-2",
+            "region": "Handiwork T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T4-3",
+            "region": "Handiwork T4-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T5-1",
+            "region": "Handiwork T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T5-2",
+            "region": "Handiwork T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T5-3",
+            "region": "Handiwork T5-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T6-1",
+            "region": "Handiwork T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T6-2",
+            "region": "Handiwork T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Handiwork T6-3",
+            "region": "Handiwork T6-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Handiwork T7-1",
+            "region": "Handiwork T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Handiwork T7-2",
+            "region": "Handiwork T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Kindling T1",
+            "region": "Kindling T1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Kindling T1-1",
+            "region": "Kindling T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Kindling T1-2",
+            "region": "Kindling T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Kindling T1-3",
+            "region": "Kindling T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Kindling T2-1",
+            "region": "Kindling T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Kindling T2-2",
+            "region": "Kindling T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Kindling T2-3",
+            "region": "Kindling T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Kindling T3-1",
+            "region": "Kindling T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Kindling T3-2",
+            "region": "Kindling T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Kindling T3-3",
+            "region": "Kindling T3-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Kindling T4-1",
+            "region": "Kindling T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Kindling T4-2",
+            "region": "Kindling T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T4-3",
+            "region": "Kindling T4-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T5-1",
+            "region": "Kindling T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T5-2",
+            "region": "Kindling T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T6-1",
+            "region": "Kindling T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T6-2",
+            "region": "Kindling T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T6-3",
+            "region": "Kindling T6-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Kindling T7-1",
+            "region": "Kindling T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Kindling T7-2",
+            "region": "Kindling T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Watering T1",
+            "region": "Watering T1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T1-1",
+            "region": "Watering T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T1-2",
+            "region": "Watering T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T1-3",
+            "region": "Watering T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T2-1",
+            "region": "Watering T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T2-2",
+            "region": "Watering T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T2-3",
+            "region": "Watering T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T3-1",
+            "region": "Watering T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T3-2",
+            "region": "Watering T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T3-3",
+            "region": "Watering T3-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Watering T4-1",
+            "region": "Watering T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Watering T4-2",
+            "region": "Watering T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Watering T5-1",
+            "region": "Watering T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Watering T5-2",
+            "region": "Watering T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Watering T6-1",
+            "region": "Watering T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Watering T6-2",
+            "region": "Watering T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Watering T7-1",
+            "region": "Watering T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Watering T7-2",
+            "region": "Watering T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Planting T1",
+            "region": "Planting T1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T1-1",
+            "region": "Planting T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T1-2",
+            "region": "Planting T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T1-3",
+            "region": "Planting T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T2-1",
+            "region": "Planting T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T2-2",
+            "region": "Planting T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T2-3",
+            "region": "Planting T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T3-1",
+            "region": "Planting T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T3-2",
+            "region": "Planting T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T4-1",
+            "region": "Planting T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T4-2",
+            "region": "Planting T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T4-3",
+            "region": "Planting T4-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Planting T5-1",
+            "region": "Planting T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Planting T5-2",
+            "region": "Planting T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Planting T6-1",
+            "region": "Planting T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Planting T6-2",
+            "region": "Planting T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Planting T6-3",
+            "region": "Planting T6-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Planting T7-1",
+            "region": "Planting T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Planting T7-2",
+            "region": "Planting T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Gen_Elec T1",
+            "region": "Gen_Elec T1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Gen_Elec T1-1",
+            "region": "Gen_Elec T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Gen_Elec T1-2",
+            "region": "Gen_Elec T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Gen_Elec T1-3",
+            "region": "Gen_Elec T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Gen_Elec T2-1",
+            "region": "Gen_Elec T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T2-2",
+            "region": "Gen_Elec T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T2-3",
+            "region": "Gen_Elec T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T2-4",
+            "region": "Gen_Elec T2-4",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T3-1",
+            "region": "Gen_Elec T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T3-2",
+            "region": "Gen_Elec T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T4-1",
+            "region": "Gen_Elec T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T4-2",
+            "region": "Gen_Elec T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T5-1",
+            "region": "Gen_Elec T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Gen_Elec T5-2",
+            "region": "Gen_Elec T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Gen_Elec T6-1",
+            "region": "Gen_Elec T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB07"
+            ]
+        },
+        {
+            "name": "Gen_Elec T6-2",
+            "region": "Gen_Elec T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB07"
+            ]
+        },
+        {
+            "name": "Gen_Elec T7-1",
+            "region": "Gen_Elec T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB08"
+            ]
+        },
+        {
+            "name": "Gen_Elec T7-2",
+            "region": "Gen_Elec T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB08"
+            ]
+        },
+        {
+            "name": "Lumbering T1",
+            "region": "Lumbering T1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Lumbering T1-1",
+            "region": "Lumbering T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Lumbering T1-2",
+            "region": "Lumbering T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Lumbering T1-3",
+            "region": "Lumbering T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Lumbering T2-1",
+            "region": "Lumbering T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Lumbering T2-2",
+            "region": "Lumbering T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T2-3",
+            "region": "Lumbering T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T3-1",
+            "region": "Lumbering T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T3-2",
+            "region": "Lumbering T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T4-1",
+            "region": "Lumbering T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T4-2",
+            "region": "Lumbering T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T5-1",
+            "region": "Lumbering T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T5-2",
+            "region": "Lumbering T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T5-3",
+            "region": "Lumbering T5-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Lumbering T6-1",
+            "region": "Lumbering T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Lumbering T6-2",
+            "region": "Lumbering T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Lumbering T7-1",
+            "region": "Lumbering T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Lumbering T7-2",
+            "region": "Lumbering T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Mining T1",
+            "region": "Mining T1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Mining T1-1",
+            "region": "Mining T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Mining T1-2",
+            "region": "Mining T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Mining T1-3",
+            "region": "Mining T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Mining T2-1",
+            "region": "Mining T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Mining T2-2",
+            "region": "Mining T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Mining T2-3",
+            "region": "Mining T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Mining T3-1",
+            "region": "Mining T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Mining T3-2",
+            "region": "Mining T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB03"
+            ]
+        },
+        {
+            "name": "Mining T4-1",
+            "region": "Mining T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T4-2",
+            "region": "Mining T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T4-3",
+            "region": "Mining T4-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T5-1",
+            "region": "Mining T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T5-2",
+            "region": "Mining T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T6-1",
+            "region": "Mining T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T6-2",
+            "region": "Mining T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T6-3",
+            "region": "Mining T6-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Mining T7-1",
+            "region": "Mining T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Mining T7-2",
+            "region": "Mining T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Cooling T1",
+            "region": "Cooling T1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T1-1",
+            "region": "Cooling T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T1-2",
+            "region": "Cooling T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T1-3",
+            "region": "Cooling T1-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T2-1",
+            "region": "Cooling T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T2-2",
+            "region": "Cooling T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T2-3",
+            "region": "Cooling T2-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T3-1",
+            "region": "Cooling T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T3-2",
+            "region": "Cooling T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T3-3",
+            "region": "Cooling T3-3",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T4-1",
+            "region": "Cooling T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T4-2",
+            "region": "Cooling T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Cooling T5-1",
+            "region": "Cooling T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Cooling T5-2",
+            "region": "Cooling T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Cooling T5-3",
+            "region": "Cooling T5-3",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Cooling T6-1",
+            "region": "Cooling T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Cooling T6-2",
+            "region": "Cooling T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Cooling T7-1",
+            "region": "Cooling T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Cooling T7-2",
+            "region": "Cooling T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB06"
+            ]
+        },
+        {
+            "name": "Med_Prod T1",
+            "region": "Med_Prod T1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Med_Prod T1-1",
+            "region": "Med_Prod T1-1",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Med_Prod T1-2",
+            "region": "Med_Prod T1-2",
+            "category": [
+                "Research Tasks",
+                "ORB01"
+            ]
+        },
+        {
+            "name": "Med_Prod T2-1",
+            "region": "Med_Prod T2-1",
+            "category": [
+                "Research Tasks",
+                "ORB02"
+            ]
+        },
+        {
+            "name": "Med_Prod T2-2",
+            "region": "Med_Prod T2-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T3-1",
+            "region": "Med_Prod T3-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T3-2",
+            "region": "Med_Prod T3-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T4-1",
+            "region": "Med_Prod T4-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T4-2",
+            "region": "Med_Prod T4-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T5-1",
+            "region": "Med_Prod T5-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T5-2",
+            "region": "Med_Prod T5-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T6-1",
+            "region": "Med_Prod T6-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T6-2",
+            "region": "Med_Prod T6-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T7-1",
+            "region": "Med_Prod T7-1",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
+            "name": "Med_Prod T7-2",
+            "region": "Med_Prod T7-2",
+            "category": [
+                "Research Tasks",
+                "ORB05"
+            ]
+        },
+        {
             "name": "Researcher Goal",
             "category": [
                 "Research Goal",
                 "ORB01"
             ],
-            "requires": "|Pal Labor Research Lab| AND |Craft Ingot| AND |Palbox|"
+            "requires": "{YamlCompare(player_access = 0)} OR ({YamlCompare(player_access = 1)} AND |@Research Tasks:12|) OR ({YamlCompare(player_access = 2)} AND |@Research Tasks:70|) OR ({YamlCompare(player_access = 3)} AND |@Research Tasks:109|) OR ({YamlCompare(player_access = 4)} AND |@Research Tasks:135|) OR ({YamlCompare(player_access = 5)} AND |@Research Tasks:152|) OR ({YamlCompare(player_access = 6)} AND |@Research Tasks:164|) OR ({YamlCompare(player_access = 7)} AND |@Research Tasks:166|) OR ({YamlCompare(player_access = 8)} AND |@Research Tasks:168|)"
         },
         {
             "name": "Palpedia Goal",
             "category": [
                 "Palpedia Goal"
             ],
-            "requires": "|@Pal Beacons|"
+            "requires": "|Pals Captured| AND |Pals Fished Up| AND |Raid Bosses Caught|"
+        },
+        {
+            "name": "Pals Captured",
+            "category": [
+                "Palpedia Goal"
+            ],
+            "requires": "({YamlCompare(player_access = 0)} AND |@Pal Beacons:36|) OR ({YamlCompare(player_access = 1)} AND |@Pal Beacons:70|) OR ({YamlCompare(player_access = 2)} AND |@Pal Beacons:109|) OR ({YamlCompare(player_access = 3)} AND |@Pal Beacons:148|) OR ({YamlCompare(player_access = 4)} AND |@Pal Beacons:178|) OR ({YamlCompare(player_access = 5)} AND |@Pal Beacons:200|) OR ({YamlCompare(player_access = 6)} AND |@Pal Beacons:221|) OR ({YamlCompare(player_access = 7)} AND |@Pal Beacons:253|) OR ({YamlCompare(player_access = 8)} AND |@Pal Beacons:278|)"
+        },
+        {
+            "name": "Pals Fished Up",
+            "category": [
+                "Palpedia Goal"
+            ],
+            "requires": "{YamlDisabled(Enable_Fishing)} OR {YamlCompare(player_access < 2)} OR ({YamlCompare(player_access = 2)} AND |@Fish Pals|) OR ({YamlCompare(player_access <= 4)} AND |@Fish Pals:3|) OR ({YamlCompare(player_access >= 5)} AND |@Fish Pals:4|)"
+        },
+        {
+            "name": "Raid Bosses Caught",
+            "category": [
+                "Palpedia Goal"
+            ],
+            "requires": "{YamlDisabled(Enable_Raid_Pals)} OR {YamlCompare(player_access < 3)} OR ({YamlCompare(player_access = 3)} AND |@Raid Boss|) OR ({YamlCompare(player_access = 4)} AND |@Raid Boss:2|) OR ({YamlCompare(player_access <= 6)} AND |@Raid Boss:3|) OR ({YamlCompare(player_access = 7)} AND |@Raid Boss:4|) OR ({YamlCompare(player_access = 8)} AND |@Raid Boss:5|)"
         }
     ]
 }

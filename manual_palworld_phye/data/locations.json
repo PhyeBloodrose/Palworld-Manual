@@ -10643,7 +10643,8 @@
         "region": "Handiwork T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB01"
         ],
         "requires": []
     },
@@ -10652,7 +10653,8 @@
         "region": "Handiwork T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB01"
         ],
         "requires": []
     },
@@ -10661,7 +10663,8 @@
         "region": "Handiwork T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10670,7 +10673,8 @@
         "region": "Handiwork T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB01"
         ],
         "requires": []
     },
@@ -10679,16 +10683,18 @@
         "region": "Handiwork T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
     {
         "name": "HW Research Task - Sphere Duplication Technique Lv1",
-        "region": "Handiwork T2-1",
+        "region": "Handiwork T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10697,7 +10703,8 @@
         "region": "Handiwork T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10706,7 +10713,8 @@
         "region": "Handiwork T2-4",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10715,7 +10723,8 @@
         "region": "Handiwork T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10724,7 +10733,8 @@
         "region": "Handiwork T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10733,7 +10743,8 @@
         "region": "Handiwork T3-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10742,7 +10753,8 @@
         "region": "Handiwork T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10751,7 +10763,8 @@
         "region": "Handiwork T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10760,7 +10773,8 @@
         "region": "Handiwork T4-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10769,7 +10783,8 @@
         "region": "Handiwork T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10778,7 +10793,8 @@
         "region": "Handiwork T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10787,7 +10803,8 @@
         "region": "Handiwork T5-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10796,16 +10813,18 @@
         "region": "Handiwork T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiworks"
+            "Research Tasks - Handiworks",
+            "ORB03"
         ],
         "requires": []
     },
     {
         "name": "HW Research Task - Weapon Crafting Optimization Technique Lv2",
-        "region": "Handiwork T5-2",
+        "region": "Handiwork T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10814,7 +10833,8 @@
         "region": "Handiwork T6-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10823,7 +10843,8 @@
         "region": "Handiwork T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiworks"
+            "Research Tasks - Handiworks",
+            "ORB05"
         ],
         "requires": []
     },
@@ -10832,7 +10853,8 @@
         "region": "Handiwork T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Handiwork"
+            "Research Tasks - Handiwork",
+            "ORB05"
         ],
         "requires": []
     },
@@ -10841,7 +10863,8 @@
         "region": "Kindling T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB01"
         ],
         "requires": []
     },
@@ -10850,7 +10873,8 @@
         "region": "Kindling T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10859,7 +10883,8 @@
         "region": "Kindling T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10868,7 +10893,8 @@
         "region": "Kindling T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10877,7 +10903,8 @@
         "region": "Kindling T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10886,7 +10913,8 @@
         "region": "Kindling T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -10895,7 +10923,8 @@
         "region": "Kindling T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10904,7 +10933,8 @@
         "region": "Kindling T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10913,7 +10943,8 @@
         "region": "Kindling T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10922,7 +10953,8 @@
         "region": "Kindling T3-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10931,7 +10963,8 @@
         "region": "Kindling T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB03"
         ],
         "requires": []
     },
@@ -10940,7 +10973,8 @@
         "region": "Kindling T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10949,7 +10983,8 @@
         "region": "Kindling T4-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10958,7 +10993,8 @@
         "region": "Kindling T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10967,7 +11003,8 @@
         "region": "Kindling T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10976,7 +11013,8 @@
         "region": "Kindling T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10985,7 +11023,8 @@
         "region": "Kindling T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -10994,7 +11033,8 @@
         "region": "Kindling T6-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11003,7 +11043,8 @@
         "region": "Kindling T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11012,7 +11053,8 @@
         "region": "Kindling T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Kindling"
+            "Research Tasks - Kindling",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11021,7 +11063,8 @@
         "region": "Watering T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11030,7 +11073,8 @@
         "region": "Watering T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11039,7 +11083,8 @@
         "region": "Watering T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11048,7 +11093,8 @@
         "region": "Watering T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11057,7 +11103,8 @@
         "region": "Watering T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11066,7 +11113,8 @@
         "region": "Watering T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11075,7 +11123,8 @@
         "region": "Watering T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11084,7 +11133,8 @@
         "region": "Watering T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11093,7 +11143,8 @@
         "region": "Watering T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11102,7 +11153,8 @@
         "region": "Watering T3-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11111,7 +11163,8 @@
         "region": "Watering T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11120,7 +11173,8 @@
         "region": "Watering T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11129,7 +11183,8 @@
         "region": "Watering T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11138,7 +11193,8 @@
         "region": "Watering T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11147,7 +11203,8 @@
         "region": "Watering T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB05"
         ],
         "requires": []
     },
@@ -11156,7 +11213,8 @@
         "region": "Watering T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB05"
         ],
         "requires": []
     },
@@ -11165,7 +11223,8 @@
         "region": "Watering T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB05"
         ],
         "requires": []
     },
@@ -11174,7 +11233,8 @@
         "region": "Watering T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Watering"
+            "Research Tasks - Watering",
+            "ORB05"
         ],
         "requires": []
     },
@@ -11183,7 +11243,8 @@
         "region": "Planting T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11192,7 +11253,8 @@
         "region": "Planting T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11201,7 +11263,8 @@
         "region": "Planting T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11210,7 +11273,8 @@
         "region": "Planting T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11219,7 +11283,8 @@
         "region": "Planting T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11228,7 +11293,8 @@
         "region": "Planting T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11237,7 +11303,8 @@
         "region": "Planting T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11246,7 +11313,8 @@
         "region": "Planting T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11255,7 +11323,8 @@
         "region": "Planting T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11264,7 +11333,8 @@
         "region": "Planting T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11273,7 +11343,8 @@
         "region": "Planting T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11282,7 +11353,8 @@
         "region": "Planting T4-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11291,7 +11363,8 @@
         "region": "Planting T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11300,7 +11373,8 @@
         "region": "Planting T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11309,7 +11383,8 @@
         "region": "Planting T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11318,7 +11393,8 @@
         "region": "Planting T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11327,7 +11403,8 @@
         "region": "Planting T6-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11336,7 +11413,8 @@
         "region": "Planting T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11345,7 +11423,8 @@
         "region": "Planting T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Planting"
+            "Research Tasks - Planting",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11354,7 +11433,8 @@
         "region": "Gen_Elec T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB01"
         ],
         "requires": []
     },
@@ -11363,7 +11443,8 @@
         "region": "Gen_Elec T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11372,7 +11453,8 @@
         "region": "Gen_Elec T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11381,7 +11463,8 @@
         "region": "Gen_Elec T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11390,7 +11473,8 @@
         "region": "Gen_Elec T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11399,7 +11483,8 @@
         "region": "Gen_Elec T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11408,7 +11493,8 @@
         "region": "Gen_Elec T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11417,7 +11503,8 @@
         "region": "Gen_Elec T2-4",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11426,7 +11513,8 @@
         "region": "Gen_Elec T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11435,7 +11523,8 @@
         "region": "Gen_Elec T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11444,7 +11533,8 @@
         "region": "Gen_Elec T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11453,7 +11543,8 @@
         "region": "Gen_Elec T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11462,7 +11553,8 @@
         "region": "Gen_Elec T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11471,7 +11563,8 @@
         "region": "Gen_Elec T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11480,7 +11573,8 @@
         "region": "Gen_Elec T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB07"
         ],
         "requires": []
     },
@@ -11489,7 +11583,8 @@
         "region": "Gen_Elec T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB07"
         ],
         "requires": []
     },
@@ -11498,7 +11593,8 @@
         "region": "Gen_Elec T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB08"
         ],
         "requires": []
     },
@@ -11507,7 +11603,8 @@
         "region": "Gen_Elec T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Generating Electricity"
+            "Research Tasks - Generating Electricity",
+            "ORB08"
         ],
         "requires": []
     },
@@ -11516,7 +11613,8 @@
         "region": "Lumbering T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11525,7 +11623,8 @@
         "region": "Lumbering T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11534,7 +11633,8 @@
         "region": "Lumbering T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11543,7 +11643,8 @@
         "region": "Lumbering T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11552,7 +11653,8 @@
         "region": "Lumbering T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11561,7 +11663,8 @@
         "region": "Lumbering T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11570,7 +11673,8 @@
         "region": "Lumbering T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11579,7 +11683,8 @@
         "region": "Lumbering T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11588,7 +11693,8 @@
         "region": "Lumbering T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11597,7 +11703,8 @@
         "region": "Lumbering T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11606,7 +11713,8 @@
         "region": "Lumbering T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11615,7 +11723,8 @@
         "region": "Lumbering T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11624,7 +11733,8 @@
         "region": "Lumbering T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11633,7 +11743,8 @@
         "region": "Lumbering T5-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11642,7 +11753,8 @@
         "region": "Lumbering T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11651,7 +11763,8 @@
         "region": "Lumbering T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11660,7 +11773,8 @@
         "region": "Lumbering T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11669,7 +11783,8 @@
         "region": "Lumbering T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Lumbering"
+            "Research Tasks - Lumbering",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11678,7 +11793,8 @@
         "region": "Mining T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB01"
         ],
         "requires": []
     },
@@ -11687,7 +11803,8 @@
         "region": "Mining T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB01"
         ],
         "requires": []
     },
@@ -11696,7 +11813,8 @@
         "region": "Mining T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB01"
         ],
         "requires": []
     },
@@ -11705,7 +11823,8 @@
         "region": "Mining T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB01"
         ],
         "requires": []
     },
@@ -11714,7 +11833,8 @@
         "region": "Mining T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11723,7 +11843,8 @@
         "region": "Mining T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11732,7 +11853,8 @@
         "region": "Mining T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11741,7 +11863,8 @@
         "region": "Mining T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11750,7 +11873,8 @@
         "region": "Mining T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB03"
         ],
         "requires": []
     },
@@ -11759,7 +11883,8 @@
         "region": "Mining T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11768,7 +11893,8 @@
         "region": "Mining T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11777,7 +11903,8 @@
         "region": "Mining T4-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11786,7 +11913,8 @@
         "region": "Mining T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11795,7 +11923,8 @@
         "region": "Mining T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11804,7 +11933,8 @@
         "region": "Mining T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11813,7 +11943,8 @@
         "region": "Mining T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11822,7 +11953,8 @@
         "region": "Mining T6-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11831,7 +11963,8 @@
         "region": "Mining T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11840,7 +11973,8 @@
         "region": "Mining T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Mining"
+            "Research Tasks - Mining",
+            "ORB06"
         ],
         "requires": []
     },
@@ -11849,7 +11983,8 @@
         "region": "Cooling T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11858,7 +11993,8 @@
         "region": "Cooling T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11867,7 +12003,8 @@
         "region": "Cooling T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11876,7 +12013,8 @@
         "region": "Cooling T1-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11885,7 +12023,8 @@
         "region": "Cooling T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11894,7 +12033,8 @@
         "region": "Cooling T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11903,7 +12043,8 @@
         "region": "Cooling T2-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11912,7 +12053,8 @@
         "region": "Cooling T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11921,7 +12063,8 @@
         "region": "Cooling T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11930,7 +12073,8 @@
         "region": "Cooling T3-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11939,7 +12083,8 @@
         "region": "Cooling T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11948,7 +12093,8 @@
         "region": "Cooling T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB02"
         ],
         "requires": []
     },
@@ -11957,7 +12103,8 @@
         "region": "Cooling T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11966,7 +12113,8 @@
         "region": "Cooling T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11975,7 +12123,8 @@
         "region": "Cooling T5-3",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11984,7 +12133,8 @@
         "region": "Cooling T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -11993,7 +12143,8 @@
         "region": "Cooling T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB04"
         ],
         "requires": []
     },
@@ -12002,7 +12153,8 @@
         "region": "Cooling T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB06"
         ],
         "requires": []
     },
@@ -12011,7 +12163,8 @@
         "region": "Cooling T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Cooling"
+            "Research Tasks - Cooling",
+            "ORB06"
         ],
         "requires": []
     },
@@ -12020,7 +12173,8 @@
         "region": "Med_Prod T1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB01"
         ],
         "requires": []
     },
@@ -12029,7 +12183,8 @@
         "region": "Med_Prod T1-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB01"
         ],
         "requires": []
     },
@@ -12038,7 +12193,8 @@
         "region": "Med_Prod T1-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB01"
         ],
         "requires": []
     },
@@ -12047,7 +12203,8 @@
         "region": "Med_Prod T2-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB02"
         ],
         "requires": []
     },
@@ -12056,7 +12213,8 @@
         "region": "Med_Prod T2-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12065,7 +12223,8 @@
         "region": "Med_Prod T3-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12074,7 +12233,8 @@
         "region": "Med_Prod T3-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12083,7 +12243,8 @@
         "region": "Med_Prod T4-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12092,7 +12253,8 @@
         "region": "Med_Prod T4-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12101,7 +12263,8 @@
         "region": "Med_Prod T5-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12110,7 +12273,8 @@
         "region": "Med_Prod T5-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12119,7 +12283,8 @@
         "region": "Med_Prod T6-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12128,7 +12293,8 @@
         "region": "Med_Prod T6-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12137,7 +12303,8 @@
         "region": "Med_Prod T7-1",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },
@@ -12146,7 +12313,8 @@
         "region": "Med_Prod T7-2",
         "category": [
             "Research Tasks",
-            "Research Tasks - Medicine Production"
+            "Research Tasks - Medicine Production",
+            "ORB05"
         ],
         "requires": []
     },

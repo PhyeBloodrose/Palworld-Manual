@@ -117,8 +117,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Location Options",
-            "hidden": true
+            "group": "Location Options"
         },
         "Ancient_Ruins": {
             "description": [
@@ -572,8 +571,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options",
-            "hidden": true
+            "group": "Goal Options"
         },
         "Palpedia_Goal": {
             "description": [
@@ -582,8 +580,7 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options",
-            "hidden": true
+            "group": "Goal Options"
         },
         "Journalist_Goal": {
             "description": [

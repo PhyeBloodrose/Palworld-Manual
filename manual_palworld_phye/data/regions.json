@@ -438,7 +438,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Budget Fishing Permit|)}"
     },
     "Windswept_AncientRuins": {
         "connects_to": [],
@@ -555,7 +555,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Budget Fishing Permit|)}"
     },
     "Mixed Region - Natural Bridge": {
         "connects_to": [],
@@ -658,7 +658,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Budget Fishing Permit|)}"
     },
     "Sea Breeze Archipelago": {
         "connects_to": [
@@ -801,7 +801,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Budget Fishing Permit|)}"
     },
     "Isle of Silence": {
         "connects_to": [
@@ -875,7 +875,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Budget Fishing Permit|)}"
     },
     "Silence Highway": {
         "connects_to": [
@@ -972,7 +972,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Budget Fishing Permit|)}"
     },
     "Sunlit Isle": {
         "connects_to": [
@@ -1003,7 +1003,7 @@
             "Fishing_Croajiro",
             "Fishing_Fuack"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Tropical Fishing Permit|)}"
     },
     "Sunlit Highway": {
         "connects_to": [
@@ -1044,7 +1044,7 @@
             "Fishing_Jellroy",
             "Fishing_Gloopie"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Island Fishing Permit|)}"
     },
     "Pal Arena": {
         "connects_to": [
@@ -1061,7 +1061,7 @@
             "Fishing_Finsider",
             "Fishing_Pengullet Lux"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Island Fishing Permit|)}"
     },
     "Arena Highway": {
         "connects_to": [
@@ -1261,7 +1261,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Woodlands Fishing Permit|)}"
     },
     "Twilight Dunes": {
         "connects_to": [
@@ -1330,7 +1330,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Desert Fishing Permit|)}"
     },
     "Crescent Moon Shore": {
         "connects_to": [
@@ -1431,7 +1431,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Woodlands Fishing Permit|)}"
     },
     "Frostbitten Isle": {
         "connects_to": [
@@ -1470,7 +1470,7 @@
             "Fishing_Jelliette",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Ice Fishing Permit|)}"
     },
     "Frostbitten Highway": {
         "connects_to": [
@@ -1593,7 +1593,7 @@
             "Fishing_Finsider",
             "Fishing_Dumud"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Volcano Fishing Permit|)}"
     },
     "Hot Volcano": {
         "connects_to": [
@@ -1688,7 +1688,7 @@
             "Fishing_Gloopie",
             "Fishing_Killamari Primo"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Volcano Fishing Permit|)}"
     },
     "Phantom Isle": {
         "connects_to": [
@@ -1721,7 +1721,7 @@
             "Fishing_Finsider Ignis",
             "Fishing_Ghangler"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Island Fishing Permit|)}"
     },
     "Verdant Brook": {
         "connects_to": [
@@ -1878,7 +1878,7 @@
             "Fishing_Jellroy",
             "Fishing_Surfent"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Forest Fishing Permit|)}"
     },
     "Frostbound Mountains": {
         "connects_to": [
@@ -1924,7 +1924,7 @@
             "Fishing_Polapup",
             "Fishing_Munchill"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Ice Fishing Permit|)}"
     },
     "Scars of War": {
         "connects_to": [
@@ -1992,7 +1992,7 @@
             "Fishing_Surfent",
             "Fishing_Killamari"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Volcano Fishing Permit|)}"
     },
     "Sunreach_Skip": {
         "connects_to": [
@@ -2038,7 +2038,7 @@
             "Fishing_Turtacle",
             "Fishing_Azurobe"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Sanctuary Fishing Permit|)}"
     },
     "Isle of Eternal Summer": {
         "connects_to": [
@@ -2066,7 +2066,7 @@
             "Fishing_Surfent Terra",
             "Fishing_Dumud Gild"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Tropical Fishing Permit|)}"
     },
     "Wildlife Sanctuary 2": {
         "connects_to": [
@@ -2113,7 +2113,7 @@
             "Fishing_Finsider Ignis",
             "Fishing_Ghangler Ignis"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Sanctuary Fishing Permit|)}"
     },
     "Desiccated Dunes": {
         "connects_to": [
@@ -2283,7 +2283,7 @@
             "Fishing_Finsider",
             "Fishing_Dumud Gild"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Desert Fishing Permit|)}"
     },
     "Oasis Isle": {
         "connects_to": [
@@ -2308,7 +2308,7 @@
             "Fishing_Surfent Terra",
             "Fishing_Dumud Gild"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Tropical Fishing Permit|)}"
     },
     "Scouring Islet": {
         "connects_to": [
@@ -2363,7 +2363,7 @@
             "Fishing_Celaray Lux",
             "Fishing_Pengullet Lux"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Desert Fishing Permit|)}"
     },
     "Flamepulse Islet": {
         "connects_to": [
@@ -2418,7 +2418,7 @@
             "Fishing_Finsider Ignis",
             "Fishing_Ghangler Ignis"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Volcano Fishing Permit|)}"
     },
     "Foot of the Astral Mountains": {
         "connects_to": [
@@ -2488,7 +2488,7 @@
             "Fishing_Turtacle",
             "Fishing_Azurobe"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Woodlands Fishing Permit|)}"
     },
     "Astral Mountains": {
         "connects_to": [
@@ -2615,7 +2615,7 @@
             "Fishing_Finsider",
             "Fishing_Pengullet Lux"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Ice Fishing Permit|)}"
     },
     "Isle of the Glacial Core": {
         "connects_to": [
@@ -2660,7 +2660,7 @@
             "Fishing_Whalaska",
             "Fishing_Polapup"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Ice Fishing Permit|)}"
     },
     "Glacial Core Highway": {
         "connects_to": [
@@ -2711,7 +2711,7 @@
             "Fishing_Turtacle Terra",
             "Fishing_Dumud Gild"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Sanctuary Fishing Permit|)}"
     },
     "Islet of Circular Ruins": {
         "connects_to": [
@@ -2758,7 +2758,7 @@
             "Fishing_Gloopie",
             "Fishing_Jellroy"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Island Fishing Permit|)}"
     },
     "Foot of the World Tree": {
         "connects_to": [
@@ -2883,7 +2883,7 @@
             "Fishing_Penking Lux",
             "Fishing_Croajiro Noct"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Sakurajima Fishing Permit|)}"
     },
     "Suncrest Islet": {
         "connects_to": [
@@ -2912,7 +2912,7 @@
             "Fishing_Dumud Gild",
             "Fishing_Polapup Terra"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Desert Fishing Permit|)}"
     },
     "Feybreak": {
         "connects_to": [
@@ -3176,7 +3176,7 @@
             "Fishing_Finsider Ignis",
             "Fishing_Ghangler Ignis"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Feybreak Fishing Permit|)}"
     },
     "Feybreak Blue": {
         "connects_to": [
@@ -3298,7 +3298,7 @@
             "Fishing_Whalaska",
             "Fishing_Munchill"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Feybreak Fishing Permit|)}"
     },
     "Feybreak Hot": {
         "connects_to": [
@@ -3503,7 +3503,7 @@
             "Fishing_Solmora",
             "Fishing_Solmora Lux"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Sky Island Fishing Permit|)}"
     },
     "Glacial Memento Islet": {
         "connects_to": [
@@ -3550,7 +3550,7 @@
             "Fishing_Azurobe Cryst",
             "Fishing_Whalaska"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Island Fishing Permit|)}"
     },
     "Bicornis Islet": {
         "connects_to": [
@@ -3598,7 +3598,7 @@
             "Fishing_Ghangler Ignis",
             "Fishing_Fuack Ignis"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Volcano Fishing Permit|)}"
     },
     "Sandstone Gate Islet": {
         "connects_to": [
@@ -3653,7 +3653,7 @@
             "Fishing_Dumud Gild",
             "Fishing_Surfent Terra"
         ],
-        "requires": "|Fishing|"
+        "requires": "|Fishing| AND {OptOne(|Desert Fishing Permit|)}"
     },
     "World Tree": {
         "connects_to": [
@@ -3841,7 +3841,7 @@
             "Fishing_Whalaska Ignis",
             "Fishing_Solmora Lux"
         ],
-        "requires": "|Masterful Fishing|"
+        "requires": "|Masterful Fishing| AND {OptOne(|World Tree Fishing Permit|)}"
     },
     "Lamball": {
         "connects_to": [],

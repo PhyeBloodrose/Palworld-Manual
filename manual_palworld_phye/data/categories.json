@@ -29,7 +29,7 @@
     "Ancient Technology": {
         "yaml_option": [ "Include_AncientTechnology" ]
     },
-    "Alpha Pals": {
+    "Boss Alpha Pals": {
         "yaml_option": [ "Enable_Alpha_Pals" ]
     },
     "Alpha Hunter": {
@@ -312,11 +312,14 @@
         "yaml_option": [ "Enable_Fishing", "Fishsanity" ],
         "hidden": true
     },
+    "Key Items - Fishing Permits": {
+        "yaml_option": [ "Enable_Fishing", "Fishing_Permits" ]
+    },
     "Fisherman Goal": {
         "yaml_option": [ "Enable_Fishing", "Fishsanity", "Fisherman_Goal" ],
         "hidden": true
     },
-    "Player Progress": {
+    "Player Progression": {
         "yaml_option": [ "Player_Progression" ]
     },
     "TowerLock": {

@@ -17488,6 +17488,122 @@
     },
     {
         "count": 1,
+        "name": "Budget Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Tropical Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Island Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Woodlands Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Desert Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Ice Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Volcano Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB02"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Forest Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB02"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Sanctuary Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB02"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Sakurajima Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB05"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Feybreak Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB06"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Sky Island Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB07"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "World Tree Fishing Permit",
+        "category": [
+            "Key Items - Fishing Permits",
+            "ORB08"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
         "name": "Proof of Victory (The Main Quest)",
         "category": [
             "Key Items - Proof of Victory",

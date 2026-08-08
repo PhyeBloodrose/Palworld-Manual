@@ -478,204 +478,6 @@
             "default": true,
             "group": "Extra Options"
         },
-        "MainMissions_Goal": {
-            "description": [
-                "The Main Quest: Complete all of the Main Missions.",
-                "The final main mission for this goal is the Tower Boss selected in 'player_access'.",
-                "Requires 'Main Missions' to be enabled or it won't generate."
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "Goal Options"
-        },
-        "Tower_Goal": {
-            "description": [
-                "Tower Rush: Defeat all the Tower Bosses.",
-                "You only have to defeat all tower bosses up to your max progression for this Victory Condition."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Legendary_Goal": {
-            "description": [
-                "Legendary Hunter: Defeat or capture all of the Legendary Pals",
-                "Those being: Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon, Neptilius and Panthalus.",
-                "This goal will be unavailable if 'player_access' doesn't reach Level 60 due to that being the lowest level of them."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "AncientRuins_Goal": {
-            "description": [
-                "Ancient Discovery: Discover all of the Ancient Ruins to Goal.",
-                "Requires 'Ancient Ruins' to be enabled or this goal will not generate."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Raid_Goal": {
-            "description": [
-                "Pal Raider: Defeat all of the Pal Raid Bosses.",
-                "Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis.",
-                "This goal will be unavailable if 'player_access' doesn't reach Level 35 As that's the Level of Bellanoir which is the earliest Raid Boss you can fight."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Alpha_Goal": {
-            "description": [
-                "Alpha Hunter: Defeat all of the Overworld Alpha Pals!",
-                "The Alpha Pals required for this goal are those that are visible as question marks on the map, this also includes the World Tree Alphas if the 'player_access' allows for it.",
-                "Does nothing if 'Enable_Alpha_Pals' is disabled."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Bounty_Goal": {
-            "description": [
-                "Bounty Hunter: Defeat all of the Bounties!",
-                "The Bounties required for this goal are the various npcs that are visible as question marks on the map and is glowing purple.",
-                "Does nothing if 'Enable_Bounties' is disabled."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Chef_Goal": {
-            "description": [
-                "Master Chef: Cook all the various dishes within Palworld to goal!",
-                "Requires 'Chefsanity' enabled or this goal won't appear."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "SubMissions_Goal": {
-            "description": [
-                "The Side Hustler: Require you to complete all the sub missions in the game to goal.",
-                "Requires 'Sub_Missions' enabled or this goal won't appear."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Researcher_Goal": {
-            "description": [
-                "Pal Researcher: Require you to complete all of the Pal Labor Research Laboratory Tasks to goal.",
-                "Requires 'Research Task checks' enabled or this goal won't appear."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Palpedia_Goal": {
-            "description": [
-                "Full Palpedia: Require you to obtain all of the Pals available in the Palpedia to goal.",
-                "Requires 'Enable_Palpedia' to be enabled or this goal won't appear."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Journalist_Goal": {
-            "description": [
-                "Journalist: Requires you to read all the Journals spread out throughout Palpagos Isles to goal.",
-                "This goal will not generate if 'Journals' are not enabled."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Traveler_Goal": {
-            "description": [
-                "Palpagos Traveler: Require you to travel to all the Travel Points within Palpagos Isles to goal.",
-                "Watchtowers will not be accounted for in this goal despite both being travel points."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Dungeoneer_Goal": {
-            "description": [
-                "Dungeon Dweller: Require you to enter and defeat a boss from all of the Dungeons to goal.",
-                "Requires Dungeons as checks or it won't generate."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Lucky_Goal": {
-            "description": [
-                "Feeling Lucky: Require you to find and capture a Lucky Pal in each Major Region to goal!",
-                "The Major Regions are as following; Windswept Island, Sea Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains, Mount Obsidian, Desiccated Dunes, Sakurajima, Feybreak, Sunreach and the World Tree.",
-                "Requires 'Lucky Pals' locations to be enabled or the goal won't generate."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "BaseBuilder_Goal": {
-            "description": [
-                "Base Builder: Require you to max out your base in order to goal!",
-                "If you selected a lower Player Access setting, this goal will complete after constructing the highest building available.",
-                "Requires 'Base Tasks' to be enabled or it won't generate."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "TheWatcher_Goal": {
-            "description": [
-                "The Watcher: Require you to reach every watchtower in order to goal!",
-                "Not to be confused with ordinary Travel Points."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Arena_Goal": {
-            "description": [
-                "Arena Champion: Require you to beat and conquer all of the Arena Challenges to goal!",
-                "Requires 'Arena_Challenges' or it won't appear."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Fisherman_Goal": {
-            "description": [
-                "Fisherman: Require you to fish up all available fishing pals!",
-                "Requires 'Fishsanity' and 'Enable_Fishing' or it won't appear!",
-                "Also require at least Lily to be accessible."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "EffigyCollector_Goal": {
-            "description": [
-                "Effigy Collector: Collect all of the Effigies scattered around the world to goal!",
-                "You need at least one effigy type to be enabled for this to be able to goal.",
-                "Mimog Effigies are not accounted for in this goal! As they would be the same as the 'Full_Palpedia' goal."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
-        "Goal_Requires_AllofAbove": {
-            "description": [
-                "If this is enabled, you'll require to complete every selected Goal before you're able to win.",
-                "If this option is disabled, you just require any of the above enabled goals to be completed to win."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Goal Options"
-        },
         "Pal_Merchants": {
             "description": [
                 "Enables all merchants who sell Pals as checks.",
@@ -1094,6 +896,215 @@
             "type": "Toggle",
             "default": false,
             "group": "Logic Options"
+        },
+        "Fishing_Permits": {
+            "description": [
+                "When enabled, will add a Fishing Permit for various Biomes which are required before fishing in those locations are in logic.",
+                "Such as 'Volcano Fishing Permit', 'Desert Fishing Permit' and so forth",
+                "Does nothing if 'Enable_Fishing' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "MainMissions_Goal": {
+            "description": [
+                "The Main Quest: Complete all of the Main Missions.",
+                "The final main mission for this goal is the Tower Boss selected in 'player_access'.",
+                "Requires 'Main Missions' to be enabled or it won't generate."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Goal Options"
+        },
+        "SubMissions_Goal": {
+            "description": [
+                "The Side Hustler: Require you to complete all the sub missions in the game to goal.",
+                "Requires 'Sub_Missions' enabled or this goal won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Tower_Goal": {
+            "description": [
+                "Tower Rush: Defeat all the Tower Bosses.",
+                "You only have to defeat all tower bosses up to your max progression for this Victory Condition."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Palpedia_Goal": {
+            "description": [
+                "Full Palpedia: Require you to obtain all of the Pals available in the Palpedia to goal.",
+                "Requires 'Enable_Palpedia' to be enabled or this goal won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Legendary_Goal": {
+            "description": [
+                "Legendary Hunter: Defeat or capture all of the Legendary Pals",
+                "Those being: Necromus, Paladius, Frostallion, Frostallion Noct, Jetragon, Neptilius and Panthalus.",
+                "This goal will be unavailable if 'player_access' doesn't reach Level 60 due to that being the lowest level of them."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Raid_Goal": {
+            "description": [
+                "Pal Raider: Defeat all of the Pal Raid Bosses.",
+                "Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis.",
+                "This goal will be unavailable if 'player_access' doesn't reach Level 35 As that's the Level of Bellanoir which is the earliest Raid Boss you can fight."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Alpha_Goal": {
+            "description": [
+                "Alpha Hunter: Defeat all of the Overworld Alpha Pals!",
+                "The Alpha Pals required for this goal are those that are visible as question marks on the map, this also includes the World Tree Alphas if the 'player_access' allows for it.",
+                "Does nothing if 'Enable_Alpha_Pals' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Bounty_Goal": {
+            "description": [
+                "Bounty Hunter: Defeat all of the Bounties!",
+                "The Bounties required for this goal are the various npcs that are visible as question marks on the map and is glowing purple.",
+                "Does nothing if 'Enable_Bounties' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Chef_Goal": {
+            "description": [
+                "Master Chef: Cook all the various dishes within Palworld to goal!",
+                "Requires 'Chefsanity' enabled or this goal won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Researcher_Goal": {
+            "description": [
+                "Pal Researcher: Require you to complete all of the Pal Labor Research Laboratory Tasks to goal.",
+                "Requires 'Research Task checks' enabled or this goal won't appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Journalist_Goal": {
+            "description": [
+                "Journalist: Requires you to read all the Journals spread out throughout Palpagos Isles to goal.",
+                "This goal will not generate if 'Journals' are not enabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "AncientRuins_Goal": {
+            "description": [
+                "Ancient Discovery: Discover all of the Ancient Ruins to Goal.",
+                "Requires 'Ancient Ruins' to be enabled or this goal will not generate."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Traveler_Goal": {
+            "description": [
+                "Palpagos Traveler: Require you to travel to all the Travel Points within Palpagos Isles to goal.",
+                "Watchtowers will not be accounted for in this goal despite both being travel points."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "TheWatcher_Goal": {
+            "description": [
+                "The Watcher: Require you to reach every watchtower in order to goal!",
+                "Not to be confused with ordinary Travel Points."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Dungeoneer_Goal": {
+            "description": [
+                "Dungeon Dweller: Require you to enter and defeat a boss from all of the Dungeons to goal.",
+                "Requires Dungeons as checks or it won't generate."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "BaseBuilder_Goal": {
+            "description": [
+                "Base Builder: Require you to max out your base in order to goal!",
+                "If you selected a lower Player Access setting, this goal will complete after constructing the highest building available.",
+                "Requires 'Base Tasks' to be enabled or it won't generate."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Arena_Goal": {
+            "description": [
+                "Arena Champion: Require you to beat and conquer all of the Arena Challenges to goal!",
+                "Requires 'Arena_Challenges' or it won't appear.",
+                "Also require at least Lily to be accessible."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Lucky_Goal": {
+            "description": [
+                "Feeling Lucky: Require you to find and capture a Lucky Pal in each Major Region to goal!",
+                "The Major Regions are as following; Windswept Island, Sea Breeze Archipelago, Bamboo Groves, Crescent Moon Shore, Verdant Brook, Astral Mountains, Mount Obsidian, Desiccated Dunes, Sakurajima, Feybreak, Sunreach and the World Tree.",
+                "Requires 'Lucky Pals' locations to be enabled or the goal won't generate."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Fisherman_Goal": {
+            "description": [
+                "Fisherman: Require you to fish up all available fishing pals!",
+                "Requires 'Fishsanity' and 'Enable_Fishing' or it won't appear!",
+                "Also require at least Lily to be accessible."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "EffigyCollector_Goal": {
+            "description": [
+                "Effigy Collector: Collect all of the Effigies scattered around the world to goal!",
+                "You need at least one effigy type to be enabled for this to be able to goal.",
+                "Mimog Effigies are not accounted for in this goal! As they would be the same as the 'Full_Palpedia' goal."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
+        },
+        "Goal_Requires_AllofAbove": {
+            "description": [
+                "If this is enabled, you'll require to complete every selected Goal before you're able to win.",
+                "If this option is disabled, you just require any of the above enabled goals to be completed to win."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Goal Options"
         }
     }
 }

@@ -153,7 +153,8 @@
         "Lamball_Effigies": {
             "description": [
                 "Every Lamball Effigy found at the Bamboo Groves, Crescent Moon Shore and Verdant Brook is a check.",
-                "Lamball Effigies increases Satiety Duration."
+                "Lamball Effigies increases Satiety Duration.",
+                "Requires the Bamboo Groves to be accessible due to 'player_access'."
             ],
             "type": "Toggle",
             "default": false,
@@ -305,7 +306,8 @@
                 "For the ULTRAKILL Collab Schematics to be added, you require both the Weapon and Armour Schematics to be enabled for it to exist.",
                 "Fishing Rod Schematics are included as Weapon Schematics",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
-                "Rank 3-4 of a Schematic Tier will be treated as useful items."
+                "Rank 3-4 of a Schematic Tier will be treated as useful items.",
+                "NOTE: Only Schematics for Weapons available up to your chosen 'player_access' will be added to the item pool."
             ],
             "type": "Toggle",
             "default": false,
@@ -317,7 +319,8 @@
                 "This includes all the various armour schematics you can find from Chests, Dungeons and dropped from Pals. This also includes the armour schematics that can be bought from shops.",
                 "For the ULTRAKILL Collab Schematics to be added, you require both the Weapon and Armour Schematics to be enabled for it to exist.",
                 "Rank 1-2 of a Schematic Tier will be treated as filler items.",
-                "Rank 3-4 of a Schematic Tier will be treated as useful items."
+                "Rank 3-4 of a Schematic Tier will be treated as useful items.",
+                "NOTE: Only Schematics for Armor available up to your chosen 'player_access' will be added to the item pool."
             ],
             "type": "Toggle",
             "default": false,
@@ -328,7 +331,8 @@
                 "Adds 4 of each Raid Slab Fragment into the item pool.",
                 "The Slabs themselves will appear in your inventory upon receiveing four of each fragment.",
                 "These are considered progression items and will be required before Raid Bosses are in logic if you have them enabled.",
-                "This also adds the Celestial Sigil, the raid summoning item for the Moon Lord, but it is treated as a useful item."
+                "This also adds the Celestial Sigil, the raid summoning item for the Moon Lord, but it is treated as a useful item.",
+                "NOTE: Only Raid Slab Fragments available up to your chosen 'player_access' will be added to the item pool."
             ],
             "type": "Toggle",
             "default": false,
@@ -337,7 +341,8 @@
         "Accessory_Schematics": {
             "description": [
                 "Adds one of each Accessory Schematic into the item pool.",
-                "These are all considered as useful items."
+                "These are all considered as useful items.",
+                "NOTE: Only the accessories available up to your chosen 'player_access' will be added to the item pool."
             ],
             "type": "Toggle",
             "default": false,
@@ -347,7 +352,8 @@
             "description": [
                 "Adds one of each skill fruit into the item pool.",
                 "Uncommon Skill Fruits are considered as filler items.",
-                "Rare and Epic Skill Fruits are considered as useful items."
+                "Rare and Epic Skill Fruits are considered as useful items.",
+                "NOTE: Only Skill Fruits available up to your chosen 'player_access' will be added to the item pool."
             ],
             "type": "Toggle",
             "default": false,
@@ -902,6 +908,18 @@
                 "When enabled, will add a Fishing Permit for various Biomes which are required before fishing in those locations are in logic.",
                 "Such as 'Volcano Fishing Permit', 'Desert Fishing Permit' and so forth",
                 "Does nothing if 'Enable_Fishing' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Player_Enhancement_Levels": {
+            "description": [
+                "When enabled, will add an item for each level of the stat you can enhance at the 'Statue of Power' which will also limit what kind of effigies you are allowed to pick up!",
+                "The first of each of these player enhancement items are considered progression as it'll be required for picking up the effigies themselves, but the rest are considered useful.",
+                "Whenever you gain this item, treat it as the maximum level you can enhance your abilities ingame.",
+                "Only exception is the Movement Speed bonus! That item will be considered useful and only exist one of and will not limit someone from capturing more than one Pal.",
+                "BUT you shouldn't increase your movement speed until you receive it in the multiworld!"
             ],
             "type": "Toggle",
             "default": false,

@@ -17603,6 +17603,169 @@
         "progression": true
     },
     {
+        "count": 15,
+        "name": "Progressive Capture Power",
+        "category": [
+            "Player Ability Enhancements"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 14
+        }
+    },
+    {
+        "count": 15,
+        "name": "Progressive Satiety Duration",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB01"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 14
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Swimming Ability",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB02"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Food Preservation",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB03"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Jump Power",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB04"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Flight Capacity",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB05"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Climbing Proficiency",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB06"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Status Resistance",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB07"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 20,
+        "name": "Progressive Endurance",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB08"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 19
+        }
+    },
+    {
+        "count": 4,
+        "name": "Progressive Sphere Tracking",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB01"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 3
+        }
+    },
+    {
+        "count": 4,
+        "name": "Progressive EXP Gain",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB02"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 3
+        }
+    },
+    {
+        "count": 4,
+        "name": "Progressive Rainbow Fortune",
+        "category": [
+            "Player Ability Enhancements",
+            "ORB05"
+        ],
+        "progression": true,
+        "classification_count": {
+            "progression": 1,
+            "useful": 3
+        }
+    },
+    {
+        "count": 1,
+        "name": "Movement Speed Enhancement",
+        "category": [
+            "Player Ability Enhancements"
+        ],
+        "useful": true
+    },
+    {
         "count": 1,
         "name": "Proof of Victory (The Main Quest)",
         "category": [

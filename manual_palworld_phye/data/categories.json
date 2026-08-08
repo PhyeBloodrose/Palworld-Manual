@@ -326,6 +326,9 @@
         "yaml_option": [ "Tower_LevelCap" ],
         "hidden": true
     },
+    "Player Ability Enhancements": {
+        "yaml_option": [ "Player_Enhancement_Levels" ]
+    },
     "Collector Goal": {
         "yaml_option": [ "EffigyCollector_Goal" ],
         "hidden": true

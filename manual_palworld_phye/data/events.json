@@ -592,7 +592,6 @@
             "region": "Sea Breeze Archipelago",
             "category": [
                 "Location Beacons",
-                "Lamball Effigies",
                 "Village Merchant",
                 "Travel Points",
                 "Watchtowers",
@@ -8982,7 +8981,7 @@
             "category": [
                 "Collector Goal"
             ],
-            "requires": "{YamlDisabled(Lamball_Effigies)} OR ({YamlCompare(player_access = 0)} AND |@Lamball Effigies:1|) OR ({YamlCompare(player_access = 1)} AND |@Lamball Effigies:4|) OR ({YamlCompare(player_access >= 2)} AND |@Lamball Effigies:7|)"
+            "requires": "{YamlDisabled(Lamball_Effigies)} OR {YamlCompare(player_access < 1)} OR ({YamlCompare(player_access = 1)} AND |@Lamball Effigies:3|) OR ({YamlCompare(player_access >= 2)} AND |@Lamball Effigies:6|)"
         },
         {
             "name": "Lunaris Collected",

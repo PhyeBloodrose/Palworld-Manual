@@ -649,13 +649,13 @@
         },
         "Fisherman_Goal": {
             "description": [
-                "Fisherman: Require you to fish in every restricted location!",
-                "Requires 'Fishing_Spots' and 'Enable_Fishing' or it won't appear!"
+                "Fisherman: Require you to fish up all available fishing pals!",
+                "Requires 'Fishsanity' and 'Enable_Fishing' or it won't appear!",
+                "Also require at least Lily to be accessible."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Goal Options",
-            "hidden": true
+            "group": "Goal Options"
         },
         "EffigyCollector_Goal": {
             "description": [
@@ -1067,15 +1067,14 @@
             "default": false,
             "group": "Limit Options"
         },
-        "Fishing_Spots": {
+        "Fishsanity": {
             "description": [
-                "This will add a fishing location to every location requiring a pass to access!",
+                "This will add a location for each Pal you're able to fish up!",
                 "'Enable_Fishing' has to be enabled for these locations to show up as they follow the same logic!"
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Location Options",
-            "hidden": true
+            "group": "Location Options"
         },
         "Player_Progression": {
             "description": [

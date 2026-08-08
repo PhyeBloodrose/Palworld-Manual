@@ -20159,6 +20159,396 @@
         ]
     },
     {
+        "name": "Fished up a Celaray",
+        "region": "Fishing_Celaray",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Celaray Lux",
+        "region": "Fishing_Celaray Lux",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Pengullet",
+        "region": "Fishing_Pengullet",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Pengullet Lux",
+        "region": "Fishing_Pengullet Lux",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Turtacle",
+        "region": "Fishing_Turtacle",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Turtacle Terra",
+        "region": "Fishing_Turtacle Terra",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Jelliette",
+        "region": "Fishing_Jelliette",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Jellroy",
+        "region": "Fishing_Jellroy",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Croajiro",
+        "region": "Fishing_Croajiro",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Croajiro Noct",
+        "region": "Fishing_Croajiro Noct",
+        "category": [
+            "Fishsanity",
+            "ORB05",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Penking",
+        "region": "Fishing_Penking",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Penking Lux",
+        "region": "Fishing_Penking Lux",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Finsider",
+        "region": "Fishing_Finsider",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Finsider Ignis",
+        "region": "Fishing_Finsider Ignis",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Fuack",
+        "region": "Fishing_Fuack",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Fuack Ignis",
+        "region": "Fishing_Fuack Ignis",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Gloopie",
+        "region": "Fishing_Gloopie",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Gloopie Primo",
+        "region": "Fishing_Gloopie Primo",
+        "category": [
+            "Fishsanity",
+            "ORB07",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Kelpsea",
+        "region": "Fishing_Kelpsea",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Kelpsea Ignis",
+        "region": "Fishing_Kelpsea Ignis",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up an Azurobe",
+        "region": "Fishing_Azurobe",
+        "category": [
+            "Fishsanity",
+            "ORB01",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up an Azurobe Cryst",
+        "region": "Fishing_Azurobe Cryst",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Ghangler",
+        "region": "Fishing_Ghangler",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Ghangler Ignis",
+        "region": "Fishing_Ghangler Ignis",
+        "category": [
+            "Fishsanity",
+            "ORB03",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Munchill",
+        "region": "Fishing_Munchill",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Skutlass",
+        "region": "Fishing_Skutlass",
+        "category": [
+            "Fishsanity",
+            "ORB07",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Skutlass Ignis",
+        "region": "Fishing_Skutlass Ignis",
+        "category": [
+            "Fishsanity",
+            "ORB03",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Dumud",
+        "region": "Fishing_Dumud",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Dumud Gild",
+        "region": "Fishing_Dumud Gild",
+        "category": [
+            "Fishsanity",
+            "ORB03",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Polapup",
+        "region": "Fishing_Polapup",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Polapup Terra",
+        "region": "Fishing_Polapup Terra",
+        "category": [
+            "Fishsanity",
+            "ORB05",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Surfent",
+        "region": "Fishing_Surfent",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Surfent Terra",
+        "region": "Fishing_Surfent Terra",
+        "category": [
+            "Fishsanity",
+            "ORB03",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Whalaska",
+        "region": "Fishing_Whalaska",
+        "category": [
+            "Fishsanity",
+            "ORB04",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Whalaska Ignis",
+        "region": "Fishing_Whalaska Ignis",
+        "category": [
+            "Fishsanity",
+            "ORB08",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Killamari",
+        "region": "Fishing_Killamari",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Killamari Primo",
+        "region": "Fishing_Killamari Primo",
+        "category": [
+            "Fishsanity",
+            "ORB02",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Solmora",
+        "region": "Fishing_Solmora",
+        "category": [
+            "Fishsanity",
+            "ORB07",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Fished up a Solmora Lux",
+        "region": "Fishing_Solmora Lux",
+        "category": [
+            "Fishsanity",
+            "ORB07",
+            "Fishing Challenges"
+        ],
+        "requires": []
+    },
+    {
         "name": "Reached Player Level 2",
         "region": "Player Progression 1-10",
         "category": [
@@ -21028,6 +21418,18 @@
         "requires": "|Ancient Ruins Goal|",
         "place_item": [
             "Proof of Victory (Ancient Discovery)"
+        ]
+    },
+    {
+        "name": "Fished up all the fishing Pals!",
+        "region": "General",
+        "category": [
+            "Victory Conditions",
+            "Fisherman Goal"
+        ],
+        "requires": "|Fisherman Goal|",
+        "place_item": [
+            "Proof of Victory (The Fisherman)"
         ]
     },
     {

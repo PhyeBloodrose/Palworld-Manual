@@ -17528,7 +17528,8 @@
         "name": "Proof of Victory (Pal Raider)",
         "category": [
             "Key Items - Proof of Victory",
-            "Raid Boss Goal"
+            "Raid Boss Goal",
+            "ORB03"
         ],
         "progression": true
     },
@@ -17555,7 +17556,8 @@
         "name": "Proof of Victory (Pal Researcher)",
         "category": [
             "Key Items - Proof of Victory",
-            "Research Goal"
+            "Research Goal",
+            "ORB01"
         ],
         "progression": true
     },
@@ -17591,7 +17593,8 @@
         "name": "Proof of Victory (Dungeon Dweller)",
         "category": [
             "Key Items - Proof of Victory",
-            "Dungeoneer Goal"
+            "Dungeoneer Goal",
+            "ORB01"
         ],
         "progression": true
     },
@@ -17628,8 +17631,7 @@
         "name": "Proof of Victory (Bounty Hunter)",
         "category": [
             "Key Items - Proof of Victory",
-            "Bounty Hunter",
-            "ORB01"
+            "Bounty Hunter"
         ],
         "progression": true
     },
@@ -17666,6 +17668,16 @@
         "category": [
             "Key Items - Proof of Victory",
             "Arena Goal",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Proof of Victory (The Fisherman)",
+        "category": [
+            "Key Items - Proof of Victory",
+            "Fisherman Goal",
             "ORB01"
         ],
         "progression": true

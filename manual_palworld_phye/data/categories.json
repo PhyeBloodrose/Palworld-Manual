@@ -306,10 +306,15 @@
     },
     "FishingEnabled": {
         "yaml_option": [ "Enable_Fishing", "Enable_Palpedia" ],
-        "hidden":  true
+        "hidden": true
     },
-    "Fishing Locations": {
-        "yaml_option": [ "Enable_Fishing", "Fishing_Spots" ]
+    "Fishsanity": {
+        "yaml_option": [ "Enable_Fishing", "Fishsanity" ],
+        "hidden": true
+    },
+    "Fisherman Goal": {
+        "yaml_option": [ "Enable_Fishing", "Fishsanity", "Fisherman_Goal" ],
+        "hidden": true
     },
     "Player Progress": {
         "yaml_option": [ "Player_Progression" ]

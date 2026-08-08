@@ -429,14 +429,14 @@
     },
     "Windswept_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -546,14 +546,14 @@
     },
     "Marsh_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -649,14 +649,14 @@
     },
     "EasternWild_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -792,14 +792,14 @@
     },
     "SeaBreeze_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -866,14 +866,14 @@
     },
     "Silence_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -965,12 +965,12 @@
     },
     "Murmurs_Fishing": {
         "connects_to": [
-            "Celaray",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Celaray",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -994,12 +994,14 @@
     },
     "Sunlit_Fishing": {
         "connects_to": [
-            "Celaray",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Celaray",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy",
+            "Fishing_Croajiro",
+            "Fishing_Fuack"
         ],
         "requires": "|Fishing|"
     },
@@ -1035,12 +1037,12 @@
     },
     "Decayed_Fishing": {
         "connects_to": [
-            "Pengullet Lux",
-            "Turtacle",
-            "Azurobe",
-            "Jelliette",
-            "Jellroy",
-            "Gloopie"
+            "Fishing_Pengullet Lux",
+            "Fishing_Turtacle",
+            "Fishing_Azurobe",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy",
+            "Fishing_Gloopie"
         ],
         "requires": "|Fishing|"
     },
@@ -1055,8 +1057,9 @@
     },
     "Arena_Fishing": {
         "connects_to": [
-            "Turtacle Terra",
-            "Finsider"
+            "Fishing_Turtacle Terra",
+            "Fishing_Finsider",
+            "Fishing_Pengullet Lux"
         ],
         "requires": "|Fishing|"
     },
@@ -1249,14 +1252,14 @@
     },
     "Bamboo_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -1320,12 +1323,12 @@
     },
     "Twilight_Fishing": {
         "connects_to": [
-            "Celaray",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Celaray",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -1419,14 +1422,14 @@
     },
     "Crescent_Fishing": {
         "connects_to": [
-            "Fuack",
-            "Celaray",
-            "Croajiro",
-            "Pengullet",
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Fuack",
+            "Fishing_Celaray",
+            "Fishing_Croajiro",
+            "Fishing_Pengullet",
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -1462,10 +1465,10 @@
     },
     "Frostbitten_Fishing": {
         "connects_to": [
-            "Turtacle",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy"
+            "Fishing_Turtacle",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy"
         ],
         "requires": "|Fishing|"
     },
@@ -1581,14 +1584,14 @@
     },
     "Obsidian_Fishing": {
         "connects_to": [
-            "Fuack Ignis",
-            "Pengullet Lux",
-            "Killamari Primo",
-            "Turtacle Terra",
-            "Kelpsea Ignis",
-            "Gloopie",
-            "Finsider",
-            "Dumud"
+            "Fishing_Fuack Ignis",
+            "Fishing_Pengullet Lux",
+            "Fishing_Killamari Primo",
+            "Fishing_Turtacle Terra",
+            "Fishing_Kelpsea Ignis",
+            "Fishing_Gloopie",
+            "Fishing_Finsider",
+            "Fishing_Dumud"
         ],
         "requires": "|Fishing|"
     },
@@ -1681,8 +1684,9 @@
     },
     "HotVolcano_Fishing": {
         "connects_to": [
-            "Kelpsea Ignis",
-            "Gloopie"
+            "Fishing_Kelpsea Ignis",
+            "Fishing_Gloopie",
+            "Fishing_Killamari Primo"
         ],
         "requires": "|Fishing|"
     },
@@ -1710,12 +1714,12 @@
     },
     "Phantom_Fishing": {
         "connects_to": [
-            "Pengullet Lux",
-            "Penking Lux",
-            "Kelpsea Ignis",
-            "Jellroy",
-            "Finsider Ignis",
-            "Ghangler"
+            "Fishing_Pengullet Lux",
+            "Fishing_Penking Lux",
+            "Fishing_Kelpsea Ignis",
+            "Fishing_Jellroy",
+            "Fishing_Finsider Ignis",
+            "Fishing_Ghangler"
         ],
         "requires": "|Fishing|"
     },
@@ -1862,17 +1866,17 @@
     },
     "Verdant_Fishing": {
         "connects_to": [
-            "Celaray",
-            "Celaray Lux",
-            "Pengullet",
-            "Penking",
-            "Killamari",
-            "Turtacle",
-            "Azurobe",
-            "Kelpsea",
-            "Jelliette",
-            "Jellroy",
-            "Surfent"
+            "Fishing_Celaray",
+            "Fishing_Celaray Lux",
+            "Fishing_Pengullet",
+            "Fishing_Penking",
+            "Fishing_Killamari",
+            "Fishing_Turtacle",
+            "Fishing_Azurobe",
+            "Fishing_Kelpsea",
+            "Fishing_Jelliette",
+            "Fishing_Jellroy",
+            "Fishing_Surfent"
         ],
         "requires": "|Fishing|"
     },
@@ -1916,9 +1920,9 @@
     },
     "Frostbound_Fishing": {
         "connects_to": [
-            "Azurobe Cryst",
-            "Polapup",
-            "Munchill"
+            "Fishing_Azurobe Cryst",
+            "Fishing_Polapup",
+            "Fishing_Munchill"
         ],
         "requires": "|Fishing|"
     },
@@ -1981,11 +1985,12 @@
     },
     "Scars_Fishing": {
         "connects_to": [
-            "Celaray Lux",
-            "Penking",
-            "Turtacle",
-            "Azurobe",
-            "Surfent"
+            "Fishing_Celaray Lux",
+            "Fishing_Penking",
+            "Fishing_Turtacle",
+            "Fishing_Azurobe",
+            "Fishing_Surfent",
+            "Fishing_Killamari"
         ],
         "requires": "|Fishing|"
     },
@@ -2029,9 +2034,9 @@
     },
     "WS1_Fishing": {
         "connects_to": [
-            "Penking",
-            "Turtacle",
-            "Azurobe"
+            "Fishing_Penking",
+            "Fishing_Turtacle",
+            "Fishing_Azurobe"
         ],
         "requires": "|Fishing|"
     },
@@ -2056,10 +2061,10 @@
     },
     "EternalSummer_Fishing": {
         "connects_to": [
-            "Celaray Lux",
-            "Turtacle Terra",
-            "Surfent Terra",
-            "Dumud Gild"
+            "Fishing_Celaray Lux",
+            "Fishing_Turtacle Terra",
+            "Fishing_Surfent Terra",
+            "Fishing_Dumud Gild"
         ],
         "requires": "|Fishing|"
     },
@@ -2104,9 +2109,9 @@
     },
     "WS2_Fishing": {
         "connects_to": [
-            "Gloopie",
-            "Finsider Ignis",
-            "Ghangler Ignis"
+            "Fishing_Gloopie",
+            "Fishing_Finsider Ignis",
+            "Fishing_Ghangler Ignis"
         ],
         "requires": "|Fishing|"
     },
@@ -2272,11 +2277,11 @@
     },
     "Desert_Fishing": {
         "connects_to": [
-            "Pengullet Lux",
-            "Turtacle Terra",
-            "Surfent Terra",
-            "Finsider",
-            "Dumud Gild"
+            "Fishing_Pengullet Lux",
+            "Fishing_Turtacle Terra",
+            "Fishing_Surfent Terra",
+            "Fishing_Finsider",
+            "Fishing_Dumud Gild"
         ],
         "requires": "|Fishing|"
     },
@@ -2298,10 +2303,10 @@
     },
     "Oasis_Fishing": {
         "connects_to": [
-            "Celaray Lux",
-            "Turtacle Terra",
-            "Surfent Terra",
-            "Dumud Gild"
+            "Fishing_Celaray Lux",
+            "Fishing_Turtacle Terra",
+            "Fishing_Surfent Terra",
+            "Fishing_Dumud Gild"
         ],
         "requires": "|Fishing|"
     },
@@ -2353,7 +2358,11 @@
         "requires": "|Ultra Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "Scouring_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Penking Lux",
+            "Fishing_Celaray Lux",
+            "Fishing_Pengullet Lux"
+        ],
         "requires": "|Fishing|"
     },
     "Flamepulse Islet": {
@@ -2404,7 +2413,11 @@
         "requires": "|Legendary Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "Flamepulse_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Skutlass Ignis",
+            "Fishing_Finsider Ignis",
+            "Fishing_Ghangler Ignis"
+        ],
         "requires": "|Fishing|"
     },
     "Foot of the Astral Mountains": {
@@ -2468,13 +2481,12 @@
     },
     "AstralFoot_Fishing": {
         "connects_to": [
-            "Celaray Lux",
-            "Pengullet",
-            "Penking",
-            "Killamari",
-            "Turtacle",
-            "Azurobe",
-            "Surfent"
+            "Fishing_Penking",
+            "Fishing_Celaray Lux",
+            "Fishing_Killamari",
+            "Fishing_Surfent",
+            "Fishing_Turtacle",
+            "Fishing_Azurobe"
         ],
         "requires": "|Fishing|"
     },
@@ -2596,12 +2608,12 @@
     },
     "Astral_Fishing": {
         "connects_to": [
-            "Celaray Lux",
-            "Pengullet Lux",
-            "Penking",
-            "Killamari",
-            "Turtacle Terra",
-            "Finsider"
+            "Fishing_Penking",
+            "Fishing_Celaray Lux",
+            "Fishing_Killamari",
+            "Fishing_Turtacle Terra",
+            "Fishing_Finsider",
+            "Fishing_Pengullet Lux"
         ],
         "requires": "|Fishing|"
     },
@@ -2643,10 +2655,10 @@
     },
     "GlacialCore_Fishing": {
         "connects_to": [
-            "Azurobe Cryst",
-            "Polapup",
-            "Munchill",
-            "Whalaska"
+            "Fishing_Munchill",
+            "Fishing_Azurobe Cryst",
+            "Fishing_Whalaska",
+            "Fishing_Polapup"
         ],
         "requires": "|Fishing|"
     },
@@ -2695,9 +2707,9 @@
     },
     "WS3_Fishing": {
         "connects_to": [
-            "Penking Lux",
-            "Turtacle Terra",
-            "Dumud Gild"
+            "Fishing_Penking Lux",
+            "Fishing_Turtacle Terra",
+            "Fishing_Dumud Gild"
         ],
         "requires": "|Fishing|"
     },
@@ -2741,7 +2753,11 @@
         "requires": "|Ultimate Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "Circular_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Ghangler",
+            "Fishing_Gloopie",
+            "Fishing_Jellroy"
+        ],
         "requires": "|Fishing|"
     },
     "Foot of the World Tree": {
@@ -2862,10 +2878,10 @@
     },
     "Sakurajima_Fishing": {
         "connects_to": [
-            "Croajiro Noct",
-            "Penking Lux",
-            "Gloopie",
-            "Ghangler"
+            "Fishing_Ghangler",
+            "Fishing_Gloopie",
+            "Fishing_Penking Lux",
+            "Fishing_Croajiro Noct"
         ],
         "requires": "|Fishing|"
     },
@@ -2891,7 +2907,11 @@
         "requires": "|Ultimate Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "Suncrest_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Turtacle Terra",
+            "Fishing_Dumud Gild",
+            "Fishing_Polapup Terra"
+        ],
         "requires": "|Fishing|"
     },
     "Feybreak": {
@@ -3152,9 +3172,9 @@
     },
     "Feybreak_Fishing": {
         "connects_to": [
-            "Kelpsea Ignis",
-            "Finsider Ignis",
-            "Ghangler Ignis"
+            "Fishing_Kelpsea Ignis",
+            "Fishing_Finsider Ignis",
+            "Fishing_Ghangler Ignis"
         ],
         "requires": "|Fishing|"
     },
@@ -3273,10 +3293,10 @@
     },
     "FeybreakBlue_Fishing": {
         "connects_to": [
-            "Azurobe Cryst",
-            "Polapup",
-            "Munchill",
-            "Whalaska"
+            "Fishing_Polapup",
+            "Fishing_Azurobe Cryst",
+            "Fishing_Whalaska",
+            "Fishing_Munchill"
         ],
         "requires": "|Fishing|"
     },
@@ -3478,10 +3498,10 @@
     },
     "Sunreach_Fishing": {
         "connects_to": [
-            "Gloopie Primo",
-            "Skutlass",
-            "Solmora",
-            "Solmora Lux"
+            "Fishing_Gloopie Primo",
+            "Fishing_Skutlass",
+            "Fishing_Solmora",
+            "Fishing_Solmora Lux"
         ],
         "requires": "|Fishing|"
     },
@@ -3525,7 +3545,11 @@
         "requires": "|Sol Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "GlacialMemento_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Ghangler",
+            "Fishing_Azurobe Cryst",
+            "Fishing_Whalaska"
+        ],
         "requires": "|Fishing|"
     },
     "Bicornis Islet": {
@@ -3569,7 +3593,11 @@
         "requires": "|Sol Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "Bicornis_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Skutlass Ignis",
+            "Fishing_Ghangler Ignis",
+            "Fishing_Fuack Ignis"
+        ],
         "requires": "|Fishing|"
     },
     "Sandstone Gate Islet": {
@@ -3620,7 +3648,11 @@
         "requires": "|Sol Sphere Capture| OR {YamlDisabled(Limit_PalSpheres)}"
     },
     "Sandstone_Fishing": {
-        "connects_to": [],
+        "connects_to": [
+            "Fishing_Turtacle Terra",
+            "Fishing_Dumud Gild",
+            "Fishing_Surfent Terra"
+        ],
         "requires": "|Fishing|"
     },
     "World Tree": {
@@ -3805,9 +3837,9 @@
     },
     "WorldTree_Fishing": {
         "connects_to": [
-            "Gloopie Primo",
-            "Skutlass Ignis",
-            "Solmora Lux"
+            "Fishing_Gloopie Primo",
+            "Fishing_Whalaska Ignis",
+            "Fishing_Solmora Lux"
         ],
         "requires": "|Masterful Fishing|"
     },
@@ -9773,5 +9805,239 @@
     "Mission Kitsun Noct 3": {
         "connects_to": [],
         "requires": "|Player Level 61|"
+    },
+    "Fishing_Celaray": {
+        "connects_to": [
+            "Celaray"
+        ],
+        "requires": []
+    },
+    "Fishing_Celaray Lux": {
+        "connects_to": [
+            "Celaray Lux"
+        ],
+        "requires": []
+    },
+    "Fishing_Pengullet": {
+        "connects_to": [
+            "Pengullet"
+        ],
+        "requires": []
+    },
+    "Fishing_Pengullet Lux": {
+        "connects_to": [
+            "Pengullet Lux"
+        ],
+        "requires": []
+    },
+    "Fishing_Turtacle": {
+        "connects_to": [
+            "Turtacle"
+        ],
+        "requires": []
+    },
+    "Fishing_Turtacle Terra": {
+        "connects_to": [
+            "Turtacle Terra"
+        ],
+        "requires": []
+    },
+    "Fishing_Jelliette": {
+        "connects_to": [
+            "Jelliette"
+        ],
+        "requires": []
+    },
+    "Fishing_Jellroy": {
+        "connects_to": [
+            "Jellroy"
+        ],
+        "requires": []
+    },
+    "Fishing_Croajiro": {
+        "connects_to": [
+            "Croajiro"
+        ],
+        "requires": []
+    },
+    "Fishing_Croajiro Noct": {
+        "connects_to": [
+            "Croajiro Noct"
+        ],
+        "requires": []
+    },
+    "Fishing_Penking": {
+        "connects_to": [
+            "Penking"
+        ],
+        "requires": []
+    },
+    "Fishing_Penking Lux": {
+        "connects_to": [
+            "Penking Lux"
+        ],
+        "requires": []
+    },
+    "Fishing_Finsider": {
+        "connects_to": [
+            "Finsider"
+        ],
+        "requires": []
+    },
+    "Fishing_Finsider Ignis": {
+        "connects_to": [
+            "Finsider Ignis"
+        ],
+        "requires": []
+    },
+    "Fishing_Fuack": {
+        "connects_to": [
+            "Fuack"
+        ],
+        "requires": []
+    },
+    "Fishing_Fuack Ignis": {
+        "connects_to": [
+            "Fuack Ignis"
+        ],
+        "requires": []
+    },
+    "Fishing_Gloopie": {
+        "connects_to": [
+            "Gloopie"
+        ],
+        "requires": []
+    },
+    "Fishing_Gloopie Primo": {
+        "connects_to": [
+            "Gloopie Primo"
+        ],
+        "requires": []
+    },
+    "Fishing_Kelpsea": {
+        "connects_to": [
+            "Kelpsea"
+        ],
+        "requires": []
+    },
+    "Fishing_Kelpsea Ignis": {
+        "connects_to": [
+            "Kelpsea Ignis"
+        ],
+        "requires": []
+    },
+    "Fishing_Azurobe": {
+        "connects_to": [
+            "Azurobe"
+        ],
+        "requires": []
+    },
+    "Fishing_Azurobe Cryst": {
+        "connects_to": [
+            "Azurobe Cryst"
+        ],
+        "requires": []
+    },
+    "Fishing_Ghangler": {
+        "connects_to": [
+            "Ghangler"
+        ],
+        "requires": []
+    },
+    "Fishing_Ghangler Ignis": {
+        "connects_to": [
+            "Ghangler Ignis"
+        ],
+        "requires": []
+    },
+    "Fishing_Munchill": {
+        "connects_to": [
+            "Munchill"
+        ],
+        "requires": []
+    },
+    "Fishing_Skutlass": {
+        "connects_to": [
+            "Skutlass"
+        ],
+        "requires": []
+    },
+    "Fishing_Skutlass Ignis": {
+        "connects_to": [
+            "Skutlass Ignis"
+        ],
+        "requires": []
+    },
+    "Fishing_Dumud": {
+        "connects_to": [
+            "Dumud"
+        ],
+        "requires": []
+    },
+    "Fishing_Dumud Gild": {
+        "connects_to": [
+            "Dumud Gild"
+        ],
+        "requires": []
+    },
+    "Fishing_Polapup": {
+        "connects_to": [
+            "Polapup"
+        ],
+        "requires": []
+    },
+    "Fishing_Polapup Terra": {
+        "connects_to": [
+            "Polapup Terra"
+        ],
+        "requires": []
+    },
+    "Fishing_Surfent": {
+        "connects_to": [
+            "Surfent"
+        ],
+        "requires": []
+    },
+    "Fishing_Surfent Terra": {
+        "connects_to": [
+            "Surfent Terra"
+        ],
+        "requires": []
+    },
+    "Fishing_Whalaska": {
+        "connects_to": [
+            "Whalaska"
+        ],
+        "requires": []
+    },
+    "Fishing_Whalaska Ignis": {
+        "connects_to": [
+            "Whalaska Ignis"
+        ],
+        "requires": []
+    },
+    "Fishing_Killamari": {
+        "connects_to": [
+            "Killamari"
+        ],
+        "requires": []
+    },
+    "Fishing_Killamari Primo": {
+        "connects_to": [
+            "Killamari Primo"
+        ],
+        "requires": []
+    },
+    "Fishing_Solmora": {
+        "connects_to": [
+            "Solmora"
+        ],
+        "requires": []
+    },
+    "Fishing_Solmora Lux": {
+        "connects_to": [
+            "Solmora Lux"
+        ],
+        "requires": []
     }
 }

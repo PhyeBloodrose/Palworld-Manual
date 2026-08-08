@@ -9057,9 +9057,10 @@
         {
             "name": "Legendary Hunt Goal",
             "category": [
-                "Legendary Hunt Goal"
+                "Legendary Hunt Goal",
+                "ORB06"
             ],
-            "requires": "({YamlCompare(player_access <= 6)} AND |@Legendary Battle:3|) OR ({YamlCompare(player_access => 7)} AND |@Legendary Battle:6|)"
+            "requires": "({YamlCompare(player_access <= 6)} AND |@Legendary Battle:3|) OR ({YamlCompare(player_access >= 7)} AND |@Legendary Battle:6|)"
         },
         {
             "name": "Bellanoir Raid",
@@ -11614,6 +11615,365 @@
                 "Palpedia Goal"
             ],
             "requires": "{YamlDisabled(Enable_Raid_Pals)} OR {YamlCompare(player_access < 3)} OR ({YamlCompare(player_access = 3)} AND |@Raid Boss|) OR ({YamlCompare(player_access = 4)} AND |@Raid Boss:2|) OR ({YamlCompare(player_access <= 6)} AND |@Raid Boss:3|) OR ({YamlCompare(player_access = 7)} AND |@Raid Boss:4|) OR ({YamlCompare(player_access = 8)} AND |@Raid Boss:5|)"
+        },
+        {
+            "name": "Celaray Fishing",
+            "region": "Fishing_Celaray",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Celaray Lux Fishing",
+            "region": "Fishing_Celaray Lux",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Pengullet Fishing",
+            "region": "Fishing_Pengullet",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Pengullet Lux Fishing",
+            "region": "Fishing_Pengullet Lux",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Turtacle Fishing",
+            "region": "Fishing_Turtacle",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Turtacle Terra Fishing",
+            "region": "Fishing_Turtacle Terra",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Jelliette Fishing",
+            "region": "Fishing_Jelliette",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Jellroy Fishing",
+            "region": "Fishing_Jellroy",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Croajiro Fishing",
+            "region": "Fishing_Croajiro",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Croajiro Noct Fishing",
+            "region": "Fishing_Croajiro Noct",
+            "category": [
+                "Fishsanity",
+                "ORB05",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Penking Fishing",
+            "region": "Fishing_Penking",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Penking Lux Fishing",
+            "region": "Fishing_Penking Lux",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Finsider Fishing",
+            "region": "Fishing_Finsider",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Finsider Ignis Fishing",
+            "region": "Fishing_Finsider Ignis",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Fuack Fishing",
+            "region": "Fishing_Fuack",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Fuack Ignis Fishing",
+            "region": "Fishing_Fuack Ignis",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Gloopie Fishing",
+            "region": "Fishing_Gloopie",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Gloopie Primo Fishing",
+            "region": "Fishing_Gloopie Primo",
+            "category": [
+                "Fishsanity",
+                "ORB07",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Kelpsea Fishing",
+            "region": "Fishing_Kelpsea",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Kelpsea Ignis Fishing",
+            "region": "Fishing_Kelpsea Ignis",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Azurobe Fishing",
+            "region": "Fishing_Azurobe",
+            "category": [
+                "Fishsanity",
+                "ORB01",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Azurobe Cryst Fishing",
+            "region": "Fishing_Azurobe Cryst",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Ghangler Fishing",
+            "region": "Fishing_Ghangler",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Ghangler Ignis Fishing",
+            "region": "Fishing_Ghangler Ignis",
+            "category": [
+                "Fishsanity",
+                "ORB03",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Munchill Fishing",
+            "region": "Fishing_Munchill",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Skutlass Fishing",
+            "region": "Fishing_Skutlass",
+            "category": [
+                "Fishsanity",
+                "ORB07",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Skutlass Ignis Fishing",
+            "region": "Fishing_Skutlass Ignis",
+            "category": [
+                "Fishsanity",
+                "ORB03",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Dumud Fishing",
+            "region": "Fishing_Dumud",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Dumud Gild Fishing",
+            "region": "Fishing_Dumud Gild",
+            "category": [
+                "Fishsanity",
+                "ORB03",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Polapup Fishing",
+            "region": "Fishing_Polapup",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Polapup Terra Fishing",
+            "region": "Fishing_Polapup Terra",
+            "category": [
+                "Fishsanity",
+                "ORB05",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Surfent Fishing",
+            "region": "Fishing_Surfent",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Surfent Terra Fishing",
+            "region": "Fishing_Surfent Terra",
+            "category": [
+                "Fishsanity",
+                "ORB03",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Whalaska Fishing",
+            "region": "Fishing_Whalaska",
+            "category": [
+                "Fishsanity",
+                "ORB04",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Whalaska Ignis Fishing",
+            "region": "Fishing_Whalaska Ignis",
+            "category": [
+                "Fishsanity",
+                "ORB08",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Killamari Fishing",
+            "region": "Fishing_Killamari",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Killamari Primo Fishing",
+            "region": "Fishing_Killamari Primo",
+            "category": [
+                "Fishsanity",
+                "ORB02",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Solmora Fishing",
+            "region": "Fishing_Solmora",
+            "category": [
+                "Fishsanity",
+                "ORB07",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Solmora Lux Fishing",
+            "region": "Fishing_Solmora Lux",
+            "category": [
+                "Fishsanity",
+                "ORB07",
+                "Fish"
+            ]
+        },
+        {
+            "name": "Fisherman Goal",
+            "category": [
+                "Fisherman Goal",
+                "ORB01"
+            ],
+            "requires": "{YamlDisabled(Enable_Fishing)} OR {YamlCompare(player_access < 1)} OR ({YamlCompare(player_access = 1)} AND |@Fish:13|) OR ({YamlCompare(player_access = 2)} AND |@Fish:27|) OR ({YamlCompare(player_access = 3)} AND |@Fish:31|) OR ({YamlCompare(player_access = 4)} AND |@Fish:32|) OR ({YamlCompare(player_access <= 6)} AND |@Fish:34|) OR ({YamlCompare(player_access = 7)} AND |@Fish:38|) OR ({YamlCompare(player_access = 8)} AND |@Fish:39|)"
         }
     ]
 }

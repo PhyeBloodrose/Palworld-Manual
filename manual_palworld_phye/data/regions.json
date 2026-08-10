@@ -1518,7 +1518,7 @@
             "Alpha Knocklem",
             "Mission Axel"
         ],
-        "requires": "|Obsidian Pass| AND (|Player Level 11 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Obsidian Pass| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "Obsidian_AncientRuins": {
         "connects_to": [],
@@ -1696,7 +1696,7 @@
             "Phantom_Fishing",
             "Phantom_WildPals"
         ],
-        "requires": "|Phantom Pass| AND |Mount| AND (|Player Level 11 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Phantom Pass| AND |Mount| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "Phantom_WildPals": {
         "connects_to": [
@@ -1741,7 +1741,7 @@
             "Verdant_BlackMarketeer",
             "Verdant_AncientRuins"
         ],
-        "requires": "|Verdant Pass| AND (|Player Level 11 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Verdant Pass| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "Verdant_AncientRuins": {
         "connects_to": [],
@@ -1937,7 +1937,7 @@
             "Alpha Jormuntide",
             "Scars_AncientRuins"
         ],
-        "requires": "|Verdant Pass| AND |Craft Heat Resistant Armor| AND (|Player Level 11 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Verdant Pass| AND |Craft Heat Resistant Armor| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "Scars_AncientRuins": {
         "connects_to": [],
@@ -2007,7 +2007,7 @@
             "WS1_Fishing",
             "Alpha Grizzbolt"
         ],
-        "requires": "|No.1 Wildlife Sanctuary Tracker| AND (|Player Level 11 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|No.1 Wildlife Sanctuary Tracker| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "WS1_WildPals": {
         "connects_to": [
@@ -2049,7 +2049,7 @@
             "EternalSummer_Fishing",
             "EternalSummer_WildPals"
         ],
-        "requires": "|Eternal Summer Pass| AND (|Player Level 21 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Eternal Summer Pass| AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "EternalSummer_WildPals": {
         "connects_to": [
@@ -2077,7 +2077,7 @@
             "WS2_WildPals",
             "Alpha Astegon"
         ],
-        "requires": "|No.2 Wildlife Sanctuary Tracker| AND (|Player Level 21 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|No.2 Wildlife Sanctuary Tracker| AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "WS2_WildPals": {
         "connects_to": [
@@ -2140,7 +2140,7 @@
             "Desert_AncientRuins",
             "Mission Marcus"
         ],
-        "requires": "|Desiccated Pass| AND (|Craft Cold Resistant Armor| OR |Craft Heat Resistant Armor|) AND (|Player Level 21 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Desiccated Pass| AND (|Craft Cold Resistant Armor| OR |Craft Heat Resistant Armor|) AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "Desert_AncientRuins": {
         "connects_to": [],
@@ -2291,7 +2291,7 @@
             "Oasis_Fishing",
             "Oasis_WildPals"
         ],
-        "requires": "|Oasis Pass| AND (|Player Level 21 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Oasis Pass| AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "Oasis_WildPals": {
         "connects_to": [
@@ -2319,7 +2319,7 @@
             "Alpha Needoll",
             "Scouring_AncientRuins"
         ],
-        "requires": "|Scouring Pass| AND |Mount| AND (|Player Level 21 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Scouring Pass| AND |Mount| AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "Scouring_AncientRuins": {
         "connects_to": [],
@@ -2373,7 +2373,7 @@
             "Alpha Pierdon",
             "Flamepulse_AncientRuins"
         ],
-        "requires": "|Flamepulse Pass| AND (|Player Level 21 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Flamepulse Pass| AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "Flamepulse_AncientRuins": {
         "connects_to": [],
@@ -2437,7 +2437,7 @@
             "AstralFoot_BlackMarketeer",
             "AstralFoot_AncientRuins"
         ],
-        "requires": "|Astral Pass| AND (|Player Level 31 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Astral Pass| AND (|Player Level 31| OR {YamlDisabled(Area_Lock)})"
     },
     "AstralFoot_AncientRuins": {
         "connects_to": [],
@@ -2507,7 +2507,7 @@
             "Astral_AncientRuins",
             "Mission Victor"
         ],
-        "requires": "|Astral Pass| AND |Craft Cold Resistant Armor| AND (|Player Level 31 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Astral Pass| AND |Craft Cold Resistant Armor| AND (|Player Level 31| OR {YamlDisabled(Area_Lock)})"
     },
     "Astral_AncientRuins": {
         "connects_to": [],
@@ -2625,7 +2625,7 @@
             "GlacialCore_WildPals",
             "GlacialCore_Fishing"
         ],
-        "requires": "|Glacial Core Pass| AND (|Player Level 31 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Glacial Core Pass| AND (|Player Level 31| OR {YamlDisabled(Area_Lock)})"
     },
     "GlacialCore_WildPals": {
         "connects_to": [
@@ -2675,7 +2675,7 @@
             "WS3_WildPals",
             "Alpha Frostallion Noct"
         ],
-        "requires": "|No.3 Wildlife Sanctuary Tracker| AND (|Player Level 31 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|No.3 Wildlife Sanctuary Tracker| AND (|Player Level 31| OR {YamlDisabled(Area_Lock)})"
     },
     "WS3_WildPals": {
         "connects_to": [
@@ -2721,7 +2721,7 @@
             "Circular_Fishing",
             "Circular_AncientRuins"
         ],
-        "requires": "|Circular Ruins Pass| AND (|Player Level 31 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Circular Ruins Pass| AND (|Player Level 31| OR {YamlDisabled(Area_Lock)})"
     },
     "Circular_AncientRuins": {
         "connects_to": [],
@@ -2785,7 +2785,7 @@
             "Mission Kitsun Noct",
             "Mission Saya"
         ],
-        "requires": "|Sakurajima Pass| AND (|Player Level 41 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Sakurajima Pass| AND (|Player Level 41| OR {YamlDisabled(Area_Lock)})"
     },
     "Sakurajima_AncientRuins": {
         "connects_to": [],
@@ -2892,7 +2892,7 @@
             "Suncrest_WildPals",
             "Suncrest_AncientRuins"
         ],
-        "requires": "|Suncrest Pass| AND |Mount| AND (|Player Level 41 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Suncrest Pass| AND |Mount| AND (|Player Level 41| OR {YamlDisabled(Area_Lock)})"
     },
     "Suncrest_AncientRuins": {
         "connects_to": [],
@@ -2930,7 +2930,7 @@
             "Feybreak_AncientRuins",
             "Mission Bjorn"
         ],
-        "requires": "|Feybreak Pass| AND |Mount| AND (|Player Level 51 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Feybreak Pass| AND |Mount| AND (|Player Level 51| OR {YamlDisabled(Area_Lock)})"
     },
     "Feybreak_AncientRuins": {
         "connects_to": [],
@@ -3189,7 +3189,7 @@
             "FeybreakBlue_Fishing",
             "Feybreak"
         ],
-        "requires": "|Craft Cold Resistant Armor| AND |Feybreak Pass| AND (|Player Level 51 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Craft Cold Resistant Armor| AND |Feybreak Pass| AND (|Player Level 51| OR {YamlDisabled(Area_Lock)})"
     },
     "FeybreakBlue_AncientRuins": {
         "connects_to": [],
@@ -3340,7 +3340,7 @@
             "Sunreach Skies",
             "Mission Auri"
         ],
-        "requires": "|Sunreach Pass| AND (|Player Level 56 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Sunreach Pass| AND (|Player Level 56| OR {YamlDisabled(Area_Lock)})"
     },
     "Sunreach_AncientRuins": {
         "connects_to": [],
@@ -3513,7 +3513,7 @@
             "GlacialMemento_AncientRuins",
             "Alpha Dualith Noct"
         ],
-        "requires": "|Glacial Memento Pass| AND (|Player Level 56 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Glacial Memento Pass| AND (|Player Level 56| OR {YamlDisabled(Area_Lock)})"
     },
     "GlacialMemento_AncientRuins": {
         "connects_to": [],
@@ -3560,7 +3560,7 @@
             "Bicornis_AncientRuins",
             "Alpha Moldron"
         ],
-        "requires": "|Bicornis Pass| AND (|Player Level 56 OR {YamlDisabled(Area_Lock)})"
+        "requires": "|Bicornis Pass| AND (|Player Level 56| OR {YamlDisabled(Area_Lock)})"
     },
     "Bicornis_AncientRuins": {
         "connects_to": [],

@@ -925,6 +925,17 @@
             "default": false,
             "group": "Limit Options"
         },
+        "Area_Lock": {
+            "description": [
+                "When enabled, will disabled access to areas that you are too underleveled for.",
+                "Be careful that this could make the generation too strict, so make sure you have enough locations available for it!",
+                "For reference, anything that is available up to Lily will be accessible from start. Then those who open up at Axel will require Level 11+, and those areas opening up with Marcus will require 21+ and so forth.",
+                "The intention for this setting is to not have you run around in too high of an area to grab travel points while dodging aggressive high level pals!"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
         "MainMissions_Goal": {
             "description": [
                 "The Main Quest: Complete all of the Main Missions.",

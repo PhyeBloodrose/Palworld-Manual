@@ -692,7 +692,8 @@
         "region": "Alpha Foxcicle",
         "category": [
             "Boss Alpha Pals",
-            "Isle of Silence",
+            "Windswept Island",
+            "Marsh Island",
             "ORB01"
         ],
         "requires": ""
@@ -702,7 +703,7 @@
         "region": "Alpha Foxparks Cryst",
         "category": [
             "Boss Alpha Pals",
-            "Misc Islands",
+            "Isle of Silence",
             "ORB01"
         ],
         "requires": ""
@@ -24487,7 +24488,7 @@
         "region": "Twilight Dunes",
         "category": [
             "Collecting - Lunaris Effigies",
-            "The Bamboo Groves",
+            "Bamboo Groves",
             "ORB01"
         ],
         "requires": "{OptOne(|Progressive Sphere Tracking|)}"

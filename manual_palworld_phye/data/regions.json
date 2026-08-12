@@ -141,7 +141,7 @@
         "connects_to": [
             "Base Level 21"
         ],
-        "requires": "|Crude Oil Extractor| AND |@Crude Oil Location|"
+        "requires": "(|Crude Oil Extractor| AND |@Crude Oil Location|) OR (|High-Pressure Crude Oil Extractor| AND |Player Level 51|)"
     },
     "Base Level 21": {
         "connects_to": [
@@ -6875,7 +6875,7 @@
         "connects_to": [
             "Bellanoir"
         ],
-        "requires": "(|Secret Realm of the Forest| OR |Hidden Sanctum of the Desert| OR |Blazing Cavern| OR |Cavern of the Dunes| OR |Volcanic Cavern|) AND {OptOne(Bellanoir's Slab)} AND |Player Level 31|"
+        "requires": "(|Secret Realm of the Forest| OR |Blazing Cavern| OR |Volcanic Cavern|) AND {OptOne(Bellanoir's Slab)} AND |Player Level 31|"
     },
     "Bellanoir Libero Raid": {
         "connects_to": [
@@ -9511,7 +9511,7 @@
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 71| AND |Jetragon's Missile Launcher| AND |Jetragon Beacon| AND |Craft AI Core| AND |Craft Paloxite Ingot|"
+        "requires": "|Player Level 61| AND |Jetragon's Missile Launcher| AND |Jetragon Beacon| AND |Gather Leather| AND |Craft AI Core| AND |Craft Soralite Ingot|"
     },
     "Water Mounts": {
         "connects_to": [

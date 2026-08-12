@@ -8328,7 +8328,7 @@
                 "Tower Boss",
                 "ORB03"
             ],
-            "requires": "|Craft Refined Metal Armor| AND |Key Sphere of Greed| AND |Dunes Beacon| AND |Pals| AND |Player Level 31|"
+            "requires": "|Craft Refined Metal Armor| AND |Key Sphere of Greed| AND |Dunes Beacon| AND |Pals| AND |Player Level 31| AND (|Bellanoir Raid| OR {YamlDisabled(Raid_Lock)})"
         },
         {
             "name": "Victor",
@@ -8336,7 +8336,7 @@
                 "Tower Boss",
                 "ORB04"
             ],
-            "requires": "|Craft Pal Metal Armor| AND |Key Sphere of Gluttony| AND |Astral Beacon| AND |Pals| AND |Player Level 41|"
+            "requires": "|Craft Pal Metal Armor| AND |Key Sphere of Gluttony| AND |Astral Beacon| AND |Pals| AND |Player Level 41| AND (|Bellanoir Libero Raid| OR {YamlDisabled(Raid_Lock)})"
         },
         {
             "name": "Saya",
@@ -8344,7 +8344,7 @@
                 "Tower Boss",
                 "ORB05"
             ],
-            "requires": "|Craft Plasteel Armor| AND |Key Sphere of Lust| AND |Sakurajima Beacon| AND |Pals| AND |Player Level 51|"
+            "requires": "|Craft Plasteel Armor| AND |Key Sphere of Lust| AND |Sakurajima Beacon| AND |Pals| AND |Player Level 51| AND (|Blazamut Ryu Raid| OR {YamlDisabled(Raid_Lock)})"
         },
         {
             "name": "Bjorn",
@@ -8360,7 +8360,7 @@
                 "Tower Boss",
                 "ORB07"
             ],
-            "requires": "|Craft Ancient Armor| AND |Key Sphere of Original Sin| AND |Sunreach Beacon| AND |Pals| AND |Player Level 61|"
+            "requires": "|Craft Ancient Armor| AND |Key Sphere of Original Sin| AND |Sunreach Beacon| AND |Pals| AND |Player Level 61| AND (|Xenolord Raid| OR {YamlDisabled(Raid_Lock)})"
         },
         {
             "name": "Zenara",
@@ -8368,7 +8368,7 @@
                 "Tower Boss",
                 "ORB08"
             ],
-            "requires": "|Craft Ancient Armor| AND |World Tree Beacon| AND |Pals| AND |Player Level 71| AND |Dandilord's Petal| AND |Silvance's Plume| AND |Modified Pal's Contaminated Core|"
+            "requires": "|Craft Ancient Armor| AND |World Tree Beacon| AND |Pals| AND |Player Level 71| AND |Dandilord's Petal| AND |Silvance's Plume| AND |Modified Pal's Contaminated Core| AND (|Hartalis Raid| OR {YamlDisabled(Raid_Lock)})"
         },
         {
             "name": "Base Builder Goal",
@@ -9066,7 +9066,6 @@
             "region": "Bellanoir Raid",
             "category": [
                 "Raid Battles",
-                "Raid Bosses",
                 "ORB03"
             ]
         },
@@ -9075,7 +9074,6 @@
             "region": "Bellanoir Libero Raid",
             "category": [
                 "Raid Battles",
-                "Raid Bosses",
                 "ORB04"
             ]
         },
@@ -9084,7 +9082,6 @@
             "region": "Blazamut Ryu Raid",
             "category": [
                 "Raid Battles",
-                "Raid Bosses",
                 "ORB05"
             ]
         },
@@ -9093,7 +9090,6 @@
             "region": "Xenolord Raid",
             "category": [
                 "Raid Battles",
-                "Raid Bosses",
                 "ORB07"
             ]
         },
@@ -9102,7 +9098,6 @@
             "region": "Hartalis Raid",
             "category": [
                 "Raid Battles",
-                "Raid Bosses",
                 "ORB08"
             ]
         },
@@ -9925,7 +9920,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "(|Drill Oil| AND |@Crude Oil Location|) OR ({YamlEnabled(Include_PalDrops)} AND ((|Player Level 31| AND |Astral Foot Beacon|) OR (|Player Level 41| AND |Sakurajima Beacon|)))"
+            "requires": "|Drill Oil| OR ({YamlEnabled(Include_PalDrops)} AND ((|Player Level 31| AND |Astral Foot Beacon|) OR (|Player Level 41| AND |Sakurajima Beacon|)))"
         },
         {
             "name": "Drill Oil",
@@ -9933,7 +9928,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Power Source| AND ((|Crude Oil Extractor| AND |Player Level 41| AND |Craft Pal Metal Ingot| AND |Craft Circuit Board|) OR (|High-Pressure Crude Oil Extractor| AND |Player Level 51| AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |Craft Bio Battery|))"
+            "requires": "|Power Source| AND ((|Crude Oil Extractor| AND |Player Level 41| AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |@Crude Oil Location|) OR (|High-Pressure Crude Oil Extractor| AND |Player Level 51| AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |Craft Bio Battery|))"
         },
         {
             "name": "Craft Computer",

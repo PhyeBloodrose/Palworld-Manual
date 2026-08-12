@@ -2082,6 +2082,16 @@
     },
     {
         "count": 1,
+        "name": "Aquatic Construction Kit",
+        "category": [
+            "Key Items",
+            "Ancient Technology",
+            "ORB02"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
         "name": "Makeshift Handgun",
         "category": [
             "Weapons - Ranged",
@@ -5148,16 +5158,6 @@
     },
     {
         "count": 1,
-        "name": "Aquatic Construction Kit",
-        "category": [
-            "Key Items",
-            "Ancient Technology",
-            "ORB07"
-        ],
-        "useful": true
-    },
-    {
-        "count": 1,
         "name": "Mechanical Bow",
         "category": [
             "Weapons - Ranged",
@@ -5349,6 +5349,27 @@
             "ORB07"
         ],
         "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Jetragon's Missile Launcher",
+        "category": [
+            "Pal Gear",
+            "Pal Gear - Sky Mounts",
+            "Technology",
+            "ORB07"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Jetragon Statue",
+        "category": [
+            "Build - Furniture",
+            "Technology",
+            "ORB07"
+        ],
+        "filler": true
     },
     {
         "count": 1,
@@ -5730,27 +5751,6 @@
             "ORB08"
         ],
         "progression": true
-    },
-    {
-        "count": 1,
-        "name": "Jetragon's Missile Launcher",
-        "category": [
-            "Pal Gear",
-            "Pal Gear - Sky Mounts",
-            "Technology",
-            "ORB08"
-        ],
-        "progression": true
-    },
-    {
-        "count": 1,
-        "name": "Jetragon Statue",
-        "category": [
-            "Build - Furniture",
-            "Technology",
-            "ORB08"
-        ],
-        "filler": true
     },
     {
         "count": 1,

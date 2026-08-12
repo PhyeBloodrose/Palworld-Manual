@@ -451,7 +451,16 @@
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Limit Options"
+            "group": "Logic Options"
+        },
+        "Raid_Lock": {
+            "description": [
+                "If enabled, will also require you to defeat a raid boss before you're able to defeat the tower boss around the same level.",
+                "As an Example, Bellanoir can be fought at level 35 and is then also required to be defeated before you can defeat Marcus."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
         },
         "Disable_LevelCap": {
             "description": [

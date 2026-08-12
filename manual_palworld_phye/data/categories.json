@@ -47,7 +47,8 @@
         "yaml_option": [ "Sub_Missions" ]
     },
     "Research Tasks": {
-        "yaml_option": [ "Research_Tasks" ]
+        "yaml_option": [ "Research_Tasks" ],
+        "hidden": true
     },
     "Palpedia": {
         "yaml_option": [ "Enable_Palpedia" ]
@@ -382,13 +383,68 @@
         "hidden": true
     },
     "Ancient Ruins": {
-        "yaml_option": [ "Ancient_Ruins" ]
+        "yaml_option": [ "Ancient_Ruins" ],
+        "hidden": true
     },
     "Arena Challenges": {
         "yaml_option": [ "Arena_Challenges" ]
     },
     "Arena Goal": {
         "yaml_option": [ "Arena_Challenges", "Arena_Goal" ],
+        "hidden": true
+    },
+    "Windswept Island": {
+        "hidden": true
+    },
+    "Marsh Island": {
+        "hidden": true
+    },
+    "Eastern Wild Island": {
+        "hidden": true
+    },
+    "Sea Breeze Archipelago": {
+        "hidden": true
+    },
+    "Isle of Silence": {
+        "hidden": true
+    },
+    "Isle of Murmurs": {
+        "hidden": true
+    },
+    "Bamboo Groves": {
+        "hidden": true
+    },
+    "Crescent Moon Shore": {
+        "hidden": true
+    },
+    "Misc Islands": {
+        "hidden": true
+    },
+    "Mount Obsidian": {
+        "hidden": true
+    },
+    "Verdant Brook": {
+        "hidden": true
+    },
+    "Wildlife Sanctuaries": {
+        "hidden": true
+    },
+    "Desiccated Dunes": {
+        "hidden": true
+    },
+    "Astral Mountains": {
+        "hidden": true
+    },
+    "Sakurajima": {
+        "hidden": true
+    },
+    "Feybreak": {
+        "hidden": true
+    },
+    "Sunreach": {
+        "hidden": true
+    },
+    "The World Tree": {
         "hidden": true
     }
 }

@@ -57,12 +57,12 @@
         "yaml_option": [ "Enable_Raid_Pals", "Enable_Palpedia" ],
         "hidden": true
     },
+    "RaidBossBond": {
+        "yaml_option": [ "Enable_Raid_Pals", "Enable_Palpedia" ],
+        "hidden": true
+    },
     "Mimog Effigies": {
         "yaml_option": [ "Enable_Palpedia", "Mimog_Effigies" ]
-    },
-    "Rainbow Passives": {
-        "yaml_option": [ "Rainbow_Passives" ],
-        "hidden": true
     },
     "Passive Skills": {
         "yaml_option": [ "Passives" ]
@@ -144,11 +144,11 @@
         "hidden": true
     },
     "Raid Boss Goal": {
-        "yaml_option": [ "Raid_Goal" ],
+        "yaml_option": [ "Raid_Goal", "Enable_Raid_Battles" ],
         "hidden": true
     },
     "Raid Bosses": {
-        "yaml_option": [ "Raid_Goal" ]
+        "yaml_option": [ "Enable_Raid_Battles" ]
     },
     "Research Goal": {
         "yaml_option": [ "Researcher_Goal", "Research_Tasks" ],
@@ -276,6 +276,9 @@
     "Key Items - Elemental Orbs": {
         "yaml_option": [ "Elemental_Orbs" ]
     },
+    "Key Items - Elemental Bracelets": {
+        "yaml_option": [ "Elemental_Bracelets" ]
+    },
     "Sub Missions Goal": {
         "yaml_option": [ "SubMissions_Goal", "Sub_Missions" ],
         "hidden": true
@@ -325,6 +328,10 @@
     },
     "TowerLock": {
         "yaml_option": [ "Tower_LevelCap" ],
+        "hidden": true
+    },
+    "RaidLock": {
+        "yaml_option": [ "Raid_Lock" ],
         "hidden": true
     },
     "Player Ability Enhancements": {
@@ -383,8 +390,7 @@
         "hidden": true
     },
     "Ancient Ruins": {
-        "yaml_option": [ "Ancient_Ruins" ],
-        "hidden": true
+        "yaml_option": [ "Ancient_Ruins" ]
     },
     "Arena Challenges": {
         "yaml_option": [ "Arena_Challenges" ]
@@ -445,6 +451,34 @@
         "hidden": true
     },
     "The World Tree": {
+        "hidden": true
+    },
+    "LimitPassives": {
+        "yaml_option": [ "Progressive_PassiveSkills" ],
+        "hidden": true
+    },
+    "Red Passives": {
+        "yaml_option": [ "PalPassives_Red" ],
+        "hidden": true
+    },
+    "White Passives": {
+        "yaml_option": [ "PalPassives_White" ],
+        "hidden": true
+    },
+    "Golden Passives": {
+        "yaml_option": [ "PalPassives_Golden" ],
+        "hidden": true
+    },
+    "Rainbow Passives": {
+        "yaml_option": [ "PalPassives_Rainbow" ],
+        "hidden": true
+    },
+    "Mutation Passives": {
+        "yaml_option": [ "PalPassives_Mutation" ],
+        "hidden": true
+    },
+    "World Tree Passives": {
+        "yaml_option": [ "PalPassives_WorldTree" ],
         "hidden": true
     }
 }

@@ -3775,7 +3775,7 @@
         "region": "Desiccated Dunes",
         "category": [
             "Journals",
-            "Desíccated Dunes",
+            "Desiccated Dunes",
             "ORB03"
         ],
         "requires": []
@@ -3805,7 +3805,7 @@
         "region": "Desiccated Dunes",
         "category": [
             "Journals",
-            "Desíccated Dunes",
+            "Desiccated Dunes",
             "ORB03"
         ],
         "requires": []
@@ -3815,7 +3815,7 @@
         "region": "Desiccated Dunes",
         "category": [
             "Journals",
-            "Desíccated Dunes",
+            "Desiccated Dunes",
             "ORB03"
         ],
         "requires": []
@@ -16090,8 +16090,8 @@
         "name": "World Tree Passive - Demon's Hand",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
@@ -16100,8 +16100,8 @@
         "name": "World Tree Passive - Dimensional Leap",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
@@ -16110,8 +16110,8 @@
         "name": "World Tree Passive - God of Destruction",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
@@ -16120,8 +16120,8 @@
         "name": "World Tree Passive - Hermit Sage",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
@@ -16130,8 +16130,8 @@
         "name": "World Tree Passive - Sanctified Meat Shield",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
@@ -16140,8 +16140,8 @@
         "name": "World Tree Passive - Twin-Edged Holy Blade",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
@@ -16150,46 +16150,45 @@
         "name": "World Tree Passive - World Tree Seedbed",
         "region": "WorldTree_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
+            "Pal Passives",
+            "World Tree Passives",
             "ORB08"
         ],
         "requires": []
     },
     {
         "name": "Mutation Passive - Babysitter",
-        "region": "Breeding",
+        "region": "Mutation_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
-            "BreedingEnabled",
+            "Pal Passives",
+            "Mutation Passives",
             "ORB01"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Demon God",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Diamond Body",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Eternal Engine",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
@@ -16198,7 +16197,7 @@
         "name": "Rainbow Passive - Eternal Flame",
         "region": "Blazamut Ryu",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives",
             "Raid Boss",
             "ORB05"
@@ -16207,42 +16206,39 @@
     },
     {
         "name": "Rainbow Passive - Heart of the Immovable King",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Mutation Passive - Heavily Armored",
-        "region": "Breeding",
+        "region": "Mutation_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
-            "BreedingEnabled",
+            "Pal Passives",
+            "Mutation Passives",
             "ORB01"
         ],
         "requires": []
     },
     {
         "name": "Mutation Passive - Idiosyncratic",
-        "region": "Breeding",
+        "region": "Mutation_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
-            "BreedingEnabled",
+            "Pal Passives",
+            "Mutation Passives",
             "ORB01"
         ],
         "requires": []
     },
     {
         "name": "Mutation Passive - Immortality",
-        "region": "Breeding",
+        "region": "Mutation_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
-            "BreedingEnabled",
+            "Pal Passives",
+            "Mutation Passives",
             "ORB01"
         ],
         "requires": []
@@ -16251,7 +16247,7 @@
         "name": "Rainbow Passive - Invader",
         "region": "Xenolord",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives",
             "Raid Boss",
             "ORB07"
@@ -16260,27 +16256,27 @@
     },
     {
         "name": "Rainbow Passive - King of the Waves",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Lavish Hospitality",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Legend",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives",
             "ORB06"
         ],
@@ -16288,27 +16284,27 @@
     },
     {
         "name": "Rainbow Passive - Lightfooted",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Lucky",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Lunker",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives",
             "ORB06"
         ],
@@ -16316,27 +16312,27 @@
     },
     {
         "name": "Rainbow Passive - Mastery of Fasting",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Ranch Master",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Remarkable Craftmanship",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
@@ -16345,7 +16341,7 @@
         "name": "Rainbow Passive - Savior",
         "region": "Hartalis",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives",
             "Raid Boss",
             "ORB08"
@@ -16356,7 +16352,7 @@
         "name": "Rainbow Passive - Siren of the Void",
         "region": "Bellanoir Libero",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives",
             "Raid Boss",
             "ORB04"
@@ -16365,30 +16361,786 @@
     },
     {
         "name": "Mutation Passive - Skymarcher",
-        "region": "Breeding",
+        "region": "Mutation_Passives",
         "category": [
-            "Capture Challenges",
-            "Rainbow Passives",
-            "BreedingEnabled",
+            "Pal Passives",
+            "Mutation Passives",
             "ORB01"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Swift",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
         ],
         "requires": []
     },
     {
         "name": "Rainbow Passive - Vampiric",
-        "region": "Rainbow Passives",
+        "region": "Rainbow_Passives",
         "category": [
-            "Capture Challenges",
+            "Pal Passives",
             "Rainbow Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Ace Swimmer",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Artisan",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Burly Body",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Celestial Emperor",
+        "region": "Paladius",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB06"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Diet Lover",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Divine Dragon",
+        "region": "Jetragon",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB07"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Earth Emperor",
+        "region": "Anubis",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB05"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Farmhand",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Ferocious",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Flame Emperor",
+        "region": "Blazamut",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB04"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Healing Coach",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Ice Emperor",
+        "region": "Frostallion",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB06"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Infinite Stamina",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Logging Foreman",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Lord of Lightning",
+        "region": "Orserk",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB08"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Lord of the Sea",
+        "region": "Jormuntide",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB05"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Lord of the Underworld",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB06"
+        ],
+        "requires": "|Necromus Beacon| OR |Frostallion Noct Beacon|"
+    },
+    {
+        "name": "Golden Passive - Mine Foreman",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Motivational Leader",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Noble",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Philanthropist",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Reload Master",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Runner",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Serenity",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Service-Minded",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Spirit Emperor",
+        "region": "Lyleen",
+        "category": [
+            "Pal Passives",
+            "Golden Passives",
+            "ORB06"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Stronghold Strategist",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Vanguard",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Wellness Watcher",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Workaholic",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Heavyweight",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Golden Passive - Musclehead",
+        "region": "Golden_Passives",
+        "category": [
+            "Pal Passives",
+            "Golden Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Abnormal",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Aggressive",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Blood of the Dragon",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Botanical Barrier",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Brave",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Capacitor",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Cheery",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Coldblooded",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Conceited",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Dainty Eater",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Dragonkiller",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Earthquake Resistant",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Fine Furs",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Fit as a Fiddle",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Fragrant Foliage",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Hard Skin",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Heated Body",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Hooligan",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Hydromaniac",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Impatient",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Insomnia",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Insulated Body",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Masochist",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Nimble",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Otherwordly Cells",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives",
+            "ORB01"
+        ],
+        "requires": "|Xenovader Beacon| OR |Xenogard Beacon| OR |Xenolord Beacon|"
+    },
+    {
+        "name": "White Passive - Positive Thinker",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Power of Gaia",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Pyromaniac",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Sadist",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Serious",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Sleek Stroke",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Spirit of Zen",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Suntan Lover",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Veil of Darkness",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Waterproof",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "White Passive - Work Slave",
+        "region": "White_Passives",
+        "category": [
+            "Pal Passives",
+            "White Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Clumsy",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Coward",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Downtrodden",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Easygoing",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Glutton",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Mercy Hit",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Night Owl",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Shabby",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Sickly",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Unstable",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Bottomless Stomach",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Destructive",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Brittle",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Pacifist",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Red Passive - Slacker",
+        "region": "Red_Passives",
+        "category": [
+            "Pal Passives",
+            "Red Passives"
         ],
         "requires": []
     },
@@ -17553,6 +18305,19 @@
         "requires": []
     },
     {
+        "name": "Bellanoir Reward",
+        "region": "Bellanoir Raid",
+        "category": [
+            "Raid Bosses",
+            "RaidLock",
+            "ORB03"
+        ],
+        "requires": [],
+        "place_item": [
+            "Bellanoir Defeated"
+        ]
+    },
+    {
         "name": "Defeat Bellanoir Libero (Lv 45)",
         "region": "Bellanoir Libero Raid",
         "category": [
@@ -17560,6 +18325,19 @@
             "ORB04"
         ],
         "requires": []
+    },
+    {
+        "name": "Bellanoir Libero Reward",
+        "region": "Bellanoir Libero Raid",
+        "category": [
+            "Raid Bosses",
+            "RaidLock",
+            "ORB04"
+        ],
+        "requires": [],
+        "place_item": [
+            "Bellanoir Libero Defeated"
+        ]
     },
     {
         "name": "Defeat Blazamut Ryu (Lv 55)",
@@ -17571,6 +18349,19 @@
         "requires": []
     },
     {
+        "name": "Blazamut Ryu Reward",
+        "region": "Blazamut Ryu Raid",
+        "category": [
+            "Raid Bosses",
+            "RaidLock",
+            "ORB05"
+        ],
+        "requires": [],
+        "place_item": [
+            "Blazamut Ryu Defeated"
+        ]
+    },
+    {
         "name": "Defeat Xenolord (Lv 65)",
         "region": "Xenolord Raid",
         "category": [
@@ -17580,6 +18371,19 @@
         "requires": []
     },
     {
+        "name": "Xenolord Reward",
+        "region": "Xenolord Raid",
+        "category": [
+            "Raid Bosses",
+            "RaidLock",
+            "ORB07"
+        ],
+        "requires": [],
+        "place_item": [
+            "Xenolord Defeated"
+        ]
+    },
+    {
         "name": "Defeat Hartalis (Lv 75)",
         "region": "Hartalis Raid",
         "category": [
@@ -17587,6 +18391,19 @@
             "ORB08"
         ],
         "requires": []
+    },
+    {
+        "name": "Hartalis Reward",
+        "region": "Hartalis Raid",
+        "category": [
+            "Raid Bosses",
+            "RaidLock",
+            "ORB08"
+        ],
+        "requires": [],
+        "place_item": [
+            "Hartalis Defeated"
+        ]
     },
     {
         "name": "Finished the Hillside Cavern",

@@ -60,6 +60,15 @@
             "default": true,
             "group": "Location Options"
         },
+        "Enable_Raid_Battles": {
+            "description": [
+                "Includes all of the Raid Battles as extra locations.",
+                "Will automatically be disabled if 'player_access' doesn't reach Bellanoir."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
         "Enable_Alpha_Pals": {
             "description": [
                 "Includes all of the Alpha Pals you encounter as overworld bosses as locations.",
@@ -125,17 +134,6 @@
                 "Ancient Ruins are locations that reward loot after solving their puzzles.",
                 "Some Ancient Ruins require combat and as such the ruins won't be in logic until you are the same level as the region you find them in.",
                 "You may still activate the ruins beforehand if you wish but they won't be in logic until then."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Location Options"
-        },
-        "Rainbow_Passives": {
-            "description": [
-                "Includes all of the Rainbow Passives as locations.",
-                "Requires a lot of luck early to obtain most of them.",
-                "Will include the World Tree Passives as well if 'player_access' is at the highest.",
-                "Mutation passives are also included if you have access to Breeding."
             ],
             "type": "Toggle",
             "default": false,
@@ -455,8 +453,11 @@
         },
         "Raid_Lock": {
             "description": [
-                "If enabled, will also require you to defeat a raid boss before you're able to defeat the tower boss around the same level.",
-                "As an Example, Bellanoir can be fought at level 35 and is then also required to be defeated before you can defeat Marcus."
+                "If enabled, will require you to defeat a raid boss before you're able to defeat the tower boss around the same level.",
+                "As an Example, Bellanoir can be fought at level 35 and is then also required to be defeated before you can defeat Marcus.",
+                "'Enable_Raid_Battles' is required for this to function.",
+                "This option adds an extra location to each Raid boss that gives a progression item showing you've defeated that particular raid boss.",
+                "These items are hidden by default."
             ],
             "type": "Toggle",
             "default": false,
@@ -468,6 +469,18 @@
                 "Essentially treating as you're able to reach level 80 from the beginning.",
                 "Could be fun to have a wildly randomized playthrough",
                 "Reccommended to not use the player progression locations unless you really want to level up to 80 immediately."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Disable_LevelCap_Technology": {
+            "description": [
+                "When this setting is enabled, the level requirement for unlocking technologies is ignored.",
+                "This will make the logic assume you can reach every tech in the tech tree at any level!",
+                "Could be a fun way to experience Palworld through the eyes of a max level character that already has access to everything or use mods that allow you to learn technologies at any level.",
+                "Technologies unlocked at a later 'player_access' tier will not be in the item pool even with this option enabled.",
+                "This option has no effect if 'Disable_LevelCap' is enabled, as that option already removes all level-based restrictions."
             ],
             "type": "Toggle",
             "default": false,
@@ -945,6 +958,89 @@
             "default": false,
             "group": "Logic Options"
         },
+        "Progressive_PassiveSkills": {
+            "description": [
+                "When enabled, will add 5 'Progressive Passives' items into the multiworld limiting which tier of Passive Skills you're allowed to use.",
+                "1 is required for Red Passive Skills, 2 for White Passive Skills, 3 for Golden Passive Skills, 4 is Rainbow Passive Skills, and 5 is World Tree Passive Skills.",
+                "These items are considered Progression and will be required for any of the 'PalPassives' options if enabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "PalPassives_Red": {
+            "description": [
+                "Includes all of the Red Passives as locations.",
+                "You do not need to find the Items representing the Passives to unlock these if they're enabled, just being able to capture Pals is fine.",
+                "'Progressive_PassiveSkills' will limit this option however."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "PalPassives_White": {
+            "description": [
+                "Includes all of the White Passives as locations.",
+                "You do not need to find the Items representing the Passives to unlock these if they're enabled, just being able to capture Pals is fine.",
+                "'Progressive_PassiveSkills' will limit this option however."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "PalPassives_Golden": {
+            "description": [
+                "Includes all of the Golden Passives as locations.",
+                "You do not need to find the Items representing the Passives to unlock these if they're enabled, just being able to capture Pals is fine.",
+                "'Progressive_PassiveSkills' will limit this option however."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "PalPassives_Rainbow": {
+            "description": [
+                "Includes all of the Rainbow Passives as locations.",
+                "You do not need to find the Items representing the Passives to unlock these if they're enabled, just being able to capture Pals is fine.",
+                "'Progressive_PassiveSkills' will limit this option however."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "PalPassives_Mutation": {
+            "description": [
+                "Includes all of the Mutation Passives as locations.",
+                "You do not need to find the Items representing the Passives to unlock these if they're enabled, just being able to breed Pals is fine.",
+                "'Progressive_PassiveSkills' will limit this option however."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "PalPassives_WorldTree": {
+            "description": [
+                "Includes all of the World Tree Passives as locations.",
+                "Requires max 'player_access' or they won't appear.",
+                "You do not need to find the Items representing the Passives to unlock these if they're enabled, just being able to capture Pals is fine.",
+                "'Progressive_PassiveSkills' will limit this option however."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Location Options"
+        },
+        "Elemental_Bracelets": {
+            "description": [
+                "This will add a Bracelet of each Element into the pool, restricting the capture of pals of a specific element until obtained.",
+                "They'll be treated as progression items.",
+                "Unlike the orbs, these are unique and you only require one of them to unlock the whole element.",
+                "Dual-element Pals require either of its elements' bracelet to get in logic.",
+                "Does nothing if 'Enable Palpedia' is disabled."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
         "MainMissions_Goal": {
             "description": [
                 "The Main Quest: Complete all of the Main Missions.",
@@ -996,7 +1092,8 @@
             "description": [
                 "Pal Raider: Defeat all of the Pal Raid Bosses.",
                 "Those being: Blazamut Ryu, Bellanoir, Bellanoir Libero, Xenolord and Hartalis.",
-                "This goal will be unavailable if 'player_access' doesn't reach Level 35 As that's the Level of Bellanoir which is the earliest Raid Boss you can fight."
+                "This goal will be unavailable if 'player_access' doesn't reach Level 35 As that's the Level of Bellanoir which is the earliest Raid Boss you can fight.",
+                "Requires 'Enable_Raid_Battles' to be enabled or it won't generate."
             ],
             "type": "Toggle",
             "default": false,

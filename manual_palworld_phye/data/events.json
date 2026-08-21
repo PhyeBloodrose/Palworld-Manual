@@ -5,15 +5,17 @@
             "name": "Primitive Workbench",
             "category": [
                 "Build - Production",
-                "Technology"
+                "Technology",
+                "Technology - Level 01"
             ],
             "visible": true
         },
         {
             "name": "Stone Axe",
             "category": [
-                "Weapon - Tools",
-                "Technology"
+                "Weapons - Tools",
+                "Technology",
+                "Technology - Level 01"
             ],
             "visible": true
         },
@@ -21,7 +23,8 @@
             "name": "Stone Pickaxe",
             "category": [
                 "Weapons - Tools",
-                "Technology"
+                "Technology",
+                "Technology - Level 01"
             ],
             "visible": true
         },
@@ -29,7 +32,8 @@
             "name": "Hand Held Torch",
             "category": [
                 "Weapons - Tools",
-                "Technology"
+                "Technology",
+                "Technology - Level 01"
             ],
             "visible": true
         },
@@ -37,7 +41,8 @@
             "name": "Wooden Club",
             "category": [
                 "Weapons - Melee",
-                "Technology"
+                "Technology",
+                "Technology - Level 01"
             ],
             "visible": true
         },
@@ -45,7 +50,8 @@
             "name": "Pal Sphere",
             "category": [
                 "Spheres",
-                "Technology"
+                "Technology",
+                "Technology - Level 02"
             ],
             "requires": "|Progressive Pal Sphere:1|",
             "visible": true
@@ -55,6 +61,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 14",
                 "ORB01"
             ],
             "requires": "|Progressive Pal Sphere:2|",
@@ -65,6 +72,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 20",
                 "ORB01"
             ],
             "requires": "|Progressive Pal Sphere:3|",
@@ -75,6 +83,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 27",
                 "ORB02"
             ],
             "requires": "|Progressive Pal Sphere:4|",
@@ -85,6 +94,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 35",
                 "ORB03"
             ],
             "requires": "|Progressive Pal Sphere:5|",
@@ -95,6 +105,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 44",
                 "ORB04"
             ],
             "requires": "|Progressive Pal Sphere:6|",
@@ -115,6 +126,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 58",
                 "ORB06"
             ],
             "requires": "|Progressive Pal Sphere:8|",
@@ -125,6 +137,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 67",
                 "ORB07"
             ],
             "requires": "|Progressive Pal Sphere:9|",
@@ -135,6 +148,7 @@
             "category": [
                 "Spheres",
                 "Technology",
+                "Technology - Level 74",
                 "ORB08"
             ],
             "requires": "|Progressive Pal Sphere:10|",
@@ -144,7 +158,8 @@
             "name": "Cloth Outfit",
             "category": [
                 "Armor - Body",
-                "Technology"
+                "Technology",
+                "Technology - Level 04"
             ],
             "requires": "|Progressive Armor:1|",
             "visible": true
@@ -154,6 +169,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 12",
                 "ORB01"
             ],
             "requires": "|Progressive Armor:2|",
@@ -164,6 +180,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 23",
                 "ORB02"
             ],
             "requires": "|Progressive Armor:3|",
@@ -174,6 +191,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 37",
                 "ORB03"
             ],
             "requires": "|Progressive Armor:4|",
@@ -184,6 +202,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 46",
                 "ORB04"
             ],
             "requires": "|Progressive Armor:5|",
@@ -194,6 +213,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 51",
                 "ORB05"
             ],
             "requires": "|Progressive Armor:6|",
@@ -204,6 +224,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 59",
                 "ORB06"
             ],
             "requires": "|Progressive Armor:7|",
@@ -214,6 +235,7 @@
             "category": [
                 "Armor - Body",
                 "Technology",
+                "Technology - Level 68",
                 "ORB07"
             ],
             "requires": "|Progressive Armor:8|",
@@ -223,7 +245,8 @@
             "name": "Normal Parachute",
             "category": [
                 "Gliders",
-                "Technology"
+                "Technology",
+                "Technology - Level 05"
             ],
             "requires": "|Progressive Glider:1|",
             "visible": true
@@ -233,6 +256,7 @@
             "category": [
                 "Gliders",
                 "Technology",
+                "Technology - Level 18",
                 "ORB01"
             ],
             "requires": "|Progressive Glider:2|",
@@ -243,6 +267,7 @@
             "category": [
                 "Gliders",
                 "Technology",
+                "Technology - Level 40",
                 "ORB03"
             ],
             "requires": "|Progressive Glider:3|",
@@ -253,6 +278,7 @@
             "category": [
                 "Gliders",
                 "Technology",
+                "Technology - Level 52",
                 "ORB05"
             ],
             "requires": "|Progressive Glider:4|",
@@ -263,6 +289,7 @@
             "category": [
                 "Gliders",
                 "Ancient Technology",
+                "Technology - Level 80",
                 "ORB08"
             ],
             "requires": "|Progressive Glider:5|",
@@ -272,9 +299,10 @@
             "name": "Primitive Furnace",
             "category": [
                 "Build - Production",
-                "Technology"
+                "Technology",
+                "Technology - Level 10"
             ],
-            "requires": "|Progressive Furnace:1|",
+            "requires": "|Progressive Furnace|",
             "visible": true
         },
         {
@@ -282,6 +310,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 34",
                 "ORB03"
             ],
             "requires": "|Progressive Furnace:2|",
@@ -292,6 +321,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 44",
                 "ORB04"
             ],
             "requires": "|Progressive Furnace:3|",
@@ -302,6 +332,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 58",
                 "ORB06"
             ],
             "requires": "|Progressive Furnace:4|",
@@ -312,6 +343,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 66",
                 "ORB07"
             ],
             "requires": "|Progressive Furnace:5|",
@@ -321,9 +353,10 @@
             "name": "Egg Incubator",
             "category": [
                 "Build - Pal",
-                "Ancient Technology"
+                "Ancient Technology",
+                "Technology - Level 10"
             ],
-            "requires": "|Progressive Egg Incubator:1|",
+            "requires": "|Progressive Egg Incubator|",
             "visible": true
         },
         {
@@ -331,6 +364,7 @@
             "category": [
                 "Build - Pal",
                 "Ancient Technology",
+                "Technology - Level 36",
                 "ORB03"
             ],
             "requires": "|Progressive Egg Incubator:2|",
@@ -341,6 +375,7 @@
             "category": [
                 "Build - Pal",
                 "Ancient Technology",
+                "Technology - Level 48",
                 "ORB04"
             ],
             "requires": "|Progressive Egg Incubator:3|",
@@ -351,6 +386,7 @@
             "category": [
                 "Build - Pal",
                 "Ancient Technology",
+                "Technology - Level 58",
                 "ORB06"
             ],
             "requires": "|Progressive Egg Incubator:4|",
@@ -361,6 +397,7 @@
             "category": [
                 "Build - Pal",
                 "Ancient Technology",
+                "Technology - Level 76",
                 "ORB08"
             ],
             "requires": "|Progressive Egg Incubator:5| AND |Breeding Farm|",
@@ -371,6 +408,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 11",
                 "ORB01"
             ],
             "requires": "|Progressive Axe:1|",
@@ -381,6 +419,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 11",
                 "ORB01"
             ],
             "requires": "|Progressive Pickaxe:1|",
@@ -391,6 +430,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 34",
                 "ORB03"
             ],
             "requires": "|Progressive Axe:2|",
@@ -401,6 +441,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 34",
                 "ORB03"
             ],
             "requires": "|Progressive Pickaxe:2|",
@@ -411,6 +452,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 44",
                 "ORB04"
             ],
             "requires": "|Progressive Axe:3|",
@@ -421,6 +463,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 44",
                 "ORB04"
             ],
             "requires": "|Progressive Pickaxe:3|",
@@ -431,6 +474,7 @@
             "category": [
                 "Weapons - Tools",
                 "Technology",
+                "Technology - Level 54",
                 "ORB05"
             ],
             "requires": "|Progressive Pickaxe:4| AND |Progressive Axe:4|",
@@ -441,9 +485,10 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 11",
                 "ORB01"
             ],
-            "requires": "|Progressive Workbench:1|",
+            "requires": "|Progressive Workbench|",
             "visible": true
         },
         {
@@ -451,6 +496,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 29",
                 "ORB02"
             ],
             "requires": "|Progressive Workbench:2|",
@@ -461,6 +507,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 42",
                 "ORB04"
             ],
             "requires": "|Progressive Workbench:3|",
@@ -471,6 +518,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 62",
                 "ORB07"
             ],
             "requires": "|Progressive Workbench:4|",
@@ -481,6 +529,7 @@
             "category": [
                 "Build - Production",
                 "Technology",
+                "Technology - Level 67",
                 "ORB07"
             ],
             "requires": "|Progressive Workbench:5|",
@@ -5064,7 +5113,7 @@
             ]
         },
         {
-            "name": "Alpha Panking",
+            "name": "Alpha Penking",
             "region": "Alpha Penking",
             "category": [
                 "Overworld Boss",
@@ -6359,7 +6408,7 @@
                 "Gather Possible",
                 "ORB02"
             ],
-            "requires": "(((|Gather Lettuce Seeds| AND |Lettuce Plantation| AND |Gather Aquatic Pal Fluids| AND |Player Level 21|) OR |Craft Ancient Farm|) AND |Palbox|) OR ((|@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "(((|Gather Lettuce Seeds| AND |Lettuce Plantation| AND |Gather Aquatic Pal Fluids| AND (|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR |Craft Ancient Farm|) AND |Palbox|) OR ((|@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Gather Lettuce Seeds",
@@ -6399,7 +6448,7 @@
                 "Gather Possible",
                 "ORB02"
             ],
-            "requires": "(((|Gather Tomato Seeds| AND |Tomato Plantation| AND |Gather Aquatic Pal Fluids| AND |Player Level 21|) OR |Craft Ancient Farm|) AND |Palbox|) OR ((|@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "(((|Gather Tomato Seeds| AND |Tomato Plantation| AND |Gather Aquatic Pal Fluids| AND (|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR |Craft Ancient Farm|) AND |Palbox|) OR ((|@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Gather Tomato Seeds",
@@ -6691,7 +6740,7 @@
                 "Gather Possible",
                 "ORB03"
             ],
-            "requires": "(((|Gather Onion Seeds| AND |Onion Plantation| AND |Gather Aquatic Pal Fluids| AND |Player Level 31|) OR |Craft Ancient Farm|) OR ({YamlDisabled(Include_PalDrops)} AND {YamlDisabled(Allow_Ranching)} AND |Palbox|)"
+            "requires": "(((|Gather Onion Seeds| AND |Onion Plantation| AND |Gather Aquatic Pal Fluids| AND (|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR |Craft Ancient Farm|) OR ({YamlDisabled(Include_PalDrops)} AND {YamlDisabled(Allow_Ranching)} AND |Palbox|)"
         },
         {
             "name": "Gather Onion Seeds",
@@ -6707,7 +6756,7 @@
                 "Gather Possible",
                 "ORB03"
             ],
-            "requires": "({YamlEnabled(Include_PalDrops)} AND ((|Player Level 21| AND |Crescent Beacon|) OR (|Player Level 11| AND |Bamboo Beacon|))) OR (((|Gather Carrot Seeds| AND |Carrot Plantation| AND |Gather Aquatic Pal Fluids| AND |Player Level 31|) OR |Craft Ancient Farm|) OR ({YamlDisabled(Include_PalDrops)} AND {YamlDisabled(Allow_Ranching)} AND |Palbox|)"
+            "requires": "({YamlEnabled(Include_PalDrops)} AND ((|Player Level 21| AND |Crescent Beacon|) OR (|Player Level 11| AND |Bamboo Beacon|))) OR (((|Gather Carrot Seeds| AND |Carrot Plantation| AND |Gather Aquatic Pal Fluids| AND (|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR |Craft Ancient Farm|) OR ({YamlDisabled(Include_PalDrops)} AND {YamlDisabled(Allow_Ranching)} AND |Palbox|)"
         },
         {
             "name": "Gather Carrot Seeds",
@@ -6815,7 +6864,7 @@
                 "Gather Possible",
                 "ORB02"
             ],
-            "requires": "(((|Gather Potato Seeds| AND |Potato Plantation| AND |Gather Aquatic Pal Fluids| AND |Player Level 21|) OR |Craft Ancient Farm|) AND |Palbox|) OR ({YamlDisabled(Include_PalDrops)} AND {YamlDisabled(Allow_Ranching)} AND |Palbox|)"
+            "requires": "(((|Gather Potato Seeds| AND |Potato Plantation| AND |Gather Aquatic Pal Fluids| AND (|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR |Craft Ancient Farm|) AND |Palbox|) OR ({YamlDisabled(Include_PalDrops)} AND {YamlDisabled(Allow_Ranching)} AND |Palbox|)"
         },
         {
             "name": "Gather Potato Seeds",
@@ -6846,14 +6895,14 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Gather Wheat| AND |@Watering| AND |Player Level 11| AND |Mill| AND |Craft Ingot| AND |Craft Wooden Board|"
+            "requires": "|Gather Wheat| AND |@Watering| AND (|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Mill| AND |Craft Ingot| AND |Craft Wooden Board|"
         },
         {
             "name": "Gather Wheat",
             "category": [
                 "Gather Possible"
             ],
-            "requires": "(((|Gather Wheat Seeds| AND |Wheat Plantation| AND |Player Level 11|) OR |Craft Ancient Farm|) AND |Palbox|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
+            "requires": "(((|Gather Wheat Seeds| AND |Wheat Plantation| AND (|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR |Craft Ancient Farm|) AND |Palbox|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Gather Wheat Seeds",
@@ -7985,7 +8034,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Player Level 11| AND |Beginner Fishing Set| AND |High Quality Work| AND |Gather Aquatic Pal Fluids| AND |Craft Ingot|"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Beginner Fishing Set| AND |High Quality Work| AND |Gather Aquatic Pal Fluids| AND |Craft Ingot|"
         },
         {
             "name": "Craft Intermediate Fishing Rod",
@@ -7993,7 +8042,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Player Level 21| AND |Intermediate Fishing Rod (Cattiva)| AND |Productive Work| AND |Gather High Quality Pal Oil| AND |Craft Cement|"
+            "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Intermediate Fishing Rod (Cattiva)| AND |Productive Work| AND |Gather High Quality Pal Oil| AND |Craft Cement|"
         },
         {
             "name": "Craft Advanced Fishing Rod",
@@ -8001,7 +8050,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Advanced Fishing Rod (Pengullet)| AND |Productive Work 2| AND |Gather High Quality Pal Oil| AND |Craft Pal Metal Ingot| AND |Craft Carbon Fiber|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)})) AND |Advanced Fishing Rod (Pengullet)| AND |Productive Work 2| AND |Gather High Quality Pal Oil| AND |Craft Pal Metal Ingot| AND |Craft Carbon Fiber|"
         },
         {
             "name": "Fishing Bait",
@@ -8017,7 +8066,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "(|Player Level 11| AND |Beginner Fishing Set| AND |High Quality Work| AND |Gather Aquatic Pal Fluids| AND |Craft Flour|) OR ((|@Village Merchant| OR |@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "((|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Beginner Fishing Set| AND |High Quality Work| AND |Gather Aquatic Pal Fluids| AND |Craft Flour|) OR ((|@Village Merchant| OR |@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Craft High Quality Bait",
@@ -8025,7 +8074,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "(|Player Level 21| AND |High Quality Bait| AND |High Quality Work| AND |Gather Aquatic Pal Fluids| AND |Gather Tomato| AND |Craft Flour|) OR ((|@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "((|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |High Quality Bait| AND |High Quality Work| AND |Gather Aquatic Pal Fluids| AND |Gather Tomato| AND |Craft Flour|) OR ((|@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Craft Deluxe Bait",
@@ -8033,7 +8082,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Deluxe Bait| AND |High Quality Work| AND |Gather High Quality Pal Oil| AND |Gather Onion| AND |Gather Carrot| AND |Craft Flour|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Deluxe Bait| AND |High Quality Work| AND |Gather High Quality Pal Oil| AND |Gather Onion| AND |Gather Carrot| AND |Craft Flour|"
         },
         {
             "name": "Craft Alluring Bait",
@@ -8041,7 +8090,7 @@
                 "Crafting Possible",
                 "ORB05"
             ],
-            "requires": "|Player Level 51| AND |Alluring Bait| AND |High Quality Work| AND |Gather High Quality Pal Oil| AND |Gather Cavern Mushroom| AND |Gather Carrot| AND |Craft Flour|"
+            "requires": "(|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Alluring Bait| AND |High Quality Work| AND |Gather High Quality Pal Oil| AND |Gather Cavern Mushroom| AND |Gather Carrot| AND |Craft Flour|"
         },
         {
             "name": "Craft Fishing Pond",
@@ -8049,7 +8098,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Fishing Pond| AND |Player Level 31| AND |Craft Wooden Board| AND |Craft Cement| AND |Craft Cryogenic Coolant|"
+            "requires": "|Fishing Pond| AND (|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Wooden Board| AND |Craft Cement| AND |Craft Cryogenic Coolant|"
         },
         {
             "name": "Craft Large Fishing Pond",
@@ -8057,7 +8106,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Large Fishing Pond| AND |Player Level 61| AND |Craft High Quality Wooden Board| AND |Craft Coralum Ingot| AND |Gather High Quality Pal Oil|"
+            "requires": "|Large Fishing Pond| AND (|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft High Quality Wooden Board| AND |Craft Coralum Ingot| AND |Gather High Quality Pal Oil|"
         },
         {
             "name": "Power Source",
@@ -8073,7 +8122,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Player Level 21| AND |Human-Powered Generator| AND |Craft Wooden Board| AND |Gather Electric Organ|"
+            "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Human-Powered Generator| AND |Craft Wooden Board| AND |Gather Electric Organ|"
         },
         {
             "name": "Craft Power Generator",
@@ -8081,7 +8130,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Player Level 21| AND |Power Generator| AND |Craft Ingot| AND |Gather Electric Organ|"
+            "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Power Generator| AND |Craft Ingot| AND |Gather Electric Organ|"
         },
         {
             "name": "Craft Large Power Generator",
@@ -8089,7 +8138,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND ((|Large Power Generator| AND |Craft Pal Metal Ingot| AND |Gather Electric Organ|) OR {YamlDisabled(Include_AncientTechnology)})"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Large Power Generator| AND |Craft Pal Metal Ingot| AND |Gather Electric Organ|) OR {YamlDisabled(Include_AncientTechnology)})"
         },
         {
             "name": "Craft Ancient Power Generator",
@@ -8097,7 +8146,7 @@
                 "Crafting Possible",
                 "ORB08"
             ],
-            "requires": "|Player Level 71| AND |Ancient Power Generator| AND |Craft Paloxite Ingot| AND |Gather Electric Organ| AND |Gather Ancient Civilization Core|"
+            "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Power Generator| AND |Craft Paloxite Ingot| AND |Gather Electric Organ| AND |Gather Ancient Civilization Core|"
         },
         {
             "name": "Basic Cooking",
@@ -8179,7 +8228,7 @@
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "|Wooden Structure Set| OR (|Player Level 11| AND |Stone Structure Set|) OR (|Player Level 21| AND |Metal Structure Set| AND |Craft Ingot|) OR (|Player Level 41| AND |Glass Structure Set|) OR (|Player Level 41| AND |Gather Hardwood| AND |Japanese-Style Structure Set|) OR (|Player Level 61| AND |Craft Polymer| AND |Futuristic Structure Set|) OR (|Player Level 61| AND |Ancient Structure Set| AND |Craft Soralite Ingot|)"
+            "requires": "|Wooden Structure Set| OR ((|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Stone Structure Set|) OR ((|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Metal Structure Set| AND |Craft Ingot|) OR ((|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Glass Structure Set|) OR ((|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Gather Hardwood| AND |Japanese-Style Structure Set|) OR ((|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Polymer| AND |Futuristic Structure Set|) OR ((|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Structure Set| AND |Craft Soralite Ingot|)"
         },
         {
             "name": "Gather Flame Organ",
@@ -8225,7 +8274,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Palbox| AND |Pal Expedition Station| AND |Craft Cement| AND |Craft Wooden Board| AND |Player Level 21|"
+            "requires": "|Palbox| AND |Pal Expedition Station| AND |Craft Cement| AND |Craft Wooden Board| AND (|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)})"
         },
         {
             "name": "Verdant Hollow",
@@ -8304,7 +8353,7 @@
             "category": [
                 "Tower Boss"
             ],
-            "requires": "|Craft Cloth Outfit| AND |Key Sphere of Envy| AND |Windswept Beacon| AND |Pals|"
+            "requires": "(|Craft Cloth Outfit| OR |Craft Pelt Armor| OR |Craft Metal Armor| OR |Craft Refined Metal Armor| OR |Craft Pal Metal Armor| OR |Craft Plasteel Armor| OR |Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Envy| AND |Windswept Beacon| AND |Pals|"
         },
         {
             "name": "Lily",
@@ -8312,7 +8361,7 @@
                 "Tower Boss",
                 "ORB01"
             ],
-            "requires": "|Craft Pelt Armor| AND |Key Sphere of Pride| AND |Crescent Beacon| AND |Pals| AND |Player Level 11|"
+            "requires": "(|Craft Pelt Armor| OR |Craft Metal Armor| OR |Craft Refined Metal Armor| OR |Craft Pal Metal Armor| OR |Craft Plasteel Armor| OR |Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Pride| AND |Crescent Beacon| AND |Pals| AND |Player Level 11|"
         },
         {
             "name": "Axel",
@@ -8320,7 +8369,7 @@
                 "Tower Boss",
                 "ORB02"
             ],
-            "requires": "|Craft Metal Armor| AND |Key Sphere of Sloth| AND |Volcano Beacon| AND |Pals| AND |Player Level 21|"
+            "requires": "(|Craft Metal Armor| OR |Craft Refined Metal Armor| OR |Craft Pal Metal Armor| OR |Craft Plasteel Armor| OR |Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Sloth| AND |Volcano Beacon| AND |Pals| AND |Player Level 21|"
         },
         {
             "name": "Marcus",
@@ -8328,7 +8377,7 @@
                 "Tower Boss",
                 "ORB03"
             ],
-            "requires": "|Craft Refined Metal Armor| AND |Key Sphere of Greed| AND |Dunes Beacon| AND |Pals| AND |Player Level 31| AND (|Bellanoir Raid| OR {YamlDisabled(Raid_Lock)})"
+            "requires": "(|Craft Refined Metal Armor| OR |Craft Pal Metal Armor| OR |Craft Plasteel Armor| OR |Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Greed| AND |Dunes Beacon| AND |Pals| AND |Player Level 31| AND {OptOne(|Bellanoir Defeated|)}"
         },
         {
             "name": "Victor",
@@ -8336,7 +8385,7 @@
                 "Tower Boss",
                 "ORB04"
             ],
-            "requires": "|Craft Pal Metal Armor| AND |Key Sphere of Gluttony| AND |Astral Beacon| AND |Pals| AND |Player Level 41| AND (|Bellanoir Libero Raid| OR {YamlDisabled(Raid_Lock)})"
+            "requires": "(|Craft Pal Metal Armor| OR |Craft Plasteel Armor| OR |Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Gluttony| AND |Astral Beacon| AND |Pals| AND |Player Level 41| AND {OptOne(|Bellanoir Libero Defeated|)}"
         },
         {
             "name": "Saya",
@@ -8344,7 +8393,7 @@
                 "Tower Boss",
                 "ORB05"
             ],
-            "requires": "|Craft Plasteel Armor| AND |Key Sphere of Lust| AND |Sakurajima Beacon| AND |Pals| AND |Player Level 51| AND (|Blazamut Ryu Raid| OR {YamlDisabled(Raid_Lock)})"
+            "requires": "(|Craft Plasteel Armor| OR |Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Lust| AND |Sakurajima Beacon| AND |Pals| AND |Player Level 51| AND {OptOne(|Blazamut Ryu Defeated|)}"
         },
         {
             "name": "Bjorn",
@@ -8352,7 +8401,7 @@
                 "Tower Boss",
                 "ORB06"
             ],
-            "requires": "|Craft Hexolite Armor| AND |Key Sphere of Wrath| AND |Feybreak Blue Beacon| AND |Pals| AND |Player Level 56|"
+            "requires": "(|Craft Hexolite Armor| OR |Craft Ancient Armor|) AND |Key Sphere of Wrath| AND |Feybreak Blue Beacon| AND |Pals| AND |Player Level 56|"
         },
         {
             "name": "Auri",
@@ -8360,7 +8409,7 @@
                 "Tower Boss",
                 "ORB07"
             ],
-            "requires": "|Craft Ancient Armor| AND |Key Sphere of Original Sin| AND |Sunreach Beacon| AND |Pals| AND |Player Level 61| AND (|Xenolord Raid| OR {YamlDisabled(Raid_Lock)})"
+            "requires": "|Craft Ancient Armor| AND |Key Sphere of Original Sin| AND |Sunreach Beacon| AND |Pals| AND |Player Level 61| AND {OptOne(|Xenolord Defeated|)}"
         },
         {
             "name": "Zenara",
@@ -8368,7 +8417,7 @@
                 "Tower Boss",
                 "ORB08"
             ],
-            "requires": "|Craft Ancient Armor| AND |World Tree Beacon| AND |Pals| AND |Player Level 71| AND |Dandilord's Petal| AND |Silvance's Plume| AND |Modified Pal's Contaminated Core| AND (|Hartalis Raid| OR {YamlDisabled(Raid_Lock)})"
+            "requires": "|Craft Ancient Armor| AND |World Tree Beacon| AND |Pals| AND |Player Level 71| AND |Dandilord's Petal| AND |Silvance's Plume| AND |Modified Pal's Contaminated Core| AND {OptOne(|Hartalis Defeated|)}"
         },
         {
             "name": "Base Builder Goal",
@@ -8477,7 +8526,7 @@
                 "Alpha Hunter",
                 "ORB01"
             ],
-            "requires": "({YamlCompare(player_access = 1)} AND |@Alpha Pals:10|) OR ({YamlCompare(player_access = 2)} AND |@Alpha Pals:20|) OR ({YamlCompare(player_access = 3)} AND |@Alpha Pals:31|) OR ({YamlCompare(player_access = 4)} AND |@Alpha Pals:37|) OR ({YamlCompare(player_access = 5)} AND |@Alpha Pals:46|) OR ({YamlCompare(player_access = 6)} AND |@Alpha Pals:58|) OR ({YamlCompare(player_access = 7)} AND |@Alpha Pals:84|) OR ({YamlCompare(player_access = 8)} AND |@Alpha Pals:93|)"
+            "requires": "({YamlCompare(player_access = 1)} AND |@Alpha Pals:10|) OR ({YamlCompare(player_access = 2)} AND |@Alpha Pals:20|) OR ({YamlCompare(player_access = 3)} AND |@Alpha Pals:31|) OR ({YamlCompare(player_access = 4)} AND |@Alpha Pals:37|) OR ({YamlCompare(player_access = 5)} AND |@Alpha Pals:46|) OR ({YamlCompare(player_access = 6)} AND |@Alpha Pals:57|) OR ({YamlCompare(player_access = 7)} AND |@Alpha Pals:83|) OR ({YamlCompare(player_access = 8)} AND |@Alpha Pals:92|)"
         },
         {
             "name": "Bounty Hunter Goal",
@@ -8500,7 +8549,7 @@
                 "ORB01",
                 "Ancient Technology"
             ],
-            "requires": "|Player Level 11| AND |Pal Essence Condenser| AND |Palbox| AND |Craft Ingot|"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Pal Essence Condenser| AND |Palbox| AND |Craft Ingot|"
         },
         {
             "name": "Gather Ancient Pal Manuscript",
@@ -9249,7 +9298,7 @@
                 "Arena Goal",
                 "ORB01"
             ],
-            "requires": "|Pals| AND |Arena Beacon| AND ({YamlCompare(player_access <= 1)} AND |Player Level 11|) OR ({YamlCompare(player_access = 2)} AND |Player Level 21|) OR ({YamlCompare(player_access = 3)} AND |Player Level 31|) OR ({YamlCompare(player_access <= 5)} AND |Player Level 41|) OR ({YamlCompare(player_access = 6)} AND |Player Level 56|) OR ({YamlCompare(player_access = 7)} AND |Player Level 61|) OR ({YamlCompare(player_access = 8)} AND |Player Level 71|))"
+            "requires": "|Pals| AND |Arena Beacon| AND (({YamlCompare(player_access <= 1)} AND |Player Level 11|) OR ({YamlCompare(player_access = 2)} AND |Player Level 21|) OR ({YamlCompare(player_access = 3)} AND |Player Level 31|) OR ({YamlCompare(player_access <= 5)} AND |Player Level 41|) OR ({YamlCompare(player_access = 6)} AND |Player Level 56|) OR ({YamlCompare(player_access = 7)} AND |Player Level 61|) OR ({YamlCompare(player_access = 8)} AND |Player Level 71|))"
         },
         {
             "name": "Craft Primitive Furnace",
@@ -9264,7 +9313,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Improved Furnace| AND |Craft Cement| AND |Gather Flame Organ| AND |Craft Cryogenic Coolant|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Improved Furnace| AND |Craft Cement| AND |Gather Flame Organ| AND |Craft Cryogenic Coolant|"
         },
         {
             "name": "Craft Electric Furnace",
@@ -9272,7 +9321,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Electric Furnace| AND |Craft Refined Ingot| AND |Craft Bio Battery| AND |Craft Polymer| AND |Craft Cryogenic Coolant|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Electric Furnace| AND |Craft Refined Ingot| AND |Craft Bio Battery| AND |Craft Polymer| AND |Craft Cryogenic Coolant|"
         },
         {
             "name": "Craft Gigantic Furnace",
@@ -9280,7 +9329,7 @@
                 "Crafting Possible",
                 "ORB06"
             ],
-            "requires": "|Player Level 56| AND |Gigantic Furnace| AND |Craft Plasteel| AND |Craft Polymer| AND |Gather Flame Organ| AND |Craft Computer|"
+            "requires": "(|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Gigantic Furnace| AND |Craft Plasteel| AND |Craft Polymer| AND |Gather Flame Organ| AND |Craft Computer|"
         },
         {
             "name": "Craft Ancient Furnace",
@@ -9288,7 +9337,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Ancient Furnace| AND |Craft Coralum Ingot| AND |Craft Thermal Core| AND |Craft Computer| AND |Gather Ancient Civilization Core|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Furnace| AND |Craft Coralum Ingot| AND |Craft Thermal Core| AND |Craft Computer| AND |Gather Ancient Civilization Core|"
         },
         {
             "name": "Primitive Fire",
@@ -9334,7 +9383,7 @@
             "category": [
                 "Materials"
             ],
-            "requires": "|Progressive Ingot:1|",
+            "requires": "|Progressive Ingot|",
             "visible": true
         },
         {
@@ -9360,6 +9409,7 @@
             "category": [
                 "Materials",
                 "Technology",
+                "Technology - Level 50",
                 "ORB05"
             ],
             "requires": "|Progressive Ingot:4|",
@@ -9370,6 +9420,7 @@
             "category": [
                 "Materials",
                 "Technology",
+                "Technology - Level 58",
                 "ORB06"
             ],
             "requires": "|Progressive Ingot:5|",
@@ -9380,6 +9431,7 @@
             "category": [
                 "Materials",
                 "Technology",
+                "Technology - Level 62",
                 "ORB07"
             ],
             "requires": "|Progressive Ingot:6|",
@@ -9390,6 +9442,7 @@
             "category": [
                 "Materials",
                 "Technology",
+                "Technology - Level 66",
                 "ORB07"
             ],
             "requires": "|Progressive Ingot:7|",
@@ -9400,6 +9453,7 @@
             "category": [
                 "Materials",
                 "Technology",
+                "Technology - Level 74",
                 "ORB08"
             ],
             "requires": "|Progressive Ingot:8|",
@@ -9457,7 +9511,7 @@
                 "Gathering Possible",
                 "ORB06"
             ],
-            "requires": "(|Smokie Beacon| AND |Smokie's Harness| AND |Feybreak Beacon| AND |Player Level 56|) OR (|Metal Detector| AND |Player Level 56| AND |Productive Work 2| AND |Craft Plasteel| AND |Craft Computer| AND (|Feybreak Beacon| OR |Dunes Beacon|)) OR |Dark Cave of Feybreak| OR ({YamlEnabled(Include_PalDrops)} AND (|Alpha Silvegis| OR (|Player Level 56| AND |Feybreak Beacon|)))"
+            "requires": "(|Smokie Beacon| AND |Smokie's Harness| AND |Feybreak Beacon| AND (|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)})) OR (|Metal Detector| AND (|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Productive Work 2| AND |Craft Plasteel| AND |Craft Computer| AND (|Feybreak Beacon| OR |Dunes Beacon|)) OR |Dark Cave of Feybreak| OR ({YamlEnabled(Include_PalDrops)} AND (|Alpha Silvegis| OR (|Player Level 56| AND |Feybreak Beacon|)))"
         },
         {
             "name": "Craft Coralum Ingot",
@@ -9465,7 +9519,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Gigantic Fire| AND |Coralum Ingot| AND |Gather Coralum Ore|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Gigantic Fire| AND |Coralum Ingot| AND |Gather Coralum Ore|"
         },
         {
             "name": "Gather Coralum Ore",
@@ -9481,7 +9535,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Fishing Rod| AND |Powerful Fishing Magnet| AND |Craft Hexolite| AND |Craft Cryogenic Coolant| AND |Craft Bio Battery| AND |Productive Work 2| AND |Water Mount|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Fishing Rod| AND |Powerful Fishing Magnet| AND |Craft Hexolite| AND |Craft Cryogenic Coolant| AND |Craft Bio Battery| AND |Productive Work 2| AND |Water Mount|"
         },
         {
             "name": "Craft Soralite Ingot",
@@ -9489,7 +9543,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Ancient Fire| AND |Soralite Ingot| AND |Gather Soralite| AND |@Pure Quartz Location|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Fire| AND |Soralite Ingot| AND |Gather Soralite| AND |@Pure Quartz Location|"
         },
         {
             "name": "Gather Soralite",
@@ -9497,7 +9551,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "(|Player Level 51| AND |Plasma Multicutter| AND |Productive Work 2| AND |Craft Pal Metal Ingot| AND |Craft Plasteel| AND |Craft Bio Battery| AND |Craft Computer| AND |Craft Cryogenic Coolant| AND |Sunreach Beacon|) OR ({YamlEnabled(Include_PalDrops)} AND (|Alpha Jetragon| OR (|Player Level 61| AND |Sunreach Beacon|)))"
+            "requires": "((|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Plasma Multicutter| AND |Productive Work 2| AND |Craft Pal Metal Ingot| AND |Craft Plasteel| AND |Craft Bio Battery| AND |Craft Computer| AND |Craft Cryogenic Coolant| AND |Sunreach Beacon|) OR ({YamlEnabled(Include_PalDrops)} AND (|Alpha Jetragon| OR (|Player Level 61| AND |Sunreach Beacon|)))"
         },
         {
             "name": "Craft Paloxite Ingot",
@@ -9505,7 +9559,7 @@
                 "Crafting Possible",
                 "ORB08"
             ],
-            "requires": "|Player Level 71| AND |Ancient Fire| AND |Paloxite Ingot| AND |World Tree Beacon|"
+            "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Fire| AND |Paloxite Ingot| AND |World Tree Beacon|"
         },
         {
             "name": "Breeding",
@@ -9513,7 +9567,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "((|Player Level 11| AND |Breeding Farm| AND |Craft Wooden Board| AND |Lily|) OR (|Player Level 71| AND |Ancient Hatchery| AND |Craft Paloxite Ingot| AND |Craft AI Core| AND |Gather Ancient Civilization Core|) OR ({YamlDisabled(Include_AncientTechnology)} AND |Lily|)) AND |Craft Cakes|"
+            "requires": "(((|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Breeding Farm| AND |Craft Wooden Board| AND |Lily|) OR ((|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Hatchery| AND |Craft Paloxite Ingot| AND |Craft AI Core| AND |Gather Ancient Civilization Core|) OR ({YamlDisabled(Include_AncientTechnology)} AND |Lily|)) AND |Craft Cakes|"
         },
         {
             "name": "Craft Cakes",
@@ -9535,7 +9589,7 @@
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "({YamlDisabled(Include_AncientTechnology)} AND |Zoe|) OR (|Zoe| AND |Egg Incubator| AND |Craft Cloth|) OR (|Axel| AND |Electric Egg Incubator| AND |Craft Refined Ingot| AND |Power Source| AND |Craft Circuit Board| AND |Gather Ancient Civilization Core|) OR (|Victor| AND |Large Incubator| AND |Craft Pal Metal Ingot| AND |Craft High Quality Cloth| AND |Gather Ancient Civilization Core|) OR (|Bjorn| AND |Large-Scale Electric Egg Incubator| AND |Craft Hexolite| AND |Craft Circuit Board| AND |Gather Ancient Civilization Core| AND |Power Source|) OR (|Ancient Hatchery| AND |Player Level 71| AND |Craft Paloxite Ingot| AND |Craft AI Core| AND |Gather Ancient Civilization Core|)"
+            "requires": "({YamlDisabled(Include_AncientTechnology)} AND |Zoe|) OR (|Zoe| AND |Egg Incubator| AND |Craft Cloth|) OR (|Axel| AND |Electric Egg Incubator| AND |Craft Refined Ingot| AND |Power Source| AND |Craft Circuit Board| AND |Gather Ancient Civilization Core|) OR (|Victor| AND |Large Incubator| AND |Craft Pal Metal Ingot| AND |Craft High Quality Cloth| AND |Gather Ancient Civilization Core|) OR (|Bjorn| AND |Large-Scale Electric Egg Incubator| AND |Craft Hexolite| AND |Craft Circuit Board| AND |Gather Ancient Civilization Core| AND |Power Source|) OR (|Ancient Hatchery| AND (|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Paloxite Ingot| AND |Craft AI Core| AND |Gather Ancient Civilization Core|)"
         },
         {
             "name": "Primitive Work",
@@ -9590,7 +9644,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Player Level 11| AND |High Quality Workbench| AND |Craft Ingot| AND |Craft Nail|"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |High Quality Workbench| AND |Craft Ingot| AND |Craft Nail|"
         },
         {
             "name": "Craft Production Assembly Line",
@@ -9598,7 +9652,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Player Level 21| AND |Production Assembly Line| AND |Craft Ingot| AND |Craft Nail| AND |Craft Wooden Board| AND |Craft Cement|"
+            "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Production Assembly Line| AND |Craft Ingot| AND |Craft Nail| AND |Craft Wooden Board| AND |Craft Cement|"
         },
         {
             "name": "Craft Production Assembly Line II",
@@ -9606,7 +9660,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Production Assembly Line II| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Cement| AND |Craft Corrosive Solvent|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Production Assembly Line II| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Cement| AND |Craft Corrosive Solvent|"
         },
         {
             "name": "Craft Advanced Workshop",
@@ -9614,7 +9668,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Advanced Workshop| AND |Craft Coralum Ingot| AND |Craft Hexolite| AND |Craft Computer| AND |Craft Bio Battery|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Advanced Workshop| AND |Craft Coralum Ingot| AND |Craft Hexolite| AND |Craft Computer| AND |Craft Bio Battery|"
         },
         {
             "name": "Craft Ancient Workbench",
@@ -9622,7 +9676,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Ancient Workbench| AND |Craft AI Core| AND |Craft Bio Battery|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Workbench| AND |Craft AI Core| AND |Craft Bio Battery|"
         },
         {
             "name": "Craft Wooden Board",
@@ -9630,7 +9684,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Player Level 11| AND |Primitive Work| AND |Craft Nail| AND |Wooden Board|"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Primitive Work| AND |Craft Nail| AND |Wooden Board|"
         },
         {
             "name": "Craft High Quality Wooden Board",
@@ -9638,7 +9692,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Productive Work 2| AND |Gather Hardwood| AND |Craft High Quality Cloth| AND |High Quality Wooden Board|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Productive Work 2| AND |Gather Hardwood| AND |Craft High Quality Cloth| AND |High Quality Wooden Board|"
         },
         {
             "name": "Craft Nail",
@@ -9858,7 +9912,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Player Level 11| AND |Sphere Workbench| AND |Craft Nail| AND |Craft Ingot|"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Sphere Workbench| AND |Craft Nail| AND |Craft Ingot|"
         },
         {
             "name": "Craft Sphere Assembly Line",
@@ -9866,7 +9920,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Player Level 21| AND |Sphere Assembly Line| AND |Craft Wooden Board| AND |Craft Ingot| AND |Craft Nail|"
+            "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Sphere Assembly Line| AND |Craft Wooden Board| AND |Craft Ingot| AND |Craft Nail|"
         },
         {
             "name": "Craft Sphere Assembly Line II",
@@ -9874,7 +9928,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Sphere Assembly Line II| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Nail|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Sphere Assembly Line II| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Nail|"
         },
         {
             "name": "Craft Advanced Sphere Assembly Line",
@@ -9882,7 +9936,7 @@
                 "Crafting Possible",
                 "ORB06"
             ],
-            "requires": "|Player Level 56| AND |Advanced Sphere Assembly Line| AND |Craft Hexolite| AND |Craft Plasteel| AND |Craft Computer| AND |Craft Bio Battery|"
+            "requires": "(|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Advanced Sphere Assembly Line| AND |Craft Hexolite| AND |Craft Plasteel| AND |Craft Computer| AND |Craft Bio Battery|"
         },
         {
             "name": "Craft Gunpowder",
@@ -9890,7 +9944,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "(|Player Level 21| AND |Gunpowder| AND |Craft Charcoal| AND |@Sulfur Location|) OR ({YamlEnabled(Include_PalDrops)} AND |Player Level 21| AND (|Twilight Beacon| OR |Dunes Beacon|))"
+            "requires": "((|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Gunpowder| AND |Craft Charcoal| AND |@Sulfur Location|) OR ({YamlEnabled(Include_PalDrops)} AND |Player Level 21| AND (|Twilight Beacon| OR |Dunes Beacon|))"
         },
         {
             "name": "Gather Beautiful Flower",
@@ -9905,7 +9959,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Circuit Board| AND |Productive Work| AND |Craft Polymer| AND |@Pure Quartz Location|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Circuit Board| AND |Productive Work| AND |Craft Polymer| AND |@Pure Quartz Location|"
         },
         {
             "name": "Gather Hardwood",
@@ -9928,7 +9982,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Power Source| AND ((|Crude Oil Extractor| AND |Player Level 41| AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |@Crude Oil Location|) OR (|High-Pressure Crude Oil Extractor| AND |Player Level 51| AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |Craft Bio Battery|))"
+            "requires": "|Power Source| AND ((|Crude Oil Extractor| AND (|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |@Crude Oil Location|) OR (|High-Pressure Crude Oil Extractor| AND (|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Pal Metal Ingot| AND |Craft Circuit Board| AND |Craft Bio Battery|))"
         },
         {
             "name": "Craft Computer",
@@ -9936,7 +9990,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Computer| AND |Craft Circuit Board| AND |Craft Plasteel| AND |Craft Bio Battery| AND |Craft Carbon Fiber| AND |Productive Work 2|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Computer| AND |Craft Circuit Board| AND |Craft Plasteel| AND |Craft Bio Battery| AND |Craft Carbon Fiber| AND |Productive Work 2|"
         },
         {
             "name": "Craft AI Core",
@@ -9944,7 +9998,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |AI Core| AND |Craft Computer| AND |Craft Soralite Ingot| AND |Craft Thermal Core| AND |Gather Ancient Civilization Core| AND |Advanced Work|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |AI Core| AND |Craft Computer| AND |Craft Soralite Ingot| AND |Craft Thermal Core| AND |Gather Ancient Civilization Core| AND |Advanced Work|"
         },
         {
             "name": "Craft Cryogenic Coolant",
@@ -9952,7 +10006,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Cryogenic Coolant| AND |Gather Aquatic Pal Fluids| AND |Gather Ice Organ| AND |Productive Work|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Cryogenic Coolant| AND |Gather Aquatic Pal Fluids| AND |Gather Ice Organ| AND |Productive Work|"
         },
         {
             "name": "Craft Bio Battery",
@@ -9960,7 +10014,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Bio Battery| AND |Gather Electric Organ| AND |Craft Refined Ingot| AND |Craft Carbon Fiber| AND |Productive Work 2|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Bio Battery| AND |Gather Electric Organ| AND |Craft Refined Ingot| AND |Craft Carbon Fiber| AND |Productive Work 2|"
         },
         {
             "name": "Craft Thermal Core",
@@ -9968,7 +10022,7 @@
                 "Crafting Possible",
                 "ORB06"
             ],
-            "requires": "(|Player Level 56| AND |Thermal Core| AND |Gather Flame Organ| AND |@Coal Location| AND |Craft Corrosive Solvent| AND |Craft Hexolite| AND |Productive Work 2|) OR ({YamlEnabled(Include_PalDrops)} AND (|Alpha Jetragon| OR |Alpha Aegidron|))"
+            "requires": "((|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Thermal Core| AND |Gather Flame Organ| AND |@Coal Location| AND |Craft Corrosive Solvent| AND |Craft Hexolite| AND |Productive Work 2|) OR ({YamlEnabled(Include_PalDrops)} AND (|Alpha Jetragon| OR |Alpha Aegidron|))"
         },
         {
             "name": "Craft Corrosive Solvent",
@@ -9976,7 +10030,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Corrosive Solvent| AND |Gather Venom Gland| AND |@Sulfur Location| AND |Productive Work|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Corrosive Solvent| AND |Gather Venom Gland| AND |@Sulfur Location| AND |Productive Work|"
         },
         {
             "name": "Craft Polymer",
@@ -9984,7 +10038,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Polymer| AND |Gather High Quality Pal Oil| AND |@Sulfur Location| AND |Productive Work|"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Polymer| AND |Gather High Quality Pal Oil| AND |@Sulfur Location| AND |Productive Work|"
         },
         {
             "name": "Gather Electric Organ",
@@ -10020,7 +10074,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Player Level 11| AND |Cement| AND |Gather Bone| AND |Gather Aquatic Pal Fluids| AND |High Quality Work|"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Cement| AND |Gather Bone| AND |Gather Aquatic Pal Fluids| AND |High Quality Work|"
         },
         {
             "name": "Craft Carbon Fiber",
@@ -10028,7 +10082,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "(|Player Level 31| AND |Carbon Fiber| AND |Gather Flame Organ| AND |@Coal Location| AND |Productive Work|) OR ({YamlEnabled(Include_PalDrops)} AND |Player Level 41| AND |Wildlife 3 Beacon|)"
+            "requires": "((|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Carbon Fiber| AND |Gather Flame Organ| AND |@Coal Location| AND |Productive Work|) OR ({YamlEnabled(Include_PalDrops)} AND |Player Level 41| AND |Wildlife 3 Beacon|)"
         },
         {
             "name": "Gather Horn",
@@ -10050,14 +10104,14 @@
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "|Gather Ice Organ| AND ((|Tundra Outfit| AND |Craft Cloth| AND |Primitive Work|) OR (|Player Level 11| AND |Cold Resistant Pelt Armor| AND |Gather Leather| AND |Craft Ingot| AND |High Quality Work|) OR (|Player Level 21| AND |Cold Resistant Metal Armor| AND |Gather Leather| AND |Craft Ingot| AND |Craft Cloth| AND |High Quality Work|))"
+            "requires": "(|Gather Ice Organ| AND ((|Tundra Outfit| AND |Craft Cloth| AND |Primitive Work|) OR ((|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Cold Resistant Pelt Armor| AND |Gather Leather| AND |Craft Ingot| AND |High Quality Work|) OR ((|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Cold Resistant Metal Armor| AND |Gather Leather| AND |Craft Ingot| AND |Craft Cloth| AND |High Quality Work|))) OR (|Arsox Beacon| AND |Arsox Saddle| AND |Pal Gear Workbench| AND |Craft Cloth| AND |Gather Leather| AND |Gather Flame Organ| AND {YamlEnabled(Enable_Palpedia)} AND (|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}))"
         },
         {
             "name": "Craft Heat Resistant Armor",
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "|Gather Flame Organ| AND ((|Tropical Outfit| AND |Craft Cloth| AND |Primitive Work|) OR (|Player Level 11| AND |Heat Resistant Pelt Armor| AND |Gather Leather| AND |Craft Ingot| AND |High Quality Work|) OR (|Player Level 21| AND |Heat Resistant Metal Armor| AND |Gather Leather| AND |Craft Ingot| AND |Craft Cloth| AND |High Quality Work|))"
+            "requires": "(|Gather Flame Organ| AND ((|Tropical Outfit| AND |Craft Cloth| AND |Primitive Work|) OR ((|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Heat Resistant Pelt Armor| AND |Gather Leather| AND |Craft Ingot| AND |High Quality Work|) OR ((|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Heat Resistant Metal Armor| AND |Gather Leather| AND |Craft Ingot| AND |Craft Cloth| AND |High Quality Work|))) OR (|Reindrix Beacon| AND |Reindrix Saddle| AND |Pal Gear Workbench| AND |Craft Cloth| AND |Gather Leather| AND |Gather Ice Organ| AND |Craft Ingot| AND |Gather Horn| AND {YamlEnabled(Enable_Palpedia)} AND (|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}))"
         },
         {
             "name": "Craft Cloth Outfit",
@@ -10072,7 +10126,7 @@
                 "Crafting Possible",
                 "ORB01"
             ],
-            "requires": "|Player Level 11| AND |High Quality Work| AND |Craft Ingot| AND |Gather Leather| AND (|Pelt Armor| OR (|Cold Resistant Pelt Armor| AND |Gather Ice Organ|) OR (|Heat Resistant Pelt Armor| AND |Gather Flame Organ|))"
+            "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |High Quality Work| AND |Craft Ingot| AND |Gather Leather| AND (|Pelt Armor| OR (|Cold Resistant Pelt Armor| AND |Gather Ice Organ|) OR (|Heat Resistant Pelt Armor| AND |Gather Flame Organ|))"
         },
         {
             "name": "Craft Metal Armor",
@@ -10080,7 +10134,7 @@
                 "Crafting Possible",
                 "ORB02"
             ],
-            "requires": "|Player Level 21| AND |High Quality Work| AND |Craft Ingot| AND |Gather Leather| AND |Craft Cloth| AND (|Metal Armor| OR (|Cold Resistant Metal Armor| AND |Gather Ice Organ|) OR (|Heat Resistant Metal Armor| AND |Gather Flame Organ|))"
+            "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |High Quality Work| AND |Craft Ingot| AND |Gather Leather| AND |Craft Cloth| AND (|Metal Armor| OR (|Cold Resistant Metal Armor| AND |Gather Ice Organ|) OR (|Heat Resistant Metal Armor| AND |Gather Flame Organ|))"
         },
         {
             "name": "Craft Refined Metal Armor",
@@ -10088,7 +10142,7 @@
                 "Crafting Possible",
                 "ORB03"
             ],
-            "requires": "|Player Level 31| AND |Productive Work| AND |Craft Refined Ingot| AND |Gather Leather| AND |Craft High Quality Cloth| AND (|Refined Metal Armor| OR (|Heat Resistant Refined Metal Armor| AND |Gather Flame Organ|))"
+            "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Productive Work| AND |Craft Refined Ingot| AND |Gather Leather| AND |Craft High Quality Cloth| AND (|Refined Metal Armor| OR (|Heat Resistant Refined Metal Armor| AND |Gather Flame Organ|))"
         },
         {
             "name": "Craft Pal Metal Armor",
@@ -10096,7 +10150,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "|Player Level 41| AND |Productive Work 2| AND |Craft Pal Metal Ingot| AND |Gather Leather| AND |Craft High Quality Cloth| AND (|Pal Metal Armor| OR (|Cold Resistant Pal Metal Armor| AND |Gather Ice Organ|) OR (|Heat Resistant Pal Metal Armor| AND |Gather Flame Organ|))"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Productive Work 2| AND |Craft Pal Metal Ingot| AND |Gather Leather| AND |Craft High Quality Cloth| AND (|Pal Metal Armor| OR (|Cold Resistant Pal Metal Armor| AND |Gather Ice Organ|) OR (|Heat Resistant Pal Metal Armor| AND |Gather Flame Organ|))"
         },
         {
             "name": "Craft Plasteel Armor",
@@ -10104,7 +10158,7 @@
                 "Crafting Possible",
                 "ORB05"
             ],
-            "requires": "|Player Level 51| AND |Productive Work 2| AND |Craft Pal Metal Ingot| AND |Craft Plasteel| AND |Craft High Quality Cloth| AND (|Plasteel Armor| OR (|Cold Resistant Plasteel Armor| AND |Craft Cryogenic Coolant|) OR (|Heat Resistant Plasteel Armor| AND |Gather Flame Organ|) OR (|Lightweight Plasteel Armor| AND |Craft Corrosive Solvent|))"
+            "requires": "(|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Productive Work 2| AND |Craft Pal Metal Ingot| AND |Craft Plasteel| AND |Craft High Quality Cloth| AND (|Plasteel Armor| OR (|Cold Resistant Plasteel Armor| AND |Craft Cryogenic Coolant|) OR (|Heat Resistant Plasteel Armor| AND |Gather Flame Organ|) OR (|Lightweight Plasteel Armor| AND |Craft Corrosive Solvent|))"
         },
         {
             "name": "Craft Hexolite Armor",
@@ -10112,7 +10166,7 @@
                 "Crafting Possible",
                 "ORB06"
             ],
-            "requires": "|Player Level 56| AND |Productive Work 2| AND |Craft Hexolite| AND |Craft Plasteel| AND |Craft High Quality Cloth| AND |Hexolite Armor|"
+            "requires": "(|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Productive Work 2| AND |Craft Hexolite| AND |Craft Plasteel| AND |Craft High Quality Cloth| AND |Hexolite Armor|"
         },
         {
             "name": "Craft Ancient Armor",
@@ -10120,7 +10174,7 @@
                 "Crafting Possible",
                 "ORB07"
             ],
-            "requires": "|Player Level 61| AND |Ancient Work| AND |Craft Soralite Ingot| AND |Craft AI Core| AND |Ancient Armor|"
+            "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Work| AND |Craft Soralite Ingot| AND |Craft AI Core| AND |Ancient Armor|"
         },
         {
             "name": "Medieval Medicine",
@@ -10228,7 +10282,7 @@
                 "Crafting Possible",
                 "ORB08"
             ],
-            "requires": "|Player Level 71| AND |Ancient Farm| AND |Craft Paloxite Ingot| AND |Gather Ancient Civilization Core|"
+            "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Farm| AND |Craft Paloxite Ingot| AND |Gather Ancient Civilization Core|"
         },
         {
             "name": "Handiwork T1",

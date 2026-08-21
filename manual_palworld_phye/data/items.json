@@ -521,10 +521,56 @@
     },
     {
         "count": 1,
+        "name": "Bellanoir Defeated",
+        "category": [
+            "RaidLock",
+            "ORB03"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Bellanoir Libero Defeated",
+        "category": [
+            "RaidLock",
+            "ORB04"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Blazamut Ryu Defeated",
+        "category": [
+            "RaidLock",
+            "ORB05"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Xenolord Defeated",
+        "category": [
+            "RaidLock",
+            "ORB07"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Hartalis Defeated",
+        "category": [
+            "RaidLock",
+            "ORB08"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
         "name": "Palbox",
         "category": [
             "Build - Pal",
-            "Technology"
+            "Technology",
+            "Technology - Level 02"
         ],
         "progression": true
     },
@@ -541,7 +587,8 @@
         "name": "Campfire",
         "category": [
             "Build - Food",
-            "Technology"
+            "Technology",
+            "Technology - Level 02"
         ],
         "progression": true
     },
@@ -550,7 +597,8 @@
         "name": "Wooden Chest",
         "category": [
             "Build - Storage",
-            "Technology"
+            "Technology",
+            "Technology - Level 02"
         ],
         "progression": true
     },
@@ -559,7 +607,8 @@
         "name": "Repair Bench",
         "category": [
             "Build - Production",
-            "Technology"
+            "Technology",
+            "Technology - Level 02"
         ],
         "progression": true
     },
@@ -568,7 +617,8 @@
         "name": "Wooden Structure Set",
         "category": [
             "Build - Foundations",
-            "Technology"
+            "Technology",
+            "Technology - Level 02"
         ],
         "progression": true
     },
@@ -577,7 +627,8 @@
         "name": "Pal Dressing Facility",
         "category": [
             "Build - Pal",
-            "Technology"
+            "Technology",
+            "Technology - Level 02"
         ],
         "filler": true
     },
@@ -586,7 +637,8 @@
         "name": "Old Bow",
         "category": [
             "Weapons - Ranged",
-            "Technology"
+            "Technology",
+            "Technology - Level 03"
         ],
         "useful": true
     },
@@ -595,7 +647,8 @@
         "name": "Arrow",
         "category": [
             "Ammo",
-            "Technology"
+            "Technology",
+            "Technology - Level 03"
         ],
         "useful": true
     },
@@ -604,7 +657,8 @@
         "name": "Stone Spear",
         "category": [
             "Weapons - Melee",
-            "Technology"
+            "Technology",
+            "Technology - Level 03"
         ],
         "useful": true
     },
@@ -613,7 +667,8 @@
         "name": "Shoddy Bed",
         "category": [
             "Build - Infrastructure",
-            "Technology"
+            "Technology",
+            "Technology - Level 03"
         ],
         "progression": true
     },
@@ -622,7 +677,8 @@
         "name": "Straw Pal Bed",
         "category": [
             "Build - Infrastructure",
-            "Technology"
+            "Technology",
+            "Technology - Level 03"
         ],
         "progression": true
     },
@@ -631,7 +687,8 @@
         "name": "Global Palbox",
         "category": [
             "Build - Pal",
-            "Technology"
+            "Technology",
+            "Technology - Level 03"
         ],
         "filler": true
     },
@@ -640,7 +697,8 @@
         "name": "Progressive Shield",
         "category": [
             "Armor - Shields",
-            "Technology"
+            "Technology",
+            "Technology - Progressive"
         ],
         "progression": true,
         "classification_count": {
@@ -661,7 +719,8 @@
         "name": "Cloth",
         "category": [
             "Materials",
-            "Technology"
+            "Technology",
+            "Technology - Level 04"
         ],
         "progression": true
     },
@@ -670,7 +729,8 @@
         "name": "Feed Box",
         "category": [
             "Build - Food",
-            "Technology"
+            "Technology",
+            "Technology - Level 04"
         ],
         "progression": true
     },
@@ -679,7 +739,8 @@
         "name": "Berry Plantation",
         "category": [
             "Build - Food",
-            "Technology"
+            "Technology",
+            "Technology - Level 05"
         ],
         "progression": true
     },
@@ -688,7 +749,8 @@
         "name": "Ranch",
         "category": [
             "Build - Pal",
-            "Technology"
+            "Technology",
+            "Technology - Level 05"
         ],
         "progression": true
     },
@@ -705,7 +767,8 @@
         "name": "Wooden Living Room Furniture Set",
         "category": [
             "Build - Furniture",
-            "Technology"
+            "Technology",
+            "Technology - Level 05"
         ],
         "filler": true
     },
@@ -714,7 +777,8 @@
         "name": "Wooden Tavern Furniture Set",
         "category": [
             "Build - Furniture",
-            "Technology"
+            "Technology",
+            "Technology - Level 05"
         ],
         "filler": true
     },
@@ -723,7 +787,8 @@
         "name": "Wooden Tavern Cabinet Furniture Set",
         "category": [
             "Build - Storage",
-            "Technology"
+            "Technology",
+            "Technology - Level 05"
         ],
         "useful": true
     },
@@ -732,7 +797,8 @@
         "name": "Pal Gear Workbench",
         "category": [
             "Build - Production",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "progression": true
     },
@@ -741,7 +807,8 @@
         "name": "Fire Arrow",
         "category": [
             "Ammo",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "useful": true
     },
@@ -750,7 +817,8 @@
         "name": "Mounted Torch",
         "category": [
             "Build - Lighting",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "filler": true
     },
@@ -759,7 +827,8 @@
         "name": "Sign",
         "category": [
             "Build - Other",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "filler": true
     },
@@ -768,7 +837,8 @@
         "name": "Wall-Mounted Sign",
         "category": [
             "Build - Other",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "filler": true
     },
@@ -778,7 +848,8 @@
         "category": [
             "Pal Gear",
             "Pal Gear - Ground Mounts",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "progression": true
     },
@@ -787,7 +858,8 @@
         "name": "Foxparks' Harness",
         "category": [
             "Pal Gear",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "progression": true
     },
@@ -796,7 +868,8 @@
         "name": "Houseplant Set",
         "category": [
             "Build - Furniture",
-            "Technology"
+            "Technology",
+            "Technology - Level 06"
         ],
         "filler": true
     },
@@ -805,27 +878,8 @@
         "name": "Monitoring Stand",
         "category": [
             "Build - Pal",
-            "Technology"
-        ],
-        "useful": true
-    },
-    {
-        "count": 1,
-        "name": "High Quality Monitoring Stand",
-        "category": [
-            "Build - Pal",
             "Technology",
-            "ORB02"
-        ],
-        "useful": true
-    },
-    {
-        "count": 1,
-        "name": "Ancient Monitoring Stand",
-        "category": [
-            "Build - Pal",
-            "Technology",
-            "ORB08"
+            "Technology - Level 07"
         ],
         "useful": true
     },
@@ -834,7 +888,8 @@
         "name": "Bat",
         "category": [
             "Weapons - Melee",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "useful": true
     },
@@ -843,7 +898,8 @@
         "name": "Logging Site",
         "category": [
             "Build - Production",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "progression": true
     },
@@ -852,7 +908,8 @@
         "name": "Stone Pit",
         "category": [
             "Build - Production",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "progression": true
     },
@@ -861,7 +918,8 @@
         "name": "Sandbag",
         "category": [
             "Build - Defenses",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "useful": true
     },
@@ -870,7 +928,8 @@
         "name": "Alarm Bell",
         "category": [
             "Build - Defenses",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "useful": true
     },
@@ -880,7 +939,8 @@
         "category": [
             "Pal Gear",
             "Pal Gear - Ground Mounts",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "progression": true
     },
@@ -889,7 +949,8 @@
         "name": "Wall-Mounted Houseplant Set",
         "category": [
             "Build - Furniture",
-            "Technology"
+            "Technology",
+            "Technology - Level 07"
         ],
         "filler": true
     },
@@ -898,7 +959,8 @@
         "name": "Crusher",
         "category": [
             "Build - Production",
-            "Technology"
+            "Technology",
+            "Technology - Level 08"
         ],
         "progression": true
     },
@@ -907,7 +969,8 @@
         "name": "Poison Arrow",
         "category": [
             "Ammo",
-            "Technology"
+            "Technology",
+            "Technology - Level 08"
         ],
         "useful": true
     },
@@ -916,7 +979,8 @@
         "name": "Wooden Defensive Wall",
         "category": [
             "Build - Foundations",
-            "Technology"
+            "Technology",
+            "Technology - Level 08"
         ],
         "useful": true
     },
@@ -925,7 +989,8 @@
         "name": "Wooden Gate",
         "category": [
             "Build - Foundations",
-            "Technology"
+            "Technology",
+            "Technology - Level 08"
         ],
         "useful": true
     },
@@ -934,7 +999,8 @@
         "name": "Hanging Trap",
         "category": [
             "Build - Defenses",
-            "Technology"
+            "Technology",
+            "Technology - Level 08"
         ],
         "useful": true
     },
@@ -943,7 +1009,8 @@
         "name": "Fireplace Set",
         "category": [
             "Build - Lighting",
-            "Technology"
+            "Technology",
+            "Technology - Level 08"
         ],
         "filler": true
     },
@@ -952,7 +1019,8 @@
         "name": "Statue of Power",
         "category": [
             "Build - Pal",
-            "Technology"
+            "Technology",
+            "Technology - Level 09"
         ],
         "progression": true
     },
@@ -961,7 +1029,8 @@
         "name": "Progressive Feed Bag",
         "category": [
             "Key Items",
-            "Technology"
+            "Technology",
+            "Technology - Progressive"
         ],
         "useful": true
     },
@@ -970,7 +1039,8 @@
         "name": "Tropical Outfit",
         "category": [
             "Armor - Body",
-            "Technology"
+            "Technology",
+            "Technology - Level 09"
         ],
         "progression": true
     },
@@ -979,7 +1049,8 @@
         "name": "Tundra Outfit",
         "category": [
             "Armor - Body",
-            "Technology"
+            "Technology",
+            "Technology - Level 09"
         ],
         "progression": true
     },
@@ -988,39 +1059,10 @@
         "name": "Hot Spring",
         "category": [
             "Build - Infrastructure",
-            "Technology"
+            "Technology",
+            "Technology - Level 09"
         ],
         "progression": true
-    },
-    {
-        "count": 1,
-        "name": "High Quality Hot Spring",
-        "category": [
-            "Build - Infrastructure",
-            "Technology",
-            "ORB03"
-        ],
-        "progression": true
-    },
-    {
-        "count": 1,
-        "name": "Japanese-Style Hot Spring",
-        "category": [
-            "Build - Infrastructure",
-            "Technology",
-            "ORB07"
-        ],
-        "useful": true
-    },
-    {
-        "count": 1,
-        "name": "Ancient Hot Spring",
-        "category": [
-            "Build - Infrastructure",
-            "Technology",
-            "ORB08"
-        ],
-        "useful": true
     },
     {
         "count": 1,
@@ -1028,7 +1070,8 @@
         "category": [
             "Pal Gear",
             "Pal Gear - Ground Mounts",
-            "Technology"
+            "Technology",
+            "Technology - Level 09"
         ],
         "progression": true
     },
@@ -1037,7 +1080,8 @@
         "name": "Carpet Set",
         "category": [
             "Build - Furniture",
-            "Technology"
+            "Technology",
+            "Technology - Level 09"
         ],
         "filler": true
     },
@@ -1062,7 +1106,8 @@
         "name": "Three Shot Bow",
         "category": [
             "Weapons - Ranged",
-            "Technology"
+            "Technology",
+            "Technology - Level 10"
         ],
         "useful": true
     },
@@ -1071,7 +1116,8 @@
         "name": "Feathered Hair Band",
         "category": [
             "Armor - Headgear",
-            "Technology"
+            "Technology",
+            "Technology - Level 10"
         ],
         "useful": true
     },
@@ -1080,7 +1126,8 @@
         "name": "Nail",
         "category": [
             "Materials",
-            "Technology"
+            "Technology",
+            "Technology - Level 10"
         ],
         "progression": true
     },
@@ -1089,7 +1136,8 @@
         "name": "Ladder",
         "category": [
             "Build - Foundations",
-            "Technology"
+            "Technology",
+            "Technology - Level 10"
         ],
         "useful": true
     },
@@ -1098,7 +1146,8 @@
         "name": "Bear Trap (Small)",
         "category": [
             "Build - Defenses",
-            "Technology"
+            "Technology",
+            "Technology - Level 10"
         ],
         "useful": true
     },
@@ -1107,7 +1156,8 @@
         "name": "Antique Storage Set",
         "category": [
             "Build - Storage",
-            "Technology"
+            "Technology",
+            "Technology - Level 10"
         ],
         "useful": true
     },
@@ -1141,8 +1191,7 @@
         "count": 5,
         "name": "Progressive Workbench",
         "category": [
-            "Build - Production",
-            "Technology",
+            "Hidden",
             "ORB01"
         ],
         "progression": true
@@ -1153,6 +1202,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 11",
             "ORB01"
         ],
         "filler": true
@@ -1164,6 +1214,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 11",
             "ORB01"
         ],
         "progression": true
@@ -1174,6 +1225,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 11",
             "ORB01"
         ],
         "useful": true
@@ -1184,6 +1236,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 11",
             "ORB01"
         ],
         "filler": true
@@ -1194,6 +1247,7 @@
         "category": [
             "Weapons - Tools",
             "Technology",
+            "Technology - Level 12",
             "ORB01"
         ],
         "useful": true
@@ -1204,6 +1258,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 12",
             "ORB01"
         ],
         "progression": true
@@ -1214,6 +1269,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 12",
             "ORB01"
         ],
         "useful": true
@@ -1225,6 +1281,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 12",
             "ORB01"
         ],
         "progression": true
@@ -1235,6 +1292,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 12",
             "ORB01"
         ],
         "filler": true
@@ -1245,6 +1303,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 12",
             "ORB01"
         ],
         "filler": true
@@ -1255,6 +1314,7 @@
         "category": [
             "Weapons - Tools",
             "Ancient Technology",
+            "Technology - Progressive",
             "ORB01"
         ],
         "useful": true
@@ -1265,6 +1325,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "useful": true
@@ -1275,6 +1336,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "useful": true
@@ -1285,6 +1347,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "progression": true
@@ -1295,6 +1358,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "progression": true
@@ -1305,6 +1369,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "filler": true
@@ -1315,6 +1380,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "useful": true
@@ -1325,6 +1391,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 13",
             "ORB01"
         ],
         "useful": true
@@ -1335,6 +1402,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 14",
             "ORB01"
         ],
         "progression": true
@@ -1345,6 +1413,7 @@
         "category": [
             "Build - Lighting",
             "Technology",
+            "Technology - Level 14",
             "ORB01"
         ],
         "filler": true
@@ -1356,6 +1425,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 14",
             "ORB01"
         ],
         "progression": true
@@ -1366,6 +1436,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 14",
             "ORB01"
         ],
         "filler": true
@@ -1376,6 +1447,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 14",
             "ORB01"
         ],
         "filler": true
@@ -1386,6 +1458,7 @@
         "category": [
             "Build - Pal",
             "Ancient Technology",
+            "Technology - Level 14",
             "ORB01"
         ],
         "progression": true
@@ -1395,6 +1468,7 @@
         "name": "Beginner Fishing Set",
         "category": [
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "progression": true
@@ -1405,6 +1479,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "progression": true
@@ -1415,6 +1490,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "progression": true
@@ -1425,6 +1501,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "progression": true
@@ -1435,6 +1512,7 @@
         "category": [
             "Build - Pal",
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "filler": true
@@ -1446,6 +1524,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "progression": true
@@ -1457,6 +1536,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "progression": true
@@ -1467,6 +1547,7 @@
         "category": [
             "Key Items",
             "Ancient Technology",
+            "Technology - Level 15",
             "ORB01"
         ],
         "useful": true
@@ -1477,6 +1558,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 16",
             "ORB01"
         ],
         "progression": true
@@ -1488,6 +1570,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 16",
             "ORB01"
         ],
         "progression": true
@@ -1498,6 +1581,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 16",
             "ORB01"
         ],
         "filler": true
@@ -1508,6 +1592,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 16",
             "ORB01"
         ],
         "filler": true
@@ -1518,6 +1603,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 16",
             "ORB01"
         ],
         "filler": true
@@ -1528,6 +1614,7 @@
         "category": [
             "Key Items",
             "Ancient Technology",
+            "Technology - Progressive",
             "ORB01"
         ],
         "useful": true
@@ -1538,6 +1625,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "useful": true
@@ -1548,6 +1636,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "progression": true
@@ -1558,6 +1647,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "useful": true
@@ -1568,6 +1658,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "filler": true
@@ -1578,6 +1669,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "useful": true
@@ -1588,6 +1680,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "filler": true
@@ -1598,6 +1691,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 17",
             "ORB01"
         ],
         "useful": true
@@ -1608,6 +1702,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "progression": true
@@ -1618,6 +1713,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "useful": true
@@ -1628,6 +1724,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "useful": true
@@ -1638,6 +1735,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "useful": true
@@ -1648,6 +1746,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "filler": true
@@ -1658,6 +1757,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "filler": true
@@ -1668,6 +1768,7 @@
         "category": [
             "Accessories",
             "Ancient Technology",
+            "Technology - Level 18",
             "ORB01"
         ],
         "useful": true
@@ -1678,6 +1779,7 @@
         "category": [
             "Build - Pal",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "progression": true
@@ -1688,6 +1790,7 @@
         "category": [
             "Sphere Modules",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "useful": true
@@ -1698,6 +1801,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "progression": true
@@ -1708,6 +1812,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "progression": true
@@ -1718,6 +1823,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "useful": true
@@ -1728,6 +1834,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "useful": true
@@ -1739,6 +1846,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "progression": true
@@ -1749,6 +1857,7 @@
         "category": [
             "Build - Pal",
             "Ancient Technology",
+            "Technology - Level 19",
             "ORB01"
         ],
         "progression": true
@@ -1759,6 +1868,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "progression": true
@@ -1769,6 +1879,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "useful": true
@@ -1779,6 +1890,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "filler": true
@@ -1790,6 +1902,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "progression": true
@@ -1801,6 +1914,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "progression": true
@@ -1812,6 +1926,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "progression": true
@@ -1822,6 +1937,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "filler": true
@@ -1832,6 +1948,7 @@
         "category": [
             "Build - Pal",
             "Ancient Technology",
+            "Technology - Level 20",
             "ORB01"
         ],
         "useful": true
@@ -1842,6 +1959,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "useful": true
@@ -1852,6 +1970,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "progression": true
@@ -1862,6 +1981,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "useful": true
@@ -1872,6 +1992,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "progression": true
@@ -1882,6 +2003,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "useful": true
@@ -1892,6 +2014,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "useful": true
@@ -1903,6 +2026,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "progression": true
@@ -1914,6 +2038,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "progression": true
@@ -1924,6 +2049,7 @@
         "category": [
             "Build - Furniture",
             "Ancient Technology",
+            "Technology - Level 21",
             "ORB02"
         ],
         "useful": true
@@ -1934,6 +2060,7 @@
         "category": [
             "Build - Pal",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "progression": true
@@ -1944,6 +2071,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "useful": true
@@ -1954,6 +2082,7 @@
         "category": [
             "Consumables - Fishing Bait",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "progression": true
@@ -1964,6 +2093,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "filler": true
@@ -1974,6 +2104,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "filler": true
@@ -1985,6 +2116,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "progression": true
@@ -1995,6 +2127,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "filler": true
@@ -2005,6 +2138,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "filler": true
@@ -2015,6 +2149,7 @@
         "category": [
             "Consumables",
             "Ancient Technology",
+            "Technology - Level 22",
             "ORB02"
         ],
         "useful": true
@@ -2025,6 +2160,7 @@
         "category": [
             "Armor - Headgear",
             "Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "useful": true
@@ -2035,6 +2171,7 @@
         "category": [
             "Sphere Modules",
             "Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "useful": true
@@ -2045,6 +2182,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "useful": true
@@ -2056,6 +2194,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "progression": true
@@ -2066,6 +2205,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "filler": true
@@ -2076,6 +2216,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "useful": true
@@ -2086,6 +2227,7 @@
         "category": [
             "Key Items",
             "Ancient Technology",
+            "Technology - Level 23",
             "ORB02"
         ],
         "useful": true
@@ -2096,6 +2238,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "useful": true
@@ -2106,6 +2249,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "progression": true
@@ -2116,6 +2260,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "useful": true
@@ -2126,6 +2271,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "useful": true
@@ -2136,6 +2282,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "useful": true
@@ -2146,6 +2293,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "useful": true
@@ -2157,6 +2305,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "progression": true
@@ -2168,6 +2317,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "progression": true
@@ -2178,6 +2328,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 24",
             "ORB02"
         ],
         "useful": true
@@ -2188,6 +2339,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "useful": true
@@ -2198,6 +2350,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "useful": true
@@ -2208,6 +2361,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "progression": true
@@ -2218,6 +2372,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "progression": true
@@ -2228,6 +2383,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "useful": true
@@ -2238,6 +2394,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "useful": true
@@ -2249,6 +2406,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "progression": true
@@ -2260,6 +2418,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 25",
             "ORB02"
         ],
         "progression": true
@@ -2270,6 +2429,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "useful": true
@@ -2280,6 +2440,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "progression": true
@@ -2290,6 +2451,7 @@
         "category": [
             "Build - Lighting",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "filler": true
@@ -2300,6 +2462,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "progression": true
@@ -2310,6 +2473,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "useful": true
@@ -2321,6 +2485,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "progression": true
@@ -2332,6 +2497,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "progression": true
@@ -2342,6 +2508,7 @@
         "category": [
             "Build - Lighting",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "filler": true
@@ -2352,6 +2519,7 @@
         "category": [
             "Weapons - Sphere Launchers",
             "Technology",
+            "Technology - Level 26",
             "ORB02"
         ],
         "useful": true
@@ -2362,6 +2530,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "progression": true
@@ -2372,6 +2541,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "progression": true
@@ -2382,6 +2552,7 @@
         "category": [
             "Key Items",
             "Technology",
+            "Technology - Progressive",
             "ORB02"
         ],
         "useful": true
@@ -2392,6 +2563,7 @@
         "category": [
             "Build - Lighting",
             "Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "filler": true
@@ -2402,6 +2574,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "useful": true
@@ -2413,6 +2586,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "progression": true
@@ -2423,6 +2597,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "filler": true
@@ -2433,6 +2608,7 @@
         "category": [
             "Key Items",
             "Ancient Technology",
+            "Technology - Level 27",
             "ORB02"
         ],
         "useful": true
@@ -2443,6 +2619,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "useful": true
@@ -2453,6 +2630,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "useful": true
@@ -2463,6 +2641,18 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 28",
+            "ORB02"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "High Quality Monitoring Stand",
+        "category": [
+            "Build - Pal",
+            "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "useful": true
@@ -2473,6 +2663,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "useful": true
@@ -2483,6 +2674,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "filler": true
@@ -2494,6 +2686,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "progression": true
@@ -2505,6 +2698,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "progression": true
@@ -2515,6 +2709,7 @@
         "category": [
             "Accessories",
             "Ancient Technology",
+            "Technology - Level 28",
             "ORB02"
         ],
         "useful": true
@@ -2525,6 +2720,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "useful": true
@@ -2536,6 +2732,7 @@
             "Weapons - Tools",
             "Fishing Rods",
             "Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "progression": true
@@ -2546,6 +2743,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "progression": true
@@ -2556,6 +2754,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "useful": true
@@ -2567,6 +2766,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "progression": true
@@ -2578,6 +2778,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "progression": true
@@ -2588,6 +2789,7 @@
         "category": [
             "Key Items",
             "Ancient Technology",
+            "Technology - Level 29",
             "ORB02"
         ],
         "useful": true
@@ -2598,6 +2800,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "useful": true
@@ -2608,6 +2811,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "useful": true
@@ -2618,6 +2822,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "progression": true
@@ -2628,6 +2833,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "useful": true
@@ -2638,6 +2844,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "useful": true
@@ -2648,6 +2855,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "useful": true
@@ -2658,6 +2866,7 @@
         "category": [
             "Consumables - Food",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "progression": true
@@ -2669,6 +2878,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "progression": true
@@ -2680,6 +2890,7 @@
             "Weapons - Melee",
             "Weapons - Ranged",
             "Ancient Technology",
+            "Technology - Level 30",
             "ORB02"
         ],
         "useful": true
@@ -2690,6 +2901,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "useful": true
@@ -2700,6 +2912,7 @@
         "category": [
             "Sphere Modules",
             "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "useful": true
@@ -2710,6 +2923,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "progression": true
@@ -2720,6 +2934,18 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 31",
+            "ORB03"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "High Quality Hot Spring",
+        "category": [
+            "Build - Infrastructure",
+            "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "progression": true
@@ -2730,6 +2956,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "useful": true
@@ -2741,6 +2968,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "progression": true
@@ -2752,6 +2980,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 31",
             "ORB03"
         ],
         "progression": true
@@ -2762,6 +2991,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "progression": true
@@ -2772,6 +3002,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "useful": true
@@ -2782,6 +3013,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "progression": true
@@ -2792,6 +3024,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "useful": true
@@ -2802,6 +3035,7 @@
         "category": [
             "Build - Pal",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "useful": true
@@ -2813,6 +3047,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "progression": true
@@ -2824,6 +3059,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "progression": true
@@ -2835,6 +3071,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "progression": true
@@ -2846,6 +3083,7 @@
             "Armor - Body",
             "Weapons - Ranged",
             "Ancient Technology",
+            "Technology - Level 32",
             "ORB03"
         ],
         "useful": true
@@ -2856,6 +3094,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "useful": true
@@ -2866,6 +3105,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "progression": true
@@ -2876,6 +3116,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "useful": true
@@ -2886,6 +3127,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "useful": true
@@ -2896,6 +3138,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "useful": true
@@ -2907,6 +3150,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "progression": true
@@ -2918,6 +3162,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "progression": true
@@ -2929,6 +3174,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "progression": true
@@ -2939,6 +3185,7 @@
         "category": [
             "Build - Other",
             "Ancient Technology",
+            "Technology - Level 33",
             "ORB03"
         ],
         "progression": true
@@ -2949,6 +3196,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 34",
             "ORB03"
         ],
         "useful": true
@@ -2960,6 +3208,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 34",
             "ORB03"
         ],
         "progression": true
@@ -2971,6 +3220,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 34",
             "ORB03"
         ],
         "progression": true
@@ -2982,6 +3232,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 34",
             "ORB03"
         ],
         "progression": true
@@ -2992,6 +3243,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 34",
             "ORB03"
         ],
         "filler": true
@@ -3002,6 +3254,7 @@
         "category": [
             "Accessories",
             "Ancient Technology",
+            "Technology - Level 34",
             "ORB03"
         ],
         "useful": true
@@ -3012,6 +3265,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "progression": true
@@ -3022,6 +3276,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "progression": true
@@ -3032,6 +3287,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "progression": true
@@ -3042,6 +3298,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "useful": true
@@ -3053,6 +3310,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "progression": true
@@ -3064,6 +3322,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "progression": true
@@ -3074,6 +3333,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 35",
             "ORB03"
         ],
         "filler": true
@@ -3084,6 +3344,7 @@
         "category": [
             "Accessories",
             "Ancient Technology",
+            "Technology - Progressive",
             "ORB03"
         ],
         "useful": true
@@ -3094,6 +3355,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "useful": true
@@ -3104,6 +3366,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "useful": true
@@ -3114,6 +3377,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "progression": true
@@ -3124,6 +3388,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "progression": true
@@ -3134,6 +3399,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "progression": true
@@ -3145,6 +3411,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "progression": true
@@ -3156,6 +3423,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 36",
             "ORB03"
         ],
         "progression": true
@@ -3166,6 +3434,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "useful": true
@@ -3176,6 +3445,7 @@
         "category": [
             "Armor - Headgear",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "useful": true
@@ -3186,6 +3456,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "progression": true
@@ -3196,6 +3467,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "useful": true
@@ -3207,6 +3479,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "progression": true
@@ -3217,6 +3490,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "filler": true
@@ -3227,6 +3501,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "filler": true
@@ -3237,6 +3512,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 37",
             "ORB03"
         ],
         "useful": true
@@ -3247,6 +3523,7 @@
         "category": [
             "Build - Pal",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "useful": true
@@ -3257,6 +3534,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "useful": true
@@ -3267,6 +3545,7 @@
         "category": [
             "Consumables - Fishing Bait",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "progression": true
@@ -3277,6 +3556,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "progression": true
@@ -3287,6 +3567,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "useful": true
@@ -3297,6 +3578,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "useful": true
@@ -3308,6 +3590,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "progression": true
@@ -3318,6 +3601,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "filler": true
@@ -3328,6 +3612,7 @@
         "category": [
             "Weapons - Sphere Launchers",
             "Ancient Technology",
+            "Technology - Level 38",
             "ORB03"
         ],
         "useful": true
@@ -3338,6 +3623,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "filler": true
@@ -3348,6 +3634,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "useful": true
@@ -3358,6 +3645,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "useful": true
@@ -3368,6 +3656,7 @@
         "category": [
             "Sphere Modules",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "useful": true
@@ -3378,6 +3667,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "progression": true
@@ -3389,6 +3679,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "progression": true
@@ -3400,6 +3691,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "progression": true
@@ -3411,6 +3703,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "progression": true
@@ -3421,6 +3714,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 39",
             "ORB03"
         ],
         "useful": true
@@ -3431,6 +3725,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "useful": true
@@ -3441,6 +3736,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "progression": true
@@ -3451,6 +3747,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "useful": true
@@ -3461,6 +3758,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "useful": true
@@ -3472,6 +3770,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "progression": true
@@ -3483,6 +3782,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "progression": true
@@ -3494,6 +3794,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "progression": true
@@ -3504,6 +3805,7 @@
         "category": [
             "Accessories",
             "Ancient Technology",
+            "Technology - Level 40",
             "ORB03"
         ],
         "useful": true
@@ -3514,6 +3816,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "useful": true
@@ -3524,6 +3827,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "progression": true
@@ -3534,6 +3838,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "progression": true
@@ -3544,6 +3849,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "useful": true
@@ -3554,6 +3860,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "useful": true
@@ -3565,6 +3872,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "progression": true
@@ -3576,6 +3884,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "progression": true
@@ -3587,6 +3896,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "progression": true
@@ -3597,6 +3907,7 @@
         "category": [
             "Build - Storage",
             "Ancient Technology",
+            "Technology - Level 41",
             "ORB04"
         ],
         "progression": true
@@ -3607,6 +3918,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "useful": true
@@ -3617,6 +3929,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "useful": true
@@ -3627,6 +3940,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "useful": true
@@ -3637,6 +3951,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "useful": true
@@ -3648,6 +3963,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "progression": true
@@ -3659,6 +3975,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "progression": true
@@ -3670,6 +3987,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 42",
             "ORB04"
         ],
         "progression": true
@@ -3680,6 +3998,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 43",
             "ORB04"
         ],
         "useful": true
@@ -3690,6 +4009,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 43",
             "ORB04"
         ],
         "progression": true
@@ -3700,6 +4020,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 43",
             "ORB04"
         ],
         "progression": true
@@ -3711,6 +4032,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 43",
             "ORB04"
         ],
         "progression": true
@@ -3722,6 +4044,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 43",
             "ORB04"
         ],
         "progression": true
@@ -3732,6 +4055,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 43",
             "ORB04"
         ],
         "useful": true
@@ -3742,6 +4066,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 44",
             "ORB04"
         ],
         "progression": true
@@ -3752,6 +4077,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 44",
             "ORB04"
         ],
         "useful": true
@@ -3763,6 +4089,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 44",
             "ORB04"
         ],
         "progression": true
@@ -3774,6 +4101,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 44",
             "ORB04"
         ],
         "progression": true
@@ -3784,6 +4112,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "progression": true
@@ -3794,6 +4123,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "useful": true
@@ -3804,6 +4134,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "useful": true
@@ -3815,6 +4146,7 @@
             "Weapons - Tools",
             "Fishing Rods",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "progression": true
@@ -3825,6 +4157,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "useful": true
@@ -3836,6 +4169,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "progression": true
@@ -3847,6 +4181,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "progression": true
@@ -3858,6 +4193,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "progression": true
@@ -3868,6 +4204,7 @@
         "category": [
             "Weapons - Tools",
             "Ancient Technology",
+            "Technology - Level 45",
             "ORB04"
         ],
         "filler": true
@@ -3878,6 +4215,7 @@
         "category": [
             "Armor - Headgear",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "useful": true
@@ -3888,6 +4226,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "useful": true
@@ -3898,6 +4237,7 @@
         "category": [
             "Build - Lighting",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "filler": true
@@ -3909,6 +4249,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "progression": true
@@ -3920,6 +4261,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "progression": true
@@ -3930,6 +4272,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "filler": true
@@ -3940,6 +4283,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "filler": true
@@ -3950,6 +4294,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 46",
             "ORB04"
         ],
         "useful": true
@@ -3960,6 +4305,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "useful": true
@@ -3970,6 +4316,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "progression": true
@@ -3980,6 +4327,7 @@
         "category": [
             "Consumables - Food",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "progression": true
@@ -3990,6 +4338,7 @@
         "category": [
             "Build - Lighting",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "filler": true
@@ -4001,6 +4350,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "progression": true
@@ -4012,6 +4362,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "progression": true
@@ -4022,6 +4373,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 47",
             "ORB04"
         ],
         "filler": true
@@ -4032,6 +4384,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "progression": true
@@ -4042,6 +4395,7 @@
         "category": [
             "Sphere Modules",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "useful": true
@@ -4052,6 +4406,7 @@
         "category": [
             "Build - Other",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "useful": true
@@ -4063,6 +4418,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "progression": true
@@ -4074,6 +4430,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "progression": true
@@ -4085,6 +4442,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "progression": true
@@ -4095,6 +4453,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 48",
             "ORB04"
         ],
         "filler": true
@@ -4105,6 +4464,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 49",
             "ORB04"
         ],
         "progression": true
@@ -4115,6 +4475,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 49",
             "ORB04"
         ],
         "progression": true
@@ -4125,6 +4486,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 49",
             "ORB04"
         ],
         "progression": true
@@ -4135,6 +4497,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 49",
             "ORB04"
         ],
         "filler": true
@@ -4145,6 +4508,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 49",
             "ORB04"
         ],
         "filler": true
@@ -4155,6 +4519,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 49",
             "ORB04"
         ],
         "filler": true
@@ -4165,6 +4530,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 50",
             "ORB04"
         ],
         "progression": true
@@ -4175,6 +4541,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 50",
             "ORB04"
         ],
         "progression": true
@@ -4185,6 +4552,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 50",
             "ORB04"
         ],
         "progression": true
@@ -4195,6 +4563,7 @@
         "category": [
             "Build - Defenses",
             "Technology",
+            "Technology - Level 50",
             "ORB04"
         ],
         "useful": true
@@ -4205,6 +4574,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 50",
             "ORB04"
         ],
         "filler": true
@@ -4215,6 +4585,7 @@
         "category": [
             "Build - Infrastructure",
             "Ancient Technology",
+            "Technology - Level 50",
             "ORB04"
         ],
         "progression": true
@@ -4225,6 +4596,7 @@
         "category": [
             "Armor - Headgear",
             "Technology",
+            "Technology - Level 51",
             "ORB05"
         ],
         "useful": true
@@ -4235,6 +4607,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 51",
             "ORB05"
         ],
         "useful": true
@@ -4245,6 +4618,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 51",
             "ORB05"
         ],
         "useful": true
@@ -4255,6 +4629,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 51",
             "ORB05"
         ],
         "progression": true
@@ -4266,6 +4641,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 51",
             "ORB05"
         ],
         "progression": true
@@ -4276,6 +4652,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 51",
             "ORB05"
         ],
         "progression": true
@@ -4286,6 +4663,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 52",
             "ORB05"
         ],
         "useful": true
@@ -4296,6 +4674,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 52",
             "ORB05"
         ],
         "useful": true
@@ -4306,6 +4685,7 @@
         "category": [
             "Consumables - Fishing Bait",
             "Technology",
+            "Technology - Level 52",
             "ORB05"
         ],
         "progression": true
@@ -4316,6 +4696,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 52",
             "ORB05"
         ],
         "useful": true
@@ -4326,6 +4707,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 52",
             "ORB05"
         ],
         "useful": true
@@ -4336,6 +4718,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 53",
             "ORB05"
         ],
         "progression": true
@@ -4346,6 +4729,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 53",
             "ORB05"
         ],
         "useful": true
@@ -4356,6 +4740,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 53",
             "ORB05"
         ],
         "useful": true
@@ -4366,6 +4751,7 @@
         "category": [
             "Weapons - Grenades",
             "Technology",
+            "Technology - Level 53",
             "ORB05"
         ],
         "useful": true
@@ -4377,6 +4763,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 53",
             "ORB05"
         ],
         "progression": true
@@ -4388,6 +4775,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 53",
             "ORB05"
         ],
         "progression": true
@@ -4398,6 +4786,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "progression": true
@@ -4408,6 +4797,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "useful": true
@@ -4418,6 +4808,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "useful": true
@@ -4428,6 +4819,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "progression": true
@@ -4439,6 +4831,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "progression": true
@@ -4450,6 +4843,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "progression": true
@@ -4460,6 +4854,7 @@
         "category": [
             "Key Items",
             "Ancient Technology",
+            "Technology - Level 54",
             "ORB05"
         ],
         "useful": true
@@ -4470,6 +4865,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "useful": true
@@ -4480,6 +4876,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "progression": true
@@ -4491,6 +4888,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "progression": true
@@ -4502,6 +4900,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "progression": true
@@ -4512,6 +4911,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "useful": true
@@ -4522,6 +4922,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "filler": true
@@ -4532,6 +4933,7 @@
         "category": [
             "Weapons - Sphere Launchers",
             "Ancient Technology",
+            "Technology - Level 55",
             "ORB05"
         ],
         "useful": true
@@ -4542,6 +4944,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 56",
             "ORB06"
         ],
         "useful": true
@@ -4552,6 +4955,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 56",
             "ORB06"
         ],
         "useful": true
@@ -4562,6 +4966,7 @@
         "category": [
             "Build - Pal",
             "Technology",
+            "Technology - Level 56",
             "ORB06"
         ],
         "useful": true
@@ -4572,6 +4977,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 56",
             "ORB06"
         ],
         "useful": true
@@ -4582,6 +4988,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 56",
             "ORB06"
         ],
         "filler": true
@@ -4593,6 +5000,7 @@
             "Armor - Body",
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 56",
             "ORB06"
         ],
         "useful": true
@@ -4603,6 +5011,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 57",
             "ORB06"
         ],
         "useful": true
@@ -4613,6 +5022,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 57",
             "ORB06"
         ],
         "useful": true
@@ -4623,6 +5033,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 57",
             "ORB06"
         ],
         "useful": true
@@ -4634,6 +5045,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 57",
             "ORB06"
         ],
         "progression": true
@@ -4645,6 +5057,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 57",
             "ORB06"
         ],
         "progression": true
@@ -4656,6 +5069,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 57",
             "ORB06"
         ],
         "progression": true
@@ -4666,6 +5080,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 58",
             "ORB06"
         ],
         "progression": true
@@ -4676,6 +5091,7 @@
         "category": [
             "Weapons - Tools",
             "Technology",
+            "Technology - Level 58",
             "ORB06"
         ],
         "progression": true
@@ -4686,6 +5102,7 @@
         "category": [
             "Pal Gear",
             "Technology",
+            "Technology - Level 58",
             "ORB06"
         ],
         "progression": true
@@ -4697,6 +5114,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 58",
             "ORB06"
         ],
         "progression": true
@@ -4707,6 +5125,7 @@
         "category": [
             "Build - Storage",
             "Technology",
+            "Technology - Level 59",
             "ORB06"
         ],
         "progression": true
@@ -4717,6 +5136,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 59",
             "ORB06"
         ],
         "useful": true
@@ -4727,6 +5147,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 59",
             "ORB06"
         ],
         "useful": true
@@ -4737,6 +5158,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 59",
             "ORB06"
         ],
         "progression": true
@@ -4748,6 +5170,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 59",
             "ORB06"
         ],
         "progression": true
@@ -4759,6 +5182,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 59",
             "ORB06"
         ],
         "progression": true
@@ -4769,6 +5193,7 @@
         "category": [
             "Armor - Headgear",
             "Technology",
+            "Technology - Level 60",
             "ORB06"
         ],
         "useful": true
@@ -4779,6 +5204,7 @@
         "category": [
             "Consumables - Food",
             "Technology",
+            "Technology - Level 60",
             "ORB06"
         ],
         "progression": true
@@ -4789,6 +5215,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 60",
             "ORB06"
         ],
         "filler": true
@@ -4800,6 +5227,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 60",
             "ORB06"
         ],
         "progression": true
@@ -4811,6 +5239,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 60",
             "ORB06"
         ],
         "progression": true
@@ -4822,6 +5251,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 60",
             "ORB06"
         ],
         "progression": true
@@ -4832,6 +5262,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "useful": true
@@ -4842,6 +5273,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "useful": true
@@ -4852,6 +5284,7 @@
         "category": [
             "Consumables",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "progression": true
@@ -4862,6 +5295,7 @@
         "category": [
             "Consumables",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "useful": true
@@ -4872,6 +5306,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "progression": true
@@ -4883,6 +5318,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "progression": true
@@ -4894,6 +5330,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 61",
             "ORB07"
         ],
         "progression": true
@@ -4904,6 +5341,7 @@
         "category": [
             "Consumables",
             "Technology",
+            "Technology - Level 62",
             "ORB07"
         ],
         "progression": true
@@ -4914,6 +5352,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 62",
             "ORB07"
         ],
         "progression": true
@@ -4925,6 +5364,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 62",
             "ORB07"
         ],
         "progression": true
@@ -4936,6 +5376,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 62",
             "ORB07"
         ],
         "progression": true
@@ -4946,6 +5387,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 62",
             "ORB07"
         ],
         "useful": true
@@ -4956,6 +5398,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 63",
             "ORB07"
         ],
         "useful": true
@@ -4966,6 +5409,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 63",
             "ORB07"
         ],
         "useful": true
@@ -4976,6 +5420,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 63",
             "ORB07"
         ],
         "progression": true
@@ -4986,6 +5431,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 63",
             "ORB07"
         ],
         "progression": true
@@ -4996,6 +5442,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 63",
             "ORB07"
         ],
         "useful": true
@@ -5006,6 +5453,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 64",
             "ORB07"
         ],
         "useful": true
@@ -5016,6 +5464,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 64",
             "ORB07"
         ],
         "useful": true
@@ -5026,9 +5475,21 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 64",
             "ORB07"
         ],
         "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Japanese-Style Hot Spring",
+        "category": [
+            "Build - Infrastructure",
+            "Technology",
+            "Technology - Level 64",
+            "ORB07"
+        ],
+        "useful": true
     },
     {
         "count": 1,
@@ -5037,6 +5498,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 64",
             "ORB07"
         ],
         "progression": true
@@ -5048,6 +5510,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 64",
             "ORB07"
         ],
         "progression": true
@@ -5058,6 +5521,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 64",
             "ORB07"
         ],
         "filler": true
@@ -5068,6 +5532,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 65",
             "ORB07"
         ],
         "useful": true
@@ -5078,6 +5543,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 65",
             "ORB07"
         ],
         "useful": true
@@ -5088,6 +5554,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 65",
             "ORB07"
         ],
         "useful": true
@@ -5098,6 +5565,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 65",
             "ORB07"
         ],
         "useful": true
@@ -5108,6 +5576,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 65",
             "ORB07"
         ],
         "progression": true
@@ -5119,6 +5588,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 65",
             "ORB07"
         ],
         "progression": true
@@ -5130,6 +5600,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 66",
             "ORB07"
         ],
         "progression": true
@@ -5141,6 +5612,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 66",
             "ORB07"
         ],
         "progression": true
@@ -5152,6 +5624,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 66",
             "ORB07"
         ],
         "progression": true
@@ -5162,6 +5635,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 67",
             "ORB07"
         ],
         "useful": true
@@ -5172,6 +5646,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 67",
             "ORB07"
         ],
         "useful": true
@@ -5182,6 +5657,7 @@
         "category": [
             "Materials",
             "Technology",
+            "Technology - Level 67",
             "ORB07"
         ],
         "progression": true
@@ -5192,6 +5668,7 @@
         "category": [
             "Build - Foundations",
             "Technology",
+            "Technology - Level 67",
             "ORB07"
         ],
         "progression": true
@@ -5202,6 +5679,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 68",
             "ORB07"
         ],
         "useful": true
@@ -5212,6 +5690,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 68",
             "ORB07"
         ],
         "useful": true
@@ -5222,6 +5701,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 68",
             "ORB07"
         ],
         "useful": true
@@ -5232,6 +5712,7 @@
         "category": [
             "Armor - Headgear",
             "Technology",
+            "Technology - Level 68",
             "ORB07"
         ],
         "useful": true
@@ -5243,6 +5724,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 68",
             "ORB07"
         ],
         "progression": true
@@ -5253,6 +5735,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 69",
             "ORB07"
         ],
         "useful": true
@@ -5263,6 +5746,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 69",
             "ORB07"
         ],
         "useful": true
@@ -5273,6 +5757,7 @@
         "category": [
             "Sphere Modules",
             "Technology",
+            "Technology - Level 69",
             "ORB07"
         ],
         "useful": true
@@ -5283,6 +5768,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 69",
             "ORB07"
         ],
         "progression": true
@@ -5294,6 +5780,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 69",
             "ORB07"
         ],
         "progression": true
@@ -5304,6 +5791,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "useful": true
@@ -5314,6 +5802,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "useful": true
@@ -5324,6 +5813,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "progression": true
@@ -5335,6 +5825,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "progression": true
@@ -5346,6 +5837,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "progression": true
@@ -5357,6 +5849,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "progression": true
@@ -5367,6 +5860,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 70",
             "ORB07"
         ],
         "filler": true
@@ -5377,7 +5871,19 @@
         "category": [
             "Accessories",
             "Ancient Technology",
+            "Technology - Level 70",
             "ORB07"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Ancient Monitoring Stand",
+        "category": [
+            "Build - Pal",
+            "Technology",
+            "Technology - Level 71",
+            "ORB08"
         ],
         "useful": true
     },
@@ -5387,6 +5893,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 71",
             "ORB08"
         ],
         "progression": true
@@ -5397,6 +5904,7 @@
         "category": [
             "Build - Furniture",
             "Technology",
+            "Technology - Level 71",
             "ORB08"
         ],
         "filler": true
@@ -5408,6 +5916,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 71",
             "ORB08"
         ],
         "progression": true
@@ -5419,6 +5928,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 71",
             "ORB08"
         ],
         "progression": true
@@ -5429,6 +5939,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 72",
             "ORB08"
         ],
         "useful": true
@@ -5439,6 +5950,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 72",
             "ORB08"
         ],
         "useful": true
@@ -5450,6 +5962,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 72",
             "ORB08"
         ],
         "progression": true
@@ -5461,6 +5974,7 @@
             "Pal Gear",
             "Pal Gear - Water Mounts",
             "Technology",
+            "Technology - Level 72",
             "ORB08"
         ],
         "progression": true
@@ -5471,6 +5985,7 @@
         "category": [
             "Build - Production",
             "Ancient Technology",
+            "Technology - Level 72",
             "ORB08"
         ],
         "useful": true
@@ -5481,6 +5996,7 @@
         "category": [
             "Weapons - Melee",
             "Technology",
+            "Technology - Level 73",
             "ORB08"
         ],
         "useful": true
@@ -5491,6 +6007,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 73",
             "ORB08"
         ],
         "useful": true
@@ -5501,6 +6018,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 73",
             "ORB08"
         ],
         "useful": true
@@ -5511,6 +6029,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 73",
             "ORB08"
         ],
         "useful": true
@@ -5522,6 +6041,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 73",
             "ORB08"
         ],
         "progression": true
@@ -5532,6 +6052,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 74",
             "ORB08"
         ],
         "useful": true
@@ -5542,6 +6063,7 @@
         "category": [
             "Consumables - Food",
             "Technology",
+            "Technology - Level 74",
             "ORB08"
         ],
         "progression": true
@@ -5552,6 +6074,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 75",
             "ORB08"
         ],
         "useful": true
@@ -5562,6 +6085,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 75",
             "ORB08"
         ],
         "useful": true
@@ -5572,6 +6096,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 75",
             "ORB08"
         ],
         "progression": true
@@ -5582,6 +6107,7 @@
         "category": [
             "Build - Infrastructure",
             "Technology",
+            "Technology - Level 75",
             "ORB08"
         ],
         "progression": true
@@ -5593,9 +6119,21 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 75",
             "ORB08"
         ],
         "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Ancient Hot Spring",
+        "category": [
+            "Build - Infrastructure",
+            "Technology",
+            "Technology - Level 76",
+            "ORB08"
+        ],
+        "useful": true
     },
     {
         "count": 1,
@@ -5603,6 +6141,7 @@
         "category": [
             "Accessories",
             "Technology",
+            "Technology - Level 76",
             "ORB08"
         ],
         "useful": true
@@ -5613,6 +6152,7 @@
         "category": [
             "Accessories",
             "Technology",
+            "Technology - Level 76",
             "ORB08"
         ],
         "useful": true
@@ -5624,6 +6164,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 76",
             "ORB08"
         ],
         "progression": true
@@ -5634,6 +6175,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 77",
             "ORB08"
         ],
         "useful": true
@@ -5644,6 +6186,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 77",
             "ORB08"
         ],
         "progression": true
@@ -5655,6 +6198,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 77",
             "ORB08"
         ],
         "progression": true
@@ -5666,6 +6210,7 @@
             "Pal Gear",
             "Pal Gear - Sky Mounts",
             "Technology",
+            "Technology - Level 77",
             "ORB08"
         ],
         "progression": true
@@ -5676,6 +6221,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 78",
             "ORB08"
         ],
         "useful": true
@@ -5686,6 +6232,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 78",
             "ORB08"
         ],
         "useful": true
@@ -5696,6 +6243,7 @@
         "category": [
             "Build - Production",
             "Technology",
+            "Technology - Level 78",
             "ORB08"
         ],
         "progression": true
@@ -5706,6 +6254,7 @@
         "category": [
             "Build - Food",
             "Technology",
+            "Technology - Level 78",
             "ORB08"
         ],
         "progression": true
@@ -5717,6 +6266,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 78",
             "ORB08"
         ],
         "progression": true
@@ -5727,6 +6277,7 @@
         "category": [
             "Armor - Body",
             "Technology",
+            "Technology - Level 79",
             "ORB08"
         ],
         "progression": true
@@ -5737,6 +6288,7 @@
         "category": [
             "Consumables",
             "Technology",
+            "Technology - Level 79",
             "ORB08"
         ],
         "useful": true
@@ -5748,6 +6300,7 @@
             "Pal Gear",
             "Pal Gear - Ground Mounts",
             "Technology",
+            "Technology - Level 79",
             "ORB08"
         ],
         "progression": true
@@ -5758,6 +6311,7 @@
         "category": [
             "Weapons - Ranged",
             "Technology",
+            "Technology - Level 80",
             "ORB08"
         ],
         "useful": true
@@ -5768,6 +6322,7 @@
         "category": [
             "Ammo",
             "Technology",
+            "Technology - Level 80",
             "ORB08"
         ],
         "useful": true
@@ -5778,6 +6333,7 @@
         "category": [
             "Consumables",
             "Technology",
+            "Technology - Level 80",
             "ORB08"
         ],
         "useful": true
@@ -13869,7 +14425,8 @@
         "count": 11,
         "name": "Dragon Orb",
         "category": [
-            "Key Items - Elemental Orbs"
+            "Key Items - Elemental Orbs",
+            "ORB01"
         ],
         "progression": true
     },
@@ -13886,6 +14443,79 @@
         "name": "Ice Orb",
         "category": [
             "Key Items - Elemental Orbs"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Neutral Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Fire Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Water Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Electric Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Grass Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Dark Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Dragon Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets",
+            "ORB01"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Ground Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Ice Bracelet",
+        "category": [
+            "Key Items - Elemental Bracelets"
         ],
         "progression": true
     },
@@ -17364,7 +17994,7 @@
         "name": "Bellanoir's Bond",
         "category": [
             "Pal Bonds",
-            "Raid Boss",
+            "RaidBossBond",
             "ORB03"
         ],
         "progression": true
@@ -17374,7 +18004,7 @@
         "name": "Bellanoir Libero's Bond",
         "category": [
             "Pal Bonds",
-            "Raid Boss",
+            "RaidBossBond",
             "ORB04"
         ],
         "progression": true
@@ -17384,7 +18014,7 @@
         "name": "Xenolord's Bond",
         "category": [
             "Pal Bonds",
-            "Raid Boss",
+            "RaidBossBond",
             "ORB07"
         ],
         "progression": true
@@ -17394,7 +18024,7 @@
         "name": "Hartalis's Bond",
         "category": [
             "Pal Bonds",
-            "Raid Boss",
+            "RaidBossBond",
             "ORB08"
         ],
         "progression": true
@@ -17764,6 +18394,15 @@
             "Player Ability Enhancements"
         ],
         "useful": true
+    },
+    {
+        "count": 5,
+        "name": "Progressive Passives",
+        "category": [
+            "Key Items",
+            "LimitPassives"
+        ],
+        "progression": true
     },
     {
         "count": 1,

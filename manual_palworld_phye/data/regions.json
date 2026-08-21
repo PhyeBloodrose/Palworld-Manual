@@ -2,7 +2,7 @@
     "General": {
         "starting": true,
         "connects_to": [
-            "Rainbow Passives",
+            "Pal Passives",
             "Player Progression",
             "Base Access",
             "Pal Mounts",
@@ -93,7 +93,7 @@
         "connects_to": [
             "Base Level 13"
         ],
-        "requires": "|Player Level 31| AND |Weapon Assembly Line| AND |Gather High Quality Pal Oil| AND |Craft Production Assembly Line| AND |High Quality Hot Spring| AND |Craft Cement| AND |Craft Cryogenic Coolant|"
+        "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Weapon Assembly Line| AND |Gather High Quality Pal Oil| AND |Craft Production Assembly Line| AND |High Quality Hot Spring| AND |Craft Cement| AND |Craft Cryogenic Coolant|"
     },
     "Base Level 13": {
         "connects_to": [
@@ -111,7 +111,7 @@
         "connects_to": [
             "Base Level 16"
         ],
-        "requires": "|Player Level 41| AND {OptOne(|Guild Chest|)} AND |Electric Kitchen|"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND {OptOne(|Guild Chest|)} AND |Electric Kitchen|"
     },
     "Base Level 16": {
         "connects_to": [
@@ -141,13 +141,13 @@
         "connects_to": [
             "Base Level 21"
         ],
-        "requires": "(|Crude Oil Extractor| AND |@Crude Oil Location|) OR (|High-Pressure Crude Oil Extractor| AND |Player Level 51|)"
+        "requires": "(|Crude Oil Extractor| AND |@Crude Oil Location|) OR (|High-Pressure Crude Oil Extractor| AND (|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}))"
     },
     "Base Level 21": {
         "connects_to": [
             "Base Level 22"
         ],
-        "requires": "|Player Level 51| AND |Cold Food Box| AND |Craft Plasteel|"
+        "requires": "(|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Cold Food Box| AND |Craft Plasteel|"
     },
     "Base Level 22": {
         "connects_to": [
@@ -177,7 +177,7 @@
         "connects_to": [
             "Base Level 27"
         ],
-        "requires": "|Player Level 61| AND |Advanced Medicine Workbench|"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Advanced Medicine Workbench|"
     },
     "Base Level 27": {
         "connects_to": [
@@ -213,7 +213,7 @@
         "connects_to": [
             "Base Level 33"
         ],
-        "requires": "|Player Level 61| AND |Ancient Kitchen| AND |Craft Soralite Ingot| AND |Craft Thermal Core| AND |Craft Cryogenic Coolant| AND |Gather Ancient Civilization Core|"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Kitchen| AND |Craft Soralite Ingot| AND |Craft Thermal Core| AND |Craft Cryogenic Coolant| AND |Gather Ancient Civilization Core|"
     },
     "Base Level 33": {
         "connects_to": [
@@ -665,7 +665,7 @@
             "Windswept Island",
             "Bamboo Groves",
             "Mount Obsidian",
-            "Frostbitten Isle",
+            "Frostbitten Highway",
             "Wildlife Sanctuary 1",
             "Isolated Island Cavern",
             "SeaBreeze_PalMerchant",
@@ -3845,1151 +3845,1151 @@
     },
     "Lamball": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Lamball's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Lamball's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Cattiva": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Cattiva's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Cattiva's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Chikipi": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Chikipi's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Chikipi's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lifmunk": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Lifmunk's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Lifmunk's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Fuack": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Fuack's Bond|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Fuack's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Fuack Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Fire Orb:2|)} AND {OptOne(|Fuack Ignis's Bond|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Fire Orb:2|)} AND {OptOne(|Fuack Ignis's Bond|)} AND (|Water Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Vixy": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Vixy's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Vixy's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Celaray": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Celaray's Bond|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Celaray's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Celaray Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Electric Orb:4|)} AND {OptOne(|Celaray Lux's Bond|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Electric Orb:4|)} AND {OptOne(|Celaray Lux's Bond|)} AND (|Water Bracelet| OR |Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Cremis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Cremis's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Cremis's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Croajiro": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Croajiro's Bond|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Croajiro's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Croajiro Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Croajiro Noct's Bond|)}"
+        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Croajiro Noct's Bond|)} AND (|Water Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Herbil": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Neutral Orb:3|)} AND {OptOne(|Herbil's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Neutral Orb:3|)} AND {OptOne(|Herbil's Bond|)} AND (|Neutral Bracelet| OR |Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Teafant": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Teafant's Bond|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Teafant's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gumoss": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ground Orb|)} AND {OptOne(|Gumoss's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ground Orb|)} AND {OptOne(|Gumoss's Bond|)} AND (|Grass Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pupperai": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:2|)} AND {OptOne(|Pupperai's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:2|)} AND {OptOne(|Pupperai's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Clovee": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Grass Orb:2|)} AND {OptOne(|Clovee's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Grass Orb:2|)} AND {OptOne(|Clovee's Bond|)} AND (|Neutral Bracelet| OR |Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jolthog": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb|)} AND {OptOne(|Jolthog's Bond|)}"
+        "requires": "{OptOne(|Electric Orb|)} AND {OptOne(|Jolthog's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jolthog Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Jolthog Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Jolthog Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Depresso": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Depresso's Bond|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Depresso's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pengullet": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Ice Orb|)} AND {OptOne(|Pengullet's Bond|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Ice Orb|)} AND {OptOne(|Pengullet's Bond|)} AND (|Water Bracelet| OR |Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pengullet Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Electric Orb:2|)} AND {OptOne(|Pengullet Lux's Bond|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Electric Orb:2|)} AND {OptOne(|Pengullet Lux's Bond|)} AND (|Water Bracelet| OR |Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Penking": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Ice Orb:6|)} AND {OptOne(|Penking's Bond|)}"
+        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Ice Orb:6|)} AND {OptOne(|Penking's Bond|)} AND (|Water Bracelet| OR |Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Penking Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Electric Orb:7|)} AND {OptOne(|Penking Lux's Bond|)}"
+        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Electric Orb:7|)} AND {OptOne(|Penking Lux's Bond|)} AND (|Water Bracelet| OR |Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Hoocrates": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Hoocrates's Bond|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Hoocrates's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Melpaca": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Melpaca's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Melpaca's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kingpaca": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Kingpaca's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Kingpaca's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kingpaca Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Kingpaca Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Kingpaca Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Daedream": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Daedream's Bond|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Daedream's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tanzee": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Tanzee's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Tanzee's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tanzee Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Tanzee Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Tanzee Ignis's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Nox": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Nox's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Nox's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Flambelle": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Flambelle's Bond|)}"
+        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Flambelle's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Rooby": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Rooby's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Rooby's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mau": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Mau's Bond|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Mau's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mau Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Mau Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Mau Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Rushoar": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Rushoar's Bond|)}"
+        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Rushoar's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Foxparks": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Foxparks's Bond|)}"
+        "requires": "{OptOne(|Fire Orb|)} AND {OptOne(|Foxparks's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Foxparks Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb|)} AND {OptOne(|Foxparks Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb|)} AND {OptOne(|Foxparks Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Killamari": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Water Orb|)} AND {OptOne(|Killamari's Bond|)}"
+        "requires": "{OptOne(|Dark Orb|)} AND {OptOne(|Water Orb|)} AND {OptOne(|Killamari's Bond|)} AND (|Dark Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Killamari Primo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Water Orb:2|)} AND {OptOne(|Killamari Primo's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Water Orb:2|)} AND {OptOne(|Killamari Primo's Bond|)} AND (|Neutral Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Fuddler": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Fuddler's Bond|)}"
+        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Fuddler's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Eikthyrdeer": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:5|)} AND {OptOne(|Eikthyrdeer's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:5|)} AND {OptOne(|Eikthyrdeer's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Eikthyrdeer Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:6|)} AND {OptOne(|Eikthyrdeer Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:6|)} AND {OptOne(|Eikthyrdeer Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Direhowl": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Direhowl's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Direhowl's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Caprity": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Caprity's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Caprity's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Caprity Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Caprity Noct's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Caprity Noct's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Swee": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb|)} AND {OptOne(|Swee's Bond|)}"
+        "requires": "{OptOne(|Ice Orb|)} AND {OptOne(|Swee's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Sweepa": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Sweepa's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Sweepa's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Turtacle": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Turtacle's Bond|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Turtacle's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Turtacle Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Ground Orb:4|)} AND {OptOne(|Turtacle Terra's Bond|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Ground Orb:4|)} AND {OptOne(|Turtacle Terra's Bond|)} AND (|Water Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Hangyu": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Hangyu's Bond|)}"
+        "requires": "{OptOne(|Ground Orb|)} AND {OptOne(|Hangyu's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Hangyu Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Hangyu Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Hangyu Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Woolipop": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Woolipop's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Woolipop's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Woolipop Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Woolipop Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Woolipop Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mozzarina": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Mozzarina's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Mozzarina's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Azurobe": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Dragon Orb:7|)} AND {OptOne(|Azurobe's Bond|)}"
+        "requires": "{OptOne(|Water Orb:7|)} AND {OptOne(|Dragon Orb:7|)} AND {OptOne(|Azurobe's Bond|)} AND (|Water Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Azurobe Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Dragon Orb:8|)} AND {OptOne(|Azurobe Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Dragon Orb:8|)} AND {OptOne(|Azurobe Cryst's Bond|)} AND (|Ice Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Sparkit": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb|)} AND {OptOne(|Sparkit's Bond|)}"
+        "requires": "{OptOne(|Electric Orb|)} AND {OptOne(|Sparkit's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kelpsea": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Kelpsea's Bond|)}"
+        "requires": "{OptOne(|Water Orb|)} AND {OptOne(|Kelpsea's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kelpsea Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Kelpsea Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:2|)} AND {OptOne(|Kelpsea Ignis's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Ribbuny": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Ribbuny's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Ribbuny's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Ribbuny Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ribbuny Botan's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Ribbuny Botan's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jelliette": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Jelliette's Bond|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Jelliette's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jellroy": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Dark Orb:3|)} AND {OptOne(|Jellroy's Bond|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Dark Orb:3|)} AND {OptOne(|Jellroy's Bond|)} AND (|Water Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Amione": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Amione's Bond|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Amione's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gloopie": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Gloopie's Bond|)}"
+        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Gloopie's Bond|)} AND (|Water Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gloopie Primo": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Neutral Orb:6|)} AND {OptOne(|Gloopie Primo's Bond|)}"
+        "requires": "{OptOne(|Water Orb:6|)} AND {OptOne(|Neutral Orb:6|)} AND {OptOne(|Gloopie Primo's Bond|)} AND (|Water Bracelet| OR |Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Galeclaw": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Galeclaw's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Galeclaw's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Wispaw": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Wispaw's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Wispaw's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Nitewing": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Nitewing's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Nitewing's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tombat": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Tombat's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Tombat's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tocotoco": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Tocotoco's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb|)} AND {OptOne(|Tocotoco's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Univolt": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:5|)} AND {OptOne(|Univolt's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:5|)} AND {OptOne(|Univolt's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Univolt Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Univolt Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Univolt Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gobfin": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Gobfin's Bond|)}"
+        "requires": "{OptOne(|Water Orb:2|)} AND {OptOne(|Gobfin's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gobfin Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:3|)} AND {OptOne(|Gobfin Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:3|)} AND {OptOne(|Gobfin Ignis's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Loupmoon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Loupmoon's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Loupmoon's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Loupmoon Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Loupmoon Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Loupmoon Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Cawgnito": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Cawgnito's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Cawgnito's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Arsox": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Arsox's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Arsox's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Muffly": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Muffly's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:2|)} AND {OptOne(|Muffly's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bristla": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Bristla's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Bristla's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Cinnamoth": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Cinnamoth's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Cinnamoth's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Puffolt": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Puffolt's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Puffolt's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Elphidran": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Elphidran's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Elphidran's Bond|)} AND (|Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Elphidran Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Elphidran Aqua's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Elphidran Aqua's Bond|)} AND (|Dragon Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Vanwyrm": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Vanwyrm's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Vanwyrm's Bond|)} AND (|Fire Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Vanwyrm Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Vanwyrm Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Vanwyrm Cryst's Bond|)} AND (|Ice Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Felbat": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Felbat's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Felbat's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Vaelet": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Vaelet's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Vaelet's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Beegarde": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Beegarde's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Beegarde's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Elizabee": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Elizabee's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Elizabee's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lovander": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Lovander's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Lovander's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Grintale": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Grintale's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Grintale's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tarantriss": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Tarantriss's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Tarantriss's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Polapup": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Polapup's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Polapup's Bond|)} AND (|Ice Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Polapup Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Polapup Terra's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Polapup Terra's Bond|)} AND (|Ice Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Leezpunk": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Leezpunk's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Leezpunk's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Leezpunk Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:3|)} AND {OptOne(|Leezpunk Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:3|)} AND {OptOne(|Leezpunk Ignis's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gorirat": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:5|)} AND {OptOne(|Gorirat's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:5|)} AND {OptOne(|Gorirat's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gorirat Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Gorirat Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Gorirat Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Surfent": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Surfent's Bond|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Surfent's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Surfent Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Surfent Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Surfent Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Robinquill": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Robinquill's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Robinquill's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Robinquill Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Robinquill Terra's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Robinquill Terra's Bond|)} AND (|Grass Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Flopie": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Flopie's Bond|)}"
+        "requires": "{OptOne(|Grass Orb|)} AND {OptOne(|Flopie's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Wixen": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Wixen's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Wixen's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Wixen Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)} AND {OptOne(|Wixen Noct's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Dark Orb:6|)} AND {OptOne(|Wixen Noct's Bond|)} AND (|Fire Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Katress": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Katress's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Katress's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Katress Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Fire Orb:6|)} AND {OptOne(|Katress Ignis's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Fire Orb:6|)} AND {OptOne(|Katress Ignis's Bond|)} AND (|Dark Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Helzephyr": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Helzephyr's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Helzephyr's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Helzephyr Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)} AND {OptOne(|Helzephyr Lux's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Electric Orb:8|)} AND {OptOne(|Helzephyr Lux's Bond|)} AND (|Dark Bracelet| OR |Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Elgrove": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Elgrove's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Elgrove's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Elgrove Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Elgrove Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Elgrove Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lunaris": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Lunaris's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Lunaris's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Fenglope": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Fenglope's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:3|)} AND {OptOne(|Fenglope's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Fenglope Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:3|)} AND {OptOne(|Fenglope Lux's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:3|)} AND {OptOne(|Fenglope Lux's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dinossom": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Dragon Orb:6|)} AND {OptOne(|Dinossom's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Dragon Orb:6|)} AND {OptOne(|Dinossom's Bond|)} AND (|Grass Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dinossom Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Dragon Orb:7|)} AND {OptOne(|Dinossom Lux's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Dragon Orb:7|)} AND {OptOne(|Dinossom Lux's Bond|)} AND (|Electric Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bushi": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Bushi's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Bushi's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bushi Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Bushi Noct's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Bushi Noct's Bond|)} AND (|Fire Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Munchill": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Water Orb:3|)} AND {OptOne(|Munchill's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Water Orb:3|)} AND {OptOne(|Munchill's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mammorest": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Mammorest's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Mammorest's Bond|)} AND (|Grass Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mammorest Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Ground Orb:9|)} AND {OptOne(|Mammorest Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:9|)} AND {OptOne(|Ground Orb:9|)} AND {OptOne(|Mammorest Cryst's Bond|)} AND (|Ice Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Finsider": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Finsider's Bond|)}"
+        "requires": "{OptOne(|Water Orb:3|)} AND {OptOne(|Finsider's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Finsider Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Fire Orb:4|)} AND {OptOne(|Finsider Ignis's Bond|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Fire Orb:4|)} AND {OptOne(|Finsider Ignis's Bond|)} AND (|Water Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Petallia": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Petallia's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Petallia's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Petallia Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Fire Orb:9|)} AND {OptOne(|Petallia Ignis's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Fire Orb:9|)} AND {OptOne(|Petallia Ignis's Bond|)} AND (|Grass Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Leafan": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:7|)} AND {OptOne(|Leafan's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:7|)} AND {OptOne(|Leafan's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Incineram": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)} AND {OptOne(|Incineram's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:4|)} AND {OptOne(|Dark Orb:4|)} AND {OptOne(|Incineram's Bond|)} AND (|Fire Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Incineram Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Incineram Noct's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Incineram Noct's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dazzi": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dazzi's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dazzi's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dazzi Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dark Orb:2|)} AND {OptOne(|Dazzi Noct's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Dark Orb:2|)} AND {OptOne(|Dazzi Noct's Bond|)} AND (|Electric Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pyrin": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Pyrin's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Pyrin's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pyrin Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Pyrin Noct's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Pyrin Noct's Bond|)} AND (|Fire Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Relaxaurus": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:8|)} AND {OptOne(|Dragon Orb:8|)} AND {OptOne(|Relaxaurus's Bond|)}"
+        "requires": "{OptOne(|Water Orb:8|)} AND {OptOne(|Dragon Orb:8|)} AND {OptOne(|Relaxaurus's Bond|)} AND (|Water Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Relaxaurus Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:9|)} AND {OptOne(|Dragon Orb:9|)} AND {OptOne(|Relaxaurus Lux's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:9|)} AND {OptOne(|Dragon Orb:9|)} AND {OptOne(|Relaxaurus Lux's Bond|)} AND (|Electric Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Foxcicle": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Foxcicle's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:5|)} AND {OptOne(|Foxcicle's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Beakon": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Beakon's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Beakon's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Beakon Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Beakon Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Beakon Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Ghangler": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Ghangler's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Ghangler's Bond|)} AND (|Dark Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Ghangler Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Water Orb:6|)} AND {OptOne(|Ghangler Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Water Orb:6|)} AND {OptOne(|Ghangler Ignis's Bond|)} AND (|Fire Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Rayhound": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:5|)} AND {OptOne(|Rayhound's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:5|)} AND {OptOne(|Rayhound's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Rayhound Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Rayhound Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:6|)} AND {OptOne(|Rayhound Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Menasting": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Ground Orb:9|)} AND {OptOne(|Menasting's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:9|)} AND {OptOne(|Ground Orb:9|)} AND {OptOne(|Menasting's Bond|)} AND (|Dark Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Menasting Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:10|)} AND {OptOne(|Menasting Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:10|)} AND {OptOne(|Menasting Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Needoll": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:2|)} AND {OptOne(|Needoll's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:2|)} AND {OptOne(|Needoll's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Needoll Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Dark Orb:3|)} AND {OptOne(|Needoll Noct's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Dark Orb:3|)} AND {OptOne(|Needoll Noct's Bond|)} AND (|Grass Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Reindrix": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Reindrix's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Reindrix's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mossanda": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Mossanda's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Mossanda's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mossanda Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Mossanda Lux's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Mossanda Lux's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Chillet": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Dragon Orb:4|)} AND {OptOne(|Chillet's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Dragon Orb:4|)} AND {OptOne(|Chillet's Bond|)} AND (|Ice Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Chillet Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dragon Orb:5|)} AND {OptOne(|Chillet Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:5|)} AND {OptOne(|Dragon Orb:5|)} AND {OptOne(|Chillet Ignis's Bond|)} AND (|Fire Bracelet| OR |Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Ragnahawk": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Ragnahawk's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Ragnahawk's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Moldron": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Moldron's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Moldron's Bond|)} AND (|Fire Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Moldron Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Moldron Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Moldron Cryst's Bond|)} AND (|Ice Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Palumba": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Palumba's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Palumba's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Digtoise": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Digtoise's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Digtoise's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Broncherry": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Broncherry's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Broncherry's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Broncherry Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Broncherry Aqua's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Broncherry Aqua's Bond|)} AND (|Grass Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dumud": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)} AND {OptOne(|Dumud's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Water Orb:4|)} AND {OptOne(|Dumud's Bond|)} AND (|Ground Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dumud Gild": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Dumud Gild's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Water Orb:5|)} AND {OptOne(|Dumud Gild's Bond|)} AND (|Ground Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Braloha": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Braloha's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Braloha's Bond|)} AND (|Grass Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kitsun": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Kitsun's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Kitsun's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kitsun Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Kitsun Noct's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Kitsun Noct's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Blazehowl": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Blazehowl's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Blazehowl's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Blazehowl Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Blazehowl Noct's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Blazehowl Noct's Bond|)} AND (|Fire Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Warsect": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Warsect's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Warsect's Bond|)} AND (|Ground Bracelet| OR |Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Warsect Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Warsect Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Warsect Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Frostplume": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Frostplume's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Frostplume's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Majex": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Fire Orb:5|)} AND {OptOne(|Majex's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Fire Orb:5|)} AND {OptOne(|Majex's Bond|)} AND (|Dark Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Sibelyx": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Sibelyx's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Sibelyx's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Sibelyx Primo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Sibelyx Primo's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Sibelyx Primo's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Maraith": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Maraith's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Maraith's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Shroomer": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Shroomer's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Shroomer's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Shroomer Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Shroomer Noct's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Shroomer Noct's Bond|)} AND (|Grass Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Icelyn": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Icelyn's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:4|)} AND {OptOne(|Icelyn's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gildra": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)} AND {OptOne(|Gildra's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)} AND {OptOne(|Gildra's Bond|)} AND (|Dark Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jormuntide": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Jormuntide's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Jormuntide's Bond|)} AND (|Dragon Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jormuntide Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Fire Orb:9|)} AND {OptOne(|Jormuntide Ignis's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Fire Orb:9|)} AND {OptOne(|Jormuntide Ignis's Bond|)} AND (|Dragon Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Suzaku": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Suzaku's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:8|)} AND {OptOne(|Suzaku's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Suzaku Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:9|)} AND {OptOne(|Suzaku Aqua's Bond|)}"
+        "requires": "{OptOne(|Water Orb:9|)} AND {OptOne(|Suzaku Aqua's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dazemu": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Dazemu's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Dazemu's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Quivern": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Quivern's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Quivern's Bond|)} AND (|Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Quivern Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Quivern Botan's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Quivern Botan's Bond|)} AND (|Dragon Bracelet| OR |Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lullu": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Lullu's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:4|)} AND {OptOne(|Lullu's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Kikit": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Kikit's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Kikit's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Yakumo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Yakumo's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Yakumo's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Skutlass": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Skutlass's Bond|)}"
+        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Skutlass's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Skutlass Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Fire Orb:5|)} AND {OptOne(|Skutlass Ignis's Bond|)}"
+        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Fire Orb:5|)} AND {OptOne(|Skutlass Ignis's Bond|)} AND (|Water Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Reptyro": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Reptyro's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Reptyro's Bond|)} AND (|Fire Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Reptyro Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Reptyro Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Ground Orb:7|)} AND {OptOne(|Reptyro Cryst's Bond|)} AND (|Ice Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Starryon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Starryon's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Starryon's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Starryon Primo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Starryon Primo's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Starryon Primo's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pierdon": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:6|)} AND {OptOne(|Pierdon's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:6|)} AND {OptOne(|Pierdon's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Pierdon Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Pierdon Cryst's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Pierdon Cryst's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Cryolinx": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Cryolinx's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Cryolinx's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Cryolinx Terra": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:7|)} AND {OptOne(|Cryolinx Terra's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:7|)} AND {OptOne(|Cryolinx Terra's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Snugloo": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Snugloo's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:3|)} AND {OptOne(|Snugloo's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Wumpo": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Wumpo's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:7|)} AND {OptOne(|Wumpo's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Wumpo Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Wumpo Botan's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Wumpo Botan's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Sootseer": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)} AND {OptOne(|Sootseer's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Fire Orb:7|)} AND {OptOne(|Sootseer's Bond|)} AND (|Dark Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Carnibora": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Carnibora's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Carnibora's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Blazamut": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:9|)} AND {OptOne(|Blazamut's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:9|)} AND {OptOne(|Blazamut's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Blazamut Ryu": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND {OptOne(|Blazamut Ryu's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:10|)} AND {OptOne(|Fire Orb:10|)} AND {OptOne(|Blazamut Ryu's Bond|)} AND (|Dragon Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)}) AND |Pal Eggs|"
     },
     "Dualith": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Dualith's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Grass Orb:8|)} AND {OptOne(|Dualith's Bond|)} AND (|Ground Bracelet| OR |Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dualith Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Dualith Noct's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Dualith Noct's Bond|)} AND (|Ground Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Anubis": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:10|)} AND {OptOne(|Anubis's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:10|)} AND {OptOne(|Anubis's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Sekhmet": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Sekhmet's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:5|)} AND {OptOne(|Sekhmet's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Prixter": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)} AND {OptOne(|Prixter's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Ground Orb:5|)} AND {OptOne(|Prixter's Bond|)} AND (|Dark Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Prixter Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Prixter Lux's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Ground Orb:6|)} AND {OptOne(|Prixter Lux's Bond|)} AND (|Electric Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tetroise": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Tetroise's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Tetroise's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tetroise Primo": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Tetroise Primo's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:8|)} AND {OptOne(|Tetroise Primo's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Nyafia": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Nyafia's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Nyafia's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mimog": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:7|)} AND {OptOne(|Mimog's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:7|)} AND {OptOne(|Mimog's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Xenovader": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Xenovader's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Xenovader's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Xenogard": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Xenogard's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Xenogard's Bond|)} AND (|Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Prunelia": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Prunelia's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Dark Orb:5|)} AND {OptOne(|Prunelia's Bond|)} AND (|Grass Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Nitemary": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Nitemary's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:6|)} AND {OptOne(|Nitemary's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Nitemary Botan": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:7|)} AND {OptOne(|Nitemary Botan's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:7|)} AND {OptOne(|Nitemary Botan's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Smokie": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Smokie's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Smokie's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Smokie Cryst": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Ice Orb:3|)} AND {OptOne(|Smokie Cryst's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Ice Orb:3|)} AND {OptOne(|Smokie Cryst's Bond|)} AND (|Dark Bracelet| OR |Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Omascul": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Omascul's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Omascul's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Whalaska": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Whalaska's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Water Orb:8|)} AND {OptOne(|Whalaska's Bond|)} AND (|Ice Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Whalaska Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Fire Orb:8|)} AND {OptOne(|Whalaska Ignis's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Fire Orb:8|)} AND {OptOne(|Whalaska Ignis's Bond|)} AND (|Ice Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Verdash": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Verdash's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Verdash's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Splatterina": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Splatterina's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Splatterina's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Gildane": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Gildane's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:8|)} AND {OptOne(|Gildane's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dogen": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Dogen's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Dogen's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bulldosu": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Bulldosu's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:4|)} AND {OptOne(|Bulldosu's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Celesdir": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Celesdir's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:6|)} AND {OptOne(|Celesdir's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Celesdir Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Celesdir Noct's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Celesdir Noct's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Astegon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Dark Orb:9|)} AND {OptOne(|Astegon's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Dark Orb:9|)} AND {OptOne(|Astegon's Bond|)} AND (|Dragon Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Knocklem": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Knocklem's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:9|)} AND {OptOne(|Knocklem's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Knocklem Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:10|)} AND {OptOne(|Knocklem Ignis's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:10|)} AND {OptOne(|Knocklem Ignis's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Silvegis": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Silvegis's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Silvegis's Bond|)} AND (|Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Azurmane": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Azurmane's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:7|)} AND {OptOne(|Azurmane's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Valentail": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Valentail's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:2|)} AND {OptOne(|Valentail's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Snock": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Snock's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:2|)} AND {OptOne(|Snock's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Snock Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:3|)} AND {OptOne(|Ground Orb:3|)} AND {OptOne(|Snock Lux's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:3|)} AND {OptOne(|Ground Orb:3|)} AND {OptOne(|Snock Lux's Bond|)} AND (|Electric Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Souffline": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Souffline's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:3|)} AND {OptOne(|Souffline's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lapiron": {
         "connects_to": [],
-        "requires": "{OptOne(|Ground Orb:3|)} AND {OptOne(|Lapiron's Bond|)}"
+        "requires": "{OptOne(|Ground Orb:3|)} AND {OptOne(|Lapiron's Bond|)} AND (|Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Hoodle": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Hoodle's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:3|)} AND {OptOne(|Hoodle's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Slowatt": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:4|)} AND {OptOne(|Slowatt's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:4|)} AND {OptOne(|Slowatt's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bakemi": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Bakemi's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:4|)} AND {OptOne(|Bakemi's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Solmora": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Solmora's Bond|)}"
+        "requires": "{OptOne(|Water Orb:4|)} AND {OptOne(|Solmora's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Solmora Lux": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Electric Orb:5|)} AND {OptOne(|Solmora Lux's Bond|)}"
+        "requires": "{OptOne(|Water Orb:5|)} AND {OptOne(|Electric Orb:5|)} AND {OptOne(|Solmora Lux's Bond|)} AND (|Water Bracelet| OR |Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lapure": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Lapure's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:4|)} AND {OptOne(|Lapure's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Eidrolon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Eidrolon's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:7|)} AND {OptOne(|Dark Orb:7|)} AND {OptOne(|Eidrolon's Bond|)} AND (|Dragon Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Eidrolon Ignis": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Fire Orb:8|)} AND {OptOne(|Eidrolon Ignis's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Fire Orb:8|)} AND {OptOne(|Eidrolon Ignis's Bond|)} AND (|Dragon Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dynamoff": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Dynamoff's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:6|)} AND {OptOne(|Dynamoff's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Tropicaw": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Tropicaw's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:5|)} AND {OptOne(|Tropicaw's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Flaracle": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Flaracle's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Flaracle's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Ophydia": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Water Orb:9|)} AND {OptOne(|Ophydia's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Water Orb:9|)} AND {OptOne(|Ophydia's Bond|)} AND (|Grass Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dupin": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dupin's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Dupin's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Roujay": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Roujay's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Roujay's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Venusa": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Venusa's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Venusa's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Mycora": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Mycora's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:6|)} AND {OptOne(|Mycora's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Loomen": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Fire Orb:5|)} AND {OptOne(|Loomen's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:5|)} AND {OptOne(|Fire Orb:5|)} AND {OptOne(|Loomen's Bond|)} AND (|Dark Bracelet| OR |Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Wistella": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Wistella's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:2|)} AND {OptOne(|Wistella's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Solenne": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Neutral Orb:7|)} AND {OptOne(|Solenne's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:7|)} AND {OptOne(|Neutral Orb:7|)} AND {OptOne(|Solenne's Bond|)} AND (|Dark Bracelet| OR |Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Renjishi": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Renjishi's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:7|)} AND {OptOne(|Renjishi's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Aegidron": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Aegidron's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:8|)} AND {OptOne(|Ground Orb:8|)} AND {OptOne(|Aegidron's Bond|)} AND (|Dragon Bracelet| OR |Ground Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Grizzbolt": {
         "connects_to": [],
-        "requires": "{OptOne(|Electric Orb:8|)} AND {OptOne(|Grizzbolt's Bond|)}"
+        "requires": "{OptOne(|Electric Orb:8|)} AND {OptOne(|Grizzbolt's Bond|)} AND (|Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lyleen": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Lyleen's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:9|)} AND {OptOne(|Lyleen's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Lyleen Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Lyleen Noct's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Lyleen Noct's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Orserk": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)} AND {OptOne(|Orserk's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Electric Orb:9|)} AND {OptOne(|Orserk's Bond|)} AND (|Dragon Bracelet| OR |Electric Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Faleris": {
         "connects_to": [],
-        "requires": "{OptOne(|Fire Orb:9|)} AND {OptOne(|Faleris's Bond|)}"
+        "requires": "{OptOne(|Fire Orb:9|)} AND {OptOne(|Faleris's Bond|)} AND (|Fire Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Faleris Aqua": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:9|)} AND {OptOne(|Faleris Aqua's Bond|)}"
+        "requires": "{OptOne(|Water Orb:9|)} AND {OptOne(|Faleris Aqua's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Shadowbeak": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Shadowbeak's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Shadowbeak's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Selyne": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Neutral Orb:10|)} AND {OptOne(|Selyne's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:10|)} AND {OptOne(|Neutral Orb:10|)} AND {OptOne(|Selyne's Bond|)} AND (|Dark Bracelet| OR |Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bastigor": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Bastigor's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:8|)} AND {OptOne(|Bastigor's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Shaolong": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Water Orb:9|)} AND {OptOne(|Shaolong's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:9|)} AND {OptOne(|Water Orb:9|)} AND {OptOne(|Shaolong's Bond|)} AND (|Dragon Bracelet| OR |Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Silvance": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Silvance's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Silvance's Bond|)} AND (|Grass Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Dandilord": {
         "connects_to": [],
-        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Dandilord's Bond|)}"
+        "requires": "{OptOne(|Grass Orb:8|)} AND {OptOne(|Dark Orb:8|)} AND {OptOne(|Dandilord's Bond|)} AND (|Grass Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Bellanoir": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Bellanoir's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Bellanoir's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)}) AND |Pal Eggs|"
     },
     "Bellanoir Libero": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Bellanoir Libero's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Bellanoir Libero's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)}) AND |Pal Eggs|"
     },
     "Xenolord": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Dragon Orb:8|)} AND {OptOne(|Xenolord's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:8|)} AND {OptOne(|Dragon Orb:8|)} AND {OptOne(|Xenolord's Bond|)} AND (|Dragon Bracelet| OR |Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)}) AND |Pal Eggs|"
     },
     "Hartalis": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:10|)} AND {OptOne(|Hartalis's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:10|)} AND {OptOne(|Hartalis's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)}) AND |Pal Eggs|"
     },
     "Paladius": {
         "connects_to": [],
-        "requires": "{OptOne(|Neutral Orb:11|)} AND {OptOne(|Paladius's Bond|)}"
+        "requires": "{OptOne(|Neutral Orb:11|)} AND {OptOne(|Paladius's Bond|)} AND (|Neutral Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Necromus": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Necromus's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Necromus's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Frostallion": {
         "connects_to": [],
-        "requires": "{OptOne(|Ice Orb:11|)} AND {OptOne(|Frostallion's Bond|)}"
+        "requires": "{OptOne(|Ice Orb:11|)} AND {OptOne(|Frostallion's Bond|)} AND (|Ice Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Frostallion Noct": {
         "connects_to": [],
-        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Frostallion Noct's Bond|)}"
+        "requires": "{OptOne(|Dark Orb:11|)} AND {OptOne(|Frostallion Noct's Bond|)} AND (|Dark Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Neptilius": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:11|)} AND {OptOne(|Neptilius's Bond|)}"
+        "requires": "{OptOne(|Water Orb:11|)} AND {OptOne(|Neptilius's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Jetragon": {
         "connects_to": [],
-        "requires": "{OptOne(|Dragon Orb:11|)} AND {OptOne(|Jetragon's Bond|)}"
+        "requires": "{OptOne(|Dragon Orb:11|)} AND {OptOne(|Jetragon's Bond|)} AND (|Dragon Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Panthalus": {
         "connects_to": [],
-        "requires": "{OptOne(|Water Orb:10|)} AND {OptOne(|Panthalus's Bond|)}"
+        "requires": "{OptOne(|Water Orb:10|)} AND {OptOne(|Panthalus's Bond|)} AND (|Water Bracelet| OR {YamlDisabled(Elemental_Bracelets)})"
     },
     "Grass Egg 1": {
         "connects_to": [
@@ -9052,15 +9052,40 @@
         "connects_to": [],
         "requires": "((|Auri| AND |Auri Defeated| AND {YamlEnabled(Tower_LevelCap)}) OR (|Craft Ancient Armor| AND |Panthalus Beacon| AND {YamlDisabled(Tower_LevelCap)})) OR {YamlEnabled(Disable_LevelCap)}"
     },
-    "Rainbow Passives": {
+    "Pal Passives": {
         "connects_to": [
+            "Red_Passives",
+            "White_Passives",
+            "Golden_Passives",
+            "Rainbow_Passives",
+            "Mutation_Passives",
             "WorldTree_Passives"
         ],
-        "requires": "|Pals|"
+        "requires": "|Pals| AND (|Palbox| OR |Arena Beacon|)"
+    },
+    "Red_Passives": {
+        "connects_to": [],
+        "requires": "{OptOne(|Progressive Passives|)}"
+    },
+    "White_Passives": {
+        "connects_to": [],
+        "requires": "{OptOne(|Progressive Passives:2|)}"
+    },
+    "Golden_Passives": {
+        "connects_to": [],
+        "requires": "{OptOne(|Progressive Passives:3|)}"
+    },
+    "Rainbow_Passives": {
+        "connects_to": [],
+        "requires": "{OptOne(|Progressive Passives:4|)}"
+    },
+    "Mutation_Passives": {
+        "connects_to": [],
+        "requires": "|Breeding| AND {OptOne(|Progressive Passives:4|)}"
     },
     "WorldTree_Passives": {
         "connects_to": [],
-        "requires": "|World Tree Beacon|"
+        "requires": "|World Tree Beacon| AND {OptOne(|Progressive Passives:5|)}"
     },
     "OilRig30": {
         "connects_to": [],
@@ -9242,14 +9267,14 @@
         "connects_to": [
             "Medieval Medicine"
         ],
-        "requires": "|Player Level 11| AND |Medieval Medicine Workbench| AND |Craft Nail|"
+        "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Medieval Medicine Workbench| AND |Craft Nail|"
     },
     "Electric Medicine Workbench": {
         "connects_to": [
             "Medieval Medicine",
             "Electric Medicine"
         ],
-        "requires": "|Player Level 41| AND |@Medicine| AND |Electric Medicine Workbench| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Carbon Fiber| AND |Power Source|"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |@Medicine| AND |Electric Medicine Workbench| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Carbon Fiber| AND |Power Source|"
     },
     "Advanced Medicine Workbench": {
         "connects_to": [
@@ -9257,7 +9282,7 @@
             "Electric Medicine",
             "Advanced Medicine"
         ],
-        "requires": "|Player Level 61| AND |@Medicine| AND |Advanced Medicine Workbench| AND |Craft Hexolite| AND |Craft Plasteel| AND |Craft Circuit Board| AND |Power Source|"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |@Medicine| AND |Advanced Medicine Workbench| AND |Craft Hexolite| AND |Craft Plasteel| AND |Craft Circuit Board| AND |Power Source|"
     },
     "Medieval Medicine": {
         "connects_to": [],
@@ -9354,7 +9379,7 @@
             "Basic Cooking",
             "Decent Cooking"
         ],
-        "requires": "|Player Level 11| AND |Cooking Pot| AND |Craft Wooden Board| AND |Craft Ingot| AND |Gather Flame Organ|"
+        "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Cooking Pot| AND |Craft Wooden Board| AND |Craft Ingot| AND |Gather Flame Organ|"
     },
     "Electric Kitchen": {
         "connects_to": [
@@ -9362,7 +9387,7 @@
             "Decent Cooking",
             "Electric Cooking"
         ],
-        "requires": "|Player Level 41| AND |Electric Kitchen| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Charcoal| AND |Gather Flame Organ| AND |Power Source| AND |@Kindling|"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Electric Kitchen| AND |Craft Refined Ingot| AND |Craft Circuit Board| AND |Craft Charcoal| AND |Gather Flame Organ| AND |Power Source| AND |@Kindling|"
     },
     "Large-Scale Stone Oven": {
         "connects_to": [
@@ -9371,7 +9396,7 @@
             "Electric Cooking",
             "Large-Scale Cooking"
         ],
-        "requires": "|Player Level 41| AND |Large-Scale Stone Oven| AND |Craft Cement| AND |Craft Charcoal| AND |Craft High Quality Wooden Board| AND |Craft Cryogenic Coolant| AND |@Kindling| AND |Palbox|"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Large-Scale Stone Oven| AND |Craft Cement| AND |Craft Charcoal| AND |Craft High Quality Wooden Board| AND |Craft Cryogenic Coolant| AND |@Kindling| AND |Palbox|"
     },
     "Ancient Kitchen": {
         "connects_to": [
@@ -9381,7 +9406,7 @@
             "Large-Scale Cooking",
             "Ancient Cooking"
         ],
-        "requires": "|Player Level 61| AND |Ancient Kitchen| AND |Power Source| AND |Kindling Level 6+| AND |Handiwork Level 6+| AND |Craft Soralite Ingot| AND |Craft Thermal Core| AND |Craft Cryogenic Coolant| AND |Gather Ancient Civilization Core|"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Ancient Kitchen| AND |Power Source| AND |Kindling Level 6+| AND |Handiwork Level 6+| AND |Craft Soralite Ingot| AND |Craft Thermal Core| AND |Craft Cryogenic Coolant| AND |Gather Ancient Civilization Core|"
     },
     "Basic Cooking": {
         "connects_to": [],
@@ -9436,49 +9461,49 @@
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 11| AND ((|Chillet Saddle| AND |Chillet Beacon|) OR (|Eikthyrdeer Saddle| AND |Eikthyrdeer Beacon| AND |Craft Ingot| AND |Gather Horn|) OR (|Univolt Saddle| AND |Univolt Beacon| AND |Craft Ingot| AND |Gather Electric Organ|) OR (|Arsox Saddle| AND |Arsox Beacon| AND |Gather Flame Organ|) OR (|Grintale Saddle| AND |Grintale Beacon|) OR (|Sweepa Saddle| AND |Sweepa Beacon|) OR (|Tarantriss Saddle| AND |Tarantriss Beacon| AND |Gather Venom Gland|))"
+        "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Chillet Saddle| AND |Chillet Beacon|) OR (|Eikthyrdeer Saddle| AND |Eikthyrdeer Beacon| AND |Craft Ingot| AND |Gather Horn|) OR (|Univolt Saddle| AND |Univolt Beacon| AND |Craft Ingot| AND |Gather Electric Organ|) OR (|Arsox Saddle| AND |Arsox Beacon| AND |Gather Flame Organ|) OR (|Grintale Saddle| AND |Grintale Beacon|) OR (|Sweepa Saddle| AND |Sweepa Beacon|) OR (|Tarantriss Saddle| AND |Tarantriss Beacon| AND |Gather Venom Gland|))"
     },
     "ORB02 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 21| AND ((|Eikthyrdeer Terra Saddle| AND |Eikthyrdeer Terra Beacon| AND |Gather Horn| AND |Craft Ingot|) OR (|Kingpaca Beacon| AND |Gather Wool| AND |Kingpaca Saddle| AND |Craft Ingot|) OR (|Dinossom Beacon| AND |Dinossom Saddle| AND |Craft Ingot|) OR (|Surfent Terra Beacon| AND |Surfent Terra Saddle| AND |Craft Ingot|) OR (|Fenglope Saddle| AND |Fenglope Beacon| AND |Craft Ingot|) OR (|Mammorest Saddle| AND |Mammorest Beacon| AND |Gather High Quality Pal Oil|) OR (|Dazemu Beacon| AND |Dazemu Saddle| AND |Craft Ingot|) OR (|Pyrin Saddle| AND |Pyrin Beacon| AND |Gather Flame Organ| AND |Craft Ingot|) OR (|Rayhound Beacon| AND |Rayhound Saddle| AND |Craft Ingot| AND |Gather Electric Organ|))"
+        "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Eikthyrdeer Terra Saddle| AND |Eikthyrdeer Terra Beacon| AND |Gather Horn| AND |Craft Ingot|) OR (|Kingpaca Beacon| AND |Gather Wool| AND |Kingpaca Saddle| AND |Craft Ingot|) OR (|Dinossom Beacon| AND |Dinossom Saddle| AND |Craft Ingot|) OR (|Surfent Terra Beacon| AND |Surfent Terra Saddle| AND |Craft Ingot|) OR (|Fenglope Saddle| AND |Fenglope Beacon| AND |Craft Ingot|) OR (|Mammorest Saddle| AND |Mammorest Beacon| AND |Gather High Quality Pal Oil|) OR (|Dazemu Beacon| AND |Dazemu Saddle| AND |Craft Ingot|) OR (|Pyrin Saddle| AND |Pyrin Beacon| AND |Gather Flame Organ| AND |Craft Ingot|) OR (|Rayhound Beacon| AND |Rayhound Saddle| AND |Craft Ingot| AND |Gather Electric Organ|))"
     },
     "ORB03 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 31| AND ((|Reindrix Beacon| AND |Reindrix Saddle| AND |Gather Ice Organ| AND |Craft Ingot| AND |Gather Horn|) OR (|Rayhound Cryst Saddle| AND |Rayhound Cryst Beacon| AND |Craft Ingot| AND |Gather Ice Organ|) OR (|Broncherry Beacon| AND |Broncherry Saddle| AND |Craft Ingot|) OR (|Blazehowl Beacon| AND |Blazehowl Saddle| AND |Craft Ingot| AND |Gather Flame Organ|) OR (|Dinossom Lux Beacon| AND |Dinossom Lux Saddle| AND |Craft Ingot|) OR (|Pyrin Noct Beacon| AND |Pyrin Noct Saddle| AND |Gather Flame Organ| AND |Craft Ingot|) OR (|Palumba Beacon| AND |Palumba Saddle| AND |Craft Ingot|) OR (|Blazehowl Noct Saddle| AND |Blazehowl Noct Beacon| AND |Craft Ingot| AND |Gather Flame Organ|) OR (|Maraith Beacon| AND |Maraith Saddle| AND |Craft Refined Ingot|) OR (|Shroomer Beacon| AND |Shroomer Saddle| AND |Craft Refined Ingot|) OR (|Shroomer Noct Beacon| AND |Shroomer Noct Saddle| AND |Gather Mysterious Mushroom| AND |Craft Refined Ingot|) OR (|Chillet Ignis Beacon| AND |Chillet Ignis Saddle| AND |Gather Flame Organ|) OR (|Moldron Beacon| AND |Moldron Saddle| AND |Craft Refined Ingot| AND |Gather Flame Organ|))"
+        "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Reindrix Beacon| AND |Reindrix Saddle| AND |Gather Ice Organ| AND |Craft Ingot| AND |Gather Horn|) OR (|Rayhound Cryst Saddle| AND |Rayhound Cryst Beacon| AND |Craft Ingot| AND |Gather Ice Organ|) OR (|Broncherry Beacon| AND |Broncherry Saddle| AND |Craft Ingot|) OR (|Blazehowl Beacon| AND |Blazehowl Saddle| AND |Craft Ingot| AND |Gather Flame Organ|) OR (|Dinossom Lux Beacon| AND |Dinossom Lux Saddle| AND |Craft Ingot|) OR (|Pyrin Noct Beacon| AND |Pyrin Noct Saddle| AND |Gather Flame Organ| AND |Craft Ingot|) OR (|Palumba Beacon| AND |Palumba Saddle| AND |Craft Ingot|) OR (|Blazehowl Noct Saddle| AND |Blazehowl Noct Beacon| AND |Craft Ingot| AND |Gather Flame Organ|) OR (|Maraith Beacon| AND |Maraith Saddle| AND |Craft Refined Ingot|) OR (|Shroomer Beacon| AND |Shroomer Saddle| AND |Craft Refined Ingot|) OR (|Shroomer Noct Beacon| AND |Shroomer Noct Saddle| AND |Gather Mysterious Mushroom| AND |Craft Refined Ingot|) OR (|Chillet Ignis Beacon| AND |Chillet Ignis Saddle| AND |Gather Flame Organ|) OR (|Moldron Beacon| AND |Moldron Saddle| AND |Craft Refined Ingot| AND |Gather Flame Organ|))"
     },
     "ORB04 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 41| AND ((|Mammorest Cryst Beacon| AND |Mammorest Cryst Saddle| AND |Gather High Quality Pal Oil|) OR (|Yakumo Beacon| AND |Yakumo Saddle| AND |Craft Refined Ingot|) OR (|Xenogard Beacon| OR |Xenogard Saddle| AND |Gather Meteorite Fragment|) OR (|Reptyro Beacon| AND |Reptyro Saddle| AND |Gather Flame Organ| AND |Craft Refined Ingot|) OR (|Reptyro Cryst Beacon| AND |Reptyro Cryst Saddle| AND |Craft Refined Ingot|) OR (|Broncherry Aqua Beacon| AND |Broncherry Aqua Saddle| AND |Craft Refined Ingot|) OR (|Wumpo Beacon| AND |Wumpo Saddle| AND |Gather Ice Organ| AND |Craft Refined Ingot|) OR (|Kingpaca Cryst Beacon| AND |Kingpaca Cryst Saddle| AND |Craft Ingot| AND |Gather Wool|) OR (|Blazamut Beacon| AND |Blazamut Saddle| AND |Craft Refined Ingot| AND |Craft Ingot|) OR (|Dualith Beacon| AND |Dualith Saddle| AND |Craft High Quality Cloth| AND |Craft Refined Ingot|) OR (|Tetroise Saddle| AND |Tetroise Beacon| AND |Craft High Quality Cloth| AND |Craft Refined Ingot|))"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Mammorest Cryst Beacon| AND |Mammorest Cryst Saddle| AND |Gather High Quality Pal Oil|) OR (|Yakumo Beacon| AND |Yakumo Saddle| AND |Craft Refined Ingot|) OR (|Xenogard Beacon| OR |Xenogard Saddle| AND |Gather Meteorite Fragment|) OR (|Reptyro Beacon| AND |Reptyro Saddle| AND |Gather Flame Organ| AND |Craft Refined Ingot|) OR (|Reptyro Cryst Beacon| AND |Reptyro Cryst Saddle| AND |Craft Refined Ingot|) OR (|Broncherry Aqua Beacon| AND |Broncherry Aqua Saddle| AND |Craft Refined Ingot|) OR (|Wumpo Beacon| AND |Wumpo Saddle| AND |Gather Ice Organ| AND |Craft Refined Ingot|) OR (|Kingpaca Cryst Beacon| AND |Kingpaca Cryst Saddle| AND |Craft Ingot| AND |Gather Wool|) OR (|Blazamut Beacon| AND |Blazamut Saddle| AND |Craft Refined Ingot| AND |Craft Ingot|) OR (|Dualith Beacon| AND |Dualith Saddle| AND |Craft High Quality Cloth| AND |Craft Refined Ingot|) OR (|Tetroise Saddle| AND |Tetroise Beacon| AND |Craft High Quality Cloth| AND |Craft Refined Ingot|))"
     },
     "ORB05 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 51| AND ((|Wumpo Botan Beacon| AND |Wumpo Botan Saddle| AND |Gather Beautiful Flower| AND |Craft Refined Ingot|) OR (|Bulldosu Beacon| AND |Bulldosu Saddle| AND |Craft Plasteel|) OR (|Gildane Saddle| AND |Gildane Beacon| AND |Craft High Quality Cloth|) OR (|Celesdir Saddle| AND |Celesdir Beacon| AND |Craft High Quality Cloth| AND |Craft High Quality Recovery Meds|) OR (|Polapup Terra Beacon| AND |Polapup Terra Saddle| AND |Craft Plasteel| AND |Gather Ice Organ|) OR (|Blazamut Ryu Beacon| AND |Blazamut Ryu Saddle| AND |Craft Plasteel| AND |Gather Flame Organ|))"
+        "requires": "(|Player Level 51| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Wumpo Botan Beacon| AND |Wumpo Botan Saddle| AND |Gather Beautiful Flower| AND |Craft Refined Ingot|) OR (|Bulldosu Beacon| AND |Bulldosu Saddle| AND |Craft Plasteel|) OR (|Gildane Saddle| AND |Gildane Beacon| AND |Craft High Quality Cloth|) OR (|Celesdir Saddle| AND |Celesdir Beacon| AND |Craft High Quality Cloth| AND |Craft High Quality Recovery Meds|) OR (|Polapup Terra Beacon| AND |Polapup Terra Saddle| AND |Craft Plasteel| AND |Gather Ice Organ|) OR (|Blazamut Ryu Beacon| AND |Blazamut Ryu Saddle| AND |Craft Plasteel| AND |Gather Flame Organ|))"
     },
     "ORB06 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 56| AND ((|Fenglope Lux Beacon| AND |Fenglope Lux Saddle| AND |Craft High Quality Cloth| AND |Gather Electric Organ|) OR (|Kitsun Saddle| AND |Kitsun Beacon| AND |Gather Flame Organ|) OR (|Starryon Saddle| AND |Starryon Beacon| AND |Craft High Quality Cloth| AND |Feybreak Beacon|) OR (|Azurmane Beacon| AND |Azurmane Saddle| AND |Craft High Quality Cloth| AND |Gather Electric Organ|) OR (|Kitsun Noct Beacon| AND |Kitsun Noct Saddle| AND |Gather Flame Organ|) OR (|Jormuntide Ignis Beacon| AND |Jormuntide Ignis Saddle| AND |Craft Hexolite| AND |Gather Flame Organ|) OR (|Silvegis Beacon| AND |Silvegis Saddle| AND |Craft Hexolite|))"
+        "requires": "(|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Fenglope Lux Beacon| AND |Fenglope Lux Saddle| AND |Craft High Quality Cloth| AND |Gather Electric Organ|) OR (|Kitsun Saddle| AND |Kitsun Beacon| AND |Gather Flame Organ|) OR (|Starryon Saddle| AND |Starryon Beacon| AND |Craft High Quality Cloth| AND |Feybreak Beacon|) OR (|Azurmane Beacon| AND |Azurmane Saddle| AND |Craft High Quality Cloth| AND |Gather Electric Organ|) OR (|Kitsun Noct Beacon| AND |Kitsun Noct Saddle| AND |Gather Flame Organ|) OR (|Jormuntide Ignis Beacon| AND |Jormuntide Ignis Saddle| AND |Craft Hexolite| AND |Gather Flame Organ|) OR (|Silvegis Beacon| AND |Silvegis Saddle| AND |Craft Hexolite|))"
     },
     "ORB07 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 61| AND ((|Paladius Beacon| AND |Paladius Saddle| AND |Craft Hexolite| AND |Craft Pal Metal Ingot|) OR (|Necromus Beacon| AND |Necromus Saddle| AND |Craft Hexolite| AND |Craft Pal Metal Ingot|) OR (|Univolt Cryst Beacon| AND |Univolt Cryst Saddle| AND |Craft Coralum Ingot| AND |Gather Ice Organ|) OR (|Dualith Noct Beacon| AND |Dualith Noct Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot| AND |Feybreak Beacon|) OR (|Moldron Cryst Beacon| AND |Moldron Cryst Saddle| AND |Craft High Quality Cloth| AND |Craft Coralum Ingot| AND |Gather Ice Organ|) OR (|Hartalis Beacon| AND |Hartalis Saddle| AND |Craft Coralum Ingot| AND |Craft High Quality Cloth|))"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Paladius Beacon| AND |Paladius Saddle| AND |Craft Hexolite| AND |Craft Pal Metal Ingot|) OR (|Necromus Beacon| AND |Necromus Saddle| AND |Craft Hexolite| AND |Craft Pal Metal Ingot|) OR (|Univolt Cryst Beacon| AND |Univolt Cryst Saddle| AND |Craft Coralum Ingot| AND |Gather Ice Organ|) OR (|Dualith Noct Beacon| AND |Dualith Noct Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot| AND |Feybreak Beacon|) OR (|Moldron Cryst Beacon| AND |Moldron Cryst Saddle| AND |Craft High Quality Cloth| AND |Craft Coralum Ingot| AND |Gather Ice Organ|) OR (|Hartalis Beacon| AND |Hartalis Saddle| AND |Craft Coralum Ingot| AND |Craft High Quality Cloth|))"
     },
     "ORB08 Ground Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 71| AND ((|Tetroise Primo Beacon| AND |Tetroise Primo Saddle| AND |Craft High Quality Cloth| AND |Craft Paloxite Ingot|) OR (|Starryon Primo Beacon| AND |Starryon Primo Saddle| AND |Craft High Quality Cloth| AND |Feybreak Beacon| AND |Gather High Quality Pal Oil|) OR (|Celesdir Noct Beacon| AND |Celesdir Noct Saddle| AND |Craft High Quality Cloth| AND |Craft High Quality Recovery Meds| AND |Feybreak Beacon|) OR (|Aegidron Saddle| AND |Aegidron Beacon| AND |Craft High Quality Cloth| AND |Craft Paloxite Ingot| AND |Gather Flame Organ|))"
+        "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Tetroise Primo Beacon| AND |Tetroise Primo Saddle| AND |Craft High Quality Cloth| AND |Craft Paloxite Ingot|) OR (|Starryon Primo Beacon| AND |Starryon Primo Saddle| AND |Craft High Quality Cloth| AND |Feybreak Beacon| AND |Gather High Quality Pal Oil|) OR (|Celesdir Noct Beacon| AND |Celesdir Noct Saddle| AND |Craft High Quality Cloth| AND |Craft High Quality Recovery Meds| AND |Feybreak Beacon|) OR (|Aegidron Saddle| AND |Aegidron Beacon| AND |Craft High Quality Cloth| AND |Craft Paloxite Ingot| AND |Gather Flame Organ|))"
     },
     "Launcher Mounts": {
         "connects_to": [
@@ -9493,25 +9518,25 @@
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 31| AND ((|Mossanda's Grenade Launcher| AND |Mossanda Beacon| AND |Craft Ingot| AND |Gather High Quality Pal Oil|) OR (|Mossanda Lux's Grenade Launcher| AND |Mossanda Lux Beacon| AND |Craft Ingot| AND |Gather High Quality Pal Oil|) OR (|Grizzbolt's Minigun| AND |Grizzbolt Beacon| AND |Craft Refined Ingot| AND |Craft Polymer| AND |Gather High Quality Pal Oil|))"
+        "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Mossanda's Grenade Launcher| AND |Mossanda Beacon| AND |Craft Ingot| AND |Gather High Quality Pal Oil|) OR (|Mossanda Lux's Grenade Launcher| AND |Mossanda Lux Beacon| AND |Craft Ingot| AND |Gather High Quality Pal Oil|) OR (|Grizzbolt's Minigun| AND |Grizzbolt Beacon| AND |Craft Refined Ingot| AND |Craft Polymer| AND |Gather High Quality Pal Oil|))"
     },
     "ORB04 Launcher Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 41| AND ((|Relaxaurus' Missile Launcher| AND |Relaxaurus Beacon| AND |Craft Refined Ingot| AND |Craft Polymer| AND |Craft Ingot|) OR (|Relaxaurus Lux's Missile Launcher| AND |Relaxaurus Lux Beacon| AND |Craft Refined Ingot| AND |Craft Polymer| AND |Craft Ingot|))"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Relaxaurus' Missile Launcher| AND |Relaxaurus Beacon| AND |Craft Refined Ingot| AND |Craft Polymer| AND |Craft Ingot|) OR (|Relaxaurus Lux's Missile Launcher| AND |Relaxaurus Lux Beacon| AND |Craft Refined Ingot| AND |Craft Polymer| AND |Craft Ingot|))"
     },
     "ORB08 Launcher Mounts": {
         "connects_to": [
             "Rideable Ground Mount"
         ],
-        "requires": "|Player Level 71| AND |Bastigor's Hammer| AND |Bastigor Beacon| AND |Craft Soralite Ingot| AND |Gather Ice Organ|"
+        "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Bastigor's Hammer| AND |Bastigor Beacon| AND |Craft Soralite Ingot| AND |Gather Ice Organ|"
     },
     "Jetragon Mount": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 61| AND |Jetragon's Missile Launcher| AND |Jetragon Beacon| AND |Gather Leather| AND |Craft AI Core| AND |Craft Soralite Ingot|"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Jetragon's Missile Launcher| AND |Jetragon Beacon| AND |Gather Leather| AND |Craft AI Core| AND |Craft Soralite Ingot|"
     },
     "Water Mounts": {
         "connects_to": [
@@ -9528,37 +9553,37 @@
         "connects_to": [
             "Rideable Water Mount"
         ],
-        "requires": "|Player Level 11| AND |Surfent Saddle| AND |Surfent Beacon| AND |Gather Aquatic Pal Fluids| OR {YamlDisabled(Enable_Palpedia)}"
+        "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Surfent Saddle| AND |Surfent Beacon| AND |Gather Aquatic Pal Fluids| OR {YamlDisabled(Enable_Palpedia)}"
     },
     "ORB02 Water Mounts": {
         "connects_to": [
             "Rideable Water Mount"
         ],
-        "requires": "|Player Level 21| AND ((|Polapup Saddle| AND |Polapup Beacon| AND |Craft Ingot| AND |Gather Ice Organ|) OR (|Azurobe Beacon| AND |Azurobe Saddle| AND |Gather Aquatic Pal Fluids|) OR (|Azurobe Cryst Beacon| AND |Azurobe Cryst Saddle| AND |Gather Ice Organ|))"
+        "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Polapup Saddle| AND |Polapup Beacon| AND |Craft Ingot| AND |Gather Ice Organ|) OR (|Azurobe Beacon| AND |Azurobe Saddle| AND |Gather Aquatic Pal Fluids|) OR (|Azurobe Cryst Beacon| AND |Azurobe Cryst Saddle| AND |Gather Ice Organ|))"
     },
     "ORB03 Water Mounts": {
         "connects_to": [
             "Rideable Water Mount"
         ],
-        "requires": "|Player Level 31| AND ((|Ghangler Beacon| AND |Ghangler Saddle| AND |Craft Ingot| AND |Craft Cryogenic Coolant|) OR (|Elphidran Aqua Beacon| AND |Elphidran Aqua Saddle| AND |Craft Ingot|) OR (|Jormuntide Beacon| AND |Jormuntide Saddle| AND |Craft Refined Ingot| AND |Craft Cryogenic Coolant|))"
+        "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Ghangler Beacon| AND |Ghangler Saddle| AND |Craft Ingot| AND |Craft Cryogenic Coolant|) OR (|Elphidran Aqua Beacon| AND |Elphidran Aqua Saddle| AND |Craft Ingot|) OR (|Jormuntide Beacon| AND |Jormuntide Saddle| AND |Craft Refined Ingot| AND |Craft Cryogenic Coolant|))"
     },
     "ORB04 Water Mounts": {
         "connects_to": [
             "Rideable Water Mount"
         ],
-        "requires": "|Player Level 41| AND ((|Ghangler Ignis Beacon| AND |Ghangler Ignis Saddle| AND |Craft High Quality Cloth| AND |Craft Refined Ingot| AND |Gather Flame Organ|) OR (|Whalaska Beacon| AND |Whalaska Saddle| AND |Craft Refined Ingot| AND |Craft Cryogenic Coolant|))"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Ghangler Ignis Beacon| AND |Ghangler Ignis Saddle| AND |Craft High Quality Cloth| AND |Craft Refined Ingot| AND |Gather Flame Organ|) OR (|Whalaska Beacon| AND |Whalaska Saddle| AND |Craft Refined Ingot| AND |Craft Cryogenic Coolant|))"
     },
     "ORB07 Water Mounts": {
         "connects_to": [
             "Rideable Water Mount"
         ],
-        "requires": "|Player Level 61| AND ((|Neptilius Beacon| AND |Neptilius Saddle| AND |Craft Coralum Ingot| AND |Gather Aquatic Pal Fluids|) OR (|Solmora Beacon| AND |Solmora Saddle| AND |Craft Coralum Ingot|) OR (|Solmora Lux Beacon| AND |Solmora Lux Saddle| AND |Craft Coralum Ingot| AND |Gather Electric Organ|))"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Neptilius Beacon| AND |Neptilius Saddle| AND |Craft Coralum Ingot| AND |Gather Aquatic Pal Fluids|) OR (|Solmora Beacon| AND |Solmora Saddle| AND |Craft Coralum Ingot|) OR (|Solmora Lux Beacon| AND |Solmora Lux Saddle| AND |Craft Coralum Ingot| AND |Gather Electric Organ|))"
     },
     "ORB08 Water Mounts": {
         "connects_to": [
             "Rideable Water Mount"
         ],
-        "requires": "|Player Level 71| AND ((|Whalaska Ignis Beacon| AND |Craft Soralite Ingot| AND |Gather Flame Organ|) OR (|Ophydia Beacon| AND |Ophydia Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot| AND |Gather Aquatic Pal Fluids|))"
+        "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Whalaska Ignis Beacon| AND |Craft Soralite Ingot| AND |Gather Flame Organ|) OR (|Ophydia Beacon| AND |Ophydia Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot| AND |Gather Aquatic Pal Fluids|))"
     },
     "Sky Mounts": {
         "connects_to": [
@@ -9583,43 +9608,43 @@
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 11| AND |Craft Ingot| AND ((|Nitewing Saddle| AND |Nitewing Beacon|) OR (|Elphidran Saddle| AND |Elphidran Beacon|))"
+        "requires": "(|Player Level 11| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Ingot| AND ((|Nitewing Saddle| AND |Nitewing Beacon|) OR (|Elphidran Saddle| AND |Elphidran Beacon|))"
     },
     "ORB02 Sky Mounts": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 21| AND |Craft Ingot| AND ((|Vanwyrm Beacon| AND |Vanwyrm Saddle| AND |Gather Flame Organ|) OR (|Vanwyrm Cryst Saddle| AND |Vanwyrm Cryst Beacon| AND |Gather Ice Organ|) OR (|Helzephyr Saddle| AND |Helzephyr Beacon| AND |Gather Electric Organ|) OR (|Beakon Beacon| AND |Gather Electric Organ|))"
+        "requires": "(|Player Level 21| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Ingot| AND ((|Vanwyrm Beacon| AND |Vanwyrm Saddle| AND |Gather Flame Organ|) OR (|Vanwyrm Cryst Saddle| AND |Vanwyrm Cryst Beacon| AND |Gather Ice Organ|) OR (|Helzephyr Saddle| AND |Helzephyr Beacon| AND |Gather Electric Organ|) OR (|Beakon Beacon| AND |Gather Electric Organ|))"
     },
     "ORB03 Sky Mounts": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 31| AND ((|Elphidran Aqua Beacon| AND |Elphidran Aqua Saddle| AND |Craft Ingot|) OR (|Ragnahawk Saddle| AND |Ragnahawk Beacon| AND |Craft Ingot| AND |Gather Flame Organ|) OR (|Quivern Saddle| AND |Quivern Beacon| AND |Craft Refined Ingot| AND |Craft Cryogenic Coolant|) OR (|Astegon Beacon| AND |Astegon Saddle| AND |Craft Refined Ingot| AND |Craft Ingot| AND |Craft Corrosive Solvent|))"
+        "requires": "(|Player Level 31| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Elphidran Aqua Beacon| AND |Elphidran Aqua Saddle| AND |Craft Ingot|) OR (|Ragnahawk Saddle| AND |Ragnahawk Beacon| AND |Craft Ingot| AND |Gather Flame Organ|) OR (|Quivern Saddle| AND |Quivern Beacon| AND |Craft Refined Ingot| AND |Craft Cryogenic Coolant|) OR (|Astegon Beacon| AND |Astegon Saddle| AND |Craft Refined Ingot| AND |Craft Ingot| AND |Craft Corrosive Solvent|))"
     },
     "ORB04 Sky Mounts": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 41| AND |Craft Refined Ingot| AND ((|Suzaku Beacon| AND |Suzaku Saddle| AND |Gather Flame Organ|) OR (|Suzaku Aqua Beacon| AND |Suzaku Aqua Saddle| AND |Gather Aquatic Pal Fluids|) OR (|Quivern Botan Saddle| AND |Quivern Botan Beacon| AND |Craft Cryogenic Coolant|) OR (|Helzephyr Lux Beacon| AND |Helzephyr Lux Saddle| AND |Gather Electric Organ|) OR (|Shadowbeak Beacon| AND |Shadowbeak Saddle| AND |Craft Corrosive Solvent|))"
+        "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Craft Refined Ingot| AND ((|Suzaku Beacon| AND |Suzaku Saddle| AND |Gather Flame Organ|) OR (|Suzaku Aqua Beacon| AND |Suzaku Aqua Saddle| AND |Gather Aquatic Pal Fluids|) OR (|Quivern Botan Saddle| AND |Quivern Botan Beacon| AND |Craft Cryogenic Coolant|) OR (|Helzephyr Lux Beacon| AND |Helzephyr Lux Saddle| AND |Gather Electric Organ|) OR (|Shadowbeak Beacon| AND |Shadowbeak Saddle| AND |Craft Corrosive Solvent|))"
     },
     "ORB06 Sky Mounts": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 56| AND ((|Selyne Beacon| AND |Selyne Saddle| AND |Craft Plasteel| AND |Gather Meteorite Fragment|) OR (|Faleris Beacon| AND |Faleris Saddle| AND |Craft High Quality Cloth| AND |Craft Hexolite| AND |Gather Flame Organ|) OR (|Faleris Aqua Beacon| AND |Faleris Aqua Saddle| AND |Craft High Quality Cloth| AND |Craft Hexolite| AND |Gather Aquatic Pal Fluids|))"
+        "requires": "(|Player Level 56| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Selyne Beacon| AND |Selyne Saddle| AND |Craft Plasteel| AND |Gather Meteorite Fragment|) OR (|Faleris Beacon| AND |Faleris Saddle| AND |Craft High Quality Cloth| AND |Craft Hexolite| AND |Gather Flame Organ|) OR (|Faleris Aqua Beacon| AND |Faleris Aqua Saddle| AND |Craft High Quality Cloth| AND |Craft Hexolite| AND |Gather Aquatic Pal Fluids|))"
     },
     "ORB07 Sky Mounts": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 61| AND ((|Frostallion Beacon| AND |Frostallion Saddle| AND |Craft Coralum Ingot| AND |Gather Ice Organ|) OR (|Frostallion Noct Beacon| AND |Frostallion Noct Saddle| AND |Craft Coralum Ingot| AND |Gather Venom Gland|) OR (|Dynamoff Saddle| AND |Dynamoff Beacon| AND |Craft Soralite Ingot| AND |Gather Electric Organ|) OR (|Xenolord Beacon| AND |Xenolord Saddle| AND |Feybreak Beacon| AND |Gather Meteorite Fragment|) OR (|Eidrolon Beacon| AND |Eidrolon Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot|))"
+        "requires": "(|Player Level 61| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Frostallion Beacon| AND |Frostallion Saddle| AND |Craft Coralum Ingot| AND |Gather Ice Organ|) OR (|Frostallion Noct Beacon| AND |Frostallion Noct Saddle| AND |Craft Coralum Ingot| AND |Gather Venom Gland|) OR (|Dynamoff Saddle| AND |Dynamoff Beacon| AND |Craft Soralite Ingot| AND |Gather Electric Organ|) OR (|Xenolord Beacon| AND |Xenolord Saddle| AND |Feybreak Beacon| AND |Gather Meteorite Fragment|) OR (|Eidrolon Beacon| AND |Eidrolon Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot|))"
     },
     "ORB08 Sky Mounts": {
         "connects_to": [
             "Rideable Sky Mount"
         ],
-        "requires": "|Player Level 71| AND ((|Beakon Cryst Saddle| AND |Beakon Cryst Beacon| AND |Craft Soralite Ingot| AND |Gather Ice Organ|) OR (|Roujay Beacon| AND |Roujay Saddle| AND |Craft Soralite Ingot| AND |Craft High Quality Cloth|) OR (|Eidrolon Ignis Beacon| AND |Eidrolon Ignis Saddle| AND |Craft High Quality Cloth| AND |Craft Paloxite Ingot| AND |Gather Flame Organ|) OR (|Shaolong Beacon| AND |Shaolong Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot|))"
+        "requires": "(|Player Level 71| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND ((|Beakon Cryst Saddle| AND |Beakon Cryst Beacon| AND |Craft Soralite Ingot| AND |Gather Ice Organ|) OR (|Roujay Beacon| AND |Roujay Saddle| AND |Craft Soralite Ingot| AND |Craft High Quality Cloth|) OR (|Eidrolon Ignis Beacon| AND |Eidrolon Ignis Saddle| AND |Craft High Quality Cloth| AND |Craft Paloxite Ingot| AND |Gather Flame Organ|) OR (|Shaolong Beacon| AND |Shaolong Saddle| AND |Craft High Quality Cloth| AND |Craft Soralite Ingot|))"
     },
     "Rideable Ground Mount": {
         "connects_to": [],
@@ -9643,7 +9668,7 @@
         "connects_to": [
             "Mission Intro 3"
         ],
-        "requires": "|Pal Sphere| AND |Pals|"
+        "requires": "(|Pal Sphere| AND |Pals|) OR |Windswept Beacon|"
     },
     "Mission Intro 3": {
         "connects_to": [
@@ -9655,11 +9680,11 @@
         "connects_to": [
             "Mission Intro 5"
         ],
-        "requires": "|Lamball Beacon| OR {YamlDisabled(Enable_Palpedia)}"
+        "requires": "|Lamball Beacon| OR {YamlDisabled(Enable_Palpedia)} OR |Windswept Beacon|"
     },
     "Mission Intro 5": {
         "connects_to": [],
-        "requires": "|Craft Cloth Outfit| AND |Progressive Shield| AND |Normal Parachute|"
+        "requires": "(|Craft Cloth Outfit| AND |Progressive Shield| AND |Normal Parachute|) OR |Windswept Beacon|"
     },
     "Mission Zoe": {
         "connects_to": [

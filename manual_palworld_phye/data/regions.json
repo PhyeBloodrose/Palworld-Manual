@@ -1242,7 +1242,7 @@
         "connects_to": [
             "Capture Bushi"
         ],
-        "requires": "{OptOne(|Bushi Bounty Token|)}"
+        "requires": "|Player Level 21| AND {OptOne(|Bushi Bounty Token|)}"
     },
     "Capture Bushi": {
         "connects_to": [
@@ -9668,23 +9668,23 @@
         "connects_to": [
             "Mission Intro 3"
         ],
-        "requires": "(|Pal Sphere| AND |Pals|) OR |Windswept Beacon|"
+        "requires": "(|Pal Sphere| AND |Pals|) OR |Zoe|"
     },
     "Mission Intro 3": {
         "connects_to": [
             "Mission Intro 4"
         ],
-        "requires": "|Palbox|"
+        "requires": "|Palbox| OR |Zoe|"
     },
     "Mission Intro 4": {
         "connects_to": [
             "Mission Intro 5"
         ],
-        "requires": "|Lamball Beacon| OR {YamlDisabled(Enable_Palpedia)} OR |Windswept Beacon|"
+        "requires": "|Lamball Beacon| OR {YamlDisabled(Enable_Palpedia)} OR |Zoe|"
     },
     "Mission Intro 5": {
         "connects_to": [],
-        "requires": "(|Craft Cloth Outfit| AND |Progressive Shield| AND |Normal Parachute|) OR |Windswept Beacon|"
+        "requires": "(|Craft Cloth Outfit| AND |Progressive Shield| AND |Normal Parachute|) OR |Zoe|"
     },
     "Mission Zoe": {
         "connects_to": [

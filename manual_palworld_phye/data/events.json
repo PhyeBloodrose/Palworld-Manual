@@ -8050,7 +8050,7 @@
                 "Crafting Possible",
                 "ORB04"
             ],
-            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)})) AND |Advanced Fishing Rod (Pengullet)| AND |Productive Work 2| AND |Gather High Quality Pal Oil| AND |Craft Pal Metal Ingot| AND |Craft Carbon Fiber|"
+            "requires": "(|Player Level 41| OR {YamlEnabled(Disable_LevelCap_Technology)}) AND |Advanced Fishing Rod (Pengullet)| AND |Productive Work 2| AND |Gather High Quality Pal Oil| AND |Craft Pal Metal Ingot| AND |Craft Carbon Fiber|"
         },
         {
             "name": "Fishing Bait",

@@ -102,8 +102,16 @@
         "yaml_option": [ "Random_Spawn" ],
         "hidden": true
     },
-    "Starting Bonus": {
+    "Starting Palbox": {
         "yaml_option": [ "Start_With_Palbox" ],
+        "hidden": true
+    },
+    "Starting Wooden Chest": {
+        "yaml_option": [ "Start_With_WoodenChest" ],
+        "hidden": true
+    },
+    "Starting Repair Bench": {
+        "yaml_option": [ "Start_With_RepairBench" ],
         "hidden": true
     },
     "Random Start": {

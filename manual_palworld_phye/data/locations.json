@@ -626,15 +626,39 @@
         ]
     },
     {
-        "name": "Starting Palbox",
+        "name": "Starting Bonus (Palbox)",
         "region": "General",
         "category": [
             "Start Here",
-            "Starting Bonus"
+            "Starting Palbox"
         ],
         "requires": [],
         "place_item": [
             "Palbox"
+        ]
+    },
+    {
+        "name": "Starting Bonus (Wooden Chest)",
+        "region": "General",
+        "category": [
+            "Start Here",
+            "Starting Wooden Chest"
+        ],
+        "requires": [],
+        "place_item": [
+            "Wooden Chest"
+        ]
+    },
+    {
+        "name": "Starting Bonus (Repair Bench)",
+        "region": "General",
+        "category": [
+            "Start Here",
+            "Starting Repair Bench"
+        ],
+        "requires": [],
+        "place_item": [
+            "Repair Bench"
         ]
     },
     {
@@ -2360,7 +2384,7 @@
         "category": [
             "Fast Travel Locations",
             "Bamboo Groves",
-            "ORB01"
+            "ORB02"
         ],
         "requires": []
     },
@@ -18777,7 +18801,7 @@
         "category": [
             "Exploration",
             "Bamboo Groves",
-            "ORB01"
+            "ORB02"
         ],
         "requires": []
     },
@@ -20006,7 +20030,7 @@
         "category": [
             "Ancient Ruins",
             "Bamboo Groves",
-            "ORB01"
+            "ORB02"
         ],
         "requires": []
     },
@@ -20016,7 +20040,7 @@
         "category": [
             "Ancient Ruins",
             "Bamboo Groves",
-            "ORB01"
+            "ORB02"
         ],
         "requires": []
     },
@@ -21368,138 +21392,138 @@
     },
     {
         "name": "Windswept Island Lifmunk Effigy (243,-558)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (250,-523)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (267,-484)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (156,-465)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (169,-596)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (52,-518)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (57,-469)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (-33,-484)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (-6,-460)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (-13,-402)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (24,-419)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (66,-409)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (126,-413)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (120,-372)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Windswept Island Lifmunk Effigy (169,-350)",
-        "region": "Windswept Island",
+        "region": "Windswept_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Windswept Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Marsh Island Lifmunk Effigy (367,-323)",
@@ -21508,467 +21532,467 @@
             "Collecting - Lifmunk Effigies",
             "Marsh Island"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-368,-191)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-234,-102)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-333,-312)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-232,-277)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-183,-230)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-118,-278)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-227,-311)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-200,-319)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-277,-408)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-207,-411)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-150,-387)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lifmunk Effigy (-142,-434)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (16,-115)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (29,-110)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (-94,-193)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (-57,-208)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (-94,-263)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (-67,-282)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (-45,-302)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (-36,-358)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lifmunk Effigy (16,-339)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-360,-492)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-538,-599)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-579,-711)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-500,-714)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-521,-758)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-464,-742)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-421,-692)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-749,-212)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-613,-269)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-569,-221)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-457,-217)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-789,-292)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-794,-587)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-638,-532)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Lifmunk Effigy (-515,-450)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (141,176)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (166,13)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (182,2)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (211,1)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (234,-4)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (307,-23)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (208,-39)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (189,-96)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (204,-96)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lifmunk Effigy (270,-231)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Frostbound Lifmunk Effigy (170,16)",
@@ -21978,157 +22002,157 @@
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (474,13)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (474,76)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (507,154)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (621,188)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (855,191)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (446,283)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (301,315)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (110,224)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (221,454)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (298,481)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (669,434)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (222,647)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (310,709)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (485,623)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Lifmunk Effigy (459,712)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Circular Ruins Lifmunk Effigy (908,-98)",
@@ -22138,7 +22162,7 @@
             "Misc Islands",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-79,55)",
@@ -22148,7 +22172,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-136,130)",
@@ -22158,7 +22182,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-68,193)",
@@ -22168,577 +22192,577 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (19,267)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-96,341)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-173,332)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-266,299)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-270,408)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-405,444)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-430,496)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-327,474)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-208,460)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-188,453)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-176,484)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Lifmunk Effigy (-171,596)",
-        "region": "Astral Mountains",
+        "region": "Astral_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-612,-17)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-724,145)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-725,201)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-681,190)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-664,184)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-660,169)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-570,152)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-668,286)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-624,264)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-614,236)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-561,265)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-538,213)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-481,205)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-406,202)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Lifmunk Effigy (-541,322)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-541,322)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1354,-1159)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1187,-1265)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-991,-1183)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-975,-975)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-841,-1088)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-826,-1122)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-714,-1022)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-620,-1056)",
-        "region": "Feybreak",
+        "region": "Feybreak_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1122,-1319)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1085,-1391)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1412,-1464)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1336,-1523)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1296,-1553)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Lifmunk Effigy (-1223,-1750)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-597,-1395)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-568,-1486)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-521,-1543)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-499,-1487)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-534,-1367)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-486,-1419)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-405,-1411)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-419,-1563)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-374,-1518)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-335,-1458)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-378,-1350)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-268,-1393)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-219,-1423)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-281,-1473)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Lifmunk Effigy (-231,-1537)",
-        "region": "Sunreach",
+        "region": "Sunreach_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Glacial Memento Lifmunk Effigy (-1690,-946)",
@@ -22748,257 +22772,257 @@
             "Misc Islands",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "World Tree Lifmunk Effigy (92,772)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (66,766)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (49,753)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (0,761)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-3,742)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-33,720)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-71,694)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-57,745)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-47,760)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-34,773)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-63,789)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (-61,836)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (16,846)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (36,826)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Lifmunk Effigy (57,813)",
-        "region": "World Tree",
+        "region": "WorldTree_LifmunkEffigies",
         "category": [
             "Collecting - Lifmunk Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Capture Power|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-148,-506)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-276,-508)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-247,-426)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-263,-395)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-103,-355)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-182,-263)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-376,-256)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-325,-233)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-392,-115)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Bamboo Groves Lamball Effigy (-267,-97)",
-        "region": "Bamboo Groves",
+        "region": "Bamboo_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Twilight Dunes Lamball Effigy (-89,-133)",
@@ -23006,169 +23030,169 @@
         "category": [
             "Collecting - Lamball Effigies",
             "Bamboo Groves",
-            "ORB01"
+            "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Crescent Moon Lamball Effigy (-12,-351)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lamball Effigy (63,300)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lamball Effigy (-90,-314)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lamball Effigy (-58,-261)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lamball Effigy (-51,-163)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lamball Effigy (-4,-85)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Crescent Moon Lamball Effigy (-11,-82)",
-        "region": "Crescent Moon Shore",
+        "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (224,-269)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (172,-202)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (203,-142)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (282,-173)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (127,-34)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (24,11)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (73,118)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (291,38)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Verdant Brook Lamball Effigy (241,135)",
-        "region": "Verdant Brook",
+        "region": "Verdant_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": ""
     },
     {
         "name": "Frostbound Mountains Lamball Effigy (193,71)",
@@ -23178,7 +23202,7 @@
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Scars of War Lamball Effigy (392,52)",
@@ -23188,7 +23212,7 @@
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Scars of War Lamball Effigy (401,-41)",
@@ -23198,287 +23222,287 @@
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Satiety Duration|)}"
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-805,-633)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-674,-639)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-679,-727)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-592,-727)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-577,-610)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-531,-733)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-481,-680)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-376,-657)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-302,-531)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-333,-431)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-362,-381)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-521,-190)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-611,-225)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-537,-239)",
-        "region": "Mount Obsidian",
+        "region": "Obsidian_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-764,-259)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-800,-323)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-828,-419)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-828,-529)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-636,-327)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-606,-285)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-602,-401)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-603,-437)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-542,-475)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-452,-536)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-456,-406)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-411,-593)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-475,-298)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Mount Obsidian Pengullet Effigy (-486,-262)",
-        "region": "Hot Volcano",
+        "region": "HotVolcano_PengulletEffigies",
         "category": [
             "Collecting - Pengullet Effigies",
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": ""
     },
     {
         "name": "Flamepulse Pengullet Effigy (773,447)",
@@ -23488,7 +23512,7 @@
             "Misc Islands",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": "({OptOne(|Progressive Swimming Ability|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Bicornis Pengullet Effigy (-1166,-1920)",
@@ -23498,277 +23522,277 @@
             "Misc Islands",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Swimming Ability|)}"
+        "requires": "({OptOne(|Progressive Swimming Ability|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (315,742)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (268,657)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (277,605)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (495,663)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (348,557)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (392,567)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (289,500)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (274,449)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (440,513)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (428,461)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (546,529)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (611,411)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (529,328)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (246,350)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (197,234)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (280,215)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (292,249)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (503,278)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (660,243)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (418,140)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (465,137)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (452,64)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (559,65)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (556,152)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (611,172)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (626,135)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Desiccated Dunes Munchill Effigy (738,32)",
-        "region": "Desiccated Dunes",
+        "region": "Desert_MunchillEffigies",
         "category": [
             "Collecting - Munchill Effigies",
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": ""
     },
     {
         "name": "Scouring Islet Munchill Effigy (454,-745)",
@@ -23778,7 +23802,7 @@
             "Misc Islands",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": "({OptOne(|Progressive Food Preservation|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Suncrest Islet Munchill Effigy (-903,122)",
@@ -23788,7 +23812,7 @@
             "Misc Islands",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": "({OptOne(|Progressive Food Preservation|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Sandstone Gate Munchill Effigy (-1289,-596)",
@@ -23798,7 +23822,7 @@
             "Misc Islands",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Food Preservation|)}"
+        "requires": "({OptOne(|Progressive Food Preservation|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-66,12)",
@@ -23808,7 +23832,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-52,30)",
@@ -23818,7 +23842,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-21,42)",
@@ -23828,7 +23852,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-91,66)",
@@ -23838,7 +23862,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-122,104)",
@@ -23848,7 +23872,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-99,123)",
@@ -23858,7 +23882,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-69,113)",
@@ -23868,7 +23892,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-89,184)",
@@ -23878,7 +23902,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (26,206)",
@@ -23888,7 +23912,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (11,99)",
@@ -23898,1407 +23922,1407 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Rooby Effigy (-324,606)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-392,520)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-423,481)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-370,297)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-267,230)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-200,249)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-247,385)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-196,465)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-176,459)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-249,543)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-205,555)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-244,612)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-130,571)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (141,440)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (91,366)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (47,278)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-140,320)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-117,316)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-102,325)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Astral Mountains Rooby Effigy (-76,290)",
-        "region": "Astral Mountains",
+        "region": "Astral_RoobyEffigies",
         "category": [
             "Collecting - Rooby Effigies",
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive Jump Power|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-639,7)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-694,86)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-634,104)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-707,184)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-688,180)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-671,183)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-702,261)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-628,190)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-584,162)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-535,158)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-554,101)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-523,131)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-493,102)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-516,181)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-497,190)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-483,186)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-447,183)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-447,149)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-405,187)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-387,180)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-382,128)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-369,150)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-358,132)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-334,127)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-454,229)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-583,205)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-615,282)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-582,334)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-534,342)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Sakurajima Herbil Effigy (-594,233)",
-        "region": "Sakurajima",
+        "region": "Sakurajima_HerbilEffigies",
         "category": [
             "Collecting - Herbil Effigies",
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive Flight Capacity|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1413,-1037)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1404,-1017)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1215,-976)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1184,-844)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1182,-825)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1135,-950)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1114,-1079)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-969,-916)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-981,-995)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-846,-961)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-721,-972)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-675,-964)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-640,-1081)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-828,-1150)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-978,-1168)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-881,-1344)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1009,-1408)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1051,-1255)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1129,1250)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1127,-1300)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Feybreak Tanzee Effigy (-1205,-1361)",
-        "region": "Feybreak",
+        "region": "Feybreak_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1210,-1412)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1352,-1426)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1325,-1406)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1179,-1505)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1287,-1576)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1363,-1672)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1245,-1626)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1246,-1698)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Frozen Coral Hill Tanzee Effigy (-1159,-1630)",
-        "region": "Feybreak Blue",
+        "region": "FeybreakBlue_TanzeeEffigies",
         "category": [
             "Collecting - Tanzee Effigies",
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Climbing Proficiency|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-547,-1319)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-568,-1345)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-523,-1369)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-579,-1462)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-584,-1484)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-555,-1530)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-516,-1547)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-505,-1468)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-485,-1368)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-466,-1421)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-401,-1371)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-419,-1444)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-451,-1561)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-415,-1567)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-386,-1556)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-363,-1557)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-393,-1496)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-349,-1510)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-352,-1424)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-326,-1452)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-348,-1363)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-333,-1392)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-254,-1422)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-333,-1561)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-295,-1547)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-222,-1551)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-253,-1502)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-244,-1489)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-207,-1501)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "Sunreach Depresso Effigy (-235,-1464)",
-        "region": "Sunreach",
+        "region": "Sunreach_DepressoEffigies",
         "category": [
             "Collecting - Depresso Effigies",
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Status Resistance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (104,772)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (50,752)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (38,758)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (34,762)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (40,769)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-60,692)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-68,723)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-73,753)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-74,766)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-21,746)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-15,754)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-19,780)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-53,781)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-50,793)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-62,806)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-67,830)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-61,845)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-65,860)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-26,848)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-28,835)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (-5,835)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (16,826)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (29,815)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (44,826)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (52,817)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (60,839)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (72,817)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (16,798)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (18,789)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "World Tree Cattiva Effigy (40,797)",
-        "region": "World Tree",
+        "region": "WorldTree_CattivaEffigies",
         "category": [
             "Collecting - Cattiva Effigies",
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Endurance|)}"
+        "requires": ""
     },
     {
         "name": "Twilight Dunes Lunaris Effigy (-149,46)",
@@ -25306,9 +25330,9 @@
         "category": [
             "Collecting - Lunaris Effigies",
             "Bamboo Groves",
-            "ORB01"
+            "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Sphere Tracking|)}"
+        "requires": "({OptOne(|Progressive Sphere Tracking|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Crescent Moon Lunaris Effigy (59,-291)",
@@ -25318,7 +25342,7 @@
             "Crescent Moon Shore",
             "ORB01"
         ],
-        "requires": "{OptOne(|Progressive Sphere Tracking|)}"
+        "requires": "({OptOne(|Progressive Sphere Tracking|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Scars of War Lunaris Effigy (362,29)",
@@ -25328,7 +25352,7 @@
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Sphere Tracking|)}"
+        "requires": "({OptOne(|Progressive Sphere Tracking|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Frostbound Mountains Lunaris Effigy (245,75)",
@@ -25338,7 +25362,7 @@
             "Verdant Brook",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive Sphere Tracking|)}"
+        "requires": "({OptOne(|Progressive Sphere Tracking|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Mount Obsidian Relaxaurus Effigy (-556,-623)",
@@ -25348,7 +25372,7 @@
             "Mount Obsidian",
             "ORB02"
         ],
-        "requires": "{OptOne(|Progressive EXP Gain|)}"
+        "requires": "({OptOne(|Progressive EXP Gain|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Desiccated Dunes Relaxaurus Effigy (503,359)",
@@ -25358,7 +25382,7 @@
             "Desiccated Dunes",
             "ORB03"
         ],
-        "requires": "{OptOne(|Progressive EXP Gain|)}"
+        "requires": "({OptOne(|Progressive EXP Gain|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Astral Mountains Relaxaurus Effigy (-145,618)",
@@ -25368,7 +25392,7 @@
             "Astral Mountains",
             "ORB04"
         ],
-        "requires": "{OptOne(|Progressive EXP Gain|)}"
+        "requires": "({OptOne(|Progressive EXP Gain|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Sakurajima Relaxaurus Effigy (-632,225)",
@@ -25378,7 +25402,7 @@
             "Sakurajima",
             "ORB05"
         ],
-        "requires": "{OptOne(|Progressive EXP Gain|)}"
+        "requires": "({OptOne(|Progressive EXP Gain|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Feybreak Yakumo Effigy (-1124,-1388)",
@@ -25388,7 +25412,7 @@
             "Feybreak",
             "ORB06"
         ],
-        "requires": "{OptOne(|Progressive Rainbow Fortune|)}"
+        "requires": "({OptOne(|Progressive Rainbow Fortune|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Sunreach Yakumo Effigy (-281,-1459)",
@@ -25398,7 +25422,7 @@
             "Sunreach",
             "ORB07"
         ],
-        "requires": "{OptOne(|Progressive Rainbow Fortune|)}"
+        "requires": "({OptOne(|Progressive Rainbow Fortune|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "World Tree Yakumo Effigy (-53,764)",
@@ -25408,7 +25432,7 @@
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Rainbow Fortune|)}"
+        "requires": "({OptOne(|Progressive Rainbow Fortune|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "World Tree Yakumo Effigy (-65,850)",
@@ -25418,7 +25442,7 @@
             "The World Tree",
             "ORB08"
         ],
-        "requires": "{OptOne(|Progressive Rainbow Fortune|)}"
+        "requires": "({OptOne(|Progressive Rainbow Fortune|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     {
         "name": "Reached Player Level 2",

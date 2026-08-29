@@ -689,7 +689,7 @@
             "region": "Twilight Dunes",
             "category": [
                 "Location Beacons",
-                "ORB01",
+                "ORB02",
                 "Lamball Effigies",
                 "Lunaris Effigies",
                 "Coal Location",
@@ -8206,7 +8206,7 @@
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "{YamlEnabled(Include_PalDrops)} OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Wool| AND |Ranch|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
+            "requires": "{YamlEnabled(Include_PalDrops)} OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Wool| AND |Ranch| AND |Palbox|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Craft High Quality Cloth",
@@ -8221,7 +8221,7 @@
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "{YamlEnabled(Include_PalDrops)} OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Leather| AND |Ranch|) OR ((|@Village Merchant| OR |@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "{YamlEnabled(Include_PalDrops)} OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Leather| AND |Ranch| AND |Palbox|) OR ((|@Village Merchant| OR |@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Craft Base Foundation",
@@ -8235,7 +8235,7 @@
             "category": [
                 "Crafting Possible"
             ],
-            "requires": "{YamlEnabled(Include_PalDrops)} OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Flame Organ| AND |Ranch|) OR ((|@Village Merchant| OR |@Fisherman Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "{YamlEnabled(Include_PalDrops)} OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Flame Organ| AND |Ranch| AND |Palbox|) OR ((|@Village Merchant| OR |@Fisherman Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Mount",
@@ -9030,14 +9030,14 @@
             "category": [
                 "Collector Goal"
             ],
-            "requires": "{YamlDisabled(Lamball_Effigies)} OR {YamlCompare(player_access < 1)} OR ({YamlCompare(player_access = 1)} AND |@Lamball Effigies:3|) OR ({YamlCompare(player_access >= 2)} AND |@Lamball Effigies:6|)"
+            "requires": "{YamlDisabled(Lamball_Effigies)} OR {YamlCompare(player_access < 1)} OR ({YamlCompare(player_access = 1)} AND |@Lamball Effigies:2|) OR ({YamlCompare(player_access >= 2)} AND |@Lamball Effigies:6|)"
         },
         {
             "name": "Lunaris Collected",
             "category": [
                 "Collector Goal"
             ],
-            "requires": "{YamlDisabled(Lunaris_Effigies)} OR ({YamlCompare(player_access = 1)} AND |@Lunaris Effigies:2|) OR ({YamlCompare(player_access >= 2)} AND |@Lunaris Effigies:4|)"
+            "requires": "{YamlDisabled(Lunaris_Effigies)} OR ({YamlCompare(player_access = 1)} AND |@Lunaris Effigies:1|) OR ({YamlCompare(player_access >= 2)} AND |@Lunaris Effigies:4|)"
         },
         {
             "name": "Pengullets Collected",
@@ -9276,7 +9276,7 @@
             "category": [
                 "Traveler Goal"
             ],
-            "requires": "({YamlCompare(player_access = 0)} AND |@Travel Points:4|) OR ({YamlCompare(player_access = 1)} AND |@Travel Points:14|) OR ({YamlCompare(player_access = 2)} AND |@Travel Points:20|) OR ({YamlCompare(player_access = 3)} AND |@Travel Points:25|) OR ({YamlCompare(player_access = 4)} AND |@Travel Points:30|) OR ({YamlCompare(player_access = 5)} AND |@Travel Points:32|) OR ({YamlCompare(player_access = 6)} AND |@Travel Points:35|) OR ({YamlCompare(player_access = 7)} AND |@Travel Points:39|) OR ({YamlCompare(player_access = 8)} AND |@Travel Points:40|)"
+            "requires": "({YamlCompare(player_access = 0)} AND |@Travel Points:4|) OR ({YamlCompare(player_access = 1)} AND |@Travel Points:13|) OR ({YamlCompare(player_access = 2)} AND |@Travel Points:20|) OR ({YamlCompare(player_access = 3)} AND |@Travel Points:25|) OR ({YamlCompare(player_access = 4)} AND |@Travel Points:30|) OR ({YamlCompare(player_access = 5)} AND |@Travel Points:32|) OR ({YamlCompare(player_access = 6)} AND |@Travel Points:35|) OR ({YamlCompare(player_access = 7)} AND |@Travel Points:39|) OR ({YamlCompare(player_access = 8)} AND |@Travel Points:40|)"
         },
         {
             "name": "Watcher Goal",
@@ -9290,7 +9290,7 @@
             "category": [
                 "Watcher Goal"
             ],
-            "requires": "{OptOne(|Ancient Cipher|)} AND (({YamlCompare(player_access = 0)} AND |@Ancient Ruins Location:4|) OR ({YamlCompare(player_access = 1)} AND |@Ancient Ruins Location:9|) OR ({YamlCompare(player_access = 2)} AND |@Ancient Ruins Location:14|) OR ({YamlCompare(player_access = 3)} AND |@Ancient Ruins Location:17|) OR ({YamlCompare(player_access = 4)} AND |@Ancient Ruins Location:20|) OR ({YamlCompare(player_access = 5)} AND |@Ancient Ruins Location:22|) OR ({YamlCompare(player_access = 6)} AND |@Ancient Ruins Location:25|) OR ({YamlCompare(player_access >= 7)} AND |@Ancient Ruins Location:29|))"
+            "requires": "{OptOne(|Ancient Cipher|)} AND (({YamlCompare(player_access = 0)} AND |@Ancient Ruins Location:4|) OR ({YamlCompare(player_access = 1)} AND |@Ancient Ruins Location:8|) OR ({YamlCompare(player_access = 2)} AND |@Ancient Ruins Location:14|) OR ({YamlCompare(player_access = 3)} AND |@Ancient Ruins Location:17|) OR ({YamlCompare(player_access = 4)} AND |@Ancient Ruins Location:20|) OR ({YamlCompare(player_access = 5)} AND |@Ancient Ruins Location:22|) OR ({YamlCompare(player_access = 6)} AND |@Ancient Ruins Location:25|) OR ({YamlCompare(player_access >= 7)} AND |@Ancient Ruins Location:29|))"
         },
         {
             "name": "Arena Goal",
@@ -10045,28 +10045,28 @@
             "category": [
                 "Gathering Possible"
             ],
-            "requires": "({YamlEnabled(Include_PalDrops)} AND |Windswept Beacon|) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Electric Organ| AND |Ranch|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
+            "requires": "({YamlEnabled(Include_PalDrops)} AND |Windswept Beacon|) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Electric Organ| AND |Ranch| AND |Palbox|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Gather Venom Gland",
             "category": [
                 "Gathering Possible"
             ],
-            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Windswept Beacon| OR |Eastern Wild Beacon| OR |Marsh Beacon|)) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Venom Gland| AND |Ranch|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
+            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Windswept Beacon| OR |Eastern Wild Beacon| OR |Marsh Beacon|)) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Venom Gland| AND |Ranch| AND |Palbox|) OR (|@Village Merchant| AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Gather Ice Organ",
             "category": [
                 "Gathering Possible"
             ],
-            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Windswept Beacon| OR |Eastern Wild Beacon| OR |Sea Breeze Beacon| OR |Murmurs Beacon|)) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Ice Organ| AND |Ranch|) OR (|@Dunes Merchant| AND {OptOne(|Membership Card|)})"
+            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Windswept Beacon| OR |Eastern Wild Beacon| OR |Sea Breeze Beacon| OR |Murmurs Beacon|)) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Ice Organ| AND |Ranch| AND |Palbox|) OR (|@Dunes Merchant| AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Gather Bone",
             "category": [
                 "Gathering Possible"
             ],
-            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Windswept Beacon| OR |Sea Breeze Beacon| OR |Marsh Beacon|)) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Bone| AND |Ranch|) OR ((|@Village Merchant| OR |@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
+            "requires": "({YamlEnabled(Include_PalDrops)} AND (|Windswept Beacon| OR |Sea Breeze Beacon| OR |Marsh Beacon|)) OR ({YamlEnabled(Allow_Ranching)} AND |@Farming Bone| AND |Ranch| AND |Palbox|) OR ((|@Village Merchant| OR |@Fisherman Merchant| OR |@Dunes Merchant|) AND {OptOne(|Membership Card|)})"
         },
         {
             "name": "Craft Cement",

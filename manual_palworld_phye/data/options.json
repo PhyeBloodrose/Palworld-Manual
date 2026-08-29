@@ -267,6 +267,71 @@
             "default": false,
             "group": "Effigy Options"
         },
+        "Pal_Merchants": {
+            "description": [
+                "Enables all merchants who sell Pals as checks.",
+                "Wears a blue coat."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Item_Merchants": {
+            "description": [
+                "Enables all of the merchants who sells common items as checks.",
+                "Wears a red coat.",
+                "These checks will be pre-hinted."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Ammo_Merchants": {
+            "description": [
+                "Enables all of the merchants who sells ammo as checks.",
+                "Wears a green coat.",
+                "These checks will be pre-hinted."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Arena_Merchant": {
+            "description": [
+                "Enables the arena merchant who sells items for tickets as checks.",
+                "These checks will be pre-hinted.",
+                "You also require Lily to be at least accessible for these checks to appear."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Bounty_Merchants": {
+            "description": [
+                "Enables all of the bounty merchants who sells items for successful bounty tokens as checks.",
+                "These checks will be pre-hinted."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Medal_Merchant": {
+            "description": [
+                "Enables the Medal Merchant who sells items for Dog Coins as checks.",
+                "These checks will be pre-hinted."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
+        "Black_Marketeers": {
+            "description": [
+                "Enables all of the Black Marketeers scattered around the world as checks."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Shopsanity Options"
+        },
         "Include_AncientTechnology": {
             "description": [
                 "When enabled, will also randomize Ancient Technology unlocks."
@@ -437,140 +502,6 @@
             "default": false,
             "group": "Additional Items"
         },
-        "Tower_LevelCap": {
-            "description": [
-                "If enabled, will lock level progression behind defeating Tower Bosses instead of with Region Access.",
-                "The Level Cap for Progression goes from 10>20>30>40>50>55>60>70>80.",
-                "If disabled, will lock level progression behind regions instead of the access to Tower Bosses.",
-                "For reference it will require for you to have access to Crescent Moon Shore>Mount Obsidian>Desiccated Dunes>Astral Mountains>Sakurajima>Feybreak>Sunreach>The World Tree",
-                "Either level cap require you to be able to craft and wear appropriate Body Armor as explained in the 'Player_Access' option for level progression.",
-                "NOTE: If using the tower level cap I made it so each boss gives an extra location with a placed item which is required to progress the level ups.",
-                "I did it so you wouldn't get too overwhelmed by the next level up tier until you feel ready for it! They're all the 'obtained key spheres locations'."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
-        "Raid_Lock": {
-            "description": [
-                "If enabled, will require you to defeat a raid boss before you're able to defeat the tower boss around the same level.",
-                "As an Example, Bellanoir can be fought at level 35 and is then also required to be defeated before you can defeat Marcus.",
-                "'Enable_Raid_Battles' is required for this to function.",
-                "This option adds an extra location to each Raid boss that gives a progression item showing you've defeated that particular raid boss.",
-                "These items are hidden by default."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
-        "Disable_LevelCap": {
-            "description": [
-                "If enabled, will disable any logic requiring a specific level before it is in logic.",
-                "Essentially treating as you're able to reach level 80 from the beginning.",
-                "Could be fun to have a wildly randomized playthrough",
-                "Reccommended to not use the player progression locations unless you really want to level up to 80 immediately."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
-        "Disable_LevelCap_Technology": {
-            "description": [
-                "When this setting is enabled, the level requirement for unlocking technologies is ignored.",
-                "This will make the logic assume you can reach every tech in the tech tree at any level!",
-                "Could be a fun way to experience Palworld through the eyes of a max level character that already has access to everything or use mods that allow you to learn technologies at any level.",
-                "Technologies unlocked at a later 'player_access' tier will not be in the item pool even with this option enabled.",
-                "This option has no effect if 'Disable_LevelCap' is enabled, as that option already removes all level-based restrictions."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Logic Options"
-        },
-        "Start_With_Palbox": {
-            "description": [
-                "If Enabled, will add a location in the manual for you to click to receive your Palbox at start."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Extra Options"
-        },
-        "Random_Spawn": {
-            "description": [
-                "If Enabled, will give you a random 'Island Spawn' item which determines the island you start on.",
-                "If Disabled, it will always give you 'Windswept Pass' which will allow you to start on Windswept Island as usual.",
-                "To enable spawn locations within the game, make sure your world is set on Multiplayer, click Emergency Respawn and then you'll be able to pick where to spawn!",
-                "If doing Main Missions, make sure you've received the Survival Guide before you respawn.",
-                "If 'Player_Access' is capped at Zoe, then Isle of Murmurs and Isle of Silence will not be in the pool of possible starting locations."
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "Extra Options"
-        },
-        "Pal_Merchants": {
-            "description": [
-                "Enables all merchants who sell Pals as checks.",
-                "Wears a blue coat."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
-        "Item_Merchants": {
-            "description": [
-                "Enables all of the merchants who sells common items as checks.",
-                "Wears a red coat.",
-                "These checks will be pre-hinted."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
-        "Ammo_Merchants": {
-            "description": [
-                "Enables all of the merchants who sells ammo as checks.",
-                "Wears a green coat.",
-                "These checks will be pre-hinted."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
-        "Arena_Merchant": {
-            "description": [
-                "Enables the arena merchant who sells items for tickets as checks.",
-                "These checks will be pre-hinted.",
-                "You also require Lily to be at least accessible for these checks to appear."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
-        "Bounty_Merchants": {
-            "description": [
-                "Enables all of the bounty merchants who sells items for successful bounty tokens as checks.",
-                "These checks will be pre-hinted."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
-        "Medal_Merchant": {
-            "description": [
-                "Enables the Medal Merchant who sells items for Dog Coins as checks.",
-                "These checks will be pre-hinted."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
-        "Black_Marketeers": {
-            "description": [
-                "Enables all of the Black Marketeers scattered around the world as checks."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Shopsanity Options"
-        },
         "Limit_Black_Marketeer": {
             "description": [
                 "This will add a 'Secret Membership Card' item into the pool which will then be required to shop from the Black Marketeers."
@@ -640,6 +571,91 @@
             "type": "Toggle",
             "default": false,
             "group": "Limit Options"
+        },
+        "Tower_LevelCap": {
+            "description": [
+                "If enabled, will lock level progression behind defeating Tower Bosses instead of with Region Access.",
+                "The Level Cap for Progression goes from 10>20>30>40>50>55>60>70>80.",
+                "If disabled, will lock level progression behind regions instead of the access to Tower Bosses.",
+                "For reference it will require for you to have access to Crescent Moon Shore>Mount Obsidian>Desiccated Dunes>Astral Mountains>Sakurajima>Feybreak>Sunreach>The World Tree",
+                "Either level cap require you to be able to craft and wear appropriate Body Armor as explained in the 'Player_Access' option for level progression.",
+                "NOTE: If using the tower level cap I made it so each boss gives an extra location with a placed item which is required to progress the level ups.",
+                "I did it so you wouldn't get too overwhelmed by the next level up tier until you feel ready for it! They're all the 'obtained key spheres locations'."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Raid_Lock": {
+            "description": [
+                "If enabled, will require you to defeat a raid boss before you're able to defeat the tower boss around the same level.",
+                "As an Example, Bellanoir can be fought at level 35 and is then also required to be defeated before you can defeat Marcus.",
+                "'Enable_Raid_Battles' is required for this to function.",
+                "This option adds an extra location to each Raid boss that gives a progression item showing you've defeated that particular raid boss.",
+                "These items are hidden by default."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Disable_LevelCap": {
+            "description": [
+                "If enabled, will disable any logic requiring a specific level before it is in logic.",
+                "Essentially treating as you're able to reach level 80 from the beginning.",
+                "Could be fun to have a wildly randomized playthrough",
+                "Reccommended to not use the player progression locations unless you really want to level up to 80 immediately."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Disable_LevelCap_Technology": {
+            "description": [
+                "When this setting is enabled, the level requirement for unlocking technologies is ignored.",
+                "This will make the logic assume you can reach every tech in the tech tree at any level!",
+                "Could be a fun way to experience Palworld through the eyes of a max level character that already has access to everything or use mods that allow you to learn technologies at any level.",
+                "Technologies unlocked at a later 'player_access' tier will not be in the item pool even with this option enabled.",
+                "This option has no effect if 'Disable_LevelCap' is enabled, as that option already removes all level-based restrictions."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
+        },
+        "Start_With_Palbox": {
+            "description": [
+                "If Enabled, will add a location in the manual for you to click to receive your Palbox at start."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Misc Options"
+        },
+        "Start_With_WoodenChest": {
+            "description": [
+                "If Enabled, will add a location in the manual for you to click to receive your Wooden Chest at start."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Misc Options"
+        },
+        "Start_With_RepairBench": {
+            "description": [
+                "If Enabled, will add a location in the manual for you to click to receive your Repair Bench at start."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Misc Options"
+        },
+        "Random_Spawn": {
+            "description": [
+                "If Enabled, will give you a random 'Island Spawn' item which determines the island you start on.",
+                "If Disabled, it will always give you 'Windswept Pass' which will allow you to start on Windswept Island as usual.",
+                "To enable spawn locations within the game, make sure your world is set on Multiplayer, click Emergency Respawn and then you'll be able to pick where to spawn!",
+                "If doing Main Missions, make sure you've received the Survival Guide before you respawn.",
+                "If 'Player_Access' is capped at Zoe, then Isle of Murmurs and Isle of Silence will not be in the pool of possible starting locations."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Misc Options"
         },
         "Chefsanity": {
             "description": [
@@ -937,11 +953,20 @@
         },
         "Player_Enhancement_Levels": {
             "description": [
-                "When enabled, will add an item for each level of the stat you can enhance at the 'Statue of Power' which will also limit what kind of effigies you are allowed to pick up!",
-                "The first of each of these player enhancement items are considered progression as it'll be required for picking up the effigies themselves, but the rest are considered useful.",
+                "When enabled, will add an item for each level of the stat you can enhance at the 'Statue of Power'.",
+                "The first of each of these player enhancement items are considered progression as it is required by 'Restrict_Effigies', but the rest are considered useful.",
                 "Whenever you gain this item, treat it as the maximum level you can enhance your abilities ingame.",
-                "Only exception is the Movement Speed bonus! That item will be considered useful and only exist one of and will not limit someone from capturing more than one Pal.",
-                "BUT you shouldn't increase your movement speed until you receive it in the multiworld!"
+                "Only exception is the Movement Speed bonus as it is tied to the number of Pals available in the world.",
+                "That item only exist one of but you're free to level up as much as you can as soon as you get it."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Limit Options"
+        },
+        "Restrict_Effigies": {
+            "description": [
+                "When enabled, will restrict the pickup of effigies until you have at least one Player Enhancement Item of its required type.",
+                "Does nothing if 'Player_Enhancement_Levels' is disabled."
             ],
             "type": "Toggle",
             "default": false,

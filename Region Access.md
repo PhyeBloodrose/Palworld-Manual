@@ -9,12 +9,12 @@ The choice is progressive, if you pick a later Tower Boss, any and all lower tie
 - Eastern Wild Island
 - Sea Breeze Archipelago
 
-Technology up to Level 10 is accessible.
+Technology up to Level 10 is available.
 
 ## Lily & Lyleen
 - Isle of Silence
 - Isle of Murmurs
-- Bamboo Groves
+- Bamboo Groves (Not including Twilight Dunes)
 - Sunlit Isle
 - Isle of Decayed Treasures
 - Frostbitten Isle
@@ -22,15 +22,16 @@ Technology up to Level 10 is accessible.
 - Deserted Islet
 - Arena
 
-Technology up to Level 20 is accessible.
+Technology up to Level 20 is available.
 
 ## Axel & Orserk
 - Mount Obsidian
 - Phantom Isle
 - Verdant Brook
 - No.1 Wildlife Sanctuary
+- Twilight Dunes (now included with Bamboo Groves)
 
-Technology up to Level 30 is accessible.
+Technology up to Level 30 is available.
 
 ## Marcus & Faleris
 - Isle of Eternal Summer
@@ -40,7 +41,7 @@ Technology up to Level 30 is accessible.
 - Flamepulse Islet
 - Oasis Isle
 
-Technology up to Level 40 is accessible.
+Technology up to Level 40 is available.
 
 ## Victor & Shadowbeak
 - No.3 Wildlife Sanctuary
@@ -49,18 +50,18 @@ Technology up to Level 40 is accessible.
 - Astral Mountains
 - Foot of the World Tree
 
-Technology up to Level 50 is accessible.
+Technology up to Level 50 is available.
 
 ## Saya & Selyne
 - Sakurajima
 - Suncrest Islet
 
-Technology up to Level 55 is accessible.
+Technology up to Level 55 is available.
 
 ## Bjorn & Bastigor
 - Feybreak
 
-Technology up to Level 60 is accessible.
+Technology up to Level 60 is available.
 
 ## Auri & Shaolong
 - Sunreach
@@ -68,7 +69,7 @@ Technology up to Level 60 is accessible.
 - Bicornis Islet
 - Sandstone Gate Islet
 
-Technology up to Level 70 is accessible.
+Technology up to Level 70 is available.
 
 ## The World Tree
-Just makes The World Tree and all of its related pals available. All technology is also accessible.
+Just makes The World Tree and all of its related pals available. All technology is also available.

@@ -297,7 +297,8 @@
             "Windswept_AlphaPals",
             "Mission Zoe",
             "Mission Harold",
-            "Windswept_AncientRuins"
+            "Windswept_AncientRuins",
+            "Windswept_LifmunkEffigies"
         ],
         "requires": "|Windswept Pass| OR |Windswept Spawn|"
     },
@@ -443,6 +444,10 @@
     "Windswept_AncientRuins": {
         "connects_to": [],
         "requires": "{OptOne(|Ancient Cipher|)}"
+    },
+    "Windswept_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Mixed Region - Foxcicle": {
         "connects_to": [
@@ -1089,13 +1094,23 @@
             "Bamboo_WildPals",
             "Bamboo_AlphaPals",
             "Bamboo_AncientRuins",
-            "Mission Rookies"
+            "Mission Rookies",
+            "Bamboo_LifmunkEffigies",
+            "Bamboo_LamballEffigies"
         ],
         "requires": "|Bamboo Pass|"
     },
     "Bamboo_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 11|"
+    },
+    "Bamboo_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Bamboo_LamballEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Bamboo_WildPals": {
         "connects_to": [
@@ -1276,7 +1291,7 @@
             "Twilight_AncientRuins",
             "Alpha Anubis"
         ],
-        "requires": "|Bamboo Pass| AND (|Craft Cold Resistant Armor| OR |Craft Heat Resistant Armor|)"
+        "requires": "|Bamboo Pass| AND (|Craft Cold Resistant Armor| OR |Craft Heat Resistant Armor|) AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "Twilight_AncientRuins": {
         "connects_to": [],
@@ -1347,13 +1362,23 @@
             "Crescent_Fishing",
             "Crescent_AlphaPals",
             "Crescent_AncientRuins",
-            "Mission Lily"
+            "Crescent_LifmunkEffigies",
+            "Mission Lily",
+            "Crescent_LamballEffigies"
         ],
         "requires": "|Crescent Pass|"
     },
     "Crescent_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 11|"
+    },
+    "Crescent_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Crescent_LamballEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Crescent_WildPals": {
         "connects_to": [
@@ -1516,13 +1541,23 @@
             "Obsidian_Fishing",
             "Obsidian_AncientRuins",
             "Alpha Knocklem",
-            "Mission Axel"
+            "Mission Axel",
+            "Obsidian_LifmunkEffigies",
+            "Obsidian_PengulletEffigies"
         ],
         "requires": "|Obsidian Pass| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "Obsidian_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 21|"
+    },
+    "Obsidian_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Obsidian_PengulletEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Swimming Ability|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Obsidian_WildPals": {
         "connects_to": [
@@ -1602,13 +1637,23 @@
             "HotVolcano_AlphaPals",
             "HotVolcano_WildPals",
             "HotVolcano_AncientRuins",
-            "HotVolcano_Fishing"
+            "HotVolcano_Fishing",
+            "HotVolcano_LifmunkEffigies",
+            "HotVolcano_PengulletEffigies"
         ],
         "requires": "|Craft Heat Resistant Armor|"
     },
     "HotVolcano_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 21|"
+    },
+    "HotVolcano_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "HotVolcano_PengulletEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Swimming Ability|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "HotVolcano_WildPals": {
         "connects_to": [
@@ -1739,13 +1784,23 @@
             "Verdant_Fishing",
             "Verdant_AlphaPals",
             "Verdant_BlackMarketeer",
-            "Verdant_AncientRuins"
+            "Verdant_AncientRuins",
+            "Verdant_LifmunkEffigies",
+            "Verdant_LamballEffigies"
         ],
         "requires": "|Verdant Pass| AND (|Player Level 11| OR {YamlDisabled(Area_Lock)})"
     },
     "Verdant_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 21|"
+    },
+    "Verdant_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Verdant_LamballEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Satiety Duration|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Verdant_WildPals": {
         "connects_to": [
@@ -2138,13 +2193,23 @@
             "Desert_AlphaPals",
             "Desert_Fishing",
             "Desert_AncientRuins",
-            "Mission Marcus"
+            "Mission Marcus",
+            "Desert_LifmunkEffigies",
+            "Desert_MunchillEffigies"
         ],
         "requires": "|Desiccated Pass| AND (|Craft Cold Resistant Armor| OR |Craft Heat Resistant Armor|) AND (|Player Level 21| OR {YamlDisabled(Area_Lock)})"
     },
     "Desert_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 31|"
+    },
+    "Desert_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Desert_MunchillEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Food Preservation|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Desert_WildPals": {
         "connects_to": [
@@ -2505,13 +2570,23 @@
             "Astral_Fishing",
             "Astral_BlackMarketeer",
             "Astral_AncientRuins",
-            "Mission Victor"
+            "Mission Victor",
+            "Astral_LifmunkEffigies",
+            "Astral_RoobyEffigies"
         ],
         "requires": "|Astral Pass| AND |Craft Cold Resistant Armor| AND (|Player Level 31| OR {YamlDisabled(Area_Lock)})"
     },
     "Astral_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 41|"
+    },
+    "Astral_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Astral_RoobyEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Jump Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Astral_WildPals": {
         "connects_to": [
@@ -2783,13 +2858,23 @@
             "Sakurajima_AlphaPals",
             "Sakurajima_AncientRuins",
             "Mission Kitsun Noct",
-            "Mission Saya"
+            "Mission Saya",
+            "Sakurajima_LifmunkEffigies",
+            "Sakurajima_HerbilEffigies"
         ],
         "requires": "|Sakurajima Pass| AND (|Player Level 41| OR {YamlDisabled(Area_Lock)})"
     },
     "Sakurajima_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 51|"
+    },
+    "Sakurajima_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Sakurajima_HerbilEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Flight Capacity|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Sakurajima_WildPals": {
         "connects_to": [
@@ -2928,13 +3013,23 @@
             "Feybreak_AlphaPals",
             "Feybreak_Fishing",
             "Feybreak_AncientRuins",
-            "Mission Bjorn"
+            "Mission Bjorn",
+            "Feybreak_LifmunkEffigies",
+            "Feybreak_TanzeeEffigies"
         ],
         "requires": "|Feybreak Pass| AND |Mount| AND (|Player Level 51| OR {YamlDisabled(Area_Lock)})"
     },
     "Feybreak_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 56| AND {OptOne(|Ancient Cipher|)}"
+    },
+    "Feybreak_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Feybreak_TanzeeEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Climbing Proficiency|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Feybreak_WildPals": {
         "connects_to": [
@@ -3187,13 +3282,23 @@
             "FeybreakBlue_WildPals",
             "FeybreakBlue_AlphaPals",
             "FeybreakBlue_Fishing",
-            "Feybreak"
+            "Feybreak",
+            "FeybreakBlue_LifmunkEffigies",
+            "FeybreakBlue_TanzeeEffigies"
         ],
         "requires": "|Craft Cold Resistant Armor| AND |Feybreak Pass| AND (|Player Level 51| OR {YamlDisabled(Area_Lock)})"
     },
     "FeybreakBlue_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 56| AND {OptOne(|Ancient Cipher|)}"
+    },
+    "FeybreakBlue_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "FeybreakBlue_TanzeeEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Climbing Proficiency|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "FeybreakBlue_WildPals": {
         "connects_to": [
@@ -3338,13 +3443,23 @@
             "Sunreach_AncientRuins",
             "Sunreach Egg",
             "Sunreach Skies",
-            "Mission Auri"
+            "Mission Auri",
+            "Sunreach_LifmunkEffigies",
+            "Sunreach_DepressoEffigies"
         ],
         "requires": "|Sunreach Pass| AND (|Player Level 56| OR {YamlDisabled(Area_Lock)})"
     },
     "Sunreach_AncientRuins": {
         "connects_to": [],
         "requires": "|Pals| AND |Player Level 61| AND {OptOne(|Ancient Cipher|)}"
+    },
+    "Sunreach_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "Sunreach_DepressoEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Status Resistance|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "Sunreach_WildPals": {
         "connects_to": [
@@ -3661,9 +3776,19 @@
             "WorldTree_WildPals",
             "WorldTree_AlphaPals",
             "WorldTree_Fishing",
-            "Mission Zenara"
+            "Mission Zenara",
+            "WorldTree_LifmunkEffigies",
+            "WorldTree_CattivaEffigies"
         ],
         "requires": "|@Tower Boss:8| AND |Panthalus Beacon|"
+    },
+    "WorldTree_LifmunkEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Capture Power|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
+    },
+    "WorldTree_CattivaEffigies": {
+        "connects_to": [],
+        "requires": "({OptOne(|Progressive Endurance|)} AND {YamlEnabled(Restrict_Effigies)}) OR {YamlDisabled(Restrict_Effigies)}"
     },
     "WorldTree_WildPals": {
         "connects_to": [

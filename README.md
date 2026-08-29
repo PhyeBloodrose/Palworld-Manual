@@ -7,7 +7,7 @@ You are only allowed to unlock a technology if you find it as an item first in t
 
 If you wish to use the ingame randomizer for the pals, you should disabled the Palpedia as it will also disable any other logic requiring certain pals to be in certain locations.
 
-A reference picture of Palpagos Isles has been made by WeiLyra and have been added to this github named 'Palworld_Areas.png' where you can see all the areas that are locked behind an item of sorts.
+A reference picture of Palpagos Isles from before 1.0 has been made by WeiLyra and have been added to this github named 'Palworld_Areas.png' where you can see all the areas that are locked behind an item of sorts.
 
 ## Island Passes
 Each Island has an Island Pass which is required to have in your possession before you are allowed to go there. Each area can only be accessed adjacent to another accessible area. There are a few paths which allows someone with an eligble mount to reach certain areas at a further distance and allows them to take different paths throughout palpagos.
@@ -68,20 +68,22 @@ Each Wildlife Sanctuary requires a 'Tracker' for it to be in logic. Those are:
 - Wildlife Sanctuary 3 Tracker
 
 ## Level Cap
-There is a  level cap in place for the Manual, you can either choose it to be restricted by defeating Tower Bosses or by Regions in the yaml. You can also disable it completely.
+There is a  level cap in place for the Manual, you can either choose it to be restricted by defeating Tower Bosses or by Regions in the yaml.
 
-This level cap prevents certain bosses and wild pals from being in logic too early as well as determining when you can craft specific items.
+This level cap prevents certain bosses and wild pals from being in logic too early as well as checking when you can craft specific items.
+
+You can disable the level cap for Technology or completely.
 
 ### To increase the Region Level Cap you require:
 - **Level 1-10** - Requires Nothing.
-- **Level 11-20** - Requires you to be able to craft Cloth Armor and access to Windswept Island.
-- **Level 21-30** - Requires Access to Crescent Moon Shore and able to craft Pelt Armor.
-- **Level 31-40** - Requires Access to Mount Obsidian and able to craft Metal Armor and Heat Resistant Armor.
-- **Level 41-50** - Requires Access to Desiccated Dunes and able to craft Refined Metal Armor.
-- **Level 51-55** - Requires Access to Astral Mountain and able to craft Pal Metal Armor.
-- **Level 56-60** - Requires Access to Sakurajima and able to craft Plasteel Armor.
-- **Level 61-70** - Requires Access to Feybreak and able to craft Hexolite Armor.
-- **Level 71-80** - Requires Access to Sunreach and able to craft Ancient Armor.
+- **Level 11-20** - Requires Access to Crescent Moon Shore and be able to craft Cloth Armor.
+- **Level 21-30** - Requires Access to Mount Obsidian and be able to craft Pelt Armor.
+- **Level 31-40** - Requires Access to Desiccated Dunes and be able to craft Metal Armor and (Heat or Cold) Resistant Armor.
+- **Level 41-50** - Requires Access to Astral Mountains and be able to craft Refined Metal Armor.
+- **Level 51-55** - Requires Access to Sakurajima and be able to craft Pal Metal Armor.
+- **Level 56-60** - Requires Access to Feybreak and be able to craft Plasteel Armor.
+- **Level 61-70** - Requires Access to Sunreach and be able to craft Hexolite Armor.
+- **Level 71-80** - Requires Access to The World Tree and be able to craft Ancient Armor.
 
 ### To Increase the Tower Level Cap you require:
 - **Level 1-10** - Requires Nothing.

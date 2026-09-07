@@ -5042,12 +5042,20 @@
             ]
         },
         {
+            "name": "Terraria Cavern",
+            "region": "Terraria Cavern",
+            "category": [
+                "Dungeon Locations",
+                "ORB04"
+            ]
+        },
+        {
             "name": "Dungeoneer Goal",
             "category": [
                 "Dungeoneer Goal",
                 "ORB01"
             ],
-            "requires": "({YamlCompare(player_access = 1)} AND |@Dungeon Locations:3|) OR ({YamlCompare(player_access = 2)} AND |@Dungeon Locations:4|) OR ({YamlCompare(player_access = 3)} AND |@Dungeon Locations:6|) OR ({YamlCompare(player_access = 4)} AND |@Dungeon Locations:7|) OR ({YamlCompare(player_access = 5)} AND |@Dungeon Locations:8|) OR ({YamlCompare(player_access = 6)} AND |@Dungeon Locations:9|) OR ({YamlCompare(player_access >= 7)} AND |@Dungeon Locations:10|)"
+            "requires": "({YamlCompare(player_access = 1)} AND |@Dungeon Locations:3|) OR ({YamlCompare(player_access = 2)} AND |@Dungeon Locations:4|) OR ({YamlCompare(player_access = 3)} AND |@Dungeon Locations:6|) OR ({YamlCompare(player_access = 4)} AND |@Dungeon Locations:8|) OR ({YamlCompare(player_access = 5)} AND |@Dungeon Locations:9|) OR ({YamlCompare(player_access = 6)} AND |@Dungeon Locations:10|) OR ({YamlCompare(player_access >= 7)} AND |@Dungeon Locations:11|)"
         },
         {
             "name": "Alpha Chillet",
@@ -7998,11 +8006,27 @@
             ]
         },
         {
+            "name": "Sub Mission 132",
+            "copy_location": "Sub Mission - Beyond Dimensions",
+            "category": [
+                "Sub Missions",
+                "ORB04"
+            ]
+        },
+        {
+            "name": "Sub Mission 133",
+            "copy_location": "Sub Mission - From the Far Side of the Moon",
+            "category": [
+                "Sub Missions",
+                "ORB04"
+            ]
+        },
+        {
             "name": "Side Hustler Goal",
             "category": [
                 "Sub Missions Goal"
             ],
-            "requires": "({YamlCompare(player_access = 0)} AND |@Sub Missions:9|) OR ({YamlCompare(player_access = 1)} AND |@Sub Missions:22|) OR ({YamlCompare(player_access = 2)} AND |@Sub Missions:43|) OR ({YamlCompare(player_access = 3)} AND |@Sub Missions:68|) OR ({YamlCompare(player_access = 4)} AND |@Sub Missions:84|) OR ({YamlCompare(player_access = 5)} AND |@Sub Missions:92|) OR ({YamlCompare(player_access = 6)} AND |@Sub Missions:107|) OR ({YamlCompare(player_access = 7)} AND |@Sub Missions:116|) OR ({YamlCompare(player_access = 8)} AND |@Sub Missions:121|)"
+            "requires": "({YamlCompare(player_access = 0)} AND |@Sub Missions:9|) OR ({YamlCompare(player_access = 1)} AND |@Sub Missions:22|) OR ({YamlCompare(player_access = 2)} AND |@Sub Missions:43|) OR ({YamlCompare(player_access = 3)} AND |@Sub Missions:68|) OR ({YamlCompare(player_access = 4)} AND |@Sub Missions:86|) OR ({YamlCompare(player_access = 5)} AND |@Sub Missions:95|) OR ({YamlCompare(player_access = 6)} AND |@Sub Missions:110|) OR ({YamlCompare(player_access = 7)} AND |@Sub Missions:120|) OR ({YamlCompare(player_access = 8)} AND |@Sub Missions:123|)"
         },
         {
             "name": "Fishing",

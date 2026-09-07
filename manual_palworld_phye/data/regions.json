@@ -27,7 +27,7 @@
         "connects_to": [
             "Base Level 2"
         ],
-        "requires": "|Wooden Chest|"
+        "requires": "|Wooden Chest| AND |Pals|"
     },
     "Base Level 2": {
         "connects_to": [
@@ -1102,7 +1102,7 @@
     },
     "Bamboo_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 11|"
+        "requires": "|Pals| AND |Player Level 11| AND {OptOne(|Ancient Cipher|)}"
     },
     "Bamboo_LifmunkEffigies": {
         "connects_to": [],
@@ -1295,7 +1295,7 @@
     },
     "Twilight_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 11|"
+        "requires": "|Pals| AND |Player Level 11| AND {OptOne(|Ancient Cipher|)}"
     },
     "Twilight_WildPals": {
         "connects_to": [
@@ -1370,7 +1370,7 @@
     },
     "Crescent_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 11|"
+        "requires": "|Pals| AND |Player Level 11| AND {OptOne(|Ancient Cipher|)}"
     },
     "Crescent_LifmunkEffigies": {
         "connects_to": [],
@@ -1549,7 +1549,7 @@
     },
     "Obsidian_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 21|"
+        "requires": "|Pals| AND |Player Level 21| AND {OptOne(|Ancient Cipher|)}"
     },
     "Obsidian_LifmunkEffigies": {
         "connects_to": [],
@@ -1645,7 +1645,7 @@
     },
     "HotVolcano_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 21|"
+        "requires": "|Pals| AND |Player Level 21| AND {OptOne(|Ancient Cipher|)}"
     },
     "HotVolcano_LifmunkEffigies": {
         "connects_to": [],
@@ -1792,7 +1792,7 @@
     },
     "Verdant_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 21|"
+        "requires": "|Pals| AND |Player Level 21| AND {OptOne(|Ancient Cipher|)}"
     },
     "Verdant_LifmunkEffigies": {
         "connects_to": [],
@@ -1947,7 +1947,7 @@
     },
     "Frostbound_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 21|"
+        "requires": "|Pals| AND |Player Level 21| AND {OptOne(|Ancient Cipher|)}"
     },
     "Frostbound_WildPals": {
         "connects_to": [
@@ -1996,7 +1996,7 @@
     },
     "Scars_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 21|"
+        "requires": "|Pals| AND |Player Level 21| AND {OptOne(|Ancient Cipher|)}"
     },
     "Scars_WildPals": {
         "connects_to": [
@@ -2201,7 +2201,7 @@
     },
     "Desert_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 31|"
+        "requires": "|Pals| AND |Player Level 31| AND {OptOne(|Ancient Cipher|)}"
     },
     "Desert_LifmunkEffigies": {
         "connects_to": [],
@@ -2388,7 +2388,7 @@
     },
     "Scouring_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 31|"
+        "requires": "|Pals| AND |Player Level 31| AND {OptOne(|Ancient Cipher|)}"
     },
     "Scouring_WildPals": {
         "connects_to": [
@@ -2442,7 +2442,7 @@
     },
     "Flamepulse_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 31|"
+        "requires": "|Pals| AND |Player Level 31| AND {OptOne(|Ancient Cipher|)}"
     },
     "Flamepulse_WildPals": {
         "connects_to": [
@@ -2506,7 +2506,7 @@
     },
     "AstralFoot_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 41|"
+        "requires": "|Pals| AND |Player Level 41| AND {OptOne(|Ancient Cipher|)}"
     },
     "AstralFoot_WildPals": {
         "connects_to": [
@@ -2578,7 +2578,7 @@
     },
     "Astral_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 41|"
+        "requires": "|Pals| AND |Player Level 41| AND {OptOne(|Ancient Cipher|)}"
     },
     "Astral_LifmunkEffigies": {
         "connects_to": [],
@@ -2800,7 +2800,7 @@
     },
     "Circular_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 41|"
+        "requires": "|Pals| AND |Player Level 41| AND {OptOne(|Ancient Cipher|)}"
     },
     "Circular_WildPals": {
         "connects_to": [
@@ -2866,7 +2866,7 @@
     },
     "Sakurajima_AncientRuins": {
         "connects_to": [],
-        "requires": "|Pals| AND |Player Level 51|"
+        "requires": "|Pals| AND |Player Level 51| AND {OptOne(|Ancient Cipher|)}"
     },
     "Sakurajima_LifmunkEffigies": {
         "connects_to": [],
@@ -9003,7 +9003,7 @@
         "connects_to": [
             "Pal_Critic_MushroomWetlands6"
         ],
-        "requires": "|Selyne Beacon| OR {YamlDisabled(Enable_Palpedia)}"
+        "requires": "|Dogen Beacon| OR {YamlDisabled(Enable_Palpedia)}"
     },
     "Pal_Critic_MushroomWetlands6": {
         "connects_to": [
@@ -9059,7 +9059,7 @@
     },
     "Pal_Critic_StonePillarCaveEntrance8": {
         "connects_to": [],
-        "requires": "|Bastigor Beacon| OR {YamlDisabled(Enable_Palpedia)}"
+        "requires": "|Faleris Aqua Beacon| OR {YamlDisabled(Enable_Palpedia)}"
     },
     "Arrogant_Foodie": {
         "connects_to": [

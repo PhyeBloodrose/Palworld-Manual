@@ -9445,7 +9445,7 @@
             "Schematics - Raid Slabs",
             "ORB04"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -17354,7 +17354,7 @@
         "name": "Blazamut Ryu's Bond",
         "category": [
             "Pal Bonds",
-            "Raid Boss",
+            "RaidBossBond",
             "ORB05"
         ],
         "progression": true

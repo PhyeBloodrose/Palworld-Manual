@@ -10035,12 +10035,12 @@
         "requires": []
     },
     {
-        "name": "Sub Mission - Request from Pal Critic (Sakurajima) - Show Selyne",
+        "name": "Sub Mission - Request from Pal Critic (Sakurajima) - Show Dogen",
         "region": "Pal_Critic_MushroomWetlands5",
         "category": [
             "Sub Missions",
             "Sakurajima",
-            "ORB08"
+            "ORB05"
         ],
         "requires": []
     },
@@ -10135,12 +10135,12 @@
         "requires": []
     },
     {
-        "name": "Sub Mission - Request from Pal Critic (Stone Pillar Cave Entrance) - Show Bastigor",
+        "name": "Sub Mission - Request from Pal Critic (Stone Pillar Cave Entrance) - Show Faleris Aqua",
         "region": "Pal_Critic_StonePillarCaveEntrance8",
         "category": [
             "Sub Missions",
             "Feybreak",
-            "ORB08"
+            "ORB07"
         ],
         "requires": []
     },
@@ -10662,6 +10662,26 @@
             "ORB08"
         ],
         "requires": ""
+    },
+    {
+        "name": "Sub Mission - Beyond Dimensions",
+        "region": "Mount Obsidian",
+        "category": [
+            "Sub Missions",
+            "Mount Obsidian",
+            "ORB04"
+        ],
+        "requires": "|Terraria Cavern|"
+    },
+    {
+        "name": "Sub Mission - From the Far Side of the Moon",
+        "region": "Mount Obsidian",
+        "category": [
+            "Sub Missions",
+            "Mount Obsidian",
+            "ORB04"
+        ],
+        "requires": "|Terraria Cavern| AND {OptOne(|Celestial Sigil|)} AND |Summoning Altar| AND |Base Level 14|"
     },
     {
         "name": "HW Research Task - Handiwork Speed Lv1",
@@ -17199,7 +17219,7 @@
         "prehint": true
     },
     {
-        "name": "Medal Merchant - Lambal Helm",
+        "name": "Medal Merchant - Lamball Helm",
         "region": "Medal_Merchant",
         "category": [
             "Shopping",
@@ -18516,6 +18536,15 @@
         "category": [
             "Dungeons",
             "ORB07"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Finished the Terraria Dungeon",
+        "region": "Terraria Cavern",
+        "category": [
+            "Dungeons",
+            "ORB04"
         ],
         "requires": []
     },
@@ -23045,7 +23074,7 @@
         "requires": ""
     },
     {
-        "name": "Crescent Moon Lamball Effigy (63,300)",
+        "name": "Crescent Moon Lamball Effigy (63,-300)",
         "region": "Crescent_LamballEffigies",
         "category": [
             "Collecting - Lamball Effigies",

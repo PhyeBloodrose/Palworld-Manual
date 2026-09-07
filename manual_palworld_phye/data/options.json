@@ -394,7 +394,7 @@
                 "Adds 4 of each Raid Slab Fragment into the item pool.",
                 "The Slabs themselves will appear in your inventory upon receiveing four of each fragment.",
                 "These are considered progression items and will be required before Raid Bosses are in logic if you have them enabled.",
-                "This also adds the Celestial Sigil, the raid summoning item for the Moon Lord, but it is treated as a useful item.",
+                "This also adds the Celestial Sigil, but as it only has one piece the sigil itself it's just going be its item.",
                 "NOTE: Only Raid Slab Fragments available up to your chosen 'player_access' will be added to the item pool."
             ],
             "type": "Toggle",
